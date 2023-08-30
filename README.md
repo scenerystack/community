@@ -1,5 +1,6 @@
-# Welcome to the SceneryStack Developer Community! ![teal paper airplane icon](scenery-stack-icon.png)
- <!-- Any good ideas for images we can drop throughout this document? -->
+# Welcome to the SceneryStack Developer Community! 
+
+![scenery stack icon, rocketship against mountain sunset](scenery-stack-icon.png)
 
  This repository houses discussions and resources for the developer community using the libraries within SceneryStack to create interactive simulations and other web interactives in HTML5.
 
