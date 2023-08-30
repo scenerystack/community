@@ -101,7 +101,7 @@ Below you will find a list of the libraries that make up SceneryStack. Each libr
 
 | Repository  | LOC | Description |
 | ------------- | ------------- | ---------- |
-| [community](https://github.com/phetsims/community) | - | This repository! Discussion forum and resources for the developer community using SceneryStack to create interactive simulations and other web interactives in HTML5.
+| [community](https://github.com/scenerystack/community) | - | This repository! Discussion forum and resources for the developer community using SceneryStack to create interactive simulations and other web interactives in HTML5.
 | [a11y-research](https://github.com/phetsims/a11y-research) | - | Research and development of accessibility features and Inclusive Design for multimodal web interactives.
 | [phet-info](https://github.com/phetsims/phet-info) | - | Documentation for the development of PhET Interactive Simulations, including helpful tips for using SceneryStack to create interactive simulations and web interactives in HTML5.
 
@@ -153,7 +153,7 @@ Creating something? Let us know, and let's get your example added here!
 
 ## Joining the Community and Contributing 🤝
 
- Join the SceneryStack community by participating in the [community discussion forum](https://github.com/orgs/phetsims/discussions). Share the progress of what you're working on, your ideas, and ask questions!
+ Join the SceneryStack community by participating in the [community discussion forum](https://github.com/orgs/scenerystack/discussions). Share the progress of what you're working on, your ideas, and ask questions!
 
  We welcome many kinds of contributions to SceneryStack, from common code features/bug fixes to documentation updates.
 
@@ -183,10 +183,10 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 
 ### What should I do to participate in the PhET Developer Community?
 
-- Read our [CODE\_OF\_CONDUCT.md](https://github.com/phetsims/community/blob/master/CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](https://github.com/phetsims/community/blob/master/CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
+- Read our [CODE\_OF\_CONDUCT.md](https://github.com/scenerystack/community/blob/master/CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](https://github.com/scenerystack/community/blob/master/CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
 - When posting a question or problem, provide context. What problem are you trying to solve? What are the exact steps to recreate the problem for others to reproduce?
-- Help and respond to others that post to the [Discussions forum](https://github.com/orgs/phetsims/discussions/). Have you encountered a similar problem or tried to implement a similar feature? Share your experiences!
-- Share with us what you are using PhET code for! Share in the [Show and Tell category](https://github.com/orgs/phetsims/discussions/categories/show-and-tell) of the Discussion forum.
+- Help and respond to others that post to the [Discussions forum](https://github.com/orgs/scenerystack/discussions/). Have you encountered a similar problem or tried to implement a similar feature? Share your experiences!
+- Share with us what you are using PhET code for! Share in the [Show and Tell category](https://github.com/orgs/scenerystack/discussions/categories/show-and-tell) of the Discussion forum.
 - Join our chat! We have a synchronized Slack, Discord, and Matrix channel for the community to discuss and collaborate. Choose whichever platform you prefer. 
   - [Join our Slack](PLACEHOLDER)
   - [Join our Discord](PLACEHOLDER)
@@ -196,7 +196,7 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 
 #### If you are an individual or small group interested in or have made progress in making a new simulation
 
-The best resources available to you can be found in the [PhET Development Overview](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md) and [other documentation](https://github.com/phetsims/phet-info/tree/master/doc) found in the `phet-info` repository. We have seen small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects successfully develop custom simulations, leveraging our code base (See [Examples](#examples-using-scenerystack) above). It requires expertise in design and in JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/phetsims/discussions) to discuss any support we may be able to provide.
+The best resources available to you can be found in the [PhET Development Overview](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md) and [other documentation](https://github.com/phetsims/phet-info/tree/master/doc) found in the `phet-info` repository. We have seen small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects successfully develop custom simulations, leveraging our code base (See [Examples](#examples-using-scenerystack) above). It requires expertise in design and in JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
 #### If you are a commercial organization interested in making new simulations 
 
