@@ -189,9 +189,9 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 - Help and respond to others that post to the [Discussions forum](https://github.com/orgs/scenerystack/discussions/). Have you encountered a similar problem or tried to implement a similar feature? Share your experiences!
 - Share with us what you are using PhET code for! Share in the [Show and Tell category](https://github.com/orgs/scenerystack/discussions/categories/show-and-tell) of the Discussion forum.
 - Join our chat! We have a synchronized Slack, Discord, and Matrix channel for the community to discuss and collaborate. Choose whichever platform you prefer. 
-  - [Join our Slack](PLACEHOLDER)
-  - [Join our Discord](PLACEHOLDER)
-  - [Join our Matrix server](PLACEHOLDER) (Element client recommended)
+  - [Join our Slack](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
+  - [Join our Discord](https://discord.gg/xRHERtXFjk)
+  - [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org) (Element client recommended)
 
 ### I want to make an entirely new simulation using SceneryStack! What should I do?
 
