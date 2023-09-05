@@ -1,5 +1,7 @@
 # Welcome to the SceneryStack Developer Community! 
 
+![GitHub](https://img.shields.io/github/license/scenerystack/community) ![GitHub Discussions](https://img.shields.io/github/discussions/scenerystack/community)
+
 ![scenery stack icon, rocketship against mountain sunset](scenery-stack-icon.png)
 
  This repository houses discussions and resources for the developer community using the libraries within SceneryStack to create interactive simulations and other web interactives in HTML5.
