@@ -160,6 +160,7 @@ Feel free to explore these documents and the code itself to get a deeper underst
 - [Rubik's Cube searchable algorithms page, by @jonathanolson](https://jonathanolson.net/miscworks/build/rubik_algorithms.html)
 - [Simplified manual for "Keep Talking and Nobody Explodes" game, by @jonathanolson](https://jonathanolson.net/miscworks/build/ktane.html)
 - [Letterboxing Tool by @jonathanolson](https://jonathanolson.net/miscworks/build/boxing.html)
+- [Instructional Interface for PhET Simulations](https://github.com/COMP-523-Team-D/PhysicsSimulation)
 - For a simple demonstration using phet-lib, see [Scenery Lab Demo](https://github.com/phetsims/scenery-lab-demo)
 - and of course, [all PhET Interactive Simulations](https://github.com/phetsims)
 
