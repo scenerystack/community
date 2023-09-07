@@ -1,6 +1,17 @@
 # Welcome to the SceneryStack Developer Community! 
+<p>
+    <a href="https://github.com/orgs/scenerystack/discussions">
+        <img src="https://img.shields.io/github/discussions/scenerystack/community" alt="SceneryStack GitHub Discussions">
+    </a>
+    <a href="https://matrix.to/#/##scenerystack:matrix.org">
+        <img src="https://img.shields.io/badge/chat-matrix-green" alt="invite link to Matrix chat">
+    </a>
+    <a href="https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA">
+        <img src="https://img.shields.io/badge/chat-slack-purple" alt="invite link to Slack chat">
+    </a>
+</p>
 
-![GitHub](https://img.shields.io/github/license/scenerystack/community) ![GitHub Discussions](https://img.shields.io/github/discussions/scenerystack/community)
+![GitHub](https://img.shields.io/github/license/scenerystack/community)
 
 ![scenery stack icon, rocketship against mountain sunset](scenery-stack-icon.png)
 
