@@ -1,4 +1,5 @@
 # Welcome to the SceneryStack Developer Community! 
+<img src="scenery-stack-icon.png" width="200">
 <p>
     <a href="https://github.com/orgs/scenerystack/discussions">
         <img src="https://img.shields.io/github/discussions/scenerystack/community" alt="SceneryStack GitHub Discussions">
@@ -13,13 +14,11 @@
 
 ![GitHub](https://img.shields.io/github/license/scenerystack/community)
 
-![scenery stack icon, rocketship against mountain sunset](scenery-stack-icon.png)
-
  This repository houses discussions and resources for the developer community using the libraries within SceneryStack to create interactive simulations and other web interactives in HTML5.
 
 ## What is SceneryStack?
 
- They are a collection of libraries built around an MVC framework that can be used **together or separately** to support an interactive web project. PhET uses many or all of these libraries when creating an educational interactive simulation. Some libraries are more specific to our usage, including assets and branding, but most offer more generalizable use cases.
+ SceneryStack is a collection of libraries built around a Model-View-Controller framework that can be used **together or separately** to support an interactive web project. PhET uses many or all of these libraries when creating an educational interactive simulation. Some libraries are more specific to our usage, including assets and branding, but most offer more generalizable use cases.
 
 ### Why use SceneryStack? 
 
@@ -29,19 +28,19 @@
 - :star:  Pixel Perfect Design
 - :star:  Swipe to snag
 - :star:  Enhance touch areas/mouse areas
-- :star:  Ready for internationalization
-- :star:  Component Library, including building your own
+- :star:  Ready for internationalization and examples of implementation
+- :star:  Component Library, including support for building your own
 - :star:  High pixel density devices
 - :star:  TypeScript = type safety + autocomplete
 - :star:  Parallel Document Object Model (PDOM) and screen reader accessibility
 - :star:  Support for customizable, dynamic spoken content using Web Speech ([coined "Voicing"](https://youtu.be/mwCc_NDmqx4))
 - :star:  In-app pinch to zoom and zoomed-in panning.
 - :star:  Downloadable / fully offline / Single-File artifacts
-- :star:  Render to SVG, canvas, or WebGL (partial)
+- :star:  Render to SVG, canvas, or WebGL
 - :star:  API for specifying keyboard traversal order
 - :star:  Layout engine
 - :star:  Abstraction over CSS
-- :star:  Axon Property.link
+- :star:  Triggering updates using Axon Property.link
 
 - Abstract declarative APIs allow scenery to adjust performance/quality on demand, using whatever technology is best on the given browser (and to work around browser bugs)
 - Clipping/filtering/positioning/layering works seamlessly across technologies used (SVG/Canvas/WebGL)
@@ -50,34 +49,11 @@
 - Input system that supports extended/customizable touch handling and accessibility from the base up
 - Advanced layout (based on customizable bounds) and accurate shape computations and CAG for interfaces and components
 - Garbage collector friendly - pooling is used
-- Library of UI components that are battle tested and flexible
+- Library of UI components that are battle-tested and flexible
 
 ## Common Code Libraries
 
-<!-- a11y-research
-axon
-bamboo
-community
-dot
-griddle
-joist
-kite
-mobius
-nitroglycerin
-phet-core
-phet-info
-phetcommon
-scenery-phet
-scenery
-sun
-tambo
-tandem
-tangible
-tappi
-twixt
-utterance-queue
-vegas -->
-Below you will find a list of the libraries that make up SceneryStack. Each library has a link to its repository, a brief description, and a link to its documentation. The libraries are organized into four categories: **View Libraries**, **Model Libraries**, **Tooling for Simulation Development**, and **Other**. Additional libraries that have been situationally used for development that are not mentioned here are also available and open for contribution and use in the [phetsims GitHub page](https://github.com/phetsims/).
+Below, you will find a list of the libraries that make up SceneryStack. Each library has a link to its repository, a brief description, and a link to its documentation. The libraries are organized into four categories: **View Libraries**, **Model Libraries**, **Tooling for Simulation Development**, and **Other**. Additional libraries that have been situationally used for development that are not mentioned here are also available and open for contribution and use in the [phetsims GitHub page](https://github.com/phetsims/).
 
 ### View Libraries
 
