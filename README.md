@@ -182,17 +182,17 @@ Join our chat! We have synchronized Slack and Matrix channels for the community 
 
 ### What is this repository for?
 
-  Discussions, resources, and collaboration around the use and improvement of [SceneryStack](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md#source-code-and-dependencies) created and maintained by the developers at the PhET Interactive Simulations project.
+  Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md#source-code-and-dependencies), originally created and maintained by the software developers at the PhET Interactive Simulations project.
 
   This repository is not for discussions and help regarding PhET's educational, interactive simulations. For questions and comments regarding PhET's simulations, please keep reading or see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 
 ### What is the difference between SceneryStack and PhET Interactive Simulations?
 
- SceneryStack is the HTML5/JavaScript/TypeScript APIs (detailed above) that PhET Interactive Simulations are built on. The use of SceneryStack **is not limited to creating interactive science and math simulations!** It can be used to support the creation of all web interactives. PhET Common Code supports rich and inclusive multimodal interaction, including the architecture to build robust alternative input and screen reader access when used in conjunction with our [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources). 
+ SceneryStack is the HTML5/JavaScript/TypeScript APIs (detailed above) that PhET Interactive Simulations are built on. The use of SceneryStack **is not limited to creating interactive science and math simulations!** It can be used to support the creation of all web interactives. SceneryStack supports rich and inclusive multimodal interaction, including the architecture to build robust alternative input and screen reader access when used in conjunction with our [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources). 
 
- PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers at the PhET Interactive Simulations Project. They are developed using [research-based, pedagogically-minded design methods](https://phet.colorado.edu/).
+ PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers at the PhET Interactive Simulations Project. They are developed using [research-based, pedagogically-minded, and inclusive design methods](https://phet.colorado.edu/).
 
-### Where can I get help or provide feedback for specific PhET Simulations?
+#### Where can I get help or provide feedback for using a PhET Interactive Simulation?
 
 For anything involving PhET-created simulations, see the [PhET website](https://phet.colorado.edu).
 
