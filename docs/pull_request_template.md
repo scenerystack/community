@@ -21,6 +21,6 @@ Code of Conduct:
 - [ ] Tests passed (`npm run test`)
 
 
-- [ ] By submitting this PR, I am indicating to the PhET maintainers that I have read and understood the [contributing guidelines](../CONTRIBUTING.md) and that this PR follows those guidelines to the best of my knowledge. I also understand that my PR cannot be merged until I have signed the [contributor license agreement](../CLA.md).
+- [ ] By submitting this PR, I am indicating to the PhET maintainers that I have read and understood the [contributing guidelines](CONTRIBUTING.md) and that this PR follows those guidelines to the best of my knowledge. I also understand that my PR cannot be merged until I have signed the [contributor license agreement](CLA.md).
 
 Please comment in your PR thread with notice that you signed the CLA.
