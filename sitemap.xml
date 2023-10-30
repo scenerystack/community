@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://scenerystack.github.io/community/COMMON_CODE_REPOS/</loc>
-         <lastmod>2023-10-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://scenerystack.github.io/community/CONTRIBUTING/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
@@ -56,12 +51,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://scenerystack.github.io/community/phet_a11y_guides/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://scenerystack.github.io/community/pull_request_template/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://scenerystack.github.io/community/roadmap/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://scenerystack.github.io/community/scenery_a11y/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -122,6 +127,16 @@
     </url>
     <url>
          <loc>https://scenerystack.github.io/community/info-sync/typescript-quick-start/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://scenerystack.github.io/community/libraries/scenery/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://scenerystack.github.io/community/libraries/scenerystack_list/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
