@@ -24,14 +24,14 @@ theme:
     # - content.tabs.link
     - content.tooltips
     - header.autohide
-    - navigation.expand
-    - navigation.footer
+    # - navigation.expand
+    # - navigation.footer
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
     - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -121,23 +121,29 @@ markdown_extensions:
 nav:
     - Overview: index.md
     - Getting Started:
-      - Simulation Development: info-sync/phet-development-overview.md
-      - TypeScript Quickstart: info-sync/typescript-quickstart.md
-      - TypeScript Conventions: info-sync/typescript-conventions.md
+      - Simulation Development: info-sync/simulation-development-overview.md
       - SceneryStack Exercises: info-sync/scenerystack-exercises.md
+      - TypeScript Quickstart: info-sync/typescript-quick-start.md
+      - TypeScript Conventions: info-sync/typescript-conventions.md
+    - Libraries: 
+      - Stack List: libraries/scenerystack_list.md
+      - Scenery: libraries/scenery.md
+    - Community:
+      - Join Us: community.md 
+      # - Ethics: community_ethics.md
+      - Community Guidelines: CODE_OF_CONDUCT.md
+      - Sustainability Plan: sustainability_plan.md
+    - Accessibility Resources:
+      - Accessibility in Scenery: libraries/scenery.md
+      - PhET Accessibility Guides: phet_a11y_guides.md
     - Contribute:
       - Contribute: CONTRIBUTING.md
       - Contributor License Agreement: CLA.md
-      - PhET Software Design Patterns: info-sync/phet-software-design-patterns.md
+      - Software Design Patterns: info-sync/phet-software-design-patterns.md
       - Roadmap: roadmap.md
-    - Community:
-      - Join Us: community.md 
-      - Ethics: community_ethics.md
-      - Community Guidelines: CODE_OF_CONDUCT.md
-      - Sustainability Plan: sustainability_plan.md
     - More Resources:
-      - PhET Tooling: info-sync/chipper-deploy.md
+      - PhET Sim Tooling: info-sync/chipper-deploy.md
       - Coding Conventions: info-sync/coding-conventions.md
-    # - Libraries: 
-    #   - Scenery: scenery.md
+
+
 

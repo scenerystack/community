@@ -44,7 +44,7 @@ Contributing is streamlined with the following steps:
 5. Maintain the integrity of the `dist/` in applicable common code — refrain from changing or committing to it.
 6. Configure npm to prevent `package-log.json` commits: `npm config set save false`.
 7. Run tests to ensure your contributions are regression-free.
-8. Ready? Submit your pull request with the [PULL_REQUEST_TEMPLATE](PULL_REQUEST_TEMPLATE.md).
+8. Ready? Submit your pull request with the [PULL_REQUEST_TEMPLATE](pull_request_template.md).
 
 ### Review Process
 

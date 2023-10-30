@@ -15,6 +15,6 @@ jobs:
         with:
           GH_PAT: ${{ secrets.BF_GH_PAT }}
           PR_LABELS: false
-          REVIEWERS: brettfiedler
+          # REVIEWERS: brettfiedler
           COMMIT_BODY: 'Repo File Sync automated update'
-          DRY_RUN: true
+          # DRY_RUN: true
