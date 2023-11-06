@@ -1,4 +1,4 @@
-# <img src="assets/scenerystack-square.png" width="50"> Welcome to the SceneryStack Developer Community
+# <img src="/docs/assets/scenerystack-square.png" width="50"> Welcome to the SceneryStack Developer Community
 
 <p>
     <a href="https://github.com/orgs/scenerystack/discussions">

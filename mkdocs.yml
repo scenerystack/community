@@ -121,20 +121,20 @@ markdown_extensions:
 nav:
     - Overview: index.md
     - Getting Started:
-      - Simulation Development: info-sync/simulation-development-overview.md
-      - SceneryStack Exercises: info-sync/scenerystack-exercises.md
+      - Scenery and phet-lib: libraries/scenery.md
+      - Stack List: libraries/scenerystack_list.md
       - TypeScript Quickstart: info-sync/typescript-quick-start.md
       - TypeScript Conventions: info-sync/typescript-conventions.md
-    - Libraries: 
-      - Stack List: libraries/scenerystack_list.md
-      - Scenery: libraries/scenery.md
+    - SceneryStack for Simulations:
+      - Simulation Development: info-sync/simulation-development-overview.md
+      - SceneryStack Exercises: info-sync/scenerystack-exercises.md
     - Community:
       - Join Us: community.md 
       # - Ethics: community_ethics.md
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
     - Accessibility Resources:
-      - Accessibility in Scenery: libraries/scenery.md
+      - Accessibility in Scenery: libraries/scenery_a11y.md
       - PhET Accessibility Guides: phet_a11y_guides.md
     - Contribute:
       - Contribute: CONTRIBUTING.md
@@ -142,8 +142,9 @@ nav:
       - Software Design Patterns: info-sync/phet-software-design-patterns.md
       - Roadmap: roadmap.md
     - More Resources:
-      - PhET Sim Tooling: info-sync/chipper-deploy.md
       - Coding Conventions: info-sync/coding-conventions.md
+      - PhET Sim Tooling: info-sync/chipper-deploy.md
+
 
 
 

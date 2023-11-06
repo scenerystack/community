@@ -42,7 +42,7 @@ Wondering why SceneryStack might be your go-to choice for creating and rendering
 
 #### ♿ **Accessibility Features**
 
-- 📖 **Parallel Document Object Model (PDOM)** ensuring screen reader accessibility
+- 📖 **Parallel Document Object Model (PDOM)** ensuring screen reader accessibility ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8))
 - 🗣️ **Customizable, Dynamic Spoken Content** through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4))
 - ⌨️ **API to Determine Keyboard Traversal Order**
 - 🔍 **In-App Zooming Features**: Pinch-to-zoom and panning
@@ -75,19 +75,15 @@ See the [Stack List](./libraries/scenerystack_list.md) for all of the libraries 
 
 ### Development Overview
 
-For anyone interested in setting up a development environment, the [Development Overview](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md) is the best place to start. It provides a comprehensive introduction to the processes, tools, and best practices for developing with the libraries contained in SceneryStack. It also serves as the best starting point for creating interactive simulations, specifically.
+For anyone interested in setting up a development environment, the [Development Overview](info-sync/simulation-development-overview.md) is the best place to start. It provides a comprehensive introduction to the processes, tools, and best practices for developing with the libraries contained in SceneryStack. It also serves as the best starting point for creating interactive simulations, specifically.
+
+If you're using SceneryStack, you'll likely be using Scenery, the primary view library that many other libraries rely on. [See Scenery's documentation here](https://phetsims.github.io/scenery/doc/)!
+
+A [community-created guide from HNM Simulations](https://nm.mathforcollege.com/nmsims/HNM%20Simulations%20Documentation/_book/) provides a lot of helpful tips, though some information may be out of date.
 
 ### Additional Resources
 
-In the [PhET documentation directory](https://github.com/phetsims/phet-info/tree/main/doc), you'll find a range of helpful resources for different aspects of development, including:
-
-- **Dev Exercises**: Enhance your SceneryStack development skills with these hands-on exercises. Check out the [PhET dev exercises document](https://github.com/phetsims/phet-info/blob/main/doc/phet-dev-exercises.md)
-- **TypeScript Quickstart**: If you're new to TypeScript or need a refresher, you can follow our [TypeScript Quickstart guide](https://github.com/phetsims/phet-info/blob/main/doc/typescript-quick-start.md)
-- **Coding Conventions**: Ensure your code is consistent and readable with our [coding conventions](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md)
-- **Software Design Patterns**: Familiarize yourself with the [software design patterns](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md) used within PhET projects.
-- **Accessibility Documentation**: Learn about designing accessibility features such as alternative input, screen-reader-friendly interactive description, and more through our development guidelines:
-  - [Alternative Input Guide](https://github.com/phetsims/phet-info/blob/main/doc/alternative-input-quickstart-guide.md)
-  - [Interactive Description Guide](https://github.com/phetsims/phet-info/blob/main/doc/interactive-description-technical-guide.md)
+You'll find a range of helpful resources for different aspects of development here. Just check out the navigation bar!
 
 ### In-Code Documentation
 
@@ -110,7 +106,7 @@ Feel free to explore these documents and the code itself to get a deeper underst
 - [Letterboxing Tool by @jonathanolson](https://jonathanolson.net/miscworks/build/boxing.html)
 - [Instructional Interface for PhET Simulations](https://github.com/COMP-523-Team-D/PhysicsSimulation)
 - For a simple demonstration using phet-lib, see [Scenery Lab Demo](https://github.com/phetsims/scenery-lab-demo)
-- [Sound Waves simulation](https://github.com/phetsims/sound-waves) (created by )
+- [Sound Waves simulation](https://github.com/phetsims/sound-waves) (ported by Piet Goris, published by PhET)
 - and of course, [all PhET Interactive Simulations](https://github.com/phetsims)
 
 Creating something? Let us know, and let's get your example added here!
@@ -130,9 +126,9 @@ Join our chat! We have synchronized Slack and Matrix channels for the community 
 
 ## FAQ
 
-### What is this repository for?
+### What is this community for?
 
-  Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md#source-code-and-dependencies), originally created and maintained by the software developers at the PhET Interactive Simulations project.
+  Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](libraries/scenerystack_list.md), maintained by the software developers at the PhET Interactive Simulations project.
 
   This repository is not for discussions and help regarding PhET's educational, interactive simulations. For questions and comments regarding PhET's simulations, please keep reading or see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 
@@ -164,7 +160,7 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 
 #### If you are an individual or small group interested in or have made progress in making a new simulation
 
-The best resources available to you can be found in the [PhET Development Overview](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md) and [other documentation](https://github.com/phetsims/phet-info/tree/main/doc) found in the `phet-info` repository. We have seen small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects successfully develop custom simulations, leveraging our code base (See [Examples](#examples-using-scenerystack) above). It requires expertise in design and in JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+The best resources available to you can be found in the [Development Overview](info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Examples](#examples-using-scenerystack) above). It requires expertise in design and in JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
 #### If you are a commercial organization interested in making new simulations
 
@@ -173,6 +169,12 @@ See the [Source Code page of our website](https://phet.colorado.edu/en/about/sou
 ### What happens to my projects if these libraries stop being supported?
 
 SceneryStack is the foundation of the PhET Interactive Simulations project. It is used in all of PhET's simulations and is actively maintained by the PhET team. PhET has no plans to stop supporting SceneryStack, so long as PhET Interactive Simulations continue to exist.
+
+### Do I have to brand my projects with PhET?
+
+No! If you are creating a simulation, you can brand it however you like, but please contact us before using any PhET branding. See [Licensing](#licensing) below for more information.
+
+See the [brand](https://github.com/phetsims/brand) library for help creating you own brand, as well as looking for the [Development Overview](info-sync/simulation-development-overview.md).
 
 ## Licensing
 
