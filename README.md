@@ -1,16 +1,11 @@
 # <img src="/docs/assets/scenerystack-square.png" width="50"> Welcome to the SceneryStack Developer Community
 
-<p>
-    <a href="https://github.com/orgs/scenerystack/discussions">
-        <img src="https://img.shields.io/github/discussions/scenerystack/community" alt="SceneryStack GitHub Discussions">
-    </a>
-    <a href="https://matrix.to/#/##scenerystack:matrix.org">
-        <img src="https://img.shields.io/badge/chat-matrix-green" alt="invite link to Matrix chat">
-    </a>
-    <a href="https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA">
-        <img src="https://img.shields.io/badge/chat-slack-purple" alt="invite link to Slack chat">
-    </a>
-</p>
+
+[![Website](https://img.shields.io/badge/community-website-yellow?logo=markdown&logoColor=yellow)](https://github.com/orgs/scenerystack/discussions)
+
+[![Discussions](https://img.shields.io/github/discussions/scenerystack/community)](https://github.com/orgs/scenerystack/discussions)
+[![Slack chat](https://img.shields.io/badge/chat-slack-purple)](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
+[![Matrix chat](https://img.shields.io/badge/matrix-chat-green?logo=matrix&logoColor=green)](https://matrix.to/#/##scenerystack:matrix.org)
 
 ![GitHub](https://img.shields.io/github/license/scenerystack/community)
 
@@ -62,7 +57,7 @@ With SceneryStack, not only will your final product be streamlined and efficient
 
 ## Common Code Libraries
 
-See the [Stack List](./libraries/scenerystack_list.md) for all of the libraries that make up SceneryStack.
+See the [Stack List](https://scenerystack.github.io/community/libraries/scenerystack_list/) for all of the libraries that make up SceneryStack.
 
 !!! note
     While the SceneryStack community is housed in the SceneryStack organization, all libraries for development using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>.
@@ -73,27 +68,7 @@ See the [Stack List](./libraries/scenerystack_list.md) for all of the libraries 
 
 ## Using SceneryStack to Make Web Interactives in HTML5
 
-### Development Overview
-
-For anyone interested in setting up a development environment, the [Development Overview](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md) is the best place to start. It provides a comprehensive introduction to the processes, tools, and best practices for developing with the libraries contained in SceneryStack. It also serves as the best starting point for creating interactive simulations, specifically.
-
-### Additional Resources
-
-In the [PhET documentation directory](https://github.com/phetsims/phet-info/tree/main/doc), you'll find a range of helpful resources for different aspects of development, including:
-
-- **Dev Exercises**: Enhance your SceneryStack development skills with these hands-on exercises. Check out the [PhET dev exercises document](https://github.com/phetsims/phet-info/blob/main/doc/phet-dev-exercises.md)
-- **TypeScript Quickstart**: If you're new to TypeScript or need a refresher, you can follow our [TypeScript Quickstart guide](https://github.com/phetsims/phet-info/blob/main/doc/typescript-quick-start.md)
-- **Coding Conventions**: Ensure your code is consistent and readable with our [coding conventions](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md)
-- **Software Design Patterns**: Familiarize yourself with the [software design patterns](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md) used within PhET projects.
-- **Accessibility Documentation**: Learn about designing accessibility features such as alternative input, screen-reader-friendly interactive description, and more through our development guidelines:
-  - [Alternative Input Guide](https://github.com/phetsims/phet-info/blob/main/doc/alternative-input-quickstart-guide.md)
-  - [Interactive Description Guide](https://github.com/phetsims/phet-info/blob/main/doc/interactive-description-technical-guide.md)
-
-### In-Code Documentation
-
-Often, the best documentation for each library is available in the code itself. As you navigate through the codebase, you'll find well-documented code with inline comments and annotations that explain how things work. We encourage you to explore the code as it can provide the most accurate and up-to-date information.
-
-Feel free to explore these documents and the code itself to get a deeper understanding of the PhET development ecosystem and to get started on your project. If you have any questions or need further assistance, please refer to the community support section or contact us directly.
+See the [SceneryStack documentation site](https://scenerystack.github.io/community/) for resources to get started.
 
 ## Examples using SceneryStack
 
@@ -126,7 +101,7 @@ Join our chat! We have synchronized Slack and Matrix channels for the community 
 
  We welcome many kinds of contributions to SceneryStack, from common code features/bug fixes to documentation updates.
 
- Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) found in any common code repository.
+ Please see our [CONTRIBUTING.md](https://scenerystack.github.io/community/CONTRIBUTING/) found in any SceneryStack repository.
 
 ## FAQ
 
