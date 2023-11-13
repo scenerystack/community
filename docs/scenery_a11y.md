@@ -1,4 +1,4 @@
-# Accessibilty using Scenery
+# Accessibility using Scenery
 
 Find important information about integrating accessibility and inclusivity into your SceneryStack project by getting up to speed with [Accessibility in Scenery](https://phetsims.github.io/scenery/doc/accessibility/accessibility.html).
 

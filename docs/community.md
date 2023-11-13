@@ -1,6 +1,4 @@
-# Paper Playground Community
-
-## Join us
+# Join the SceneryStack Community
 
 - Make a post in the [Discussions forum](https://github.com/scenerystack/community/discussions/)
 - Join our chat! We have synchronized Slack and Matrix channels for the community to discuss and collaborate. Choose whichever platform you prefer:

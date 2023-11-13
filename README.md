@@ -59,8 +59,8 @@ With SceneryStack, not only will your final product be streamlined and efficient
 
 See the [Stack List](https://scenerystack.github.io/community/libraries/scenerystack_list/) for all of the libraries that make up SceneryStack.
 
-!!! note
-    While the SceneryStack community is housed in the SceneryStack organization, all libraries for development using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>.
+
+:red_exclamation: While the SceneryStack community is housed in the SceneryStack organization, all libraries for development using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>. :red_exclamation:
 
 ### phet-lib: Built version of the common code libraries 📚
 
@@ -125,7 +125,7 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 - **For help or questions related to using PhET Simulations**, please see our [website](https://phet.colorado.edu/en/help-center/getting-started) or e-mail [phethelp@colorado.edu](mailto:phethelp@colorado.edu).
 - **To report a problem for a specific PhET Simulation**. Open the PhET menu on the navigation bar of the simulation and select “Report a Problem…” to submit a bug report using the provided form.
 
-### What should I do to participate in the PhET Developer Community?
+### What should I do to participate in the SceneryStack Community?
 
 - Read our [CODE\_OF\_CONDUCT.md](https://github.com/scenerystack/community/blob/main/CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](https://github.com/scenerystack/community/blob/main/CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
 - When posting a question or problem, provide context. What problem are you trying to solve? What are the exact steps to recreate the problem for others to reproduce?
@@ -151,8 +151,10 @@ SceneryStack is the foundation of the PhET Interactive Simulations project. It i
 
 ## Licensing
 
+### SceneryStack
 The libraries contained within the SceneryStack community are licensed through the MIT License and freely available for use by anyone, including this repository.
 
+### PhET Interactive Simulations
 *PhET-created Simulations* differ in their licensing (e.g., GPLv3) depending on the details of their development cycle (e.g., funding, partnerships, and third-party libraries). See the LICENSE file in each repository for details.
 
-PhET does not engage in licensing our *Simulation source code* to commercial entities at this time. Commercial partners interested in licensing our *Simulations* should see the PhET Interactive Simulations website for [partnership inquiries](https://phet.colorado.edu/en/partnerships).
+PhET does not engage in licensing *Simulation source code* to commercial entities at this time. Commercial partners interested in licensing our *Simulations* should see the PhET Interactive Simulations website for [partnership inquiries](https://phet.colorado.edu/en/partnerships).

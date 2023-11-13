@@ -134,7 +134,7 @@ nav:
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
     - Accessibility Resources:
-      - Accessibility in Scenery: libraries/scenery_a11y.md
+      - Accessibility in Scenery: scenery_a11y.md
       - PhET Accessibility Guides: phet_a11y_guides.md
     - Contribute:
       - Contribute: CONTRIBUTING.md

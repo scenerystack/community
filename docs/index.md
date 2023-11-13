@@ -146,12 +146,12 @@ For anything involving PhET-created simulations, see the [PhET website](https://
 - **For help or questions related to using PhET Simulations**, please see our [website](https://phet.colorado.edu/en/help-center/getting-started) or e-mail [phethelp@colorado.edu](mailto:phethelp@colorado.edu).
 - **To report a problem for a specific PhET Simulation**. Open the PhET menu on the navigation bar of the simulation and select “Report a Problem…” to submit a bug report using the provided form.
 
-### What should I do to participate in the PhET Developer Community?
+### What should I do to participate in the SceneryStack Community?
 
 - Read our [CODE\_OF\_CONDUCT.md](https://github.com/scenerystack/community/blob/main/CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](https://github.com/scenerystack/community/blob/main/CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
 - When posting a question or problem, provide context. What problem are you trying to solve? What are the exact steps to recreate the problem for others to reproduce?
 - Help and respond to others that post to the [Discussions forum](https://github.com/orgs/scenerystack/discussions/). Have you encountered a similar problem or tried to implement a similar feature? Share your experiences!
-- Share with us what you are using PhET code for! Share in the [Show and Tell category](https://github.com/orgs/scenerystack/discussions/categories/show-and-tell) of the Discussion forum.
+- Share with us what you are using SceneryStack code for! Share in the [Show and Tell category](https://github.com/orgs/scenerystack/discussions/categories/show-and-tell) of the Discussion forum.
 - Join our chat! We have synchronized Slack and Matrix channels for the community to discuss and collaborate. Choose whichever platform you prefer:
   - [Join our Slack](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
   - [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org) (Element client recommended)
@@ -174,12 +174,14 @@ SceneryStack is the foundation of the PhET Interactive Simulations project. It i
 
 No! If you are creating a simulation, you can brand it however you like, but please contact us before using any PhET branding. See [Licensing](#licensing) below for more information.
 
-See the [brand](https://github.com/phetsims/brand) library for help creating you own brand, as well as looking for the [Development Overview](info-sync/simulation-development-overview.md).
+See the [brand](https://github.com/phetsims/brand) library for help creating you own brand, as well as looking at the [Development Overview](info-sync/simulation-development-overview.md).
 
 ## Licensing
 
+### SceneryStack
 The libraries contained within the SceneryStack community are licensed through the MIT License and freely available for use by anyone, including this repository.
 
+### PhET Interactive Simulations
 *PhET-created Simulations* differ in their licensing (e.g., GPLv3) depending on the details of their development cycle (e.g., funding, partnerships, and third-party libraries). See the LICENSE file in each repository for details.
 
-PhET does not engage in licensing our *Simulation source code* to commercial entities at this time. Commercial partners interested in licensing our *Simulations* should see the PhET Interactive Simulations website for [partnership inquiries](https://phet.colorado.edu/en/partnerships).
+PhET does not engage in licensing *Simulation source code* to commercial entities at this time. Commercial partners interested in licensing our *Simulations* should see the PhET Interactive Simulations website for [partnership inquiries](https://phet.colorado.edu/en/partnerships).
