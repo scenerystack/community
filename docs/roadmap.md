@@ -4,7 +4,7 @@
 
 ### Graphical Performance Upgrades to the Scenery Library
 
-We are actively working on enhancing the graphical performance of the Scenery library. For more details on the current capabilities and specifications, please keep an eye on [Scenery Documentation](https://github.com/phetsims/scenery).
+We are actively working on enhancing the graphical performance of the Scenery library. For more details on the current capabilities and specifications, please keep an eye on Scenery's [Alpenglow Documentation](https://phetsims.github.io/alpenglow/).
 
 ### In-depth Tutorials and Dev Exercises
 
