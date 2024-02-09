@@ -121,29 +121,35 @@ markdown_extensions:
 nav:
     - Overview: index.md
     - Getting Started:
-      - Scenery and phet-lib: libraries/scenery.md
-      - Stack List: libraries/scenerystack_list.md
+      - Development Pathway: getting-started/pathways.md
+      - Scenery and phet-lib: getting-started/scenery.md
+      - Examples: getting-started/scenery-examples.md
+      - Stack List: getting-started/scenerystack_list.md
       - TypeScript Quickstart: info-sync/typescript-quick-start.md
-      - TypeScript Conventions: info-sync/typescript-conventions.md
     - SceneryStack for Simulations:
-      - Simulation Development: info-sync/simulation-development-overview.md
-      - SceneryStack Exercises: info-sync/scenerystack-exercises.md
+      - Simulation Development: simulation/simulation-development.md
+      - PhET Development Overview: info-sync/simulation-development-overview.md
+      - Simulation Exercises: info-sync/scenerystack-exercises.md
+      - Simulation Examples: simulation/simulation-examples.md
+      - Coding Conventions: info-sync/coding-conventions.md
+      - PhET Sim Tooling: info-sync/chipper-deploy.md
+      - PhET TypeScript Conventions: info-sync/typescript-conventions.md
     - Community:
       - Join Us: community.md 
-      # - Ethics: community_ethics.md
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
     - Accessibility Resources:
-      - Accessibility in Scenery: scenery_a11y.md
-      - PhET Accessibility Guides: phet_a11y_guides.md
+      - Accessibility in Scenery: accessibility/scenery_a11y.md
+      - PhET Accessibility Guides: accessibility/phet_a11y_guides.md
     - Contribute:
       - Contribute: CONTRIBUTING.md
       - Contributor License Agreement: CLA.md
       - Software Design Patterns: info-sync/phet-software-design-patterns.md
       - Roadmap: roadmap.md
-    - More Resources:
-      - Coding Conventions: info-sync/coding-conventions.md
-      - PhET Sim Tooling: info-sync/chipper-deploy.md
+    - About:
+      - SceneryStack: about/about.md
+      - FAQ: about/faq.md
+
 
 
 
