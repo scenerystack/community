@@ -119,36 +119,34 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-    - Overview: index.md
-    - Getting Started:
-      - Development Pathway: getting-started/pathways.md
-      - Scenery and phet-lib: getting-started/scenery.md
-      - Examples: getting-started/scenery-examples.md
-      - Stack List: getting-started/scenerystack_list.md
-      - TypeScript Quickstart: info-sync/typescript-quick-start.md
-    - SceneryStack for Simulations:
-      - Simulation Development: simulation/simulation-development.md
-      - PhET Development Overview: info-sync/simulation-development-overview.md
-      - Simulation Exercises: info-sync/scenerystack-exercises.md
-      - Simulation Examples: simulation/simulation-examples.md
-      - Coding Conventions: info-sync/coding-conventions.md
-      - PhET Sim Tooling: info-sync/chipper-deploy.md
-      - PhET TypeScript Conventions: info-sync/typescript-conventions.md
+    - Home: index.md
+    - Guides:
+      - guides/pathways.md
+      - SceneryStack for the Web:
+        - Scenery and phet-lib: guides/scenery.md
+        - Stack List: guides/scenerystack_list.md
+      - SceneryStack for Simulations:
+        - guides/simulation/simulation-development.md
+        - PhET Development Overview: info-sync/simulation-development-overview.md
+        - Simulation Exercises: info-sync/scenerystack-exercises.md
+        - Coding Conventions: info-sync/coding-conventions.md
+        - PhET Sim Tooling: info-sync/chipper-deploy.md
+        - PhET TypeScript Conventions: info-sync/typescript-conventions.md
+      - Examples:
+        - Examples: guides/scenery-examples.md
+        - Simulation Examples: guides/simulation-examples.md
     - Community:
-      - Join Us: community.md 
+      - Join Us!: community.md 
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
+      - Contribute:
+        - CONTRIBUTING.md
+        - Contributor License Agreement: CLA.md
+        - Software Design Patterns: info-sync/phet-software-design-patterns.md
+        - Roadmap: roadmap.md
     - Accessibility Resources:
       - Accessibility in Scenery: accessibility/scenery_a11y.md
       - PhET Accessibility Guides: accessibility/phet_a11y_guides.md
-    - Contribute:
-      - Contribute: CONTRIBUTING.md
-      - Contributor License Agreement: CLA.md
-      - Software Design Patterns: info-sync/phet-software-design-patterns.md
-      - Roadmap: roadmap.md
-    - About:
-      - SceneryStack: about/about.md
-      - FAQ: about/faq.md
 
 
 

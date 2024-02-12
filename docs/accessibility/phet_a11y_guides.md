@@ -1,6 +1,6 @@
 # Helpful PhET Resources for creating Accessible Features
 
-The following resources are intended for use when creating/instantiating accessibility and Inclusive Features into PhET Interactive Simulations, but contain useful information for anyone looking to create similar features. 
+The following resources are intended for use when creating/instantiating accessibility and Inclusive Features into PhET Interactive Simulations, but contain useful information for anyone looking to create similar features.
 
 - [Dynamic String Layout](../info-sync/dynamic-string-layout-quickstart.md)
 - [Interactive Highlights](../info-sync/interactive-highlights-quickstart-guide.md)
