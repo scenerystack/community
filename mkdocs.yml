@@ -25,7 +25,7 @@ theme:
     - content.tooltips
     - header.autohide
     # - navigation.expand
-    # - navigation.footer
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
@@ -45,14 +45,14 @@ theme:
   palette:
   - media: '(prefers-color-scheme: light)'
     primary: blue
-    accent: yellow
+    accent: orange
     scheme: default
     toggle:
       icon: material/brightness-7
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
     primary: blue
-    accent: yellow
+    accent: orange
     scheme: slate
     toggle:
       icon: material/brightness-4
@@ -93,8 +93,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -122,14 +122,16 @@ nav:
     - Home: index.md
     - Guides:
       - guides/pathways.md
-      - SceneryStack for the Web:
+      - Stack List: guides/scenerystack_list.md
+      - Web Development:
         - Scenery and phet-lib: guides/scenery.md
-        - Stack List: guides/scenerystack_list.md
-      - SceneryStack for Simulations:
+        - First Walkthrough: guides/walkthrough.md
+        - Demos: guides/demos.md
+      - Simulation Development:
         - guides/simulation/simulation-development.md
-        - PhET Development Overview: info-sync/simulation-development-overview.md
-        - Simulation Exercises: info-sync/scenerystack-exercises.md
-        - Coding Conventions: info-sync/coding-conventions.md
+        - PhET Development Guide: info-sync/simulation-development-overview.md
+        - Intro Sim Exercises: info-sync/scenerystack-exercises.md
+        - Software Design Patterns: info-sync/phet-software-design-patterns.md
         - PhET Sim Tooling: info-sync/chipper-deploy.md
         - PhET TypeScript Conventions: info-sync/typescript-conventions.md
       - Examples:
@@ -140,9 +142,9 @@ nav:
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
       - Contribute:
-        - CONTRIBUTING.md
+        - Contribution Guide: CONTRIBUTING.md
         - Contributor License Agreement: CLA.md
-        - Software Design Patterns: info-sync/phet-software-design-patterns.md
+        - Coding Conventions: info-sync/coding-conventions.md
         - Roadmap: roadmap.md
     - Accessibility Resources:
       - Accessibility in Scenery: accessibility/scenery_a11y.md

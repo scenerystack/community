@@ -1,4 +1,4 @@
-# Simulation Development
+# Developing a Simulation
 
 If you're looking to create a STEM-focused, interactive simulation then you're in the right place.
 
