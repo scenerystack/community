@@ -25,7 +25,7 @@ theme:
     - content.tooltips
     - header.autohide
     # - navigation.expand
-    # - navigation.footer
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
@@ -45,14 +45,14 @@ theme:
   palette:
   - media: '(prefers-color-scheme: light)'
     primary: blue
-    accent: yellow
+    accent: orange
     scheme: default
     toggle:
       icon: material/brightness-7
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
     primary: blue
-    accent: yellow
+    accent: orange
     scheme: slate
     toggle:
       icon: material/brightness-4
@@ -93,8 +93,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -119,31 +119,39 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-    - Overview: index.md
-    - Getting Started:
-      - Scenery and phet-lib: libraries/scenery.md
-      - Stack List: libraries/scenerystack_list.md
-      - TypeScript Quickstart: info-sync/typescript-quick-start.md
-      - TypeScript Conventions: info-sync/typescript-conventions.md
-    - SceneryStack for Simulations:
-      - Simulation Development: info-sync/simulation-development-overview.md
-      - SceneryStack Exercises: info-sync/scenerystack-exercises.md
+    - Home: index.md
+    - Guides:
+      - guides/pathways.md
+      - Stack List: guides/scenerystack_list.md
+      - Web Development:
+        - Scenery and phet-lib: guides/scenery.md
+        - First Walkthrough: guides/walkthrough.md
+        - Demos: guides/demos.md
+      - Simulation Development:
+        - guides/simulation/simulation-development.md
+        - PhET Development Guide: info-sync/simulation-development-overview.md
+        - Intro Sim Exercises: info-sync/scenerystack-exercises.md
+        - Software Design Patterns: info-sync/phet-software-design-patterns.md
+        - PhET Sim Tooling: info-sync/chipper-deploy.md
+        - PhET TypeScript Conventions: info-sync/typescript-conventions.md
+      - Examples:
+        - guides/scenery-examples.md
+        - guides/simulation-examples.md
+      - Maintenance:
+        - API Breaking Changes: guides/breaking.md
     - Community:
-      - Join Us: community.md 
-      # - Ethics: community_ethics.md
+      - Join Us!: community.md 
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
+      - Contribute:
+        - Contribution Guide: CONTRIBUTING.md
+        - Contributor License Agreement: CLA.md
+        - Coding Conventions: info-sync/coding-conventions.md
+        - Roadmap: roadmap.md
     - Accessibility Resources:
-      - Accessibility in Scenery: scenery_a11y.md
-      - PhET Accessibility Guides: phet_a11y_guides.md
-    - Contribute:
-      - Contribute: CONTRIBUTING.md
-      - Contributor License Agreement: CLA.md
-      - Software Design Patterns: info-sync/phet-software-design-patterns.md
-      - Roadmap: roadmap.md
-    - More Resources:
-      - Coding Conventions: info-sync/coding-conventions.md
-      - PhET Sim Tooling: info-sync/chipper-deploy.md
+      - Accessibility in Scenery: accessibility/scenery_a11y.md
+      - PhET Accessibility Guides: accessibility/phet_a11y_guides.md
+
 
 
 

@@ -1,6 +1,4 @@
-# Welcome and thank you
-
-# Welcome to SceneryStack Contribution Guide
+# Contribution Guide
 
 We're genuinely excited to have you here. Your interest in contributing to SceneryStack is appreciated, and this guide is here to assist you every step of the way. If you're curious about the differences between SceneryStack and PhET Interactive Simulations, we've covered that too!
 
@@ -8,7 +6,7 @@ We're genuinely excited to have you here. Your interest in contributing to Scene
 
 ### 0. Contributing to Open Source
 
-Never participated in an open source project? Just ask in any of [our community platforms](community.md)!
+Never participated in an open-source project? Just ask in any of [our community platforms](community.md)!
 
 You'll find some good general advice in resources such as this [article from FreeCodeCamp](https://www.freecodecamp.org/news/how-to-contribute-to-open-source/).
 
@@ -42,9 +40,9 @@ Contributing is streamlined with the following steps:
 3. Don't forget to sign the [Contributor License Agreement](CLA.md) before diving in.
 4. Fork the necessary repositories.
 5. Maintain the integrity of the `dist/` in applicable common code — refrain from changing or committing to it.
-6. Configure npm to prevent `package-log.json` commits: `npm config set save false`.
+6. Configure npm to prevent `package-log.json` commits - `npm config set save false`.
 7. Run tests to ensure your contributions are regression-free.
-8. Ready? Submit your pull request with the [PULL_REQUEST_TEMPLATE](pull_request_template.md).
+8. Ready? Submit your pull request using the provided [PULL_REQUEST_TEMPLATE](PULL_REQUEST_TEMPLATE.md).
 
 ### Review Process
 
@@ -59,7 +57,7 @@ Your feedback, queries, and suggestions are invaluable. Connect with our communi
 
 ## Understanding SceneryStack vs. PhET Interactive Simulations
 
-SceneryStack provides the robust HTML5/JavaScript/TypeScript foundation upon which PhET Interactive Simulations are constructed. Not just limited to science and math simulations, SceneryStack can power all web interactives, boasting a rich interaction experience. Dive into our [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources) to understand better.
+SceneryStack provides the HTML5/TypeScript foundation upon which PhET Interactive Simulations are constructed. Not just limited to science and math simulations, SceneryStack can power all web interactives, boasting a rich interaction experience. This includes support for robust accessibility features like dynamic and navigatable screen-reader descriptions.
 
 Licensing? SceneryStack is under the MIT License. However, the licensing for *Simulations* varies. For specifics, check the LICENSE file in the respective repositories. For commercial entities, while we don't license our Simulation source code, they can explore partnership opportunities on the PhET Interactive Simulations [website](https://phet.colorado.edu/en/partnerships).
 
