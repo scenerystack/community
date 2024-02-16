@@ -2,7 +2,7 @@
 
 See the [Stack List](../guides/scenerystack_list.md) for all of the libraries that make up SceneryStack.
 
-## Get to know Scenery :fontawesome-solid-mountain-sun:
+## Get to know Scenery :fontawesome-solid-mountain-sun
 
 When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, canvas or WebGL), handling input and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
 
@@ -10,25 +10,25 @@ Check out the links below to get familiar with Scenery and some examples using S
 
 <div class="grid cards" markdown>
 
--   [Tour of Scenery](https://phetsims.github.io/scenery/doc/a-tour-of-scenery.html)
+- [Tour of Scenery](https://phetsims.github.io/scenery/doc/a-tour-of-scenery.html)
 
     ---
 
     General concepts that Scenery is based on.
 
--   [Scenery Layout](https://phetsims.github.io/scenery/doc/layout)
+- [Scenery Layout](https://phetsims.github.io/scenery/doc/layout)
 
     ---
 
     Layout documentation for customizable containers.
 
--   [Scenery Hello World](https://phetsims.github.io/scenery/examples/)
+- [Scenery Hello World](https://phetsims.github.io/scenery/examples/)
 
     ---
 
     Simple Scenery examples to get you started.
 
--   [Scenery API Documentation](https://phetsims.github.io/scenery/doc/)
+- [Scenery API Documentation](https://phetsims.github.io/scenery/doc/)
 
     ---
 
@@ -38,7 +38,7 @@ Check out the links below to get familiar with Scenery and some examples using S
 
 ## `phet-lib`
 
-You will probably want to make use of more than just Scenery for your project. `phet-lib` contains the [core SceneryStack libraries](scenerystack_list.md#scenerystack-core) in one package. 
+You will probably want to make use of more than just Scenery for your project. `phet-lib` contains the [core SceneryStack libraries](scenerystack_list.md#scenerystack-core) in one package.
 
 Your projects can get started after creating a simple HTML
 
@@ -92,7 +92,6 @@ Often, the best documentation for each library is available in the code itself. 
 !!! note
     While the *SceneryStack community* is housed in the SceneryStack GitHub organization, **all libraries for development** using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>.
 
-
 ## Examples
 
-Check out other projects that make use of SceneryStack libraries on the [Examples](scenery-examples.md) page. You can also check out any [PhET or community-created interactive simulation](simulation-examples.md) to learn from as well.
+Check out other projects that make use of SceneryStack libraries on the [Example Showcase](scenery-examples.md) page. You can also check out any [PhET or community-created interactive simulation](simulation-examples.md) to learn from as well.

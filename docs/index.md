@@ -52,7 +52,7 @@ Wondering why SceneryStack might be your go-to choice for creating and rendering
     - 🔄 Declarative APIs for optimal performance/quality adjustments
     - 🎬 Seamless functionality across SVG, Canvas, and WebGL
     - ✋ An input system that upholds extended touch handling and foundational accessibility
-    - 📏 Advanced layouting, shape computations, and CAG for interface components
+    - 📏 Advanced layout, shape computations, and CAG for interface components
     - 🗑️ A garbage collector-friendly design using pooling
     - 📚 A library of UI components known for their reliability and adaptability
 
@@ -91,7 +91,7 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 ??? info "I want to make an entirely new simulation using SceneryStack! What should I do?"
     **If you are an individual or small group interested in or have made progress in making a new simulation:**
-    The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and in JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+    The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in making new simulations:**
     See the [Source Code page of our website](https://phet.colorado.edu/en/about/source-code) for more information.
@@ -102,7 +102,7 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 ??? info "Do I have to brand my projects with PhET?"
     No! If you are creating a simulation, you can brand it however you like, but please contact us before using any PhET branding. See [Licensing](#licensing) below for more information.
 
-    See the [brand](https://github.com/phetsims/brand) library for help creating you own brand, as well as looking at the [Development Overview](./info-sync/simulation-development-overview.md).
+    See the [brand](https://github.com/phetsims/brand) library for help creating your brand, as well as looking at the [Development Overview](./info-sync/simulation-development-overview.md).
 
 ![Interactive Music Video made with SceneryStack](assets/cathedral.gif)
 
