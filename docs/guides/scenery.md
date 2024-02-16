@@ -2,9 +2,11 @@
 
 See the [Stack List](../guides/scenerystack_list.md) for all of the libraries that make up SceneryStack.
 
-## Get to know Scenery
+## Get to know Scenery :fontawesome-solid-mountain-sun:
 
 When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, canvas or WebGL), handling input and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
+
+Check out the links below to get familiar with Scenery and some examples using Scenery:
 
 <div class="grid cards" markdown>
 
@@ -64,13 +66,24 @@ Download `phet-lib` from the [phet-lib repository](https://github.com/phetsims/p
 
 </div>
 
+Any examples found in the [Scenery documentation above](#get-to-know-scenery) will also work when importing `phet-lib`.
+
 ### phet-lib on Node (npm)
 
-phet-lib can be imported directly through Node as an NPM package, available at <https://www.npmjs.com/package/phet-lib>.
+phet-lib can be installed directly through Node as an NPM package, available at <https://www.npmjs.com/package/phet-lib>.
 
 [Vite Demo](https://github.com/phetsims/phet-vite-demo) is a demo with simple steps to be able to get started (requires git/npm/node).
 
-<!-- JO: I'll want to factor out some of the annoyances (like our preloads currently), but it's pretty close to the "toss phet-lib in package.json and import/use" by arbitrary projects. -->
+> The package is on the larger side as it includes a number of preloads - stay tuned for further optimization!
+
+## Other SceneryStack Library Documentation
+
+<div class="grid cards" markdown>
+
+- [:fontawesome-regular-gem: Kite - shape library](https://phetsims.github.io/kite/)
+- [:fontawesome-solid-circle: Dot - mathematics library](https://phetsims.github.io/dot/doc/)
+
+</div>
 
 ## In-Code Documentation
 
@@ -78,3 +91,8 @@ Often, the best documentation for each library is available in the code itself. 
 
 !!! note
     While the *SceneryStack community* is housed in the SceneryStack GitHub organization, **all libraries for development** using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>.
+
+
+## Examples
+
+Check out other projects that make use of SceneryStack libraries on the [Examples](scenery-examples.md) page. You can also check out any [PhET or community-created interactive simulation](simulation-examples.md) to learn from as well.

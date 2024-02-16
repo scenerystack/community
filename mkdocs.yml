@@ -135,8 +135,10 @@ nav:
         - PhET Sim Tooling: info-sync/chipper-deploy.md
         - PhET TypeScript Conventions: info-sync/typescript-conventions.md
       - Examples:
-        - Examples: guides/scenery-examples.md
-        - Simulation Examples: guides/simulation-examples.md
+        - guides/scenery-examples.md
+        - guides/simulation-examples.md
+      - Maintenance:
+        - API Breaking Changes: guides/breaking.md
     - Community:
       - Join Us!: community.md 
       - Community Guidelines: CODE_OF_CONDUCT.md
