@@ -149,8 +149,7 @@ nav:
         - Coding Conventions: info-sync/coding-conventions.md
         - Roadmap: roadmap.md
     - Accessibility Resources:
-      - Accessibility in Scenery: accessibility/scenery_a11y.md
-      - PhET Accessibility Guides: accessibility/phet_a11y_guides.md
+      - accessibility/phet_a11y_guides.md
 
 
 
