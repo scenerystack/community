@@ -2,7 +2,7 @@
 
 See the [Stack List](../guides/scenerystack_list.md) for all of the libraries that make up SceneryStack.
 
-## Get to know Scenery :fontawesome-solid-mountain-sun
+## Get to know Scenery
 
 When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, canvas or WebGL), handling input and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
 

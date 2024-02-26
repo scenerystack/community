@@ -16,7 +16,7 @@
 | [axon](https://github.com/phetsims/axon) | View | TypeScript | Data structures for the observer pattern (Property) and listener pattern (Emitters). |
 | [joist](https://github.com/phetsims/joist) | View | TypeScript | Simulation loading, homescreen + navigation bar, screen management. Uses some user interface components from sun. Uses scenery to render and process input. Runs the animation loop. |
 | [tappi](https://github.com/phetsims/tappi) | View | TypeScript | Support for haptics/vibrations in HTML5. |
-| [alpenglow](https://github.com/phetsims/alpenglow) | View | TypeScript | Experimental rasterization engine, by PhET Interactive Simulations. |
+| [alpenglow](https://github.com/phetsims/alpenglow) | View | TypeScript | Experimental rasterization engine, by PhET Interactive Simulations. [] |
 | [mobius](https://github.com/phetsims/mobius) | View | TypeScript | HTML5 3D Scene Graph (prototype). |
 | [sun](https://github.com/phetsims/sun) | View | TypeScript | Graphical user interface components, such as buttons and checkboxes which could be useful in any application context. Built using scenery. |
 | [twixt](https://github.com/phetsims/twixt) | View | TypeScript | Support for tweening and animation. Can be used to animate user interface components or artwork in the view or model elements directly. |
@@ -29,18 +29,20 @@
 | [dot](https://github.com/phetsims/dot) | Model | JavaScript | Mathematical objects such as Vector, Matrix, and corresponding numerical algorithms. |
 | [tandem](https://github.com/phetsims/tandem) | Model | TypeScript | Simulation-side code to support PhET-iO instrumentation. |
 | [bamboo](https://github.com/phetsims/bamboo) | Utilities | TypeScript | Charting library built with Scenery. |
-| [griddle](https://github.com/phetsims/griddle) | Utilities | JavaScript | Dynamic charting library built with Scenery |
+| [griddle](https://github.com/phetsims/griddle) | Utilities | JavaScript | Dynamic charting library built with Scenery (deprecated in favor of Bamboo) |
 | [vegas](https://github.com/phetsims/vegas) | Utilities | TypeScript | Reusable game components for interactive simulations. |
+| [assert](https://github.com/phetsims/assert) | Model | JavaScript | NEEDS DESCRIPTION |
+| [sherpa](https://github.com/phetsims/sherpa) | Third Party Libraries | JavaScript | All 3rd-party dependencies. Some such as font-awesome or lodash are used in every simulation and some such as numeric or three.js are sim-specific. |
 
 ## Supplementary Libraries
 
 | **Repo** | **Function** | **Language** | **Description** |
 |---:|---|---|---|
-| [sherpa](https://github.com/phetsims/sherpa) | Third Party Libraries | JavaScript | All 3rd-party dependencies. Some such as font-awesome or lodash are used in every simulation and some such as numeric or three.js are sim-specific. |
+
 | [tangible](https://github.com/phetsims/tangible) | Controller | TypeScript | Library for handling computer vision and tangible input using MediaPipe. |
-| [assert](https://github.com/phetsims/assert) | Model | JavaScript |  |
-| [vibe](https://github.com/phetsims/vibe) | View | JavaScript | Library for handling audio for PhET simulations. Provides cross-platform support and enables usage of base64 audio embedded in an HTML document. |
-| [binder](https://github.com/phetsims/binder) | Documentation | JavaScript | Generates and publishes documentation for interface components from sun  (and eventually scenery and scenery-phet). |
+
+<!-- | [vibe](https://github.com/phetsims/vibe) | View | JavaScript | Library for handling audio for PhET simulations. Provides cross-platform support and enables usage of base64 audio embedded in an HTML document. |
+| [binder](https://github.com/phetsims/binder) | Documentation | JavaScript | Generates and publishes documentation for interface components from sun  (and eventually scenery and scenery-phet). | -->
 
 ## Simulation Development
 
