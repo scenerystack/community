@@ -34,7 +34,7 @@ Wondering why SceneryStack might be your go-to choice for creating and rendering
     - 🛠️ **Rich Component Library** (with support to build your own)
     - 📱 **Optimized for High Pixel Density Devices**
     - 🔍 **TypeScript Integration** (ensuring type safety + autocomplete)
-    - 🎲 **Support for Multiple Rendering**: SVG, canvas, or WebGL
+    - 🎲 **Support for Multiple Rendering**: SVG, Canvas, or WebGL
     - 📐 **Innovative Layout Engine**
     - 🎭 **CSS Abstraction**
     - ⚡ **Real-Time Updates with Axon Property.link**

@@ -11,7 +11,7 @@
 | **Repo** | **Function** | **Language** | **Description** |
 |---:|---|---|---|
 | [phet-lib](https://github.com/phetsims/phet-lib) | Built Library | JavaScript | Contains built versions of SceneryStack Libraries. |
-| [scenery](https://github.com/phetsims/scenery) | View | TypeScript | Foundational library for representing graphics (rendering to SVG, canvas or WebGL), handling input and generally abstraction for the browser and cross-platform support. Shapes are represented using kite. Observer and emitter patterns use axon. Support for alternative input and accessibility features. |
+| [scenery](https://github.com/phetsims/scenery) | View | TypeScript | Foundational library for representing graphics (rendering to SVG, Canvas or WebGL), handling input and generally abstraction for the browser and cross-platform support. Shapes are represented using kite. Observer and emitter patterns use axon. Support for alternative input and accessibility features. |
 | [tambo](https://github.com/phetsims/tambo) | View | TypeScript | Sound effects and sonification. Uses axon for some observer/listeners support. |
 | [axon](https://github.com/phetsims/axon) | View | TypeScript | Data structures for the observer pattern (Property) and listener pattern (Emitters). |
 | [joist](https://github.com/phetsims/joist) | View | TypeScript | Simulation loading, homescreen + navigation bar, screen management. Uses some user interface components from sun. Uses scenery to render and process input. Runs the animation loop. |

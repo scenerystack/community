@@ -92,7 +92,7 @@ For more information please see `/scenery/doc/accessibility/accessibility.html'`
 
 ### Parallel DOM
 
-The traditional renderings of PhET sims (svg, canvas, webgl) hold very little semantic data as to what is inside the
+The traditional renderings of PhET sims (svg, Canvas, webgl) hold very little semantic data as to what is inside the
 rendered graphic. They are a single, graphical element in HTML. The PDOM ( parallel DOM (Document Object Model))
 pulls semantic data from the `Scenery` scene graph and adds it to a separate HTML structure that is accessible to
 assistive technologies. When we say PDOM, think an HTML manifestation of the graphical `Node` content in the phetsim.
