@@ -4,7 +4,7 @@ See the [Stack List](../guides/scenerystack_list.md) for all of the libraries th
 
 ## Get to know Scenery
 
-When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, Canvas or WebGL), handling input and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
+When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, Canvas or WebGL), handling user input (e.g. mouse, touch, keyboard, screen reader) and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
 
 Check out the links below to get familiar with Scenery and some examples using Scenery:
 
@@ -38,7 +38,7 @@ Check out the links below to get familiar with Scenery and some examples using S
 
 ## `phet-lib`
 
-You will probably want to make use of more than just Scenery for your project. `phet-lib` contains the [core SceneryStack libraries](scenerystack_list.md#scenerystack-core) in one package.
+You will probably want to make use of more than just Scenery for your project. `phet-lib` contains the [core, simulation-core and supplemental SceneryStack libraries](scenerystack_list.md#scenerystack-core) in one package.
 
 Your projects can get started after creating a simple HTML
 
@@ -66,15 +66,26 @@ Download `phet-lib` from the [phet-lib repository](https://github.com/phetsims/p
 
 </div>
 
-Any examples found in the [Scenery documentation above](#get-to-know-scenery) will also work when importing `phet-lib`.
+Any examples found in the [Scenery documentation above](#get-to-know-scenery) will also work when importing `phet-lib`. This approach provides access through the `phet` global variable (e.g. `phet.scenery.Node`), and provides a built JavaScript file without corresponding TypeScript types.
+
+> The package is on the larger side as it includes a number of preloads - stay tuned for further optimization!
 
 ### phet-lib on Node (npm)
 
 phet-lib can be installed directly through Node as an NPM package, available at <https://www.npmjs.com/package/phet-lib>.
 
-[Vite Demo](https://github.com/phetsims/phet-vite-demo) is a demo with simple steps to be able to get started (requires git/npm/node).
+We have a [Demo using Vite](https://github.com/phetsims/phet-vite-demo) with simple steps to be able to get started (requires git/npm/node).
 
-> The package is on the larger side as it includes a number of preloads - stay tuned for further optimization!
+Using the phet-lib NPM package provides access to the raw PhET code, so it will support type-checking with TypeScript, modules, and partial tree-shaking.
+
+Import are provided by subpackage as shown below:
+
+```js
+import { Property, Emitter } from 'phet-lib/axon';
+import { Display, Text, AnimatedPanZoomListener } from 'phet-lib/scenery';
+```
+
+> This package also includes all dependencies statically, so it will declare e.g. jQuery/Lodash globally as `window.$` and `window._` respectively.
 
 ## Other SceneryStack Library Documentation
 
