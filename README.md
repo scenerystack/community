@@ -1,6 +1,6 @@
 # <img src="/docs/assets/scenerystack-square.png" width="50"> Welcome to the SceneryStack Developer Community
 
-[![Website](https://img.shields.io/badge/community-website-yellow?logo=markdown&logoColor=yellow)](https://scenerystack.org/)
+[![Website](https://img.shields.io/badge/community-website-yellow?logo=markdown&logoColor=yellow)](scenerystack.org)
 
 <p>
     <a href="https://github.com/orgs/scenerystack/discussions">
