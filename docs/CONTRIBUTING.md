@@ -29,7 +29,7 @@ We cherish improvements to our documentation, especially in the [community](http
 
 ### 3. Other Forms of Contribution
 
-Got a unique idea or suggestion? We're all ears! Whether it's reaching out with your innovative ideas or making a [financial contribution](https://donatenow.networkforgood.org/1437859), every bit helps.
+Got a unique idea or suggestion? We're all ears! Whether it's reaching out with your innovative ideas or making a [financial contribution](https://donatenow.networkforgood.org/scenerystack), every bit helps.
 
 ## Steps for Code Contribution
 
@@ -55,20 +55,17 @@ After your PR submission, our dedicated maintainers will conduct a review:
 
 Your feedback, queries, and suggestions are invaluable. Connect with our community on the [central Discussions forum](https://github.com/orgs/scenerystack/discussions).
 
-## Understanding SceneryStack vs. PhET Interactive Simulations
+??? info "How do I contribute to PhET Interactive Simulations?"
 
-SceneryStack provides the HTML5/TypeScript foundation upon which PhET Interactive Simulations are constructed. Not just limited to science and math simulations, SceneryStack can power all web interactives, boasting a rich interaction experience. This includes support for robust accessibility features like dynamic and navigatable screen-reader descriptions.
+    While outside the scope of the SceneryStack community, PhET does have avenues for contribution if you are interested in contributing to specific PhET Interactive Simulations:
 
-Licensing? SceneryStack is under the MIT License. However, the licensing for *Simulations* varies. For specifics, check the LICENSE file in the respective repositories. For commercial entities, while we don't license our Simulation source code, they can explore partnership opportunities on the PhET Interactive Simulations [website](https://phet.colorado.edu/en/partnerships).
+    **Bug Fixes**: For bug fixes in existing simulations, employ the same process as for common code contributions within the [specific simulation repository](https://github.com/orgs/phetsims/repositories).
 
-### Enhancements to Existing Simulations
+    **Significant New Features**: PhET currently prioritizes resources. Although we might not immediately review large new features, please submit your suggestions and code changes. They could be instrumental in future reviews.
 
-**Bug Fixes**: For bug fixes in existing simulations, employ the same process as for common code contributions within the [specific simulation repository](https://github.com/orgs/phetsims/repositories).
+??? info "I want to make an interactive simulation using SceneryStack! What should I do?"
+    **If you are an individual or small group interested in or have made progress in making a new simulation:**
+    The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
-**Significant New Features**: We currently prioritize our resources. Although we might not immediately review large new features, please submit your suggestions and code changes. They could be instrumental in future reviews.
-
-### Crafting a New Simulation?
-
-**Individuals & Small Groups**: Our [PhET Development Overview](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md) and additional [documentation](https://github.com/phetsims/phet-info/tree/main/doc) are invaluable resources. For committed and progressing projects, reach out to us at <phethelp@colorado.edu> or via the [community discussion forum](https://github.com/orgs/scenerystack/discussions).
-
-**Commercial Organizations**: For detailed information, check the [Source Code page](https://phet.colorado.edu/en/about/source-code) on our website.
+    **If you are a commercial organization interested in making new simulations:**
+    See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.

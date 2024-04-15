@@ -47,11 +47,10 @@ Your projects can get started after creating a simple HTML
         <!DOCTYPE html>
         <html lang="en">
         <head>
-        <meta charset="UTF-8">
-        <title>Example Project</title>
-
-        <script src="./js/lib/phet-lib.min.js"></script>
-        <script type="module" src="dist-webpack/bundle.js"></script>
+            <meta charset="UTF-8">
+            <title>Example Project</title>
+            <script src="./js/lib/phet-lib.min.js"></script>
+            <script type="module" src="dist-webpack/bundle.js"></script>
         </head>
         <body>
         </body>
@@ -78,7 +77,7 @@ We have a [Demo using Vite](https://github.com/phetsims/phet-vite-demo) with sim
 
 Using the phet-lib NPM package provides access to the raw PhET code, so it will support type-checking with TypeScript, modules, and partial tree-shaking.
 
-Import are provided by subpackage as shown below:
+Imports are provided by subpackage as shown below:
 
 ```js
 import { Property, Emitter } from 'phet-lib/axon';
