@@ -97,7 +97,7 @@ import { Display, Text, AnimatedPanZoomListener } from 'phet-lib/scenery';
 
 ## In-Code Documentation
 
-Often, the best documentation for each library is available in the code itself. As you navigate through the codebase, you'll find well-documented code with inline comments and annotations that explain how things work. We encourage you to explore the code as it can provide the most accurate and up-to-date information. If you have any questions or need further assistance, please head over to the [Discussions or chat platforms](../community.md).
+Often, the best documentation for each library is available in the code itself. As you navigate through the codebase, you'll find well-documented code with inline comments and annotations that explain how things work. We encourage you to explore the code as it can provide the most accurate and up-to-date information. If you have any questions or need further assistance, please head over to the [Discussions or chat platforms](../join.md).
 
 !!! note
     While the *SceneryStack community* is housed in the SceneryStack GitHub organization, **all libraries for development** using SceneryStack are in the **phetsims** GitHub organization found at <https://github.com/phetsims/>.

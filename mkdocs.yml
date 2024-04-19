@@ -140,7 +140,7 @@ nav:
       - Maintenance:
         - API Breaking Changes: guides/breaking.md
     - Community:
-      - Join Us!: community.md 
+      - Join Us!: join.md 
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
       - Contribute:

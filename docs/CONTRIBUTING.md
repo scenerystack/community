@@ -6,7 +6,7 @@ We're genuinely excited to have you here. Your interest in contributing to Scene
 
 ### 0. Contributing to Open Source
 
-Never participated in an open-source project? Just ask in any of [our community platforms](community.md)!
+Never participated in an open-source project? Just ask in any of [our community platforms](join.md)!
 
 You'll find some good general advice in resources such as this [article from FreeCodeCamp](https://www.freecodecamp.org/news/how-to-contribute-to-open-source/).
 
@@ -35,7 +35,7 @@ Got a unique idea or suggestion? We're all ears! Whether it's reaching out with 
 
 Contributing is streamlined with the following steps:
 
-1. Start by raising an issue using the provided [BUG_REPORT_TEMPLATE](BUG_REPORT_TEMPLATE.md) or [FEATURE_REQUEST_TEMPLATE](FEATURE_REQUEST_TEMPLATE.md) in the appropriate repository. Unsure about the right repository? Share your thoughts on the [Discussion forum](https://github.com/orgs/scenerystack/discussions).
+1. Start by raising an issue using the provided [BUG_REPORT_TEMPLATE](BUG_REPORT_TEMPLATE.md) or [FEATURE_REQUEST_TEMPLATE](FEATURE_REQUEST_TEMPLATE.md) in the appropriate repository. Unsure about the right repository? Ask on the [Discussion forum](https://github.com/orgs/scenerystack/discussions).
 2. Familiarize yourself with our [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md).
 3. Don't forget to sign the [Contributor License Agreement](CLA.md) before diving in.
 4. Fork the necessary repositories.
@@ -43,6 +43,9 @@ Contributing is streamlined with the following steps:
 6. Configure npm to prevent `package-log.json` commits - `npm config set save false`.
 7. Run tests to ensure your contributions are regression-free.
 8. Ready? Submit your pull request using the provided [PULL_REQUEST_TEMPLATE](pull_request_template.md).
+
+!!! warning "Multiple-repository spanning contributions"
+    For contributions that span multiple repositories, please [reach out to the maintainers](join.md) to verify compatibility and avoid any problems you might encounter in the process.
 
 ### Review Process
 

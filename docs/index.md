@@ -74,7 +74,7 @@ Head over to [Guides](./guides/pathways.md) to choose your development path and 
 
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
 
-[🌍 Join the Community 🌍](community.md){ .md-button .md-button--primary }
+[🌍 Join the Community 🌍](join.md){ .md-button .md-button--primary }
 
 ## A few answers to some common questions...
 

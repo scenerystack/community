@@ -25,4 +25,4 @@ A [community-created guide from HNM Simulations](https://nm.mathforcollege.com/n
 
 Lastly, look through [examples](../simulation-examples.md)! There are well over one hundred PhET simulations and many community-created simulations to use as resources and inspiration. We look forward to learning about your creations!
 
-If you have any questions or need further assistance, please head over to the [Discussions or chat platforms](../../community.md).
+If you have any questions or need further assistance, please head over to the [Discussions or chat platforms](../../join.md).
