@@ -76,9 +76,9 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 [🌍 Join the Community 🌍](community.md){ .md-button .md-button--primary }
 
-## Frequently Asked Questions
+## A few answers to some common questions...
 
-??? info "What is this site and community for?"
+??? question "What is this site and community for?"
     Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](./guides/scenerystack_list.md), maintained by the software developers at the PhET Interactive Simulations project.
 
     This repository is not for discussions and help regarding PhET's educational, interactive simulations. For questions and comments regarding PhET's simulations, please keep reading or see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
@@ -88,27 +88,30 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
     PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers at the PhET Interactive Simulations Project. They are developed using [research-based, pedagogically-minded, and inclusive design methods](https://phet.colorado.edu/). -->
 
-??? info "I want to make an interactive simulation using SceneryStack! What should I do?"
+??? question "I want to make an interactive simulation using SceneryStack! What should I do?"
     **If you are an individual or small group interested in or have made progress in making a new simulation:**
     The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in making new simulations:**
     See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.
 
-??? info "What happens to my projects if these libraries stop being supported?"
+??? question "What happens to my projects if these libraries stop being supported?"
     SceneryStack is the foundation of the PhET Interactive Simulations project. It is used in all of PhET's simulations and is actively maintained by the PhET team. PhET has no plans to stop supporting SceneryStack, so long as PhET Interactive Simulations continue to exist.
 
-??? info "Do I have to brand my projects with PhET?"
+??? question "Do I have to brand my projects with PhET?"
     No! If you are creating a simulation, you can brand it however you like, but please contact us before using any PhET branding. See [Licensing](#licensing) below for more information.
 
     See the [brand](https://github.com/phetsims/brand) library for help creating your brand, as well as looking at the [Development Overview](./info-sync/simulation-development-overview.md).
 
-??? info "Where can I get help or provide feedback for using a PhET Interactive Simulation?"
+??? question "Where can I get help or provide feedback for using a PhET Interactive Simulation?"
     For anything involving specific PhET Interactive Simulations, see the [PhET website](https://phet.colorado.edu).
 
     - To request **new PhET Simulations or new features in PhET Simulations**, follow the links on the [Getting Started section of the Help Center](https://phet.colorado.edu/en/help-center/guides#:~:text=I%20have%20a%20sim%20idea.%20Where%20can%20I%20send%20it%3F).
     - **For help or questions related to using PhET Simulations**, please see our [website](https://phet.colorado.edu/en/help-center/guides) or e-mail [phethelp@colorado.edu](mailto:phethelp@colorado.edu).
     - **To report a problem for a specific PhET Simulation**. Open the PhET menu on the navigation bar of the simulation and select “Report a Problem…” to submit a bug report using the provided form.
+
+??? question "My question isn't here! Where can I find development specific questions?"
+    Head over to [Frequently Asked Questions](./guides/faqs.md) in the Guides section for more questions specifically asked about developing in the SceneryStack framework.
 
 ![Interactive Music Video made with SceneryStack](assets/cathedral.gif)
 
