@@ -25,4 +25,6 @@ A [community-created guide from HNM Simulations](https://nm.mathforcollege.com/n
 
 Lastly, look through [examples](../simulation-examples.md)! There are well over one hundred PhET simulations and many community-created simulations to use as resources and inspiration. We look forward to learning about your creations!
 
+The simulation [*Molarity*](https://github.com/phetsims/molarity) is a good sim to look at since it is simple and will give you a good overview of the guts of the SceneryStack and simulation architecture (you will see some code related to [accessibility](../../accessibility/scenery_a11y.md), which can be illustrative but not required).
+
 If you have any questions or need further assistance, please head over to the [Discussions or chat platforms](../../join.md).
