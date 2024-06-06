@@ -26,6 +26,8 @@ SceneryStack is in its early stages of becoming an independent community, distin
 
 *Interactive simulation created by PhET using SceneryStack*
 
+{TODO: VISION}
+
 ## Why use SceneryStack?
 
 Wondering why SceneryStack might be your go-to choice for creating and rendering interactive content on the web? While there are numerous libraries available, SceneryStack stands out with its unique offerings in flexibility and accessibility. If you're looking for a comprehensive, scalable, and up-to-date platform then SceneryStack is tailored for you!

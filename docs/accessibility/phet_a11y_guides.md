@@ -1,7 +1,7 @@
 # Accessibility using `Scenery`
 
 !!! tip inline end
-    You can also find tips for accessibly integrating features in some libraries (e.g., [`sun` UI components](https://github.com/phetsims/sun/tree/main/doc)).
+    You can also find tips for accessibly integrating features in some libraries (e.g., [`sun` UI components](https://github.com/phetsims/sun/tree/main/doc)). Much of this is organized within the in-progress [PhET Style Guide, Binder](https://phetsims.github.io/binder/).
 
 Find important information about integrating accessibility and inclusivity into your SceneryStack project by getting up to speed with [Accessibility in Scenery](https://phetsims.github.io/scenery/doc/accessibility/accessibility.html).
 
@@ -11,10 +11,12 @@ The following resources are intended for use when implementing accessibility and
 
 <div class="grid cards" markdown>
 
+- [PhET Style Guide, Binder](https://phetsims.github.io/binder/)
 - [Dynamic String Layout](../info-sync/dynamic-string-layout-quickstart.md)
 - [Interactive Highlights](../info-sync/interactive-highlights-quickstart-guide.md)
 - [Interactive Description for Screen Readers](../info-sync/interactive-description-technical-guide.md)
 - [Accessible Preferences Guidelines](../info-sync/accessible-preferences-quickstart-guide.md)
+- [Alternative Input](../info-sync/alternative-input-quickstart-guide.md)
 
 </div>
 
