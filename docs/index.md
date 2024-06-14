@@ -24,49 +24,49 @@ SceneryStack is in its early stages of becoming an independent community, distin
 
 ![Interactive in action with SceneryStack](assets/cck-bulb.gif)
 
-*Interactive simulation created by PhET using SceneryStack*
+*[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-ac) created by PhET using SceneryStack*
 
-{TODO: VISION}
+<!-- TODO: VISION -->
 
 ## Why use SceneryStack?
 
 Wondering why SceneryStack might be your go-to choice for creating and rendering interactive content on the web? While there are numerous libraries available, SceneryStack stands out with its unique offerings in flexibility and accessibility. If you're looking for a comprehensive, scalable, and up-to-date platform then SceneryStack is tailored for you!
 
-=== "🌟 **Core Features**"
+### Core Features
 
-    - 🖥️ **Cross-Platform Capabilities**
-    - 🎨 **Pixel-Perfect Design**
-    - 👆 **Swipe-to-Snag Functionality**
-    - 🖱️ **Enhanced Touch and Mouse Areas**
-    - 🌍 **Ready for Internationalization** (with examples of implementation)
-    - 🛠️ **Rich Component Library** (with support to build your own)
-    - 📱 **Optimized for High Pixel Density Devices**
-    - 🔍 **TypeScript Integration** (ensuring type safety + autocomplete)
-    - 🎲 **Support for Multiple Rendering**: SVG, Canvas, or WebGL
-    - 📐 **Innovative Layout Engine**
-    - 🎭 **CSS Abstraction**
-    - ⚡ **Real-Time Updates with Axon Property.link**
-    - ⬇️ **Downloadable, Fully Offline, Single-File Artifacts**
+<div class="grid cards" markdown>
 
-=== "♿ **Accessibility Features**"
+- 🖥️ **Cross-Platform Capabilities**
+- ⬇️ **Downloadable, Fully Offline, Single-File Artifacts**
+- 🎨 **Pixel-Perfect Design & Color Profile Support**: Including optimization for high pixel density devices
+- 🎭 **CSS Abstraction & Animation Support (Twixt)**
+- 🔍 **TypeScript Integration** ensuring type safety & autocomplete
+- 🔄 **Declarative APIs** for optimal performance/quality adjustments
+- 🗑️ **Garbage Collector-Friendly Design** using pooling
+- ⚡ **Real-Time Updates with Property.link (Axon)**
+- 🖱️ **Enhanced Touch and Mouse Areas** and extended touch handling including Swipe-to-Snag functionality
+- ⌨️ **Extendable Input System** that upholds foundational accessibility
+- 🛠️ **Rich Component Library** with support for accessibiltiy and to build your own
+- 🎬 **Support for Multiple Rendering** with seamless functionality across SVG, Canvas, and WebGL
+- 📐 **Innovative Layout Engine** with advanced layout, shape computations, and CAG for interface components
+- 🌍 **Ready for Internationalization** with examples of implementation
+- 🖼️ **I-frame Support** for final project embedding anywhere across the web
+- 📊 **Support for Charts and Graphs (Bamboo)**
 
-    - 📖 **Parallel Document Object Model (PDOM)** ensuring screen reader accessibility ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8))
-    - 🗣️ **Customizable, Dynamic Spoken Content** through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4))
-    - ⌨️ **API to Determine Keyboard Traversal Order**
-    - 🔍 **In-App Zooming Features**: Pinch-to-zoom and panning
+</div>
 
-=== "💡 **Technical Excellence**"
+### Accessibility Features
 
-    - 🔄 Declarative APIs for optimal performance/quality adjustments
-    - 🎬 Seamless functionality across SVG, Canvas, and WebGL
-    - ✋ An input system that upholds extended touch handling and foundational accessibility
-    - 📏 Advanced layout, shape computations, and CAG for interface components
-    - 🗑️ A garbage collector-friendly design using pooling
-    - 📚 A library of UI components known for their reliability and adaptability
+<div class="grid cards" markdown>
 
-With SceneryStack, not only will your final product be streamlined and efficient (serving in single HTML/XHTML without any external assets), but you'll also benefit from a codebase that promotes readability and ease of maintenance.
+- 📖 **Parallel Document Object Model (PDOM)** ensuring screen reader accessibility ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8))
+- 🗣️ **Customizable, Dynamic Spoken Content** through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4))
+- ⌨️ **API to Determine Keyboard Traversal Order**
+- 🔍 **In-App Zooming Features**: Pinch-to-zoom and panning
+- ⏹️ **Interactive Highlighting:** extends visual accessibility features inherent to keyboard/focus input to pointer/touch.
+- 🔊 **Sound / Sonification:** Dedicated library (Tambo) for integrating Web Audio, including support for screen-focused audio and and sound modulation, as well as a library of UI sounds.
 
-**Choose SceneryStack** 🚀 for a blend of performance, quality, and user-centric design. Welcome to a world of seamless web interactivity! 🌐
+</div>
 
 ## Getting Started
 
