@@ -16,8 +16,8 @@
 
 ## What is SceneryStack?
 
- SceneryStack is a community built around a [collection of HTML5/TypeScript development libraries](./guides/scenerystack_list.md) in the Model-View-Controller framework that can be used **together or separately** to create a multimodal and accessible, web interactive. This includes support for robust accessibility features like dynamic and navigatable screen-reader descriptions. SceneryStack offers libraries specifically tailored to interactive, educational simulation development, in addition to being suitable for general web interactive development.
- 
+ SceneryStack is a community built around a [collection of HTML5/TypeScript development libraries] in the Model-View-Controller framework that can be used **together or separately** to create a multimodal and accessible, web interactive. This includes support for robust accessibility features like dynamic and navigatable screen-reader descriptions. SceneryStack offers libraries specifically tailored to interactive, educational simulation development, in addition to being suitable for general web interactive development.
+
 The development libraries were created by [PhET Interactive Simulations](https://phet.colorado.edu/) to create educational interactive simulations.
 
 SceneryStack is in its early stages of becoming an independent community, distinct from PhET Interactive Simulations, and we're excited to see where it goes!
@@ -26,6 +26,7 @@ SceneryStack is in its early stages of becoming an independent community, distin
 
 *[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-ac) created by PhET using SceneryStack*
 
+[GET STARTED](./guides/pathways.md){ .md-button .md-button--primary }
 <!-- TODO: VISION -->
 
 ## Why use SceneryStack?
@@ -70,7 +71,11 @@ Wondering why SceneryStack might be your go-to choice for creating and rendering
 
 ## Getting Started
 
+[GET STARTED](./guides/pathways.md){ .md-button .md-button--primary }
+
 Head over to [Guides](./guides/pathways.md) to choose your development path and get started.
+
+[See the full list of libraries.](./guides/scenerystack_list.md)
 
 ## Joining the Community and Contributing 🤝
 

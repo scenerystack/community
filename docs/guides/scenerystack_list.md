@@ -6,6 +6,10 @@
 !!! warning
     All new code in SceneryStack is being developed in TypeScript, but some older repositories still contain JavaScript.
 
+Looking for the best way to start using SceneryStack? Check out the [Pathways](./guides/pathways.md) guide to get started!
+
+[GET STARTED](./guides/pathways.md){ .md-button .md-button--primary }
+
 ## SceneryStack: Core
 
 | **Repo** | **Function** | **Language** | **Description**                                                                                                                                                                                                                                                                                            |
