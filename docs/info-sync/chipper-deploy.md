@@ -209,13 +209,13 @@ For deploying a production version, execute either:
 grunt production --brands={{BRANDS}} --branch={{BRANCH}}
 ```
 
-for a published, non-prototype sim, or
+for a full production (non-prototype) sim, or
 
 ```sh
 grunt prototype --brands={{BRANDS}} --branch={{BRANCH}}
 ```
 
-for a published sim.
+for a prototype sim.
 
 For all of these, follow the prompts. It should handle all of the steps in the older deployment checklist, and will
 notify you about any additional tasks that you will need to take afterwards.
@@ -326,7 +326,7 @@ steps for this are:
    For example, you can run this to add back protection rules to john-travoltage.
 
   ```
-  node perennial/js/scripts/protect-branches-for-repo.js john-travoltage
+  sage run perennial/js/scripts/protect-branches-for-repo.js john-travoltage
   ```
 
 # Deploying pre-chipper-2.0 things
