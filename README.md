@@ -18,7 +18,7 @@
 
 ## What is SceneryStack?
 
- SceneryStack is a [collection of development libraries](https://scenerystack.github.io/community/guides/scenerystack_list/) built around a Model-View-Controller framework that can be used **together or separately** to create a multimodal and accessible, web interactive. The [PhET Project](https://phet.colorado.edu/) uses many or all of these libraries when creating an educational interactive simulation. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations and PhET Interactive Simulation development.
+[SceneryStack](https://scenerystack.github.io/community/) is a collection of development libraries built around a Model-View-Controller framework that can be used **together or separately** to create a multimodal and accessible, web interactive. The [PhET Project](https://phet.colorado.edu/) uses many or all of these libraries when creating an educational interactive simulation. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations and PhET Interactive Simulation development.
 
 See our [documentation website](https://scenerystack.github.io/community/) for more details, including information for getting started or joining the community!
 
