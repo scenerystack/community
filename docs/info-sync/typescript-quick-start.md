@@ -14,15 +14,15 @@ known problems, etc.
 
 1. Clone missing repos by running `perennial/bin/clone-missing-repos.sh`. This ensures that you have everything.
 2. Pull all repos by running `perennial/bin/pull-all.sh`. This ensures that you have the latest version of everything.
-3. `npm install` in chipper. This ensures that you have the TypeScript compiler, which is called `tsc`
-4. Add an alias like this to your terminal `alias tsc='node /my-path-to/chipper/node_modules/typescript/bin/tsc'`
+3. `npm install` in chipper. This ensures that you have the TypeScript compiler, which is called `tsc`. You can use
+   `grunt check` in your simulation repo to run type-checking as you develop.
 5. Mark chipper/dist/ as excluded from your IDE. You can create that directory eagerly now, or wait until chipper/dist/
    is created by a compilation step below. Compiled code will be written to chipper/dist/.
 6. Update your IDE to use the code style file from `phet-info/ide/idea/phet-idea-codestyle.xml`. You may need to
    re-import the xml file so that your IDE picks up any changes related to TypeScript. Your IDE may not stay in sync
    with what is checked into phet-info.
 7. Turn on TypeScript support in WebStorm: Preferences > Languages & Frameworks > TypeScript. Make sure you are using
-   your system's absolute path for `chipper/node_modules/typescript`, turn on "TypeScript language service" and "Show
+   your system's absolute path for `perennial-alias/node_modules/typescript`, turn on "TypeScript language service" and "Show
    project errors". Turn off "Recompile on changes".
 8. Sublime also has an officially-supported plugin.
 
@@ -32,17 +32,12 @@ known problems, etc.
    see https://github.com/phetsims/chipper/issues/1121)
 
 ```json
-    "js/**/*",
-    "images/**/*",
-    "mipmaps/**/*",
-    "sounds/**/*",
-```
-
-2. To add support for your repo to type-check along with the rest of the project add it
-   to `chipper/tsconfig/all/tsconfig.json`.
-
-```json
-"../../../{{REPO}}/js/**/*"
+[
+  "js/**/*",
+  "images/**/*",
+  "mipmaps/**/*",
+  "sounds/**/*"
+]
 ```
 
 Congratulations!  Now the repo is TypeScript-capable. You can commit these changes if you wish.
