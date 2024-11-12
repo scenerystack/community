@@ -1,26 +1,16 @@
 # <img src="/docs/assets/scenerystack-square.png" width="50"> SceneryStack Community Website Repository
 
-[![Website](https://img.shields.io/badge/website-blue?logo=markdown&logoColor=yellow)](http://scenerystack.org)
-
-<p>
-    <a href="https://github.com/orgs/scenerystack/discussions">
-        <img src="https://img.shields.io/github/discussions/scenerystack/community" alt="SceneryStack GitHub Discussions">
-    </a>
-    <a href="https://matrix.to/#/##scenerystack:matrix.org">
-        <img src="https://img.shields.io/badge/chat-matrix-green" alt="invite link to Matrix chat">
-    </a>
-    <a href="https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA">
-        <img src="https://img.shields.io/badge/chat-slack-purple" alt="invite link to Slack chat">
-    </a>
-</p>
-
+[![Website](https://img.shields.io/badge/scenerystack-website-blue)](http://scenerystack.org)
+[![Discussions](https://img.shields.io/github/discussions/scenerystack/community)](https://github.com/orgs/scenerystack/discussions)
+[![Slack chat](https://img.shields.io/badge/chat-slack-purple)](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
+[![Matrix chat](https://img.shields.io/badge/chat-matrix-green)](https://matrix.to/#/##scenerystack:matrix.org)
 ![GitHub](https://img.shields.io/github/license/scenerystack/community)
 
 ## Website for the SceneryStack developer community
 
 This repository houses the documentation and files necessary to build the [SceneryStack](http://scenerystack.org/) website.
 
-SceneryStack is an HTML5 development framework that can be used to create a multimodal, accessible web interactives. The [PhET Project](https://phet.colorado.edu/) uses many or all of these libraries when creating an educational interactive simulation. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations.
+SceneryStack is an HTML5 development framework for creating multimodal, accessible web interactives. The [PhET Project](https://phet.colorado.edu/) uses many or all of these libraries when creating an educational interactive simulation. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations.
 
 See below for instructions on editing or contributing to the SceneryStack documentation:
 
