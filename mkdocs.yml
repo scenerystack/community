@@ -37,8 +37,8 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    - toc.follow
-    # - toc.integrate
+    # - toc.follow
+    - toc.integrate
   favicon: assets/scenerystack-round.png
   logo: assets/scenerystack-round.png
   name: material
@@ -123,7 +123,6 @@ nav:
     - Guides:
       - guides/pathways.md
       - Stack List: guides/scenerystack_list.md
-      - FAQ: guides/faqs.md
       - Web Development:
         - Scenery and phet-lib: guides/scenery.md
         - (pending) Walkthrough: guides/walkthrough.md
@@ -150,6 +149,7 @@ nav:
         - Roadmap: roadmap.md
     - Accessibility Resources:
       - accessibility/phet_a11y_guides.md
+    - FAQ: guides/faqs.md
 
 
 
