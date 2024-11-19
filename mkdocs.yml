@@ -125,6 +125,7 @@ nav:
       - Stack List: guides/scenerystack_list.md
       - FAQ: guides/faqs.md
       - Web Development:
+        - SceneryStack Quickstart: guides/scenerystack-quickstart.md
         - Scenery and phet-lib: guides/scenery.md
         - (pending) Walkthrough: guides/walkthrough.md
       - Simulation Development:
