@@ -1,0 +1,19 @@
+.rocket {
+    color: #ff8800;
+}
+
+@keyframes rocket {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+  .rocket {
+    animation: rocket 1000ms infinite;
+  }
+
+.md-button {
+    background-color: aqua;
+}

@@ -5,10 +5,10 @@
 ??? question "How do I get started with SceneryStack?"
     Head over to the [Development Pathways Guide](pathways.md).
 
-??? question "How do I get started making a simulation?"
-    Head over to the [Development Pathways Guide for Path 2](pathways.md#path-2-using-scenerystack-to-make-interactive-stem-simulations).
+??? question "How do I get started If I want to make a simulation?"
+    Head over to the [Development Pathways Guide for Path B](pathways.md#path-b-using-scenerystack-framework-to-make-highly-interactive-experiences).
 
-    The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+    The best resources at this time can be found in the [Development Overview](../info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](../guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in contracting with PhET to make simulations:**
     See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.
@@ -20,15 +20,13 @@
 
     PhET Interactive Simulations uses `tandem` when creating the [PhET-iO feature set](https://phet-io.colorado.edu/) for clients.
 
-    Generally, it is advised that you avoid, ignore, or remove the use of `tandem` in your SceneryStack code, unless you are working with PhET to create a simulation.
-
 ??? question "How do I create my own brand for my simulation project?"
     Instructions for creating your own brand can be found in the [`brand` repository README](https://github.com/phetsims/brand?tab=readme-ov-file#readme).
 
     Note: The "phet" and "phet-io" brands are reserved for use by PhET Interactive Simulations only. The PhET logo is a registered trademark and is only permitted for use by the PhET team at the University of Colorado. The "adapted-from-phet" brand is encouraged for usage in simulations with minor modifications. It provides a black-and-white "Adapted from PhET" logo. This brand can also be used for new simulations based on the PhET libraries, but another option is to create your own brand, which will allow you to easily integrate your own splash screen, company logo and other features.
 
 ??? question "Do I have to brand my SceneryStack projects with PhET?"
-    No! You can brand it however you like, but please contact [PhET Interactive Simulations](https://phet.colorado.edu/) before using any PhET branding. See [Licensing]() below for more information.
+    No! You can brand it however you like, but please contact [PhET Interactive Simulations](https://phet.colorado.edu/) before using any PhET branding.
 
     See the [brand](https://github.com/phetsims/brand) library for help creating your own brand.
 

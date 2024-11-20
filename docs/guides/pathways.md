@@ -5,15 +5,19 @@
 
 Ready to get started with SceneryStack? Choose your path:
 
-## Path 1: Using SceneryStack for Web Projects
+## Path A: Using SceneryStack for Web Projects
 
-Looking to take advantage of SceneryStack in your web project? You'll likely want to get started with the [Scenery or the phet-lib distribution](scenery.md).
+[Integrate SceneryStack into your Project](scenery.md){ .md-button .md-button--primary }
 
-## Path 2: Using SceneryStack to Make Interactive STEM Simulations
+Looking to take advantage of SceneryStack in your web project? You'll likely want to get started with the [the scenerystack npm distribution](scenery.md).
 
-Looking to make your own interactive STEM simulation? Whether you plan to work with the PhET project or brand it yourself. You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](scenery.md), but then head over to [Simulation Development](./simulation/simulation-development.md) to set your environment up to make interactive sims. Don't forget to get up to speed on all the necessary [software design patterns](../info-sync/phet-software-design-patterns.md) and try out some [introductory exercises](../info-sync/scenerystack-exercises.md).
+## Path B: Using SceneryStack Framework to Make Highly Interactive Experiences
 
-## Path 3: I don't know JavaScript development, how can I get started?
+[Use the Full Framework](./simulation/simulation-development.md){ .md-button .md-button--primary }
+
+Want to leverage SceneryStack to its fullest? Perhaps itching to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself. You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](scenery.md), but then head over to [Simulation Development](./simulation/simulation-development.md) to set your environment up to make interactive sims. Don't forget to get up to speed on all the necessary [software design patterns](../info-sync/phet-software-design-patterns.md) and try out some [introductory exercises](../info-sync/scenerystack-exercises.md).
+
+## Path C: I don't know JavaScript development, how can I get started?
 
 Welcome to the wonderful world of interactive web development! There are many ways to get started and many resources on the internet to support you.
 

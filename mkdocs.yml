@@ -3,18 +3,23 @@ site_name: SceneryStack
 site_url: https://scenerystack.org/
 site_author: PhET Interactive Simulations
 site_description: >-
-  This site houses resources for the developer community using SceneryStack
-  to create inclusive, multimodal web interactives in HTML5.
+  The TypeScript webstack for creatng inclusive, multimodal web interactives.
 
 # Repository
 repo_name: community
 repo_url: https://github.com/scenerystack/community
 edit_uri: edit/main/docs
 
+extra_css:
+  - stylesheets/extra.css
+
+# extra_javascript:
+#   - javascripts/extra.js
+
 # Configuration
 theme:
   name: material
-  # custom_dir: docs/overrides
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -49,15 +54,15 @@ theme:
       icon: material/brightness-auto
       name: Switch to light mode
   - media: '(prefers-color-scheme: light)'
-    primary: grey
+    primary: indigo
     accent: light blue
     scheme: default
     toggle:
       icon: material/weather-sunny
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
-    primary: blue
-    accent: deep orange
+    primary: indigo
+    accent: light blue
     scheme: slate
     toggle:
       icon: material/weather-night
@@ -100,8 +105,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -129,16 +134,16 @@ nav:
     - Overview: index.md
     - Getting Started:
       - guides/pathways.md
-      - Web Development:
+      - A. Web Integration:
         - Scenery and phet-lib: guides/scenery.md
-        - (pending) Walkthrough: guides/walkthrough.md
-      - Simulation Development:
+      - B. Framework:
         - guides/simulation/simulation-development.md
-        - PhET Development Guide: info-sync/simulation-development-overview.md
-        - Intro Sim Exercises: info-sync/scenerystack-exercises.md
-        - Software Design Patterns: info-sync/phet-software-design-patterns.md
-        - PhET Sim Tooling: info-sync/chipper-deploy.md
-        - PhET TypeScript Conventions: info-sync/typescript-conventions.md
+        - 1. PhET Development Guide: info-sync/simulation-development-overview.md
+        - 2. Introductory Exercises: info-sync/scenerystack-exercises.md
+        - 3. Software Design Patterns: info-sync/phet-software-design-patterns.md
+        - Resources from PhET:
+          - PhET Sim Tooling: info-sync/chipper-deploy.md
+          - PhET TypeScript Conventions: info-sync/typescript-conventions.md
       - Examples:
         - guides/scenery-examples.md
         - guides/simulation-examples.md
