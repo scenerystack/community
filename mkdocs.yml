@@ -69,8 +69,6 @@ theme:
 # Plugins
 plugins:
   - blog
-  - social:
-      enabled: !ENV [CI, false]
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
