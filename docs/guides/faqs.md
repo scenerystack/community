@@ -38,21 +38,24 @@
 ## General Questions
 
 ??? question "What is this site and community for?"
-    Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](./guides/scenerystack_list.md), maintained by the software developers at the PhET Interactive Simulations project.
+    Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](./scenerystack_list.md).
 
-    This repository is not for discussions and help regarding PhET's educational, interactive simulations. For questions and comments regarding PhET's simulations, please keep reading or see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
+    This repository is not for discussions and help regarding the PhET Projects's educational, interactive simulations. For questions and comments regarding PhET Simulations, see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 
 ??? question "What is the relationship between SceneryStack and PhET Interactive Simulations?"
-    SceneryStack is the HTML5/JavaScript/TypeScript APIs (detailed above) that PhET Interactive Simulations are built on. The use of SceneryStack **is not limited to creating interactive science and math simulations!** It can be used to support the creation of all web interactives. SceneryStack supports rich and inclusive multimodal interaction, including the architecture to build robust alternative input and screen reader access when used in conjunction with an [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources).
+    SceneryStack is the web development framework that PhET Interactive Simulations are built on. 
+    
+    The use of SceneryStack **is not limited to creating interactive science and math simulations!** It can be used to support the creation of all web interactives. SceneryStack supports rich and inclusive multimodal interaction, including the architecture to build robust alternative input and screen reader access when used in conjunction with an [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources).
 
     PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers at the PhET Interactive Simulations Project. They are developed using [research-based, pedagogically-minded, and inclusive design methods](https://phet.colorado.edu/).
 
 ??? question "What happens to my projects if SceneryStack stops being supported?"
-    SceneryStack is the foundation of the [PhET Interactive Simulations](https://phet.colorado.edu/) project. It is used in all of PhET's simulations and is actively maintained by the PhET team. PhET has no plans to stop supporting SceneryStack, so long as PhET Interactive Simulations continue to exist.
+    SceneryStack is the foundation of the [PhET Interactive Simulations](https://phet.colorado.edu/) project. It is used in all of PhET's simulations. Developers on the PhET team make up a core portion of the SceneryStack maintenance team. PhET has no plans to stop supporting SceneryStack, so long as PhET Interactive Simulations continue to exist.
 
 ??? question "Where can I get help or provide feedback for using a PhET Interactive Simulation?"
     For anything involving specific PhET Interactive Simulations, see the [PhET website](https://phet.colorado.edu).
 
+    From PhET:
     - To request **new PhET Simulations or new features in PhET Simulations**, follow the links on the [Getting Started section of the Help Center](https://phet.colorado.edu/en/help-center/guides#:~:text=I%20have%20a%20sim%20idea.%20Where%20can%20I%20send%20it%3F).
     - **For help or questions related to using PhET Simulations**, please see our [website](https://phet.colorado.edu/en/help-center/guides) or e-mail [phethelp@colorado.edu](mailto:phethelp@colorado.edu).
     - **To report a problem for a specific PhET Simulation**. Open the PhET menu on the navigation bar of the simulation and select “Report a Problem…” to submit a bug report using the provided form.

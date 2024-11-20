@@ -3,8 +3,8 @@ site_name: SceneryStack
 site_url: https://scenerystack.org/
 site_author: PhET Interactive Simulations
 site_description: >-
-  This site houses resources for the developer community using the libraries within SceneryStack 
-  to create interactive simulations and other web interactives in HTML5.
+  This site houses resources for the developer community using SceneryStack
+  to create inclusive, multimodal web interactives in HTML5.
 
 # Repository
 repo_name: community
@@ -21,11 +21,11 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
     - header.autohide
     # - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
@@ -37,32 +37,40 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.follow
-    - toc.integrate
+    - toc.follow
+    # - toc.integrate
   favicon: assets/scenerystack-round.png
   logo: assets/scenerystack-round.png
   name: material
   palette:
+    # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
   - media: '(prefers-color-scheme: light)'
-    primary: blue
-    accent: orange
+    primary: grey
+    accent: light blue
     scheme: default
     toggle:
-      icon: material/brightness-7
+      icon: material/weather-sunny
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
     primary: blue
-    accent: orange
+    accent: deep orange
     scheme: slate
     toggle:
-      icon: material/brightness-4
-      name: Switch to light mode
+      icon: material/weather-night
+      name: Switch to system preference
   font:
-    text: Roboto
+    text: Roboto Condensed
     code: Roboto Mono
 
 # Plugins
 plugins:
+  - blog
+  - social:
+      enabled: !ENV [CI, false]
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -90,6 +98,7 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
@@ -119,10 +128,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-    - Home: index.md
-    - Guides:
+    - Overview: index.md
+    - Getting Started:
       - guides/pathways.md
-      - Stack List: guides/scenerystack_list.md
       - Web Development:
         - Scenery and phet-lib: guides/scenery.md
         - (pending) Walkthrough: guides/walkthrough.md
@@ -136,10 +144,17 @@ nav:
       - Examples:
         - guides/scenery-examples.md
         - guides/simulation-examples.md
-      - Maintenance:
-        - API Breaking Changes: guides/breaking.md
+      - Maintenance: guides/breaking.md
+    - Reference: 
+      - Libraries: guides/scenerystack_list.md
+      - Scenery: https://phetsims.github.io/scenery/
+      - Dot: https://phetsims.github.io/dot/
+      - Kite: https://phetsims.github.io/kite/
+      - Alpenglow: https://phetsims.github.io/alpenglow/
+    - Accessibility Resources:
+      - accessibility/phet_a11y_guides.md
     - Community:
-      - Join Us!: join.md 
+      - Join Us: join.md 
       - Community Guidelines: CODE_OF_CONDUCT.md
       - Sustainability Plan: sustainability_plan.md
       - Contribute:
@@ -147,8 +162,6 @@ nav:
         - Contributor License Agreement: CLA.md
         - Coding Conventions: info-sync/coding-conventions.md
         - Roadmap: roadmap.md
-    - Accessibility Resources:
-      - accessibility/phet_a11y_guides.md
     - FAQ: guides/faqs.md
 
 

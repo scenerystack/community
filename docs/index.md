@@ -1,16 +1,28 @@
-# <img src="assets/scenerystack-square.png" width="50"> SceneryStack - Web Interactives for the Multimodal Web
+---
+hide:
+  - navigation
+  - toc
+---
 
-SceneryStack is an HTML5 development framework for creating multimodal, accessible web interactives. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
+# SceneryStack
+
+## Create Highly Interactive Content for a Multimodal and Accessible Web
+
+SceneryStack is an Typescript development framework for creating multimodal, accessible HTML5 web interactives. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored to STEM interactive simulations. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
 
 [GET STARTED](./guides/pathways.md){ .md-button .md-button--primary }
 
-The development libraries were originally created by [PhET Interactive Simulations](https://phet.colorado.edu/) to create educational interactive simulations.
+The development libraries within SceneryStack were originally created by [PhET Interactive Simulations](https://phet.colorado.edu/) to create educational interactive simulations. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
 
-**SceneryStack is in its early stages of becoming an independent community, distinct from PhET Interactive Simulations, and we're excited to see where it goes!**
+{==**SceneryStack is in the early stages of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**==}
+
+---
 
 ![Interactive in action with SceneryStack](assets/cck-bulb.gif)
 
-*[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-ac) created by PhET using SceneryStack*
+_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-ac) created by PhET using SceneryStack_
+
+---
 
 ## Core Features: Flexibility and Accessibility
 
@@ -45,11 +57,11 @@ The development libraries were originally created by [PhET Interactive Simulatio
 
 [GET STARTED](./guides/pathways.md){ .md-button .md-button--primary }
 
-Head over to [Guides](./guides/pathways.md) to choose your development path and get started.
+Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
 
-[See the full list of libraries.](./guides/scenerystack_list.md)
+Choose your development path and [get started](./guides/pathways.md).
 
-## Joining the Community and Contributing 🤝
+## Community and Contributing 🤝
 
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
 
@@ -59,14 +71,17 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 Head over to [Frequently Asked Questions](./guides/faqs.md) for questions asked about developing in the SceneryStack framework and SceneryStack generally.
 
-![Interactive Music Video made with SceneryStack](assets/cathedral.gif)
+<!-- ![Interactive Music Video made with SceneryStack](assets/cathedral.gif) -->
 
-*Interactive Music Video by @jessegreenberg (Github handle) using SceneryStack*
+---
 
-## Licensing
-The libraries contained within SceneryStack, including `scenerystack/community`, are licensed via the MIT License and freely available for use by anyone. Authors using SceneryStack may choose any license for their creations.
+<iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Click to Load"></iframe>
+
+_[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jessegreenberg using SceneryStack_
+
+## License
+
+The libraries contained within SceneryStack, including this website, are under the MIT License and freely available for use by anyone. Authors using SceneryStack may choose any license for their creations.
 
 ??? warning "Licensing for PhET Interactive Simulations"
-    The *simulation-specific source code* for PhET Interactive Simulations is typically GPLv3 licensed, but depends on the details of their development cycle (e.g., funding, partnerships, and third-party libraries).
-
-    PhET does not engage in licensing *simulation-specific source code* to commercial entities at this time. Commercial partners interested in licensing a *Simulation* should see the PhET Interactive Simulations website for [partnership inquiries](https://phet.colorado.edu/en/partnerships).
+The _simulation source code_ for PhET Interactive Simulations is typically GPLv3 licensed or similar. For everything involving PhET Interactive Simulations, including partnerships, [see their website](https://phet.colorado.edu/).
