@@ -84,7 +84,7 @@ Method 1 (recommended): Get all PhET repos
 
 * Change directory to phetsims: `cd phetsims`
 * Get [phetsims/perennial](https://github.com/phetsims/perennial): `git clone https://github.com/phetsims/perennial`
-* Run "clone-missing-repos.sh": `./perennial/bin/clone-missing-repos.sh`
+* Run "clone-missing-repos.sh": `./perennial-alias/bin/clone-missing-repos.sh`
 
 Method 2: Manually get specific PhET repos
 
@@ -113,7 +113,7 @@ npm install
 ### Transpile TypeScript
 
 * Change directory to the build tools: `cd chipper/`
-* Run the TypeScript transpiler: `grunt transpile --watch` which starts a process that will auto-transpile
+* Run the TypeScript transpiler: `grunt transpile --live` which starts a process that will auto-transpile
   when files change.
 * For more details about TypeScript, please
   see [PhET's TypeScript Quick Start Guide](https://github.com/phetsims/phet-info/blob/main/doc/typescript-quick-start.md)
@@ -163,7 +163,7 @@ simulation using the template.
    `grunt create-sim --repo=acceleration-lab --author="Jane Doe"`
 6. In your simulation directory, run the transpiler watch process and specify your new repo as a target:
    `cd ../acceleration-lab`
-   `grunt output-js-project --watch`
+   `grunt output-js-project --live`
 7. Test the created simulation in the browser and make sure it launches. It should be a blank simulation. Write to the
    [SceneryStack Discussions forum](https://github.com/orgs/scenerystack/discussions) if you run into problems.
 
@@ -475,8 +475,8 @@ https://github.com/phetsims/chipper/blob/main/js/initialize-globals.js
 13. Install PhET's git hooks to run basic checks as part of the git lifecycle. Run this from the root of your checkout.
     First it clears any pre-existing commit hooks, then installs the new hooks.
 
-```
-perennial/bin/for-each.sh perennial/data/active-repos "rm .git/hooks/pre-commit; git init --template=../phet-info/git-template-dir"
+```sh
+perennial-alias/bin/for-each.sh perennial-alias/data/active-repos "rm .git/hooks/pre-commit; git init --template=../phet-info/git-template-dir"
 ```
 
 Getting to optimal performance on all supported platforms can be tricky--this section enumerates possible optimizations
