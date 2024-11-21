@@ -1,26 +1,26 @@
 phetsims/phet-info:
   - source: doc/phet-development-overview.md
-    dest: docs/info-sync/simulation-development-overview.md
+    dest: docs/info_sync/simulation_development_overview.md
   - source: doc/phet-dev-exercises.md
-    dest: docs/info-sync/scenerystack-exercises.md
+    dest: docs/info_sync/scenerystack_exercises.md
   - source: deployment-info/chipper-2.0.md
-    dest: docs/info-sync/chipper-deploy.md
+    dest: docs/info_sync/chipper_deploy.md
   - source: doc/accessible-preferences-quickstart-guide.md
-    dest: docs/info-sync/accessible-preferences-quickstart-guide.md
+    dest: docs/info_sync/accessible_preferences_quickstart_guide.md
   - source: doc/coding-conventions.md
-    dest: docs/info-sync/coding-conventions.md
+    dest: docs/info_sync/coding_conventions.md
   - source: doc/dynamic-string-layout-quickstart.md
-    dest: docs/info-sync/dynamic-string-layout-quickstart.md
+    dest: docs/info_sync/dynamic_string_layout_quickstart.md
   - source: doc/interactive-description-technical-guide.md
-    dest: docs/info-sync/interactive-description-technical-guide.md
+    dest: docs/info_sync/interactive_description_technical_guide.md
   - source: doc/interactive-highlights-quickstart-guide.md
-    dest: docs/info-sync/interactive-highlights-quickstart-guide.md
-  - source: doc/phet-software-design-patterns.md
-    dest: docs/info-sync/phet-software-design-patterns.md
+    dest: docs/info_sync/interactive_highlights_quickstart_guide.md
+  - source: doc/software_design_patterns.md
+    dest: docs/info_sync/software_design_patterns.md
   - source: doc/typescript-conventions.md
-    dest: docs/info-sync/typescript-conventions.md
+    dest: docs/info_sync/typescript_conventions.md
   - source: doc/typescript-quick-start.md
-    dest: docs/info-sync/typescript-quick-start.md
+    dest: docs/info_sync/typescript_quick_start.md
 
 
 

@@ -212,7 +212,7 @@ If any of these items fail, pause code review.
 ## **Coding Conventions**
 
 * [ ] Are coding conventions outlined in
-  PhET's [Coding Conventions](../../info-sync/coding-conventions.md) document
+  PhET's [Coding Conventions](../../info_sync/coding-conventions.md) document
   followed and adhered to? This document deals with PhET coding conventions. You do not need to exhaustively check every
   item in this section, nor do you necessarily need to check these items one at a time. The goal is to determine whether
   the code generally meets PhET standards.
@@ -220,7 +220,7 @@ If any of these items fail, pause code review.
 ## **TypeScript Conventions**
 
 * [ ] Are TypeScript conventions outlined in
-  PhET's [TypeScript Conventions](../../info-sync/typescript-conventions.md)
+  PhET's [TypeScript Conventions](../../info_sync/typescript-conventions.md)
   document followed and adhered to?
 
 ## **Math Libraries**
@@ -239,7 +239,7 @@ If any of these items fail, pause code review.
   expect (or guess!) by looking at the sim? Do the names of things correspond to the names that you see in the user
   interface?
 * [ ] Are appropriate design patterns used?
-  See [phet-software-design-patterns.md](../../info-sync/phet-software-design-patterns.md).
+  See [software_design_patterns.md](../../info_sync/software_design_patterns.md).
   If new or inappropriate patterns are identified, create an issue.
 * [ ] Is inheritance used where appropriate? Does the type hierarchy make sense?
 * [ ] Is composition favored over inheritance where appropriate?
@@ -313,7 +313,7 @@ various features, not all are always include. Ignore sections that do not apply.
 * [ ] Run the entire built sim HTML file through an [HTML validator](https://validator.w3.org/nu/#textarea), does the
   HTML pass?
 * [ ] If applicable, are good design patterns used for interactive description,
-  see [interactive-description-technical-guide.md](../../info-sync/interactive-description-technical-guide.md)
+  see [interactive-description-technical-guide.md](../../info_sync/interactive-description-technical-guide.md)
 * [ ] Does resetting the simulation also reset the entire PDOM?
 * [ ] Make sure accessibility strings aren't being adjusted with ascii specific javascript methods like `toUpperCase()`.
   Remember that one day these strings will be translatable

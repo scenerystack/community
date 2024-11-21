@@ -65,4 +65,4 @@
 !!! success "Add yours here!"
     Creating something? Let us know and get your project added here!
 
-For more complete examples, including full accessibility features, see the [Simulation Showcase](simulation-examples.md) page.
+For more complete examples, including full accessibility features, see the [Simulation Showcase](simulation_examples.md) page.

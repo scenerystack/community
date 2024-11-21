@@ -136,28 +136,34 @@ markdown_extensions:
 
 nav:
     - Overview: index.md
-    - Getting Started:
-      - guides/pathways.md
-      - A. Web Integration:
-        - Scenery and phet-lib: guides/scenery.md
-      - B. Framework:
-        - guides/simulation/simulation-development.md
-        - Sim Development Guide: info-sync/simulation-development-overview.md
-        - Introductory Exercises: info-sync/scenerystack-exercises.md
-        - Software Design Patterns: info-sync/phet-software-design-patterns.md
-        - Resources from PhET:
-          - PhET Sim Tooling: info-sync/chipper-deploy.md
-          - PhET TypeScript Conventions: info-sync/typescript-conventions.md
+    - Getting Started: 
+      - Choose Your Path: guides/pathways.md
+      - Setup: setup.md
+      - Web Integration: 
+        - Walkthrough: guides/scenery.md
+      - Framework: 
+        - Walkthrough: guides/simulation/framework.md
+        - Building: guides/framework/build.md
+        - Exercises: info_sync/scenerystack_exercises.md
+      - SceneryStack Development:
+        - Setting Up Development Environment: info_sync/simulation_development_overview.md
+        - SceneryStack Versioning: guides/versioning.md
       - Examples:
-        - guides/scenery-examples.md
-        - guides/simulation-examples.md
+        - SceneryStack Examples: guides/scenery_examples.md
+        - Simulation Examples: guides/simulation_examples.md
       - Maintenance: guides/breaking.md
     - Reference: 
       - Libraries: guides/scenerystack_list.md
-      - Scenery: https://phetsims.github.io/scenery/
-      - Dot: https://phetsims.github.io/dot/
-      - Kite: https://phetsims.github.io/kite/
-      - Alpenglow: https://phetsims.github.io/alpenglow/
+      - Software Design Patterns: 
+        - info_sync/software_design_patterns.md
+      - Resources from PhET:
+        - PhET Sim Tooling: info_sync/chipper_deploy.md
+        - PhET TypeScript Conventions: info_sync/typescript_conventions.md
+      - Library APIs:
+        - Scenery: https://phetsims.github.io/scenery/
+        - Dot: https://phetsims.github.io/dot/
+        - Kite: https://phetsims.github.io/kite/
+        - Alpenglow: https://phetsims.github.io/alpenglow/
     - Accessibility Resources:
       - accessibility/phet_a11y_guides.md
     - Community:
@@ -167,7 +173,7 @@ nav:
       - Contribute:
         - Contribution Guide: CONTRIBUTING.md
         - Contributor License Agreement: CLA.md
-        - Coding Conventions: info-sync/coding-conventions.md
+        - Coding Conventions: info_sync/coding_conventions.md
         - Roadmap: roadmap.md
     - FAQ: guides/faqs.md
 

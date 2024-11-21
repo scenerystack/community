@@ -207,7 +207,7 @@ We have 150+ repositories for the simulations and their dependencies, listed
 at: https://github.com/orgs/phetsims/repositories.
 
 PhET Simulations are based on a Model/View separation pattern. This pattern and others used in PhET Simulations are
-described at https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md
+described at https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md
 
 The tables below depict the most significant common code libraries used by PhET Simulations. The simulations provide
 their own model and view implementations often building with common code components. Salient relationships between repos

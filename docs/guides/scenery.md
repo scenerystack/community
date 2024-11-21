@@ -107,4 +107,4 @@ Often, the best documentation for each library is available in the code itself. 
 
 ## Examples
 
-Check out other projects that make use of SceneryStack libraries on the [Example Showcase](scenery-examples.md) page. You can also check out any [PhET or community-created interactive simulation](simulation-examples.md) to learn from as well.
+Check out other projects that make use of SceneryStack libraries on the [Example Showcase](scenery_examples.md) page. You can also check out any [PhET or community-created interactive simulation](simulation_examples.md) to learn from as well.

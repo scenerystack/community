@@ -124,7 +124,7 @@ class HalfLifeInformationNode extends Node {
 
 ### Options
 
-See https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-typescript and
+See https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#options-typescript and
 https://github.com/phetsims/wilder/blob/main/js/wilder/model/WilderOptionsPatterns.ts.
 
 #### Use `optionize` instead of `merge`

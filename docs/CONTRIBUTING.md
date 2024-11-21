@@ -1,10 +1,10 @@
 # Contribution Guide
 
-We're excited to have you here! Your interest in contributing to SceneryStack is appreciated, and this guide is here to assist you every step of the way. If you're curious about the differences between SceneryStack and PhET Interactive Simulations, we've covered that too!
+We're excited to have you here! Your interest in contributing to SceneryStack is very welcome and quite appreciated. Please read the following carefully, according to how you'd like to contribute to the community. Make sure your participation aligns with the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## How Can I Contribute?
 
-### 0. Contributing to Open Source
+### 0. Contributing to Open-Source Projects
 
 Never participated in an open-source project? Just ask in any of [our community platforms](join.md)!
 
@@ -12,12 +12,14 @@ You'll find some good general advice in resources such as this [article from Fre
 
 ### 1. Features and Bug Fixes
 
-!!! info
-    Please note that while documentation exists inside `scenerystack/community`, all library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). Keep this in mind when submitting contributions.
+!!! warning
+    Please note that while documentation and npm package exist inside `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). Keep this in mind when submitting contributions and remember to check your current version against the latest on the `main` branches.
 
 Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/phetsims/). Some libraries depend on others; for instance, `sun` is built upon `scenery` to design UI components.
 
-👉 If you're considering making an addition or a fix that isn't already documented, initiate by opening an issue. Once that's set, you can then submit a pull request with your changes.
+👉 If you're considering making an addition or a fix that isn't already documented, 
+1. initiate by opening an issue. 
+2. Once that's set, you can then submit a pull request with your changes.
 
 ### 2. Documentation Enhancements
 
@@ -68,7 +70,7 @@ Your feedback, queries, and suggestions are invaluable. Connect with our communi
 
 ??? info "I want to make an interactive simulation using SceneryStack! What should I do?"
     **If you are an individual or small group interested in or have made progress in making a new simulation:**
-    The best resources available to you can be found in the [Development Overview](./info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+    The best resources available to you can be found in the [Development Overview](./info_sync/simulation_development_overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation_examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in making new simulations:**
     See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.

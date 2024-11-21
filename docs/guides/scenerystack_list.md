@@ -8,7 +8,7 @@
 
 Looking for the best way to start using SceneryStack? Check out the [Pathways](./pathways.md) guide to get started!
 
-[GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](pathways.md){ .md-button .md-button--primary }
 
 ## SceneryStack: Core
 

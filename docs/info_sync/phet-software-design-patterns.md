@@ -31,22 +31,22 @@ point, but aren't in every sim, so they can be skimmed and referenced when neede
 
 ## Table of Contents
 
-* [Creator (with Drag Forwarding)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#creator-with-drag-forwarding)
-* [Dependency Injection](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#dependency-injection)
-* [Dispose](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#dispose)
-* [Enumeration](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#enumeration)
-* [Mixin and Trait](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#mixin-and-trait)
-* [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#model-view-controller-mvc)
-* [Model-View Transform](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#model-view-transform)
-* [Module](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#module)
-* [Namespace](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#namespace)
-* [Observer](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#observer)
-* [Options and Config (JavaScript)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-and-config-javascript)
-* [Options (TypeScript)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-typescript)
-* [Scenes](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#scenes)
-* [Singleton](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#singleton)
-* [State Machine](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#state-machine)
-* [Strategy](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#strategy)
+* [Creator (with Drag Forwarding)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#creator-with-drag-forwarding)
+* [Dependency Injection](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#dependency-injection)
+* [Dispose](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#dispose)
+* [Enumeration](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#enumeration)
+* [Mixin and Trait](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#mixin-and-trait)
+* [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#model-view-controller-mvc)
+* [Model-View Transform](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#model-view-transform)
+* [Module](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#module)
+* [Namespace](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#namespace)
+* [Observer](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#observer)
+* [Options and Config (JavaScript)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#options-and-config-javascript)
+* [Options (TypeScript)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#options-typescript)
+* [Scenes](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#scenes)
+* [Singleton](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#singleton)
+* [State Machine](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#state-machine)
+* [Strategy](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#strategy)
 
 ## Creator (with Drag Forwarding)
 
@@ -671,7 +671,7 @@ The PhET codebase follows a similar pattern for module structure as outlined bel
 - Imports: whatever import statements are required, in one single block
 - Class/etc.: Houses the main body of our module (attributes and elements)
 - NameSpace: Register our module to avoid conflicts (
-  see [Namespace](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#namespace)
+  see [Namespace](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#namespace)
   section)
 - Export default: exports the main object from the module
 
@@ -805,7 +805,7 @@ are `StringProperty`, `BooleanProperty`, `Vector2Property`, etc.
 ##### Role in MVC
 
 Please see
-the [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#model-view-controller-mvc)
+the [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#model-view-controller-mvc)
 section of this document for context.
 
 In short, the observer pattern acts as a key communicator within the model-view hierarchy of PhET simulations. The model
@@ -858,7 +858,7 @@ its listeners will be invoked.
 
 - Ensure that you aren't causing any memory leaks. Property holds references to its listeners, so, in the case above, if
   you were to dispose `BallNode` it would be kept by the Property and wouldn't be garbage collected. Reference
-  the [Dispose](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#dispose) section.
+  the [Dispose](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#dispose) section.
 - Generally, listeners don't normally set the Property that it is listening too. This is called a reentrant:
   ```js
   const massProperty = new NumberProperty( 4 );
@@ -894,7 +894,7 @@ If the `massProperty` OR the `accelerationProperty` is set to a different value,
 what the derivation function returns, which is passed the values of the dependencies in corresponding order.
 
 DerivedProperty usually has the same role in the MVC pattern, as
-outlined [above](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#role-in-mvc). It
+outlined [above](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#role-in-mvc). It
 is still a subtype of Property, so observers are notified when its value changes and observers are added through `link`
 and `lazyLink` methods. However, note that the value of a DerivedProperty instance cannot be set externally.
 
@@ -974,7 +974,7 @@ a [SceneryEvent](https://github.com/phetsims/scenery/blob/main/js/input/SceneryE
 
 View classes observing scenery input events are a key communicator in the model-view hierarchy. For instance, user input
 may propagate and affect model properties or may create new model objects, as described in
-the [Creator pattern](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#creator-with-drag-forwarding)
+the [Creator pattern](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#creator-with-drag-forwarding)
 section.
 
 As a reminder from above, Input Listeners (such as `DragListener`) are internally referenced in Node, so be sure to
@@ -986,7 +986,7 @@ Author: @pixelzoom, @denz1994
 
 **Note:** This is an obsolete pattern used in legacy JavaScript code. It's still recommended to read this section,
 especially since the subsection on **Nesting** still applies for TypeScript. For TypeScript code,
-see [Options (TypeScript)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-typescript)
+see [Options (TypeScript)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#options-typescript)
 .
 
 This pattern is used for parameterizing classes and methods, which we use to avoid an explosion of parameters. `options`
@@ -1169,7 +1169,7 @@ Author: @pixelzoom
 familiarity with `optionize` is needed to get the most out of the examples.
 
 Similar to the pattern described
-in [Options and Config (JavaScript)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-and-config-javascript)
+in [Options and Config (JavaScript)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#options-and-config-javascript)
 , this pattern is used to parameterize methods (most typically constructors) without having a large number of method
 parameters. It provides the additional benefit of type-checking.
 
@@ -1626,7 +1626,7 @@ export default class MyNode extends Node {
 ```
 
 (12) When applying
-a [mixin or trait](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#mixin-and-trait)
+a [mixin or trait](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#mixin-and-trait)
 , defining options types gets a little more complicated. Options must be included for _both_ the mixin/trait _and_ the
 class that the mixin/trait is applied to. This is when you should explicitly define `type ParentOptions`.
 
@@ -1667,7 +1667,7 @@ Author: @jessegreenberg
 A "Scene" in a PhET simulation is a collection of elements presented to the user. When a new scene is selected, elements
 of the previous scene will be swapped out for elements in the new scene. A single simulation Screen may have multiple
 Scenes. The implementation of a Scene should adhere to
-the [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#model-view-controller-mvc)
+the [Model-View-Controller (MVC)](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#model-view-controller-mvc)
 pattern and be implemented like any other component in a simulation. There is no base class called Scene which combines
 a SceneModel and a SceneView. Instead, model information for a Scene should exist with the rest of the simulation model
 and view code for a scene should exist with the rest of the simulation view code.
@@ -2007,4 +2007,4 @@ the name of the base class for the strategy followed by the name of the simulati
 
 ## Trait
 
-see [Mixin and Trait](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#mixin-and-trait)
+see [Mixin and Trait](https://github.com/phetsims/phet-info/blob/main/doc/software_design_patterns.md#mixin-and-trait)

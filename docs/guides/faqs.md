@@ -8,7 +8,7 @@
 ??? question "How do I get started If I want to make a simulation?"
     Head over to the [Development Pathways Guide for Path B](pathways.md#path-b-using-scenerystack-framework-to-make-highly-interactive-experiences).
 
-    The best resources at this time can be found in the [Development Overview](../info-sync/simulation-development-overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](../guides/simulation-examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+    The best resources at this time can be found in the [Development Overview](../info_sync/simulation_development_overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](../guides/simulation_examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in contracting with PhET to make simulations:**
     See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.
@@ -31,7 +31,7 @@
     See the [brand](https://github.com/phetsims/brand) library for help creating your own brand.
 
 ??? question "Do I have to use TypeScript or can I use JavaScript only?"
-    Using TypeScript is recommended if possible. At this time, most of SceneryStack is written in [TypeScript](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/#:~:text=cheat%20sheet%20PDF-,What%20is%20TypeScript%3F,-TypeScript%20is%20a) (TS), while some are still written in JavaScript (JS), with future updates to the libraries converting JS to TS. The [simulation tooling](../info-sync/simulation-development-overview.md#building-the-simulation-with-chipper) in use by PhET to create simulations *assumes* TS integration concerning type enforcement, and you may run into difficulties using JS.
+    Using TypeScript is recommended if possible. At this time, most of SceneryStack is written in [TypeScript](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/#:~:text=cheat%20sheet%20PDF-,What%20is%20TypeScript%3F,-TypeScript%20is%20a) (TS), while some are still written in JavaScript (JS), with future updates to the libraries converting JS to TS. The [simulation tooling](../info_sync/simulation_development_overview.md#building-the-simulation-with-chipper) in use by PhET to create simulations *assumes* TS integration concerning type enforcement, and you may run into difficulties using JS.
 
 ## General Questions
 
