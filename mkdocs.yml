@@ -10,6 +10,10 @@ repo_name: community
 repo_url: https://github.com/scenerystack/community
 edit_uri: edit/main/docs
 
+extra:
+  version:
+    provider: mike # for versioning plugin
+
 extra_css:
   - stylesheets/extra.css
 
@@ -138,9 +142,9 @@ nav:
         - Scenery and phet-lib: guides/scenery.md
       - B. Framework:
         - guides/simulation/simulation-development.md
-        - 1. PhET Development Guide: info-sync/simulation-development-overview.md
-        - 2. Introductory Exercises: info-sync/scenerystack-exercises.md
-        - 3. Software Design Patterns: info-sync/phet-software-design-patterns.md
+        - Sim Development Guide: info-sync/simulation-development-overview.md
+        - Introductory Exercises: info-sync/scenerystack-exercises.md
+        - Software Design Patterns: info-sync/phet-software-design-patterns.md
         - Resources from PhET:
           - PhET Sim Tooling: info-sync/chipper-deploy.md
           - PhET TypeScript Conventions: info-sync/typescript-conventions.md

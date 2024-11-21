@@ -18,9 +18,9 @@ The development libraries within SceneryStack were originally created by [PhET I
 
 ---
 
-![Interactive in action with SceneryStack](assets/cck-bulb.gif)
+![Interactive in action with SceneryStack](assets/energyskatepark.gif)
 
-_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-ac) created by PhET using SceneryStack_
+_[Interactive simulation](https://phet.colorado.edu/en/simulations/energy-skate-park) created by PhET using SceneryStack_
 
 ---
 
@@ -62,6 +62,14 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 
 Choose your development path and [get started](./guides/pathways.md).
 
+---
+
+![Interactive in action with SceneryStack](assets/centerandvariabilitykeyboard.gif)
+
+_[Interactive simulation](https://phet.colorado.edu/en/simulations/center-and-variability) created by PhET using SceneryStack_
+
+---
+
 ## Community and Contributing 🤝
 
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
@@ -78,9 +86,17 @@ Head over to [Frequently Asked Questions](./guides/faqs.md) for questions asked 
 
 _[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jessegreenberg using SceneryStack - Try it here in the browser!_
 
+---
+
 ## License
 
 The libraries contained within SceneryStack, including this website, are under the MIT License and freely available for use by anyone. Authors using SceneryStack may choose any license for their creations.
 
 ??? warning "Licensing for PhET Interactive Simulations"
      The _simulation source code_ for PhET Interactive Simulations is typically GPLv3 licensed or similar. For everything involving PhET Interactive Simulations, including partnerships, [see their website](https://phet.colorado.edu/).
+
+---
+
+![Interactive in action with SceneryStack](assets/cck-bulb.gif)
+
+_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) created by PhET using SceneryStack_

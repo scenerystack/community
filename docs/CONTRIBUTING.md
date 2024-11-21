@@ -1,6 +1,6 @@
 # Contribution Guide
 
-We're genuinely excited to have you here. Your interest in contributing to SceneryStack is appreciated, and this guide is here to assist you every step of the way. If you're curious about the differences between SceneryStack and PhET Interactive Simulations, we've covered that too!
+We're excited to have you here! Your interest in contributing to SceneryStack is appreciated, and this guide is here to assist you every step of the way. If you're curious about the differences between SceneryStack and PhET Interactive Simulations, we've covered that too!
 
 ## How Can I Contribute?
 

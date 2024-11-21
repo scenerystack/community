@@ -42,8 +42,11 @@ Here are some steps for using Mkdocs in your local dev environment. NOTE: if you
 
 To edit (and optionally deploy) to the documentation website from a local machine (same steps GitHub Actions does):
 
-- Install Python (3.11 last supported at deploy)
-- Install module requirements using `pip install`. Install using the requirements.txt file in this directory.
+- Install Python (3.13 last supported at deploy)
+  - (install `pip` and `venv` if not already installed)
+- Create a new virtual environment
+  - e.g., `python -m venv ss_env`
+- From the `../community`, install module requirements using `pip install -r requirements.txt`.
 - run `mkdocs serve` to locally host the directory and preview changes in real-time in your browser (command will provide a local server link to open).
 - Commit and push changes to `docs` branch
   - `git add .`
@@ -51,6 +54,6 @@ To edit (and optionally deploy) to the documentation website from a local machin
   - `git push origin docs`
 - If deploying from your local machine: run `mkdocs gh-deploy` and it will automatically build and push to the `gh-pages` branch and kick off a workflow for GitHub Pages to run a deploy Action.
 
-## Licensing
+## License
 
 The libraries contained within [SceneryStack](http://scenerystack.org/) are licensed through the MIT License and freely available for use/reuse by anyone, including the `scenerystack/community` repository.
