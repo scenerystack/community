@@ -10,8 +10,6 @@ Looking for the best way to start using SceneryStack? Check out the [Pathways](.
 
 ## SceneryStack Repository List
 
-### SceneryStack: Core
-
 | **Repo** | **Function** | **Language** | **Description** |
 |---|---|---|---|
 | [Alpenglow](https://github.com/phetsims/alpenglow) | View | TypeScript | Experimental rasterization engine, by PhET Interactive Simulations. |
@@ -31,20 +29,10 @@ Looking for the best way to start using SceneryStack? Check out the [Pathways](.
 | [Tandem](https://github.com/phetsims/tandem) | Model | TypeScript | Simulation-side code to support name-object registration and PhET-iO instrumentation. |
 | [Twixt](https://github.com/phetsims/twixt) | Model / View | TypeScript | Support for animation and easings/tweening. Can be used to animate user interface components or artwork in the view or model elements directly. |
 | [UtteranceQueue](https://github.com/phetsims/utterance-queue) | View | TypeScript | Alerting library powered by aria-live to generate dynamic browser-embedded TTS. |
-
-### SceneryStack: Simulation Core
-
-| **Repo** | **Function** | **Language** | **Description** |
-|---|---|---|---|
 | [example-sim](https://github.com/phetsims/example-sim) | Utilities - Simulations | JavaScript | Example demonstrating the structure of a PhET interactive simulation. |
 | [Joist](https://github.com/phetsims/joist) | Model / View | TypeScript | Common model/view for simulations. Handles loading, animation loop, homescreen, navigation bar, menus, preferences, and screen management. |
 | [SceneryPhet](https://github.com/phetsims/scenery-phet) | View | TypeScript | Reusable Scenery view components for simulations, such as number controls / readouts, probes, sensors, buckets, magnifying glasses, etc. |
 | [simula-rasa](https://github.com/phetsims/simula-rasa) | Utilities - Simulations | TypeScript | PhET Simulation Template. "Simula rasa" is Latin for "blank sim". |
-
-### SceneryStack: Supplementary
-
-| **Repo** | **Function** | **Language** | **Description** |
-|---|---|---|---|
 | [Babel](https://github.com/phetsims/babel) | Translation Content | JavaScript | Contains translated strings used by simulation and common components. |
 | [Bamboo](https://github.com/phetsims/bamboo) | Model / View | TypeScript | Charting library built with Scenery. |
 | [Mobius](https://github.com/phetsims/mobius) | View | TypeScript | Embed 3D scenes in Scenery with Three.js. |
