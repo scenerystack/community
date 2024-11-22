@@ -13,9 +13,11 @@ You'll find some good general advice in resources such as this [article from Fre
 ### 1. Features and Bug Fixes
 
 !!! warning
-    Please note that while documentation and npm package exist inside `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). Keep this in mind when submitting contributions and remember to check your current version against the latest on the `main` branches.
+    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). 
+    
+    Keep this in mind when submitting contributions and remember to check your current SceneryStack version against the latest on the `main` branches.
 
-Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/phetsims/). Some libraries depend on others; for instance, `sun` is built upon `scenery` to design UI components.
+Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/phetsims/). Some libraries depend on others; for instance, `Sun` is built upon `Scenery` to design UI components.
 
 👉 If you're considering making an addition or a fix that isn't already documented, 
 1. initiate by opening an issue. 
@@ -47,30 +49,19 @@ Contributing is streamlined with the following steps:
 8. Ready? Submit your pull request using the provided [PULL_REQUEST_TEMPLATE](pull_request_template.md).
 
 !!! warning "Multiple-repository spanning contributions"
-    For contributions that span multiple repositories, please [reach out to the maintainers](join.md) to verify compatibility and avoid any problems you might encounter in the process.
+    For contributions that span multiple repositories (e.g., `Scenery` and `Sun`), please [reach out to the maintainers](join.md) to verify compatibility and avoid any problems you might encounter in the process.
 
 ### Review Process
 
-After your PR submission, our dedicated maintainers will conduct a review:
+After your PR submission, a maintainer will conduct a review:
 
-- They might suggest tweaks for better alignment with our codebase.
-- Due to the evolving nature of SceneryStack APIs, ensure your PR is always in sync with the latest changes.
+- They might suggest tweaks for better alignment with the SceneryStack codebase.
+- Due to the evolving nature of SceneryStack APIs, double check that your PR changes are in sync with the latest changes.
 
 ## Questions? Get in Touch
 
-Your feedback, queries, and suggestions are invaluable. Connect with our community on the [central Discussions forum](https://github.com/orgs/scenerystack/discussions).
+Your feedback, questions, and suggestions are invaluable. Connect with our community on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or through [Slack/Matrix](join.md).
 
-??? info "How do I contribute to PhET Interactive Simulations?"
+??? note "How do I contribute to PhET Interactive Simulations?"
 
-    While outside the scope of the SceneryStack community, PhET does have avenues for contribution if you are interested in contributing to specific PhET Interactive Simulations:
-
-    **Bug Fixes**: For bug fixes in existing simulations, employ the same process as for common code contributions within the [specific simulation repository](https://github.com/orgs/phetsims/repositories).
-
-    **Significant New Features**: PhET currently prioritizes resources. Although we might not immediately review large new features, please submit your suggestions and code changes. They could be instrumental in future reviews.
-
-??? info "I want to make an interactive simulation using SceneryStack! What should I do?"
-    **If you are an individual or small group interested in or have made progress in making a new simulation:**
-    The best resources available to you can be found in the [Development Overview](./info_sync/simulation_development_overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](./guides/simulation_examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
-
-    **If you are a commercial organization interested in making new simulations:**
-    See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.
+    PhET has its own community and ecosystem of simulations, teacher activities, translators and more. See the PhET website (phet.colorado.edu) for more information.

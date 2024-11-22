@@ -138,11 +138,11 @@ nav:
     - Overview: index.md
     - Getting Started: 
       - Choose Your Path: guides/pathways.md
-      - Setup: setup.md
+      - Setup: guides/setup.md
       - Web Integration: 
         - Walkthrough: guides/scenery.md
       - Framework: 
-        - Walkthrough: guides/simulation/framework.md
+        - Walkthrough: guides/framework/framework.md
         - Building: guides/framework/build.md
         - Exercises: info_sync/scenerystack_exercises.md
       - SceneryStack Development:
@@ -154,16 +154,15 @@ nav:
       - Maintenance: guides/breaking.md
     - Reference: 
       - Libraries: guides/scenerystack_list.md
-      - Software Design Patterns: 
-        - info_sync/software_design_patterns.md
-      - Resources from PhET:
-        - PhET Sim Tooling: info_sync/chipper_deploy.md
-        - PhET TypeScript Conventions: info_sync/typescript_conventions.md
+      - Software Design Patterns: info_sync/software_design_patterns.md
       - Library APIs:
         - Scenery: https://phetsims.github.io/scenery/
         - Dot: https://phetsims.github.io/dot/
         - Kite: https://phetsims.github.io/kite/
         - Alpenglow: https://phetsims.github.io/alpenglow/
+      - Resources from PhET:
+        - PhET Sim Tooling: info_sync/chipper_deploy.md
+        - PhET TypeScript Conventions: info_sync/typescript_conventions.md
     - Accessibility Resources:
       - accessibility/phet_a11y_guides.md
     - Community:

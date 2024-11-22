@@ -9,7 +9,7 @@ phetsims/phet-info:
     dest: docs/info_sync/accessible_preferences_quickstart_guide.md
   - source: doc/coding-conventions.md
     dest: docs/info_sync/coding_conventions.md
-  - source: doc/dynamic-string-layout-quickstart.md
+  - source: doc/dynamic_string_layout_quickstart.md
     dest: docs/info_sync/dynamic_string_layout_quickstart.md
   - source: doc/interactive-description-technical-guide.md
     dest: docs/info_sync/interactive_description_technical_guide.md

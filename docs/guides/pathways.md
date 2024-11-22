@@ -26,6 +26,6 @@ Looking to take advantage of SceneryStack in your web project? You'll likely wan
 
 ## Path B: Using SceneryStack Framework to Make Highly Interactive Experiences
 
-[Use the Full Framework](./simulation/framework.md){ .md-button .md-button--primary }
+[Use the Full Framework](./framework/framework.md){ .md-button .md-button--primary }
 
-Want to leverage SceneryStack to its fullest? Perhaps itching to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself. You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](scenery.md), but then head over to [Simulation Development](./simulation/framework.md) to set your environment up to make interactive sims. Don't forget to get up to speed on all the necessary [software design patterns](../info_sync/software_design_patterns.md) and try out some [introductory exercises](../info_sync/scenerystack_exercises.md).
+Want to leverage SceneryStack to its fullest? Perhaps itching to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself. You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](scenery.md), but then head over to [Simulation Development](./framework/framework.md) to set your environment up to make interactive sims. Don't forget to get up to speed on all the necessary [software design patterns](../info_sync/software_design_patterns.md) and try out some [introductory exercises](../info_sync/scenerystack_exercises.md).

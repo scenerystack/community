@@ -18,7 +18,7 @@ If your dream is to one day have your simulation hosted on the PhET website - th
 
 For anyone interested in setting up a development environment, the [Development Overview](../../info_sync/simulation_development_overview.md) is the best place to start. It provides a comprehensive introduction to the processes, tools, and best practices for developing with the libraries contained in SceneryStack. It also serves as the best starting point for creating interactive simulations, specifically.
 
-You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](../scenery.md). Don't forget to get up to speed on all the necessary [software design patterns](../../info_sync/software_design_patterns.md) and try out some [introductory exercises](../../info_sync/scenerystack-exercises.md).
+You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](../scenery.md). Don't forget to get up to speed on all the necessary [software design patterns](../../info_sync/software_design_patterns.md) and try out some [introductory exercises](../../info_sync/scenerystack_exercises.md).
 
 ## Documentation and Resources
 
