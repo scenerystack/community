@@ -20,6 +20,9 @@ For anyone interested in setting up a development environment, the [Development 
 
 You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](../scenery.md). Don't forget to get up to speed on all the necessary [software design patterns](../../info_sync/software_design_patterns.md) and try out some [introductory exercises](../../info_sync/scenerystack_exercises.md).
 
+| [example-sim](https://github.com/phetsims/example-sim) | Utilities - Simulations | JavaScript | Example demonstrating the structure of a PhET interactive simulation. |
+| [simula-rasa](https://github.com/phetsims/simula-rasa) | Utilities - Simulations | TypeScript | PhET Simulation Template. "Simula rasa" is Latin for "blank sim". |
+
 ## Documentation and Resources
 
 - If you're using SceneryStack, you'll likely be using Scenery, the primary view library that many other libraries rely on. [See Scenery's documentation here](https://phetsims.github.io/scenery/doc/)!

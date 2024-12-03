@@ -10,41 +10,113 @@ Looking for the best way to start using SceneryStack? Check out the [Pathways](.
 
 ## SceneryStack Repository List
 
-| **Repo** | **Function** | **Language** | **Description** |
-|---|---|---|---|
-| [Alpenglow](https://github.com/phetsims/alpenglow) | View | TypeScript | Experimental rasterization engine, by PhET Interactive Simulations. |
-| [Assert](https://github.com/phetsims/assert) | Model | JavaScript | Minimal standalone assertion support. |
-| [Axon](https://github.com/phetsims/axon) | View | TypeScript | Event-based model and data structures for the observer pattern (Property) and listener pattern (Emitters). |
-| [Brand](https://github.com/phetsims/brand) | View | TypeScript | Provides hooks for users to develop their own branding. Includes support for PhET Interactive Simulations, "PhET" and "PhET-iO"|
-| [Chipper](https://github.com/phetsims/chipper) | Tooling | JavaScript | Tools for developing and building interactives. Uses code in perennial-alias for some tasks. |
-| [Dot](https://github.com/phetsims/dot) | Model | JavaScript | Mathematical objects such as Vector, Matrix, and corresponding numerical algorithms. |
-| [Kite](https://github.com/phetsims/kite) | Model | TypeScript | Shapes and geometry. Mathematics implemented using dot. |
-| [PhetCore](https://github.com/phetsims/phet-core) | Model | TypeScript | Basic utility & support for data structures and algorithms. |
-| [PhetCommon](https://github.com/phetsims/phetcommon) | View | JavaScript | A variety of utility functions, model components, and analytics integrations that are reusable across different simulations. |
-| [QueryStringMachine](https://github.com/phetsims/query-string-machine) | Utilities | JavaScript | A query string parser that supports type coercion, default values & validation. No dependencies. |
-| [Scenery](https://github.com/phetsims/scenery) | View | TypeScript | Foundational library for representing graphics (rendering to SVG, Canvas or WebGL), handling input, and generally abstraction for the browser and cross-platform support. |
-| [Sherpa](https://github.com/phetsims/sherpa) | Third Party Libraries | JavaScript | All 3rd-party dependencies. Includes font-awesome, lodash, numeric, and three.js. |
-| [Sun](https://github.com/phetsims/sun) | View | TypeScript | Graphical user interface components, such as buttons and checkboxes which could be useful in any application context. Built using scenery. |
-| [Tambo](https://github.com/phetsims/tambo) | View | TypeScript | Sound effects and sonification. Uses axon for some observer/listeners support. |
-| [Tandem](https://github.com/phetsims/tandem) | Model | TypeScript | Simulation-side code to support name-object registration and PhET-iO instrumentation. |
-| [Twixt](https://github.com/phetsims/twixt) | Model / View | TypeScript | Support for animation and easings/tweening. Can be used to animate user interface components or artwork in the view or model elements directly. |
-| [UtteranceQueue](https://github.com/phetsims/utterance-queue) | View | TypeScript | Alerting library powered by aria-live to generate dynamic browser-embedded TTS. |
-| [example-sim](https://github.com/phetsims/example-sim) | Utilities - Simulations | JavaScript | Example demonstrating the structure of a PhET interactive simulation. |
-| [Joist](https://github.com/phetsims/joist) | Model / View | TypeScript | Common model/view for simulations. Handles loading, animation loop, homescreen, navigation bar, menus, preferences, and screen management. |
-| [SceneryPhet](https://github.com/phetsims/scenery-phet) | View | TypeScript | Reusable Scenery view components for simulations, such as number controls / readouts, probes, sensors, buckets, magnifying glasses, etc. |
-| [simula-rasa](https://github.com/phetsims/simula-rasa) | Utilities - Simulations | TypeScript | PhET Simulation Template. "Simula rasa" is Latin for "blank sim". |
-| [Babel](https://github.com/phetsims/babel) | Translation Content | JavaScript | Contains translated strings used by simulation and common components. |
-| [Bamboo](https://github.com/phetsims/bamboo) | Model / View | TypeScript | Charting library built with Scenery. |
-| [Mobius](https://github.com/phetsims/mobius) | View | TypeScript | Embed 3D scenes in Scenery with Three.js. |
-| [Nitroglycerin](https://github.com/phetsims/nitroglycerin) | View | JavaScript | Chemistry-specific code for interactive simulations. |
-| [Tangible](https://github.com/phetsims/tangible) | Controller | TypeScript | Library for handling computer vision and tangible input using MediaPipe. |
-| [Tappi](https://github.com/phetsims/tappi) | View | TypeScript | Support for haptics/vibrations in HTML5. |
-| [Vegas](https://github.com/phetsims/vegas) | Model / View | TypeScript | Reusable game components for interactive simulations. |
+### **Rendering & UI**
+
+Libraries focused on graphics rendering, UI elements, and interaction.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Scenery](https://github.com/phetsims/scenery) | **Graphics / Rendering** | Foundational library for representing graphics, handling input, and cross-platform support. |
+| [Alpenglow](https://github.com/phetsims/alpenglow) | **Rendering Engine** | Experimental rasterization engine by PhET Interactive Simulations. |
+| [Sun](https://github.com/phetsims/sun) | **UI Components** | Graphical user interface components such as buttons and checkboxes. Built using Scenery. |
+| [Mobius](https://github.com/phetsims/mobius) | **3D Rendering** | Embed 3D scenes in Scenery with Three.js. |
+| [Twixt](https://github.com/phetsims/twixt) | **Animation** | Support for animation, easing, and tweening for UI or artwork. |
+| [Joist](https://github.com/phetsims/joist) | **UI Framework** | Common model/view for simulations, handling navigation, menus, and screen management. |
+| [SceneryPhet](https://github.com/phetsims/scenery-phet) | **Reusable View Components** | Reusable Scenery view components for simulations. |
+
+---
+
+### **Core Libraries**
+
+Libraries foundational to data structures, algorithms, and general functionality.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Dot](https://github.com/phetsims/dot) | **Math / Core Utility** | Mathematical objects such as Vector, Matrix, and corresponding numerical algorithms. |
+| [Kite](https://github.com/phetsims/kite) | **Geometry / Core Utility** | Shapes and geometry. Mathematics implemented using Dot. |
+| [PhetCore](https://github.com/phetsims/phet-core) | **General Utility** | Basic utility & support for data structures and algorithms. |
+| [Assert](https://github.com/phetsims/assert) | **Core Utility** | Minimal standalone assertion support. |
+| [Tandem](https://github.com/phetsims/tandem) | **Data Management** | Simulation-side code to support name-object registration and PhET-iO instrumentation. |
+
+---
+
+### **Data Models & State Management**
+
+Libraries managing application state, event propagation, and data structures.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Axon](https://github.com/phetsims/axon) | **State Management** | Event-based model and data structures for the observer pattern. |
+| [Bamboo](https://github.com/phetsims/bamboo) | **Data Visualization** | Charting library built with Scenery. |
+| [Vegas](https://github.com/phetsims/vegas) | **Game Components** | Reusable game components for interactive simulations. |
+| [PhetCommon](https://github.com/phetsims/phetcommon) | **Shared Components** | Utility functions, model components, and analytics integrations. |
+
+---
+
+### **Interaction & Accessibility**
+
+Libraries that enhance interactivity and accessibility for users.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Tambo](https://github.com/phetsims/tambo) | **Audio / Sonification** | Sound effects and sonification. Uses Axon for event handling. |
+| [UtteranceQueue](https://github.com/phetsims/utterance-queue) | **Accessibility** | Library for generating dynamic TTS using ARIA live regions. |
+| [Tangible](https://github.com/phetsims/tangible) | **Tangible Interaction** | Library for handling computer vision and tangible input using MediaPipe. |
+| [Tappi](https://github.com/phetsims/tappi) | **Haptic Feedback** | Support for haptics/vibrations in HTML5. |
+| [Nitroglycerin](https://github.com/phetsims/nitroglycerin) | **Specialized Interaction** | Chemistry-specific code for interactive simulations. |
+
+---
+
+### **Tooling & Configuration**
+
+Libraries for building, testing, and extending applications.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Chipper](https://github.com/phetsims/chipper) | **Build Tools** | Tools for developing and building interactives. |
+| [QueryStringMachine](https://github.com/phetsims/query-string-machine) | **URL Parsing** | A query string parser that supports type coercion, default values, and validation. |
+| [Brand](https://github.com/phetsims/brand) | **Branding** | Provides hooks for custom branding. |
+| [Sherpa](https://github.com/phetsims/sherpa) | **Third-Party Libraries** | Houses all 3rd-party dependencies. |
+
+---
+
+### **Localization**
+
+Libraries for supporting multiple languages and regions.
+
+| **Repo** | **Category** | **Description** |
+|---|---|---|
+| [Babel](https://github.com/phetsims/babel) | **Translation** | Contains translated strings used by simulation and common components. |
+
+---
 
 !!! warning
-    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). 
-    
+    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`).
+
     Keep this in mind when submitting contributions and remember to check your current SceneryStack version against the latest on the `main` branches.
 
 !!! warning
     All new code in SceneryStack is being developed in TypeScript, but some older repositories still contain JavaScript.
+
+## Library Descriptions
+
+### Alpenglow
+
+The `alpenglow` library is an experimental rasterization engine developed by PhET Interactive Simulations. Here are its key capabilities:
+
+- **Rasterization Engine**: It provides rasterization functionalities, which are essential for converting vector graphics into raster images.
+- **WebGPU Support**: It includes experimental support for WebGPU, allowing advanced graphics rendering and computation on the web.
+- **Benchmarking Tools**: It offers experimental benchmarking using WGSL (WebGPU Shading Language) for performance testing.
+- **Modular Dependencies**: The library integrates with various other PhET libraries, such as `assert`, `axon`, `chipper`, `dot`, `kite`, `perennial`, `phet-core`, `phetcommon`, `scenery`, `sherpa`, `tandem`, and `utterance-queue`.
+
+For more detailed information, you can refer to the [README file](https://github.com/phetsims/alpenglow/blob/1eddfdeb4428d327d7cbce1a4b7a3e890c708814/README.md).
+
+### Scenery
+
+The scenery library is a versatile HTML5 scene graph library developed by PhET Interactive Simulations. Its primary capabilities include:
+
+Interactive Visual Experiences: Enables building interactive visual experiences that can be rendered using WebGL, SVG, Canvas, and other technologies.
+Multi-Platform Rendering: Supports rendering on multiple platforms, ensuring compatibility and flexibility in deployment.
+Extensive Documentation: Comprehensive documentation is available within the code and online, including a detailed tour of features and a list of examples.
+Integration with Other Libraries: Works seamlessly with other PhET libraries such as assert, axon, and dot, among others.
+For more detailed information, you can refer to the README file.
