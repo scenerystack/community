@@ -9,7 +9,7 @@ hide:
 ## Create Highly Interactive Content for a Multimodal and Accessible Web
 
 SceneryStack is an open-source Typescript framework for developing multimodal, accessible HTML5 web interactives. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored toward creating interactive simulations. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
-<!-- TODO: expand on accessibility, inc PDOM and abstraction for descriptions -->
+<!-- TODO: expand on accessibility, inc PDOM and abstraction for descriptions --> 
 
 [GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
 
@@ -27,10 +27,8 @@ The development libraries within SceneryStack were originally created by [PhET I
 
 ## Core Features: Flexibility and Accessibility
 
-<!-- <div class="grid cards" markdown> -->
-
 <!-- Organize into capabilities, and split features and functionality -->
-
+### Rendering and Graphics
 - **Cross-Platform Capabilities** with a layer to shield from bugs and quirks of modern browsers.
 - **Downloadable, Fully Offline, Single-File Artifacts**
 - **Pixel-Perfect Design & Color Profile Support**: Including optimization for high pixel density devices.
@@ -43,14 +41,14 @@ The development libraries within SceneryStack were originally created by [PhET I
 - **Enhanced iframe Support** with easier user interaction in the iframe.
 - **Support for Charts and Graphs** using the `Bamboo` library.
 
-<!-- input -->
+### Input
 - **Enhanced Touch and Mouse Areas** and extended touch handling including Swipe-to-Snag functionality.
 - **Extendable Input System** that upholds foundational accessibility.
 - **API to Specify Keyboard Traversal Order**
   
 - **Declarative APIs** for optimal performance/quality adjustments.
 
-<!-- Descriptions, but different language -->
+### Accessibility and Inclusive Features
 - **Novel and Effective Screen Reader Access** using the research-backed Parallel Document Object Model (PDOM) ensuring robust screen reader accessibility ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8))
 - **Customizable, Dynamic Spoken Content** through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4))
 - **Interactive Highlighting:** extends visual accessibility features inherent to keyboard/focus input to pointer/touch.
@@ -58,9 +56,6 @@ The development libraries within SceneryStack were originally created by [PhET I
 - **Multimodal Libraries** Dedicated library (`Tambo`) for integrating Web Audio, including support for screen-focused audio and and sound modulation, as well as a library of UI sounds. Computer vision support for hand/body gesture control (`Tangible`). Experimental support for Vibration API (`Tappi`).
 
 <!-- - **React Ready, Three.JS ready** -->
-<!-- - **Ready for Internationalization** with examples of implementation --
-<!-- - **Garbage Collector-Friendly Design** using pooling. -->
-<!-- </div> -->
 
 ## Getting Started
 

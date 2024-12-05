@@ -141,17 +141,16 @@ nav:
       - Setup: guides/setup.md
       - Web Integration: 
         - Walkthrough: guides/scenery.md
+        - SceneryStack Examples: guides/scenery_examples.md
       - Framework: 
         - Walkthrough: guides/framework/framework.md
         - Building: guides/framework/build.md
         - Exercises: info_sync/scenerystack_exercises.md
-      - SceneryStack Development:
-        - Setting Up Development Environment: info_sync/simulation_development_overview.md
-        - SceneryStack Versioning: guides/versioning.md
-      - Examples:
-        - SceneryStack Examples: guides/scenery_examples.md
         - Simulation Examples: guides/simulation_examples.md
-      - Maintenance: guides/breaking.md
+      - SceneryStack Development:
+        - Setting Up Development Environment: guides/developer/dev_environment.md
+        - SceneryStack Versioning: guides/developer/versioning.md
+        - Contribution Guide: CONTRIBUTING.md
     - Reference: 
       - Libraries: guides/scenerystack_list.md
       - Software Design Patterns: info_sync/software_design_patterns.md

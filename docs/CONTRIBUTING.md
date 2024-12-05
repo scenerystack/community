@@ -13,14 +13,15 @@ You'll find some good general advice in resources such as this [article from Fre
 ### 1. Features and Bug Fixes
 
 !!! warning
-    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`). 
-    
+    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`).
+
     Keep this in mind when submitting contributions and remember to check your current SceneryStack version against the latest on the `main` branches.
 
-Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/phetsims/). Some libraries depend on others; for instance, `Sun` is built upon `Scenery` to design UI components.
+Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/orgs/phetsims/repositories?q=topic%3Ascenerystack+sort%3Aname-asc). Some libraries depend on others; for instance, `Sun` is built upon `Scenery` to design UI components.
 
-👉 If you're considering making an addition or a fix that isn't already documented, 
-1. initiate by opening an issue. 
+👉 If you're considering making an addition or a fix that isn't already documented,
+
+1. initiate by opening an issue.
 2. Once that's set, you can then submit a pull request with your changes.
 
 ### 2. Documentation Enhancements
@@ -64,4 +65,4 @@ Your feedback, questions, and suggestions are invaluable. Connect with our commu
 
 ??? note "How do I contribute to PhET Interactive Simulations?"
 
-    PhET has its own community and ecosystem of simulations, teacher activities, translators and more. See the PhET website (phet.colorado.edu) for more information.
+    PhET has its own community and ecosystem of simulations, teacher activities, translators and more. See the [PhET website](https://phet.colorado.edu/) for more information.

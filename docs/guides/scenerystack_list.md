@@ -8,6 +8,8 @@ Looking for the best way to start using SceneryStack? Check out the [Pathways](.
 
 --[SceneryStack on npm](https://www.npmjs.com/package/scenerystack)--
 
+https://github.com/orgs/phetsims/repositories?q=topic%3Ascenerystack+sort%3Aname-asc
+
 ## SceneryStack Repository List
 
 ### **Rendering & UI**
@@ -89,14 +91,6 @@ Libraries for supporting multiple languages and regions.
 | [Babel](https://github.com/phetsims/babel) | **Translation** | Contains translated strings used by simulation and common components. |
 
 ---
-
-!!! warning
-    Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`).
-
-    Keep this in mind when submitting contributions and remember to check your current SceneryStack version against the latest on the `main` branches.
-
-!!! warning
-    All new code in SceneryStack is being developed in TypeScript, but some older repositories still contain JavaScript.
 
 ## Library Descriptions
 

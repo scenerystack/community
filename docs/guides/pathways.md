@@ -1,31 +1,33 @@
-# Development Pathways using SceneryStack
+# Getting Started with SceneryStack
 
-Ready to get started with SceneryStack? Choose your path:
+What are you looking to do?
 
-<div class="grid cards" markdown>
-:octicons-rocket-24:{ .rocket } [Web Development with SceneryStack](setup.md)
-</div>
+[:octicons-rocket-24:{ .rocket } Web Development with SceneryStack](setup.md){ .md-button .md-button--primary }
+---
 
-<div class="grid cards" markdown>
-:octicons-rocket-24:{ .rocket } [SceneryStack Development](setup.md)
-</div>
+[:simple-github: Contribute to SceneryStack Development](./developer/dev_environment.md){ .md-button .md-button--primary }
+---
 
-<div class="grid cards" markdown>
-:octicons-rocket-24:{ .rocket } [Accessibility and Inclusive Design with SceneryStack](../accessibility/phet_a11y_guides.md)
-</div>
+[:octicons-rocket-24: Learn about Accessibility and Inclusive Design](../accessibility/phet_a11y_guides.md){ .md-button .md-button--primary }
+---
 
-<div class="grid cards" markdown>
-:octicons-rocket-24:{ .rocket } [Community](../join.md)
-</div>
+[:octicons-people-16: Join the Community](../join.md){ .md-button .md-button--primary }
+---
 
-## Path A: Using SceneryStack for Web Projects
+---
 
-[Integrate SceneryStack into your Project](scenery.md){ .md-button .md-button--primary }
+## Already set up?
 
-Looking to take advantage of SceneryStack in your web project? You'll likely want to get started with the [the scenerystack npm distribution](scenery.md).
+Choose your development path below:
 
-## Path B: Using SceneryStack Framework to Make Highly Interactive Experiences
+### Path A: Using SceneryStack for Web Projects
 
-[Use the Full Framework](./framework/framework.md){ .md-button .md-button--primary }
+Looking to take advantage of SceneryStack in your web project?
 
-Want to leverage SceneryStack to its fullest? Perhaps itching to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself. You will likely want to [check out some of the basics of Scenery and the libraries packaged in phet-lib](scenery.md), but then head over to [Simulation Development](./framework/framework.md) to set your environment up to make interactive sims. Don't forget to get up to speed on all the necessary [software design patterns](../info_sync/software_design_patterns.md) and try out some [introductory exercises](../info_sync/scenerystack_exercises.md).
+[Integrate SceneryStack into your Project](scenery.md){ .md-button .md-button--secondary }
+
+### Path B: Using SceneryStack Framework to Make Highly Interactive Experiences
+
+Want to leverage SceneryStack to its fullest? Perhaps itching to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself, you'll want to use the whole framework.
+
+[Use the Full Framework](./framework/framework.md){ .md-button .md-button--secondary }
