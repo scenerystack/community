@@ -34,7 +34,7 @@ theme:
     - content.tooltips
     - header.autohide
     # - navigation.expand
-    # - navigation.footer
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
@@ -58,22 +58,22 @@ theme:
       icon: material/brightness-auto
       name: Switch to light mode
   - media: '(prefers-color-scheme: light)'
-    primary: indigo
-    accent: light blue
-    scheme: default
+    primary: scenerystack
+    # accent: light blue
+    scheme: scenerystack
     toggle:
       icon: material/weather-sunny
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
-    primary: indigo
-    accent: light blue
+    primary: scenerystack
+    # accent: light blue
     scheme: slate
     toggle:
       icon: material/weather-night
       name: Switch to system preference
   font:
-    text: Roboto Condensed
-    code: Roboto Mono
+    text: Noto Sans
+    code: Noto Sans Mono
 
 # Plugins
 plugins:
@@ -135,45 +135,51 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-    - Introduction: index.md
-    - Getting Started: 
-      - Choose Your Path: guides/pathways.md
-      - Setup: guides/setup.md
-      - Web Integration: 
-        - Walkthrough: guides/scenery.md
-        - SceneryStack Examples: guides/scenery_examples.md
-      - Framework: 
-        - Walkthrough: guides/framework/framework.md
-        - Building: guides/framework/build.md
-        - Exercises: info_sync/scenerystack_exercises.md
-        - Simulation Examples: guides/simulation_examples.md
-      - SceneryStack Development:
-        - Setting Up Development Environment: guides/developer/dev_environment.md
-        - SceneryStack Versioning: guides/developer/versioning.md
-        - Contribution Guide: CONTRIBUTING.md
-    - Reference: 
-      - Libraries: guides/scenerystack_list.md
-      - Software Design Patterns: info_sync/software_design_patterns.md
-      - Library APIs:
-        - Scenery: https://phetsims.github.io/scenery/
-        - Dot: https://phetsims.github.io/dot/
-        - Kite: https://phetsims.github.io/kite/
-        - Alpenglow: https://phetsims.github.io/alpenglow/
-      - Resources from PhET:
-        - PhET Sim Tooling: info_sync/chipper_deploy.md
-        - PhET TypeScript Conventions: info_sync/typescript_conventions.md
-    - Accessibility Resources:
-      - accessibility/phet_a11y_guides.md
-    - Community:
-      - Join Us: join.md 
-      - Community Guidelines: CODE_OF_CONDUCT.md
-      - Sustainability Plan: sustainability_plan.md
-      - Contribute:
-        - Contribution Guide: CONTRIBUTING.md
-        - Contributor License Agreement: CLA.md
-        - Coding Conventions: info_sync/coding_conventions.md
-        - Roadmap: roadmap.md
-    - FAQ: guides/faqs.md
+  - Introduction: index.md
+  - Getting Started: 
+    - Setup: 
+      - Install: start/setup.md
+      - Create a New Project: start/templates/project.md
+      - Make a Simulation: start/templates/sim.md
+      - Add SceneryStack to a Project: start/project_add.md
+    - Web Development: 
+      - Overview: start/web/web_overview.md
+      - Full Project Demo: start/web/scenery_demo.md
+      - Add to Project Demo: start/web/project_add_demo.md
+      - React Demo: start/web/react_demo.md
+      - More Examples: start/web/scenery_examples.md
+    - Sim Development: 
+      - Overview: start/sim/sim_overview.md
+      - Example Sim Demo: start/sim/example_sim.md
+      - Exercises: info_sync/scenerystack_exercises.md
+      - More Examples: start/sim/simulation_examples.md
+    - SceneryStack Developer Tools:
+      - Setting Up Development Environment: start/dev/dev_environment.md
+      - SceneryStack Versioning: guides/dev/versioning.md
+      - Contribution Guide: CONTRIBUTING.md
+      - Coding Conventions: info_sync/coding_conventions.md
+      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
+  - Reference: 
+    - Libraries: reference/scenerystack_list.md
+    - Software Design Patterns: info_sync/software_design_patterns.md
+    - Library APIs:
+      - Scenery: https://phetsims.github.io/scenery/
+      - Dot: https://phetsims.github.io/dot/
+      - Kite: https://phetsims.github.io/kite/
+      - Alpenglow: https://phetsims.github.io/alpenglow/
+    - Accessibility Resources: accessibility/phet_a11y_guides.md
+  - Community:
+    - Join Us: community/join.md 
+    - Community Guidelines: CODE_OF_CONDUCT.md
+    - Sustainability Plan: community/sustainability_plan.md
+    - Contribute:
+      - Contribution Guide: CONTRIBUTING.md
+      - Contributor License Agreement: community/CLA.md
+      - Roadmap: community/roadmap.md
+  - About: 
+    - about/about.md
+    - FAQ: about/faqs.md
+    - Branding: about/branding.md
 
 
 

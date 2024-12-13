@@ -6,15 +6,16 @@ hide:
 
 # SceneryStack
 
-## Create Highly Interactive Content for a Multimodal and Accessible Web
-
-SceneryStack is an open-source Typescript framework for developing multimodal, accessible HTML5 web interactives. SceneryStack offers libraries suitable for general web interactive development, as well as those specifically tailored toward creating interactive simulations. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
-<!-- TODO: expand on accessibility, inc PDOM and abstraction for descriptions -->
-
+<figure markdown>
 [GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
 ---
+</figure>
 
----
+## Create Highly Interactive Content for a Multimodal and Accessible Web
+
+SceneryStack is an open-source TypeScript framework designed to create powerful, interactive, and accessible web experiences. SceneryStack offers web development libraries for building engaging simulations, educational tools, or next-generation web applications. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
+
+[**Learn about SceneryStack Capabilities**](#scenerystack-capabilities)
 
 <figure markdown>
   ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
@@ -23,53 +24,21 @@ SceneryStack is an open-source Typescript framework for developing multimodal, a
 
 ---
 
-The development libraries within SceneryStack were originally created by [PhET Interactive Simulations](https://phet.colorado.edu/) to create educational interactive simulations. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
-
+SceneryStack was born from the work of [PhET Interactive Simulations](https://phet.colorado.edu/), where it powers STEM-focused interactives used by millions around the world. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
 {==
 **SceneryStack is in the early stages of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**
 ==}
 
-## Flexibility and Accessibility
-
-### Rendering and Graphics
-
-- **Cross-Platform Capabilities**: Shield from bugs and quirks of modern browsers.
-- **Offline Support**: Downloadable, fully offline, single-file artifacts.
-- **Pixel-Perfect Design**: Optimized for high pixel density devices with color profile support.
-- **CSS Abstraction & Animation**: Utilize the `Twixt` library for advanced animations.
-- **TypeScript Integration**: Ensures type safety and autocomplete.
-- **Real-Time Updates**: Trace dependencies and updates using the `Axon` library.
-- **Rich Component Library**: Build accessible components with ease.
-- **Multiple Rendering Support**: Seamless functionality across SVG, Canvas, and increasing WebGL support.
-- **Innovative Layout Engine**: Advanced layout, shape computations, and CAG for interface components.
-- **Enhanced iframe Support**: Easier user interaction within iframes.
-- **Charts and Graphs**: Support using the `Bamboo` library.
-- **Declarative APIs**: Optimize performance and quality adjustments.
-
-### Input
-
-- **Enhanced Touch and Mouse Areas**: Extended touch handling including Swipe-to-Snag functionality.
-- **Extendable Input System**: Upholds foundational accessibility.
-- **Keyboard Traversal Order**: API to specify keyboard traversal order.
-
-### Accessibility and Inclusive Features
-
-- **Screen Reader Access**: Novel and effective access using the research-backed Parallel Document Object Model (PDOM) ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8)).
-- **Dynamic Spoken Content**: Customizable through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4)).
-- **Interactive Highlighting**: Extends visual accessibility features to pointer/touch input.
-- **In-App Zooming**: Features like pinch-to-zoom and panning.
-- **Multimodal Libraries**: Integrate Web Audio with `Tambo`, computer vision with `Tangible`, and experimental Vibration API support with `Tappi`.
-
-SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.
-
-## Getting Started
-
-[GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
 ---
 
-Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
+## Ready to use SceneryStack?
 
-Choose your development path and [get started](./guides/pathways.md).
+<figure markdown>
+[GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
+---
+</figure>
+
+Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
 
 ---
 
@@ -79,15 +48,14 @@ Choose your development path and [get started](./guides/pathways.md).
 </figure>
 ---
 
-## Community and Contributing 🤝
+## Community 🌍
 
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
 
-[🌍 Join the Community 🌍](join.md){ .md-button .md-button--primary }
-
-## FAQs
-
-Head over to [Frequently Asked Questions](./guides/faqs.md) for questions asked about developing in the SceneryStack framework and SceneryStack generally.
+<figure markdown>
+[Join the Community](join.md){ .md-button .md-button--primary }
+---
+</figure>
 
 ---
 
@@ -97,15 +65,47 @@ _[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jess
 
 ---
 
-## License
+## Accessibility and Inclusive Features
 
-The libraries contained within SceneryStack, including this website, are under the MIT License and freely available for use by anyone. Authors using SceneryStack may choose any license for their creations.
+Want to learn more about the Accessibility and Inclusive Design features of SceneryStack and how to create accessible content for all users?
 
-??? warning "Licensing for PhET Interactive Simulations"
-     The _simulation source code_ for PhET Interactive Simulations is typically GPLv3 licensed or similar. For everything involving PhET Interactive Simulations, including partnerships, [see their website](https://phet.colorado.edu/).
+<figure markdown>
+[:octicons-rocket-24: Learn about Accessibility and Inclusive Design](../accessibility/phet_a11y_guides.md){ .md-button .md-button--primary }
+---
+</figure>
 
 ---
 
 ![Interactive in action with SceneryStack](assets/cck-bulb.gif)
 
 _[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) created by PhET using SceneryStack_
+
+---
+
+## Contributing 🤝
+
+We welcome contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
+
+<figure markdown>
+[Help Develop SceneryStack](./start/dev/dev_environment.md){ .md-button .md-button--primary }
+---
+</figure>
+
+## SceneryStack Capabilities
+
+| _Rendering and Data Handling_ | _Input and Accessibility Features_ |
+|-----------------------------|----------------------------------|
+| **Cross-Platform Capabilities**: Shield from bugs and quirks of modern browsers. | **Screen Reader Access**: Novel and effective access using the research-backed Parallel Document Object Model (PDOM) ([Experience "Interactive Description"](https://youtu.be/gj55KDRdhM8)). |
+| **Offline Support**: Downloadable, fully offline, single-file artifacts. | **Dynamic Spoken Content**: Customizable through Web Speech ([Experience "Voicing"](https://youtu.be/mwCc_NDmqx4)). |
+| **Pixel-Perfect Design**: Optimized for high pixel density devices with color profile support. | **Interactive Highlighting**: Extends visual accessibility features to pointer/touch input. |
+| **CSS Abstraction & Animation**: Utilize the `Twixt` library for advanced animations. | **In-App Zooming**: Features like pinch-to-zoom and panning. |
+| **TypeScript Integration**: Ensures type safety and autocomplete. | **Multimodal Libraries**: Integrate Web Audio with `Tambo`, computer vision with `Tangible`, and experimental Vibration API support with `Tappi`. |
+| **Real-Time Updates**: Trace dependencies and updates using the `Axon` library. | **Enhanced Touch and Mouse Areas**: Extended touch handling including Swipe-to-Snag functionality. |
+| **Rich Component Library**: Build accessible components with ease. | **Extendable Input System**: Upholds foundational accessibility. |
+| **Multiple Rendering Support**: Seamless functionality across SVG, Canvas, and increasing WebGL support. | **Keyboard Traversal Order**: API to specify keyboard traversal order. |
+| **Innovative Layout Engine**: Advanced layout, shape computations, and CAG for interface components. | |
+| **Enhanced iframe Support**: Easier user interaction within iframes. | |
+| **Charts and Graphs**: Support using the `Bamboo` library. | |
+| **Declarative APIs**: Optimize performance and quality adjustments. | |
+
+SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.

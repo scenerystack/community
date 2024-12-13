@@ -1,20 +1,39 @@
+[data-md-color-scheme="scenerystack"] {
+  --md-primary-fg-color: #236C55;
+  --md-primary-fg-color--light: #56E39F;
+  --md-primary-fg-color--dark: #236C55;
+  --md-accent-fg-color: #56E39F;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #236C55;
+  --md-primary-fg-color--light: #56E39F;
+  --md-primary-fg-color--dark: #236C55;
+  --md-accent-fg-color: #56E39F;
+}
+
+
 .rocket {
-    color: #ff8800;
+  color: #e9d53f;
 }
 
 @keyframes rocket {
-    0%, 100% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.15);
-    }
-  }
-  .rocket {
-    animation: rocket 1000ms infinite;
+
+  0%,
+  100% {
+    transform: scale(1);
   }
 
-.md-button {
-    background-color: aqua;
-    margin: 0 auto;
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.rocket {
+  animation: rocket 1000ms infinite;
+}
+
+.md-button--primary {
+  background-color: aqua;
+  margin: 0 auto;
 }

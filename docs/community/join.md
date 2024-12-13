@@ -1,6 +1,6 @@
 # Join the SceneryStack Community
 
-We welcome you to the community in any way you would like to participate. Interested in using SceneryStack for your purposes? Making an educational simulation? Looking to chat with others in the science interactives world (using SceneryStack or not!)? Find your way to engage below:
+We welcome you to the community in any way you would like to participate. Interested in using SceneryStack in your web project? Making an educational simulation? Looking to chat with others in the web interactives world (using SceneryStack or not!)? Find your way to engage below:
 
 !!! success "But first!"
     Read our [CODE\_OF\_CONDUCT.md](./CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](./CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
@@ -17,10 +17,10 @@ Make a post in the [Discussions forum](https://github.com/scenerystack/community
 
 ## Chat
 
-Join our chat! We have synchronized Slack and Matrix channels for the community to discuss and collaborate. Choose whichever platform you prefer:
+Join our chat! We have synchronized Slack and Matrix channels for the community to discuss and collaborate. Slack is on the free tier, so message history is limited However, all history can be found on the Matrix server. Choose whichever platform you prefer:
 
+- [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org) (Element.io client recommended)
 - [Join our Slack](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
-- [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org) (Element client recommended)
 
 ## Contribute
 
