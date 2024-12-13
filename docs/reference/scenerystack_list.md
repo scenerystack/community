@@ -1,8 +1,8 @@
 # SceneryStack Libraries
 
-Looking for the best way to start using SceneryStack? Head over to the [Pathways](./pathways.md) guide.
+Looking for the best way to start using SceneryStack? Head over to the [Pathways](./../start/setup.md) guide.
 
-[:octicons-rocket-24:{ .rocket } GET STARTED](pathways.md){ .md-button .md-button--primary }
+[:octicons-rocket-24:{ .rocket } GET STARTED](../start/setup.md){ .md-button .md-button--primary }
 
 ## NPM Package
 [:simple-github: SceneryStack package on GitHub](https://github.com/scenerystack/scenerystack){ .md-button .md-button--primary }
@@ -29,7 +29,7 @@ Libraries focused on graphics rendering, UI elements, and interaction.
 
 ---
 
-### Core Libraries
+### Utilities
 
 Libraries foundational to data structures, algorithms, and general functionality.
 

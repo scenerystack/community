@@ -1,3 +1,3 @@
-# Full Project Demo
+# Simulation Template
 
 ## Content coming soon

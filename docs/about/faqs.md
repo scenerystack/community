@@ -3,16 +3,15 @@
 ## Development Questions
 
 ??? question "How do I get started with SceneryStack?"
-    Head over to the [Development Pathways Guide](pathways.md).
+    Head over to the [Development Pathways Guide](../start/setup.md).
 
 ??? question "How do I get started if I want to make a simulation?"
-    Head over to the [Development Pathways Guide for Path B](pathways.md#path-b-using-scenerystack-framework-to-make-highly-interactive-experiences).
+    Head over to the [Development Pathways Guide for Path C](../start/setup.md#path-c-using-scenerystack-framework-to-make-an-interactive-simulation).
 
-    The best resources at this time can be found in the [Development Overview](../info_sync/simulation_development_overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](../guides/simulation_examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
+    The best resources at this time can be found in the [Development Overview](../info_sync/simulation_development_overview.md) and other documentation found or linked to on this site. Small test projects, academic projects (e.g., education research for a Ph.D.), or open source curriculum projects have all successfully developed custom simulations, leveraging our code base (See [Simulation Examples](../start/sim/simulation_examples.md)). It requires expertise in design and JavaScript/TypeScript, but it is very possible for dedicated developers and teams. If you have made significant progress and are committed to your STEM simulation, please reach out to us through the [community discussion forum](https://github.com/orgs/scenerystack/discussions) to discuss any support we may be able to provide.
 
     **If you are a commercial organization interested in contracting with PhET to make simulations:**
     See the [PhET website page regarding simulation development](https://phet.colorado.edu/en/about/source-code) for more information.
-
 
 ??? question "How do I create my own brand for my simulation project?"
     Instructions for creating your own brand can be found in the [`brand` repository README](https://github.com/phetsims/brand?tab=readme-ov-file#readme).
@@ -37,7 +36,7 @@
 ## General Questions
 
 ??? question "What is this site and community for?"
-    Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](./scenerystack_list.md).
+    Discussions, resources, and collaboration around the use and improvement of **SceneryStack** and its [constituent libraries](../reference/scenerystack_list.md).
 
     This repository is not for discussions and help regarding the PhET Projects's educational, interactive simulations. For questions and comments regarding PhET Simulations, see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 

@@ -3,7 +3,7 @@
 We welcome you to the community in any way you would like to participate. Interested in using SceneryStack in your web project? Making an educational simulation? Looking to chat with others in the web interactives world (using SceneryStack or not!)? Find your way to engage below:
 
 !!! success "But first!"
-    Read our [CODE\_OF\_CONDUCT.md](./CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](./CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
+    Read our [CODE\_OF\_CONDUCT.md](../CODE_OF_CONDUCT.md), [GitHub’s policies](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines), and our [CONTRIBUTING.md](../CONTRIBUTING.md) before creating or contributing to a discussion or to the codebase.
 
 ## Forum
 

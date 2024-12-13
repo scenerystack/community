@@ -1,3 +1,13 @@
+# build output
 /site/
 /drafts/
-/ss_env/
+/build/
+
+# dependencies in case we use npm later
+/node_modules/
+
+# Turned off inline-html lint rule, but this doesn't need to be in the repo
+.markdownlint.json
+
+# Ignoring "env" directories at the moment, but this may not be appropriate generally
+*env*/

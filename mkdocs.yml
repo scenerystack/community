@@ -77,7 +77,7 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  # - blog
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -89,7 +89,12 @@ extra:
     json: [.s2]
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/phetsims/paper-land
+      link: https://github.com/scenerystack/
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@scenerystack
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@SceneryStack
+    
 
 # Extensions
 markdown_extensions:
@@ -139,9 +144,9 @@ nav:
   - Getting Started: 
     - Setup: 
       - Install: start/setup.md
-      - Create a New Project: start/templates/project.md
-      - Make a Simulation: start/templates/sim.md
-      - Add SceneryStack to a Project: start/project_add.md
+      - Create a New Project: start/templates/projecta_rasa.md
+      - Make a Simulation: start/templates/simula_rasa.md
+      - Add SceneryStack to a Project: start/templates/subprojecta_rasa.md
     - Web Development: 
       - Overview: start/web/web_overview.md
       - Full Project Demo: start/web/scenery_demo.md
@@ -155,7 +160,7 @@ nav:
       - More Examples: start/sim/simulation_examples.md
     - SceneryStack Developer Tools:
       - Setting Up Development Environment: start/dev/dev_environment.md
-      - SceneryStack Versioning: guides/dev/versioning.md
+      - SceneryStack Versioning: start/dev/versioning.md
       - Contribution Guide: CONTRIBUTING.md
       - Coding Conventions: info_sync/coding_conventions.md
       - PhET TypeScript Conventions: info_sync/typescript_conventions.md
@@ -167,7 +172,7 @@ nav:
       - Dot: https://phetsims.github.io/dot/
       - Kite: https://phetsims.github.io/kite/
       - Alpenglow: https://phetsims.github.io/alpenglow/
-    - Accessibility Resources: accessibility/phet_a11y_guides.md
+    - Accessibility Resources: accessibility/a11y_guides.md
   - Community:
     - Join Us: community/join.md 
     - Community Guidelines: CODE_OF_CONDUCT.md
@@ -177,9 +182,10 @@ nav:
       - Contributor License Agreement: community/CLA.md
       - Roadmap: community/roadmap.md
   - About: 
-    - about/about.md
+    - Project Mission: about/about.md
     - FAQ: about/faqs.md
     - Branding: about/branding.md
+    - Licensing: about/licensing.md
 
 
 

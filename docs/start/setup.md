@@ -1,10 +1,36 @@
-# SceneryStack Quickstart
+# Setup Guide
 
-For creating general web interactive content with SceneryStack, it is recommended to use the 
-[SceneryStack npm package](https://www.npmjs.com/package/scenerystack) from the 
+!!! warning "Under Construction"
+    This section and others in Getting Started with SceneryStack are under heavy revisement
+    and will be updated by the end of 2024.
+
+For creating general web interactive content with SceneryStack, it is recommended to use the
+[SceneryStack npm package](https://www.npmjs.com/package/scenerystack) from the
 [npm package repository](https://www.npmjs.com/), along with a build/bundling tool.
 
 The guide below will set up a project structure that uses [Vite](https://vitejs.dev/) to serve and build some SceneryStack examples.
+
+## Already set up?
+
+Choose your development path below:
+
+### Path A: Using SceneryStack for Web Projects
+
+Looking to take advantage of SceneryStack in your web project?
+
+[Integrate SceneryStack into your Project](./web/web_overview.md){ .md-button .md-button--secondary }
+
+### Path B: Using SceneryStack Framework to Make Highly Interactive Experiences
+
+Want to leverage SceneryStack for a fullscreen project?
+
+[Use the Full Framework](./web/web_overview.md){ .md-button .md-button--secondary }
+
+### Path C: Using SceneryStack Framework to Make an Interactive Simulation
+
+Want to leverage SceneryStack to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself, you'll want to use the whole framework.
+
+[Use the Full Framework](./sim/sim_overview.md){ .md-button .md-button--secondary }
 
 ## Project Structure
 
@@ -42,11 +68,14 @@ In a fresh directory, we will want to add the barebones files needed:
     npm install --save scenerystack
     npm install --save-dev vite
     ```
+
    NOTE: This will create a package.json file recording these choices.
 3. In the terminal, launch Vite by running:
+
     ```sh
     npx vite
     ```
+
 4. Vite will run a local server (usually printing a URL like `http://localhost:5173/` in the terminal). Opening that URL in a browser should show a blank page.
     ??? warning "If types are undefined"
         Vite seems to sometimes load types in the incorrect order. If you see errors like `Uncaught TypeError: Class extends value undefined is not a constructor or null`, instead try running the Vite preview:
@@ -138,7 +167,7 @@ Put all together, it will look like this:
 ??? example "main.ts (Hello World)"
     ```js
         import { Node, Display, Rectangle, Text, VBox } from 'scenerystack/scenery';
-        
+
         const scene = new Node();
         const display = new Display( scene, {
           container: document.querySelector( '#hello-world' )
@@ -194,7 +223,7 @@ const ExampleComponent = () => {
 ```
 
 ??? warning "React integration is in progress"
-    This integration has not been widely tested or deployed. 
+    This integration has not been widely tested or deployed.
 
 A React Fiber renderer is planned for SceneryStack, somewhat akin to [React Three Fiber](https://r3f.docs.pmnd.rs/), which will allow writing SceneryStack visuals in a React-like style.
 
@@ -209,8 +238,6 @@ enableAssert();
 ```
 
 Note that SceneryStack is built with TypeScript in mind, so most runtime type checks were removed in favor of compile-time checks.
-
-
 
 ## I don't know JavaScript development, how can I get started?
 

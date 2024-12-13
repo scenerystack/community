@@ -2,20 +2,18 @@
 
 ## Community Simulations
 
-### Numerical Methods Simulations 
+### Numerical Methods Simulations
 
 :fontawesome-solid-globe: [Numerical Methods Simulations by Autar Kaw](https://nm.mathforcollege.com/numericalmethodssimulations/)
 
 !!! abstract
-    ![alt text](../assets/nms.png)
-
+    ![alt text](../../assets/nms.png)
 
 ### Interactive Learning & Design Lab (University of Wisconsin)
 
 :fontawesome-solid-globe: [ILDL Simulations](https://ildl.wceruw.org/technology-simulations/)
 
-![alt text](../assets/ildl.png)
-
+![alt text](../../assets/ildl.png)
 
 ### Sound Waves Simulation
 
@@ -23,7 +21,7 @@
 
 :fontawesome-solid-globe: [Sound Waves Sim Page](https://phet.colorado.edu/en/simulations/sound-waves)
 
-![alt text](../assets/soundwaves.png)
+![alt text](../../assets/soundwaves.png)
 
 ## PhET Interactive Simulations
 
@@ -31,7 +29,7 @@
 
 :fontawesome-solid-globe: [PhET Interactive Simulation Filter Page](https://phet.colorado.edu/en/simulations/filter?type=html)
 
-![alt text](../assets/phetsims.png)
+![alt text](../../assets/phetsims.png)
 
 ## Community Projects
 

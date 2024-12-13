@@ -7,7 +7,7 @@ hide:
 # SceneryStack
 
 <figure markdown>
-[GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./start/setup.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -34,7 +34,7 @@ SceneryStack was born from the work of [PhET Interactive Simulations](https://ph
 ## Ready to use SceneryStack?
 
 <figure markdown>
-[GET STARTED :octicons-rocket-24:{ .rocket }](./guides/pathways.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./start/setup.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -53,7 +53,7 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
 
 <figure markdown>
-[Join the Community](join.md){ .md-button .md-button--primary }
+[Join the Community](community/join.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -70,7 +70,7 @@ _[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jess
 Want to learn more about the Accessibility and Inclusive Design features of SceneryStack and how to create accessible content for all users?
 
 <figure markdown>
-[:octicons-rocket-24: Learn about Accessibility and Inclusive Design](../accessibility/phet_a11y_guides.md){ .md-button .md-button--primary }
+[:octicons-rocket-24: Learn about Accessibility and Inclusive Design](./accessibility/a11y_guides.md){ .md-button .md-button--primary }
 ---
 </figure>
 

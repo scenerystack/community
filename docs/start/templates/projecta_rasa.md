@@ -1,3 +1,3 @@
-# Full Project Demo
+# Project Template
 
 ## Content coming soon

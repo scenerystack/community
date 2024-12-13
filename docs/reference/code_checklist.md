@@ -1,5 +1,7 @@
 # Exemplar Code-Review Checklist (a.k.a "CRC") used by PhET Interactive Simulations
 
+## Code-Review Notes
+
 * The responsible dev is responsible for removing the irrelevant parts
 * A checked-off item doesn't mean "no problem here", it means "it was reviewed"
 * Problems can be noted in side issues that reference this issue, or through `// REVIEW` comments in the code
@@ -114,7 +116,7 @@ If any of these items fail, pause code review.
   look like this (where assets/, images/, mipmaps/ or sounds/ may be omitted if the sim doesn’t have those types of
   resource files).
 
-  ```
+  ```directory
   my-repo/
     assets/
     doc/
@@ -152,7 +154,7 @@ If any of these items fail, pause code review.
   should be in model/ and view/ subdirectories for each screen and common/. For example, for a sim with screens
   “Introduction” and “Lab”, the general directory structure should look like this:
 
-  ```
+  ```directory
   my-repo/
     js/
     common/
@@ -212,7 +214,7 @@ If any of these items fail, pause code review.
 ## **Coding Conventions**
 
 * [ ] Are coding conventions outlined in
-  PhET's [Coding Conventions](../../info_sync/coding_conventions.md) document
+  PhET's [Coding Conventions](../info_sync/coding_conventions.md) document
   followed and adhered to? This document deals with PhET coding conventions. You do not need to exhaustively check every
   item in this section, nor do you necessarily need to check these items one at a time. The goal is to determine whether
   the code generally meets PhET standards.
@@ -220,7 +222,7 @@ If any of these items fail, pause code review.
 ## **TypeScript Conventions**
 
 * [ ] Are TypeScript conventions outlined in
-  PhET's [TypeScript Conventions](../../info_sync/typescript_conventions.md)
+  PhET's [TypeScript Conventions](../info_sync/typescript_conventions.md)
   document followed and adhered to?
 
 ## **Math Libraries**
@@ -239,7 +241,7 @@ If any of these items fail, pause code review.
   expect (or guess!) by looking at the sim? Do the names of things correspond to the names that you see in the user
   interface?
 * [ ] Are appropriate design patterns used?
-  See [software_design_patterns.md](../../info_sync/software_design_patterns.md).
+  See [software_design_patterns.md](../info_sync/software_design_patterns.md).
   If new or inappropriate patterns are identified, create an issue.
 * [ ] Is inheritance used where appropriate? Does the type hierarchy make sense?
 * [ ] Is composition favored over inheritance where appropriate?
@@ -263,7 +265,7 @@ class MyClass {
 * [ ] Are the source files reasonable in size? Scrutinize large files with too many responsibilities - can
   responsibilities be broken into smaller delegates? To see file sizes for TypeScript sims, run this shell command:
 
-```
+```sh
 cd {{repo}}/js ; wc -l `find . -name "*.ts" -print` | sort
 ```
 
@@ -313,7 +315,7 @@ various features, not all are always include. Ignore sections that do not apply.
 * [ ] Run the entire built sim HTML file through an [HTML validator](https://validator.w3.org/nu/#textarea), does the
   HTML pass?
 * [ ] If applicable, are good design patterns used for interactive description,
-  see [interactive-description-technical-guide.md](../../info_sync/interactive_description_technical_guide.md)
+  see [interactive-description-technical-guide.md](../info_sync/interactive_description_technical_guide.md)
 * [ ] Does resetting the simulation also reset the entire PDOM?
 * [ ] Make sure accessibility strings aren't being adjusted with ascii specific javascript methods like `toUpperCase()`.
   Remember that one day these strings will be translatable

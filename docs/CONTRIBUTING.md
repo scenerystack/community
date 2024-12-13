@@ -6,7 +6,7 @@ We're excited to have you here! Your interest in contributing to SceneryStack is
 
 ### 0. Contributing to Open-Source Projects
 
-Never participated in an open-source project? Just ask in any of [our community platforms](join.md)!
+Never participated in an open-source project? Just ask in any of [our community platforms](community/join.md)!
 
 You'll find some good general advice in resources such as this [article from FreeCodeCamp](https://www.freecodecamp.org/news/how-to-contribute-to-open-source/).
 
@@ -42,7 +42,7 @@ Contributing is streamlined with the following steps:
 
 1. Start by raising an issue using the provided [BUG_REPORT_TEMPLATE](BUG_REPORT_TEMPLATE.md) or [FEATURE_REQUEST_TEMPLATE](FEATURE_REQUEST_TEMPLATE.md) in the appropriate repository. Unsure about the right repository? Ask on the [Discussion forum](https://github.com/orgs/scenerystack/discussions).
 2. Familiarize yourself with our [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md).
-3. Don't forget to sign the [Contributor License Agreement](CLA.md) before diving in.
+3. Don't forget to sign the [Contributor License Agreement](./community/CLA.md) before diving in.
 4. Fork the necessary repositories.
 5. Maintain the integrity of the `dist/` in applicable common code — refrain from changing or committing to it.
 6. Configure npm to prevent `package-log.json` commits - `npm config set save false`.
@@ -50,7 +50,7 @@ Contributing is streamlined with the following steps:
 8. Ready? Submit your pull request using the provided [PULL_REQUEST_TEMPLATE](pull_request_template.md).
 
 !!! warning "Multiple-repository spanning contributions"
-    For contributions that span multiple repositories (e.g., `Scenery` and `Sun`), please [reach out to the maintainers](join.md) to verify compatibility and avoid any problems you might encounter in the process.
+    For contributions that span multiple repositories (e.g., `Scenery` and `Sun`), please [reach out to the maintainers](community/join.md) to verify compatibility and avoid any problems you might encounter in the process.
 
 ### Review Process
 
@@ -61,7 +61,7 @@ After your PR submission, a maintainer will conduct a review:
 
 ## Questions? Get in Touch
 
-Your feedback, questions, and suggestions are invaluable. Connect with our community on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or through [Slack/Matrix](join.md).
+Your feedback, questions, and suggestions are invaluable. Connect with our community on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or through [Slack/Matrix](community/join.md).
 
 ??? note "How do I contribute to PhET Interactive Simulations?"
 
