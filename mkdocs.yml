@@ -3,7 +3,7 @@ site_name: SceneryStack
 site_url: https://scenerystack.org/
 site_author: PhET Interactive Simulations
 site_description: >-
-  The TypeScript webstack for creatng inclusive, multimodal web interactives.
+  The TypeScript webstack for creating inclusive, multimodal web interactives.
 
 # Repository
 repo_name: community
@@ -58,15 +58,15 @@ theme:
       icon: material/brightness-auto
       name: Switch to light mode
   - media: '(prefers-color-scheme: light)'
-    primary: scenerystack
-    # accent: light blue
-    scheme: scenerystack
+    primary: blue
+    accent: orange
+    scheme: default
     toggle:
       icon: material/weather-sunny
       name: Switch to dark mode
   - media: '(prefers-color-scheme: dark)'
-    primary: scenerystack
-    # accent: light blue
+    primary: blue
+    accent: light blue
     scheme: slate
     toggle:
       icon: material/weather-night

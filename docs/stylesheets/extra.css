@@ -1,4 +1,4 @@
-[data-md-color-scheme="scenerystack"] {
+/* [data-md-color-scheme="scenerystack"] {
   --md-primary-fg-color: #236C55;
   --md-primary-fg-color--light: #56E39F;
   --md-primary-fg-color--dark: #236C55;
@@ -10,11 +10,11 @@
   --md-primary-fg-color--light: #56E39F;
   --md-primary-fg-color--dark: #236C55;
   --md-accent-fg-color: #56E39F;
-}
+} */
 
 
 .rocket {
-  color: #e9d53f;
+  color: #ffffff;
 }
 
 @keyframes rocket {
@@ -33,7 +33,7 @@
   animation: rocket 1000ms infinite;
 }
 
-.md-button--primary {
+/* .md-button--primary {
   background-color: aqua;
   margin: 0 auto;
-}
+} */

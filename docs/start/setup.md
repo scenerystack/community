@@ -14,7 +14,11 @@ The guide below will set up a project structure that uses [Vite](https://vitejs.
 
 Choose your development path below:
 
-### Path A: Using SceneryStack for Web Projects
+| Path A: Looking to take advantage of SceneryStack in your web project? | Path B: Want to leverage SceneryStack for a fullscreen project? | Path C: Want to leverage SceneryStack to make your own interactive simulation? |
+|---|---|---|
+| [Integrate SceneryStack into your Project](./web/web_overview.md){ .md-button .md-button--secondary } | [Start a New SceneryStack Project](./web/web_overview.md){ .md-button .md-button--secondary } | [Make A Simulation](./sim/sim_overview.md){ .md-button .md-button--secondary } |
+
+<!-- ### Path A: Using SceneryStack for Web Projects
 
 Looking to take advantage of SceneryStack in your web project?
 
@@ -30,7 +34,7 @@ Want to leverage SceneryStack for a fullscreen project?
 
 Want to leverage SceneryStack to make your own interactive simulation? Whether you plan to work with the PhET project or brand it yourself, you'll want to use the whole framework.
 
-[Use the Full Framework](./sim/sim_overview.md){ .md-button .md-button--secondary }
+[Use the Full Framework](./sim/sim_overview.md){ .md-button .md-button--secondary } -->
 
 ## Project Structure
 

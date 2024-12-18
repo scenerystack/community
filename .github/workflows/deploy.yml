@@ -2,7 +2,7 @@ name: page-deploy-on-push
 on:
   push:
     branches:
-      - draft # THIS IS TEMPORARY - SWITCH TO MAIN WHEN READY
+      - main
 permissions:
   contents: write
 jobs:
