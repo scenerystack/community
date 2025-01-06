@@ -13,7 +13,6 @@ The following resources are intended for use when implementing accessibility and
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-solid-arrow-up-right-from-square: PhET Style Guide, Binder](https://phetsims.github.io/binder/)
 - [Dynamic String Layout](../info_sync/dynamic_string_layout_quickstart.md)
 - [Interactive Highlights](../info_sync/interactive_highlights_quickstart_guide.md)
 - [Interactive Description for Screen Readers](../info_sync/interactive_description_technical_guide.md)
@@ -22,7 +21,7 @@ The following resources are intended for use when implementing accessibility and
 
 </div>
 
-Learn more about what other multimodal and accessible features can be integrated using SceneryStack using [PhET Interactive Simulations' Inclusive Features](https://phet.colorado.edu/en/inclusive-design/features) as an example.
+Learn more about what other multimodal and accessible features can be integrated using SceneryStack using [:fontawesome-solid-arrow-up-right-from-square: PhET Interactive Simulations' Inclusive Features](https://phet.colorado.edu/en/inclusive-design/features) as an example.
 
 Dive into our crash course course in Interactive Description - dynamic, navigatable screen-reader description design for web interactives:
 
