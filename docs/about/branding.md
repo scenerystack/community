@@ -4,44 +4,44 @@ Here are SceneryStack branding assets, used across the project pages, that you c
 
 If you have any questions or specific requests, feel free to [submit an issue](https://github.com/scenerystack/community/issues/new).
 
-See the [community GitHub repository](https://github.com/scenerystack/community/tree/main/docs/about/assets) for the raw files, some alternates, and PNG versions.
+See the [community GitHub repository](https://github.com/scenerystack/community/tree/main/docs/about/assets) for the raw files, some alternates, and SVG versions.
 
 ## Banner
 
-![banner](assets/svg/scenerystack-banner.svg)
+![SceneryStack Logo against a navy blue background - Rocket ship in a fading circle followed by text "SceneryStack"](assets/png/scenerystack-banner.png)
 
 ## Logo
 
 ### Logo (Dark)
 
-![alt text](assets/svg/full-color-scenerystack-logo.svg)
+![SceneryStack Logo - Rocket ship in a fading circle followed by text "SceneryStack"](assets/png/full-color-scenerystack-logo.png)
 
 ### Logo (Light)
 
-![alt text](assets/svg/full-color-white-scenerystack-light-logo.svg)
+![SceneryStack Logo - Rocket ship in a fading circle followed by text "SceneryStack"](assets/png/full-color-white-scenerystack-light-logo.png)
 
 ## Logo - Monochrome (Dark)
 
-![alt text](assets/svg/monochrome-scenerystack-logo.svg)
+![SceneryStack Logo - Rocket ship in a fading circle followed by text "SceneryStack"](assets/png/monochrome-scenerystack-logo.png)
 
 ## Logo - Monochrome (Light)
 
-![alt text](assets/svg/monochrome-white-scenerystack-light-logo.svg)
+![SceneryStack Logo - Rocket ship in a fading circle followed by text "SceneryStack"](assets/png/monochrome-white-scenerystack-light-logo.png)
 
 ## Mark
 
 ### Mark (Dark)
 
-![alt text](assets/svg/full-color-scenerystack-mark.svg)
+![SceneryStack Mark - Rocket ship in a fading circle](assets/png/full-color-scenerystack-mark.png)
 
 ### Mark (Light)
 
-![alt text](assets/svg/full-color-white-scenerystack-mark.svg)
+![SceneryStack Mark - Rocket ship in a fading circle](assets/png/full-color-transparent-scenerystack-mark.png)
 
 ### Mark - Monochrome (Dark)
 
-![alt text](assets/svg/monochrome-scenerystack-mark.svg)
+![SceneryStack Mark - Rocket ship in a fading circle](assets/png/monochrome-scenerystack-mark.png)
 
 ### Mark - Monochrome (Light)
 
-![alt text](assets/svg/monochrome-white-scenerystack-mark.svg)
+![SceneryStack Mark - Rocket ship in a fading circle](assets/png/monochrome-transparent-scenerystack-mark.png)
