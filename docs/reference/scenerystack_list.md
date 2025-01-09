@@ -1,8 +1,8 @@
 # SceneryStack Libraries
 
-Looking for the best way to start using SceneryStack? Head over to the [Setup Guide](./../start/setup.md).
+Looking for the best way to start using SceneryStack? Head over to the [Setup Guide](./../learn/setup.md).
 
-[:octicons-rocket-24:{ .rocket } GET STARTED](../start/setup.md){ .md-button .md-button--primary }
+[:octicons-rocket-24:{ .rocket } GET STARTED](../learn/setup.md){ .md-button .md-button--primary }
 
 ## NPM Package
 

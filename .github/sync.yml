@@ -15,7 +15,7 @@ phetsims/phet-info:
     dest: docs/info_sync/interactive_description_technical_guide.md
   - source: doc/interactive-highlights-quickstart-guide.md
     dest: docs/info_sync/interactive_highlights_quickstart_guide.md
-  - source: doc/software_design_patterns.md
+  - source: doc/phet-software-design-patterns.md
     dest: docs/info_sync/software_design_patterns.md
   - source: doc/typescript-conventions.md
     dest: docs/info_sync/typescript_conventions.md

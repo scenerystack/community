@@ -7,7 +7,7 @@ hide:
 # SceneryStack
 
 <figure markdown>
-[GET STARTED :octicons-rocket-24:{ .rocket }](./start/setup.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/setup.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -34,7 +34,7 @@ SceneryStack was born from the work of [PhET Interactive Simulations](https://ph
 ## Ready to use SceneryStack?
 
 <figure markdown>
-[GET STARTED :octicons-rocket-24:{ .rocket }](./start/setup.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/setup.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -87,7 +87,7 @@ _[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-const
 We welcome contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
 
 <figure markdown>
-[Help Develop SceneryStack](./start/dev/dev_environment.md){ .md-button .md-button--primary }
+[Help Develop SceneryStack](./CONTRIBUTING.md){ .md-button .md-button--primary }
 ---
 </figure>
 

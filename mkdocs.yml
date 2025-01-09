@@ -38,7 +38,7 @@ theme:
     - navigation.indexes
     - navigation.instant
     # - navigation.prune
-    - navigation.sections
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -141,29 +141,25 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Getting Started: 
-    - Setup: 
-      - Install: start/setup.md
-      - Create a New Project: start/templates/projecta_rasa.md
-      - Make a Simulation: start/templates/simula_rasa.md
-      - Add SceneryStack to a Project: start/templates/subprojecta_rasa.md
-    - Web Development: 
-      - Overview: start/web/web_overview.md
-      - Full Project Demo: start/web/scenery_demo.md
-      - Add to Project Demo: start/web/project_add_demo.md
-      - React Demo: start/web/react_demo.md
-      - More Examples: start/web/scenery_examples.md
-    - Sim Development: 
-      - Overview: start/sim/sim_overview.md
-      - Example Sim Demo: start/sim/example_sim.md
-      - Exercises: info_sync/scenerystack_exercises.md
-      - More Examples: start/sim/simulation_examples.md
-    - SceneryStack Developer Tools:
-      - Setting Up Development Environment: start/dev/dev_environment.md
-      - SceneryStack Versioning: start/dev/versioning.md
-      - Contribution Guide: CONTRIBUTING.md
+  - Learn: 
+    - Overview: 
+      - Install: learn/setup.md
+      - Create a New Project: learn/templates/projecta_rasa.md
+      - Make a Simulation: learn/templates/simula_rasa.md
+      - Add SceneryStack to a Project: learn/templates/subprojecta_rasa.md
+    - Guides: 
+      - Web Overview: learn/web/web_overview.md
+      - Full Project Demo: learn/web/scenery_demo.md
+      - Add to Project Demo: learn/web/project_add_demo.md
+      - React Demo: learn/web/react_demo.md
+      - Sim Overview: learn/sim/sim_overview.md
       - Coding Conventions: info_sync/coding_conventions.md
       - PhET TypeScript Conventions: info_sync/typescript_conventions.md
+    - Examples:
+      - Example Sim Demo: learn/sim/example_sim.md
+      - Exercises: info_sync/scenerystack_exercises.md
+      - More Examples: learn/web/scenery_examples.md
+      - More Sim Examples: learn/sim/simulation_examples.md
   - Reference: 
     - Libraries: reference/scenerystack_list.md
     - Software Design Patterns: info_sync/software_design_patterns.md
@@ -180,6 +176,8 @@ nav:
     - Contribute:
       - Contribution Guide: CONTRIBUTING.md
       - Contributor License Agreement: community/CLA.md
+      - Setting Up Development Environment: learn/dev/dev_environment.md
+      - SceneryStack Versioning: learn/dev/versioning.md
       - Roadmap: community/roadmap.md
   - About: 
     - Project Mission: about/about.md
