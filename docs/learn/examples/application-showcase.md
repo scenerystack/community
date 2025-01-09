@@ -1,4 +1,4 @@
-# SceneryStack Showcase
+# Showcase
 
 ## Cathedral
 

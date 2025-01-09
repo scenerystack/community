@@ -141,8 +141,31 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Learn: 
-    - Overview: 
+  - Learn:
+    - Overview: learn/overview.md
+    - Getting Started:
+      - Prerequisites: learn/prerequisites.md
+      - Simulation: learn/simulation.md
+      - Scenery Application: learn/scenery-application.md
+      - Standalone Library: learn/standalone-library.md
+    - Guides:
+      - Scenery Basics: learn/scenery-basics.md
+      - Scenery Layout: learn/scenery-layout.md
+      - Scenery Input: learn/scenery-input.md
+      - Scenery Accessibility: learn/scenery-accessibility.md
+      - Emitters and Properties: learn/emitters-and-properties.md
+      - Vectors and Matrices: learn/vectors-and-matrices.md
+      - Shapes: learn/shapes.md
+      - Best Practices: learn/best-practices.md
+    - Tutorials:
+      - Three.js Integration: learn/threejs-integration.md
+      - Simulation Exercises: learn/simulation-exercises.md
+    - Examples:
+      - Demo Simulation: learn/examples/demo-simulation.md
+      - Scenery Layout: learn/examples/scenery-layout.md
+      - Simulation Showcase: learn/examples/simulation-showcase.md
+      - Application Showcase: learn/examples/application-showcase.md
+    - Overview:
       - Install: learn/setup.md
       - Create a New Project: learn/templates/projecta_rasa.md
       - Make a Simulation: learn/templates/simula_rasa.md
@@ -150,17 +173,11 @@ nav:
     - Guides: 
       - Web Overview: learn/web/web_overview.md
       - Full Project Demo: learn/web/scenery_demo.md
-      - Add to Project Demo: learn/web/project_add_demo.md
-      - React Demo: learn/web/react_demo.md
-      - Sim Overview: learn/sim/sim_overview.md
       - Coding Conventions: info_sync/coding_conventions.md
       - PhET TypeScript Conventions: info_sync/typescript_conventions.md
     - Examples:
-      - Example Sim Demo: learn/sim/example_sim.md
       - Exercises: info_sync/scenerystack_exercises.md
-      - More Examples: learn/web/scenery_examples.md
-      - More Sim Examples: learn/sim/simulation_examples.md
-  - Reference: 
+  - Reference:
     - Libraries: reference/scenerystack_list.md
     - Software Design Patterns: info_sync/software_design_patterns.md
     - Library APIs:

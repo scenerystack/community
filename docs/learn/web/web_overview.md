@@ -89,12 +89,6 @@ import { Display, Text, AnimatedPanZoomListener } from 'phet-lib/scenery';
 
 > This package also includes all dependencies statically, so it will declare e.g. jQuery/Lodash globally as `window.$` and `window._` respectively. -->
 
-## Demo Project Using SceneryStack
-
-Follow along with a demo that incorporates SceneryStack libraries to create an interactive experience.
-
-[Demo](project_add_demo.md){ .md-button .md-button--accent }
-
 ## Other SceneryStack Library Documentation
 
 [See Reference Section](../../reference/scenerystack_list.md) for a list of all the libraries that make up SceneryStack. Some libraries have external documentation available, while others are still in progress.
@@ -105,4 +99,4 @@ Often, the best documentation for each library is available in the code itself. 
 
 ## More Examples
 
-Check out other projects that make use of SceneryStack libraries on the [Example Showcase](scenery_examples.md) page. You can also check out any [PhET or community-created interactive simulation](../sim/simulation_examples.md) to learn from as well.
+Check out other projects that make use of SceneryStack libraries on the [Example Showcase](../examples/application-showcase.md) page. You can also check out any [PhET or community-created interactive simulation](../examples/simulation-showcase.md) to learn from as well.
