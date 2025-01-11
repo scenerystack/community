@@ -11,7 +11,12 @@ If you haven't, see the [Setup Guide](../setup.md) for instructions on how to ad
 
 ## Get to know Scenery
 
-When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used for representing graphics (rendering to SVG, Canvas or WebGL), handling user input (e.g. mouse, touch, keyboard, screen reader) and general abstraction for the browser and cross-platform support. Shapes are represented using [kite](https://github.com/phetsims/kite). Observer and emitter patterns use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features in your project.
+When using SceneryStack, Scenery, the scene graph, will act as the foundation for your entire project. Scenery is used
+for representing graphics (rendering to SVG, Canvas or WebGL), handling user input (e.g. mouse, touch, keyboard, screen
+reader) and general abstraction for the browser and cross-platform support. Shapes are represented
+using [kite](https://github.com/phetsims/kite). Observer and emitter patterns
+use [axon](https://github.com/phetsims/axon). Scenery provides support for alternative input and accessibility features
+in your project.
 
 Check out the links below to get familiar with Scenery and some examples using Scenery:
 

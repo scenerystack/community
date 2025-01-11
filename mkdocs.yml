@@ -172,7 +172,6 @@ nav:
 #      - Add SceneryStack to a Project: learn/templates/subprojecta_rasa.md
 #    - Guides:
 #      - Web Overview: learn/web/web_overview.md
-#      - Full Project Demo: learn/web/scenery_demo.md
 #      - Coding Conventions: info_sync/coding_conventions.md
 #      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
   - Reference:
