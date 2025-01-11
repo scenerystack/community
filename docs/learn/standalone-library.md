@@ -17,6 +17,9 @@ SceneryStack can be used as a standalone library for interactive visualizations 
 
 For library use, SceneryStack will typically be used through its [NPM Package](https://www.npmjs.com/package/scenerystack), with a bundler like Vite or Webpack to handle dependencies and build the final project.
 
+TODO:
+- Note about the bundled builds too, e.g. scenerystack.esm/umd(.min)?.js
+
 ## Project Structure
 
 In a fresh directory, we will want to add the barebones files needed:

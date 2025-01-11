@@ -1,8 +1,4 @@
-# Prerequisites
-
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated by the end of 2024.
+# Before Starting
 
 ## Installing Prerequisites
 
@@ -17,6 +13,11 @@ Before working with SceneryStack, ensure you have the following tools installed:
 
 3. **Node.js and npm**  
    Node.js and npm are required to install dependencies and run build processes. Download and install the latest version from [Node.js](https://nodejs.org/).
+
+## Language
+
+**SceneryStack is a TypeScript library**. While it can be used with JavaScript, TypeScript is recommended since the API
+doesn’t enforce runtime type checks, making JavaScript usage more challenging.
 
 ## Development Environment
 
