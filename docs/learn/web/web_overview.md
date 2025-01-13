@@ -1,7 +1,7 @@
 # Use SceneryStack in Your Web Project
 
 !!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement and will be updated by the end of 2024.
+    This section and others in Getting Started with SceneryStack are under heavy revisement and will be updated in January 2025.
 
 See the [Stack List](../../reference/scenerystack_list.md) for all of the libraries that make up SceneryStack.
 

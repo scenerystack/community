@@ -2,7 +2,7 @@
 
 !!! warning "Under Construction"
     This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated by the end of 2024.
+    and will be updated in January 2025.
 
 Welcome to SceneryStack! This page will give you a brief overview of the SceneryStack library and its features.
 
@@ -80,7 +80,7 @@ The primary model modules are:
 
 - **Axon**: Patterns for observing both events and changing data. SceneryStack APIs pervasively use the `Property` type,
   which stores data in a observable way.
-- **Phet Core**: Core utility functions and types (supporting common software patterns). 
+- **Phet Core**: Core utility functions and types (supporting common software patterns).
 - **Dot**: Mathematics types (e.g. vectors, matrices, transformations) for use in models and views.
 - **Kite**: Creating and manipulating 2D geometric `Shape` objects.
 
@@ -95,7 +95,7 @@ the DOM in traditional ways (e.g. interactive figures).
 
 The primary view modules are:
 
-- **Scenery**: The scene graph and rendering engine. 
+- **Scenery**: The scene graph and rendering engine.
 - **Sun**: Commonly used UI components (e.g. buttons, sliders, checkboxes) for building user interfaces.
 - **Scenery PhET**: More educational/simulation-focused UI components (e.g. time controls, arrows, keypads, etc.)
 

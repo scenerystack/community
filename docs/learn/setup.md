@@ -2,7 +2,7 @@
 
 !!! warning "Under Construction"
     This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated by the end of 2024.
+    and will be updated in January 2025.
 
 For creating general web interactive content with SceneryStack, it is recommended to use the
 [SceneryStack npm package](https://www.npmjs.com/package/scenerystack) from the

@@ -2,7 +2,7 @@
 
 !!! warning "Under Construction"
     This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated by the end of 2024.
+    and will be updated in January 2025.
 
 TODO: remove the PhET-specific bits
 TODO: screenshots
@@ -90,4 +90,4 @@ right! Be inspired to take from the examples you see, or implement your own appr
 
 Great job you got through all the exercises! Give yourself a pat on the back, you just learned a lot. To get feedback on
 your solutions, make sure to assign the corresponding issue to your mentor for review. Once you've done that and both
-you and your mentor feel satisfied, close the issue and delete the branch. 
+you and your mentor feel satisfied, close the issue and delete the branch.
