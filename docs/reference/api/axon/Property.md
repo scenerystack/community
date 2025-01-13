@@ -1,0 +1,44 @@
+# Property
+
+## Overview
+
+
+
+## Class Property {: #Property }
+
+
+Adds initial value and reset, and a mutable interface.
+
+@author Sam Reid (PhET Interactive Simulations)
+
+```js
+import { Property } from 'scenerystack/axon';
+```
+### Constructor
+
+#### new Property( value : <span style="font-weight: 400; opacity: 80%;">T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PropertyOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### getInitialValue() : <span style="font-weight: 400; opacity: 80%;">T</span> {: #getInitialValue data-toc-label='getInitialValue' }
+
+Returns the initial value of this Property.
+
+#### setInitialValue( initialValue : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setInitialValue data-toc-label='setInitialValue' }
+
+Stores the specified value as the initial value, which will be taken on reset. Sims should use this sparingly,
+typically only in situations where the initial value is unknowable at instantiation.
+
+#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+
+#### set( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #set data-toc-label='set' }
+
+Overridden to make public
+
+#### isSettable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSettable data-toc-label='isSettable' }
+
+
+
+## Source Code
+
+See the source for [Property.ts](https://github.com/phetsims/axon/blob/main/js/Property.ts) in the [axon](https://github.com/phetsims/axon) repository.

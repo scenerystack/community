@@ -1,0 +1,88 @@
+# Emitter
+
+## Overview
+
+Event &amp; listener abstraction for a single "event" type. The type provides extra functionality beyond just notifying
+listeners. It adds PhET-iO instrumentation capabilities as well as validation. For the lightest-weight, fastest
+solution with the smallest memory footprint, see `TinyEmitter`.
+
+@author Sam Reid (PhET Interactive Simulations)
+@author Michael Kauzmann (PhET Interactive Simulations)
+
+## Class Emitter {: #Emitter }
+
+
+```js
+import { Emitter } from 'scenerystack/axon';
+```
+### Constructor
+
+#### new Emitter( providedOptions? : <span style="font-weight: 400; opacity: 80%;">EmitterOptions</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### emit( ...args : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #emit data-toc-label='emit' }
+
+Emit to notify listeners
+
+#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+
+Disposes an Emitter. All listeners are removed.
+
+#### addListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span>, options? : <span style="font-weight: 400; opacity: 80%;">DisposerOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addListener data-toc-label='addListener' }
+
+Adds a listener which will be called during emit.
+
+#### removeListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeListener data-toc-label='removeListener' }
+
+Removes a listener
+
+#### removeAllListeners() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeAllListeners data-toc-label='removeAllListeners' }
+
+Removes all the listeners
+
+#### hasListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasListener data-toc-label='hasListener' }
+
+Checks whether a listener is registered with this Emitter
+
+#### hasListeners() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasListeners data-toc-label='hasListeners' }
+
+Returns true if there are any listeners.
+
+#### getListenerCount() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getListenerCount data-toc-label='getListenerCount' }
+
+Returns the number of listeners.
+
+#### debug( name : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> {: #debug data-toc-label='debug' }
+
+Convenience function for debugging a Property's value. It prints the new value on registration and when changed.
+@param name - debug name to be printed on the console
+@returns - the handle to the listener added in case it needs to be removed later
+
+### Static Properties
+
+#### EmitterIO {: #EmitterIO data-toc-label='EmitterIO' }
+
+(readonly)
+
+PhET-iO Type for Emitter.
+
+Providing validators to instrumented Emitters:
+Instrumented Emitters should have their `validators` for each argument passed via EmitterIO (the phetioType).
+To provide validators, there are two methods. First, by default each IOType has its own
+validator that will be used. So specifying an argument object like `{ type: NumberIO }` will automatically use
+`NumberIO.validator` as the validator. This can be overridden with the `validator` key (second option), like
+{ type: NumberIO, validator: { isValidValue: v=&gt; typeof v === 'number' &amp;&amp;  v &lt; 5 } }`
+NOTE: currently the implementation is either/or, if a validator is provided via the `validator` key, the validator
+from the `type` will be ignored.
+see https://github.com/phetsims/axon/issues/204 for more details.
+
+@author Sam Reid (PhET Interactive Simulations)
+@author Michael Kauzmann (PhET Interactive Simulations)
+@author Andrew Adare (PhET Interactive Simulations)
+
+
+
+## Source Code
+
+See the source for [Emitter.ts](https://github.com/phetsims/axon/blob/main/js/Emitter.ts) in the [axon](https://github.com/phetsims/axon) repository.

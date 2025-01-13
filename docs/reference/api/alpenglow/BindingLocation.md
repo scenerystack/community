@@ -1,0 +1,27 @@
+# BindingLocation
+
+## Overview
+
+A specific binding location
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class BindingLocation {: #BindingLocation }
+
+
+```js
+import { BindingLocation } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new BindingLocation( groupIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, bindingIndex : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### getWGSLAnnotation() : <span style="font-weight: 400; opacity: 80%;">WGSLString</span> {: #getWGSLAnnotation data-toc-label='getWGSLAnnotation' }
+
+
+
+## Source Code
+
+See the source for [BindingLocation.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/BindingLocation.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

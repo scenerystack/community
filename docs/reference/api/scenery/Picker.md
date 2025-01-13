@@ -1,0 +1,42 @@
+# Picker
+
+## Overview
+
+Sub-component of a Node that handles pickability and hit testing.
+
+A "listener equivalent" is either the existence of at least one input listener, or pickable:true. Nodes with
+listener equivalents will basically try to hit-test ALL descendants that aren't invisible or pickable:false.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class Picker {: #Picker }
+
+
+```js
+import { Picker } from 'scenerystack/scenery';
+```
+### Constructor
+
+#### new Picker( node : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### hitTest( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, useMouse : <span style="font-weight: 400; opacity: 80%;">boolean</span>, useTouch : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">Trail | null</span> {: #hitTest data-toc-label='hitTest' }
+
+Return a trail to the top node (if any, otherwise null) whose self-rendered area contains the
+point (in parent coordinates).
+
+@param point
+@param useMouse - Whether mouse-specific customizations (and acceleration) applies
+@param useTouch - Whether touch-specific customizations (and acceleration) applies
+
+#### isPotentiallyPickable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isPotentiallyPickable data-toc-label='isPotentiallyPickable' }
+
+Returns whether our node is potentially pickable from its parents (i.e. whether it could be hit-tested and sent
+input events, and thus whether its input listeners are relevant and could be interrupted).
+
+
+
+## Source Code
+
+See the source for [Picker.ts](https://github.com/phetsims/scenery/blob/main/js/util/Picker.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

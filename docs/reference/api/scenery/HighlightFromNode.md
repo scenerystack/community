@@ -1,0 +1,44 @@
+# HighlightFromNode
+
+## Overview
+
+A HighlightPath subtype that is based around a Node. The focusHighlight is constructed based on the bounds of
+the node. The focusHighlight will update as the Node's bounds changes. Handles transformations so that when the
+source node is transformed, the HighlightFromNode will
+updated be as well.
+
+@author Michael Kauzmann (PhET Interactive Simulations)
+@author Jesse Greenberg (PhET Interactive Simulations)
+
+## Class HighlightFromNode {: #HighlightFromNode }
+
+
+```js
+import { HighlightFromNode } from 'scenerystack/scenery';
+```
+### Constructor
+
+#### new HighlightFromNode( node : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">HighlightFromNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### setShapeFromNode( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, trail? : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setShapeFromNode data-toc-label='setShapeFromNode' }
+
+Update the focusHighlight shape on the path given the node passed in. Depending on options supplied to this
+HighlightFromNode, the shape will surround the node's bounds or its local bounds, dilated by an amount
+that is dependent on whether or not this highlight is for group content or for the node itself. See
+ParallelDOM.setGroupFocusHighlight() for more information on group highlights.
+
+node - The Node with a highlight to surround.
+[trail] - A Trail to use to describe the Node in the global coordinate frame.
+          Provided by the HighlightOverlay, to support DAG.
+
+#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+
+Remove the listener from the observedBoundsProperty (which belongs to a provided Node).
+
+
+
+## Source Code
+
+See the source for [HighlightFromNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightFromNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -1,0 +1,24 @@
+# mainScanWGSL
+
+## Overview
+
+A raked scan implementation capable of non-commutable cases, where:
+
+1. All threads load state into workgroup memory in a coalesced fashion
+2. All threads perform an inclusive sequential scan on their data (of grainSize elements)
+3. All threads perform an inclusive scan of the "reuced" values for each thread (Hillis-Steele)
+4. The remaining values are filled in with the previous scanned value.workgroup
+5. The workgroup memory is written to the main output in a coalesced fashion
+
+Based on the described coarsened scan in "Programming Massively Parallel Processors" by Hwu, Kirk and Hajj, chap11.
+
+Additionally, reductions can be stored in a separate array (for use in multi-level scans), AND/OR
+scanned reductions can be added into final results (also for use in multi-level scans).
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+
+
+## Source Code
+
+See the source for [mainScanWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/mainScanWGSL.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

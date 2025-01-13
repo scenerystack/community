@@ -1,0 +1,155 @@
+# IOType
+
+## Overview
+
+IOTypes form a synthetic type system used to describe PhET-iO Elements. A PhET-iO Element is an instrumented PhetioObject
+that is interoperable from the "wrapper" frame (outside the sim frame). An IOType includes documentation, methods,
+names, serialization, etc.
+
+@author Sam Reid (PhET Interactive Simulations)
+
+## Class IOType {: #IOType }
+
+
+StateType is the whole thing, SelfStateType is just at this level
+export default class IOType&lt;T = any, SelfStateType = any, ParentStateType = EmptyParent, StateType extends SelfStateType &amp; ParentStateType = SelfStateType &amp; ParentStateType&gt; { // eslint-disable-line @typescript-eslint/no-explicit-any
+
+```js
+import { IOType } from 'scenerystack/tandem';
+```
+### Constructor
+
+#### new IOType( typeName : <span style="font-weight: 400; opacity: 80%;">IOTypeName</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### toStateObject( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">StateType</span> {: #toStateObject data-toc-label='toStateObject' }
+
+#### fromStateObject( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">T</span> {: #fromStateObject data-toc-label='fromStateObject' }
+
+#### applyState( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span>, stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #applyState data-toc-label='applyState' }
+
+#### stateObjectToCreateElementArguments( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">unknown[]</span> {: #stateObjectToCreateElementArguments data-toc-label='stateObjectToCreateElementArguments' }
+
+#### extends( type : <span style="font-weight: 400; opacity: 80%;">IOType&lt;unknown, unknown&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #extends data-toc-label='extends' }
+
+Returns true if this IOType is a subtype of the passed-in type (or if they are the same).
+
+#### getAllMetadataDefaults() : <span style="font-weight: 400; opacity: 80%;">Partial&lt;PhetioElementMetadata&gt;</span> {: #getAllMetadataDefaults data-toc-label='getAllMetadataDefaults' }
+
+Return all the metadata defaults (for the entire IOType hierarchy)
+
+#### getAllDataDefaults() : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, unknown&gt;</span> {: #getAllDataDefaults data-toc-label='getAllDataDefaults' }
+
+Return all the data defaults (for the entire IOType hierarchy)
+
+#### getAllAPIStateKeys() : <span style="font-weight: 400; opacity: 80%;">APIStateKeys</span> {: #getAllAPIStateKeys data-toc-label='getAllAPIStateKeys' }
+
+Return all the apiStateKeys (for the entire IOType hierarchy) in one array.
+
+#### toStateObjectForAPI( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">StateType</span> {: #toStateObjectForAPI data-toc-label='toStateObjectForAPI' }
+
+Get the state object for a PhET-iO Element, but only the entries that should be tracked by the PhET-iO API. See
+StateSchema.apiStateKeys for details. This implementation sets a global to make sure that nested state also only
+selects the apiStateKeys for api tracking (PropertyIO&lt;RangeIO&gt; could have validValues of PointIO that shouldn't
+include non-tracked values of PointIO, if there are any).
+
+#### isStateObjectValid( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span>, toAssert, schemaKeysPresentInStateObject : <span style="font-weight: 400; opacity: 80%;">string[]</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isStateObjectValid data-toc-label='isStateObjectValid' }
+
+@param stateObject - the stateObject to validate against
+@param toAssert=false - whether to assert when invalid
+@param schemaKeysPresentInStateObject=[]
+@returns if the stateObject is valid or not.
+
+#### validateStateObject( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #validateStateObject data-toc-label='validateStateObject' }
+
+Assert if the provided stateObject is not valid to this IOType's stateSchema
+
+#### toString() : <span style="font-weight: 400; opacity: 80%;">IOTypeName</span> {: #toString data-toc-label='toString' }
+
+#### getAPI() : <span style="font-weight: 400; opacity: 80%;">PhetioType</span> {: #getAPI data-toc-label='getAPI' }
+
+Return an object that indicates the API type, including documentation, methods &amp; signatures, supertypes, etc.
+The object is intended for serialization via JSON.stringify().
+
+This function could be static, but that doesn't work well with the singleton pattern, so keep in on the prototype.
+
+### Instance Properties
+
+#### supertype : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #supertype data-toc-label='supertype' }
+
+(readonly)
+
+See documentation in options type declaration
+
+#### documentation : <span style="font-weight: 400; opacity: 80%;">string</span> {: #documentation data-toc-label='documentation' }
+
+(readonly)
+
+#### methods : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, IOTypeMethod&gt;</span> {: #methods data-toc-label='methods' }
+
+(readonly)
+
+#### events : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #events data-toc-label='events' }
+
+(readonly)
+
+#### metadataDefaults : <span style="font-weight: 400; opacity: 80%;">Partial&lt;PhetioElementMetadata&gt;</span> {: #metadataDefaults data-toc-label='metadataDefaults' }
+
+(readonly)
+
+#### dataDefaults : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, unknown&gt;</span> {: #dataDefaults data-toc-label='dataDefaults' }
+
+(readonly)
+
+#### methodOrder : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #methodOrder data-toc-label='methodOrder' }
+
+(readonly)
+
+#### parameterTypes : <span style="font-weight: 400; opacity: 80%;">IOType[]</span> {: #parameterTypes data-toc-label='parameterTypes' }
+
+(readonly)
+
+#### fromStateObjectOption : <span style="font-weight: 400; opacity: 80%;">( ( state: StateType ) =&gt; T ) | null</span> {: #fromStateObjectOption data-toc-label='fromStateObjectOption' }
+
+(readonly)
+
+#### stateObjectToCreateElementArgumentsOption : <span style="font-weight: 400; opacity: 80%;">( ( s: StateType ) =&gt; unknown[] ) | null</span> {: #stateObjectToCreateElementArgumentsOption data-toc-label='stateObjectToCreateElementArgumentsOption' }
+
+(readonly)
+
+TODO: instead of unknown this is the second parameter type for PhetioDynamicElementContainer. How? https://github.com/phetsims/tandem/issues/261
+
+#### addChildElement : <span style="font-weight: 400; opacity: 80%;">AddChildElement</span> {: #addChildElement data-toc-label='addChildElement' }
+
+(readonly)
+
+#### validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span> {: #validator data-toc-label='validator' }
+
+(readonly)
+
+#### defaultDeserializationMethod : <span style="font-weight: 400; opacity: 80%;">DeserializationType</span> {: #defaultDeserializationMethod data-toc-label='defaultDeserializationMethod' }
+
+(readonly)
+
+#### isFunctionType : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isFunctionType data-toc-label='isFunctionType' }
+
+(readonly)
+
+#### stateSchema : <span style="font-weight: 400; opacity: 80%;">StateSchema&lt;T, SelfStateType&gt; | null</span> {: #stateSchema data-toc-label='stateSchema' }
+
+(readonly)
+
+The StateSchema (type) that the option is made into. The option is more flexible than the class.
+
+### Static Properties
+
+#### ObjectIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #ObjectIO data-toc-label='ObjectIO' }
+
+The base IOType for the entire hierarchy.
+
+
+
+## Source Code
+
+See the source for [IOType.ts](https://github.com/phetsims/tandem/blob/main/js/types/IOType.ts) in the [tandem](https://github.com/phetsims/tandem) repository.

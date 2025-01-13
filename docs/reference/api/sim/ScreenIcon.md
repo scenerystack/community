@@ -1,0 +1,29 @@
+# ScreenIcon
+
+## Overview
+
+ScreenIcon is an icon that is suitable for one of the screen-selection buttons on the home screen or navigation bar.
+By default, the size is optimized for the home screen.
+To optimize for the navigation bar, use options.size: Screen.MINIMUM_NAVBAR_ICON_SIZE
+
+@author Chris Malley (PixelZoom, Inc.)
+
+## Class ScreenIcon {: #ScreenIcon }
+
+
+```js
+import { ScreenIcon } from 'scenerystack/sim';
+```
+### Constructor
+
+#### new ScreenIcon( iconNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ScreenIconOptions</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+
+
+
+## Source Code
+
+See the source for [ScreenIcon.ts](https://github.com/phetsims/joist/blob/main/js/ScreenIcon.ts) in the [joist](https://github.com/phetsims/joist) repository.

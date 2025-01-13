@@ -1,0 +1,35 @@
+# SharedCanvasCacheDrawable
+
+## Overview
+
+TODO docs https://github.com/phetsims/scenery/issues/1581
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class SharedCanvasCacheDrawable {: #SharedCanvasCacheDrawable }
+
+
+```js
+import { SharedCanvasCacheDrawable } from 'scenerystack/scenery';
+```
+### Constructor
+
+#### new SharedCanvasCacheDrawable( trail, renderer, instance, sharedInstance ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### initialize( trail, renderer, instance, sharedInstance ) {: #initialize data-toc-label='initialize' }
+
+@public
+@override
+
+@param {Trail} trail
+@param {number} renderer
+@param {Instance} instance
+@param {Instance} sharedInstance
+
+
+
+## Source Code
+
+See the source for [SharedCanvasCacheDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/SharedCanvasCacheDrawable.js) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -1,0 +1,85 @@
+# CompletePiecewiseLinearFunction
+
+## Overview
+
+Describes a 1d complete (fully defined for any number) function, where values are extrapolated given the final end
+points.
+
+E.g. if the points (0,0) and (1,1) are provided, it represents the function f(x) = x for ALL values, especially
+values outside of the range [0,1]. For example, f(6) = 6.
+
+If a single point is provided, it represents a constant function.
+
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class CompletePiecewiseLinearFunction {: #CompletePiecewiseLinearFunction }
+
+
+```js
+import { CompletePiecewiseLinearFunction } from 'scenerystack/dot';
+```
+### Constructor
+
+#### new CompletePiecewiseLinearFunction( points : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### findMatchingPair( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">[ Vector2, Vector2 ]</span> {: #findMatchingPair data-toc-label='findMatchingPair' }
+
+Returns the pair of points that the x value is defined by.
+
+NOTE: x may NOT be contained in these points, if it's either less than or greater than any points in the points
+list.
+
+#### evaluate( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+
+Evaluates the function at the given x value, e.g. returns f(x).
+
+#### plus( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #plus data-toc-label='plus' }
+
+Returns a CompletePiecewiseLinearFunction that's the result of adding the two functions.
+
+#### minus( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #minus data-toc-label='minus' }
+
+Returns a CompletePiecewiseLinearFunction that's the result of subtracting the two functions.
+
+#### min( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #min data-toc-label='min' }
+
+Returns a CompletePiecewiseLinearFunction that's the result of taking the minimum of the two functions
+
+#### max( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #max data-toc-label='max' }
+
+Returns a CompletePiecewiseLinearFunction that's the result of taking the maximum of the two functions
+
+#### withXValues( xValues : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #withXValues data-toc-label='withXValues' }
+
+Allows redefining or clamping/truncating the function by only representing it from the given x values
+
+#### inverted() : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #inverted data-toc-label='inverted' }
+
+Returns an inverted form of the function (assuming it is monotonically increasing or monotonically decreasing)
+
+### Instance Properties
+
+#### points : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #points data-toc-label='points' }
+
+### Static Methods
+
+#### sum( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #sum data-toc-label='sum' }
+
+#### min( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #min data-toc-label='min' }
+
+#### max( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #max data-toc-label='max' }
+
+#### constant( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #constant data-toc-label='constant' }
+
+#### linear( a : <span style="font-weight: 400; opacity: 80%;">number</span>, b : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #linear data-toc-label='linear' }
+
+Represents the function ax+b
+
+
+
+## Source Code
+
+See the source for [CompletePiecewiseLinearFunction.ts](https://github.com/phetsims/dot/blob/main/js/CompletePiecewiseLinearFunction.ts) in the [dot](https://github.com/phetsims/dot) repository.

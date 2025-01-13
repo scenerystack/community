@@ -1,0 +1,30 @@
+# StripeClipping
+
+## Overview
+
+Clipping arbitrary (degenerate, non-convex, self-intersecting, etc.) polygons to stripes (clipped between a series
+of parallel lines).
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class StripeClipping {: #StripeClipping }
+
+
+```js
+import { StripeClipping } from 'scenerystack/alpenglow';
+```
+### Static Methods
+
+#### binaryStripeClipEdge( startPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, endPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, values : <span style="font-weight: 400; opacity: 80%;">number[]</span>, fakeCornerPerpendicular : <span style="font-weight: 400; opacity: 80%;">number</span>, clippedEdgeCollection : <span style="font-weight: 400; opacity: 80%;">LinearEdge[][]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #binaryStripeClipEdge data-toc-label='binaryStripeClipEdge' }
+
+line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; value, "max" side is dot-products &gt; value
+
+#### binaryStripeClipPolygon( polygon : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span>, normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, values : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> {: #binaryStripeClipPolygon data-toc-label='binaryStripeClipPolygon' }
+
+line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; value, "max" side is dot-products &gt; value
+
+
+
+## Source Code
+
+See the source for [StripeClipping.ts](https://github.com/phetsims/alpenglow/blob/main/js/clip/StripeClipping.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

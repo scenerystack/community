@@ -1,0 +1,34 @@
+# VibrationIndicator
+
+## Overview
+
+A way to visualize haptic feedback. This is an icon that looks like a phone with zig zag lines around it to
+represent vibration. When vibrating, the zig zags are visible and jostle around and the phone screen turns
+a different color.
+
+@author Jesse Greenberg
+
+## Class VibrationIndicator {: #VibrationIndicator }
+
+
+```js
+import { VibrationIndicator } from 'scenerystack/tappi';
+```
+### Constructor
+
+#### new VibrationIndicator( vibratingProperty ) {: #constructor data-toc-label='constructor' }
+
+### Instance Methods
+
+#### step( dt ) {: #step data-toc-label='step' }
+
+Animate the indicator if vibrating.
+@public
+
+@param {number} dt
+
+
+
+## Source Code
+
+See the source for [VibrationIndicator.js](https://github.com/phetsims/tappi/blob/main/js/view/VibrationIndicator.js) in the [tappi](https://github.com/phetsims/tappi) repository.
