@@ -17,23 +17,23 @@ import { TransformTracker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TransformTracker( trail : <span style="font-weight: 400; opacity: 80%;">Trail</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">TransformTrackerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new TransformTracker( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, providedOptions? : <span style="font-weight: 400;">[TransformTrackerOptions](../scenery/TransformTracker.md#TransformTrackerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Gets rid of all external references and listeners. This object is inoperable afterwards.
 
-#### addListener( listener : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addListener data-toc-label='addListener' }
+#### addListener( listener : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #addListener data-toc-label='addListener' }
 
 Adds a listener function that will be synchronously called whenever the transform for this Trail changes.
 
-#### removeListener( listener : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeListener data-toc-label='removeListener' }
+#### removeListener( listener : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #removeListener data-toc-label='removeListener' }
 
 Removes a listener that was previously added with addListener().
 
-#### getMatrix() : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> {: #getMatrix data-toc-label='getMatrix' }
+#### getMatrix() : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> {: #getMatrix data-toc-label='getMatrix' }
 
 Returns the local-to-global transformation matrix for the Trail, which transforms its leaf node's local
 coordinate frame into the global coordinate frame.

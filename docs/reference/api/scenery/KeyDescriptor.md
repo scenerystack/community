@@ -18,32 +18,32 @@ import { KeyDescriptor } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyDescriptor( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyDescriptorOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyDescriptor( providedOptions? : <span style="font-weight: 400;">[KeyDescriptorOptions](../scenery/KeyDescriptor.md#KeyDescriptorOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getHotkeyString() : <span style="font-weight: 400; opacity: 80%;">OneKeyStroke[number]</span> {: #getHotkeyString data-toc-label='getHotkeyString' }
+#### getHotkeyString() : <span style="font-weight: 400;">[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>]</span> {: #getHotkeyString data-toc-label='getHotkeyString' }
 
 Returns a string representation of the hotkey in the format of "natural" english. Modifier keys first, followed
 by the final key. For example, if the key is 't' and the modifier keys are 'shift', the string would be 'shift+t'.
 
 ### Instance Properties
 
-#### key : <span style="font-weight: 400; opacity: 80%;">AllowedKeysString</span> {: #key data-toc-label='key' }
+#### key : <span style="font-weight: 400;">[AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)</span> {: #key data-toc-label='key' }
 
 (readonly)
 
-#### modifierKeys : <span style="font-weight: 400; opacity: 80%;">AllowedKeysString[]</span> {: #modifierKeys data-toc-label='modifierKeys' }
+#### modifierKeys : <span style="font-weight: 400;">[AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]</span> {: #modifierKeys data-toc-label='modifierKeys' }
 
 (readonly)
 
-#### ignoredModifierKeys : <span style="font-weight: 400; opacity: 80%;">AllowedKeysString[]</span> {: #ignoredModifierKeys data-toc-label='ignoredModifierKeys' }
+#### ignoredModifierKeys : <span style="font-weight: 400;">[AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]</span> {: #ignoredModifierKeys data-toc-label='ignoredModifierKeys' }
 
 (readonly)
 
 ### Static Methods
 
-#### keyStrokeToKeyDescriptor( keyStroke : <span style="font-weight: 400; opacity: 80%;">OneKeyStroke</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyDescriptor</span> {: #keyStrokeToKeyDescriptor data-toc-label='keyStrokeToKeyDescriptor' }
+#### keyStrokeToKeyDescriptor( keyStroke : <span style="font-weight: 400;">[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)</span> ) : <span style="font-weight: 400;">[KeyDescriptor](../scenery/KeyDescriptor.md)</span> {: #keyStrokeToKeyDescriptor data-toc-label='keyStrokeToKeyDescriptor' }
 
 Parses an input string to extract the main key and its associated modifier keys, while considering ignored
 modifier keys based on the placement of the '?' delimiter.

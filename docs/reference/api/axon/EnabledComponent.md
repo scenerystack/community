@@ -17,17 +17,17 @@ import { EnabledComponent } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new EnabledComponent( providedOptions? : <span style="font-weight: 400; opacity: 80%;">EnabledComponentOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new EnabledComponent( providedOptions? : <span style="font-weight: 400;">[EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### isEnabled() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isEnabled data-toc-label='isEnabled' }
+#### isEnabled() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isEnabled data-toc-label='isEnabled' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### enabledProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #enabledProperty data-toc-label='enabledProperty' }
+#### enabledProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #enabledProperty data-toc-label='enabledProperty' }
 
 
 

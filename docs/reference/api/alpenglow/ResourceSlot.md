@@ -14,11 +14,11 @@ import { ResourceSlot } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### toDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toDebugString data-toc-label='toDebugString' }
+#### toDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toDebugString data-toc-label='toDebugString' }
 
 ### Instance Properties
 
-#### id : <span style="font-weight: 400; opacity: 80%;">number</span> {: #id data-toc-label='id' }
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
 
 (readonly)
 

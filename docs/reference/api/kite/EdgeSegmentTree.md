@@ -14,9 +14,9 @@ import { EdgeSegmentTree } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### getMinX( edge : <span style="font-weight: 400; opacity: 80%;">Edge</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinX data-toc-label='getMinX' }
+#### getMinX( edge : <span style="font-weight: 400;">[Edge](../kite/Edge.md)</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinX data-toc-label='getMinX' }
 
-#### getMaxX( edge : <span style="font-weight: 400; opacity: 80%;">Edge</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaxX data-toc-label='getMaxX' }
+#### getMaxX( edge : <span style="font-weight: 400;">[Edge](../kite/Edge.md)</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaxX data-toc-label='getMaxX' }
 
 
 

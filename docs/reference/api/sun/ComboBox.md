@@ -26,21 +26,21 @@ import { ComboBox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ComboBox( property : <span style="font-weight: 400; opacity: 80%;">PhetioProperty&lt;T&gt;</span>, items : <span style="font-weight: 400; opacity: 80%;">ComboBoxItem&lt;T&gt;[]</span>, listParent : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ComboBoxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComboBox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;[]</span>, listParent : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxOptions](../sun/ComboBox.md#ComboBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### showListBox() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #showListBox data-toc-label='showListBox' }
+#### showListBox() {: #showListBox data-toc-label='showListBox' }
 
 Shows the list box.
 
-#### hideListBox() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #hideListBox data-toc-label='hideListBox' }
+#### hideListBox() {: #hideListBox data-toc-label='hideListBox' }
 
 Hides the list box.
 
-#### setItemVisible( value : <span style="font-weight: 400; opacity: 80%;">T</span>, visible : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setItemVisible data-toc-label='setItemVisible' }
+#### setItemVisible( value : <span style="font-weight: 400;">T</span>, visible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setItemVisible data-toc-label='setItemVisible' }
 
 Sets the visibility of items that correspond to a value. If the selected item has this value, it's your
 responsibility to change the Property value to something else. Otherwise, the combo box button will continue
@@ -48,34 +48,34 @@ to display this value.
 @param value - the value associated with the ComboBoxItem
 @param visible
 
-#### isItemVisible( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isItemVisible data-toc-label='isItemVisible' }
+#### isItemVisible( value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isItemVisible data-toc-label='isItemVisible' }
 
 Is the item that corresponds to a value visible when the listbox is popped up?
 @param value - the value associated with the ComboBoxItem
 
-#### setInputEnabledProperty( newTarget : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;boolean&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setInputEnabledProperty data-toc-label='setInputEnabledProperty' }
+#### setInputEnabledProperty( newTarget : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setInputEnabledProperty data-toc-label='setInputEnabledProperty' }
 
 ### Instance Properties
 
-#### nodes : <span style="font-weight: 400; opacity: 80%;">Node[]</span> {: #nodes data-toc-label='nodes' }
+#### nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> {: #nodes data-toc-label='nodes' }
 
 (readonly)
 
 List of nodes created from ComboBoxItems to be displayed with their corresponding value. See ComboBoxItem.createNode().
 
-#### button : <span style="font-weight: 400; opacity: 80%;">ComboBoxButton&lt;T&gt;</span> {: #button data-toc-label='button' }
+#### button : <span style="font-weight: 400;">[ComboBoxButton](../sun/ComboBoxButton.md)&lt;T&gt;</span> {: #button data-toc-label='button' }
 
 button that shows the current selection (internal)
 
 ### Static Methods
 
-#### getMaxItemWidthProperty( nodes : <span style="font-weight: 400; opacity: 80%;">Node[]</span> ) : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number&gt;</span> {: #getMaxItemWidthProperty data-toc-label='getMaxItemWidthProperty' }
+#### getMaxItemWidthProperty( nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> ) : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxItemWidthProperty data-toc-label='getMaxItemWidthProperty' }
 
-#### getMaxItemHeightProperty( nodes : <span style="font-weight: 400; opacity: 80%;">Node[]</span> ) : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number&gt;</span> {: #getMaxItemHeightProperty data-toc-label='getMaxItemHeightProperty' }
+#### getMaxItemHeightProperty( nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> ) : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxItemHeightProperty data-toc-label='getMaxItemHeightProperty' }
 
 ### Static Properties
 
-#### ComboBoxIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #ComboBoxIO data-toc-label='ComboBoxIO' }
+#### ComboBoxIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ComboBoxIO data-toc-label='ComboBoxIO' }
 
 
 

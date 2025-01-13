@@ -14,7 +14,7 @@ import { ThreeObject3DPhetioObject } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeObject3DPhetioObject( providedOptions? : <span style="font-weight: 400; opacity: 80%;">ThreeObject3DPhetioObjectOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeObject3DPhetioObject( providedOptions? : <span style="font-weight: 400;">ThreeObject3DPhetioObjectOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,7 +22,7 @@ import { ThreeObject3DPhetioObject } from 'scenerystack/mobius';
 
 ### Static Properties
 
-#### ThreeObject3DIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #ThreeObject3DIO data-toc-label='ThreeObject3DIO' }
+#### ThreeObject3DIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ThreeObject3DIO data-toc-label='ThreeObject3DIO' }
 
 
 

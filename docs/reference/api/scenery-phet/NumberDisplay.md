@@ -14,49 +14,49 @@ import { NumberDisplay } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new NumberDisplay( numberProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number | null&gt;</span>, displayRange : <span style="font-weight: 400; opacity: 80%;">Range</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">NumberDisplayOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberDisplay( numberProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span>, displayRange : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, providedOptions? : <span style="font-weight: 400;">[NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### setNumberFont( font : <span style="font-weight: 400; opacity: 80%;">Font</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setNumberFont data-toc-label='setNumberFont' }
+#### setNumberFont( font : <span style="font-weight: 400;">[Font](../scenery/Font.md)</span> ) {: #setNumberFont data-toc-label='setNumberFont' }
 
 Sets the number text font.
 
-#### setNumberFill( fill : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setNumberFill data-toc-label='setNumberFill' }
+#### setNumberFill( fill : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setNumberFill data-toc-label='setNumberFill' }
 
 Sets the number text fill.
 
-#### setBackgroundFill( fill : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setBackgroundFill data-toc-label='setBackgroundFill' }
+#### setBackgroundFill( fill : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setBackgroundFill data-toc-label='setBackgroundFill' }
 
 Sets the background fill.
 
-#### getBackgroundFill() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getBackgroundFill data-toc-label='getBackgroundFill' }
+#### getBackgroundFill() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getBackgroundFill data-toc-label='getBackgroundFill' }
 
 Gets the background fill.
 
-#### setBackgroundStroke( stroke : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setBackgroundStroke data-toc-label='setBackgroundStroke' }
+#### setBackgroundStroke( stroke : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setBackgroundStroke data-toc-label='setBackgroundStroke' }
 
 Sets the background stroke.
 
-#### getBackgroundWidth() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getBackgroundWidth data-toc-label='getBackgroundWidth' }
+#### getBackgroundWidth() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getBackgroundWidth data-toc-label='getBackgroundWidth' }
 
 Get the width of the background.
 
-#### setBackgroundWidth( width : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setBackgroundWidth data-toc-label='setBackgroundWidth' }
+#### setBackgroundWidth( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setBackgroundWidth data-toc-label='setBackgroundWidth' }
 
 Set the width of the background node.
 
 ### Instance Properties
 
-#### valueStringProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;string&gt;</span> {: #valueStringProperty data-toc-label='valueStringProperty' }
+#### valueStringProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #valueStringProperty data-toc-label='valueStringProperty' }
 
 (readonly)
 
 ### Static Properties
 
-#### NumberDisplayIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #NumberDisplayIO data-toc-label='NumberDisplayIO' }
+#### NumberDisplayIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #NumberDisplayIO data-toc-label='NumberDisplayIO' }
 
 (readonly)
 

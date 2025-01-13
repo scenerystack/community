@@ -14,7 +14,7 @@ import { PlusShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlusShape( size : <span style="font-weight: 400; opacity: 80%;">Dimension2</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlusShape( size : <span style="font-weight: 400;">[Dimension2](../dot/Dimension2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

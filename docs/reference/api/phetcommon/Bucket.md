@@ -22,7 +22,7 @@ import { Bucket } from 'scenerystack/phetcommon';
 ```
 ### Constructor
 
-#### new Bucket( providedOptions? : <span style="font-weight: 400; opacity: 80%;">BucketOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Bucket( providedOptions? : <span style="font-weight: 400;">[BucketOptions](../phetcommon/Bucket.md#BucketOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -30,41 +30,41 @@ import { Bucket } from 'scenerystack/phetcommon';
 
 ### Instance Properties
 
-#### position : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #position data-toc-label='position' }
+#### position : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #position data-toc-label='position' }
 
 The position is defined to be where the center of the hole is.
 
-#### baseColor : <span style="font-weight: 400; opacity: 80%;">TColor | null</span> {: #baseColor data-toc-label='baseColor' }
+#### baseColor : <span style="font-weight: 400;">[TColor](../scenery/TColor.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #baseColor data-toc-label='baseColor' }
 
 (readonly)
 
 Base color of the bucket.
 
-#### captionText : <span style="font-weight: 400; opacity: 80%;">string</span> {: #captionText data-toc-label='captionText' }
+#### captionText : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #captionText data-toc-label='captionText' }
 
 (readonly)
 
 Caption to be shown on the bucket.
 
-#### captionColor : <span style="font-weight: 400; opacity: 80%;">TColor</span> {: #captionColor data-toc-label='captionColor' }
+#### captionColor : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span> {: #captionColor data-toc-label='captionColor' }
 
 (readonly)
 
 Color for the caption.
 
-#### size : <span style="font-weight: 400; opacity: 80%;">Dimension2</span> {: #size data-toc-label='size' }
+#### size : <span style="font-weight: 400;">[Dimension2](../dot/Dimension2.md)</span> {: #size data-toc-label='size' }
 
 (readonly)
 
 The size of the bucket.
 
-#### holeShape : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #holeShape data-toc-label='holeShape' }
+#### holeShape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #holeShape data-toc-label='holeShape' }
 
 (readonly)
 
 Create the shape of the bucket's hole.
 
-#### containerShape : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #containerShape data-toc-label='containerShape' }
+#### containerShape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #containerShape data-toc-label='containerShape' }
 
 (readonly)
 

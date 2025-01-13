@@ -16,7 +16,7 @@ import { TwoPassModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TwoPassModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">TwoPassModuleOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new TwoPassModule( providedOptions : <span style="font-weight: 400;">[TwoPassModuleOptions](../alpenglow/TwoPassModule.md#TwoPassModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,35 +24,35 @@ import { TwoPassModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### config : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;TwoPassConfig&gt;</span> {: #config data-toc-label='config' }
+#### config : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;</span> {: #config data-toc-label='config' }
 
 (readonly)
 
-#### coarseRenderableFaces : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;TwoPassCoarseRenderableFace[]&gt;</span> {: #coarseRenderableFaces data-toc-label='coarseRenderableFaces' }
+#### coarseRenderableFaces : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassCoarseRenderableFace](../alpenglow/TwoPassCoarseRenderableFace.md)[]&gt;</span> {: #coarseRenderableFaces data-toc-label='coarseRenderableFaces' }
 
 (readonly)
 
-#### coarseEdges : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;LinearEdge[]&gt;</span> {: #coarseEdges data-toc-label='coarseEdges' }
+#### coarseEdges : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;</span> {: #coarseEdges data-toc-label='coarseEdges' }
 
 (readonly)
 
-#### renderProgramInstructions : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;number[]&gt;</span> {: #renderProgramInstructions data-toc-label='renderProgramInstructions' }
+#### renderProgramInstructions : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #renderProgramInstructions data-toc-label='renderProgramInstructions' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">TextureViewSlot</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[TextureViewSlot](../alpenglow/TextureViewSlot.md)</span> {: #output data-toc-label='output' }
 
 (readonly)
 
-#### initializeAddressesModule : <span style="font-weight: 400; opacity: 80%;">MainTwoPassInitializeAddressesModule</span> {: #initializeAddressesModule data-toc-label='initializeAddressesModule' }
+#### initializeAddressesModule : <span style="font-weight: 400;">[MainTwoPassInitializeAddressesModule](../alpenglow/MainTwoPassInitializeAddressesModule.md)</span> {: #initializeAddressesModule data-toc-label='initializeAddressesModule' }
 
 (readonly)
 
-#### coarseModule : <span style="font-weight: 400; opacity: 80%;">MainTwoPassCoarseModule</span> {: #coarseModule data-toc-label='coarseModule' }
+#### coarseModule : <span style="font-weight: 400;">[MainTwoPassCoarseModule](../alpenglow/MainTwoPassCoarseModule.md)</span> {: #coarseModule data-toc-label='coarseModule' }
 
 (readonly)
 
-#### fineModule : <span style="font-weight: 400; opacity: 80%;">MainTwoPassFineModule</span> {: #fineModule data-toc-label='fineModule' }
+#### fineModule : <span style="font-weight: 400;">[MainTwoPassFineModule](../alpenglow/MainTwoPassFineModule.md)</span> {: #fineModule data-toc-label='fineModule' }
 
 (readonly)
 

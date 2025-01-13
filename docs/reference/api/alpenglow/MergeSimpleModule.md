@@ -16,7 +16,7 @@ import { MergeSimpleModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MergeSimpleModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">MergeSimpleModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MergeSimpleModule( providedOptions : <span style="font-weight: 400;">[MergeSimpleModuleOptions](../alpenglow/MergeSimpleModule.md#MergeSimpleModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,15 +24,15 @@ import { MergeSimpleModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### inputA : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #inputA data-toc-label='inputA' }
+#### inputA : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #inputA data-toc-label='inputA' }
 
 (readonly)
 
-#### inputB : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #inputB data-toc-label='inputB' }
+#### inputB : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #inputB data-toc-label='inputB' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 

@@ -38,11 +38,11 @@ import { EnumerationValue } from 'scenerystack/phet-core';
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 ### Static Properties
 
-#### sealedCache : <span style="font-weight: 400; opacity: 80%;">Set</span> {: #sealedCache data-toc-label='sealedCache' }
+#### sealedCache : <span style="font-weight: 400;">Set</span> {: #sealedCache data-toc-label='sealedCache' }
 
 After an Enumeration is constructed, no new instances of that exact type can be made (though it is OK to
 create subtypes)

@@ -20,11 +20,11 @@ import { FocusableHeadingNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FocusableHeadingNode( providedOptions? : <span style="font-weight: 400; opacity: 80%;">FocusableHeadingNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new FocusableHeadingNode( providedOptions? : <span style="font-weight: 400;">[FocusableHeadingNodeOptions](../scenery/FocusableHeadingNode.md#FocusableHeadingNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### focus() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #focus data-toc-label='focus' }
+#### focus() {: #focus data-toc-label='focus' }
 
 Focus this heading in the Parallel DOM. The screen reader will read its name and possibly
 content below it. Traversal with alternative input will continue from wherever this element
@@ -33,7 +33,7 @@ is located in the PDOM order.
 Once the heading loses focus, it is removed from the traversal order until this is called
 explicitly again.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

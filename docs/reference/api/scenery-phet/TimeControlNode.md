@@ -18,17 +18,17 @@ import { TimeControlNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TimeControlNode( isPlayingProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">TimeControlNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new TimeControlNode( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TimeControlNodeOptions](../scenery-phet/TimeControlNode.md#TimeControlNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### addPushButton( pushButton : <span style="font-weight: 400; opacity: 80%;">RoundPushButton</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addPushButton data-toc-label='addPushButton' }
+#### addPushButton( pushButton : <span style="font-weight: 400;">[RoundPushButton](../sun/RoundPushButton.md)</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addPushButton data-toc-label='addPushButton' }
 
 Add a push button to the TimeControlNode.
 
 ### Instance Properties
 
-#### pushButtonGroup : <span style="font-weight: 400; opacity: 80%;">PlayPauseStepButtonGroup</span> {: #pushButtonGroup data-toc-label='pushButtonGroup' }
+#### pushButtonGroup : <span style="font-weight: 400;">[PlayPauseStepButtonGroup](../scenery-phet/PlayPauseStepButtonGroup.md)</span> {: #pushButtonGroup data-toc-label='pushButtonGroup' }
 
 (protected, readonly)
 

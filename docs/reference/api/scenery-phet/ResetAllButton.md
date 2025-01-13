@@ -16,15 +16,15 @@ import { ResetAllButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ResetAllButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">ResetAllButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ResetAllButton( providedOptions? : <span style="font-weight: 400;">[ResetAllButtonOptions](../scenery-phet/ResetAllButton.md#ResetAllButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Static Properties
 
-#### RESET_ALL_HOTKEY_DATA : <span style="font-weight: 400; opacity: 80%;">HotkeyData</span> {: #RESET_ALL_HOTKEY_DATA data-toc-label='RESET_ALL_HOTKEY_DATA' }
+#### RESET_ALL_HOTKEY_DATA : <span style="font-weight: 400;">[HotkeyData](../scenery/HotkeyData.md)</span> {: #RESET_ALL_HOTKEY_DATA data-toc-label='RESET_ALL_HOTKEY_DATA' }
 
 (readonly)
 

@@ -19,29 +19,29 @@ import { GameTimer } from 'scenerystack/vegas';
 
 ### Instance Methods
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
-#### start() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #start data-toc-label='start' }
+#### start() {: #start data-toc-label='start' }
 
 Starts the timer. This is a no-op if the timer is already running.
 
-#### stop() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #stop data-toc-label='stop' }
+#### stop() {: #stop data-toc-label='stop' }
 
 Stops the timer. This is a no-op if the timer is already stopped.
 
-#### restart() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #restart data-toc-label='restart' }
+#### restart() {: #restart data-toc-label='restart' }
 
 Convenience function for restarting the timer.
 
 ### Instance Properties
 
-#### isRunningProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span> {: #isRunningProperty data-toc-label='isRunningProperty' }
+#### isRunningProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isRunningProperty data-toc-label='isRunningProperty' }
 
 (readonly)
 
 whether the timer is running
 
-#### elapsedTimeProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;number&gt;</span> {: #elapsedTimeProperty data-toc-label='elapsedTimeProperty' }
+#### elapsedTimeProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #elapsedTimeProperty data-toc-label='elapsedTimeProperty' }
 
 (readonly)
 
@@ -49,7 +49,7 @@ seconds since the timer was started
 
 ### Static Methods
 
-#### formatTime( time : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #formatTime data-toc-label='formatTime' }
+#### formatTime( time : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #formatTime data-toc-label='formatTime' }
 
 Formats a value representing seconds into H:MM:SS (localized).
 

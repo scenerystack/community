@@ -14,7 +14,7 @@ import { LocalizedImageProperty } from 'scenerystack/joist';
 ```
 ### Constructor
 
-#### new LocalizedImageProperty( imageName : <span style="font-weight: 400; opacity: 80%;">string</span>, imageMap : <span style="font-weight: 400; opacity: 80%;">Partial&lt;Record&lt;ConcreteRegionAndCulture, ImageableImage&gt;&gt; &amp; { usa: ImageableImage }</span> ) {: #constructor data-toc-label='constructor' }
+#### new LocalizedImageProperty( imageName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, imageMap : <span style="font-weight: 400;">Partial&lt;Record&lt;ConcreteRegionAndCulture, [ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;&gt; &amp; { usa: [ImageableImage](../scenery/Imageable.md#ImageableImage) }</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

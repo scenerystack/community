@@ -15,11 +15,11 @@ import { BooleanProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new BooleanProperty( value : <span style="font-weight: 400; opacity: 80%;">boolean</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">BooleanPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new BooleanProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, providedOptions? : <span style="font-weight: 400;">[BooleanPropertyOptions](../axon/BooleanProperty.md#BooleanPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toggle() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #toggle data-toc-label='toggle' }
+#### toggle() {: #toggle data-toc-label='toggle' }
 
 
 

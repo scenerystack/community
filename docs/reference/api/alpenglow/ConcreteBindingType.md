@@ -14,7 +14,7 @@ import { ConcreteBindingType } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ConcreteBindingType( bindingType : <span style="font-weight: 400; opacity: 80%;">BindingType</span>, concreteType : <span style="font-weight: 400; opacity: 80%;">ConcreteType&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ConcreteBindingType( bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, concreteType : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

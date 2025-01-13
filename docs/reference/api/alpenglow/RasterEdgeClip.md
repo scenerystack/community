@@ -15,23 +15,23 @@ import { RasterEdgeClip } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterEdgeClip( clippedChunkIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, point0 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, point1 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, point2 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, point3 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, isFirstEdge : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isLastEdge : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterEdgeClip( clippedChunkIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point0 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point2 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point3 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, isFirstEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isLastEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getCount() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCount data-toc-label='getCount' }
+#### getCount() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCount data-toc-label='getCount' }
 
-#### getArea() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getArea data-toc-label='getArea' }
+#### getArea() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getArea data-toc-label='getArea' }
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### writeEncoding( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeEncoding data-toc-label='writeEncoding' }
+#### writeEncoding( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #writeEncoding data-toc-label='writeEncoding' }
 
 ### Static Methods
 
-#### readEncoding( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterEdgeClip</span> {: #readEncoding data-toc-label='readEncoding' }
+#### readEncoding( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RasterEdgeClip](../alpenglow/RasterEdgeClip.md)</span> {: #readEncoding data-toc-label='readEncoding' }
 
-#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterEdgeClip[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
+#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[RasterEdgeClip](../alpenglow/RasterEdgeClip.md)[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
 
 ### Static Properties
 
@@ -39,7 +39,7 @@ import { RasterEdgeClip } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### INDETERMINATE : <span style="font-weight: 400; opacity: 80%;">RasterEdgeClip</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
+#### INDETERMINATE : <span style="font-weight: 400;">[RasterEdgeClip](../alpenglow/RasterEdgeClip.md)</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
 
 (readonly)
 

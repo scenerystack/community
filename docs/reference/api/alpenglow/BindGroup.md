@@ -14,7 +14,7 @@ import { BindGroup } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BindGroup( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, layout : <span style="font-weight: 400; opacity: 80%;">BindGroupLayout</span>, resourceMap : <span style="font-weight: 400; opacity: 80%;">Map&lt;ResourceSlot, Resource&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new BindGroup( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, layout : <span style="font-weight: 400;">[BindGroupLayout](../alpenglow/BindGroupLayout.md)</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,7 +22,7 @@ import { BindGroup } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### bindGroup : <span style="font-weight: 400; opacity: 80%;">GPUBindGroup</span> {: #bindGroup data-toc-label='bindGroup' }
+#### bindGroup : <span style="font-weight: 400;">GPUBindGroup</span> {: #bindGroup data-toc-label='bindGroup' }
 
 (readonly)
 

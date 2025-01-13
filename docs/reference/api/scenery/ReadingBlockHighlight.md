@@ -17,7 +17,7 @@ import { ReadingBlockHighlight } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ReadingBlockHighlight( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ReadingBlockHighlightOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReadingBlockHighlight( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">ReadingBlockHighlightOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

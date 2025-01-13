@@ -16,11 +16,11 @@ import { ScoreDisplayNumberAndStar } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new ScoreDisplayNumberAndStar( scoreProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ScoreDisplayNumberAndStarOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScoreDisplayNumberAndStar( scoreProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ScoreDisplayNumberAndStarOptions](../vegas/ScoreDisplayNumberAndStar.md#ScoreDisplayNumberAndStarOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

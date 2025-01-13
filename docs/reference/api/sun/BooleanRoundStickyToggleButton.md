@@ -15,7 +15,7 @@ import { BooleanRoundStickyToggleButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new BooleanRoundStickyToggleButton( booleanProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">BooleanRoundStickyToggleButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new BooleanRoundStickyToggleButton( booleanProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[BooleanRoundStickyToggleButtonOptions](../sun/BooleanRoundStickyToggleButton.md#BooleanRoundStickyToggleButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

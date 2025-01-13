@@ -17,31 +17,31 @@ import { PointerOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PointerOverlay( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+#### new PointerOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
-#### update() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #update data-toc-label='update' }
+#### update() {: #update data-toc-label='update' }
 
 ### Instance Properties
 
-#### display : <span style="font-weight: 400; opacity: 80%;">Display</span> {: #display data-toc-label='display' }
+#### display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> {: #display data-toc-label='display' }
 
 (protected)
 
-#### rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #rootNode data-toc-label='rootNode' }
+#### rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #rootNode data-toc-label='rootNode' }
 
 (protected)
 
-#### pointerSVGContainer : <span style="font-weight: 400; opacity: 80%;">HTMLDivElement</span> {: #pointerSVGContainer data-toc-label='pointerSVGContainer' }
+#### pointerSVGContainer : <span style="font-weight: 400;">HTMLDivElement</span> {: #pointerSVGContainer data-toc-label='pointerSVGContainer' }
 
 (protected)
 
-#### domElement : <span style="font-weight: 400; opacity: 80%;">HTMLDivElement</span> {: #domElement data-toc-label='domElement' }
+#### domElement : <span style="font-weight: 400;">HTMLDivElement</span> {: #domElement data-toc-label='domElement' }
 
 
 

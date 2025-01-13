@@ -31,11 +31,11 @@ import { Font } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Font( providedOptions? : <span style="font-weight: 400; opacity: 80%;">FontOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Font( providedOptions? : <span style="font-weight: 400;">[FontOptions](../scenery/Font.md#FontOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getFont() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getFont data-toc-label='getFont' }
+#### getFont() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getFont data-toc-label='getFont' }
 
 Returns this font's CSS shorthand, which includes all of the font's information reduced into a single string.
 
@@ -43,48 +43,48 @@ This can be used for CSS as the 'font' attribute, or is needed to set Canvas fon
 
 https://www.w3.org/TR/css-fonts-3/#propdef-font contains detailed information on how this is formatted.
 
-#### getStyle() : <span style="font-weight: 400; opacity: 80%;">FontStyle</span> {: #getStyle data-toc-label='getStyle' }
+#### getStyle() : <span style="font-weight: 400;">[FontStyle](../scenery/Font.md#FontStyle)</span> {: #getStyle data-toc-label='getStyle' }
 
 Returns this font's style. See the constructor for more details on valid values.
 
-#### getVariant() : <span style="font-weight: 400; opacity: 80%;">FontVariant</span> {: #getVariant data-toc-label='getVariant' }
+#### getVariant() : <span style="font-weight: 400;">FontVariant</span> {: #getVariant data-toc-label='getVariant' }
 
 Returns this font's variant. See the constructor for more details on valid values.
 
-#### getWeight() : <span style="font-weight: 400; opacity: 80%;">FontWeight</span> {: #getWeight data-toc-label='getWeight' }
+#### getWeight() : <span style="font-weight: 400;">[FontWeight](../scenery/Font.md#FontWeight)</span> {: #getWeight data-toc-label='getWeight' }
 
 Returns this font's weight. See the constructor for more details on valid values.
 
 NOTE: If a numeric weight was passed in, it has been cast to a string, and a string will be returned here.
 
-#### getStretch() : <span style="font-weight: 400; opacity: 80%;">FontStretch</span> {: #getStretch data-toc-label='getStretch' }
+#### getStretch() : <span style="font-weight: 400;">[FontStretch](../scenery/Font.md#FontStretch)</span> {: #getStretch data-toc-label='getStretch' }
 
 Returns this font's stretch. See the constructor for more details on valid values.
 
-#### getSize() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getSize data-toc-label='getSize' }
+#### getSize() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getSize data-toc-label='getSize' }
 
 Returns this font's size. See the constructor for more details on valid values.
 
 NOTE: If a numeric size was passed in, it has been cast to a string, and a string will be returned here.
 
-#### getNumericSize() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getNumericSize data-toc-label='getNumericSize' }
+#### getNumericSize() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getNumericSize data-toc-label='getNumericSize' }
 
 Returns an approximate value of this font's size in px.
 
-#### getLineHeight() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getLineHeight data-toc-label='getLineHeight' }
+#### getLineHeight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getLineHeight data-toc-label='getLineHeight' }
 
 Returns this font's line-height. See the constructor for more details on valid values.
 
-#### getFamily() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getFamily data-toc-label='getFamily' }
+#### getFamily() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getFamily data-toc-label='getFamily' }
 
 Returns this font's family. See the constructor for more details on valid values.
 
-#### copy( options? : <span style="font-weight: 400; opacity: 80%;">FontOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Font</span> {: #copy data-toc-label='copy' }
+#### copy( options? : <span style="font-weight: 400;">[FontOptions](../scenery/Font.md#FontOptions)</span> ) : <span style="font-weight: 400;">[Font](../scenery/Font.md)</span> {: #copy data-toc-label='copy' }
 
 Returns a new Font object, which is a copy of this object. If options are provided, they override the current
 values in this object.
 
-#### toCSS() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toCSS data-toc-label='toCSS' }
+#### toCSS() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toCSS data-toc-label='toCSS' }
 
 Returns this font's CSS shorthand, which includes all of the font's information reduced into a single string.
 
@@ -96,21 +96,21 @@ https://www.w3.org/TR/css-fonts-3/#propdef-font contains detailed information on
 
 ### Static Methods
 
-#### castSize( size : <span style="font-weight: 400; opacity: 80%;">string | number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #castSize data-toc-label='castSize' }
+#### castSize( size : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #castSize data-toc-label='castSize' }
 
 Converts a generic size to a specific CSS pixel string, assuming 'px' for numbers.
 
 @param size - If it's a number, 'px' will be appended
 
-#### isFontStyle( style : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">style is FontStyle</span> {: #isFontStyle data-toc-label='isFontStyle' }
+#### isFontStyle( style : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">style is [FontStyle](../scenery/Font.md#FontStyle)</span> {: #isFontStyle data-toc-label='isFontStyle' }
 
-#### isFontVariant( variant : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">variant is FontVariant</span> {: #isFontVariant data-toc-label='isFontVariant' }
+#### isFontVariant( variant : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">variant is FontVariant</span> {: #isFontVariant data-toc-label='isFontVariant' }
 
-#### isFontWeight( weight : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">weight is FontWeight</span> {: #isFontWeight data-toc-label='isFontWeight' }
+#### isFontWeight( weight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">weight is [FontWeight](../scenery/Font.md#FontWeight)</span> {: #isFontWeight data-toc-label='isFontWeight' }
 
-#### isFontStretch( stretch : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">stretch is FontStretch</span> {: #isFontStretch data-toc-label='isFontStretch' }
+#### isFontStretch( stretch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">stretch is [FontStretch](../scenery/Font.md#FontStretch)</span> {: #isFontStretch data-toc-label='isFontStretch' }
 
-#### fromCSS( cssString : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">Font</span> {: #fromCSS data-toc-label='fromCSS' }
+#### fromCSS( cssString : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[Font](../scenery/Font.md)</span> {: #fromCSS data-toc-label='fromCSS' }
 
 Parses a CSS-compliant "font" shorthand string into a Font object.
 
@@ -121,9 +121,9 @@ of the following pattern:
 
 ### Static Properties
 
-#### FontIO : <span style="font-weight: 400; opacity: 80%;">IOType&lt;Font, FontState&gt;</span> {: #FontIO data-toc-label='FontIO' }
+#### FontIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;[Font](../scenery/Font.md), FontState&gt;</span> {: #FontIO data-toc-label='FontIO' }
 
-#### DEFAULT : <span style="font-weight: 400; opacity: 80%;">Font</span> {: #DEFAULT data-toc-label='DEFAULT' }
+#### DEFAULT : <span style="font-weight: 400;">[Font](../scenery/Font.md)</span> {: #DEFAULT data-toc-label='DEFAULT' }
 
 (readonly)
 

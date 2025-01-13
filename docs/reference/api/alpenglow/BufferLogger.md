@@ -14,47 +14,47 @@ import { BufferLogger } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferLogger( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span> ) {: #constructor data-toc-label='constructor' }
+#### new BufferLogger( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### complete() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #complete data-toc-label='complete' }
+#### complete() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #complete data-toc-label='complete' }
 
-#### hasCallbacks() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasCallbacks data-toc-label='hasCallbacks' }
+#### hasCallbacks() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasCallbacks data-toc-label='hasCallbacks' }
 
-#### withBuffer( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, callback : <span style="font-weight: 400; opacity: 80%;">( arrayBuffer: ArrayBuffer ) =&gt; Promise&lt;void&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #withBuffer data-toc-label='withBuffer' }
+#### withBuffer( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span>, callback : <span style="font-weight: 400;">( arrayBuffer: ArrayBuffer ) =&gt; Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> ) {: #withBuffer data-toc-label='withBuffer' }
 
-#### arrayBufferPromise( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBufferPromise data-toc-label='arrayBufferPromise' }
+#### arrayBufferPromise( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBufferPromise data-toc-label='arrayBufferPromise' }
 
-#### arrayBuffer( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBuffer data-toc-label='arrayBuffer' }
+#### arrayBuffer( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBuffer data-toc-label='arrayBuffer' }
 
-#### u32( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Uint32Array&gt;</span> {: #u32 data-toc-label='u32' }
+#### u32( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;Uint32Array&gt;</span> {: #u32 data-toc-label='u32' }
 
-#### i32( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Int32Array&gt;</span> {: #i32 data-toc-label='i32' }
+#### i32( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;Int32Array&gt;</span> {: #i32 data-toc-label='i32' }
 
-#### f32( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Float32Array&gt;</span> {: #f32 data-toc-label='f32' }
+#### f32( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;Float32Array&gt;</span> {: #f32 data-toc-label='f32' }
 
-#### u32Numbers( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #u32Numbers data-toc-label='u32Numbers' }
+#### u32Numbers( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #u32Numbers data-toc-label='u32Numbers' }
 
-#### i32Numbers( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #i32Numbers data-toc-label='i32Numbers' }
+#### i32Numbers( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #i32Numbers data-toc-label='i32Numbers' }
 
-#### f32Numbers( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #f32Numbers data-toc-label='f32Numbers' }
+#### f32Numbers( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #f32Numbers data-toc-label='f32Numbers' }
 
-#### logIndexed( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, type : <span style="font-weight: 400; opacity: 80%;">FromArrayBufferable</span>, lengthCallback : <span style="font-weight: 400; opacity: 80%;">( () =&gt; number ) | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #logIndexed data-toc-label='logIndexed' }
+#### logIndexed( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, type : <span style="font-weight: 400;">[FromArrayBufferable](../alpenglow/BufferLogger.md#FromArrayBufferable)</span>, lengthCallback : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #logIndexed data-toc-label='logIndexed' }
 
-#### logIndexedMultiline( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, type : <span style="font-weight: 400; opacity: 80%;">FromMultiArrayBufferable</span>, lengthCallback : <span style="font-weight: 400; opacity: 80%;">( () =&gt; number ) | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #logIndexedMultiline data-toc-label='logIndexedMultiline' }
+#### logIndexedMultiline( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, buffer : <span style="font-weight: 400;">GPUBuffer</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, type : <span style="font-weight: 400;">[FromMultiArrayBufferable](../alpenglow/BufferLogger.md#FromMultiArrayBufferable)</span>, lengthCallback : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #logIndexedMultiline data-toc-label='logIndexedMultiline' }
 
-#### logIndexedImmediate( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, type : <span style="font-weight: 400; opacity: 80%;">FromArrayBufferable</span>, lengthCallback : <span style="font-weight: 400; opacity: 80%;">( () =&gt; number ) | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #logIndexedImmediate data-toc-label='logIndexedImmediate' }
+#### logIndexedImmediate( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, type : <span style="font-weight: 400;">[FromArrayBufferable](../alpenglow/BufferLogger.md#FromArrayBufferable)</span>, lengthCallback : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #logIndexedImmediate data-toc-label='logIndexedImmediate' }
 
 ### Static Methods
 
-#### toIndexedString( n : <span style="font-weight: 400; opacity: 80%;">{ toString(): string }</span>, i : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toIndexedString data-toc-label='toIndexedString' }
+#### toIndexedString( n : <span style="font-weight: 400;">{ [toString](function toString() { [native code] })(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> }</span>, i : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toIndexedString data-toc-label='toIndexedString' }
 
-#### toMultiIndexedString( n : <span style="font-weight: 400; opacity: 80%;">{ toStrings(): string[] }</span>, i : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toMultiIndexedString data-toc-label='toMultiIndexedString' }
+#### toMultiIndexedString( n : <span style="font-weight: 400;">{ toStrings(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] }</span>, i : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toMultiIndexedString data-toc-label='toMultiIndexedString' }
 
-#### startGroup( name : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #startGroup data-toc-label='startGroup' }
+#### startGroup( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #startGroup data-toc-label='startGroup' }
 
-#### endGroup() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #endGroup data-toc-label='endGroup' }
+#### endGroup() {: #endGroup data-toc-label='endGroup' }
 
 ### Static Properties
 

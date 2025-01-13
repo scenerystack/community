@@ -14,15 +14,15 @@ import { ComputePass } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ComputePass( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, computePassDescriptor : <span style="font-weight: 400; opacity: 80%;">GPUComputePassDescriptor</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComputePass( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, computePassDescriptor : <span style="font-weight: 400;">GPUComputePassDescriptor</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispatchPipeline( computePipeline : <span style="font-weight: 400; opacity: 80%;">ComputePipeline</span>, bindGroups : <span style="font-weight: 400; opacity: 80%;">BindGroup[]</span>, dispatchX, dispatchY, dispatchZ ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #dispatchPipeline data-toc-label='dispatchPipeline' }
+#### dispatchPipeline( computePipeline : <span style="font-weight: 400;">[ComputePipeline](../alpenglow/ComputePipeline.md)</span>, bindGroups : <span style="font-weight: 400;">[BindGroup](../alpenglow/BindGroup.md)[]</span>, dispatchX, dispatchY, dispatchZ ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #dispatchPipeline data-toc-label='dispatchPipeline' }
 
-#### dispatchPipelineIndirect( computePipeline : <span style="font-weight: 400; opacity: 80%;">ComputePipeline</span>, bindGroups : <span style="font-weight: 400; opacity: 80%;">BindGroup[]</span>, indirectBuffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, indirectOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #dispatchPipelineIndirect data-toc-label='dispatchPipelineIndirect' }
+#### dispatchPipelineIndirect( computePipeline : <span style="font-weight: 400;">[ComputePipeline](../alpenglow/ComputePipeline.md)</span>, bindGroups : <span style="font-weight: 400;">[BindGroup](../alpenglow/BindGroup.md)[]</span>, indirectBuffer : <span style="font-weight: 400;">GPUBuffer</span>, indirectOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #dispatchPipelineIndirect data-toc-label='dispatchPipelineIndirect' }
 
-#### end() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #end data-toc-label='end' }
+#### end() {: #end data-toc-label='end' }
 
 ### Instance Properties
 
@@ -30,7 +30,7 @@ import { ComputePass } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### computePassEncoder : <span style="font-weight: 400; opacity: 80%;">GPUComputePassEncoder</span> {: #computePassEncoder data-toc-label='computePassEncoder' }
+#### computePassEncoder : <span style="font-weight: 400;">GPUComputePassEncoder</span> {: #computePassEncoder data-toc-label='computePassEncoder' }
 
 (readonly)
 

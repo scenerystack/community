@@ -15,7 +15,7 @@ import { SliderThumb } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new SliderThumb( providedOptions : <span style="font-weight: 400; opacity: 80%;">SliderThumbOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new SliderThumb( providedOptions : <span style="font-weight: 400;">SliderThumbOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

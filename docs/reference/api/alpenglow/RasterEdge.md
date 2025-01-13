@@ -16,19 +16,19 @@ import { RasterEdge } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterEdge( chunkIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, isFirstEdge : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isLastEdge : <span style="font-weight: 400; opacity: 80%;">boolean</span>, startPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, endPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterEdge( chunkIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, isFirstEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isLastEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### writeEncoding( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeEncoding data-toc-label='writeEncoding' }
+#### writeEncoding( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #writeEncoding data-toc-label='writeEncoding' }
 
 ### Static Methods
 
-#### readEncoding( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterEdge</span> {: #readEncoding data-toc-label='readEncoding' }
+#### readEncoding( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RasterEdge](../alpenglow/RasterEdge.md)</span> {: #readEncoding data-toc-label='readEncoding' }
 
-#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterEdge[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
+#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[RasterEdge](../alpenglow/RasterEdge.md)[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
 
 ### Static Properties
 
@@ -36,7 +36,7 @@ import { RasterEdge } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### INDETERMINATE : <span style="font-weight: 400; opacity: 80%;">RasterEdge</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
+#### INDETERMINATE : <span style="font-weight: 400;">[RasterEdge](../alpenglow/RasterEdge.md)</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
 
 (readonly)
 

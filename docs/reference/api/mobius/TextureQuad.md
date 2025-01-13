@@ -15,19 +15,19 @@ import { TextureQuad } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new TextureQuad( texture : <span style="font-weight: 400; opacity: 80%;">THREE.Texture</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, materialOptions? : <span style="font-weight: 400; opacity: 80%;">THREE.MaterialParameters</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextureQuad( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, materialOptions? : <span style="font-weight: 400;">THREE.MaterialParameters</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### updateTexture( texture : <span style="font-weight: 400; opacity: 80%;">THREE.Texture</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updateTexture data-toc-label='updateTexture' }
+#### updateTexture( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #updateTexture data-toc-label='updateTexture' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### disposeEmitter : <span style="font-weight: 400; opacity: 80%;">TReadOnlyEmitter</span> {: #disposeEmitter data-toc-label='disposeEmitter' }
+#### disposeEmitter : <span style="font-weight: 400;">TReadOnlyEmitter</span> {: #disposeEmitter data-toc-label='disposeEmitter' }
 
 
 

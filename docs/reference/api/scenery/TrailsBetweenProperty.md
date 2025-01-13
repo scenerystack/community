@@ -15,23 +15,23 @@ import { TrailsBetweenProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TrailsBetweenProperty( rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, leafNode : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+#### new TrailsBetweenProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #rootNode data-toc-label='rootNode' }
+#### rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #rootNode data-toc-label='rootNode' }
 
 (readonly)
 
-#### leafNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #leafNode data-toc-label='leafNode' }
+#### leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #leafNode data-toc-label='leafNode' }
 
 (readonly)
 
-#### listenedNodeSet : <span style="font-weight: 400; opacity: 80%;">Set&lt;Node&gt;</span> {: #listenedNodeSet data-toc-label='listenedNodeSet' }
+#### listenedNodeSet : <span style="font-weight: 400;">Set&lt;[Node](../scenery/Node.md)&gt;</span> {: #listenedNodeSet data-toc-label='listenedNodeSet' }
 
 (readonly)
 

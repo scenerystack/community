@@ -14,7 +14,7 @@ import { PartialPDOMTrail } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PartialPDOMTrail( pdomInstance : <span style="font-weight: 400; opacity: 80%;">PDOMInstance</span>, trail : <span style="font-weight: 400; opacity: 80%;">Trail</span>, isRoot : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new PartialPDOMTrail( pdomInstance : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, isRoot : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,7 +22,7 @@ import { PartialPDOMTrail } from 'scenerystack/scenery';
 
 ### Instance Properties
 
-#### fullTrail : <span style="font-weight: 400; opacity: 80%;">Trail</span> {: #fullTrail data-toc-label='fullTrail' }
+#### fullTrail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #fullTrail data-toc-label='fullTrail' }
 
 (readonly)
 

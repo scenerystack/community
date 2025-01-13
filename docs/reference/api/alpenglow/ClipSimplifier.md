@@ -26,30 +26,30 @@ import { ClipSimplifier } from 'scenerystack/alpenglow';
 
 ### Instance Methods
 
-#### addTransformed( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addTransformed data-toc-label='addTransformed' }
+#### addTransformed( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addTransformed data-toc-label='addTransformed' }
 
-#### addPoint( p : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addPoint data-toc-label='addPoint' }
+#### addPoint( p : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #addPoint data-toc-label='addPoint' }
 
-#### add( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #add data-toc-label='add' }
+#### add( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #add data-toc-label='add' }
 
 We mutate points, so for the interest of safety, we'll end up copying the points.
 TODO: For performance (CPU), it would make sense to instead pass in (x,y,?:point) so we could use immutable points
 TODO: Only create points when needed - This would allow much better pass-through
 
-#### hasPoints() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasPoints data-toc-label='hasPoints' }
+#### hasPoints() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasPoints data-toc-label='hasPoints' }
 
-#### finalize() : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #finalize data-toc-label='finalize' }
+#### finalize() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> {: #finalize data-toc-label='finalize' }
 
 Treats the entire list of points so far as a closed polygon, completes simplification (between the start/end),
 returns the simplified points, AND resets the state for the next time
 
-#### finalizeInto( polygons : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #finalizeInto data-toc-label='finalizeInto' }
+#### finalizeInto( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #finalizeInto data-toc-label='finalizeInto' }
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
 ### Static Methods
 
-#### simplifyPolygon( polygon : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span>, checkGeneralCollinearity ) : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #simplifyPolygon data-toc-label='simplifyPolygon' }
+#### simplifyPolygon( polygon : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, checkGeneralCollinearity ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> {: #simplifyPolygon data-toc-label='simplifyPolygon' }
 
 
 

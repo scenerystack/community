@@ -14,17 +14,17 @@ import { PipelineLayout } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new PipelineLayout( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, bindGroupLayouts : <span style="font-weight: 400; opacity: 80%;">BindGroupLayout[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new PipelineLayout( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, bindGroupLayouts : <span style="font-weight: 400;">[BindGroupLayout](../alpenglow/BindGroupLayout.md)[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### hasBindingWithSlot( slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasBindingWithSlot data-toc-label='hasBindingWithSlot' }
+#### hasBindingWithSlot( slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasBindingWithSlot data-toc-label='hasBindingWithSlot' }
 
-#### getBindingFromSlot( slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) : <span style="font-weight: 400; opacity: 80%;">Binding</span> {: #getBindingFromSlot data-toc-label='getBindingFromSlot' }
+#### getBindingFromSlot( slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) : <span style="font-weight: 400;">[Binding](../alpenglow/Binding.md)</span> {: #getBindingFromSlot data-toc-label='getBindingFromSlot' }
 
 ### Instance Properties
 
-#### layout : <span style="font-weight: 400; opacity: 80%;">GPUPipelineLayout</span> {: #layout data-toc-label='layout' }
+#### layout : <span style="font-weight: 400;">GPUPipelineLayout</span> {: #layout data-toc-label='layout' }
 
 (readonly)
 

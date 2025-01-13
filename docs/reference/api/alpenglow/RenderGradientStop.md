@@ -14,19 +14,19 @@ import { RenderGradientStop } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderGradientStop( ratio : <span style="font-weight: 400; opacity: 80%;">number</span>, program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderGradientStop( ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### withProgram( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderGradientStop</span> {: #withProgram data-toc-label='withProgram' }
+#### withProgram( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)</span> {: #withProgram data-toc-label='withProgram' }
 
-#### serialize() : <span style="font-weight: 400; opacity: 80%;">SerializedRenderGradientStop</span> {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)</span> {: #serialize data-toc-label='serialize' }
 
 ### Static Methods
 
-#### evaluate( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span>, stops : <span style="font-weight: 400; opacity: 80%;">RenderGradientStop[]</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
 
-#### deserialize( obj : <span style="font-weight: 400; opacity: 80%;">SerializedRenderGradientStop</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderGradientStop</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)</span> ) : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 
 

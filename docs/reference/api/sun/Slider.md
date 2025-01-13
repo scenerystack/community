@@ -17,50 +17,50 @@ import { Slider } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Slider( valueProperty : <span style="font-weight: 400; opacity: 80%;">PhetioProperty&lt;number&gt;</span>, range : <span style="font-weight: 400; opacity: 80%;">Range | TReadOnlyProperty&lt;Range&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">SliderOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Slider( valueProperty : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[SliderOptions](../sun/Slider.md#SliderOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### addMajorTick( value : <span style="font-weight: 400; opacity: 80%;">number</span>, label? : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addMajorTick data-toc-label='addMajorTick' }
+#### addMajorTick( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, label? : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #addMajorTick data-toc-label='addMajorTick' }
 
 Adds a major tick mark.
 
-#### addMinorTick( value : <span style="font-weight: 400; opacity: 80%;">number</span>, label? : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addMinorTick data-toc-label='addMinorTick' }
+#### addMinorTick( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, label? : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #addMinorTick data-toc-label='addMinorTick' }
 
 Adds a minor tick mark.
 
-#### setMajorTicksVisible( visible : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setMajorTicksVisible data-toc-label='setMajorTicksVisible' }
+#### setMajorTicksVisible( visible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setMajorTicksVisible data-toc-label='setMajorTicksVisible' }
 
 Sets visibility of major ticks.
 
-#### getMajorTicksVisible() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getMajorTicksVisible data-toc-label='getMajorTicksVisible' }
+#### getMajorTicksVisible() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getMajorTicksVisible data-toc-label='getMajorTicksVisible' }
 
 Gets visibility of major ticks.
 
-#### setMinorTicksVisible( visible : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setMinorTicksVisible data-toc-label='setMinorTicksVisible' }
+#### setMinorTicksVisible( visible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setMinorTicksVisible data-toc-label='setMinorTicksVisible' }
 
 Sets visibility of minor ticks.
 
-#### getMinorTicksVisible() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getMinorTicksVisible data-toc-label='getMinorTicksVisible' }
+#### getMinorTicksVisible() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getMinorTicksVisible data-toc-label='getMinorTicksVisible' }
 
 Gets visibility of minor ticks.
 
 ### Instance Properties
 
-#### enabledRangeProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Range&gt;</span> {: #enabledRangeProperty data-toc-label='enabledRangeProperty' }
+#### enabledRangeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span> {: #enabledRangeProperty data-toc-label='enabledRangeProperty' }
 
 (readonly)
 
-#### thumbDragListener : <span style="font-weight: 400; opacity: 80%;">DragListener</span> {: #thumbDragListener data-toc-label='thumbDragListener' }
+#### thumbDragListener : <span style="font-weight: 400;">[DragListener](../scenery/DragListener.md)</span> {: #thumbDragListener data-toc-label='thumbDragListener' }
 
 (readonly)
 
 public so that clients can access Properties of these DragListeners that tell us about its state
 See https://github.com/phetsims/sun/issues/680
 
-#### trackDragListener : <span style="font-weight: 400; opacity: 80%;">DragListener</span> {: #trackDragListener data-toc-label='trackDragListener' }
+#### trackDragListener : <span style="font-weight: 400;">[DragListener](../scenery/DragListener.md)</span> {: #trackDragListener data-toc-label='trackDragListener' }
 
 (readonly)
 
@@ -76,7 +76,7 @@ standardized tandem names, see https://github.com/phetsims/sun/issues/694
 
 (readonly)
 
-#### SliderIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #SliderIO data-toc-label='SliderIO' }
+#### SliderIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #SliderIO data-toc-label='SliderIO' }
 
 (readonly)
 

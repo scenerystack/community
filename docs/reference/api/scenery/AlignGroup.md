@@ -27,58 +27,58 @@ import { AlignGroup } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AlignGroup( providedOptions? : <span style="font-weight: 400; opacity: 80%;">AlignGroupOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new AlignGroup( providedOptions? : <span style="font-weight: 400;">[AlignGroupOptions](../scenery/AlignGroup.md#AlignGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getMaxWidth() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaxWidth data-toc-label='getMaxWidth' }
+#### getMaxWidth() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaxWidth data-toc-label='getMaxWidth' }
 
 Returns the current maximum width of the grouped content.
 
-#### getMaxWidthProperty() : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span> {: #getMaxWidthProperty data-toc-label='getMaxWidthProperty' }
+#### getMaxWidthProperty() : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxWidthProperty data-toc-label='getMaxWidthProperty' }
 
 Returns the Property holding the current maximum width of the grouped content.
 
-#### getMaxHeight() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaxHeight data-toc-label='getMaxHeight' }
+#### getMaxHeight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaxHeight data-toc-label='getMaxHeight' }
 
 Returns the current maximum height of the grouped content.
 
-#### getMaxHeightProperty() : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span> {: #getMaxHeightProperty data-toc-label='getMaxHeightProperty' }
+#### getMaxHeightProperty() : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxHeightProperty data-toc-label='getMaxHeightProperty' }
 
 Returns the Property holding the current maximum height of the grouped content.
 
-#### getMaxSizeProperty( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span> {: #getMaxSizeProperty data-toc-label='getMaxSizeProperty' }
+#### getMaxSizeProperty( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxSizeProperty data-toc-label='getMaxSizeProperty' }
 
-#### createBox( content : <span style="font-weight: 400; opacity: 80%;">Node</span>, options? : <span style="font-weight: 400; opacity: 80%;">StrictOmit&lt;AlignBoxOptions, 'group'&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">AlignBox</span> {: #createBox data-toc-label='createBox' }
+#### createBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">StrictOmit&lt;[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions), 'group'&gt;</span> ) : <span style="font-weight: 400;">[AlignBox](../scenery/AlignBox.md)</span> {: #createBox data-toc-label='createBox' }
 
 Creates an alignment box with the given content and options.
 
-#### setMatchHorizontal( matchHorizontal : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setMatchHorizontal data-toc-label='setMatchHorizontal' }
+#### setMatchHorizontal( matchHorizontal : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setMatchHorizontal data-toc-label='setMatchHorizontal' }
 
 Sets whether the widths of the align boxes should all match. If false, each box will use its preferred width
 (usually equal to the content width + horizontal margins).
 
-#### getMatchHorizontal() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getMatchHorizontal data-toc-label='getMatchHorizontal' }
+#### getMatchHorizontal() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getMatchHorizontal data-toc-label='getMatchHorizontal' }
 
 Returns whether boxes currently are horizontally matched. See setMatchHorizontal() for details.
 
-#### setMatchVertical( matchVertical : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setMatchVertical data-toc-label='setMatchVertical' }
+#### setMatchVertical( matchVertical : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setMatchVertical data-toc-label='setMatchVertical' }
 
 Sets whether the heights of the align boxes should all match. If false, each box will use its preferred height
 (usually equal to the content height + vertical margins).
 
-#### getMatchVertical() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getMatchVertical data-toc-label='getMatchVertical' }
+#### getMatchVertical() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getMatchVertical data-toc-label='getMatchVertical' }
 
 Returns whether boxes currently are vertically matched. See setMatchVertical() for details.
 
-#### updateLayout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updateLayout data-toc-label='updateLayout' }
+#### updateLayout() {: #updateLayout data-toc-label='updateLayout' }
 
 Updates the localBounds and alignment for each alignBox.
 
 NOTE: Calling this will usually not be necessary outside of Scenery, but this WILL trigger bounds revalidation
       for every alignBox, which can force the layout code to run.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Dispose all the boxes.
 

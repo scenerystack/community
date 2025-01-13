@@ -19,21 +19,21 @@ import { SpinningIndicatorNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new SpinningIndicatorNode( providedOptions? : <span style="font-weight: 400; opacity: 80%;">SpinningIndicatorNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new SpinningIndicatorNode( providedOptions? : <span style="font-weight: 400;">[SpinningIndicatorNodeOptions](../scenery-phet/SpinningIndicatorNode.md#SpinningIndicatorNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### step( dt : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #step data-toc-label='step' }
+#### step( dt : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #step data-toc-label='step' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Static Methods
 
-#### rectangleFactory( diameter : <span style="font-weight: 400; opacity: 80%;">number</span>, numberOfElements : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Rectangle</span> {: #rectangleFactory data-toc-label='rectangleFactory' }
+#### rectangleFactory( diameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numberOfElements : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Rectangle](../scenery/Rectangle.md)</span> {: #rectangleFactory data-toc-label='rectangleFactory' }
 
 Factory method for creating rectangle-shaped elements, sized to fit.
 
-#### circleFactory( diameter : <span style="font-weight: 400; opacity: 80%;">number</span>, numberOfElements : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Circle</span> {: #circleFactory data-toc-label='circleFactory' }
+#### circleFactory( diameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numberOfElements : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Circle](../scenery/Circle.md)</span> {: #circleFactory data-toc-label='circleFactory' }
 
 Factory method for creating circle-shaped elements, sized to fit.
 

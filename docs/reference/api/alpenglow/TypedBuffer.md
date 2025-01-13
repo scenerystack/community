@@ -14,23 +14,23 @@ import { TypedBuffer } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TypedBuffer( buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, type : <span style="font-weight: 400; opacity: 80%;">ConcreteType&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TypedBuffer( buffer : <span style="font-weight: 400;">GPUBuffer</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setValue( device : <span style="font-weight: 400; opacity: 80%;">GPUDevice</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setValue data-toc-label='setValue' }
+#### setValue( device : <span style="font-weight: 400;">GPUDevice</span>, value : <span style="font-weight: 400;">T</span> ) {: #setValue data-toc-label='setValue' }
 
-#### getValue( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, bufferLogger : <span style="font-weight: 400; opacity: 80%;">BufferLogger</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;T&gt;</span> {: #getValue data-toc-label='getValue' }
+#### getValue( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, bufferLogger : <span style="font-weight: 400;">[BufferLogger](../alpenglow/BufferLogger.md)</span> ) : <span style="font-weight: 400;">Promise&lt;T&gt;</span> {: #getValue data-toc-label='getValue' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Static Methods
 
-#### createArray( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, type : <span style="font-weight: 400; opacity: 80%;">ConcreteType&lt;T&gt;</span>, size : <span style="font-weight: 400; opacity: 80%;">number</span>, outOfRangeElement? : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">TypedBuffer&lt;T[]&gt;</span> {: #createArray data-toc-label='createArray' }
+#### createArray( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span>, size : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, outOfRangeElement? : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">[TypedBuffer](../alpenglow/TypedBuffer.md)&lt;T[]&gt;</span> {: #createArray data-toc-label='createArray' }
 
-#### createArrayFromData( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, type : <span style="font-weight: 400; opacity: 80%;">ConcreteType&lt;T&gt;</span>, data : <span style="font-weight: 400; opacity: 80%;">T[]</span> ) : <span style="font-weight: 400; opacity: 80%;">TypedBuffer&lt;T[]&gt;</span> {: #createArrayFromData data-toc-label='createArrayFromData' }
+#### createArrayFromData( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span>, data : <span style="font-weight: 400;">T[]</span> ) : <span style="font-weight: 400;">[TypedBuffer](../alpenglow/TypedBuffer.md)&lt;T[]&gt;</span> {: #createArrayFromData data-toc-label='createArrayFromData' }
 
-#### wrapArray( buffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, type : <span style="font-weight: 400; opacity: 80%;">ConcreteType&lt;T&gt;</span>, outOfRangeElement? : <span style="font-weight: 400; opacity: 80%;">T</span>, size ) : <span style="font-weight: 400; opacity: 80%;">TypedBuffer&lt;T[]&gt;</span> {: #wrapArray data-toc-label='wrapArray' }
+#### wrapArray( buffer : <span style="font-weight: 400;">GPUBuffer</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span>, outOfRangeElement? : <span style="font-weight: 400;">T</span>, size ) : <span style="font-weight: 400;">[TypedBuffer](../alpenglow/TypedBuffer.md)&lt;T[]&gt;</span> {: #wrapArray data-toc-label='wrapArray' }
 
 
 

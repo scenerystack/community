@@ -14,11 +14,11 @@ import { BoundsIntersectionFilter } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### quadraticIntersect( maximumBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, items : <span style="font-weight: 400; opacity: 80%;">T[]</span>, callback : <span style="font-weight: 400; opacity: 80%;">( itemA: T, itemB: T ) =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #quadraticIntersect data-toc-label='quadraticIntersect' }
+#### quadraticIntersect( maximumBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, items : <span style="font-weight: 400;">T[]</span>, callback : <span style="font-weight: 400;">( itemA: T, itemB: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #quadraticIntersect data-toc-label='quadraticIntersect' }
 
-#### sweepLineIntersect( maximumBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, items : <span style="font-weight: 400; opacity: 80%;">Item[]</span>, callback : <span style="font-weight: 400; opacity: 80%;">( itemA: Item, itemB: Item ) =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #sweepLineIntersect data-toc-label='sweepLineIntersect' }
+#### sweepLineIntersect( maximumBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, items : <span style="font-weight: 400;">Item[]</span>, callback : <span style="font-weight: 400;">( itemA: Item, itemB: Item ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #sweepLineIntersect data-toc-label='sweepLineIntersect' }
 
-#### filterIntersect( maximumBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, items : <span style="font-weight: 400; opacity: 80%;">Item[]</span>, callback : <span style="font-weight: 400; opacity: 80%;">( itemA: Item, itemB: Item ) =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #filterIntersect data-toc-label='filterIntersect' }
+#### filterIntersect( maximumBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, items : <span style="font-weight: 400;">Item[]</span>, callback : <span style="font-weight: 400;">( itemA: Item, itemB: Item ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #filterIntersect data-toc-label='filterIntersect' }
 
 
 

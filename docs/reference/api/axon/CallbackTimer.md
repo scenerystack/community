@@ -15,28 +15,28 @@ import { CallbackTimer } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new CallbackTimer( options? : <span style="font-weight: 400; opacity: 80%;">CallbackTimerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new CallbackTimer( options? : <span style="font-weight: 400;">[CallbackTimerOptions](../axon/CallbackTimer.md#CallbackTimerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### isRunning() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isRunning data-toc-label='isRunning' }
+#### isRunning() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isRunning data-toc-label='isRunning' }
 
-#### start() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #start data-toc-label='start' }
+#### start() {: #start data-toc-label='start' }
 
-#### stop( fire : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #stop data-toc-label='stop' }
+#### stop( fire : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #stop data-toc-label='stop' }
 
 Stops the timer.
 @param fire - should we fire if we haven't fired already?
 
-#### addCallback( callback : <span style="font-weight: 400; opacity: 80%;">CallbackTimerCallback</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addCallback data-toc-label='addCallback' }
+#### addCallback( callback : <span style="font-weight: 400;">[CallbackTimerCallback](../axon/CallbackTimer.md#CallbackTimerCallback)</span> ) {: #addCallback data-toc-label='addCallback' }
 
-#### removeCallback( callback : <span style="font-weight: 400; opacity: 80%;">CallbackTimerCallback</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeCallback data-toc-label='removeCallback' }
+#### removeCallback( callback : <span style="font-weight: 400;">[CallbackTimerCallback](../axon/CallbackTimer.md#CallbackTimerCallback)</span> ) {: #removeCallback data-toc-label='removeCallback' }
 
-#### fire() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #fire data-toc-label='fire' }
+#### fire() {: #fire data-toc-label='fire' }
 
 Calls all callbacks. Clients are free to call this when the timer is not running.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

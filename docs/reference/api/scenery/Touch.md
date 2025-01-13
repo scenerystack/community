@@ -16,19 +16,19 @@ import { Touch } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Touch( id : <span style="font-weight: 400; opacity: 80%;">number</span>, point : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, event : <span style="font-weight: 400; opacity: 80%;">Event</span> ) {: #constructor data-toc-label='constructor' }
+#### new Touch( id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, event : <span style="font-weight: 400;">Event</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Returns an improved string representation of this object.
 
-#### isTouchLike() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isTouchLike data-toc-label='isTouchLike' }
+#### isTouchLike() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isTouchLike data-toc-label='isTouchLike' }
 
 ### Instance Properties
 
-#### id : <span style="font-weight: 400; opacity: 80%;">number</span> {: #id data-toc-label='id' }
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
 
 For tracking which touch is which
 

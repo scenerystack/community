@@ -14,11 +14,11 @@ import { ShadedSphereNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ShadedSphereNode( diameter : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ShadedSphereNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ShadedSphereNode( diameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[ShadedSphereNodeOptions](../scenery-phet/ShadedSphereNode.md#ShadedSphereNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### invalidatePath() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #invalidatePath data-toc-label='invalidatePath' }
+#### invalidatePath() {: #invalidatePath data-toc-label='invalidatePath' }
 
 (protected)
 

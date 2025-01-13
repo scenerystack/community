@@ -21,60 +21,60 @@ import { CompletePiecewiseLinearFunction } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new CompletePiecewiseLinearFunction( points : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new CompletePiecewiseLinearFunction( points : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### findMatchingPair( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">[ Vector2, Vector2 ]</span> {: #findMatchingPair data-toc-label='findMatchingPair' }
+#### findMatchingPair( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ [Vector2](../dot/Vector2.md), [Vector2](../dot/Vector2.md) ]</span> {: #findMatchingPair data-toc-label='findMatchingPair' }
 
 Returns the pair of points that the x value is defined by.
 
 NOTE: x may NOT be contained in these points, if it's either less than or greater than any points in the points
 list.
 
-#### evaluate( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
 Evaluates the function at the given x value, e.g. returns f(x).
 
-#### plus( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #plus data-toc-label='plus' }
+#### plus( linearFunction : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #plus data-toc-label='plus' }
 
 Returns a CompletePiecewiseLinearFunction that's the result of adding the two functions.
 
-#### minus( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #minus data-toc-label='minus' }
+#### minus( linearFunction : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #minus data-toc-label='minus' }
 
 Returns a CompletePiecewiseLinearFunction that's the result of subtracting the two functions.
 
-#### min( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #min data-toc-label='min' }
+#### min( linearFunction : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #min data-toc-label='min' }
 
 Returns a CompletePiecewiseLinearFunction that's the result of taking the minimum of the two functions
 
-#### max( linearFunction : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #max data-toc-label='max' }
+#### max( linearFunction : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #max data-toc-label='max' }
 
 Returns a CompletePiecewiseLinearFunction that's the result of taking the maximum of the two functions
 
-#### withXValues( xValues : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #withXValues data-toc-label='withXValues' }
+#### withXValues( xValues : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #withXValues data-toc-label='withXValues' }
 
 Allows redefining or clamping/truncating the function by only representing it from the given x values
 
-#### inverted() : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #inverted data-toc-label='inverted' }
+#### inverted() : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #inverted data-toc-label='inverted' }
 
 Returns an inverted form of the function (assuming it is monotonically increasing or monotonically decreasing)
 
 ### Instance Properties
 
-#### points : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #points data-toc-label='points' }
+#### points : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> {: #points data-toc-label='points' }
 
 ### Static Methods
 
-#### sum( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #sum data-toc-label='sum' }
+#### sum( ...functions : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)[]</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #sum data-toc-label='sum' }
 
-#### min( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #min data-toc-label='min' }
+#### min( ...functions : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)[]</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #min data-toc-label='min' }
 
-#### max( ...functions : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #max data-toc-label='max' }
+#### max( ...functions : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)[]</span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #max data-toc-label='max' }
 
-#### constant( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #constant data-toc-label='constant' }
+#### constant( y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #constant data-toc-label='constant' }
 
-#### linear( a : <span style="font-weight: 400; opacity: 80%;">number</span>, b : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">CompletePiecewiseLinearFunction</span> {: #linear data-toc-label='linear' }
+#### linear( a : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, b : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[CompletePiecewiseLinearFunction](../dot/CompletePiecewiseLinearFunction.md)</span> {: #linear data-toc-label='linear' }
 
 Represents the function ax+b
 

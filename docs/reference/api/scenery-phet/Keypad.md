@@ -15,39 +15,39 @@ import { Keypad } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new Keypad( layout : <span style="font-weight: 400; opacity: 80%;">( Key | null )[][]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeypadOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Keypad( layout : <span style="font-weight: 400;">( [Key](../scenery-phet/Key.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[][]</span>, providedOptions? : <span style="font-weight: 400;">[KeypadOptions](../scenery-phet/Keypad.md#KeypadOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### clear() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clear data-toc-label='clear' }
+#### clear() {: #clear data-toc-label='clear' }
 
 Calls the clear function for the given accumulator
 
-#### setClearOnNextKeyPress( clearOnNextKeyPress : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setClearOnNextKeyPress data-toc-label='setClearOnNextKeyPress' }
+#### setClearOnNextKeyPress( clearOnNextKeyPress : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setClearOnNextKeyPress data-toc-label='setClearOnNextKeyPress' }
 
 Determines whether pressing a key (except for backspace) will clear the existing value.
 
-#### getClearOnNextKeyPress() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getClearOnNextKeyPress data-toc-label='getClearOnNextKeyPress' }
+#### getClearOnNextKeyPress() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getClearOnNextKeyPress data-toc-label='getClearOnNextKeyPress' }
 
 Will pressing a key (except for backspace) clear the existing value?
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### accumulatedKeysProperty : <span style="font-weight: 400; opacity: 80%;">ReadOnlyProperty&lt;KeyIDValue[]&gt;</span> {: #accumulatedKeysProperty data-toc-label='accumulatedKeysProperty' }
+#### accumulatedKeysProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)[]&gt;</span> {: #accumulatedKeysProperty data-toc-label='accumulatedKeysProperty' }
 
 (readonly)
 
 array of the keys that have been accumulated
 
-#### stringProperty : <span style="font-weight: 400; opacity: 80%;">ReadOnlyProperty&lt;string&gt;</span> {: #stringProperty data-toc-label='stringProperty' }
+#### stringProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #stringProperty data-toc-label='stringProperty' }
 
 (readonly)
 
 string representation of the keys that have been accumulated
 
-#### valueProperty : <span style="font-weight: 400; opacity: 80%;">ReadOnlyProperty&lt;number | null&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
+#### valueProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
 
 (readonly)
 
@@ -55,7 +55,7 @@ numeric representation of the keys that have been accumulated, null if no keys h
 
 ### Static Properties
 
-#### PositiveIntegerLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #PositiveIntegerLayout data-toc-label='PositiveIntegerLayout' }
+#### PositiveIntegerLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #PositiveIntegerLayout data-toc-label='PositiveIntegerLayout' }
 
 (readonly)
 
@@ -66,23 +66,23 @@ the horizontal span is greater than 1, the next key in that row will not overlap
 space in the grid. If a blank space is desired, null should be provided.
 ------------------------------------------------------------------------------------------------------------------
 
-#### PositiveDecimalLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #PositiveDecimalLayout data-toc-label='PositiveDecimalLayout' }
+#### PositiveDecimalLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #PositiveDecimalLayout data-toc-label='PositiveDecimalLayout' }
 
 (readonly)
 
-#### PositiveAndNegativeIntegerLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #PositiveAndNegativeIntegerLayout data-toc-label='PositiveAndNegativeIntegerLayout' }
+#### PositiveAndNegativeIntegerLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #PositiveAndNegativeIntegerLayout data-toc-label='PositiveAndNegativeIntegerLayout' }
 
 (readonly)
 
-#### PositiveFloatingPointLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #PositiveFloatingPointLayout data-toc-label='PositiveFloatingPointLayout' }
+#### PositiveFloatingPointLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #PositiveFloatingPointLayout data-toc-label='PositiveFloatingPointLayout' }
 
 (readonly)
 
-#### PositiveAndNegativeFloatingPointLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #PositiveAndNegativeFloatingPointLayout data-toc-label='PositiveAndNegativeFloatingPointLayout' }
+#### PositiveAndNegativeFloatingPointLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #PositiveAndNegativeFloatingPointLayout data-toc-label='PositiveAndNegativeFloatingPointLayout' }
 
 (readonly)
 
-#### WeirdLayout : <span style="font-weight: 400; opacity: 80%;">KeypadLayout</span> {: #WeirdLayout data-toc-label='WeirdLayout' }
+#### WeirdLayout : <span style="font-weight: 400;">[KeypadLayout](../scenery-phet/Keypad.md#KeypadLayout)</span> {: #WeirdLayout data-toc-label='WeirdLayout' }
 
 (readonly)
 

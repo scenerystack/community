@@ -14,15 +14,15 @@ import { RasterLog } from 'scenerystack/alpenglow';
 ```
 ### Instance Properties
 
-#### scale : <span style="font-weight: 400; opacity: 80%;">number | null</span> {: #scale data-toc-label='scale' }
+#### scale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #scale data-toc-label='scale' }
 
-#### partialAreas : <span style="font-weight: 400; opacity: 80%;">Bounds2[]</span> {: #partialAreas data-toc-label='partialAreas' }
+#### partialAreas : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)[]</span> {: #partialAreas data-toc-label='partialAreas' }
 
-#### fullAreas : <span style="font-weight: 400; opacity: 80%;">Bounds2[]</span> {: #fullAreas data-toc-label='fullAreas' }
+#### fullAreas : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)[]</span> {: #fullAreas data-toc-label='fullAreas' }
 
-#### tileLogs : <span style="font-weight: 400; opacity: 80%;">RasterTileLog[]</span> {: #tileLogs data-toc-label='tileLogs' }
+#### tileLogs : <span style="font-weight: 400;">[RasterTileLog](../alpenglow/RasterLog.md#RasterTileLog)[]</span> {: #tileLogs data-toc-label='tileLogs' }
 
-#### renderableFaces : <span style="font-weight: 400; opacity: 80%;">RenderableFace[] | null</span> {: #renderableFaces data-toc-label='renderableFaces' }
+#### renderableFaces : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #renderableFaces data-toc-label='renderableFaces' }
 
 
 
@@ -34,31 +34,31 @@ import { RasterTileLog } from 'scenerystack/alpenglow';
 ```
 ### Instance Properties
 
-#### translation : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #RasterTileLog-translation data-toc-label='RasterTileLog-translation' }
+#### translation : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-translation data-toc-label='RasterTileLog-translation' }
 
-#### toIntegerMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix3 | null</span> {: #RasterTileLog-toIntegerMatrix data-toc-label='RasterTileLog-toIntegerMatrix' }
+#### toIntegerMatrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-toIntegerMatrix data-toc-label='RasterTileLog-toIntegerMatrix' }
 
-#### fromIntegerMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix3 | null</span> {: #RasterTileLog-fromIntegerMatrix data-toc-label='RasterTileLog-fromIntegerMatrix' }
+#### fromIntegerMatrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-fromIntegerMatrix data-toc-label='RasterTileLog-fromIntegerMatrix' }
 
-#### integerEdges : <span style="font-weight: 400; opacity: 80%;">IntegerEdge[] | null</span> {: #RasterTileLog-integerEdges data-toc-label='RasterTileLog-integerEdges' }
+#### integerEdges : <span style="font-weight: 400;">[IntegerEdge](../alpenglow/IntegerEdge.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-integerEdges data-toc-label='RasterTileLog-integerEdges' }
 
-#### filteredRationalHalfEdges : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[] | null</span> {: #RasterTileLog-filteredRationalHalfEdges data-toc-label='RasterTileLog-filteredRationalHalfEdges' }
+#### filteredRationalHalfEdges : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-filteredRationalHalfEdges data-toc-label='RasterTileLog-filteredRationalHalfEdges' }
 
-#### refilteredRationalHalfEdges : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[] | null</span> {: #RasterTileLog-refilteredRationalHalfEdges data-toc-label='RasterTileLog-refilteredRationalHalfEdges' }
+#### refilteredRationalHalfEdges : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-refilteredRationalHalfEdges data-toc-label='RasterTileLog-refilteredRationalHalfEdges' }
 
-#### innerBoundaries : <span style="font-weight: 400; opacity: 80%;">RationalBoundary[] | null</span> {: #RasterTileLog-innerBoundaries data-toc-label='RasterTileLog-innerBoundaries' }
+#### innerBoundaries : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-innerBoundaries data-toc-label='RasterTileLog-innerBoundaries' }
 
-#### outerBoundaries : <span style="font-weight: 400; opacity: 80%;">RationalBoundary[] | null</span> {: #RasterTileLog-outerBoundaries data-toc-label='RasterTileLog-outerBoundaries' }
+#### outerBoundaries : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-outerBoundaries data-toc-label='RasterTileLog-outerBoundaries' }
 
-#### faces : <span style="font-weight: 400; opacity: 80%;">RationalFace[] | null</span> {: #RasterTileLog-faces data-toc-label='RasterTileLog-faces' }
+#### faces : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-faces data-toc-label='RasterTileLog-faces' }
 
-#### unboundedFace : <span style="font-weight: 400; opacity: 80%;">RationalFace | null</span> {: #RasterTileLog-unboundedFace data-toc-label='RasterTileLog-unboundedFace' }
+#### unboundedFace : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-unboundedFace data-toc-label='RasterTileLog-unboundedFace' }
 
-#### renderedFaces : <span style="font-weight: 400; opacity: 80%;">RationalFace[] | null</span> {: #RasterTileLog-renderedFaces data-toc-label='RasterTileLog-renderedFaces' }
+#### renderedFaces : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-renderedFaces data-toc-label='RasterTileLog-renderedFaces' }
 
-#### initialRenderableFaces : <span style="font-weight: 400; opacity: 80%;">RenderableFace[] | null</span> {: #RasterTileLog-initialRenderableFaces data-toc-label='RasterTileLog-initialRenderableFaces' }
+#### initialRenderableFaces : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-initialRenderableFaces data-toc-label='RasterTileLog-initialRenderableFaces' }
 
-#### renderableFaces : <span style="font-weight: 400; opacity: 80%;">RenderableFace[] | null</span> {: #RasterTileLog-renderableFaces data-toc-label='RasterTileLog-renderableFaces' }
+#### renderableFaces : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #RasterTileLog-renderableFaces data-toc-label='RasterTileLog-renderableFaces' }
 
 #### integerIntersectionCount {: #RasterTileLog-integerIntersectionCount data-toc-label='RasterTileLog-integerIntersectionCount' }
 

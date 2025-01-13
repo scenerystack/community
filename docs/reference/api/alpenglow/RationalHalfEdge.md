@@ -19,59 +19,59 @@ import { RationalHalfEdge } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RationalHalfEdge( edgeId : <span style="font-weight: 400; opacity: 80%;">number</span>, p0 : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span>, p1 : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) {: #constructor data-toc-label='constructor' }
+#### new RationalHalfEdge( edgeId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span>, p1 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### windingContribution( x : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, y : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #windingContribution data-toc-label='windingContribution' }
+#### windingContribution( x : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, y : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #windingContribution data-toc-label='windingContribution' }
 
 See LinearEdge.windingContribution
 
-#### addWindingFrom( other : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addWindingFrom data-toc-label='addWindingFrom' }
+#### addWindingFrom( other : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)</span> ) {: #addWindingFrom data-toc-label='addWindingFrom' }
 
-#### compare( other : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #compare data-toc-label='compare' }
+#### compare( other : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compare data-toc-label='compare' }
 
-#### addTransformedToAccumulator( accumulator : <span style="font-weight: 400; opacity: 80%;">ClippableFaceAccumulator</span>, fromIntegerMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addTransformedToAccumulator data-toc-label='addTransformedToAccumulator' }
+#### addTransformedToAccumulator( accumulator : <span style="font-weight: 400;">[ClippableFaceAccumulator](../alpenglow/ClippableFace.md#ClippableFaceAccumulator)</span>, fromIntegerMatrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) {: #addTransformedToAccumulator data-toc-label='addTransformedToAccumulator' }
 
 TODO: use in more places
 
 ### Instance Properties
 
-#### face : <span style="font-weight: 400; opacity: 80%;">RationalFace | null</span> {: #face data-toc-label='face' }
+#### face : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #face data-toc-label='face' }
 
-#### nextEdge : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge | null</span> {: #nextEdge data-toc-label='nextEdge' }
+#### nextEdge : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #nextEdge data-toc-label='nextEdge' }
 
-#### previousEdge : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge | null</span> {: #previousEdge data-toc-label='previousEdge' }
+#### previousEdge : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #previousEdge data-toc-label='previousEdge' }
 
-#### boundary : <span style="font-weight: 400; opacity: 80%;">RationalBoundary | null</span> {: #boundary data-toc-label='boundary' }
+#### boundary : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #boundary data-toc-label='boundary' }
 
-#### reversed : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge</span> {: #reversed data-toc-label='reversed' }
+#### reversed : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)</span> {: #reversed data-toc-label='reversed' }
 
-#### windingMap : <span style="font-weight: 400; opacity: 80%;">WindingMap</span> {: #windingMap data-toc-label='windingMap' }
+#### windingMap : <span style="font-weight: 400;">[WindingMap](../alpenglow/WindingMap.md)</span> {: #windingMap data-toc-label='windingMap' }
 
-#### discriminator : <span style="font-weight: 400; opacity: 80%;">number</span> {: #discriminator data-toc-label='discriminator' }
+#### discriminator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #discriminator data-toc-label='discriminator' }
 
 0 for straight +x, 1 for +y, 2 for straight -x, 3 for -y
 
-#### slope : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #slope data-toc-label='slope' }
+#### slope : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #slope data-toc-label='slope' }
 
-#### p0float : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #p0float data-toc-label='p0float' }
+#### p0float : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #p0float data-toc-label='p0float' }
 
-#### p1float : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #p1float data-toc-label='p1float' }
+#### p1float : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #p1float data-toc-label='p1float' }
 
 #### processed {: #processed data-toc-label='processed' }
 
 ### Static Methods
 
-#### compareBigInt( a : <span style="font-weight: 400; opacity: 80%;">bigint</span>, b : <span style="font-weight: 400; opacity: 80%;">bigint</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #compareBigInt data-toc-label='compareBigInt' }
+#### compareBigInt( a : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span>, b : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compareBigInt data-toc-label='compareBigInt' }
 
-#### quickCompareBigRational( a : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, b : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #quickCompareBigRational data-toc-label='quickCompareBigRational' }
+#### quickCompareBigRational( a : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, b : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #quickCompareBigRational data-toc-label='quickCompareBigRational' }
 
 Provides a stable comparison, but this is NOT numerical!!!
 
-#### quickCompareBigRationalVector2( a : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span>, b : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #quickCompareBigRationalVector2 data-toc-label='quickCompareBigRationalVector2' }
+#### quickCompareBigRationalVector2( a : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span>, b : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #quickCompareBigRationalVector2 data-toc-label='quickCompareBigRationalVector2' }
 
-#### filterAndConnectHalfEdges( rationalHalfEdges : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[]</span> {: #filterAndConnectHalfEdges data-toc-label='filterAndConnectHalfEdges' }
+#### filterAndConnectHalfEdges( rationalHalfEdges : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[]</span> ) : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[]</span> {: #filterAndConnectHalfEdges data-toc-label='filterAndConnectHalfEdges' }
 
 
 

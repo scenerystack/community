@@ -17,23 +17,23 @@ import { StickyToggleButtonModel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new StickyToggleButtonModel( valueUp : <span style="font-weight: 400; opacity: 80%;">T</span>, valueDown : <span style="font-weight: 400; opacity: 80%;">T</span>, valueProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">StickyToggleButtonModelOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new StickyToggleButtonModel( valueUp : <span style="font-weight: 400;">T</span>, valueDown : <span style="font-weight: 400;">T</span>, valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[StickyToggleButtonModelOptions](../sun/StickyToggleButtonModel.md#StickyToggleButtonModelOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### valueProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
+#### valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
 
 (readonly)
 
-#### valueUp : <span style="font-weight: 400; opacity: 80%;">T</span> {: #valueUp data-toc-label='valueUp' }
+#### valueUp : <span style="font-weight: 400;">T</span> {: #valueUp data-toc-label='valueUp' }
 
 (readonly)
 
-#### valueDown : <span style="font-weight: 400; opacity: 80%;">T</span> {: #valueDown data-toc-label='valueDown' }
+#### valueDown : <span style="font-weight: 400;">T</span> {: #valueDown data-toc-label='valueDown' }
 
 (readonly)
 

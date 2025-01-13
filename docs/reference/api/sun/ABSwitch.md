@@ -16,13 +16,13 @@ import { ABSwitch } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ABSwitch( property : <span style="font-weight: 400; opacity: 80%;">Property&lt;T&gt;</span>, valueA : <span style="font-weight: 400; opacity: 80%;">T</span>, labelA : <span style="font-weight: 400; opacity: 80%;">Node</span>, valueB : <span style="font-weight: 400; opacity: 80%;">T</span>, labelB : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ABSwitchOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ABSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueA : <span style="font-weight: 400;">T</span>, labelA : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, valueB : <span style="font-weight: 400;">T</span>, labelB : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ABSwitchOptions](../sun/ABSwitch.md#ABSwitchOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### onEnabledPropertyChange( enabled : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onEnabledPropertyChange data-toc-label='onEnabledPropertyChange' }
+#### onEnabledPropertyChange( enabled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #onEnabledPropertyChange data-toc-label='onEnabledPropertyChange' }
 
 (protected)
 
@@ -32,7 +32,7 @@ See https://github.com/phetsims/sun/issues/853
 
 ### Instance Properties
 
-#### onInputEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
+#### onInputEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
 
 (readonly)
 

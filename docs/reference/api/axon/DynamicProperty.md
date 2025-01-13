@@ -117,41 +117,41 @@ import { DynamicProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new DynamicProperty( valuePropertyProperty : <span style="font-weight: 400; opacity: 80%;">TNullableProperty&lt;OuterValueType&gt; | TReadOnlyProperty&lt;OuterValueType&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">DynamicPropertyOptions&lt;ThisValueType, InnerValueType, OuterValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DynamicProperty( valuePropertyProperty : <span style="font-weight: 400;">[TNullableProperty](../axon/DynamicProperty.md#TNullableProperty)&lt;OuterValueType&gt; | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;OuterValueType&gt;</span>, providedOptions? : <span style="font-weight: 400;">[DynamicPropertyOptions](../axon/DynamicProperty.md#DynamicPropertyOptions)&lt;ThisValueType, InnerValueType, OuterValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes this Property
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
 Resets the current property (if it's a Property instead of a TinyProperty)
 
-#### set( value : <span style="font-weight: 400; opacity: 80%;">ThisValueType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #set data-toc-label='set' }
+#### set( value : <span style="font-weight: 400;">ThisValueType</span> ) {: #set data-toc-label='set' }
 
 Prevent setting this Property manually if it is not marked as bidirectional.
 
-#### isSettable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSettable data-toc-label='isSettable' }
+#### isSettable() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSettable data-toc-label='isSettable' }
 
 Returns true if this Property value can be set externally, by set() or .value =
 
 ### Instance Properties
 
-#### derive : <span style="font-weight: 400; opacity: 80%;">( u: OuterValueType ) =&gt; TReadOnlyProperty&lt;InnerValueType&gt;</span> {: #derive data-toc-label='derive' }
+#### derive : <span style="font-weight: 400;">( u: OuterValueType ) =&gt; [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt;</span> {: #derive data-toc-label='derive' }
 
 (protected, readonly)
 
-#### map : <span style="font-weight: 400; opacity: 80%;">( v: InnerValueType ) =&gt; ThisValueType</span> {: #map data-toc-label='map' }
+#### map : <span style="font-weight: 400;">( v: InnerValueType ) =&gt; ThisValueType</span> {: #map data-toc-label='map' }
 
 (protected, readonly)
 
-#### inverseMap : <span style="font-weight: 400; opacity: 80%;">( t: ThisValueType ) =&gt; InnerValueType</span> {: #inverseMap data-toc-label='inverseMap' }
+#### inverseMap : <span style="font-weight: 400;">( t: ThisValueType ) =&gt; InnerValueType</span> {: #inverseMap data-toc-label='inverseMap' }
 
 (protected, readonly)
 
-#### bidirectional : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #bidirectional data-toc-label='bidirectional' }
+#### bidirectional : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #bidirectional data-toc-label='bidirectional' }
 
 (protected, readonly)
 

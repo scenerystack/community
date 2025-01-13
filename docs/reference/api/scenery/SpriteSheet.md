@@ -22,22 +22,22 @@ import { SpriteSheet } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SpriteSheet( useMipmaps : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new SpriteSheet( useMipmaps : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initializeContext( gl : <span style="font-weight: 400; opacity: 80%;">WebGLRenderingContext</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #initializeContext data-toc-label='initializeContext' }
+#### initializeContext( gl : <span style="font-weight: 400;">WebGLRenderingContext</span> ) {: #initializeContext data-toc-label='initializeContext' }
 
 Initialize (or reinitialize) ourself with a new GL context. Should be called at least once before updateTexture()
 
 NOTE: Should be safe to call with a different context (will recreate a different texture) should this be needed
       for things like context loss.
 
-#### updateTexture() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updateTexture data-toc-label='updateTexture' }
+#### updateTexture() {: #updateTexture data-toc-label='updateTexture' }
 
 Updates a pre-existing texture with our current Canvas.
 
-#### addImage( image : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement | HTMLImageElement</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Sprite | null</span> {: #addImage data-toc-label='addImage' }
+#### addImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Sprite](../scenery/Sprite.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #addImage data-toc-label='addImage' }
 
 Adds an image (if possible) to our sprite sheet. If successful, will return a {Sprite}, otherwise null.
 
@@ -45,23 +45,23 @@ Adds an image (if possible) to our sprite sheet. If successful, will return a {S
 @param width - Passed in, since it may not be fully loaded yet?
 @param height - Passed in, since it may not be fully loaded yet?
 
-#### removeImage( image : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement | HTMLImageElement</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeImage data-toc-label='removeImage' }
+#### removeImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span> ) {: #removeImage data-toc-label='removeImage' }
 
 Removes an image from our spritesheet. (Removes one from the amount it is used, and if it is 0, gets actually
 removed).
 
-#### containsImage( image : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement | HTMLImageElement</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #containsImage data-toc-label='containsImage' }
+#### containsImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsImage data-toc-label='containsImage' }
 
 Whether the sprite for the specified image is handled by this spritesheet. It can be either used or unused, but
 addImage() calls with the specified image should be extremely fast (no need to modify the Canvas or texture).
 
 ### Instance Properties
 
-#### texture : <span style="font-weight: 400; opacity: 80%;">WebGLTexture | null</span> {: #texture data-toc-label='texture' }
+#### texture : <span style="font-weight: 400;">WebGLTexture | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #texture data-toc-label='texture' }
 
 ### Static Properties
 
-#### Sprite : <span style="font-weight: 400; opacity: 80%;">typeof Sprite</span> {: #Sprite data-toc-label='Sprite' }
+#### Sprite : <span style="font-weight: 400;">typeof [Sprite](../scenery/Sprite.md)</span> {: #Sprite data-toc-label='Sprite' }
 
 #### MAX_DIMENSION {: #MAX_DIMENSION data-toc-label='MAX_DIMENSION' }
 

@@ -166,11 +166,11 @@ import { Input } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Input( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, attachToWindow : <span style="font-weight: 400; opacity: 80%;">boolean</span>, batchDOMEvents : <span style="font-weight: 400; opacity: 80%;">boolean</span>, assumeFullWindow : <span style="font-weight: 400; opacity: 80%;">boolean</span>, passiveEvents : <span style="font-weight: 400; opacity: 80%;">boolean | null</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">InputOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Input( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, attachToWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, batchDOMEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, assumeFullWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, passiveEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[InputOptions](../scenery/Input.md#InputOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### interruptPointers( excludePointer : <span style="font-weight: 400; opacity: 80%;">Pointer | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #interruptPointers data-toc-label='interruptPointers' }
+#### interruptPointers( excludePointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #interruptPointers data-toc-label='interruptPointers' }
 
 Interrupts any input actions that are currently taking place (should stop drags, etc.)
 
@@ -178,54 +178,54 @@ If excludePointer is provided, it will NOT be interrupted along with the others
 
 ### Instance Properties
 
-#### display : <span style="font-weight: 400; opacity: 80%;">Display</span> {: #display data-toc-label='display' }
+#### display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> {: #display data-toc-label='display' }
 
 (readonly)
 
-#### rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #rootNode data-toc-label='rootNode' }
+#### rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #rootNode data-toc-label='rootNode' }
 
 (readonly)
 
-#### attachToWindow : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #attachToWindow data-toc-label='attachToWindow' }
+#### attachToWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #attachToWindow data-toc-label='attachToWindow' }
 
 (readonly)
 
-#### batchDOMEvents : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #batchDOMEvents data-toc-label='batchDOMEvents' }
+#### batchDOMEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #batchDOMEvents data-toc-label='batchDOMEvents' }
 
 (readonly)
 
-#### assumeFullWindow : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #assumeFullWindow data-toc-label='assumeFullWindow' }
+#### assumeFullWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #assumeFullWindow data-toc-label='assumeFullWindow' }
 
 (readonly)
 
-#### passiveEvents : <span style="font-weight: 400; opacity: 80%;">boolean | null</span> {: #passiveEvents data-toc-label='passiveEvents' }
+#### passiveEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #passiveEvents data-toc-label='passiveEvents' }
 
 (readonly)
 
-#### pdomPointer : <span style="font-weight: 400; opacity: 80%;">PDOMPointer | null</span> {: #pdomPointer data-toc-label='pdomPointer' }
+#### pdomPointer : <span style="font-weight: 400;">[PDOMPointer](../scenery/PDOMPointer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #pdomPointer data-toc-label='pdomPointer' }
 
 Pointer for accessibility, only created lazily on first pdom event.
 
-#### mouse : <span style="font-weight: 400; opacity: 80%;">Mouse | null</span> {: #mouse data-toc-label='mouse' }
+#### mouse : <span style="font-weight: 400;">[Mouse](../scenery/Mouse.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #mouse data-toc-label='mouse' }
 
 Pointer for mouse, only created lazily on first mouse event, so no mouse is allocated on tablets.
 
-#### pointers : <span style="font-weight: 400; opacity: 80%;">Pointer[]</span> {: #pointers data-toc-label='pointers' }
+#### pointers : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)[]</span> {: #pointers data-toc-label='pointers' }
 
 All active pointers.
 
-#### pointerAddedEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter&lt;[ Pointer ]&gt;</span> {: #pointerAddedEmitter data-toc-label='pointerAddedEmitter' }
+#### pointerAddedEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)&lt;[ [Pointer](../scenery/Pointer.md) ]&gt;</span> {: #pointerAddedEmitter data-toc-label='pointerAddedEmitter' }
 
-#### currentlyFiringEvents : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #currentlyFiringEvents data-toc-label='currentlyFiringEvents' }
+#### currentlyFiringEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #currentlyFiringEvents data-toc-label='currentlyFiringEvents' }
 
 Whether we are currently firing events. We need to track this to handle re-entrant cases
 like https://github.com/phetsims/balloons-and-static-electricity/issues/406.
 
-#### currentSceneryEvent : <span style="font-weight: 400; opacity: 80%;">SceneryEvent | null</span> {: #currentSceneryEvent data-toc-label='currentSceneryEvent' }
+#### currentSceneryEvent : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #currentSceneryEvent data-toc-label='currentSceneryEvent' }
 
 ### Static Methods
 
-#### serializeDomEvent( domEvent : <span style="font-weight: 400; opacity: 80%;">Event</span> ) : <span style="font-weight: 400; opacity: 80%;">SerializedDOMEvent</span> {: #serializeDomEvent data-toc-label='serializeDomEvent' }
+#### serializeDomEvent( domEvent : <span style="font-weight: 400;">Event</span> ) : <span style="font-weight: 400;">SerializedDOMEvent</span> {: #serializeDomEvent data-toc-label='serializeDomEvent' }
 
 Saves the main information we care about from a DOM `Event` into a JSON-like structure. To support
 polymorphism, all supported DOM event keys that scenery uses will always be included in this serialization. If
@@ -236,7 +236,7 @@ set as `null`. See domEventPropertiesToSerialize for the full list of supported 
 
 ### Static Properties
 
-#### InputIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #InputIO data-toc-label='InputIO' }
+#### InputIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #InputIO data-toc-label='InputIO' }
 
 (readonly)
 

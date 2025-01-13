@@ -15,11 +15,11 @@ import { ExpandCollapseButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ExpandCollapseButton( expandedProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ExpandCollapseButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ExpandCollapseButton( expandedProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ExpandCollapseButtonOptions](../sun/ExpandCollapseButton.md#ExpandCollapseButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

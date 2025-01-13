@@ -17,30 +17,30 @@ import { NumberAccumulator } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new NumberAccumulator( providedOptions? : <span style="font-weight: 400; opacity: 80%;">NumberAccumulatorOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberAccumulator( providedOptions? : <span style="font-weight: 400;">[NumberAccumulatorOptions](../scenery-phet/NumberAccumulator.md#NumberAccumulatorOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### handleKeyPressed( keyIdentifier : <span style="font-weight: 400; opacity: 80%;">KeyIDValue</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #handleKeyPressed data-toc-label='handleKeyPressed' }
+#### handleKeyPressed( keyIdentifier : <span style="font-weight: 400;">[KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)</span> ) {: #handleKeyPressed data-toc-label='handleKeyPressed' }
 
 Invoked when a key is pressed and creates proposed set of keys to be passed to the validator
 @param keyIdentifier - identifier for the key pressed
 
-#### clear() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clear data-toc-label='clear' }
+#### clear() {: #clear data-toc-label='clear' }
 
 clear the accumulator
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### stringProperty : <span style="font-weight: 400; opacity: 80%;">ReadOnlyProperty&lt;string&gt;</span> {: #stringProperty data-toc-label='stringProperty' }
+#### stringProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #stringProperty data-toc-label='stringProperty' }
 
 (readonly)
 
 string representation of the keys entered by the user
 
-#### valueProperty : <span style="font-weight: 400; opacity: 80%;">ReadOnlyProperty&lt;number | null&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
+#### valueProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
 
 (readonly)
 

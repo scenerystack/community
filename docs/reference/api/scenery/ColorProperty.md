@@ -16,7 +16,7 @@ import { ColorProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ColorProperty( color : <span style="font-weight: 400; opacity: 80%;">Color</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PropertyOptions&lt;Color&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ColorProperty( color : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

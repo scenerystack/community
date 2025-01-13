@@ -14,33 +14,33 @@ import { RenderPhong } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPhong( alpha : <span style="font-weight: 400; opacity: 80%;">number</span>, ambientColorProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, diffuseColorProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, specularColorProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, positionProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, normalProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, lights : <span style="font-weight: 400; opacity: 80%;">RenderLight[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, ambientColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, diffuseColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, specularColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, positionProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, normalProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, lights : <span style="font-weight: 400;">[RenderLight](../alpenglow/RenderLight.md)[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getName() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getName data-toc-label='getName' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### withChildren( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPhong</span> {: #withChildren data-toc-label='withChildren' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderPhong](../alpenglow/RenderPhong.md)</span> {: #withChildren data-toc-label='withChildren' }
 
-#### equalsTyped( other : <span style="font-weight: 400; opacity: 80%;">this</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsTyped data-toc-label='equalsTyped' }
-
-(protected)
-
-#### getSimplified( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram | null</span> {: #getSimplified data-toc-label='getSimplified' }
+#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
 
 (protected)
 
-#### getPhong( ambientColor : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, diffuseColor : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, specularColor : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, position : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, normal : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, lightDirections : <span style="font-weight: 400; opacity: 80%;">Vector4[]</span>, lightColors : <span style="font-weight: 400; opacity: 80%;">Vector4[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #getPhong data-toc-label='getPhong' }
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
 
-#### evaluate( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #evaluate data-toc-label='evaluate' }
+(protected)
 
-#### writeInstructions( instructions : <span style="font-weight: 400; opacity: 80%;">RenderInstruction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeInstructions data-toc-label='writeInstructions' }
+#### getPhong( ambientColor : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, diffuseColor : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, specularColor : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, position : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, normal : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, lightDirections : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)[]</span>, lightColors : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)[]</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #getPhong data-toc-label='getPhong' }
 
-#### serialize() : <span style="font-weight: 400; opacity: 80%;">SerializedRenderPhong</span> {: #serialize data-toc-label='serialize' }
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderPhong](../alpenglow/RenderPhong.md#SerializedRenderPhong)</span> {: #serialize data-toc-label='serialize' }
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400; opacity: 80%;">SerializedRenderPhong</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPhong</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderPhong](../alpenglow/RenderPhong.md#SerializedRenderPhong)</span> ) : <span style="font-weight: 400;">[RenderPhong](../alpenglow/RenderPhong.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 
 
@@ -52,23 +52,23 @@ import { RenderInstructionPhong } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionPhong( alpha : <span style="font-weight: 400; opacity: 80%;">number</span>, numLights : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #RenderInstructionPhong-constructor data-toc-label='RenderInstructionPhong-constructor' }
+#### new RenderInstructionPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numLights : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-constructor data-toc-label='RenderInstructionPhong-constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #RenderInstructionPhong-toString data-toc-label='RenderInstructionPhong-toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionPhong-toString data-toc-label='RenderInstructionPhong-toString' }
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderInstruction</span>, areLocationsEqual : <span style="font-weight: 400; opacity: 80%;">( a: RenderInstructionLocation, b: RenderInstructionLocation ) =&gt; boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #RenderInstructionPhong-equals data-toc-label='RenderInstructionPhong-equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionPhong-equals data-toc-label='RenderInstructionPhong-equals' }
 
-#### execute( stack : <span style="font-weight: 400; opacity: 80%;">RenderExecutionStack</span>, context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span>, executor : <span style="font-weight: 400; opacity: 80%;">RenderExecutor</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionPhong-execute data-toc-label='RenderInstructionPhong-execute' }
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionPhong-execute data-toc-label='RenderInstructionPhong-execute' }
 
-#### writeBinary( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span>, getOffset : <span style="font-weight: 400; opacity: 80%;">( location: RenderInstructionLocation ) =&gt; number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionPhong-writeBinary data-toc-label='RenderInstructionPhong-writeBinary' }
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-writeBinary data-toc-label='RenderInstructionPhong-writeBinary' }
 
-#### getBinaryLength() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #RenderInstructionPhong-getBinaryLength data-toc-label='RenderInstructionPhong-getBinaryLength' }
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionPhong-getBinaryLength data-toc-label='RenderInstructionPhong-getBinaryLength' }
 
 ### Static Methods
 
-#### fromBinary( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span>, offset : <span style="font-weight: 400; opacity: 80%;">number</span>, getLocation : <span style="font-weight: 400; opacity: 80%;">( offset: number ) =&gt; RenderInstructionLocation</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderInstructionPhong</span> {: #RenderInstructionPhong-fromBinary data-toc-label='RenderInstructionPhong-fromBinary' }
+#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionPhong](../alpenglow/RenderPhong.md#RenderInstructionPhong)</span> {: #RenderInstructionPhong-fromBinary data-toc-label='RenderInstructionPhong-fromBinary' }
 
 
 

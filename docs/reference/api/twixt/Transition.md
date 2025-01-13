@@ -14,7 +14,7 @@ import { Transition } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new Transition( fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, config : <span style="font-weight: 400; opacity: 80%;">TransitionOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Transition( fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, config : <span style="font-weight: 400;">[TransitionOptions](../twixt/Transition.md#TransitionOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,7 +22,7 @@ import { Transition } from 'scenerystack/twixt';
 
 ### Static Methods
 
-#### slideLeft( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">SlideTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #slideLeft data-toc-label='slideLeft' }
+#### slideLeft( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[SlideTransitionOptions](../twixt/Transition.md#SlideTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #slideLeft data-toc-label='slideLeft' }
 
 Creates an animation that slides the `fromNode` out to the left (and the `toNode` in from the right).
 
@@ -31,7 +31,7 @@ Creates an animation that slides the `fromNode` out to the left (and the `toNode
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### slideRight( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">SlideTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #slideRight data-toc-label='slideRight' }
+#### slideRight( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[SlideTransitionOptions](../twixt/Transition.md#SlideTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #slideRight data-toc-label='slideRight' }
 
 Creates an animation that slides the `fromNode` out to the right (and the `toNode` in from the left).
 
@@ -40,7 +40,7 @@ Creates an animation that slides the `fromNode` out to the right (and the `toNod
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### slideUp( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">SlideTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #slideUp data-toc-label='slideUp' }
+#### slideUp( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[SlideTransitionOptions](../twixt/Transition.md#SlideTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #slideUp data-toc-label='slideUp' }
 
 Creates an animation that slides the `fromNode` out to the top (and the `toNode` in from the bottom).
 
@@ -49,7 +49,7 @@ Creates an animation that slides the `fromNode` out to the top (and the `toNode`
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### slideDown( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">SlideTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #slideDown data-toc-label='slideDown' }
+#### slideDown( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[SlideTransitionOptions](../twixt/Transition.md#SlideTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #slideDown data-toc-label='slideDown' }
 
 Creates an animation that slides the `fromNode` out to the bottom (and the `toNode` in from the top).
 
@@ -58,7 +58,7 @@ Creates an animation that slides the `fromNode` out to the bottom (and the `toNo
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### wipeLeft( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">WipeTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #wipeLeft data-toc-label='wipeLeft' }
+#### wipeLeft( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[WipeTransitionOptions](../twixt/Transition.md#WipeTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #wipeLeft data-toc-label='wipeLeft' }
 
 Creates a transition that wipes across the screen, moving to the left.
 
@@ -67,7 +67,7 @@ Creates a transition that wipes across the screen, moving to the left.
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### wipeRight( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">WipeTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #wipeRight data-toc-label='wipeRight' }
+#### wipeRight( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[WipeTransitionOptions](../twixt/Transition.md#WipeTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #wipeRight data-toc-label='wipeRight' }
 
 Creates a transition that wipes across the screen, moving to the right.
 
@@ -76,7 +76,7 @@ Creates a transition that wipes across the screen, moving to the right.
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### wipeUp( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">WipeTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #wipeUp data-toc-label='wipeUp' }
+#### wipeUp( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[WipeTransitionOptions](../twixt/Transition.md#WipeTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #wipeUp data-toc-label='wipeUp' }
 
 Creates a transition that wipes across the screen, moving up.
 
@@ -85,7 +85,7 @@ Creates a transition that wipes across the screen, moving up.
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### wipeDown( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">WipeTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #wipeDown data-toc-label='wipeDown' }
+#### wipeDown( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[WipeTransitionOptions](../twixt/Transition.md#WipeTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #wipeDown data-toc-label='wipeDown' }
 
 Creates a transition that wipes across the screen, moving down.
 
@@ -94,7 +94,7 @@ Creates a transition that wipes across the screen, moving down.
 @param toNode
 @param [options] - Usually specify duration, easing, or other Animation options.
 
-#### dissolve( fromNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, toNode : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">DissolveTransitionOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Transition</span> {: #dissolve data-toc-label='dissolve' }
+#### dissolve( fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[DissolveTransitionOptions](../twixt/Transition.md#DissolveTransitionOptions)</span> ) : <span style="font-weight: 400;">[Transition](../twixt/Transition.md)</span> {: #dissolve data-toc-label='dissolve' }
 
 Creates a transition that fades from `fromNode` to `toNode` by varying the opacity of both.
 

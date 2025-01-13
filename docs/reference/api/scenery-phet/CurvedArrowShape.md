@@ -15,7 +15,7 @@ import { CurvedArrowShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new CurvedArrowShape( radius : <span style="font-weight: 400; opacity: 80%;">number</span>, startAngle : <span style="font-weight: 400; opacity: 80%;">number</span>, endAngle : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CurvedArrowShapeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new CurvedArrowShape( radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, startAngle : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, endAngle : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[CurvedArrowShapeOptions](../scenery-phet/CurvedArrowShape.md#CurvedArrowShapeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

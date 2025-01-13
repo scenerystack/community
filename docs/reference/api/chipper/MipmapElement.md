@@ -17,7 +17,7 @@ import { MipmapElement } from 'scenerystack/chipper';
 ```
 ### Constructor
 
-#### new MipmapElement( width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, url : <span style="font-weight: 400; opacity: 80%;">string</span>, lock ) {: #constructor data-toc-label='constructor' }
+#### new MipmapElement( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, url : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, lock ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -25,23 +25,23 @@ import { MipmapElement } from 'scenerystack/chipper';
 
 ### Instance Properties
 
-#### width : <span style="font-weight: 400; opacity: 80%;">number</span> {: #width data-toc-label='width' }
+#### width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #width data-toc-label='width' }
 
 (readonly)
 
-#### height : <span style="font-weight: 400; opacity: 80%;">number</span> {: #height data-toc-label='height' }
+#### height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #height data-toc-label='height' }
 
 (readonly)
 
-#### url : <span style="font-weight: 400; opacity: 80%;">string</span> {: #url data-toc-label='url' }
+#### url : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #url data-toc-label='url' }
 
 (readonly)
 
-#### img : <span style="font-weight: 400; opacity: 80%;">HTMLImageElement</span> {: #img data-toc-label='img' }
+#### img : <span style="font-weight: 400;">HTMLImageElement</span> {: #img data-toc-label='img' }
 
 (readonly)
 
-#### canvas : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement</span> {: #canvas data-toc-label='canvas' }
+#### canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span> {: #canvas data-toc-label='canvas' }
 
 (readonly)
 

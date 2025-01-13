@@ -17,7 +17,7 @@ import { ParallelKernel } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelKernel( execute : <span style="font-weight: 400; opacity: 80%;">( context: ParallelContext&lt;WorkgroupValues&gt; ) =&gt; Promise&lt;void&gt;</span>, createWorkgroupValues : <span style="font-weight: 400; opacity: 80%;">() =&gt; WorkgroupValues</span>, storageArrays : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;unknown&gt;[]</span>, workgroupX, workgroupY, workgroupZ ) {: #constructor data-toc-label='constructor' }
+#### new ParallelKernel( execute : <span style="font-weight: 400;">( context: [ParallelContext](../alpenglow/ParallelContext.md)&lt;WorkgroupValues&gt; ) =&gt; Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span>, createWorkgroupValues : <span style="font-weight: 400;">() =&gt; WorkgroupValues</span>, storageArrays : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;[]</span>, workgroupX, workgroupY, workgroupZ ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

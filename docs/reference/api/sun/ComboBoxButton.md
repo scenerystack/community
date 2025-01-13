@@ -15,21 +15,21 @@ import { ComboBoxButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ComboBoxButton( property : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, items : <span style="font-weight: 400; opacity: 80%;">ComboBoxItemNoNode&lt;T&gt;[]</span>, nodes : <span style="font-weight: 400; opacity: 80%;">Node[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ComboBoxButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComboBoxButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItemNoNode](../sun/ComboBox.md#ComboBoxItemNoNode)&lt;T&gt;[]</span>, nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxButtonOptions](../sun/ComboBoxButton.md#ComboBoxButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setDisplayOnly( displayOnly : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setDisplayOnly data-toc-label='setDisplayOnly' }
+#### setDisplayOnly( displayOnly : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setDisplayOnly data-toc-label='setDisplayOnly' }
 
 Sets the button to look like a value display instead of a combo box button.
 See https://github.com/phetsims/sun/issues/451
 
-#### blockNextVoicingFocusListener() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #blockNextVoicingFocusListener data-toc-label='blockNextVoicingFocusListener' }
+#### blockNextVoicingFocusListener() {: #blockNextVoicingFocusListener data-toc-label='blockNextVoicingFocusListener' }
 
 Call to block voicing from occurring upon this button's next focus event.
 For use by ComboBox.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

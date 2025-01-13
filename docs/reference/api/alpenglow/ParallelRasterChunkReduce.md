@@ -19,7 +19,7 @@ import { ParallelRasterChunkReduce } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### dispatch( workgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, inputChunkReduces : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterChunkReduceQuad&gt;</span>, numReduces : <span style="font-weight: 400; opacity: 80%;">number</span>, clippedChunks : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterClippedChunk&gt;</span>, outputChunkReduces : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterChunkReduceQuad&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #dispatch data-toc-label='dispatch' }
+#### dispatch( workgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, inputChunkReduces : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)&gt;</span>, numReduces : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, clippedChunks : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)&gt;</span>, outputChunkReduces : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #dispatch data-toc-label='dispatch' }
 
 
 

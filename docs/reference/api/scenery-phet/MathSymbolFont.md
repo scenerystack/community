@@ -15,7 +15,7 @@ import { MathSymbolFont } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new MathSymbolFont( providedOptions? : <span style="font-weight: 400; opacity: 80%;">number | string | MathSymbolFontOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MathSymbolFont( providedOptions? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [MathSymbolFontOptions](../scenery-phet/MathSymbolFont.md#MathSymbolFontOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -23,13 +23,13 @@ import { MathSymbolFont } from 'scenerystack/scenery-phet';
 
 ### Static Methods
 
-#### getRichTextMarkup( text : <span style="font-weight: 400; opacity: 80%;">string</span>, style ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getRichTextMarkup data-toc-label='getRichTextMarkup' }
+#### getRichTextMarkup( text : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, style ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getRichTextMarkup data-toc-label='getRichTextMarkup' }
 
 Converts a string to the markup needed to display that string with RichText, using the same family as MathSymbolFont.
 @param text
 @param [style] - see Font options.style
 
-#### createDerivedProperty( symbolStringProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;string&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CreateDerivedPropertyOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;string&gt;</span> {: #createDerivedProperty data-toc-label='createDerivedProperty' }
+#### createDerivedProperty( symbolStringProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">CreateDerivedPropertyOptions</span> ) : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #createDerivedProperty data-toc-label='createDerivedProperty' }
 
 Wraps a dynamic string in RichText markup that will display the string in the same font as MathSymbolFont.
 

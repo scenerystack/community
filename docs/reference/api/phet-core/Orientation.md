@@ -15,7 +15,7 @@ import { Orientation } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Orientation( coordinate : <span style="font-weight: 400; opacity: 80%;">'x' | 'y'</span>, centerCoordinate : <span style="font-weight: 400; opacity: 80%;">'centerX' | 'centerY'</span>, minCoordinate : <span style="font-weight: 400; opacity: 80%;">'minX' | 'minY'</span>, maxCoordinate : <span style="font-weight: 400; opacity: 80%;">'maxX' | 'maxY'</span>, minSide : <span style="font-weight: 400; opacity: 80%;">'left' | 'top'</span>, maxSide : <span style="font-weight: 400; opacity: 80%;">'right' | 'bottom'</span>, minSize : <span style="font-weight: 400; opacity: 80%;">'minWidth' | 'minHeight'</span>, maxSize : <span style="font-weight: 400; opacity: 80%;">'maxWidth' | 'maxHeight'</span>, rectCoordinate : <span style="font-weight: 400; opacity: 80%;">'rectX' | 'rectY'</span>, rectSize : <span style="font-weight: 400; opacity: 80%;">'rectWidth' | 'rectHeight'</span>, flowBoxOrientation : <span style="font-weight: 400; opacity: 80%;">'horizontal' | 'vertical'</span>, size : <span style="font-weight: 400; opacity: 80%;">'width' | 'height'</span>, line : <span style="font-weight: 400; opacity: 80%;">'column' | 'row'</span>, preferredSize : <span style="font-weight: 400; opacity: 80%;">'preferredWidth' | 'preferredHeight'</span>, localPreferredSize : <span style="font-weight: 400; opacity: 80%;">'localPreferredWidth' | 'localPreferredHeight'</span>, sizable : <span style="font-weight: 400; opacity: 80%;">'widthSizable' | 'heightSizable'</span>, modelToView : <span style="font-weight: 400; opacity: 80%;">( m: MVT, n: number ) =&gt; number</span>, viewToModel : <span style="font-weight: 400; opacity: 80%;">( m: MVT, n: number ) =&gt; number</span>, toVector : <span style="font-weight: 400; opacity: 80%;">&lt;T&gt;( n: number, m: number, VectorType: new ( x: number, y: number, ...args: IntentionalAny[] ) =&gt; T ) =&gt; T</span> ) {: #constructor data-toc-label='constructor' }
+#### new Orientation( coordinate : <span style="font-weight: 400;">'x' | 'y'</span>, centerCoordinate : <span style="font-weight: 400;">'centerX' | 'centerY'</span>, minCoordinate : <span style="font-weight: 400;">'minX' | 'minY'</span>, maxCoordinate : <span style="font-weight: 400;">'maxX' | 'maxY'</span>, minSide : <span style="font-weight: 400;">'left' | 'top'</span>, maxSide : <span style="font-weight: 400;">'right' | 'bottom'</span>, minSize : <span style="font-weight: 400;">'minWidth' | 'minHeight'</span>, maxSize : <span style="font-weight: 400;">'maxWidth' | 'maxHeight'</span>, rectCoordinate : <span style="font-weight: 400;">'rectX' | 'rectY'</span>, rectSize : <span style="font-weight: 400;">'rectWidth' | 'rectHeight'</span>, flowBoxOrientation : <span style="font-weight: 400;">'horizontal' | 'vertical'</span>, size : <span style="font-weight: 400;">'width' | 'height'</span>, line : <span style="font-weight: 400;">'column' | 'row'</span>, preferredSize : <span style="font-weight: 400;">'preferredWidth' | 'preferredHeight'</span>, localPreferredSize : <span style="font-weight: 400;">'localPreferredWidth' | 'localPreferredHeight'</span>, sizable : <span style="font-weight: 400;">'widthSizable' | 'heightSizable'</span>, modelToView : <span style="font-weight: 400;">( m: MVT, n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, viewToModel : <span style="font-weight: 400;">( m: MVT, n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, toVector : <span style="font-weight: 400;">&lt;T&gt;( n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, m: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, VectorType: new ( x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, ...args: IntentionalAny[] ) =&gt; T ) =&gt; T</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -23,103 +23,103 @@ import { Orientation } from 'scenerystack/phet-core';
 
 ### Instance Properties
 
-#### coordinate : <span style="font-weight: 400; opacity: 80%;">'x' | 'y'</span> {: #coordinate data-toc-label='coordinate' }
+#### coordinate : <span style="font-weight: 400;">'x' | 'y'</span> {: #coordinate data-toc-label='coordinate' }
 
 (readonly)
 
-#### centerCoordinate : <span style="font-weight: 400; opacity: 80%;">'centerX' | 'centerY'</span> {: #centerCoordinate data-toc-label='centerCoordinate' }
+#### centerCoordinate : <span style="font-weight: 400;">'centerX' | 'centerY'</span> {: #centerCoordinate data-toc-label='centerCoordinate' }
 
 (readonly)
 
-#### minCoordinate : <span style="font-weight: 400; opacity: 80%;">'minX' | 'minY'</span> {: #minCoordinate data-toc-label='minCoordinate' }
+#### minCoordinate : <span style="font-weight: 400;">'minX' | 'minY'</span> {: #minCoordinate data-toc-label='minCoordinate' }
 
 (readonly)
 
-#### maxCoordinate : <span style="font-weight: 400; opacity: 80%;">'maxX' | 'maxY'</span> {: #maxCoordinate data-toc-label='maxCoordinate' }
+#### maxCoordinate : <span style="font-weight: 400;">'maxX' | 'maxY'</span> {: #maxCoordinate data-toc-label='maxCoordinate' }
 
 (readonly)
 
-#### minSide : <span style="font-weight: 400; opacity: 80%;">'left' | 'top'</span> {: #minSide data-toc-label='minSide' }
+#### minSide : <span style="font-weight: 400;">'left' | 'top'</span> {: #minSide data-toc-label='minSide' }
 
 (readonly)
 
-#### maxSide : <span style="font-weight: 400; opacity: 80%;">'right' | 'bottom'</span> {: #maxSide data-toc-label='maxSide' }
+#### maxSide : <span style="font-weight: 400;">'right' | 'bottom'</span> {: #maxSide data-toc-label='maxSide' }
 
 (readonly)
 
-#### minSize : <span style="font-weight: 400; opacity: 80%;">'minWidth' | 'minHeight'</span> {: #minSize data-toc-label='minSize' }
+#### minSize : <span style="font-weight: 400;">'minWidth' | 'minHeight'</span> {: #minSize data-toc-label='minSize' }
 
 (readonly)
 
-#### maxSize : <span style="font-weight: 400; opacity: 80%;">'maxWidth' | 'maxHeight'</span> {: #maxSize data-toc-label='maxSize' }
+#### maxSize : <span style="font-weight: 400;">'maxWidth' | 'maxHeight'</span> {: #maxSize data-toc-label='maxSize' }
 
 (readonly)
 
-#### rectCoordinate : <span style="font-weight: 400; opacity: 80%;">'rectX' | 'rectY'</span> {: #rectCoordinate data-toc-label='rectCoordinate' }
+#### rectCoordinate : <span style="font-weight: 400;">'rectX' | 'rectY'</span> {: #rectCoordinate data-toc-label='rectCoordinate' }
 
 (readonly)
 
-#### rectSize : <span style="font-weight: 400; opacity: 80%;">'rectWidth' | 'rectHeight'</span> {: #rectSize data-toc-label='rectSize' }
+#### rectSize : <span style="font-weight: 400;">'rectWidth' | 'rectHeight'</span> {: #rectSize data-toc-label='rectSize' }
 
 (readonly)
 
-#### flowBoxOrientation : <span style="font-weight: 400; opacity: 80%;">'horizontal' | 'vertical'</span> {: #flowBoxOrientation data-toc-label='flowBoxOrientation' }
+#### flowBoxOrientation : <span style="font-weight: 400;">'horizontal' | 'vertical'</span> {: #flowBoxOrientation data-toc-label='flowBoxOrientation' }
 
 (readonly)
 
-#### size : <span style="font-weight: 400; opacity: 80%;">'width' | 'height'</span> {: #size data-toc-label='size' }
+#### size : <span style="font-weight: 400;">'width' | 'height'</span> {: #size data-toc-label='size' }
 
 (readonly)
 
-#### line : <span style="font-weight: 400; opacity: 80%;">'column' | 'row'</span> {: #line data-toc-label='line' }
+#### line : <span style="font-weight: 400;">'column' | 'row'</span> {: #line data-toc-label='line' }
 
 (readonly)
 
-#### preferredSize : <span style="font-weight: 400; opacity: 80%;">'preferredWidth' | 'preferredHeight'</span> {: #preferredSize data-toc-label='preferredSize' }
+#### preferredSize : <span style="font-weight: 400;">'preferredWidth' | 'preferredHeight'</span> {: #preferredSize data-toc-label='preferredSize' }
 
 (readonly)
 
-#### localPreferredSize : <span style="font-weight: 400; opacity: 80%;">'localPreferredWidth' | 'localPreferredHeight'</span> {: #localPreferredSize data-toc-label='localPreferredSize' }
+#### localPreferredSize : <span style="font-weight: 400;">'localPreferredWidth' | 'localPreferredHeight'</span> {: #localPreferredSize data-toc-label='localPreferredSize' }
 
 (readonly)
 
-#### sizable : <span style="font-weight: 400; opacity: 80%;">'widthSizable' | 'heightSizable'</span> {: #sizable data-toc-label='sizable' }
+#### sizable : <span style="font-weight: 400;">'widthSizable' | 'heightSizable'</span> {: #sizable data-toc-label='sizable' }
 
 (readonly)
 
-#### ariaOrientation : <span style="font-weight: 400; opacity: 80%;">'horizontal' | 'vertical'</span> {: #ariaOrientation data-toc-label='ariaOrientation' }
+#### ariaOrientation : <span style="font-weight: 400;">'horizontal' | 'vertical'</span> {: #ariaOrientation data-toc-label='ariaOrientation' }
 
 (readonly)
 
-#### modelToView : <span style="font-weight: 400; opacity: 80%;">( m: MVT, n: number ) =&gt; number</span> {: #modelToView data-toc-label='modelToView' }
+#### modelToView : <span style="font-weight: 400;">( m: MVT, n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #modelToView data-toc-label='modelToView' }
 
 Returns the single coordinate transformed by the appropriate dimension.
 
-#### viewToModel : <span style="font-weight: 400; opacity: 80%;">( m: MVT, n: number ) =&gt; number</span> {: #viewToModel data-toc-label='viewToModel' }
+#### viewToModel : <span style="font-weight: 400;">( m: MVT, n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #viewToModel data-toc-label='viewToModel' }
 
-#### toVector : <span style="font-weight: 400; opacity: 80%;">&lt;T&gt;( n: number, m: number, VectorType: Constructor&lt;T&gt; ) =&gt; T</span> {: #toVector data-toc-label='toVector' }
+#### toVector : <span style="font-weight: 400;">&lt;T&gt;( n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, m: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, VectorType: Constructor&lt;T&gt; ) =&gt; T</span> {: #toVector data-toc-label='toVector' }
 
 Creates a vector (primary,secondary) for horizontal orientations, and (secondary,primary) for vertical orientations.
 
-#### opposite : <span style="font-weight: 400; opacity: 80%;">Orientation</span> {: #opposite data-toc-label='opposite' }
+#### opposite : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> {: #opposite data-toc-label='opposite' }
 
 @ts-expect-error - Assigned after instantiation, see below
 
 ### Static Methods
 
-#### fromLayoutOrientation( layoutOrientation : <span style="font-weight: 400; opacity: 80%;">'horizontal' | 'vertical'</span> ) : <span style="font-weight: 400; opacity: 80%;">Orientation</span> {: #fromLayoutOrientation data-toc-label='fromLayoutOrientation' }
+#### fromLayoutOrientation( layoutOrientation : <span style="font-weight: 400;">'horizontal' | 'vertical'</span> ) : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> {: #fromLayoutOrientation data-toc-label='fromLayoutOrientation' }
 
 ### Static Properties
 
-#### HORIZONTAL : <span style="font-weight: 400; opacity: 80%;">Orientation</span> {: #HORIZONTAL data-toc-label='HORIZONTAL' }
+#### HORIZONTAL : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> {: #HORIZONTAL data-toc-label='HORIZONTAL' }
 
 (readonly)
 
-#### VERTICAL : <span style="font-weight: 400; opacity: 80%;">Orientation</span> {: #VERTICAL data-toc-label='VERTICAL' }
+#### VERTICAL : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> {: #VERTICAL data-toc-label='VERTICAL' }
 
 (readonly)
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #enumeration data-toc-label='enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #enumeration data-toc-label='enumeration' }
 
 (readonly)
 

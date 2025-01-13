@@ -14,17 +14,17 @@ import { RenderLinearRange } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearRange( start : <span style="font-weight: 400; opacity: 80%;">number</span>, end : <span style="font-weight: 400; opacity: 80%;">number</span>, startProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, endProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearRange( start : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, startProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, endProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getUnitReversed() : <span style="font-weight: 400; opacity: 80%;">RenderLinearRange</span> {: #getUnitReversed data-toc-label='getUnitReversed' }
+#### getUnitReversed() : <span style="font-weight: 400;">[RenderLinearRange](../alpenglow/RenderLinearRange.md)</span> {: #getUnitReversed data-toc-label='getUnitReversed' }
 
-#### withOffset( offset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderLinearRange</span> {: #withOffset data-toc-label='withOffset' }
+#### withOffset( offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RenderLinearRange](../alpenglow/RenderLinearRange.md)</span> {: #withOffset data-toc-label='withOffset' }
 
 ### Static Methods
 
-#### getGradientLinearRanges( min : <span style="font-weight: 400; opacity: 80%;">number</span>, max : <span style="font-weight: 400; opacity: 80%;">number</span>, offset : <span style="font-weight: 400; opacity: 80%;">number</span>, extend : <span style="font-weight: 400; opacity: 80%;">RenderExtend</span>, stops : <span style="font-weight: 400; opacity: 80%;">RenderGradientStop[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderLinearRange[]</span> {: #getGradientLinearRanges data-toc-label='getGradientLinearRanges' }
+#### getGradientLinearRanges( min : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, max : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span> ) : <span style="font-weight: 400;">[RenderLinearRange](../alpenglow/RenderLinearRange.md)[]</span> {: #getGradientLinearRanges data-toc-label='getGradientLinearRanges' }
 
 
 

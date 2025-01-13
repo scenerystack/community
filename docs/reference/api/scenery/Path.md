@@ -14,13 +14,13 @@ import { Path } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Path( shape : <span style="font-weight: 400; opacity: 80%;">InputShape | TReadOnlyProperty&lt;InputShape&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PathOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Path( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PathOptions](../scenery/Path.md#PathOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setShape( shape : <span style="font-weight: 400; opacity: 80%;">InputShape</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setShape data-toc-label='setShape' }
+#### setShape( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setShape data-toc-label='setShape' }
 
-#### getShape() : <span style="font-weight: 400; opacity: 80%;">ParsedShape</span> {: #getShape data-toc-label='getShape' }
+#### getShape() : <span style="font-weight: 400;">ParsedShape</span> {: #getShape data-toc-label='getShape' }
 
 Returns the shape that was set for this Path (or for subtypes like Line and Rectangle, will return an immutable
 Shape that is equivalent in appearance).
@@ -28,16 +28,16 @@ Shape that is equivalent in appearance).
 It is best to generally assume modifications to the Shape returned is not supported. If there is no shape
 currently, null will be returned.
 
-#### setShapeProperty( newTarget : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;InputShape&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setShapeProperty data-toc-label='setShapeProperty' }
+#### setShapeProperty( newTarget : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setShapeProperty data-toc-label='setShapeProperty' }
 
 See documentation for Node.setVisibleProperty, except this is for the shape
 
-#### getShapeProperty() : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;InputShape&gt;</span> {: #getShapeProperty data-toc-label='getShapeProperty' }
+#### getShapeProperty() : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span> {: #getShapeProperty data-toc-label='getShapeProperty' }
 
 Like Node.getVisibleProperty(), but for the shape. Note this is not the same as the Property provided in
 setShapeProperty. Thus is the nature of TinyForwardingProperty.
 
-#### getStrokedShape() : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #getStrokedShape data-toc-label='getStrokedShape' }
+#### getStrokedShape() : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #getStrokedShape data-toc-label='getStrokedShape' }
 
 Returns a lazily-created Shape that has the appearance of the Path's shape but stroked using the current
 stroke style of the Path.
@@ -45,7 +45,7 @@ stroke style of the Path.
 NOTE: It is invalid to call this on a Path that does not currently have a Shape (usually a Path where
       the shape is set to null).
 
-#### getPathRendererBitmask() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getPathRendererBitmask data-toc-label='getPathRendererBitmask' }
+#### getPathRendererBitmask() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getPathRendererBitmask data-toc-label='getPathRendererBitmask' }
 
 (protected)
 
@@ -56,13 +56,13 @@ supported.
 
 @returns - A bitmask that includes supported renderers, see Renderer for details.
 
-#### invalidateSupportedRenderers() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #invalidateSupportedRenderers data-toc-label='invalidateSupportedRenderers' }
+#### invalidateSupportedRenderers() {: #invalidateSupportedRenderers data-toc-label='invalidateSupportedRenderers' }
 
 Triggers a check and update for what renderers the current configuration of this Path or subtype supports.
 This should be called whenever something that could potentially change supported renderers happen (which can
 be the shape, properties of the strokes or fills, etc.)
 
-#### invalidatePath() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #invalidatePath data-toc-label='invalidatePath' }
+#### invalidatePath() {: #invalidatePath data-toc-label='invalidatePath' }
 
 (protected)
 
@@ -70,7 +70,7 @@ Invalidates the node's self-bounds and any other recorded metadata about the out
 
 This is meant to be used for all Path subtypes (unlike invalidateShape).
 
-#### updateSelfBounds() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #updateSelfBounds data-toc-label='updateSelfBounds' }
+#### updateSelfBounds() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #updateSelfBounds data-toc-label='updateSelfBounds' }
 
 (protected)
 
@@ -78,38 +78,38 @@ Computes a more efficient selfBounds for our Path.
 
 @returns - Whether the self bounds changed.
 
-#### setBoundsMethod( boundsMethod : <span style="font-weight: 400; opacity: 80%;">PathBoundsMethod</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setBoundsMethod data-toc-label='setBoundsMethod' }
+#### setBoundsMethod( boundsMethod : <span style="font-weight: 400;">[PathBoundsMethod](../scenery/Path.md#PathBoundsMethod)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setBoundsMethod data-toc-label='setBoundsMethod' }
 
-#### getBoundsMethod() : <span style="font-weight: 400; opacity: 80%;">PathBoundsMethod</span> {: #getBoundsMethod data-toc-label='getBoundsMethod' }
+#### getBoundsMethod() : <span style="font-weight: 400;">[PathBoundsMethod](../scenery/Path.md#PathBoundsMethod)</span> {: #getBoundsMethod data-toc-label='getBoundsMethod' }
 
 Returns the current bounds method. See setBoundsMethod for details.
 
-#### computeShapeBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #computeShapeBounds data-toc-label='computeShapeBounds' }
+#### computeShapeBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #computeShapeBounds data-toc-label='computeShapeBounds' }
 
 Computes the bounds of the Path (or subtype when overridden). Meant to be overridden in subtypes for more
 efficient bounds computations (but this will work as a fallback). Includes the stroked region if there is a
 stroke applied to the Path.
 
-#### areSelfBoundsValid() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #areSelfBoundsValid data-toc-label='areSelfBoundsValid' }
+#### areSelfBoundsValid() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #areSelfBoundsValid data-toc-label='areSelfBoundsValid' }
 
 Whether this Node's selfBounds are considered to be valid (always containing the displayed self content
 of this node). Meant to be overridden in subtypes when this can change (e.g. Text).
 
 If this value would potentially change, please trigger the event 'selfBoundsValid'.
 
-#### getTransformedSelfBounds( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #getTransformedSelfBounds data-toc-label='getTransformedSelfBounds' }
+#### getTransformedSelfBounds( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #getTransformedSelfBounds data-toc-label='getTransformedSelfBounds' }
 
 Returns our self bounds when our rendered self is transformed by the matrix.
 
-#### getTransformedSafeSelfBounds( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #getTransformedSafeSelfBounds data-toc-label='getTransformedSafeSelfBounds' }
+#### getTransformedSafeSelfBounds( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #getTransformedSafeSelfBounds data-toc-label='getTransformedSafeSelfBounds' }
 
 Returns our safe self bounds when our rendered self is transformed by the matrix.
 
-#### hasShape() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasShape data-toc-label='hasShape' }
+#### hasShape() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasShape data-toc-label='hasShape' }
 
 Returns whether this Path has an associated Shape (instead of no shape, represented by null)
 
-#### canvasPaintSelf( wrapper : <span style="font-weight: 400; opacity: 80%;">CanvasContextWrapper</span>, matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #canvasPaintSelf data-toc-label='canvasPaintSelf' }
+#### canvasPaintSelf( wrapper : <span style="font-weight: 400;">[CanvasContextWrapper](../scenery/CanvasContextWrapper.md)</span>, matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) {: #canvasPaintSelf data-toc-label='canvasPaintSelf' }
 
 (protected)
 
@@ -119,31 +119,31 @@ coordinate frame of this node.
 @param wrapper
 @param matrix - The transformation matrix already applied to the context.
 
-#### isPainted() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isPainted data-toc-label='isPainted' }
+#### isPainted() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isPainted data-toc-label='isPainted' }
 
 Whether this Node itself is painted (displays something itself).
 
-#### containsPointSelf( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #containsPointSelf data-toc-label='containsPointSelf' }
+#### containsPointSelf( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsPointSelf data-toc-label='containsPointSelf' }
 
 Computes whether the provided point is "inside" (contained) in this Path's self content, or "outside".
 
 @param point - Considered to be in the local coordinate frame
 
-#### getSelfShape() : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #getSelfShape data-toc-label='getSelfShape' }
+#### getSelfShape() : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #getSelfShape data-toc-label='getSelfShape' }
 
 Returns a Shape that represents the area covered by containsPointSelf.
 
-#### intersectsBoundsSelf( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #intersectsBoundsSelf data-toc-label='intersectsBoundsSelf' }
+#### intersectsBoundsSelf( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #intersectsBoundsSelf data-toc-label='intersectsBoundsSelf' }
 
 Returns whether this Path's selfBounds is intersected by the specified bounds.
 
 @param bounds - Bounds to test, assumed to be in the local coordinate frame.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes the path, releasing shape listeners if needed (and preventing new listeners from being added).
 
-#### mutate( options? : <span style="font-weight: 400; opacity: 80%;">PathOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #mutate data-toc-label='mutate' }
+#### mutate( options? : <span style="font-weight: 400;">[PathOptions](../scenery/Path.md#PathOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #mutate data-toc-label='mutate' }
 
 ### Static Properties
 

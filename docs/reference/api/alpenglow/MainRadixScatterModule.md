@@ -16,7 +16,7 @@ import { MainRadixScatterModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainRadixScatterModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">MainRadixScatterModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainRadixScatterModule( providedOptions : <span style="font-weight: 400;">[MainRadixScatterModuleOptions](../alpenglow/MainRadixScatterModule.md#MainRadixScatterModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,11 +24,11 @@ import { MainRadixScatterModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### input : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #input data-toc-label='input' }
+#### input : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #input data-toc-label='input' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 

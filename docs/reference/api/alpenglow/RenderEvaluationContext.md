@@ -14,25 +14,25 @@ import { RenderEvaluationContext } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### set( face : <span style="font-weight: 400; opacity: 80%;">ClippableFace | null</span>, area : <span style="font-weight: 400; opacity: 80%;">number</span>, centroid : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span>, maxX : <span style="font-weight: 400; opacity: 80%;">number</span>, maxY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #set data-toc-label='set' }
+#### set( face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, area : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, centroid : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #set data-toc-label='set' }
 
-#### getFace() : <span style="font-weight: 400; opacity: 80%;">ClippableFace</span> {: #getFace data-toc-label='getFace' }
+#### getFace() : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span> {: #getFace data-toc-label='getFace' }
 
-#### getBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #getBounds data-toc-label='getBounds' }
+#### getBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #getBounds data-toc-label='getBounds' }
 
-#### getCenterX() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCenterX data-toc-label='getCenterX' }
+#### getCenterX() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCenterX data-toc-label='getCenterX' }
 
-#### getCenterY() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCenterY data-toc-label='getCenterY' }
+#### getCenterY() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCenterY data-toc-label='getCenterY' }
 
-#### hasArea() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasArea data-toc-label='hasArea' }
+#### hasArea() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasArea data-toc-label='hasArea' }
 
-#### hasCentroid() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasCentroid data-toc-label='hasCentroid' }
+#### hasCentroid() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasCentroid data-toc-label='hasCentroid' }
 
-#### writeBoundsCentroid( centroid : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #writeBoundsCentroid data-toc-label='writeBoundsCentroid' }
+#### writeBoundsCentroid( centroid : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #writeBoundsCentroid data-toc-label='writeBoundsCentroid' }
 
 ### Instance Properties
 
-#### face : <span style="font-weight: 400; opacity: 80%;">ClippableFace | null</span> {: #face data-toc-label='face' }
+#### face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #face data-toc-label='face' }
 
 if null AND we have a need set for a face, it is fully covered
 
@@ -40,7 +40,7 @@ if null AND we have a need set for a face, it is fully covered
 
 TODO: documentation!
 
-#### centroid : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #centroid data-toc-label='centroid' }
+#### centroid : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #centroid data-toc-label='centroid' }
 
 #### minX {: #minX data-toc-label='minX' }
 

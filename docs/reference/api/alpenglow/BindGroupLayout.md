@@ -14,21 +14,21 @@ import { BindGroupLayout } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BindGroupLayout( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, groupIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, bindingDescriptors : <span style="font-weight: 400; opacity: 80%;">BindingDescriptor[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new BindGroupLayout( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, groupIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bindingDescriptors : <span style="font-weight: 400;">[BindingDescriptor](../alpenglow/BindingDescriptor.md)[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### hasBindingWithSlot( slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasBindingWithSlot data-toc-label='hasBindingWithSlot' }
+#### hasBindingWithSlot( slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasBindingWithSlot data-toc-label='hasBindingWithSlot' }
 
-#### getBindingFromSlot( slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) : <span style="font-weight: 400; opacity: 80%;">Binding | null</span> {: #getBindingFromSlot data-toc-label='getBindingFromSlot' }
+#### getBindingFromSlot( slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) : <span style="font-weight: 400;">[Binding](../alpenglow/Binding.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getBindingFromSlot data-toc-label='getBindingFromSlot' }
 
 ### Instance Properties
 
-#### layout : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupLayout</span> {: #layout data-toc-label='layout' }
+#### layout : <span style="font-weight: 400;">GPUBindGroupLayout</span> {: #layout data-toc-label='layout' }
 
 (readonly)
 
-#### bindings : <span style="font-weight: 400; opacity: 80%;">Binding[]</span> {: #bindings data-toc-label='bindings' }
+#### bindings : <span style="font-weight: 400;">[Binding](../alpenglow/Binding.md)[]</span> {: #bindings data-toc-label='bindings' }
 
 (readonly)
 

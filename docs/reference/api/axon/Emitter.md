@@ -17,43 +17,43 @@ import { Emitter } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new Emitter( providedOptions? : <span style="font-weight: 400; opacity: 80%;">EmitterOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Emitter( providedOptions? : <span style="font-weight: 400;">[EmitterOptions](../axon/Emitter.md#EmitterOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### emit( ...args : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #emit data-toc-label='emit' }
+#### emit( ...args : <span style="font-weight: 400;">T</span> ) {: #emit data-toc-label='emit' }
 
 Emit to notify listeners
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes an Emitter. All listeners are removed.
 
-#### addListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span>, options? : <span style="font-weight: 400; opacity: 80%;">DisposerOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addListener data-toc-label='addListener' }
+#### addListener( listener : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span>, options? : <span style="font-weight: 400;">DisposerOptions</span> ) {: #addListener data-toc-label='addListener' }
 
 Adds a listener which will be called during emit.
 
-#### removeListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeListener data-toc-label='removeListener' }
+#### removeListener( listener : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span> ) {: #removeListener data-toc-label='removeListener' }
 
 Removes a listener
 
-#### removeAllListeners() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeAllListeners data-toc-label='removeAllListeners' }
+#### removeAllListeners() {: #removeAllListeners data-toc-label='removeAllListeners' }
 
 Removes all the listeners
 
-#### hasListener( listener : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasListener data-toc-label='hasListener' }
+#### hasListener( listener : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasListener data-toc-label='hasListener' }
 
 Checks whether a listener is registered with this Emitter
 
-#### hasListeners() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasListeners data-toc-label='hasListeners' }
+#### hasListeners() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasListeners data-toc-label='hasListeners' }
 
 Returns true if there are any listeners.
 
-#### getListenerCount() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getListenerCount data-toc-label='getListenerCount' }
+#### getListenerCount() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getListenerCount data-toc-label='getListenerCount' }
 
 Returns the number of listeners.
 
-#### debug( name : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">TEmitterListener&lt;T&gt;</span> {: #debug data-toc-label='debug' }
+#### debug( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span> {: #debug data-toc-label='debug' }
 
 Convenience function for debugging a Property's value. It prints the new value on registration and when changed.
 @param name - debug name to be printed on the console

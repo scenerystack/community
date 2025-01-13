@@ -15,23 +15,23 @@ import { RoundPushButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundPushButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">RoundPushButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundPushButton( providedOptions? : <span style="font-weight: 400;">[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### addListener( listener : <span style="font-weight: 400; opacity: 80%;">PushButtonListener</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addListener data-toc-label='addListener' }
+#### addListener( listener : <span style="font-weight: 400;">[PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)</span> ) {: #addListener data-toc-label='addListener' }
 
 Adds a listener that will be notified when the button fires.
 
-#### removeListener( listener : <span style="font-weight: 400; opacity: 80%;">PushButtonListener</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeListener data-toc-label='removeListener' }
+#### removeListener( listener : <span style="font-weight: 400;">[PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)</span> ) {: #removeListener data-toc-label='removeListener' }
 
 Removes a listener.
 
 ### Instance Properties
 
-#### pushButtonModel : <span style="font-weight: 400; opacity: 80%;">PushButtonModel</span> {: #pushButtonModel data-toc-label='pushButtonModel' }
+#### pushButtonModel : <span style="font-weight: 400;">[PushButtonModel](../sun/PushButtonModel.md)</span> {: #pushButtonModel data-toc-label='pushButtonModel' }
 
 (protected, readonly)
 

@@ -14,25 +14,25 @@ import { Routine } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### execute( context : <span style="font-weight: 400; opacity: 80%;">ExecutionContext</span>, data : <span style="font-weight: 400; opacity: 80%;">In</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Out&gt;</span> {: #execute data-toc-label='execute' }
+#### execute( context : <span style="font-weight: 400;">[ExecutionContext](../alpenglow/ExecutionContext.md)</span>, data : <span style="font-weight: 400;">In</span> ) : <span style="font-weight: 400;">Promise&lt;Out&gt;</span> {: #execute data-toc-label='execute' }
 
 ### Instance Properties
 
-#### pipelineBlueprints : <span style="font-weight: 400; opacity: 80%;">PipelineBlueprint[]</span> {: #pipelineBlueprints data-toc-label='pipelineBlueprints' }
+#### pipelineBlueprints : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)[]</span> {: #pipelineBlueprints data-toc-label='pipelineBlueprints' }
 
 (readonly)
 
-#### rootResourceSlots : <span style="font-weight: 400; opacity: 80%;">ResourceSlot[]</span> {: #rootResourceSlots data-toc-label='rootResourceSlots' }
+#### rootResourceSlots : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)[]</span> {: #rootResourceSlots data-toc-label='rootResourceSlots' }
 
 (readonly)
 
-#### bindGroupLayouts : <span style="font-weight: 400; opacity: 80%;">BindGroupLayout[]</span> {: #bindGroupLayouts data-toc-label='bindGroupLayouts' }
+#### bindGroupLayouts : <span style="font-weight: 400;">[BindGroupLayout](../alpenglow/BindGroupLayout.md)[]</span> {: #bindGroupLayouts data-toc-label='bindGroupLayouts' }
 
 (readonly)
 
 ### Static Methods
 
-#### create( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, module : <span style="font-weight: 400; opacity: 80%;">Module&lt;T&gt;</span>, sharedBufferSlots : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;IntentionalAny&gt;[]</span>, layoutStrategy : <span style="font-weight: 400; opacity: 80%;">( deviceContext: DeviceContext, pipelineBlueprints: PipelineBlueprint[] ) =&gt; Map&lt;PipelineBlueprint, PipelineLayout&gt;</span>, executeWrapper : <span style="font-weight: 400; opacity: 80%;">( context: ExecutionContext, execute: ( context: ExecutionContext, value: T ) =&gt; void, value: In ) =&gt; Promise&lt;Out&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Routine&lt;T, In, Out&gt;&gt;</span> {: #create data-toc-label='create' }
+#### create( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, module : <span style="font-weight: 400;">[Module](../alpenglow/Module.md)&lt;T&gt;</span>, sharedBufferSlots : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;IntentionalAny&gt;[]</span>, layoutStrategy : <span style="font-weight: 400;">( deviceContext: [DeviceContext](../alpenglow/DeviceContext.md), pipelineBlueprints: [PipelineBlueprint](../alpenglow/PipelineBlueprint.md)[] ) =&gt; Map&lt;[PipelineBlueprint](../alpenglow/PipelineBlueprint.md), [PipelineLayout](../alpenglow/PipelineLayout.md)&gt;</span>, executeWrapper : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), execute: ( context: [ExecutionContext](../alpenglow/ExecutionContext.md), value: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>, value: In ) =&gt; Promise&lt;Out&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;[Routine](../alpenglow/Routine.md)&lt;T, In, Out&gt;&gt;</span> {: #create data-toc-label='create' }
 
 ### Static Properties
 

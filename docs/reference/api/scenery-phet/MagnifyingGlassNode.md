@@ -13,7 +13,7 @@ import { MagnifyingGlassNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new MagnifyingGlassNode( providedOptions : <span style="font-weight: 400; opacity: 80%;">MagnifyingGlassNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MagnifyingGlassNode( providedOptions : <span style="font-weight: 400;">[MagnifyingGlassNodeOptions](../scenery-phet/MagnifyingGlassNode.md#MagnifyingGlassNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

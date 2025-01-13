@@ -43,19 +43,19 @@ import { PaintColorProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PaintColorProperty( paint : <span style="font-weight: 400; opacity: 80%;">TPaint</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PaintColorPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PaintColorProperty( paint : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span>, providedOptions? : <span style="font-weight: 400;">[PaintColorPropertyOptions](../scenery/PaintColorProperty.md#PaintColorPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setPaint( paint : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setPaint data-toc-label='setPaint' }
+#### setPaint( paint : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setPaint data-toc-label='setPaint' }
 
 Sets the current paint of the PaintColorProperty.
 
-#### getPaint() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getPaint data-toc-label='getPaint' }
+#### getPaint() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getPaint data-toc-label='getPaint' }
 
 Returns the current paint.
 
-#### setLuminanceFactor( luminanceFactor : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setLuminanceFactor data-toc-label='setLuminanceFactor' }
+#### setLuminanceFactor( luminanceFactor : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setLuminanceFactor data-toc-label='setLuminanceFactor' }
 
 Sets the current value used for adjusting the brightness or darkness (luminance) of the color.
 
@@ -74,13 +74,13 @@ For example, if the given paint is blue, the below factors will result in:
 With intermediate values basically "interpolated". This uses the `Color` colorUtilsBrightness method to adjust
 the paint.
 
-#### getLuminanceFactor() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getLuminanceFactor data-toc-label='getLuminanceFactor' }
+#### getLuminanceFactor() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLuminanceFactor data-toc-label='getLuminanceFactor' }
 
 Returns the current value used for adjusting the brightness or darkness (luminance) of the color.
 
 See setLuminanceFactor() for more information.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references.
 

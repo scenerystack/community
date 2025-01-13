@@ -14,23 +14,23 @@ import { TriangleArrayWriter } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new TriangleArrayWriter( positionArray : <span style="font-weight: 400; opacity: 80%;">Float32Array | null</span>, normalArray : <span style="font-weight: 400; opacity: 80%;">Float32Array | null</span>, uvArray : <span style="font-weight: 400; opacity: 80%;">Float32Array | null</span>, offset, offsetPosition : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) {: #constructor data-toc-label='constructor' }
+#### new TriangleArrayWriter( positionArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, normalArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, uvArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, offset, offsetPosition : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### position( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, z : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #position data-toc-label='position' }
+#### position( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #position data-toc-label='position' }
 
 Writes a position into the (optional) positionArray, and increments the offset.
 
-#### normal( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, z : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #normal data-toc-label='normal' }
+#### normal( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #normal data-toc-label='normal' }
 
 Writes a normal into the (optional) normalArray
 
-#### uv( u : <span style="font-weight: 400; opacity: 80%;">number</span>, v : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #uv data-toc-label='uv' }
+#### uv( u : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #uv data-toc-label='uv' }
 
 Writes a UV into the (optional) uvArray
 
-#### getOffset() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getOffset data-toc-label='getOffset' }
+#### getOffset() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getOffset data-toc-label='getOffset' }
 
 Returns the offset (previous offset + number of triangles added, counted from the positionArray)
 

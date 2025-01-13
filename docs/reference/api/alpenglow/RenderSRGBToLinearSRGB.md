@@ -14,15 +14,15 @@ import { RenderSRGBToLinearSRGB } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderSRGBToLinearSRGB( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderSRGBToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getName() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getName data-toc-label='getName' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### withChildren( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderSRGBToLinearSRGB</span> {: #withChildren data-toc-label='withChildren' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderSRGBToLinearSRGB](../alpenglow/RenderSRGBToLinearSRGB.md)</span> {: #withChildren data-toc-label='withChildren' }
 
-#### writeInstructions( instructions : <span style="font-weight: 400; opacity: 80%;">RenderInstruction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeInstructions data-toc-label='writeInstructions' }
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 
@@ -34,19 +34,19 @@ import { RenderInstructionSRGBToLinearSRGB } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #RenderInstructionSRGBToLinearSRGB-toString data-toc-label='RenderInstructionSRGBToLinearSRGB-toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionSRGBToLinearSRGB-toString data-toc-label='RenderInstructionSRGBToLinearSRGB-toString' }
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderInstruction</span>, areLocationsEqual : <span style="font-weight: 400; opacity: 80%;">( a: RenderInstructionLocation, b: RenderInstructionLocation ) =&gt; boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #RenderInstructionSRGBToLinearSRGB-equals data-toc-label='RenderInstructionSRGBToLinearSRGB-equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionSRGBToLinearSRGB-equals data-toc-label='RenderInstructionSRGBToLinearSRGB-equals' }
 
-#### execute( stack : <span style="font-weight: 400; opacity: 80%;">RenderExecutionStack</span>, context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span>, executor : <span style="font-weight: 400; opacity: 80%;">RenderExecutor</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionSRGBToLinearSRGB-execute data-toc-label='RenderInstructionSRGBToLinearSRGB-execute' }
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionSRGBToLinearSRGB-execute data-toc-label='RenderInstructionSRGBToLinearSRGB-execute' }
 
-#### writeBinary( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span>, getOffset : <span style="font-weight: 400; opacity: 80%;">( location: RenderInstructionLocation ) =&gt; number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionSRGBToLinearSRGB-writeBinary data-toc-label='RenderInstructionSRGBToLinearSRGB-writeBinary' }
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionSRGBToLinearSRGB-writeBinary data-toc-label='RenderInstructionSRGBToLinearSRGB-writeBinary' }
 
-#### getBinaryLength() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #RenderInstructionSRGBToLinearSRGB-getBinaryLength data-toc-label='RenderInstructionSRGBToLinearSRGB-getBinaryLength' }
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionSRGBToLinearSRGB-getBinaryLength data-toc-label='RenderInstructionSRGBToLinearSRGB-getBinaryLength' }
 
 ### Static Properties
 
-#### INSTANCE : <span style="font-weight: 400; opacity: 80%;">RenderInstructionSRGBToLinearSRGB</span> {: #RenderInstructionSRGBToLinearSRGB-INSTANCE data-toc-label='RenderInstructionSRGBToLinearSRGB-INSTANCE' }
+#### INSTANCE : <span style="font-weight: 400;">[RenderInstructionSRGBToLinearSRGB](../alpenglow/RenderSRGBToLinearSRGB.md#RenderInstructionSRGBToLinearSRGB)</span> {: #RenderInstructionSRGBToLinearSRGB-INSTANCE data-toc-label='RenderInstructionSRGBToLinearSRGB-INSTANCE' }
 
 (readonly)
 

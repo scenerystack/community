@@ -17,15 +17,15 @@ import { PropertyStatePhase } from 'scenerystack/axon';
 ```
 ### Static Properties
 
-#### UNDEFER : <span style="font-weight: 400; opacity: 80%;">PropertyStatePhase</span> {: #UNDEFER data-toc-label='UNDEFER' }
+#### UNDEFER : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span> {: #UNDEFER data-toc-label='UNDEFER' }
 
 (readonly)
 
-#### NOTIFY : <span style="font-weight: 400; opacity: 80%;">PropertyStatePhase</span> {: #NOTIFY data-toc-label='NOTIFY' }
+#### NOTIFY : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span> {: #NOTIFY data-toc-label='NOTIFY' }
 
 (readonly)
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #enumeration data-toc-label='enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #enumeration data-toc-label='enumeration' }
 
 (readonly)
 

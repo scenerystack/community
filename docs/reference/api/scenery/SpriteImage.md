@@ -15,29 +15,29 @@ import { SpriteImage } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SpriteImage( image : <span style="font-weight: 400; opacity: 80%;">ImageableImage | TReadOnlyProperty&lt;ImageableImage&gt;</span>, offset : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">SpriteImageOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new SpriteImage( image : <span style="font-weight: 400;">[ImageableImage](../scenery/Imageable.md#ImageableImage) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;</span>, offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[SpriteImageOptions](../scenery/SpriteImage.md#SpriteImageOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getShape() : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #getShape data-toc-label='getShape' }
+#### getShape() : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #getShape data-toc-label='getShape' }
 
 Returns a Shape that represents the hit-testable area of this SpriteImage.
 
-#### containsPoint( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #containsPoint data-toc-label='containsPoint' }
+#### containsPoint( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsPoint data-toc-label='containsPoint' }
 
 Returns whether a given point is considered "inside" the SpriteImage.
 
 ### Instance Properties
 
-#### id : <span style="font-weight: 400; opacity: 80%;">number</span> {: #id data-toc-label='id' }
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
 
 (readonly)
 
-#### offset : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #offset data-toc-label='offset' }
+#### offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #offset data-toc-label='offset' }
 
 (readonly)
 
-#### pickable : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #pickable data-toc-label='pickable' }
+#### pickable : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #pickable data-toc-label='pickable' }
 
 (readonly)
 

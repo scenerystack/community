@@ -14,33 +14,33 @@ import { Drawer } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new Drawer( contentsNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, provideOptions? : <span style="font-weight: 400; opacity: 80%;">DrawerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Drawer( contentsNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, provideOptions? : <span style="font-weight: 400;">[DrawerOptions](../scenery-phet/Drawer.md#DrawerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### reset( animationEnabled? : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset( animationEnabled? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #reset data-toc-label='reset' }
 
 @param [animationEnabled]
 
-#### setAnimationEnabled( animationEnabled : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setAnimationEnabled data-toc-label='setAnimationEnabled' }
+#### setAnimationEnabled( animationEnabled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setAnimationEnabled data-toc-label='setAnimationEnabled' }
 
 Determines whether animation is enabled for opening/closing drawer.
 
-#### getAnimationEnabled() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getAnimationEnabled data-toc-label='getAnimationEnabled' }
+#### getAnimationEnabled() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getAnimationEnabled data-toc-label='getAnimationEnabled' }
 
 Is animation enabled for opening/closing drawer?
 
 ### Instance Properties
 
-#### openProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span> {: #openProperty data-toc-label='openProperty' }
+#### openProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #openProperty data-toc-label='openProperty' }
 
 (readonly)
 
 is the drawer open?
 
-#### contentsNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #contentsNode data-toc-label='contentsNode' }
+#### contentsNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #contentsNode data-toc-label='contentsNode' }
 
 (readonly)
 

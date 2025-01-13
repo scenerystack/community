@@ -14,13 +14,13 @@ import { GridLine } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### clean() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clean data-toc-label='clean' }
+#### clean() {: #clean data-toc-label='clean' }
 
 ### Instance Properties
 
-#### cells : <span style="font-weight: 400; opacity: 80%;">GridCell[]</span> {: #cells data-toc-label='cells' }
+#### cells : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md)[]</span> {: #cells data-toc-label='cells' }
 
-#### grow : <span style="font-weight: 400; opacity: 80%;">number</span> {: #grow data-toc-label='grow' }
+#### grow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #grow data-toc-label='grow' }
 
 
 

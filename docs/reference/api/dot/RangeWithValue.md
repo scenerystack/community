@@ -15,31 +15,31 @@ import { RangeWithValue } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new RangeWithValue( min : <span style="font-weight: 400; opacity: 80%;">number</span>, max : <span style="font-weight: 400; opacity: 80%;">number</span>, defaultValue : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new RangeWithValue( min : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, max : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, defaultValue : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getDefaultValue() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getDefaultValue data-toc-label='getDefaultValue' }
+#### getDefaultValue() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getDefaultValue data-toc-label='getDefaultValue' }
 
 Getter for defaultValue
 
-#### setMin( min : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setMin data-toc-label='setMin' }
+#### setMin( min : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setMin data-toc-label='setMin' }
 
 Setter for min
 
-#### setMax( max : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setMax data-toc-label='setMax' }
+#### setMax( max : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setMax data-toc-label='setMax' }
 
 Setter for max
 
-#### setMinMax( min : <span style="font-weight: 400; opacity: 80%;">number</span>, max : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setMinMax data-toc-label='setMinMax' }
+#### setMinMax( min : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, max : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setMinMax data-toc-label='setMinMax' }
 
 Setter for min and max
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Converts the attributes of this range to a string
 
-#### equals( object : <span style="font-weight: 400; opacity: 80%;">IntentionalAny</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equals( object : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
 Determines if this RangeWithValue is equal to some object.
 

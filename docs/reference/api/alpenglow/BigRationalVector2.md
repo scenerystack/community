@@ -14,13 +14,13 @@ import { BigRationalVector2 } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BigRationalVector2( x : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, y : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) {: #constructor data-toc-label='constructor' }
+#### new BigRationalVector2( x : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, y : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### equals( vector : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equals( vector : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 
 

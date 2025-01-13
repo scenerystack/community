@@ -27,21 +27,21 @@ import { RasterChunkReduceQuad } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterChunkReduceQuad( leftMin : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceData</span>, leftMax : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceData</span>, rightMin : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceData</span>, rightMax : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceData</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterChunkReduceQuad( leftMin : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span>, leftMax : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span>, rightMin : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span>, rightMax : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toStrings() : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #toStrings data-toc-label='toStrings' }
+#### toStrings() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> {: #toStrings data-toc-label='toStrings' }
 
-#### writeEncoding( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeEncoding data-toc-label='writeEncoding' }
+#### writeEncoding( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #writeEncoding data-toc-label='writeEncoding' }
 
 ### Static Methods
 
-#### combine( a : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span>, b : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span> {: #combine data-toc-label='combine' }
+#### combine( a : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span>, b : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span> ) : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span> {: #combine data-toc-label='combine' }
 
-#### readEncoding( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span> {: #readEncoding data-toc-label='readEncoding' }
+#### readEncoding( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span> {: #readEncoding data-toc-label='readEncoding' }
 
-#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
+#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
 
 ### Static Properties
 
@@ -49,11 +49,11 @@ import { RasterChunkReduceQuad } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### INDETERMINATE : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
+#### INDETERMINATE : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
 
 (readonly)
 
-#### OUT_OF_RANGE : <span style="font-weight: 400; opacity: 80%;">RasterChunkReduceQuad</span> {: #OUT_OF_RANGE data-toc-label='OUT_OF_RANGE' }
+#### OUT_OF_RANGE : <span style="font-weight: 400;">[RasterChunkReduceQuad](../alpenglow/RasterChunkReduceQuad.md)</span> {: #OUT_OF_RANGE data-toc-label='OUT_OF_RANGE' }
 
 (readonly)
 

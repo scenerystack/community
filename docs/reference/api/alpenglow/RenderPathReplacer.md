@@ -14,17 +14,17 @@ import { RenderPathReplacer } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPathReplacer( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPathReplacer( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### replace( includedPaths : <span style="font-weight: 400; opacity: 80%;">Set&lt;RenderPath&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #replace data-toc-label='replace' }
+#### replace( includedPaths : <span style="font-weight: 400;">Set&lt;[RenderPath](../alpenglow/RenderPath.md)&gt;</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #replace data-toc-label='replace' }
 
 ### Static Methods
 
-#### isContainer( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">program is ( RenderStack | RenderDepthSort )</span> {: #isContainer data-toc-label='isContainer' }
+#### isContainer( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">program is ( [RenderStack](../alpenglow/RenderStack.md) | [RenderDepthSort](../alpenglow/RenderDepthSort.md) )</span> {: #isContainer data-toc-label='isContainer' }
 
-#### isTransparentOutside( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">program is RenderPathBoolean</span> {: #isTransparentOutside data-toc-label='isTransparentOutside' }
+#### isTransparentOutside( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">program is [RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #isTransparentOutside data-toc-label='isTransparentOutside' }
 
 
 

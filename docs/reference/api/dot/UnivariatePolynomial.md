@@ -14,47 +14,47 @@ import { UnivariatePolynomial } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new UnivariatePolynomial( coefficients : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new UnivariatePolynomial( coefficients : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### plus( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #plus data-toc-label='plus' }
+#### plus( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #plus data-toc-label='plus' }
 
-#### minus( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #minus data-toc-label='minus' }
+#### minus( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #minus data-toc-label='minus' }
 
-#### times( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #times data-toc-label='times' }
+#### times( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #times data-toc-label='times' }
 
-#### dividedBy( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">{ quotient: UnivariatePolynomial; remainder: UnivariatePolynomial }</span> {: #dividedBy data-toc-label='dividedBy' }
+#### dividedBy( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;">{ quotient: [UnivariatePolynomial](../dot/UnivariatePolynomial.md); remainder: [UnivariatePolynomial](../dot/UnivariatePolynomial.md) }</span> {: #dividedBy data-toc-label='dividedBy' }
 
-#### gcd( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #gcd data-toc-label='gcd' }
+#### gcd( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #gcd data-toc-label='gcd' }
 
-#### equals( polynomial : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equals( polynomial : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
-#### getCoefficient( degree : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCoefficient data-toc-label='getCoefficient' }
+#### getCoefficient( degree : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCoefficient data-toc-label='getCoefficient' }
 
-#### isZero() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isZero data-toc-label='isZero' }
+#### isZero() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isZero data-toc-label='isZero' }
 
-#### getMonicPolynomial() : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #getMonicPolynomial data-toc-label='getMonicPolynomial' }
+#### getMonicPolynomial() : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #getMonicPolynomial data-toc-label='getMonicPolynomial' }
 
-#### evaluate( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
-#### evaluateComplex( x : <span style="font-weight: 400; opacity: 80%;">Complex</span> ) : <span style="font-weight: 400; opacity: 80%;">Complex</span> {: #evaluateComplex data-toc-label='evaluateComplex' }
+#### evaluateComplex( x : <span style="font-weight: 400;">[Complex](../dot/Complex.md)</span> ) : <span style="font-weight: 400;">[Complex](../dot/Complex.md)</span> {: #evaluateComplex data-toc-label='evaluateComplex' }
 
-#### getRoots() : <span style="font-weight: 400; opacity: 80%;">Complex[]</span> {: #getRoots data-toc-label='getRoots' }
+#### getRoots() : <span style="font-weight: 400;">[Complex](../dot/Complex.md)[]</span> {: #getRoots data-toc-label='getRoots' }
 
 ### Instance Properties
 
-#### coefficients : <span style="font-weight: 400; opacity: 80%;">number[]</span> {: #coefficients data-toc-label='coefficients' }
+#### coefficients : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> {: #coefficients data-toc-label='coefficients' }
 
 (readonly)
 
 ### Static Methods
 
-#### singleCoefficient( coefficient : <span style="font-weight: 400; opacity: 80%;">number</span>, degree : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #singleCoefficient data-toc-label='singleCoefficient' }
+#### singleCoefficient( coefficient : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, degree : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #singleCoefficient data-toc-label='singleCoefficient' }
 
 ### Static Properties
 
-#### ZERO : <span style="font-weight: 400; opacity: 80%;">UnivariatePolynomial</span> {: #ZERO data-toc-label='ZERO' }
+#### ZERO : <span style="font-weight: 400;">[UnivariatePolynomial](../dot/UnivariatePolynomial.md)</span> {: #ZERO data-toc-label='ZERO' }
 
 (readonly)
 

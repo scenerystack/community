@@ -16,37 +16,37 @@ import { CombinedRaster } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new CombinedRaster( width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CombinedRasterOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new CombinedRaster( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[CombinedRasterOptions](../alpenglow/CombinedRaster.md#CombinedRasterOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### addClientPartialPixel( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addClientPartialPixel data-toc-label='addClientPartialPixel' }
+#### addClientPartialPixel( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addClientPartialPixel data-toc-label='addClientPartialPixel' }
 
-#### addClientFullPixel( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addClientFullPixel data-toc-label='addClientFullPixel' }
+#### addClientFullPixel( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addClientFullPixel data-toc-label='addClientFullPixel' }
 
-#### addOutputFullPixel( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addOutputFullPixel data-toc-label='addOutputFullPixel' }
+#### addOutputFullPixel( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addOutputFullPixel data-toc-label='addOutputFullPixel' }
 
-#### addClientFullRegion( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addClientFullRegion data-toc-label='addClientFullRegion' }
+#### addClientFullRegion( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addClientFullRegion data-toc-label='addClientFullRegion' }
 
-#### addOutputFullRegion( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addOutputFullRegion data-toc-label='addOutputFullRegion' }
+#### addOutputFullRegion( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addOutputFullRegion data-toc-label='addOutputFullRegion' }
 
-#### toImageData() : <span style="font-weight: 400; opacity: 80%;">ImageData</span> {: #toImageData data-toc-label='toImageData' }
+#### toImageData() : <span style="font-weight: 400;">ImageData</span> {: #toImageData data-toc-label='toImageData' }
 
-#### toCanvas() : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement</span> {: #toCanvas data-toc-label='toCanvas' }
+#### toCanvas() : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span> {: #toCanvas data-toc-label='toCanvas' }
 
-#### writeToCanvas( canvas : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement</span>, context : <span style="font-weight: 400; opacity: 80%;">CanvasRenderingContext2D</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeToCanvas data-toc-label='writeToCanvas' }
+#### writeToCanvas( canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span>, context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeToCanvas data-toc-label='writeToCanvas' }
 
 ### Instance Properties
 
-#### accumulationArray : <span style="font-weight: 400; opacity: 80%;">Float64Array</span> {: #accumulationArray data-toc-label='accumulationArray' }
+#### accumulationArray : <span style="font-weight: 400;">Float64Array</span> {: #accumulationArray data-toc-label='accumulationArray' }
 
 (readonly)
 
-#### imageData : <span style="font-weight: 400; opacity: 80%;">ImageData</span> {: #imageData data-toc-label='imageData' }
+#### imageData : <span style="font-weight: 400;">ImageData</span> {: #imageData data-toc-label='imageData' }
 
 (readonly)
 
-#### colorConverter : <span style="font-weight: 400; opacity: 80%;">RasterColorConverter</span> {: #colorConverter data-toc-label='colorConverter' }
+#### colorConverter : <span style="font-weight: 400;">[RasterColorConverter](../alpenglow/RasterColorConverter.md)</span> {: #colorConverter data-toc-label='colorConverter' }
 
 (readonly)
 

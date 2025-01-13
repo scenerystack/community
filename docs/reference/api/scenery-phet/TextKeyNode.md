@@ -14,7 +14,7 @@ import { TextKeyNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TextKeyNode( string : <span style="font-weight: 400; opacity: 80%;">string | TReadOnlyProperty&lt;string&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">TextKeyNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextKeyNode( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TextKeyNodeOptions](../scenery-phet/TextKeyNode.md#TextKeyNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,11 +22,11 @@ import { TextKeyNode } from 'scenerystack/scenery-phet';
 
 ### Static Methods
 
-#### getAltKeyString() : <span style="font-weight: 400; opacity: 80%;">PhetioProperty&lt;string&gt;</span> {: #getAltKeyString data-toc-label='getAltKeyString' }
+#### getAltKeyString() : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #getAltKeyString data-toc-label='getAltKeyString' }
 
 Returns the correct platform dependent key string for "Alt". "Alt" on Windows, "Option" on Mac.
 
-#### altOrOption( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #altOrOption data-toc-label='altOrOption' }
+#### altOrOption( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #altOrOption data-toc-label='altOrOption' }
 
 -------------------------------------------------------------------------------------------------
 Static factory methods for specific text strings. For brevity, these methods have the same names
@@ -35,27 +35,27 @@ as their string keys. For example SceneryPhetStrings.key.esc is rendered by the 
 Note that this will render "Alt" OR "Options", depending on platform. If there is a description of this icon
 in the PDOM please use getAltKeyString().
 
-#### capsLock( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #capsLock data-toc-label='capsLock' }
+#### capsLock( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #capsLock data-toc-label='capsLock' }
 
-#### esc( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #esc data-toc-label='esc' }
+#### esc( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #esc data-toc-label='esc' }
 
-#### end( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #end data-toc-label='end' }
+#### end( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #end data-toc-label='end' }
 
-#### enter( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #enter data-toc-label='enter' }
+#### enter( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #enter data-toc-label='enter' }
 
-#### fn( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #fn data-toc-label='fn' }
+#### fn( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #fn data-toc-label='fn' }
 
-#### home( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #home data-toc-label='home' }
+#### home( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #home data-toc-label='home' }
 
-#### pageDown( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #pageDown data-toc-label='pageDown' }
+#### pageDown( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #pageDown data-toc-label='pageDown' }
 
-#### pageUp( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #pageUp data-toc-label='pageUp' }
+#### pageUp( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #pageUp data-toc-label='pageUp' }
 
-#### space( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #space data-toc-label='space' }
+#### space( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #space data-toc-label='space' }
 
-#### shift( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #shift data-toc-label='shift' }
+#### shift( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #shift data-toc-label='shift' }
 
-#### tab( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyNode</span> {: #tab data-toc-label='tab' }
+#### tab( providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) : <span style="font-weight: 400;">[KeyNode](../scenery-phet/KeyNode.md)</span> {: #tab data-toc-label='tab' }
 
 
 

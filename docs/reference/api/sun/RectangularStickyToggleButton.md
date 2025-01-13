@@ -16,11 +16,11 @@ import { RectangularStickyToggleButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularStickyToggleButton( valueProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, valueUp : <span style="font-weight: 400; opacity: 80%;">T</span>, valueDown : <span style="font-weight: 400; opacity: 80%;">T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">RectangularStickyToggleButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularStickyToggleButton( valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, valueUp : <span style="font-weight: 400;">T</span>, valueDown : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularStickyToggleButtonOptions](../sun/RectangularStickyToggleButton.md#RectangularStickyToggleButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

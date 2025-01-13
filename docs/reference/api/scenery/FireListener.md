@@ -17,17 +17,17 @@ import { FireListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FireListener( providedOptions? : <span style="font-weight: 400; opacity: 80%;">FireListenerOptions&lt;FireListener&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new FireListener( providedOptions? : <span style="font-weight: 400;">[FireListenerOptions](../scenery/FireListener.md#FireListenerOptions)&lt;[FireListener](../scenery/FireListener.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### fire( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #fire data-toc-label='fire' }
+#### fire( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #fire data-toc-label='fire' }
 
 Fires any associated button fire callback.
 
 NOTE: This is safe to call on the listener externally.
 
-#### press( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt;</span>, targetNode? : <span style="font-weight: 400; opacity: 80%;">Node</span>, callback? : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #press data-toc-label='press' }
+#### press( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt;</span>, targetNode? : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, callback? : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #press data-toc-label='press' }
 
 Presses the button.
 
@@ -40,7 +40,7 @@ be used to determine whether this will actually start a press.
 @param [callback] - to be run at the end of the function, but only on success
 @returns success - Returns whether the press was actually started
 
-#### release( event? : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt;</span>, callback? : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #release data-toc-label='release' }
+#### release( event? : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt;</span>, callback? : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #release data-toc-label='release' }
 
 Releases the button.
 
@@ -51,7 +51,7 @@ on this listener instead.
 @param [event] - scenery event if there was one
 @param [callback] - called at the end of the release
 
-#### click( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;MouseEvent&gt; | null</span>, callback? : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #click data-toc-label='click' }
+#### click( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, callback? : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #click data-toc-label='click' }
 
 Clicks the listener, pressing it and releasing it immediately. Part of the scenery input API, triggered from PDOM
 events for accessibility.
@@ -66,7 +66,7 @@ fireListener.canClick() can be used to determine if this will actually trigger a
 @param [event]
 @param [callback] - called at the end of the click
 
-#### interrupt() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #interrupt data-toc-label='interrupt' }
+#### interrupt() {: #interrupt data-toc-label='interrupt' }
 
 Interrupts the listener, releasing it (canceling behavior).
 
@@ -75,7 +75,7 @@ so that code can determine whether a release/end happened naturally, or was canc
 
 This can be called manually, but can also be called through node.interruptSubtreeInput().
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

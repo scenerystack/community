@@ -15,7 +15,7 @@ import { MinusNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new MinusNode( providedOptions : <span style="font-weight: 400; opacity: 80%;">MinusNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MinusNode( providedOptions : <span style="font-weight: 400;">[MinusNodeOptions](../scenery-phet/MinusNode.md#MinusNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

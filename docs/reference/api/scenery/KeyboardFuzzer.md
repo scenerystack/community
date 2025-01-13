@@ -15,11 +15,11 @@ import { KeyboardFuzzer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyboardFuzzer( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, seed : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyboardFuzzer( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, seed : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### fuzzBoardEvents( fuzzRate : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #fuzzBoardEvents data-toc-label='fuzzBoardEvents' }
+#### fuzzBoardEvents( fuzzRate : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #fuzzBoardEvents data-toc-label='fuzzBoardEvents' }
 
 A random event creator that sends keyboard events. Based on the idea of fuzzMouse, but to test/spam accessibility
 related keyboard navigation and alternate input implementation.

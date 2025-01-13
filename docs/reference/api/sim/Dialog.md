@@ -17,15 +17,15 @@ import { Dialog } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Dialog( content : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">DialogOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Dialog( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DialogOptions](../sim/Dialog.md#DialogOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Static Properties
 
-#### DialogIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #DialogIO data-toc-label='DialogIO' }
+#### DialogIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #DialogIO data-toc-label='DialogIO' }
 
 
 

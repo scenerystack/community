@@ -21,59 +21,59 @@ import { Screen } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Screen( createModel : <span style="font-weight: 400; opacity: 80%;">() =&gt; M</span>, createView : <span style="font-weight: 400; opacity: 80%;">( model: M ) =&gt; V</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">ScreenOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Screen( createModel : <span style="font-weight: 400;">() =&gt; M</span>, createView : <span style="font-weight: 400;">( model: M ) =&gt; V</span>, providedOptions : <span style="font-weight: 400;">[ScreenOptions](../sim/Screen.md#ScreenOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### hasModel() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasModel data-toc-label='hasModel' }
+#### hasModel() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasModel data-toc-label='hasModel' }
 
-#### hasView() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #hasView data-toc-label='hasView' }
+#### hasView() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasView data-toc-label='hasView' }
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
 ### Instance Properties
 
-#### backgroundColorProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;Color&gt; | Property&lt;string&gt; | Property&lt;Color | string&gt;</span> {: #backgroundColorProperty data-toc-label='backgroundColorProperty' }
+#### backgroundColorProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;[Color](../scenery/Color.md)&gt; | [Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #backgroundColorProperty data-toc-label='backgroundColorProperty' }
 
-#### maxDT : <span style="font-weight: 400; opacity: 80%;">number</span> {: #maxDT data-toc-label='maxDT' }
+#### maxDT : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #maxDT data-toc-label='maxDT' }
 
 (readonly)
 
 dt cap in seconds, see https://github.com/phetsims/joist/issues/130
 
-#### activeProperty : <span style="font-weight: 400; opacity: 80%;">BooleanProperty</span> {: #activeProperty data-toc-label='activeProperty' }
+#### activeProperty : <span style="font-weight: 400;">[BooleanProperty](../axon/BooleanProperty.md)</span> {: #activeProperty data-toc-label='activeProperty' }
 
 (readonly)
 
-#### screenButtonsHelpText : <span style="font-weight: 400; opacity: 80%;">PDOMValueType</span> {: #screenButtonsHelpText data-toc-label='screenButtonsHelpText' }
+#### screenButtonsHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> {: #screenButtonsHelpText data-toc-label='screenButtonsHelpText' }
 
 (readonly)
 
 Help text used on the screen buttons, see options above.
 
-#### nameProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;string&gt;</span> {: #nameProperty data-toc-label='nameProperty' }
+#### nameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #nameProperty data-toc-label='nameProperty' }
 
 (readonly)
 
-#### showScreenIconFrameForNavigationBarFill : <span style="font-weight: 400; opacity: 80%;">string | null</span> {: #showScreenIconFrameForNavigationBarFill data-toc-label='showScreenIconFrameForNavigationBarFill' }
+#### showScreenIconFrameForNavigationBarFill : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #showScreenIconFrameForNavigationBarFill data-toc-label='showScreenIconFrameForNavigationBarFill' }
 
 (readonly)
 
-#### homeScreenIcon : <span style="font-weight: 400; opacity: 80%;">ScreenIcon | null</span> {: #homeScreenIcon data-toc-label='homeScreenIcon' }
+#### homeScreenIcon : <span style="font-weight: 400;">[ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #homeScreenIcon data-toc-label='homeScreenIcon' }
 
 (readonly)
 
-#### navigationBarIcon : <span style="font-weight: 400; opacity: 80%;">ScreenIcon | null</span> {: #navigationBarIcon data-toc-label='navigationBarIcon' }
+#### navigationBarIcon : <span style="font-weight: 400;">[ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #navigationBarIcon data-toc-label='navigationBarIcon' }
 
-#### showUnselectedHomeScreenIconFrame : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #showUnselectedHomeScreenIconFrame data-toc-label='showUnselectedHomeScreenIconFrame' }
-
-(readonly)
-
-#### createKeyboardHelpNode : <span style="font-weight: 400; opacity: 80%;">null | ( ( tandem: Tandem ) =&gt; Node )</span> {: #createKeyboardHelpNode data-toc-label='createKeyboardHelpNode' }
+#### showUnselectedHomeScreenIconFrame : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #showUnselectedHomeScreenIconFrame data-toc-label='showUnselectedHomeScreenIconFrame' }
 
 (readonly)
 
-#### pdomDisplayNameProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;string&gt;</span> {: #pdomDisplayNameProperty data-toc-label='pdomDisplayNameProperty' }
+#### createKeyboardHelpNode : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( [tandem](../tandem/tandem.md): [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )</span> {: #createKeyboardHelpNode data-toc-label='createKeyboardHelpNode' }
+
+(readonly)
+
+#### pdomDisplayNameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #pdomDisplayNameProperty data-toc-label='pdomDisplayNameProperty' }
 
 (readonly)
 
@@ -91,7 +91,7 @@ Help text used on the screen buttons, see options above.
 
 (readonly)
 
-#### ScreenIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #ScreenIO data-toc-label='ScreenIO' }
+#### ScreenIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ScreenIO data-toc-label='ScreenIO' }
 
 (readonly)
 

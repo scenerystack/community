@@ -15,27 +15,27 @@ import { FlowConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowConstraint( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">FlowConstraintOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### layout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #layout data-toc-label='layout' }
+#### layout() {: #layout data-toc-label='layout' }
 
 (protected)
 
-#### insertCell( index : <span style="font-weight: 400; opacity: 80%;">number</span>, cell : <span style="font-weight: 400; opacity: 80%;">FlowCell</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #insertCell data-toc-label='insertCell' }
+#### insertCell( index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, cell : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)</span> ) {: #insertCell data-toc-label='insertCell' }
 
-#### removeCell( cell : <span style="font-weight: 400; opacity: 80%;">FlowCell</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeCell data-toc-label='removeCell' }
+#### removeCell( cell : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)</span> ) {: #removeCell data-toc-label='removeCell' }
 
-#### reorderCells( cells : <span style="font-weight: 400; opacity: 80%;">FlowCell[]</span>, minChangeIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, maxChangeIndex : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reorderCells data-toc-label='reorderCells' }
+#### reorderCells( cells : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)[]</span>, minChangeIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxChangeIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #reorderCells data-toc-label='reorderCells' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Static Methods
 
-#### create( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, options? : <span style="font-weight: 400; opacity: 80%;">FlowConstraintOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">FlowConstraint</span> {: #create data-toc-label='create' }
+#### create( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions)</span> ) : <span style="font-weight: 400;">[FlowConstraint](../scenery/FlowConstraint.md)</span> {: #create data-toc-label='create' }
 
 
 

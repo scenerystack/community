@@ -16,7 +16,7 @@ import { GradientBackgroundNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new GradientBackgroundNode( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, color1 : <span style="font-weight: 400; opacity: 80%;">TColor</span>, color2 : <span style="font-weight: 400; opacity: 80%;">TColor</span>, y1 : <span style="font-weight: 400; opacity: 80%;">number</span>, y2 : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new GradientBackgroundNode( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color1 : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span>, color2 : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span>, y1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y2 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

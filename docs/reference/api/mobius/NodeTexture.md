@@ -14,15 +14,15 @@ import { NodeTexture } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new NodeTexture( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">NodeTextureOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NodeTexture( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">NodeTextureOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### update() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #update data-toc-label='update' }
+#### update() {: #update data-toc-label='update' }
 
 Updates the node's appearance in the texture.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references.
 

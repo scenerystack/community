@@ -18,11 +18,11 @@ import { Namespace } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Namespace( name : <span style="font-weight: 400; opacity: 80%;">string</span> ) {: #constructor data-toc-label='constructor' }
+#### new Namespace( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### register( key : <span style="font-weight: 400; opacity: 80%;">string</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">T</span> {: #register data-toc-label='register' }
+#### register( key : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">T</span> {: #register data-toc-label='register' }
 
 Registers a key-value pair with the namespace.
 
@@ -37,7 +37,7 @@ then the register function will navigate to the object x.A.B and add x.A.B.C = C
 
 ### Instance Properties
 
-#### name : <span style="font-weight: 400; opacity: 80%;">string</span> {: #name data-toc-label='name' }
+#### name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #name data-toc-label='name' }
 
 (readonly)
 

@@ -25,11 +25,11 @@ import { LayoutProxyProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutProxyProperty( rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, leafNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">LayoutProxyPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutProxyProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[LayoutProxyPropertyOptions](../scenery/LayoutProxyProperty.md#LayoutProxyPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

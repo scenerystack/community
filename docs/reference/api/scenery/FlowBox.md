@@ -43,43 +43,43 @@ import { FlowBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowBox( providedOptions? : <span style="font-weight: 400; opacity: 80%;">FlowBoxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowBox( providedOptions? : <span style="font-weight: 400;">[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### onFlowBoxChildInserted( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onFlowBoxChildInserted data-toc-label='onFlowBoxChildInserted' }
+#### onFlowBoxChildInserted( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #onFlowBoxChildInserted data-toc-label='onFlowBoxChildInserted' }
 
 (protected)
 
 Called when a child is inserted.
 
-#### getCell( node : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">FlowCell</span> {: #getCell data-toc-label='getCell' }
+#### getCell( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)</span> {: #getCell data-toc-label='getCell' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
-#### setOrientation( orientation : <span style="font-weight: 400; opacity: 80%;">LayoutOrientation</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setOrientation data-toc-label='setOrientation' }
+#### setOrientation( orientation : <span style="font-weight: 400;">[LayoutOrientation](../scenery/LayoutOrientation.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setOrientation data-toc-label='setOrientation' }
 
 LayoutBox Compatibility (see the ES5 setters/getters, or the options doc)
 
-#### getOrientation() : <span style="font-weight: 400; opacity: 80%;">LayoutOrientation</span> {: #getOrientation data-toc-label='getOrientation' }
+#### getOrientation() : <span style="font-weight: 400;">[LayoutOrientation](../scenery/LayoutOrientation.md)</span> {: #getOrientation data-toc-label='getOrientation' }
 
-#### setSpacing( spacing : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setSpacing data-toc-label='setSpacing' }
+#### setSpacing( spacing : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setSpacing data-toc-label='setSpacing' }
 
-#### getSpacing() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getSpacing data-toc-label='getSpacing' }
+#### getSpacing() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getSpacing data-toc-label='getSpacing' }
 
-#### setAlign( align : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign | VerticalLayoutAlign</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setAlign data-toc-label='setAlign' }
+#### setAlign( align : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setAlign data-toc-label='setAlign' }
 
-#### getAlign() : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign | VerticalLayoutAlign</span> {: #getAlign data-toc-label='getAlign' }
+#### getAlign() : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span> {: #getAlign data-toc-label='getAlign' }
 
-#### setResize( resize : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setResize data-toc-label='setResize' }
+#### setResize( resize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setResize data-toc-label='setResize' }
 
-#### isResize() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isResize data-toc-label='isResize' }
+#### isResize() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isResize data-toc-label='isResize' }
 
-#### getHelperNode() : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #getHelperNode data-toc-label='getHelperNode' }
+#### getHelperNode() : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #getHelperNode data-toc-label='getHelperNode' }
 
-#### mutate( options? : <span style="font-weight: 400; opacity: 80%;">FlowBoxOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #mutate data-toc-label='mutate' }
+#### mutate( options? : <span style="font-weight: 400;">[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #mutate data-toc-label='mutate' }
 
 ### Static Properties
 

@@ -14,41 +14,41 @@ import { SVGGradient } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGGradient( svgBlock : <span style="font-weight: 400; opacity: 80%;">SVGBlock</span>, gradient : <span style="font-weight: 400; opacity: 80%;">Gradient</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGGradient( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[Gradient](../scenery/Gradient.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### isActiveSVGGradient() : <span style="font-weight: 400; opacity: 80%;">this is ActiveSVGGradient</span> {: #isActiveSVGGradient data-toc-label='isActiveSVGGradient' }
+#### isActiveSVGGradient() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> is [ActiveSVGGradient](../scenery/SVGGradient.md#ActiveSVGGradient)</span> {: #isActiveSVGGradient data-toc-label='isActiveSVGGradient' }
 
-#### initialize( svgBlock : <span style="font-weight: 400; opacity: 80%;">SVGBlock</span>, gradient : <span style="font-weight: 400; opacity: 80%;">Gradient</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #initialize data-toc-label='initialize' }
+#### initialize( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[Gradient](../scenery/Gradient.md)</span> ) {: #initialize data-toc-label='initialize' }
 
-#### createDefinition() : <span style="font-weight: 400; opacity: 80%;">SVGGradientElement</span> {: #createDefinition data-toc-label='createDefinition' }
+#### createDefinition() : <span style="font-weight: 400;">SVGGradientElement</span> {: #createDefinition data-toc-label='createDefinition' }
 
 (protected)
 
 Creates the gradient-type-specific definition.
 
-#### markDirty() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #markDirty data-toc-label='markDirty' }
+#### markDirty() {: #markDirty data-toc-label='markDirty' }
 
 Called from SVGGradientStop when a stop needs to change the actual color.
 
-#### update() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #update data-toc-label='update' }
+#### update() {: #update data-toc-label='update' }
 
 Called from SVGBlock when we need to update our color stops.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes, so that it can be reused from the pool.
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
-#### gradient : <span style="font-weight: 400; opacity: 80%;">Gradient | null</span> {: #gradient data-toc-label='gradient' }
+#### gradient : <span style="font-weight: 400;">[Gradient](../scenery/Gradient.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #gradient data-toc-label='gradient' }
 
-#### stops : <span style="font-weight: 400; opacity: 80%;">SVGGradientStop[]</span> {: #stops data-toc-label='stops' }
+#### stops : <span style="font-weight: 400;">[SVGGradientStop](../scenery/SVGGradientStop.md)[]</span> {: #stops data-toc-label='stops' }
 
-#### definition : <span style="font-weight: 400; opacity: 80%;">SVGGradientElement</span> {: #definition data-toc-label='definition' }
+#### definition : <span style="font-weight: 400;">SVGGradientElement</span> {: #definition data-toc-label='definition' }
 
 persistent
 

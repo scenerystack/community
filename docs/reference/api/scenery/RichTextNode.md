@@ -14,21 +14,21 @@ import { RichTextNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichTextNode( content : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichTextNode( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( content : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #initialize data-toc-label='initialize' }
+#### initialize( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
-#### clean() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clean data-toc-label='clean' }
+#### clean() {: #clean data-toc-label='clean' }
 
 Cleans references that could cause memory leaks (as those things may contain other references).
 
-#### fitsIn( widthAvailable : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #fitsIn data-toc-label='fitsIn' }
+#### fitsIn( widthAvailable : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #fitsIn data-toc-label='fitsIn' }
 
 Whether this leaf will fit in the specified amount of space
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
@@ -42,7 +42,7 @@ Whether this leaf will fit in the specified amount of space
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

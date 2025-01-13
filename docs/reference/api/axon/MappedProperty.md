@@ -25,7 +25,7 @@ import { MappedProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new MappedProperty( property : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;InputValueType&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">MappedPropertyOptions&lt;ThisValueType, InputValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MappedProperty( property : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InputValueType&gt;</span>, providedOptions? : <span style="font-weight: 400;">[MappedPropertyOptions](../axon/MappedProperty.md#MappedPropertyOptions)&lt;ThisValueType, InputValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

@@ -17,56 +17,56 @@ import { ToggleNode } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleNode( valueProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;T&gt;</span>, elements : <span style="font-weight: 400; opacity: 80%;">ToggleNodeElement&lt;T, N&gt;[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ToggleNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleNode( valueProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span>, elements : <span style="font-weight: 400;">[ToggleNodeElement](../sun/ToggleNode.md#ToggleNodeElement)&lt;T, N&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[ToggleNodeOptions](../sun/ToggleNode.md#ToggleNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### nodes : <span style="font-weight: 400; opacity: 80%;">N[]</span> {: #nodes data-toc-label='nodes' }
+#### nodes : <span style="font-weight: 400;">N[]</span> {: #nodes data-toc-label='nodes' }
 
 (readonly)
 
 ### Static Methods
 
-#### CENTER( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #CENTER data-toc-label='CENTER' }
+#### CENTER( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #CENTER data-toc-label='CENTER' }
 
 A value for the alignChildren option.
 Centers the latter nodes on the x,y center of the first node.
 
-#### CENTER_X( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #CENTER_X data-toc-label='CENTER_X' }
+#### CENTER_X( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #CENTER_X data-toc-label='CENTER_X' }
 
 A value for the alignChildren option.
 Centers the latter nodes on the x center of the first node.
 
-#### CENTER_Y( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #CENTER_Y data-toc-label='CENTER_Y' }
+#### CENTER_Y( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #CENTER_Y data-toc-label='CENTER_Y' }
 
 A value for the alignChildren option.
 Centers the latter nodes on the y center of the first node.
 
-#### LEFT( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #LEFT data-toc-label='LEFT' }
+#### LEFT( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #LEFT data-toc-label='LEFT' }
 
 A value for the alignChildren option.
 Left aligns nodes on the left of the first node.
 
-#### BOTTOM( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #BOTTOM data-toc-label='BOTTOM' }
+#### BOTTOM( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #BOTTOM data-toc-label='BOTTOM' }
 
 A value for the alignChildren option.
 Aligns nodes on the bottom of the first node.
 
-#### CENTER_BOTTOM( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #CENTER_BOTTOM data-toc-label='CENTER_BOTTOM' }
+#### CENTER_BOTTOM( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #CENTER_BOTTOM data-toc-label='CENTER_BOTTOM' }
 
 A value for the alignChildren option.
 Aligns nodes on the bottom of the first node.
 
-#### RIGHT( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RIGHT data-toc-label='RIGHT' }
+#### RIGHT( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #RIGHT data-toc-label='RIGHT' }
 
 A value for the alignChildren option.
 Right aligns nodes on the right of the first node.
 
-#### NONE( children : <span style="font-weight: 400; opacity: 80%;">Layoutable[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #NONE data-toc-label='NONE' }
+#### NONE( children : <span style="font-weight: 400;">[Layoutable](../scenery/LayoutProxy.md#Layoutable)[]</span> ) {: #NONE data-toc-label='NONE' }
 
 A value for the alignChildren option.
 No alignment is performed.

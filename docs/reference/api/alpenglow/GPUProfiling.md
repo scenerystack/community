@@ -30,19 +30,19 @@ import { GPUProfiling } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### test() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #test data-toc-label='test' }
+#### test() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #test data-toc-label='test' }
 
-#### loopingTest( profilerFactories : <span style="font-weight: 400; opacity: 80%;">( ( deviceContext: DeviceContext ) =&gt; Promise&lt;GPUProfiler&gt; )[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #loopingTest data-toc-label='loopingTest' }
+#### loopingTest( profilerFactories : <span style="font-weight: 400;">( ( deviceContext: [DeviceContext](../alpenglow/DeviceContext.md) ) =&gt; Promise&lt;GPUProfiler&gt; )[]</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #loopingTest data-toc-label='loopingTest' }
 
-#### getRadixProfiler( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, numbers : <span style="font-weight: 400; opacity: 80%;">number[]</span>, options : <span style="font-weight: 400; opacity: 80%;">{
-      combineStrategy: boolean;
-      radixWorkgroupSize: number;
-      radixGrainSize: number;
-      scanWorkgroupSize: number;
-      scanGrainSize: number;
-      bitsPerPass: number;
-      bitsPerInnerPass: number;
-    }</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;GPUProfiler&gt;</span> {: #getRadixProfiler data-toc-label='getRadixProfiler' }
+#### getRadixProfiler( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, numbers : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, options : <span style="font-weight: 400;">{
+      combineStrategy: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>;
+      radixWorkgroupSize: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+      radixGrainSize: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+      scanWorkgroupSize: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+      scanGrainSize: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+      bitsPerPass: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+      bitsPerInnerPass: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+    }</span> ) : <span style="font-weight: 400;">Promise&lt;GPUProfiler&gt;</span> {: #getRadixProfiler data-toc-label='getRadixProfiler' }
 
 
 

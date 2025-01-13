@@ -37,11 +37,11 @@ import { FocusManager } from 'scenerystack/scenery';
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### pointerFocusProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Focus | null&gt;</span> {: #pointerFocusProperty data-toc-label='pointerFocusProperty' }
+#### pointerFocusProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #pointerFocusProperty data-toc-label='pointerFocusProperty' }
 
 (readonly)
 
@@ -49,14 +49,14 @@ This Property whose Focus Trail points to the Node under the pointer to
 support features of Voicing and Interactive Highlights. Nodes that compose InteractiveHighlighting can
 receive this Focus and a highlight may appear around it.
 
-#### readingBlockFocusProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Focus | null&gt;</span> {: #readingBlockFocusProperty data-toc-label='readingBlockFocusProperty' }
+#### readingBlockFocusProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #readingBlockFocusProperty data-toc-label='readingBlockFocusProperty' }
 
 (readonly)
 
 The Property that indicates which Node that uses ReadingBlock is currently
 active. Used by the HighlightOverlay to highlight ReadingBlock Nodes whose content is being spoken.
 
-#### lockedPointerFocusProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Focus | null&gt;</span> {: #lockedPointerFocusProperty data-toc-label='lockedPointerFocusProperty' }
+#### lockedPointerFocusProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #lockedPointerFocusProperty data-toc-label='lockedPointerFocusProperty' }
 
 (readonly)
 
@@ -66,26 +66,26 @@ highlight for the pointerFocusProperty. This is useful when the pointer has begu
 that uses InteractiveHighlighting, but the mouse has moved out of it or over another during interaction. The
 highlight should remain on the Node receiving interaction and wait to update until interaction completes.
 
-#### pdomFocusHighlightsVisibleProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #pdomFocusHighlightsVisibleProperty data-toc-label='pdomFocusHighlightsVisibleProperty' }
+#### pdomFocusHighlightsVisibleProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #pdomFocusHighlightsVisibleProperty data-toc-label='pdomFocusHighlightsVisibleProperty' }
 
 (readonly)
 
 Controls whether or not highlights related to PDOM focus are visible.
 
-#### interactiveHighlightsVisibleProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #interactiveHighlightsVisibleProperty data-toc-label='interactiveHighlightsVisibleProperty' }
+#### interactiveHighlightsVisibleProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #interactiveHighlightsVisibleProperty data-toc-label='interactiveHighlightsVisibleProperty' }
 
 (readonly)
 
 Controls whether "Interactive Highlights" are visible.
 
-#### readingBlockHighlightsVisibleProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #readingBlockHighlightsVisibleProperty data-toc-label='readingBlockHighlightsVisibleProperty' }
+#### readingBlockHighlightsVisibleProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #readingBlockHighlightsVisibleProperty data-toc-label='readingBlockHighlightsVisibleProperty' }
 
 (readonly)
 
 Controls whether "Reading Block" highlights will be visible around Nodes
 that use ReadingBlock.
 
-#### pointerHighlightsVisibleProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;boolean&gt;</span> {: #pointerHighlightsVisibleProperty data-toc-label='pointerHighlightsVisibleProperty' }
+#### pointerHighlightsVisibleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #pointerHighlightsVisibleProperty data-toc-label='pointerHighlightsVisibleProperty' }
 
 (readonly)
 
@@ -94,7 +94,7 @@ input (mouse/touch). If false, we will try to avoid doing expensive work in Poin
 
 ### Static Methods
 
-#### updatePDOMFocusFromEvent( displays : <span style="font-weight: 400; opacity: 80%;">Display[]</span>, event : <span style="font-weight: 400; opacity: 80%;">FocusEvent</span>, focus : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updatePDOMFocusFromEvent data-toc-label='updatePDOMFocusFromEvent' }
+#### updatePDOMFocusFromEvent( displays : <span style="font-weight: 400;">[Display](../scenery/Display.md)[]</span>, event : <span style="font-weight: 400;">FocusEvent</span>, focus : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #updatePDOMFocusFromEvent data-toc-label='updatePDOMFocusFromEvent' }
 
 Update the pdomFocus from a focusin/focusout event. Scenery events are batched so that they cannot be
 reentrant. However, that means that scenery state that needs to be updated synchronously with the
@@ -106,12 +106,12 @@ browser state.
 @param event - The focusin/focusout event that triggered this update.
 @param focus - True for focusin event, false for focusout event.
 
-#### getPDOMFocusedNode() : <span style="font-weight: 400; opacity: 80%;">Node | null</span> {: #getPDOMFocusedNode data-toc-label='getPDOMFocusedNode' }
+#### getPDOMFocusedNode() : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getPDOMFocusedNode data-toc-label='getPDOMFocusedNode' }
 
 Get the Node that currently has DOM focus, the leaf-most Node of the Focus Trail. Null if no
 Node has focus.
 
-#### attachToWindow() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #attachToWindow data-toc-label='attachToWindow' }
+#### attachToWindow() {: #attachToWindow data-toc-label='attachToWindow' }
 
 Updates the _windowHasFocusProperty when the self receives/loses focus. When the self has focus
 it is in the foreground of the user. When in the background, the self will not receive keyboard input.
@@ -119,13 +119,13 @@ https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event.
 
 This will be called by scenery for you when you use Display.initializeEvents().
 
-#### detachFromWindow() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #detachFromWindow data-toc-label='detachFromWindow' }
+#### detachFromWindow() {: #detachFromWindow data-toc-label='detachFromWindow' }
 
 Detach all self focus/blur listeners from FocusManager watching for when the self loses focus.
 
 ### Static Properties
 
-#### pdomFocusProperty : <span style="font-weight: 400; opacity: 80%;">Property</span> {: #pdomFocusProperty data-toc-label='pdomFocusProperty' }
+#### pdomFocusProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)</span> {: #pdomFocusProperty data-toc-label='pdomFocusProperty' }
 
 (readonly)
 
@@ -134,7 +134,7 @@ scenery Node has focus). By passing the tandem and phetioTye, PhET-iO is able to
 control, observe what is currently focused). See FocusManager.pdomFocus for setting the focus. Don't set the value
 of this Property directly.
 
-#### windowHasFocusProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;boolean&gt;</span> {: #windowHasFocusProperty data-toc-label='windowHasFocusProperty' }
+#### windowHasFocusProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #windowHasFocusProperty data-toc-label='windowHasFocusProperty' }
 
 
 

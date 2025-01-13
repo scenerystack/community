@@ -29,42 +29,42 @@ import { ParallelExecutor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelExecutor( kernel : <span style="font-weight: 400; opacity: 80%;">ParallelKernel&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelExecutor( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispatch( dispatchX, dispatchY, dispatchZ ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #dispatch data-toc-label='dispatch' }
+#### dispatch( dispatchX, dispatchY, dispatchZ ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #dispatch data-toc-label='dispatch' }
 
 Execute the kernel in parallel, with the given dispatch dimensions (controls how many workgroups there are)
 
-#### next() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #next data-toc-label='next' }
+#### next() {: #next data-toc-label='next' }
 
 Kick off the next pending execution thread action.
 
-#### start() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #start data-toc-label='start' }
+#### start() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #start data-toc-label='start' }
 
 Called from execution threads at the start of their execution. We'll pause all of them until we're ready to
 proceed.
 
-#### workgroupBarrier( workgroup : <span style="font-weight: 400; opacity: 80%;">ParallelWorkgroup&lt;WorkgroupValues&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #workgroupBarrier data-toc-label='workgroupBarrier' }
+#### workgroupBarrier( workgroup : <span style="font-weight: 400;">[ParallelWorkgroup](../alpenglow/ParallelWorkgroup.md)&lt;WorkgroupValues&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #workgroupBarrier data-toc-label='workgroupBarrier' }
 
 Called from execution threads through the context
 
-#### storageBarrier( workgroup : <span style="font-weight: 400; opacity: 80%;">ParallelWorkgroup&lt;WorkgroupValues&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #storageBarrier data-toc-label='storageBarrier' }
+#### storageBarrier( workgroup : <span style="font-weight: 400;">[ParallelWorkgroup](../alpenglow/ParallelWorkgroup.md)&lt;WorkgroupValues&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #storageBarrier data-toc-label='storageBarrier' }
 
 Called from execution threads through the context
 
-#### afterSet() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #afterSet data-toc-label='afterSet' }
+#### afterSet() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #afterSet data-toc-label='afterSet' }
 
 Called indirectly from execution threads through the context (when they set a value in a storage/workgroup array)
 
-#### afterGet() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #afterGet data-toc-label='afterGet' }
+#### afterGet() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #afterGet data-toc-label='afterGet' }
 
 Called indirectly from execution threads through the context (when they get a value in a storage/workgroup array)
 
 ### Instance Properties
 
-#### resolves : <span style="font-weight: 400; opacity: 80%;">( () =&gt; void )[]</span> {: #resolves data-toc-label='resolves' }
+#### resolves : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[]</span> {: #resolves data-toc-label='resolves' }
 
 (readonly)
 
@@ -72,7 +72,7 @@ A list of functions to call when we're ready to execute the next item.
 Each one will resolve a promise that one kernel execution thread is waiting on, which SHOULD trigger another
 method on this executor (OR will resolve the promise for the kernel execution thread).
 
-#### donePromises : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;[]</span> {: #donePromises data-toc-label='donePromises' }
+#### donePromises : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;[]</span> {: #donePromises data-toc-label='donePromises' }
 
 (readonly)
 

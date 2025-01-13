@@ -17,7 +17,7 @@ import { BackButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new BackButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">BackButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new BackButton( providedOptions? : <span style="font-weight: 400;">[BackButtonOptions](../scenery-phet/BackButton.md#BackButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

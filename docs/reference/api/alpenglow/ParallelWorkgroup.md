@@ -16,7 +16,7 @@ import { ParallelWorkgroup } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelWorkgroup( kernel : <span style="font-weight: 400; opacity: 80%;">ParallelKernel&lt;WorkgroupValues&gt;</span>, id : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, values : <span style="font-weight: 400; opacity: 80%;">WorkgroupValues</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelWorkgroup( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, id : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, values : <span style="font-weight: 400;">WorkgroupValues</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,9 +24,9 @@ import { ParallelWorkgroup } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### workgroupResolves : <span style="font-weight: 400; opacity: 80%;">( () =&gt; void )[]</span> {: #workgroupResolves data-toc-label='workgroupResolves' }
+#### workgroupResolves : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[]</span> {: #workgroupResolves data-toc-label='workgroupResolves' }
 
-#### storageResolves : <span style="font-weight: 400; opacity: 80%;">( () =&gt; void )[]</span> {: #storageResolves data-toc-label='storageResolves' }
+#### storageResolves : <span style="font-weight: 400;">( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[]</span> {: #storageResolves data-toc-label='storageResolves' }
 
 
 

@@ -14,19 +14,19 @@ import { PolygonMitchellNetravali } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### evaluateFull( pointX : <span style="font-weight: 400; opacity: 80%;">number</span>, pointY : <span style="font-weight: 400; opacity: 80%;">number</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateFull data-toc-label='evaluateFull' }
+#### evaluateFull( pointX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, pointY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateFull data-toc-label='evaluateFull' }
 
-#### evaluateLinearEdges( edges : <span style="font-weight: 400; opacity: 80%;">LinearEdge[]</span>, pointX : <span style="font-weight: 400; opacity: 80%;">number</span>, pointY : <span style="font-weight: 400; opacity: 80%;">number</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateLinearEdges data-toc-label='evaluateLinearEdges' }
-
-Evaluates the contribution of the (clipped) polygon to the filter at the given point. minX/minY note the lower
-coordinates of the clipped polygon unit pixel.
-
-#### evaluatePolygons( polygons : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span>, pointX : <span style="font-weight: 400; opacity: 80%;">number</span>, pointY : <span style="font-weight: 400; opacity: 80%;">number</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluatePolygons data-toc-label='evaluatePolygons' }
+#### evaluateLinearEdges( edges : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span>, pointX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, pointY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateLinearEdges data-toc-label='evaluateLinearEdges' }
 
 Evaluates the contribution of the (clipped) polygon to the filter at the given point. minX/minY note the lower
 coordinates of the clipped polygon unit pixel.
 
-#### evaluateFilter( t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateFilter data-toc-label='evaluateFilter' }
+#### evaluatePolygons( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span>, pointX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, pointY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluatePolygons data-toc-label='evaluatePolygons' }
+
+Evaluates the contribution of the (clipped) polygon to the filter at the given point. minX/minY note the lower
+coordinates of the clipped polygon unit pixel.
+
+#### evaluateFilter( t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateFilter data-toc-label='evaluateFilter' }
 
 Evaluates the 1-dimensional Mitchell-Netravali filter at the given point. Outside -2&lt;=t&lt;=2, the filter will be
 zero.
@@ -34,13 +34,13 @@ zero.
 NOTE: It is a separable filter, so if you need the 2D equivalent, just do
 evaluateFilter( x ) * evaluateFilter( y )
 
-#### evaluate( polygon : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span>, point : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( polygon : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
-#### evaluateCase00( p0x : <span style="font-weight: 400; opacity: 80%;">number</span>, p0y : <span style="font-weight: 400; opacity: 80%;">number</span>, p1x : <span style="font-weight: 400; opacity: 80%;">number</span>, p1y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateCase00 data-toc-label='evaluateCase00' }
+#### evaluateCase00( p0x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateCase00 data-toc-label='evaluateCase00' }
 
-#### evaluateCase10( p0x : <span style="font-weight: 400; opacity: 80%;">number</span>, p0y : <span style="font-weight: 400; opacity: 80%;">number</span>, p1x : <span style="font-weight: 400; opacity: 80%;">number</span>, p1y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateCase10 data-toc-label='evaluateCase10' }
+#### evaluateCase10( p0x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateCase10 data-toc-label='evaluateCase10' }
 
-#### evaluateCase11( p0x : <span style="font-weight: 400; opacity: 80%;">number</span>, p0y : <span style="font-weight: 400; opacity: 80%;">number</span>, p1x : <span style="font-weight: 400; opacity: 80%;">number</span>, p1y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluateCase11 data-toc-label='evaluateCase11' }
+#### evaluateCase11( p0x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p1y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluateCase11 data-toc-label='evaluateCase11' }
 
 ### Static Properties
 

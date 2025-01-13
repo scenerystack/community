@@ -14,13 +14,13 @@ import { BigIntVector2 } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BigIntVector2( x : <span style="font-weight: 400; opacity: 80%;">bigint</span>, y : <span style="font-weight: 400; opacity: 80%;">bigint</span> ) {: #constructor data-toc-label='constructor' }
+#### new BigIntVector2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### equals( vector : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equals( vector : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 
 

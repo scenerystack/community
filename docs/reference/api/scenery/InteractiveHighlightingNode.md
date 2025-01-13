@@ -15,7 +15,7 @@ import { InteractiveHighlightingNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new InteractiveHighlightingNode( options? : <span style="font-weight: 400; opacity: 80%;">InteractiveHighlightingNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new InteractiveHighlightingNode( options? : <span style="font-weight: 400;">[InteractiveHighlightingNodeOptions](../scenery/InteractiveHighlightingNode.md#InteractiveHighlightingNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

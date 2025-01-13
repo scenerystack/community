@@ -16,7 +16,7 @@ import { CloseButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new CloseButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">CloseButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new CloseButton( providedOptions? : <span style="font-weight: 400;">[CloseButtonOptions](../scenery-phet/CloseButton.md#CloseButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

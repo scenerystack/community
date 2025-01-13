@@ -18,33 +18,33 @@ import { GridConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GridConstraint( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">GridConstraintOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### layout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #layout data-toc-label='layout' }
+#### layout() {: #layout data-toc-label='layout' }
 
 (protected)
 
-#### addCell( cell : <span style="font-weight: 400; opacity: 80%;">GridCell</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addCell data-toc-label='addCell' }
+#### addCell( cell : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md)</span> ) {: #addCell data-toc-label='addCell' }
 
-#### removeCell( cell : <span style="font-weight: 400; opacity: 80%;">GridCell</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeCell data-toc-label='removeCell' }
+#### removeCell( cell : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md)</span> ) {: #removeCell data-toc-label='removeCell' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
-#### getIndices( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">number[]</span> {: #getIndices data-toc-label='getIndices' }
+#### getIndices( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> {: #getIndices data-toc-label='getIndices' }
 
-#### getCell( row : <span style="font-weight: 400; opacity: 80%;">number</span>, column : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">GridCell | null</span> {: #getCell data-toc-label='getCell' }
+#### getCell( row : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, column : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getCell data-toc-label='getCell' }
 
-#### getCellFromNode( node : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">GridCell | null</span> {: #getCellFromNode data-toc-label='getCellFromNode' }
+#### getCellFromNode( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getCellFromNode data-toc-label='getCellFromNode' }
 
-#### getCells( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">GridCell[]</span> {: #getCells data-toc-label='getCells' }
+#### getCells( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[GridCell](../scenery/GridCell.md)[]</span> {: #getCells data-toc-label='getCells' }
 
 ### Static Methods
 
-#### create( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, options? : <span style="font-weight: 400; opacity: 80%;">GridConstraintOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">GridConstraint</span> {: #create data-toc-label='create' }
+#### create( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions)</span> ) : <span style="font-weight: 400;">[GridConstraint](../scenery/GridConstraint.md)</span> {: #create data-toc-label='create' }
 
 
 

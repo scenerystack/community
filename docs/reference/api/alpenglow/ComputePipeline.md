@@ -14,17 +14,17 @@ import { ComputePipeline } from 'scenerystack/alpenglow';
 ```
 ### Instance Properties
 
-#### pipeline : <span style="font-weight: 400; opacity: 80%;">GPUComputePipeline</span> {: #pipeline data-toc-label='pipeline' }
+#### pipeline : <span style="font-weight: 400;">GPUComputePipeline</span> {: #pipeline data-toc-label='pipeline' }
 
 This will be available by the time it can be accessed publicly
 
-#### logBarrierPipeline : <span style="font-weight: 400; opacity: 80%;">GPUComputePipeline | null</span> {: #logBarrierPipeline data-toc-label='logBarrierPipeline' }
+#### logBarrierPipeline : <span style="font-weight: 400;">GPUComputePipeline | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #logBarrierPipeline data-toc-label='logBarrierPipeline' }
 
 ### Static Methods
 
-#### getLogBarrierWGSL( pipelineLayout : <span style="font-weight: 400; opacity: 80%;">PipelineLayout</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getLogBarrierWGSL data-toc-label='getLogBarrierWGSL' }
+#### getLogBarrierWGSL( pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getLogBarrierWGSL data-toc-label='getLogBarrierWGSL' }
 
-#### withContextAsync( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span>, wgsl : <span style="font-weight: 400; opacity: 80%;">string</span>, pipelineLayout : <span style="font-weight: 400; opacity: 80%;">PipelineLayout</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;ComputePipeline&gt;</span> {: #withContextAsync data-toc-label='withContextAsync' }
+#### withContextAsync( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, wgsl : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;">Promise&lt;[ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span> {: #withContextAsync data-toc-label='withContextAsync' }
 
 NOTE: Create the non-async version if we ever REALLY want it.
 

@@ -14,15 +14,15 @@ import { LayoutLine } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### initializeLayoutLine() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #initializeLayoutLine data-toc-label='initializeLayoutLine' }
+#### initializeLayoutLine() {: #initializeLayoutLine data-toc-label='initializeLayoutLine' }
 
 (protected)
 
 ### Instance Properties
 
-#### max : <span style="font-weight: 400; opacity: 80%;">number</span> {: #max data-toc-label='max' }
+#### max : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #max data-toc-label='max' }
 
-#### maxOrigin : <span style="font-weight: 400; opacity: 80%;">number</span> {: #maxOrigin data-toc-label='maxOrigin' }
+#### maxOrigin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #maxOrigin data-toc-label='maxOrigin' }
 
 
 

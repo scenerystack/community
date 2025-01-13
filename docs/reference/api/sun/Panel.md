@@ -17,27 +17,27 @@ import { Panel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Panel( content : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PanelOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Panel( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanelOptions](../sun/Panel.md#PanelOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getStroke() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getStroke data-toc-label='getStroke' }
+#### getStroke() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getStroke data-toc-label='getStroke' }
 
 Get the background rectangle's stroke (can be overridden)
 
-#### setStroke( stroke : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setStroke data-toc-label='setStroke' }
+#### setStroke( stroke : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setStroke data-toc-label='setStroke' }
 
 Change the background rectangle's stroke (can be overridden)
 
-#### getFill() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getFill data-toc-label='getFill' }
+#### getFill() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getFill data-toc-label='getFill' }
 
 Get the background rectangle's fill (can be overridden)
 
-#### setFill( fill : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setFill data-toc-label='setFill' }
+#### setFill( fill : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setFill data-toc-label='setFill' }
 
 Change the background rectangle's fill (can be overridden)
 
-#### setExcludeInvisibleChildrenFromBounds( excludeInvisibleChildrenFromBounds : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setExcludeInvisibleChildrenFromBounds data-toc-label='setExcludeInvisibleChildrenFromBounds' }
+#### setExcludeInvisibleChildrenFromBounds( excludeInvisibleChildrenFromBounds : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setExcludeInvisibleChildrenFromBounds data-toc-label='setExcludeInvisibleChildrenFromBounds' }
 
 ### Static Properties
 

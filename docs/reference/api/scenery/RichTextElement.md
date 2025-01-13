@@ -15,35 +15,35 @@ import { RichTextElement } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichTextElement( isLTR : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichTextElement( isLTR : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( isLTR : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #initialize data-toc-label='initialize' }
+#### initialize( isLTR : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
-#### addElement( element : <span style="font-weight: 400; opacity: 80%;">RichTextElement | RichTextLeaf | RichTextNode</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #addElement data-toc-label='addElement' }
+#### addElement( element : <span style="font-weight: 400;">[RichTextElement](../scenery/RichTextElement.md) | [RichTextLeaf](../scenery/RichTextLeaf.md) | [RichTextNode](../scenery/RichTextNode.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #addElement data-toc-label='addElement' }
 
 Adds a child element.
 
 @returns- Whether the item was actually added.
 
-#### addExtraBeforeSpacing( amount : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addExtraBeforeSpacing data-toc-label='addExtraBeforeSpacing' }
+#### addExtraBeforeSpacing( amount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #addExtraBeforeSpacing data-toc-label='addExtraBeforeSpacing' }
 
 Adds an amount of spacing to the "before" side.
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
-#### leftSpacing : <span style="font-weight: 400; opacity: 80%;">number</span> {: #leftSpacing data-toc-label='leftSpacing' }
+#### leftSpacing : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #leftSpacing data-toc-label='leftSpacing' }
 
 The amount of local-coordinate spacing to apply on each side
 
-#### rightSpacing : <span style="font-weight: 400; opacity: 80%;">number</span> {: #rightSpacing data-toc-label='rightSpacing' }
+#### rightSpacing : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #rightSpacing data-toc-label='rightSpacing' }
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

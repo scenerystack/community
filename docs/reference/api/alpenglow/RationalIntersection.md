@@ -14,7 +14,7 @@ import { RationalIntersection } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RationalIntersection( t : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, point : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) {: #constructor data-toc-label='constructor' }
+#### new RationalIntersection( t : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, point : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

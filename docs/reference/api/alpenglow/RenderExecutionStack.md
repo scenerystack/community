@@ -14,37 +14,37 @@ import { RenderExecutionStack } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
-#### getLength() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getLength data-toc-label='getLength' }
+#### getLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLength data-toc-label='getLength' }
 
-#### getCurrentIndex() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCurrentIndex data-toc-label='getCurrentIndex' }
+#### getCurrentIndex() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCurrentIndex data-toc-label='getCurrentIndex' }
 
-#### getLastIndex() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getLastIndex data-toc-label='getLastIndex' }
+#### getLastIndex() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLastIndex data-toc-label='getLastIndex' }
 
-#### push( vector : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #push data-toc-label='push' }
+#### push( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #push data-toc-label='push' }
 
-#### pushValues( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, z : <span style="font-weight: 400; opacity: 80%;">number</span>, w : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushValues data-toc-label='pushValues' }
+#### pushValues( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #pushValues data-toc-label='pushValues' }
 
-#### pushNumber( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushNumber data-toc-label='pushNumber' }
+#### pushNumber( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #pushNumber data-toc-label='pushNumber' }
 
 We're padding for now (for simplicity)
 
-#### popInto( vector : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #popInto data-toc-label='popInto' }
+#### popInto( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #popInto data-toc-label='popInto' }
 
-#### popNumber() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #popNumber data-toc-label='popNumber' }
+#### popNumber() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #popNumber data-toc-label='popNumber' }
 
 Just returns the X component
 
-#### writeTop( vector : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #writeTop data-toc-label='writeTop' }
+#### writeTop( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #writeTop data-toc-label='writeTop' }
 
-#### writeTopValues( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, z : <span style="font-weight: 400; opacity: 80%;">number</span>, w : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeTopValues data-toc-label='writeTopValues' }
+#### writeTopValues( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #writeTopValues data-toc-label='writeTopValues' }
 
-#### readTop( vector : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #readTop data-toc-label='readTop' }
+#### readTop( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #readTop data-toc-label='readTop' }
 
 ### Instance Properties
 
-#### data : <span style="font-weight: 400; opacity: 80%;">ExecutionData</span> {: #data data-toc-label='data' }
+#### data : <span style="font-weight: 400;">ExecutionData</span> {: #data data-toc-label='data' }
 
 
 

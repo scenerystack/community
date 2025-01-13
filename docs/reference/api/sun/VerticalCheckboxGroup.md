@@ -15,11 +15,11 @@ import { VerticalCheckboxGroup } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new VerticalCheckboxGroup( items : <span style="font-weight: 400; opacity: 80%;">VerticalCheckboxGroupItem[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">VerticalCheckboxGroupOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new VerticalCheckboxGroup( items : <span style="font-weight: 400;">[VerticalCheckboxGroupItem](../sun/VerticalCheckboxGroup.md#VerticalCheckboxGroupItem)[]</span>, providedOptions? : <span style="font-weight: 400;">[VerticalCheckboxGroupOptions](../sun/VerticalCheckboxGroup.md#VerticalCheckboxGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

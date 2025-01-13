@@ -19,7 +19,7 @@ import { ArrowShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ArrowShape( tailX : <span style="font-weight: 400; opacity: 80%;">number</span>, tailY : <span style="font-weight: 400; opacity: 80%;">number</span>, tipX : <span style="font-weight: 400; opacity: 80%;">number</span>, tipY : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">ArrowShapeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ArrowShape( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions : <span style="font-weight: 400;">[ArrowShapeOptions](../scenery-phet/ArrowShape.md#ArrowShapeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -27,7 +27,7 @@ import { ArrowShape } from 'scenerystack/scenery-phet';
 
 ### Static Methods
 
-#### getArrowShapePoints( tailX : <span style="font-weight: 400; opacity: 80%;">number</span>, tailY : <span style="font-weight: 400; opacity: 80%;">number</span>, tipX : <span style="font-weight: 400; opacity: 80%;">number</span>, tipY : <span style="font-weight: 400; opacity: 80%;">number</span>, shapePoints : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ArrowShapeOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #getArrowShapePoints data-toc-label='getArrowShapePoints' }
+#### getArrowShapePoints( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, shapePoints : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, providedOptions? : <span style="font-weight: 400;">[ArrowShapeOptions](../scenery-phet/ArrowShape.md#ArrowShapeOptions)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> {: #getArrowShapePoints data-toc-label='getArrowShapePoints' }
 
 This method is static so it can be used in ArrowShape as well as in ArrowNode.  If the tail and tip are at the
 same position, there are no points and the arrow will not be shown.

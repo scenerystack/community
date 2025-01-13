@@ -20,11 +20,11 @@ import { LayoutProxy } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutProxy( trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutProxy( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #initialize data-toc-label='initialize' }
+#### initialize( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
 This is where the logic of a poolable type's "initializer" will go. It will be potentially run MULTIPLE times,
 as if it was constructing multiple different objects. It will be put back in the pool with dispose().
@@ -39,31 +39,31 @@ and so on.
 
 DO not call it twice without in-between disposals (follow the above pattern).
 
-#### isSizable( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSizable data-toc-label='isSizable' }
+#### isSizable( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSizable data-toc-label='isSizable' }
 
-#### getMinimum( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinimum data-toc-label='getMinimum' }
+#### getMinimum( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinimum data-toc-label='getMinimum' }
 
-#### getMax( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">number | null</span> {: #getMax data-toc-label='getMax' }
+#### getMax( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getMax data-toc-label='getMax' }
 
 Returns either the maxWidth or maxHeight depending on the orientation
 
-#### attemptPreferredSize( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span>, preferredSize : <span style="font-weight: 400; opacity: 80%;">number | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #attemptPreferredSize data-toc-label='attemptPreferredSize' }
+#### attemptPreferredSize( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span>, preferredSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #attemptPreferredSize data-toc-label='attemptPreferredSize' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references, and frees it to the pool.
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
-#### trail : <span style="font-weight: 400; opacity: 80%;">Trail | null</span> {: #trail data-toc-label='trail' }
+#### trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #trail data-toc-label='trail' }
 
 Nulled out when disposed
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

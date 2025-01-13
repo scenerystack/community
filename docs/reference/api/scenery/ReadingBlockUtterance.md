@@ -16,7 +16,7 @@ import { ReadingBlockUtterance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ReadingBlockUtterance( focus : <span style="font-weight: 400; opacity: 80%;">Focus | null</span>, options? : <span style="font-weight: 400; opacity: 80%;">ReadingBlockUtteranceOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReadingBlockUtterance( focus : <span style="font-weight: 400;">[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[ReadingBlockUtteranceOptions](../scenery/ReadingBlockUtterance.md#ReadingBlockUtteranceOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,7 +24,7 @@ import { ReadingBlockUtterance } from 'scenerystack/scenery';
 
 ### Instance Properties
 
-#### readingBlockFocus : <span style="font-weight: 400; opacity: 80%;">Focus | null</span> {: #readingBlockFocus data-toc-label='readingBlockFocus' }
+#### readingBlockFocus : <span style="font-weight: 400;">[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #readingBlockFocus data-toc-label='readingBlockFocus' }
 
 Can be set and change to support reusing this ReadingBlockUtterance.
 

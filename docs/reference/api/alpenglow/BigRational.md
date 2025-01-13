@@ -14,75 +14,75 @@ import { BigRational } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BigRational( numerator : <span style="font-weight: 400; opacity: 80%;">bigint | number</span>, denominator : <span style="font-weight: 400; opacity: 80%;">bigint | number</span> ) {: #constructor data-toc-label='constructor' }
+#### new BigRational( numerator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, denominator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### copy() : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #copy data-toc-label='copy' }
+#### copy() : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #copy data-toc-label='copy' }
 
-#### plus( rational : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #plus data-toc-label='plus' }
-
-lazy implementation NOT meant to be in JS due to excess reduction
-
-#### minus( rational : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #minus data-toc-label='minus' }
+#### plus( rational : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #plus data-toc-label='plus' }
 
 lazy implementation NOT meant to be in JS due to excess reduction
 
-#### times( rational : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #times data-toc-label='times' }
+#### minus( rational : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #minus data-toc-label='minus' }
 
 lazy implementation NOT meant to be in JS due to excess reduction
 
-#### dividedBy( rational : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #dividedBy data-toc-label='dividedBy' }
+#### times( rational : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #times data-toc-label='times' }
 
 lazy implementation NOT meant to be in JS due to excess reduction
 
-#### reduce() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reduce data-toc-label='reduce' }
+#### dividedBy( rational : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #dividedBy data-toc-label='dividedBy' }
 
-#### reduced() : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #reduced data-toc-label='reduced' }
+lazy implementation NOT meant to be in JS due to excess reduction
 
-#### isZero() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isZero data-toc-label='isZero' }
+#### reduce() {: #reduce data-toc-label='reduce' }
 
-#### isNegative() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isNegative data-toc-label='isNegative' }
+#### reduced() : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #reduced data-toc-label='reduced' }
 
-#### isPositive() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isPositive data-toc-label='isPositive' }
+#### isZero() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isZero data-toc-label='isZero' }
 
-#### ratioTest() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #ratioTest data-toc-label='ratioTest' }
+#### isNegative() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isNegative data-toc-label='isNegative' }
 
-#### equalsCrossMul( other : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsCrossMul data-toc-label='equalsCrossMul' }
+#### isPositive() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isPositive data-toc-label='isPositive' }
 
-#### compareCrossMul( other : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #compareCrossMul data-toc-label='compareCrossMul' }
+#### ratioTest() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #ratioTest data-toc-label='ratioTest' }
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">BigRational</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equalsCrossMul( other : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsCrossMul data-toc-label='equalsCrossMul' }
+
+#### compareCrossMul( other : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compareCrossMul data-toc-label='compareCrossMul' }
+
+#### equals( other : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
 NOT for WGSL, slow
 
-#### toFloat( precision ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #toFloat data-toc-label='toFloat' }
+#### toFloat( precision ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #toFloat data-toc-label='toFloat' }
 
 TODO: better way to do this?
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 ### Instance Properties
 
-#### numerator : <span style="font-weight: 400; opacity: 80%;">bigint</span> {: #numerator data-toc-label='numerator' }
+#### numerator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> {: #numerator data-toc-label='numerator' }
 
-#### denominator : <span style="font-weight: 400; opacity: 80%;">bigint</span> {: #denominator data-toc-label='denominator' }
+#### denominator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> {: #denominator data-toc-label='denominator' }
 
 ### Static Methods
 
-#### whole( numerator : <span style="font-weight: 400; opacity: 80%;">number | bigint</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #whole data-toc-label='whole' }
+#### whole( numerator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #whole data-toc-label='whole' }
 
-#### inverse( numerator : <span style="font-weight: 400; opacity: 80%;">number | bigint</span> ) : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #inverse data-toc-label='inverse' }
+#### inverse( numerator : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #inverse data-toc-label='inverse' }
 
-#### gcdBigInt( a : <span style="font-weight: 400; opacity: 80%;">bigint</span>, b : <span style="font-weight: 400; opacity: 80%;">bigint</span> ) : <span style="font-weight: 400; opacity: 80%;">bigint</span> {: #gcdBigInt data-toc-label='gcdBigInt' }
+#### gcdBigInt( a : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span>, b : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> {: #gcdBigInt data-toc-label='gcdBigInt' }
 
 ### Static Properties
 
-#### ZERO : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #ZERO data-toc-label='ZERO' }
+#### ZERO : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #ZERO data-toc-label='ZERO' }
 
 (readonly)
 
-#### ONE : <span style="font-weight: 400; opacity: 80%;">BigRational</span> {: #ONE data-toc-label='ONE' }
+#### ONE : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> {: #ONE data-toc-label='ONE' }
 
 (readonly)
 

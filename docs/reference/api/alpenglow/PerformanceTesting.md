@@ -14,7 +14,7 @@ import { PerformanceTesting } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### loopRadixSortTest( combineStrategy : <span style="font-weight: 400; opacity: 80%;">boolean</span>, separateComputePasses : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #loopRadixSortTest data-toc-label='loopRadixSortTest' }
+#### loopRadixSortTest( combineStrategy : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, separateComputePasses : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #loopRadixSortTest data-toc-label='loopRadixSortTest' }
 
 
 

@@ -17,46 +17,46 @@ import { ParallelContext } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelContext( kernel : <span style="font-weight: 400; opacity: 80%;">ParallelKernel&lt;WorkgroupValues&gt;</span>, localId : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, workgroup : <span style="font-weight: 400; opacity: 80%;">ParallelWorkgroup&lt;WorkgroupValues&gt;</span>, executor : <span style="font-weight: 400; opacity: 80%;">ParallelExecutor&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelContext( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, localId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, workgroup : <span style="font-weight: 400;">[ParallelWorkgroup](../alpenglow/ParallelWorkgroup.md)&lt;WorkgroupValues&gt;</span>, executor : <span style="font-weight: 400;">[ParallelExecutor](../alpenglow/ParallelExecutor.md)&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### start() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #start data-toc-label='start' }
+#### start() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #start data-toc-label='start' }
 
 To be called from within the kernel execution function
 
-#### workgroupBarrier() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #workgroupBarrier data-toc-label='workgroupBarrier' }
+#### workgroupBarrier() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #workgroupBarrier data-toc-label='workgroupBarrier' }
 
 To be called from within the kernel execution function
 
-#### storageBarrier() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #storageBarrier data-toc-label='storageBarrier' }
+#### storageBarrier() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #storageBarrier data-toc-label='storageBarrier' }
 
 To be called from within the kernel execution function
 
-#### afterSet() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #afterSet data-toc-label='afterSet' }
+#### afterSet() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #afterSet data-toc-label='afterSet' }
 
 TODO: workgroupUniformLoad
 To be called from within the kernel execution function
 
-#### afterGet() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #afterGet data-toc-label='afterGet' }
+#### afterGet() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #afterGet data-toc-label='afterGet' }
 
 To be called from within the kernel execution function
 
 ### Instance Properties
 
-#### globalId : <span style="font-weight: 400; opacity: 80%;">Vector3</span> {: #globalId data-toc-label='globalId' }
+#### globalId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #globalId data-toc-label='globalId' }
 
 (readonly)
 
-#### localIndex : <span style="font-weight: 400; opacity: 80%;">number</span> {: #localIndex data-toc-label='localIndex' }
+#### localIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #localIndex data-toc-label='localIndex' }
 
 (readonly)
 
-#### workgroupId : <span style="font-weight: 400; opacity: 80%;">Vector3</span> {: #workgroupId data-toc-label='workgroupId' }
+#### workgroupId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #workgroupId data-toc-label='workgroupId' }
 
 (readonly)
 
-#### workgroupValues : <span style="font-weight: 400; opacity: 80%;">WorkgroupValues</span> {: #workgroupValues data-toc-label='workgroupValues' }
+#### workgroupValues : <span style="font-weight: 400;">WorkgroupValues</span> {: #workgroupValues data-toc-label='workgroupValues' }
 
 (readonly)
 

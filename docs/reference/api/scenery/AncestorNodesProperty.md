@@ -14,15 +14,15 @@ import { AncestorNodesProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AncestorNodesProperty( node : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+#### new AncestorNodesProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### updateEmitter : <span style="font-weight: 400; opacity: 80%;">TinyEmitter</span> {: #updateEmitter data-toc-label='updateEmitter' }
+#### updateEmitter : <span style="font-weight: 400;">[TinyEmitter](../axon/TinyEmitter.md)</span> {: #updateEmitter data-toc-label='updateEmitter' }
 
 (readonly)
 

@@ -27,17 +27,17 @@ import { ParallelStorageArray } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelStorageArray( data : <span style="font-weight: 400; opacity: 80%;">T[]</span>, indeterminateValue : <span style="font-weight: 400; opacity: 80%;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelStorageArray( data : <span style="font-weight: 400;">T[]</span>, indeterminateValue : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### get( context : <span style="font-weight: 400; opacity: 80%;">ParallelContext&lt;WorkgroupValues&gt;</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;T&gt;</span> {: #get data-toc-label='get' }
+#### get( context : <span style="font-weight: 400;">[ParallelContext](../alpenglow/ParallelContext.md)&lt;WorkgroupValues&gt;</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">Promise&lt;T&gt;</span> {: #get data-toc-label='get' }
 
-#### set( context : <span style="font-weight: 400; opacity: 80%;">ParallelContext&lt;WorkgroupValues&gt;</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #set data-toc-label='set' }
+#### set( context : <span style="font-weight: 400;">[ParallelContext](../alpenglow/ParallelContext.md)&lt;WorkgroupValues&gt;</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #set data-toc-label='set' }
 
-#### synchronize( workgroupId : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #synchronize data-toc-label='synchronize' }
+#### synchronize( workgroupId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #synchronize data-toc-label='synchronize' }
 
-#### synchronizeFull() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #synchronizeFull data-toc-label='synchronizeFull' }
+#### synchronizeFull() {: #synchronizeFull data-toc-label='synchronizeFull' }
 
 
 

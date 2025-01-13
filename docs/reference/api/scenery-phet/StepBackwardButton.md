@@ -14,7 +14,7 @@ import { StepBackwardButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StepBackwardButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">StepBackwardButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new StepBackwardButton( providedOptions? : <span style="font-weight: 400;">[StepBackwardButtonOptions](../scenery-phet/StepBackwardButton.md#StepBackwardButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

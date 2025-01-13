@@ -14,13 +14,13 @@ import { OrientationPair } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new OrientationPair( horizontal : <span style="font-weight: 400; opacity: 80%;">T</span>, vertical : <span style="font-weight: 400; opacity: 80%;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new OrientationPair( horizontal : <span style="font-weight: 400;">T</span>, vertical : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### with( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">OrientationPair&lt;T&gt;</span> {: #with data-toc-label='with' }
+#### with( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span>, value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">[OrientationPair](../phet-core/OrientationPair.md)&lt;T&gt;</span> {: #with data-toc-label='with' }
 
-#### map( mapFunction : <span style="font-weight: 400; opacity: 80%;">( value: T, orientation: Orientation ) =&gt; T</span> ) : <span style="font-weight: 400; opacity: 80%;">OrientationPair&lt;T&gt;</span> {: #map data-toc-label='map' }
+#### map( mapFunction : <span style="font-weight: 400;">( value: T, orientation: [Orientation](../phet-core/Orientation.md) ) =&gt; T</span> ) : <span style="font-weight: 400;">[OrientationPair](../phet-core/OrientationPair.md)&lt;T&gt;</span> {: #map data-toc-label='map' }
 
 Returns a new EnumerationMap with mapped values.
 
@@ -29,7 +29,7 @@ Returns a new EnumerationMap with mapped values.
 
 ### Static Methods
 
-#### create( factory : <span style="font-weight: 400; opacity: 80%;">( o: Orientation ) =&gt; T</span> ) : <span style="font-weight: 400; opacity: 80%;">OrientationPair&lt;T&gt;</span> {: #create data-toc-label='create' }
+#### create( factory : <span style="font-weight: 400;">( o: [Orientation](../phet-core/Orientation.md) ) =&gt; T</span> ) : <span style="font-weight: 400;">[OrientationPair](../phet-core/OrientationPair.md)&lt;T&gt;</span> {: #create data-toc-label='create' }
 
 Creates an orientation pair based on a factory method.
 

@@ -30,15 +30,15 @@ import { UnitConversionProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new UnitConversionProperty( property : <span style="font-weight: 400; opacity: 80%;">( TReadOnlyProperty&lt;number&gt; | TRangedProperty )</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">UnitConversionPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new UnitConversionProperty( property : <span style="font-weight: 400;">( [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | [TRangedProperty](../axon/TRangedProperty.md) )</span>, providedOptions : <span style="font-weight: 400;">[UnitConversionPropertyOptions](../axon/UnitConversionProperty.md#UnitConversionPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### rangeProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Range&gt;</span> {: #rangeProperty data-toc-label='rangeProperty' }
+#### rangeProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Range](../dot/Range.md)&gt;</span> {: #rangeProperty data-toc-label='rangeProperty' }
 
 (readonly)
 

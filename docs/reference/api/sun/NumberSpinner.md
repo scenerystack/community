@@ -15,11 +15,11 @@ import { NumberSpinner } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new NumberSpinner( numberProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;number&gt;</span>, rangeProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Range&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">NumberSpinnerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberSpinner( numberProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, rangeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[NumberSpinnerOptions](../sun/NumberSpinner.md#NumberSpinnerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

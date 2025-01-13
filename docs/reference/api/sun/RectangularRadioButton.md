@@ -15,44 +15,44 @@ import { RectangularRadioButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularRadioButton( property : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">RectangularRadioButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### fire() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #fire data-toc-label='fire' }
+#### fire() {: #fire data-toc-label='fire' }
 
 fire on up if the button is enabled, public for use in the accessibility tree
 
 ### Instance Properties
 
-#### property : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span> {: #property data-toc-label='property' }
+#### property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span> {: #property data-toc-label='property' }
 
 (readonly)
 
 the Property this button changes
 
-#### value : <span style="font-weight: 400; opacity: 80%;">T</span> {: #value data-toc-label='value' }
+#### value : <span style="font-weight: 400;">T</span> {: #value data-toc-label='value' }
 
 (readonly)
 
 the value that is set to the Property when this button is pressed
 
-#### interactionStateProperty : <span style="font-weight: 400; opacity: 80%;">RadioButtonInteractionStateProperty&lt;T&gt;</span> {: #interactionStateProperty data-toc-label='interactionStateProperty' }
+#### interactionStateProperty : <span style="font-weight: 400;">[RadioButtonInteractionStateProperty](../sun/RadioButtonInteractionStateProperty.md)&lt;T&gt;</span> {: #interactionStateProperty data-toc-label='interactionStateProperty' }
 
 (readonly)
 
 ### Static Properties
 
-#### FlatAppearanceStrategy : <span style="font-weight: 400; opacity: 80%;">TButtonAppearanceStrategy</span> {: #FlatAppearanceStrategy data-toc-label='FlatAppearanceStrategy' }
+#### FlatAppearanceStrategy : <span style="font-weight: 400;">[TButtonAppearanceStrategy](../sun/TButtonAppearanceStrategy.md)</span> {: #FlatAppearanceStrategy data-toc-label='FlatAppearanceStrategy' }
 
 (readonly)
 
 FlatAppearanceStrategy is a value for RectangularRadioButton options.buttonAppearanceStrategy. It makes radio buttons
 that look flat, i.e. no shading or highlighting, but that change color on mouseover, press, selected, etc.
 
-#### ContentAppearanceStrategy : <span style="font-weight: 400; opacity: 80%;">TContentAppearanceStrategy</span> {: #ContentAppearanceStrategy data-toc-label='ContentAppearanceStrategy' }
+#### ContentAppearanceStrategy : <span style="font-weight: 400;">[TContentAppearanceStrategy](../sun/TContentAppearanceStrategy.md)</span> {: #ContentAppearanceStrategy data-toc-label='ContentAppearanceStrategy' }
 
 (readonly)
 

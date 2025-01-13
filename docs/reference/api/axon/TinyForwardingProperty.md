@@ -23,15 +23,15 @@ import { TinyForwardingProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyForwardingProperty( value : <span style="font-weight: 400; opacity: 80%;">ValueType</span>, targetPropertyInstrumented, onBeforeNotify? : <span style="font-weight: 400; opacity: 80%;">TinyPropertyOnBeforeNotify&lt;ValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyForwardingProperty( value : <span style="font-weight: 400;">ValueType</span>, targetPropertyInstrumented, onBeforeNotify? : <span style="font-weight: 400;">[TinyPropertyOnBeforeNotify](../axon/TinyProperty.md#TinyPropertyOnBeforeNotify)&lt;ValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setValueOrTargetProperty( node : <span style="font-weight: 400; opacity: 80%;">NodeParam</span>, tandemName : <span style="font-weight: 400; opacity: 80%;">string | null</span>, newValueOrTargetProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ValueType&gt; | ValueType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setValueOrTargetProperty data-toc-label='setValueOrTargetProperty' }
+#### setValueOrTargetProperty( node : <span style="font-weight: 400;">NodeParam</span>, tandemName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, newValueOrTargetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;ValueType&gt; | ValueType</span> ) {: #setValueOrTargetProperty data-toc-label='setValueOrTargetProperty' }
 
 API support for setting a Property|ValueType onto the forwarding Property
 
-#### setTargetProperty( newTargetProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ValueType&gt; | null</span>, node : <span style="font-weight: 400; opacity: 80%;">NodeParam</span>, tandemName : <span style="font-weight: 400; opacity: 80%;">string | null</span> ) : <span style="font-weight: 400; opacity: 80%;">NodeParam</span> {: #setTargetProperty data-toc-label='setTargetProperty' }
+#### setTargetProperty( newTargetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;ValueType&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, node : <span style="font-weight: 400;">NodeParam</span>, tandemName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">NodeParam</span> {: #setTargetProperty data-toc-label='setTargetProperty' }
 
 Sets (or unsets if `null` is provided) the Property that we use for forwarding changes.
 
@@ -41,37 +41,37 @@ Sets (or unsets if `null` is provided) the Property that we use for forwarding c
 @param tandemName - null if the Property does not support PhET-iO instrumentation
 @returns the passed in Node, for chaining.
 
-#### set( value : <span style="font-weight: 400; opacity: 80%;">ValueType</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #set data-toc-label='set' }
+#### set( value : <span style="font-weight: 400;">ValueType</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #set data-toc-label='set' }
 
 Sets the value and notifies listeners, unless deferred or disposed. You can also use the es5 getter
 (property.value) but this means is provided for inner loops or internal code that must be fast. If the value
 hasn't changed, this is a no-op.
 
-#### setTargetPropertyInstrumented( targetPropertyInstrumented : <span style="font-weight: 400; opacity: 80%;">boolean</span>, node : <span style="font-weight: 400; opacity: 80%;">NodeType</span> ) : <span style="font-weight: 400; opacity: 80%;">NodeType</span> {: #setTargetPropertyInstrumented data-toc-label='setTargetPropertyInstrumented' }
+#### setTargetPropertyInstrumented( targetPropertyInstrumented : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, node : <span style="font-weight: 400;">NodeType</span> ) : <span style="font-weight: 400;">NodeType</span> {: #setTargetPropertyInstrumented data-toc-label='setTargetPropertyInstrumented' }
 
 Use this to automatically create a forwarded, PhET-iO instrumented Property owned by this TinyForwardingProperty.
 
-#### getTargetPropertyInstrumented() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #getTargetPropertyInstrumented data-toc-label='getTargetPropertyInstrumented' }
+#### getTargetPropertyInstrumented() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getTargetPropertyInstrumented data-toc-label='getTargetPropertyInstrumented' }
 
-#### initializePhetio( node : <span style="font-weight: 400; opacity: 80%;">NodeLike</span>, tandemName : <span style="font-weight: 400; opacity: 80%;">string</span>, createProperty : <span style="font-weight: 400; opacity: 80%;">() =&gt; TProperty&lt;ValueType&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #initializePhetio data-toc-label='initializePhetio' }
+#### initializePhetio( node : <span style="font-weight: 400;">NodeLike</span>, tandemName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, createProperty : <span style="font-weight: 400;">() =&gt; [TProperty](../axon/TProperty.md)&lt;ValueType&gt;</span> ) {: #initializePhetio data-toc-label='initializePhetio' }
 
 @param node - the parent container that supports updateLinkedElementForProperty()
 @param tandemName
 @param createProperty - creates an "owned" Property
 
-#### getTargetProperty() : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ValueType&gt; | null</span> {: #getTargetProperty data-toc-label='getTargetProperty' }
+#### getTargetProperty() : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;ValueType&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getTargetProperty data-toc-label='getTargetProperty' }
 
 Get the target property, if any. Use sparingly! Internal use only.
 
-#### isSettable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSettable data-toc-label='isSettable' }
+#### isSettable() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSettable data-toc-label='isSettable' }
 
 A TinyForwardingProperty is settable if the target property is settable.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### forwardingListener : <span style="font-weight: 400; opacity: 80%;">PropertyLazyLinkListener&lt;ValueType&gt;</span> {: #forwardingListener data-toc-label='forwardingListener' }
+#### forwardingListener : <span style="font-weight: 400;">[PropertyLazyLinkListener](../axon/TReadOnlyProperty.md#PropertyLazyLinkListener)&lt;ValueType&gt;</span> {: #forwardingListener data-toc-label='forwardingListener' }
 
 (protected)
 

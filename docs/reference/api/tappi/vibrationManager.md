@@ -28,15 +28,15 @@ import { Intensity } from 'scenerystack/tappi';
 ```
 ### Static Properties
 
-#### HIGH : <span style="font-weight: 400; opacity: 80%;">Intensity</span> {: #Intensity-HIGH data-toc-label='Intensity-HIGH' }
+#### HIGH : <span style="font-weight: 400;">[Intensity](../tappi/vibrationManager.md#Intensity)</span> {: #Intensity-HIGH data-toc-label='Intensity-HIGH' }
 
 (readonly)
 
-#### LOW : <span style="font-weight: 400; opacity: 80%;">Intensity</span> {: #Intensity-LOW data-toc-label='Intensity-LOW' }
+#### LOW : <span style="font-weight: 400;">[Intensity](../tappi/vibrationManager.md#Intensity)</span> {: #Intensity-LOW data-toc-label='Intensity-LOW' }
 
 (readonly)
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #Intensity-enumeration data-toc-label='Intensity-enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #Intensity-enumeration data-toc-label='Intensity-enumeration' }
 
 (readonly)
 

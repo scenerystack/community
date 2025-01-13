@@ -15,29 +15,29 @@ import { AccordionBox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new AccordionBox( contentNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">AccordionBoxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new AccordionBox( contentNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AccordionBoxOptions](../sun/AccordionBox.md#AccordionBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getCollapsedBoxHeight() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCollapsedBoxHeight data-toc-label='getCollapsedBoxHeight' }
+#### getCollapsedBoxHeight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCollapsedBoxHeight data-toc-label='getCollapsedBoxHeight' }
 
 Returns the ideal height of the collapsed box (ignoring things like stroke width)
 
-#### getExpandedBoxHeight() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getExpandedBoxHeight data-toc-label='getExpandedBoxHeight' }
+#### getExpandedBoxHeight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getExpandedBoxHeight data-toc-label='getExpandedBoxHeight' }
 
 Returns the ideal height of the expanded box (ignoring things like stroke width)
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
 ### Instance Properties
 
-#### expandedProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span> {: #expandedProperty data-toc-label='expandedProperty' }
+#### expandedProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #expandedProperty data-toc-label='expandedProperty' }
 
 (readonly)
 
 ### Static Properties
 
-#### AccordionBoxIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #AccordionBoxIO data-toc-label='AccordionBoxIO' }
+#### AccordionBoxIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #AccordionBoxIO data-toc-label='AccordionBoxIO' }
 
 (readonly)
 

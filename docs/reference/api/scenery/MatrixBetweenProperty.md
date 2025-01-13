@@ -17,11 +17,11 @@ import { MatrixBetweenProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new MatrixBetweenProperty( from : <span style="font-weight: 400; opacity: 80%;">Node</span>, to : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">MatrixBetweenPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MatrixBetweenProperty( from : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, to : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[MatrixBetweenPropertyOptions](../scenery/MatrixBetweenProperty.md#MatrixBetweenPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

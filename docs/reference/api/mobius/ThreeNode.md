@@ -15,33 +15,33 @@ import { ThreeNode } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeNode( width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ThreeNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeNode( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[ThreeNodeOptions](../mobius/ThreeNode.md#ThreeNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### projectPoint( point : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #projectPoint data-toc-label='projectPoint' }
+#### projectPoint( point : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #projectPoint data-toc-label='projectPoint' }
 
 Projects a 3d point in the global coordinate frame to one within the 2d global coordinate frame.
 
-#### layout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #layout data-toc-label='layout' }
+#### layout() {: #layout data-toc-label='layout' }
 
-#### render( target : <span style="font-weight: 400; opacity: 80%;">THREE.WebGLRenderTarget | undefined</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #render data-toc-label='render' }
+#### render( target : <span style="font-weight: 400;">THREE.WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> ) {: #render data-toc-label='render' }
 
 Renders the simulation to a specific rendering target
 
 @param target - undefined for the default target
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references.
 
 ### Instance Properties
 
-#### stage : <span style="font-weight: 400; opacity: 80%;">ThreeStage</span> {: #stage data-toc-label='stage' }
+#### stage : <span style="font-weight: 400;">[ThreeStage](../mobius/ThreeStage.md)</span> {: #stage data-toc-label='stage' }
 
 (readonly)
 
-#### backgroundEventTarget : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #backgroundEventTarget data-toc-label='backgroundEventTarget' }
+#### backgroundEventTarget : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #backgroundEventTarget data-toc-label='backgroundEventTarget' }
 
 (readonly)
 

@@ -14,11 +14,11 @@ import { FlowCell } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowCell( constraint : <span style="font-weight: 400; opacity: 80%;">FlowConstraint</span>, node : <span style="font-weight: 400; opacity: 80%;">Node</span>, proxy : <span style="font-weight: 400; opacity: 80%;">LayoutProxy | null</span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowCell( constraint : <span style="font-weight: 400;">[FlowConstraint](../scenery/FlowConstraint.md)</span>, node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, proxy : <span style="font-weight: 400;">[LayoutProxy](../scenery/LayoutProxy.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### onLayoutOptionsChange( isInitial ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
+#### onLayoutOptionsChange( isInitial ) {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
 
 (protected)
 

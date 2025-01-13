@@ -16,23 +16,23 @@ import { SVGLinearGradient } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGLinearGradient( svgBlock : <span style="font-weight: 400; opacity: 80%;">SVGBlock</span>, gradient : <span style="font-weight: 400; opacity: 80%;">LinearGradient</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGLinearGradient( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[LinearGradient](../scenery/LinearGradient.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( svgBlock : <span style="font-weight: 400; opacity: 80%;">SVGBlock</span>, gradient : <span style="font-weight: 400; opacity: 80%;">LinearGradient</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #initialize data-toc-label='initialize' }
+#### initialize( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[LinearGradient](../scenery/LinearGradient.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
-#### createDefinition() : <span style="font-weight: 400; opacity: 80%;">SVGLinearGradientElement</span> {: #createDefinition data-toc-label='createDefinition' }
+#### createDefinition() : <span style="font-weight: 400;">SVGLinearGradientElement</span> {: #createDefinition data-toc-label='createDefinition' }
 
 (protected)
 
 Creates the gradient-type-specific definition.
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

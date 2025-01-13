@@ -14,37 +14,37 @@ import { ExecutionContext } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ExecutionContext( executor : <span style="font-weight: 400; opacity: 80%;">Executor</span>, computePipelineMap : <span style="font-weight: 400; opacity: 80%;">Map&lt;PipelineBlueprint, ComputePipeline&gt;</span>, bindGroupMap : <span style="font-weight: 400; opacity: 80%;">Map&lt;BindGroupLayout, BindGroup&gt;</span>, resourceMap : <span style="font-weight: 400; opacity: 80%;">Map&lt;ResourceSlot, Resource&gt;</span>, separateComputePasses : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new ExecutionContext( executor : <span style="font-weight: 400;">[Executor](../alpenglow/Executor.md)</span>, computePipelineMap : <span style="font-weight: 400;">Map&lt;[PipelineBlueprint](../alpenglow/PipelineBlueprint.md), [ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span>, bindGroupMap : <span style="font-weight: 400;">Map&lt;[BindGroupLayout](../alpenglow/BindGroupLayout.md), [BindGroup](../alpenglow/BindGroup.md)&gt;</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span>, separateComputePasses : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispatch( pipelineBlueprint : <span style="font-weight: 400; opacity: 80%;">PipelineBlueprint</span>, dispatchX, dispatchY, dispatchZ ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispatch data-toc-label='dispatch' }
+#### dispatch( pipelineBlueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span>, dispatchX, dispatchY, dispatchZ ) {: #dispatch data-toc-label='dispatch' }
 
-#### dispatchIndirect( pipelineBlueprint : <span style="font-weight: 400; opacity: 80%;">PipelineBlueprint</span>, indirectBuffer : <span style="font-weight: 400; opacity: 80%;">GPUBuffer</span>, indirectOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispatchIndirect data-toc-label='dispatchIndirect' }
+#### dispatchIndirect( pipelineBlueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span>, indirectBuffer : <span style="font-weight: 400;">GPUBuffer</span>, indirectOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #dispatchIndirect data-toc-label='dispatchIndirect' }
 
-#### getEncoderForCustomRender() : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span> {: #getEncoderForCustomRender data-toc-label='getEncoderForCustomRender' }
+#### getEncoderForCustomRender() : <span style="font-weight: 400;">GPUCommandEncoder</span> {: #getEncoderForCustomRender data-toc-label='getEncoderForCustomRender' }
 
 TODO: see if we can get the bind groups to be optimized?
 
-#### setTypedBufferValue( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTypedBufferValue data-toc-label='setTypedBufferValue' }
+#### setTypedBufferValue( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span> ) {: #setTypedBufferValue data-toc-label='setTypedBufferValue' }
 
-#### getTypedBufferValue( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;T&gt;</span> {: #getTypedBufferValue data-toc-label='getTypedBufferValue' }
+#### getTypedBufferValue( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;T&gt;</span> {: #getTypedBufferValue data-toc-label='getTypedBufferValue' }
 
-#### arrayBuffer( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBuffer data-toc-label='arrayBuffer' }
+#### arrayBuffer( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;ArrayBuffer&gt;</span> {: #arrayBuffer data-toc-label='arrayBuffer' }
 
-#### u32( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Uint32Array&gt;</span> {: #u32 data-toc-label='u32' }
+#### u32( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;Uint32Array&gt;</span> {: #u32 data-toc-label='u32' }
 
-#### i32( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Int32Array&gt;</span> {: #i32 data-toc-label='i32' }
+#### i32( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;Int32Array&gt;</span> {: #i32 data-toc-label='i32' }
 
-#### f32( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;Float32Array&gt;</span> {: #f32 data-toc-label='f32' }
+#### f32( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;Float32Array&gt;</span> {: #f32 data-toc-label='f32' }
 
-#### u32Numbers( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #u32Numbers data-toc-label='u32Numbers' }
+#### u32Numbers( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #u32Numbers data-toc-label='u32Numbers' }
 
-#### i32Numbers( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #i32Numbers data-toc-label='i32Numbers' }
+#### i32Numbers( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #i32Numbers data-toc-label='i32Numbers' }
 
-#### f32Numbers( bufferSlot : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;number[]&gt;</span> {: #f32Numbers data-toc-label='f32Numbers' }
+#### f32Numbers( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #f32Numbers data-toc-label='f32Numbers' }
 
-#### finish() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #finish data-toc-label='finish' }
+#### finish() {: #finish data-toc-label='finish' }
 
 
 

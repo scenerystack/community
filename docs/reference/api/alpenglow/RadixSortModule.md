@@ -16,7 +16,7 @@ import { RadixSortModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RadixSortModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">RadixSortModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new RadixSortModule( providedOptions : <span style="font-weight: 400;">[RadixSortModuleOptions](../alpenglow/RadixSortModule.md#RadixSortModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,25 +24,25 @@ import { RadixSortModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### input : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #input data-toc-label='input' }
+#### input : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #input data-toc-label='input' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 
-#### histogram : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;number&gt;</span> {: #histogram data-toc-label='histogram' }
+#### histogram : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #histogram data-toc-label='histogram' }
 
 (readonly)
 
-#### extraSlots : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;[]</span> {: #extraSlots data-toc-label='extraSlots' }
+#### extraSlots : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;[]</span> {: #extraSlots data-toc-label='extraSlots' }
 
 (readonly)
 
 ### Static Methods
 
-#### getMaximumElementQuantity( radixWorkgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, radixGrainSize : <span style="font-weight: 400; opacity: 80%;">number</span>, scanWorkgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, scanGrainSize : <span style="font-weight: 400; opacity: 80%;">number</span>, bitsPerPass : <span style="font-weight: 400; opacity: 80%;">number</span>, scanLevels ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaximumElementQuantity data-toc-label='getMaximumElementQuantity' }
+#### getMaximumElementQuantity( radixWorkgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radixGrainSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, scanWorkgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, scanGrainSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bitsPerPass : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, scanLevels ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaximumElementQuantity data-toc-label='getMaximumElementQuantity' }
 
 
 

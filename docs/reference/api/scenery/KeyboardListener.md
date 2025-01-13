@@ -84,88 +84,88 @@ import { KeyboardListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyboardListener( providedOptions : <span style="font-weight: 400; opacity: 80%;">KeyboardListenerOptions&lt;Keys&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyboardListener( providedOptions : <span style="font-weight: 400;">[KeyboardListenerOptions](../scenery/KeyboardListener.md#KeyboardListenerOptions)&lt;Keys&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Dispose of this listener by disposing of any Callback timers. Then clear all KeyGroups.
 
-#### keydown( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;KeyboardEvent&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #keydown data-toc-label='keydown' }
+#### keydown( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;KeyboardEvent&gt;</span> ) {: #keydown data-toc-label='keydown' }
 
 Everything that uses a KeyboardListener should prevent more global scenery keyboard behavior, such as pan/zoom
 from arrow keys.
 
-#### focusout( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #focusout data-toc-label='focusout' }
+#### focusout( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)</span> ) {: #focusout data-toc-label='focusout' }
 
 Public because this is called with the scenery listener API. Do not call this directly.
 
-#### focusin( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #focusin data-toc-label='focusin' }
+#### focusin( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)</span> ) {: #focusin data-toc-label='focusin' }
 
 Public because this is called through the scenery listener API. Do not call this directly.
 
-#### cancel() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #cancel data-toc-label='cancel' }
+#### cancel() {: #cancel data-toc-label='cancel' }
 
 Part of the scenery listener API. On cancel, clear active KeyGroups and stop their behavior.
 
-#### interrupt() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #interrupt data-toc-label='interrupt' }
+#### interrupt() {: #interrupt data-toc-label='interrupt' }
 
 Part of the scenery listener API. Clear active KeyGroups and stop their callbacks.
 
-#### createSyntheticEvent( pointer : <span style="font-weight: 400; opacity: 80%;">PDOMPointer</span> ) : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;KeyboardEvent&gt;</span> {: #createSyntheticEvent data-toc-label='createSyntheticEvent' }
+#### createSyntheticEvent( pointer : <span style="font-weight: 400;">[PDOMPointer](../scenery/PDOMPointer.md)</span> ) : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;KeyboardEvent&gt;</span> {: #createSyntheticEvent data-toc-label='createSyntheticEvent' }
 
 (protected)
 
 ### Instance Properties
 
-#### fireOnDown : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #fireOnDown data-toc-label='fireOnDown' }
+#### fireOnDown : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #fireOnDown data-toc-label='fireOnDown' }
 
 (readonly)
 
-#### fireOnHold : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #fireOnHold data-toc-label='fireOnHold' }
+#### fireOnHold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #fireOnHold data-toc-label='fireOnHold' }
 
 (readonly)
 
-#### fireOnHoldTiming : <span style="font-weight: 400; opacity: 80%;">HotkeyFireOnHoldTiming</span> {: #fireOnHoldTiming data-toc-label='fireOnHoldTiming' }
+#### fireOnHoldTiming : <span style="font-weight: 400;">[HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)</span> {: #fireOnHoldTiming data-toc-label='fireOnHoldTiming' }
 
 (readonly)
 
-#### fireOnHoldCustomDelay : <span style="font-weight: 400; opacity: 80%;">number</span> {: #fireOnHoldCustomDelay data-toc-label='fireOnHoldCustomDelay' }
+#### fireOnHoldCustomDelay : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #fireOnHoldCustomDelay data-toc-label='fireOnHoldCustomDelay' }
 
 (readonly)
 
-#### fireOnHoldCustomInterval : <span style="font-weight: 400; opacity: 80%;">number</span> {: #fireOnHoldCustomInterval data-toc-label='fireOnHoldCustomInterval' }
+#### fireOnHoldCustomInterval : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #fireOnHoldCustomInterval data-toc-label='fireOnHoldCustomInterval' }
 
 (readonly)
 
-#### allowOverlap : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #allowOverlap data-toc-label='allowOverlap' }
+#### allowOverlap : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #allowOverlap data-toc-label='allowOverlap' }
 
 (readonly)
 
-#### hotkeys : <span style="font-weight: 400; opacity: 80%;">Hotkey[]</span> {: #hotkeys data-toc-label='hotkeys' }
+#### hotkeys : <span style="font-weight: 400;">[Hotkey](../scenery/Hotkey.md)[]</span> {: #hotkeys data-toc-label='hotkeys' }
 
 (readonly)
 
-#### isPressedProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;boolean&gt;</span> {: #isPressedProperty data-toc-label='isPressedProperty' }
+#### isPressedProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isPressedProperty data-toc-label='isPressedProperty' }
 
 (readonly)
 
 A Property that is true when any of the keys
 
-#### pressedKeyStringPropertiesProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;TReadOnlyProperty&lt;OneKeyStroke&gt;[]&gt;</span> {: #pressedKeyStringPropertiesProperty data-toc-label='pressedKeyStringPropertiesProperty' }
+#### pressedKeyStringPropertiesProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;[]&gt;</span> {: #pressedKeyStringPropertiesProperty data-toc-label='pressedKeyStringPropertiesProperty' }
 
 (readonly)
 
 A Property that contains all the Property&lt;KeyDescriptor&gt; that are currently pressed down.
 
-#### interrupted : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #interrupted data-toc-label='interrupted' }
+#### interrupted : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #interrupted data-toc-label='interrupted' }
 
 (read-only) - Whether the last key press was interrupted. Will be valid until the next presss.
 
 ### Static Methods
 
-#### createGlobal( target : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">KeyboardListenerOptions&lt;OneKeyStroke[]&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">KeyboardListener&lt;OneKeyStroke[]&gt;</span> {: #createGlobal data-toc-label='createGlobal' }
+#### createGlobal( target : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions : <span style="font-weight: 400;">[KeyboardListenerOptions](../scenery/KeyboardListener.md#KeyboardListenerOptions)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)[]&gt;</span> ) : <span style="font-weight: 400;">[KeyboardListener](../scenery/KeyboardListener.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)[]&gt;</span> {: #createGlobal data-toc-label='createGlobal' }
 
 Adds a global KeyboardListener to a target Node. This listener will fire regardless of where focus is in
 the document. The listener is returned so that it can be disposed.

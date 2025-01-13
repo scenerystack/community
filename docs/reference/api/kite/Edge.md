@@ -57,7 +57,7 @@ Update possibly reversed vertex references (since they may be updated)
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 @public
 

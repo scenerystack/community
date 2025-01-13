@@ -16,7 +16,7 @@ import { MainTwoPassTileModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassTileModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">MainTwoPassTileModuleOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassTileModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassTileModuleOptions](../alpenglow/MainTwoPassTileModule.md#MainTwoPassTileModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,31 +24,31 @@ import { MainTwoPassTileModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### config : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;TwoPassConfig&gt;</span> {: #config data-toc-label='config' }
+#### config : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;</span> {: #config data-toc-label='config' }
 
 (readonly)
 
 input
 
-#### initialRenderableFaces : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;TwoPassInitialRenderableFace[]&gt;</span> {: #initialRenderableFaces data-toc-label='initialRenderableFaces' }
+#### initialRenderableFaces : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassInitialRenderableFace](../alpenglow/TwoPassInitialRenderableFace.md)[]&gt;</span> {: #initialRenderableFaces data-toc-label='initialRenderableFaces' }
 
 (readonly)
 
-#### initialEdges : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;LinearEdge[]&gt;</span> {: #initialEdges data-toc-label='initialEdges' }
+#### initialEdges : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;</span> {: #initialEdges data-toc-label='initialEdges' }
 
 (readonly)
 
-#### coarseRenderableFaces : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;TwoPassCoarseRenderableFace[]&gt;</span> {: #coarseRenderableFaces data-toc-label='coarseRenderableFaces' }
+#### coarseRenderableFaces : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassCoarseRenderableFace](../alpenglow/TwoPassCoarseRenderableFace.md)[]&gt;</span> {: #coarseRenderableFaces data-toc-label='coarseRenderableFaces' }
 
 (readonly)
 
 output
 
-#### coarseEdges : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;LinearEdge[]&gt;</span> {: #coarseEdges data-toc-label='coarseEdges' }
+#### coarseEdges : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;</span> {: #coarseEdges data-toc-label='coarseEdges' }
 
 (readonly)
 
-#### addresses : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;number[]&gt;</span> {: #addresses data-toc-label='addresses' }
+#### addresses : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #addresses data-toc-label='addresses' }
 
 (readonly)
 

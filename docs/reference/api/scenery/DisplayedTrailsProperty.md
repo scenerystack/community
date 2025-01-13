@@ -24,24 +24,24 @@ import { DisplayedTrailsProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DisplayedTrailsProperty( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">DisplayedTrailsPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new DisplayedTrailsProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DisplayedTrailsPropertyOptions](../scenery/DisplayedTrailsProperty.md#DisplayedTrailsPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 REVIEW: I always forget why you don't need to also clear your reference to the provided Node. Do you?
 REVIEW: Also maybe assert here that your provided node is in this listened to Node set?
 
 ### Instance Properties
 
-#### node : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #node data-toc-label='node' }
+#### node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #node data-toc-label='node' }
 
 (readonly)
 
 REVIEW: How about a rename like "targetNode", no strong preference if you don't want to.
 
-#### listenedNodeSet : <span style="font-weight: 400; opacity: 80%;">Set&lt;Node&gt;</span> {: #listenedNodeSet data-toc-label='listenedNodeSet' }
+#### listenedNodeSet : <span style="font-weight: 400;">Set&lt;[Node](../scenery/Node.md)&gt;</span> {: #listenedNodeSet data-toc-label='listenedNodeSet' }
 
 (readonly)
 

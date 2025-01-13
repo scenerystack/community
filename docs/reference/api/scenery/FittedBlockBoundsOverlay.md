@@ -14,11 +14,11 @@ import { FittedBlockBoundsOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FittedBlockBoundsOverlay( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> ) {: #constructor data-toc-label='constructor' }
+#### new FittedBlockBoundsOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### addShapes() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addShapes data-toc-label='addShapes' }
+#### addShapes() {: #addShapes data-toc-label='addShapes' }
 
 
 

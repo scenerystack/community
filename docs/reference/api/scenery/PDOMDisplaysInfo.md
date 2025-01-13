@@ -17,7 +17,7 @@ import { PDOMDisplaysInfo } from 'scenerystack/scenery';
 ```
 ### Instance Properties
 
-#### pdomDisplays : <span style="font-weight: 400; opacity: 80%;">Display[]</span> {: #pdomDisplays data-toc-label='pdomDisplays' }
+#### pdomDisplays : <span style="font-weight: 400;">[Display](../scenery/Display.md)[]</span> {: #pdomDisplays data-toc-label='pdomDisplays' }
 
 (readonly)
 

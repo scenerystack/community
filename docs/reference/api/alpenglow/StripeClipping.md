@@ -15,11 +15,11 @@ import { StripeClipping } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### binaryStripeClipEdge( startPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, endPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, values : <span style="font-weight: 400; opacity: 80%;">number[]</span>, fakeCornerPerpendicular : <span style="font-weight: 400; opacity: 80%;">number</span>, clippedEdgeCollection : <span style="font-weight: 400; opacity: 80%;">LinearEdge[][]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #binaryStripeClipEdge data-toc-label='binaryStripeClipEdge' }
+#### binaryStripeClipEdge( startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, normal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, values : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, fakeCornerPerpendicular : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, clippedEdgeCollection : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[][]</span> ) {: #binaryStripeClipEdge data-toc-label='binaryStripeClipEdge' }
 
 line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; value, "max" side is dot-products &gt; value
 
-#### binaryStripeClipPolygon( polygon : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span>, normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, values : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> {: #binaryStripeClipPolygon data-toc-label='binaryStripeClipPolygon' }
+#### binaryStripeClipPolygon( polygon : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, normal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, values : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> {: #binaryStripeClipPolygon data-toc-label='binaryStripeClipPolygon' }
 
 line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; value, "max" side is dot-products &gt; value
 

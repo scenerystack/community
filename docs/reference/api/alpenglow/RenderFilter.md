@@ -17,39 +17,39 @@ import { RenderFilter } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderFilter( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, colorMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix4</span>, colorTranslation : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, logic? : <span style="font-weight: 400; opacity: 80%;">RenderFilterLogic</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderFilter( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, logic? : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getName() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getName data-toc-label='getName' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### withChildren( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderFilter</span> {: #withChildren data-toc-label='withChildren' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderFilter](../alpenglow/RenderFilter.md)</span> {: #withChildren data-toc-label='withChildren' }
 
-#### equalsTyped( other : <span style="font-weight: 400; opacity: 80%;">this</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsTyped data-toc-label='equalsTyped' }
-
-(protected)
-
-#### getSimplified( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram | null</span> {: #getSimplified data-toc-label='getSimplified' }
+#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
 
 (protected)
 
-#### evaluate( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #evaluate data-toc-label='evaluate' }
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
 
-#### writeInstructions( instructions : <span style="font-weight: 400; opacity: 80%;">RenderInstruction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeInstructions data-toc-label='writeInstructions' }
+(protected)
 
-#### serialize() : <span style="font-weight: 400; opacity: 80%;">SerializedRenderFilter</span> {: #serialize data-toc-label='serialize' }
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderFilter](../alpenglow/RenderFilter.md#SerializedRenderFilter)</span> {: #serialize data-toc-label='serialize' }
 
 ### Instance Properties
 
-#### logic : <span style="font-weight: 400; opacity: 80%;">RenderFilterLogic</span> {: #logic data-toc-label='logic' }
+#### logic : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> {: #logic data-toc-label='logic' }
 
 (readonly)
 
 ### Static Methods
 
-#### applyFilter( color : <span style="font-weight: 400; opacity: 80%;">Vector4</span>, colorMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix4</span>, colorTranslation : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #applyFilter data-toc-label='applyFilter' }
+#### applyFilter( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #applyFilter data-toc-label='applyFilter' }
 
-#### deserialize( obj : <span style="font-weight: 400; opacity: 80%;">SerializedRenderFilter</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderFilter</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderFilter](../alpenglow/RenderFilter.md#SerializedRenderFilter)</span> ) : <span style="font-weight: 400;">[RenderFilter](../alpenglow/RenderFilter.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 
 
@@ -61,11 +61,11 @@ import { RenderFilterLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderFilterLogic( colorMatrix : <span style="font-weight: 400; opacity: 80%;">Matrix4</span>, colorTranslation : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) {: #RenderFilterLogic-constructor data-toc-label='RenderFilterLogic-constructor' }
+#### new RenderFilterLogic( colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderFilterLogic-constructor data-toc-label='RenderFilterLogic-constructor' }
 
 ### Instance Methods
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderFilterLogic</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #RenderFilterLogic-equals data-toc-label='RenderFilterLogic-equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderFilterLogic-equals data-toc-label='RenderFilterLogic-equals' }
 
 
 
@@ -77,23 +77,23 @@ import { RenderInstructionFilter } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionFilter( logic : <span style="font-weight: 400; opacity: 80%;">RenderFilterLogic</span> ) {: #RenderInstructionFilter-constructor data-toc-label='RenderInstructionFilter-constructor' }
+#### new RenderInstructionFilter( logic : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #RenderInstructionFilter-constructor data-toc-label='RenderInstructionFilter-constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #RenderInstructionFilter-toString data-toc-label='RenderInstructionFilter-toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionFilter-toString data-toc-label='RenderInstructionFilter-toString' }
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderInstruction</span>, areLocationsEqual : <span style="font-weight: 400; opacity: 80%;">( a: RenderInstructionLocation, b: RenderInstructionLocation ) =&gt; boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #RenderInstructionFilter-equals data-toc-label='RenderInstructionFilter-equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionFilter-equals data-toc-label='RenderInstructionFilter-equals' }
 
-#### execute( stack : <span style="font-weight: 400; opacity: 80%;">RenderExecutionStack</span>, context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span>, executor : <span style="font-weight: 400; opacity: 80%;">RenderExecutor</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionFilter-execute data-toc-label='RenderInstructionFilter-execute' }
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionFilter-execute data-toc-label='RenderInstructionFilter-execute' }
 
-#### writeBinary( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span>, getOffset : <span style="font-weight: 400; opacity: 80%;">( location: RenderInstructionLocation ) =&gt; number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #RenderInstructionFilter-writeBinary data-toc-label='RenderInstructionFilter-writeBinary' }
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionFilter-writeBinary data-toc-label='RenderInstructionFilter-writeBinary' }
 
-#### getBinaryLength() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #RenderInstructionFilter-getBinaryLength data-toc-label='RenderInstructionFilter-getBinaryLength' }
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionFilter-getBinaryLength data-toc-label='RenderInstructionFilter-getBinaryLength' }
 
 ### Static Methods
 
-#### fromBinary( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span>, offset : <span style="font-weight: 400; opacity: 80%;">number</span>, getLocation : <span style="font-weight: 400; opacity: 80%;">( offset: number ) =&gt; RenderInstructionLocation</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderInstructionFilter</span> {: #RenderInstructionFilter-fromBinary data-toc-label='RenderInstructionFilter-fromBinary' }
+#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionFilter](../alpenglow/RenderFilter.md#RenderInstructionFilter)</span> {: #RenderInstructionFilter-fromBinary data-toc-label='RenderInstructionFilter-fromBinary' }
 
 
 

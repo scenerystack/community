@@ -14,7 +14,7 @@ import { Mesh } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Mesh( name : <span style="font-weight: 400; opacity: 80%;">string | null</span> ) {: #constructor data-toc-label='constructor' }
+#### new Mesh( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,29 +22,29 @@ import { Mesh } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### vertices : <span style="font-weight: 400; opacity: 80%;">Vector3[]</span> {: #vertices data-toc-label='vertices' }
+#### vertices : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)[]</span> {: #vertices data-toc-label='vertices' }
 
 (readonly)
 
-#### uvs : <span style="font-weight: 400; opacity: 80%;">Vector3[]</span> {: #uvs data-toc-label='uvs' }
+#### uvs : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)[]</span> {: #uvs data-toc-label='uvs' }
 
 (readonly)
 
-#### normals : <span style="font-weight: 400; opacity: 80%;">Vector3[]</span> {: #normals data-toc-label='normals' }
+#### normals : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)[]</span> {: #normals data-toc-label='normals' }
 
 (readonly)
 
-#### faces : <span style="font-weight: 400; opacity: 80%;">MeshFace[]</span> {: #faces data-toc-label='faces' }
+#### faces : <span style="font-weight: 400;">MeshFace[]</span> {: #faces data-toc-label='faces' }
 
 (readonly)
 
-#### lines : <span style="font-weight: 400; opacity: 80%;">MeshLine[]</span> {: #lines data-toc-label='lines' }
+#### lines : <span style="font-weight: 400;">MeshLine[]</span> {: #lines data-toc-label='lines' }
 
 (readonly)
 
 ### Static Methods
 
-#### loadOBJ( str : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">Mesh[]</span> {: #loadOBJ data-toc-label='loadOBJ' }
+#### loadOBJ( str : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[Mesh](../alpenglow/Mesh.md)[]</span> {: #loadOBJ data-toc-label='loadOBJ' }
 
 
 

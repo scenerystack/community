@@ -17,11 +17,11 @@ import { BoundsIntersection } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new BoundsIntersection( a : <span style="font-weight: 400; opacity: 80%;">Segment</span>, b : <span style="font-weight: 400; opacity: 80%;">Segment</span>, atMin : <span style="font-weight: 400; opacity: 80%;">number</span>, atMax : <span style="font-weight: 400; opacity: 80%;">number</span>, btMin : <span style="font-weight: 400; opacity: 80%;">number</span>, btMax : <span style="font-weight: 400; opacity: 80%;">number</span>, aMin : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, aMax : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, bMin : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, bMax : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) {: #constructor data-toc-label='constructor' }
+#### new BoundsIntersection( a : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, b : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, atMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, atMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, btMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, btMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, aMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, aMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, bMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, bMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( a : <span style="font-weight: 400; opacity: 80%;">Segment</span>, b : <span style="font-weight: 400; opacity: 80%;">Segment</span>, atMin : <span style="font-weight: 400; opacity: 80%;">number</span>, atMax : <span style="font-weight: 400; opacity: 80%;">number</span>, btMin : <span style="font-weight: 400; opacity: 80%;">number</span>, btMax : <span style="font-weight: 400; opacity: 80%;">number</span>, aMin : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, aMax : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, bMin : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, bMax : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">BoundsIntersection</span> {: #initialize data-toc-label='initialize' }
+#### initialize( a : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, b : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, atMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, atMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, btMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, btMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, aMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, aMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, bMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, bMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[BoundsIntersection](../kite/BoundsIntersection.md)</span> {: #initialize data-toc-label='initialize' }
 
 @param a
 @param b
@@ -35,45 +35,45 @@ import { BoundsIntersection } from 'scenerystack/kite';
 @param bMax - Location of the higher t value for the 'b' segment's region
 @returns -  This reference for chaining
 
-#### distance( otherIntersection : <span style="font-weight: 400; opacity: 80%;">BoundsIntersection</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #distance data-toc-label='distance' }
+#### distance( otherIntersection : <span style="font-weight: 400;">[BoundsIntersection](../kite/BoundsIntersection.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #distance data-toc-label='distance' }
 
 A measure of distance between this and another intersection.
 
-#### clean() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clean data-toc-label='clean' }
+#### clean() {: #clean data-toc-label='clean' }
 
 Removes references (so it can allow other objects to be GC'ed or pooled)
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
-#### a : <span style="font-weight: 400; opacity: 80%;">Segment | null</span> {: #a data-toc-label='a' }
+#### a : <span style="font-weight: 400;">[Segment](../kite/Segment.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #a data-toc-label='a' }
 
 Null if cleaned of references
 
-#### b : <span style="font-weight: 400; opacity: 80%;">Segment | null</span> {: #b data-toc-label='b' }
+#### b : <span style="font-weight: 400;">[Segment](../kite/Segment.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #b data-toc-label='b' }
 
-#### atMin : <span style="font-weight: 400; opacity: 80%;">number</span> {: #atMin data-toc-label='atMin' }
+#### atMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #atMin data-toc-label='atMin' }
 
-#### atMax : <span style="font-weight: 400; opacity: 80%;">number</span> {: #atMax data-toc-label='atMax' }
+#### atMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #atMax data-toc-label='atMax' }
 
-#### btMin : <span style="font-weight: 400; opacity: 80%;">number</span> {: #btMin data-toc-label='btMin' }
+#### btMin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #btMin data-toc-label='btMin' }
 
-#### btMax : <span style="font-weight: 400; opacity: 80%;">number</span> {: #btMax data-toc-label='btMax' }
+#### btMax : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #btMax data-toc-label='btMax' }
 
-#### aMin : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #aMin data-toc-label='aMin' }
+#### aMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #aMin data-toc-label='aMin' }
 
 Null if cleaned of references
 
-#### aMax : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #aMax data-toc-label='aMax' }
+#### aMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #aMax data-toc-label='aMax' }
 
-#### bMin : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #bMin data-toc-label='bMin' }
+#### bMin : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #bMin data-toc-label='bMin' }
 
-#### bMax : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #bMax data-toc-label='bMax' }
+#### bMax : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #bMax data-toc-label='bMax' }
 
 ### Static Methods
 
-#### intersect( a : <span style="font-weight: 400; opacity: 80%;">Segment</span>, b : <span style="font-weight: 400; opacity: 80%;">Segment</span> ) : <span style="font-weight: 400; opacity: 80%;">SegmentIntersection[]</span> {: #intersect data-toc-label='intersect' }
+#### intersect( a : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, b : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span> ) : <span style="font-weight: 400;">[SegmentIntersection](../kite/SegmentIntersection.md)[]</span> {: #intersect data-toc-label='intersect' }
 
 Determine (finite) points of intersection between two arbitrary segments.
 
@@ -82,7 +82,7 @@ intersections, to the point that they can be combined for a fairly accurate answ
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

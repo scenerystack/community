@@ -15,7 +15,7 @@ import { ReturnButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ReturnButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">ReturnButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReturnButton( providedOptions? : <span style="font-weight: 400;">[ReturnButtonOptions](../scenery-phet/ReturnButton.md#ReturnButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

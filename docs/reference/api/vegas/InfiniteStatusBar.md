@@ -16,11 +16,11 @@ import { InfiniteStatusBar } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new InfiniteStatusBar( layoutBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, visibleBoundsProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Bounds2&gt;</span>, messageNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, scoreProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">InfiniteStatusBarOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new InfiniteStatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, messageNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, scoreProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[InfiniteStatusBarOptions](../vegas/InfiniteStatusBar.md#InfiniteStatusBarOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

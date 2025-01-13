@@ -19,7 +19,7 @@ import { PhetFont } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PhetFont( providedOptions? : <span style="font-weight: 400; opacity: 80%;">number | string | FontOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PhetFont( providedOptions? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [FontOptions](../scenery/Font.md#FontOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

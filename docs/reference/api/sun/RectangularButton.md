@@ -15,7 +15,7 @@ import { RectangularButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularButton( buttonModel : <span style="font-weight: 400; opacity: 80%;">ButtonModel</span>, interactionStateProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ButtonInteractionState&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">RectangularButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -23,7 +23,7 @@ import { RectangularButton } from 'scenerystack/sun';
 
 ### Static Properties
 
-#### ThreeDAppearanceStrategy : <span style="font-weight: 400; opacity: 80%;">TButtonAppearanceStrategy</span> {: #ThreeDAppearanceStrategy data-toc-label='ThreeDAppearanceStrategy' }
+#### ThreeDAppearanceStrategy : <span style="font-weight: 400;">[TButtonAppearanceStrategy](../sun/TButtonAppearanceStrategy.md)</span> {: #ThreeDAppearanceStrategy data-toc-label='ThreeDAppearanceStrategy' }
 
 
 

@@ -14,15 +14,15 @@ import { ProfileColorProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ProfileColorProperty( namespace : <span style="font-weight: 400; opacity: 80%;">Namespace</span>, colorName : <span style="font-weight: 400; opacity: 80%;">string</span>, colorProfileMap : <span style="font-weight: 400; opacity: 80%;">ColorProfileMap</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PropertyOptions&lt;Color&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ProfileColorProperty( namespace : <span style="font-weight: 400;">[Namespace](../phet-core/Namespace.md)</span>, colorName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, colorProfileMap : <span style="font-weight: 400;">ColorProfileMap</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### name : <span style="font-weight: 400; opacity: 80%;">string</span> {: #name data-toc-label='name' }
+#### name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #name data-toc-label='name' }
 
 (readonly)
 

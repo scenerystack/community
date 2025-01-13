@@ -17,7 +17,7 @@ import { LayoutAlign } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutAlign( horizontal : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign</span>, vertical : <span style="font-weight: 400; opacity: 80%;">VerticalLayoutAlign</span>, padRatio : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutAlign( horizontal : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign)</span>, vertical : <span style="font-weight: 400;">[VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span>, padRatio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -25,19 +25,19 @@ import { LayoutAlign } from 'scenerystack/scenery';
 
 ### Instance Properties
 
-#### horizontal : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign</span> {: #horizontal data-toc-label='horizontal' }
+#### horizontal : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign)</span> {: #horizontal data-toc-label='horizontal' }
 
 (readonly)
 
 String enumeration types for the horizontal orientation
 
-#### vertical : <span style="font-weight: 400; opacity: 80%;">VerticalLayoutAlign</span> {: #vertical data-toc-label='vertical' }
+#### vertical : <span style="font-weight: 400;">[VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span> {: #vertical data-toc-label='vertical' }
 
 (readonly)
 
 String enumeration types for the vertical orientation
 
-#### padRatio : <span style="font-weight: 400; opacity: 80%;">number</span> {: #padRatio data-toc-label='padRatio' }
+#### padRatio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #padRatio data-toc-label='padRatio' }
 
 (readonly)
 
@@ -45,41 +45,41 @@ A multiplier value used in the padding computation
 
 ### Static Methods
 
-#### getAllowedAligns( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">readonly ( string | null )[]</span> {: #getAllowedAligns data-toc-label='getAllowedAligns' }
+#### getAllowedAligns( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;">readonly ( <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[]</span> {: #getAllowedAligns data-toc-label='getAllowedAligns' }
 
-#### getAllowedRestrictedAligns( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span> ) : <span style="font-weight: 400; opacity: 80%;">readonly ( string | null )[]</span> {: #getAllowedRestrictedAligns data-toc-label='getAllowedRestrictedAligns' }
+#### getAllowedRestrictedAligns( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;">readonly ( <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[]</span> {: #getAllowedRestrictedAligns data-toc-label='getAllowedRestrictedAligns' }
 
-#### alignToInternal( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span>, key : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign | VerticalLayoutAlign | null</span> ) : <span style="font-weight: 400; opacity: 80%;">LayoutAlign | null</span> {: #alignToInternal data-toc-label='alignToInternal' }
+#### alignToInternal( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span>, key : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #alignToInternal data-toc-label='alignToInternal' }
 
 Converts a string union value into the internal Enumeration value
 
-#### horizontalAlignToInternal( key : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign | null</span> ) : <span style="font-weight: 400; opacity: 80%;">LayoutAlign | null</span> {: #horizontalAlignToInternal data-toc-label='horizontalAlignToInternal' }
+#### horizontalAlignToInternal( key : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #horizontalAlignToInternal data-toc-label='horizontalAlignToInternal' }
 
-#### verticalAlignToInternal( key : <span style="font-weight: 400; opacity: 80%;">VerticalLayoutAlign | null</span> ) : <span style="font-weight: 400; opacity: 80%;">LayoutAlign | null</span> {: #verticalAlignToInternal data-toc-label='verticalAlignToInternal' }
+#### verticalAlignToInternal( key : <span style="font-weight: 400;">[VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #verticalAlignToInternal data-toc-label='verticalAlignToInternal' }
 
-#### internalToAlign( orientation : <span style="font-weight: 400; opacity: 80%;">Orientation</span>, align : <span style="font-weight: 400; opacity: 80%;">LayoutAlign | null</span> ) : <span style="font-weight: 400; opacity: 80%;">HorizontalLayoutAlign | VerticalLayoutAlign | null</span> {: #internalToAlign data-toc-label='internalToAlign' }
+#### internalToAlign( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span>, align : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #internalToAlign data-toc-label='internalToAlign' }
 
 Converts an internal Enumeration value into a string union value.
 
 ### Static Properties
 
-#### START : <span style="font-weight: 400; opacity: 80%;">LayoutAlign</span> {: #START data-toc-label='START' }
+#### START : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md)</span> {: #START data-toc-label='START' }
 
 (readonly)
 
-#### END : <span style="font-weight: 400; opacity: 80%;">LayoutAlign</span> {: #END data-toc-label='END' }
+#### END : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md)</span> {: #END data-toc-label='END' }
 
 (readonly)
 
-#### CENTER : <span style="font-weight: 400; opacity: 80%;">LayoutAlign</span> {: #CENTER data-toc-label='CENTER' }
+#### CENTER : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md)</span> {: #CENTER data-toc-label='CENTER' }
 
 (readonly)
 
-#### ORIGIN : <span style="font-weight: 400; opacity: 80%;">LayoutAlign</span> {: #ORIGIN data-toc-label='ORIGIN' }
+#### ORIGIN : <span style="font-weight: 400;">[LayoutAlign](../scenery/LayoutAlign.md)</span> {: #ORIGIN data-toc-label='ORIGIN' }
 
 (readonly)
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #enumeration data-toc-label='enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #enumeration data-toc-label='enumeration' }
 
 (readonly)
 

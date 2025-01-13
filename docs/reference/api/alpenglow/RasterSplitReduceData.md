@@ -14,23 +14,23 @@ import { RasterSplitReduceData } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterSplitReduceData( numReducible : <span style="font-weight: 400; opacity: 80%;">number</span>, numComplete : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterSplitReduceData( numReducible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numComplete : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### writeEncoding( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeEncoding data-toc-label='writeEncoding' }
+#### writeEncoding( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #writeEncoding data-toc-label='writeEncoding' }
 
 ### Static Methods
 
-#### readEncoding( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #readEncoding data-toc-label='readEncoding' }
+#### readEncoding( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #readEncoding data-toc-label='readEncoding' }
 
-#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
+#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
 
-#### combine( a : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span>, b : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #combine data-toc-label='combine' }
+#### combine( a : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span>, b : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> ) : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #combine data-toc-label='combine' }
 
-#### from( edgeClip : <span style="font-weight: 400; opacity: 80%;">RasterEdgeClip</span>, clippedChunk : <span style="font-weight: 400; opacity: 80%;">RasterClippedChunk</span>, exists : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #from data-toc-label='from' }
+#### from( edgeClip : <span style="font-weight: 400;">[RasterEdgeClip](../alpenglow/RasterEdgeClip.md)</span>, clippedChunk : <span style="font-weight: 400;">[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)</span>, exists : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #from data-toc-label='from' }
 
 ### Static Properties
 
@@ -38,11 +38,11 @@ import { RasterSplitReduceData } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### INDETERMINATE : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
+#### INDETERMINATE : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
 
 (readonly)
 
-#### IDENTITY : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #IDENTITY data-toc-label='IDENTITY' }
+#### IDENTITY : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #IDENTITY data-toc-label='IDENTITY' }
 
 (readonly)
 

@@ -14,15 +14,15 @@ import { PolygonalBoolean } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### union( ...paths : <span style="font-weight: 400; opacity: 80%;">RenderPath[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> {: #union data-toc-label='union' }
+#### union( ...paths : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)[]</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> {: #union data-toc-label='union' }
 
-#### intersection( ...paths : <span style="font-weight: 400; opacity: 80%;">RenderPath[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> {: #intersection data-toc-label='intersection' }
+#### intersection( ...paths : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)[]</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> {: #intersection data-toc-label='intersection' }
 
-#### difference( pathA : <span style="font-weight: 400; opacity: 80%;">RenderPath</span>, pathB : <span style="font-weight: 400; opacity: 80%;">RenderPath</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> {: #difference data-toc-label='difference' }
+#### difference( pathA : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, pathB : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> {: #difference data-toc-label='difference' }
 
-#### getOverlaps( pathA : <span style="font-weight: 400; opacity: 80%;">RenderPath</span>, pathB : <span style="font-weight: 400; opacity: 80%;">RenderPath</span> ) : <span style="font-weight: 400; opacity: 80%;">{ intersection: Vector2[][]; aOnly: Vector2[][]; bOnly: Vector2[][] }</span> {: #getOverlaps data-toc-label='getOverlaps' }
+#### getOverlaps( pathA : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, pathB : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span> ) : <span style="font-weight: 400;">{ intersection: [Vector2](../dot/Vector2.md)[][]; aOnly: [Vector2](../dot/Vector2.md)[][]; bOnly: [Vector2](../dot/Vector2.md)[][] }</span> {: #getOverlaps data-toc-label='getOverlaps' }
 
-#### cag( paths : <span style="font-weight: 400; opacity: 80%;">RenderPath[]</span>, getFaceData : <span style="font-weight: 400; opacity: 80%;">( face: RationalFace ) =&gt; FaceData</span>, createOutputFace : <span style="font-weight: 400; opacity: 80%;">( face: PolygonalFace, faceData: FaceData, bounds: Bounds2 ) =&gt; OutputFace</span>, isFaceDataCompatible : <span style="font-weight: 400; opacity: 80%;">( faceData1: FaceData, faceData2: FaceData | null ) =&gt; boolean</span>, log : <span style="font-weight: 400; opacity: 80%;">RasterTileLog | null</span> ) : <span style="font-weight: 400; opacity: 80%;">OutputFace[]</span> {: #cag data-toc-label='cag' }
+#### cag( paths : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)[]</span>, getFaceData : <span style="font-weight: 400;">( face: [RationalFace](../alpenglow/RationalFace.md) ) =&gt; FaceData</span>, createOutputFace : <span style="font-weight: 400;">( face: [PolygonalFace](../alpenglow/PolygonalFace.md), faceData: FaceData, bounds: [Bounds2](../dot/Bounds2.md) ) =&gt; OutputFace</span>, isFaceDataCompatible : <span style="font-weight: 400;">( faceData1: FaceData, faceData2: FaceData | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, log : <span style="font-weight: 400;">[RasterTileLog](../alpenglow/RasterLog.md#RasterTileLog) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">OutputFace[]</span> {: #cag data-toc-label='cag' }
 
 TODO: ideally handle the fully collinear simplification?
 

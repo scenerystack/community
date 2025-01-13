@@ -22,19 +22,19 @@ import { ClosestDragForwardingListener } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ClosestDragForwardingListener( touchThreshold : <span style="font-weight: 400; opacity: 80%;">number</span>, mouseThreshold : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new ClosestDragForwardingListener( touchThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, mouseThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### addDraggableItem( item : <span style="font-weight: 400; opacity: 80%;">DraggableItem</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addDraggableItem data-toc-label='addDraggableItem' }
+#### addDraggableItem( item : <span style="font-weight: 400;">DraggableItem</span> ) {: #addDraggableItem data-toc-label='addDraggableItem' }
 
 Adds an item that can be dragged.
 
-#### removeDraggableItem( item : <span style="font-weight: 400; opacity: 80%;">DraggableItem</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeDraggableItem data-toc-label='removeDraggableItem' }
+#### removeDraggableItem( item : <span style="font-weight: 400;">DraggableItem</span> ) {: #removeDraggableItem data-toc-label='removeDraggableItem' }
 
 Removes a previously-added item.
 
-#### down( event : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #down data-toc-label='down' }
+#### down( event : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span> ) {: #down data-toc-label='down' }
 
 Called on pointer down.
 

@@ -14,32 +14,32 @@ import { EventType } from 'scenerystack/tandem';
 ```
 ### Static Properties
 
-#### USER : <span style="font-weight: 400; opacity: 80%;">EventType</span> {: #USER data-toc-label='USER' }
+#### USER : <span style="font-weight: 400;">[EventType](../tandem/EventType.md)</span> {: #USER data-toc-label='USER' }
 
 (readonly)
 
 The user has taken an action, such as pressing a button or moving a mouse
 
-#### [ TandemConstants.EVENT_TYPE_MODEL ] : <span style="font-weight: 400; opacity: 80%;">EventType</span> {: #[ TandemConstants.EVENT_TYPE_MODEL ] data-toc-label='[ TandemConstants.EVENT_TYPE_MODEL ]' }
+#### [ TandemConstants.EVENT_TYPE_MODEL ] : <span style="font-weight: 400;">[EventType](../tandem/EventType.md)</span> {: #[ TandemConstants.EVENT_TYPE_MODEL ] data-toc-label='[ TandemConstants.EVENT_TYPE_MODEL ]' }
 
 (readonly)
 
 An event was produced by the simulation model. This could be in response to a user event, or something that happens
 during the simulation step. Note the separation is not model vs view, but user-driven vs automatic.
 
-#### WRAPPER : <span style="font-weight: 400; opacity: 80%;">EventType</span> {: #WRAPPER data-toc-label='WRAPPER' }
+#### WRAPPER : <span style="font-weight: 400;">[EventType](../tandem/EventType.md)</span> {: #WRAPPER data-toc-label='WRAPPER' }
 
 (readonly)
 
 An event was triggered by the PhET-iO wrapper, via PhetioEngineIO.triggerEvent
 
-#### OPT_OUT : <span style="font-weight: 400; opacity: 80%;">EventType</span> {: #OPT_OUT data-toc-label='OPT_OUT' }
+#### OPT_OUT : <span style="font-weight: 400;">[EventType](../tandem/EventType.md)</span> {: #OPT_OUT data-toc-label='OPT_OUT' }
 
 (readonly)
 
 These messages are suppressed, use this to opt a PhetioObject out of the data stream feature.
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #enumeration data-toc-label='enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #enumeration data-toc-label='enumeration' }
 
 (readonly)
 

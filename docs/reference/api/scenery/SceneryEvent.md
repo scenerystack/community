@@ -22,25 +22,25 @@ import { SceneryEvent } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SceneryEvent( trail : <span style="font-weight: 400; opacity: 80%;">Trail</span>, type : <span style="font-weight: 400; opacity: 80%;">string</span>, pointer : <span style="font-weight: 400; opacity: 80%;">Pointer</span>, context : <span style="font-weight: 400; opacity: 80%;">EventContext&lt;DOMEvent&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new SceneryEvent( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, type : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, context : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)&lt;DOMEvent&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### handle() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #handle data-toc-label='handle' }
+#### handle() {: #handle data-toc-label='handle' }
 
 like DOM SceneryEvent.stopPropagation(), but named differently to indicate it doesn't fire that behavior on the underlying DOM event
 
-#### abort() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #abort data-toc-label='abort' }
+#### abort() {: #abort data-toc-label='abort' }
 
 like DOM SceneryEvent.stopImmediatePropagation(), but named differently to indicate it doesn't fire that behavior on the underlying DOM event
 
-#### isFromPDOM() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isFromPDOM data-toc-label='isFromPDOM' }
+#### isFromPDOM() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isFromPDOM data-toc-label='isFromPDOM' }
 
 Specifies whether the SceneryEvent came from alternative input. See Input.PDOM_EVENT_TYPES for a list of events
 pdom-related events supported by scenery. These events are exclusively supported by the ParallelDOM for Interactive
 description.
 
-#### canStartPress() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #canStartPress data-toc-label='canStartPress' }
+#### canStartPress() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #canStartPress data-toc-label='canStartPress' }
 
 Returns whether a typical PressListener (that isn't already attached) could start a drag with this event.
 
@@ -59,66 +59,66 @@ NOTE: This ignores non-left mouse buttons (as this is the typical behavior). Cus
 
 ### Instance Properties
 
-#### handled : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #handled data-toc-label='handled' }
+#### handled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #handled data-toc-label='handled' }
 
 Whether this SceneryEvent has been 'handled'. If so, it will not bubble further.
 
-#### aborted : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #aborted data-toc-label='aborted' }
+#### aborted : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #aborted data-toc-label='aborted' }
 
 Whether this SceneryEvent has been 'aborted'. If so, no further listeners with it will fire.
 
-#### trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> {: #trail data-toc-label='trail' }
+#### trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #trail data-toc-label='trail' }
 
 (readonly)
 
 Path to the leaf-most node "hit" by the event, ordered list, from root to leaf
 
-#### type : <span style="font-weight: 400; opacity: 80%;">string</span> {: #type data-toc-label='type' }
+#### type : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #type data-toc-label='type' }
 
 (readonly)
 
 What event was triggered on the listener, e.g. 'move'
 
-#### pointer : <span style="font-weight: 400; opacity: 80%;">Pointer</span> {: #pointer data-toc-label='pointer' }
+#### pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span> {: #pointer data-toc-label='pointer' }
 
 (readonly)
 
 The pointer that triggered this event
 
-#### domEvent : <span style="font-weight: 400; opacity: 80%;">DOMEvent | null</span> {: #domEvent data-toc-label='domEvent' }
+#### domEvent : <span style="font-weight: 400;">DOMEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #domEvent data-toc-label='domEvent' }
 
 (readonly)
 
 Raw DOM InputEvent (TouchEvent, PointerEvent, MouseEvent,...)
 
-#### context : <span style="font-weight: 400; opacity: 80%;">EventContext</span> {: #context data-toc-label='context' }
+#### context : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)</span> {: #context data-toc-label='context' }
 
 (readonly)
 
 Assorted environment information when the event was fired
 
-#### activeElement : <span style="font-weight: 400; opacity: 80%;">Element | null</span> {: #activeElement data-toc-label='activeElement' }
+#### activeElement : <span style="font-weight: 400;">Element | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #activeElement data-toc-label='activeElement' }
 
 (readonly)
 
 The document.activeElement when the event was fired
 
-#### currentTarget : <span style="font-weight: 400; opacity: 80%;">Node | null</span> {: #currentTarget data-toc-label='currentTarget' }
+#### currentTarget : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #currentTarget data-toc-label='currentTarget' }
 
 Whatever node you attached the listener to, or null when firing events on a Pointer
 
-#### target : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #target data-toc-label='target' }
+#### target : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #target data-toc-label='target' }
 
 Leaf-most node in trail
 
-#### isPrimary : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isPrimary data-toc-label='isPrimary' }
+#### isPrimary : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isPrimary data-toc-label='isPrimary' }
 
 Whether this is the 'primary' mode for the pointer. Always true for touches, and will be true
 for the mouse if it is the primary (left) mouse button.
 
 ### Static Properties
 
-#### SceneryEventIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #SceneryEventIO data-toc-label='SceneryEventIO' }
+#### SceneryEventIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #SceneryEventIO data-toc-label='SceneryEventIO' }
 
 (readonly)
 

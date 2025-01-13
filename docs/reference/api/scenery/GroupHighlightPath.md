@@ -16,7 +16,7 @@ import { GroupHighlightPath } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GroupHighlightPath( shape : <span style="font-weight: 400; opacity: 80%;">Shape | string | null</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">GroupHighlightPathOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new GroupHighlightPath( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">GroupHighlightPathOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

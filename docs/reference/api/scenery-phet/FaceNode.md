@@ -16,13 +16,13 @@ import { FaceNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new FaceNode( headDiameter : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">FaceNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new FaceNode( headDiameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[FaceNodeOptions](../scenery-phet/FaceNode.md#FaceNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### smile() : <span style="font-weight: 400; opacity: 80%;">FaceNode</span> {: #smile data-toc-label='smile' }
+#### smile() : <span style="font-weight: 400;">[FaceNode](../scenery-phet/FaceNode.md)</span> {: #smile data-toc-label='smile' }
 
-#### frown() : <span style="font-weight: 400; opacity: 80%;">FaceNode</span> {: #frown data-toc-label='frown' }
+#### frown() : <span style="font-weight: 400;">[FaceNode](../scenery-phet/FaceNode.md)</span> {: #frown data-toc-label='frown' }
 
 
 

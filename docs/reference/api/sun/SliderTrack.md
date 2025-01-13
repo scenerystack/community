@@ -16,44 +16,44 @@ import { SliderTrack } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new SliderTrack( valueProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span>, trackNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, range : <span style="font-weight: 400; opacity: 80%;">Range | TReadOnlyProperty&lt;Range&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">SliderTrackOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new SliderTrack( valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, trackNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### minimumSize : <span style="font-weight: 400; opacity: 80%;">Dimension2</span> {: #minimumSize data-toc-label='minimumSize' }
+#### minimumSize : <span style="font-weight: 400;">[Dimension2](../dot/Dimension2.md)</span> {: #minimumSize data-toc-label='minimumSize' }
 
 (protected, readonly)
 
-#### internalWidthProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number&gt;</span> {: #internalWidthProperty data-toc-label='internalWidthProperty' }
+#### internalWidthProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #internalWidthProperty data-toc-label='internalWidthProperty' }
 
 (protected, readonly)
 
-#### sizeProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Dimension2&gt;</span> {: #sizeProperty data-toc-label='sizeProperty' }
+#### sizeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Dimension2](../dot/Dimension2.md)&gt;</span> {: #sizeProperty data-toc-label='sizeProperty' }
 
 (protected, readonly)
 
-#### valueToPositionProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;LinearFunction&gt;</span> {: #valueToPositionProperty data-toc-label='valueToPositionProperty' }
+#### valueToPositionProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[LinearFunction](../dot/LinearFunction.md)&gt;</span> {: #valueToPositionProperty data-toc-label='valueToPositionProperty' }
 
 (readonly)
 
 For use by Slider, maps the value along the range of the track to the position along the width of the track
 
-#### dragListener : <span style="font-weight: 400; opacity: 80%;">DragListener</span> {: #dragListener data-toc-label='dragListener' }
+#### dragListener : <span style="font-weight: 400;">[DragListener](../scenery/DragListener.md)</span> {: #dragListener data-toc-label='dragListener' }
 
 (readonly)
 
 public so that clients can access Properties of the DragListener that tell us about its state
 See https://github.com/phetsims/sun/issues/680
 
-#### leftVisualOverflow : <span style="font-weight: 400; opacity: 80%;">number</span> {: #leftVisualOverflow data-toc-label='leftVisualOverflow' }
+#### leftVisualOverflow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #leftVisualOverflow data-toc-label='leftVisualOverflow' }
 
 (readonly)
 
-#### rightVisualOverflow : <span style="font-weight: 400; opacity: 80%;">number</span> {: #rightVisualOverflow data-toc-label='rightVisualOverflow' }
+#### rightVisualOverflow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #rightVisualOverflow data-toc-label='rightVisualOverflow' }
 
 (readonly)
 

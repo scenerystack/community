@@ -46,43 +46,43 @@ import { KeyboardDragListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyboardDragListener( providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyboardDragListenerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyboardDragListener( providedOptions? : <span style="font-weight: 400;">[KeyboardDragListenerOptions](../scenery/KeyboardDragListener.md#KeyboardDragListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getDragBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2 | null</span> {: #getDragBounds data-toc-label='getDragBounds' }
+#### getDragBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getDragBounds data-toc-label='getDragBounds' }
 
 Returns the drag bounds in model coordinates.
 
-#### setTransform( transform : <span style="font-weight: 400; opacity: 80%;">Transform3 | TReadOnlyProperty&lt;Transform3&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTransform data-toc-label='setTransform' }
+#### setTransform( transform : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Transform3](../dot/Transform3.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setTransform data-toc-label='setTransform' }
 
 Sets the drag transform of the listener.
 
-#### getTransform() : <span style="font-weight: 400; opacity: 80%;">Transform3 | TReadOnlyProperty&lt;Transform3&gt; | null</span> {: #getTransform data-toc-label='getTransform' }
+#### getTransform() : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Transform3](../dot/Transform3.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getTransform data-toc-label='getTransform' }
 
 Returns the transform of the listener.
 
-#### movingLeft() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #movingLeft data-toc-label='movingLeft' }
+#### movingLeft() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #movingLeft data-toc-label='movingLeft' }
 
 Are keys pressed that would move the target Node to the left?
 
-#### movingRight() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #movingRight data-toc-label='movingRight' }
+#### movingRight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #movingRight data-toc-label='movingRight' }
 
 Are keys pressed that would move the target Node to the right?
 
-#### movingUp() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #movingUp data-toc-label='movingUp' }
+#### movingUp() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #movingUp data-toc-label='movingUp' }
 
 Are keys pressed that would move the target Node up?
 
-#### movingDown() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #movingDown data-toc-label='movingDown' }
+#### movingDown() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #movingDown data-toc-label='movingDown' }
 
 Are keys pressed that would move the target Node down?
 
-#### getCurrentTarget() : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #getCurrentTarget data-toc-label='getCurrentTarget' }
+#### getCurrentTarget() : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #getCurrentTarget data-toc-label='getCurrentTarget' }
 
 Get the current target Node of the drag.
 
-#### keydown( event : <span style="font-weight: 400; opacity: 80%;">SceneryEvent&lt;KeyboardEvent&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #keydown data-toc-label='keydown' }
+#### keydown( event : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md)&lt;KeyboardEvent&gt;</span> ) {: #keydown data-toc-label='keydown' }
 
 Scenery internal. Part of the events API. Do not call directly.
 
@@ -91,7 +91,7 @@ key state updates. This is important because interruption needs to happen after 
 the key state. And this implementation assumes that the keydown event will happen after Hotkey updates
 (see startNextKeyboardEvent).
 
-#### mapModelPoint( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #mapModelPoint data-toc-label='mapModelPoint' }
+#### mapModelPoint( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #mapModelPoint data-toc-label='mapModelPoint' }
 
 (protected)
 
@@ -105,17 +105,17 @@ Should be overridden (or use mapPosition) if a custom transformation is needed.
 
 @returns - A point in the model coordinate frame
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Make eligible for garbage collection.
 
 ### Instance Properties
 
-#### modelDelta : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelDelta data-toc-label='modelDelta' }
+#### modelDelta : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelDelta data-toc-label='modelDelta' }
 
 The vector delta in model coordinates that is used to move the object during a drag operation.
 
-#### modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelPoint data-toc-label='modelPoint' }
+#### modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelPoint data-toc-label='modelPoint' }
 
 The current drag point in the model coordinate frame.
 

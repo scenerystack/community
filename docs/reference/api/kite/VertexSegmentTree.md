@@ -14,9 +14,9 @@ import { VertexSegmentTree } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### getMinX( vertex : <span style="font-weight: 400; opacity: 80%;">Vertex</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinX data-toc-label='getMinX' }
+#### getMinX( vertex : <span style="font-weight: 400;">[Vertex](../kite/Vertex.md)</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinX data-toc-label='getMinX' }
 
-#### getMaxX( vertex : <span style="font-weight: 400; opacity: 80%;">Vertex</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaxX data-toc-label='getMaxX' }
+#### getMaxX( vertex : <span style="font-weight: 400;">[Vertex](../kite/Vertex.md)</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaxX data-toc-label='getMaxX' }
 
 
 

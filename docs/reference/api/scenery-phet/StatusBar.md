@@ -16,21 +16,21 @@ import { StatusBar } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StatusBar( layoutBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, visibleBoundsProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Bounds2&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">StatusBarOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new StatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### positioningBoundsProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Bounds2&gt;</span> {: #positioningBoundsProperty data-toc-label='positioningBoundsProperty' }
+#### positioningBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span> {: #positioningBoundsProperty data-toc-label='positioningBoundsProperty' }
 
 (protected, readonly)
 
 ### Static Properties
 
-#### DEFAULT_FONT : <span style="font-weight: 400; opacity: 80%;">PhetFont</span> {: #DEFAULT_FONT data-toc-label='DEFAULT_FONT' }
+#### DEFAULT_FONT : <span style="font-weight: 400;">[PhetFont](../scenery-phet/PhetFont.md)</span> {: #DEFAULT_FONT data-toc-label='DEFAULT_FONT' }
 
 (readonly)
 

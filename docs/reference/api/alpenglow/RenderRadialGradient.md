@@ -14,39 +14,39 @@ import { RenderRadialGradient } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderRadialGradient( transform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span>, start : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, startRadius : <span style="font-weight: 400; opacity: 80%;">number</span>, end : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, endRadius : <span style="font-weight: 400; opacity: 80%;">number</span>, stops : <span style="font-weight: 400; opacity: 80%;">RenderGradientStop[]</span>, extend : <span style="font-weight: 400; opacity: 80%;">RenderExtend</span>, accuracy : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientAccuracy</span>, logic? : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientLogic</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderRadialGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, startRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span>, logic? : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getName() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getName data-toc-label='getName' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### withChildren( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradient</span> {: #withChildren data-toc-label='withChildren' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderRadialGradient](../alpenglow/RenderRadialGradient.md)</span> {: #withChildren data-toc-label='withChildren' }
 
-#### isSplittable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSplittable data-toc-label='isSplittable' }
+#### isSplittable() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSplittable data-toc-label='isSplittable' }
 
-#### transformed( transform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #transformed data-toc-label='transformed' }
+#### transformed( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #transformed data-toc-label='transformed' }
 
-#### equalsTyped( other : <span style="font-weight: 400; opacity: 80%;">this</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsTyped data-toc-label='equalsTyped' }
-
-(protected)
-
-#### getSimplified( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram | null</span> {: #getSimplified data-toc-label='getSimplified' }
+#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
 
 (protected)
 
-#### getLogic() : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientLogic</span> {: #getLogic data-toc-label='getLogic' }
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
 
-#### evaluate( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #evaluate data-toc-label='evaluate' }
+(protected)
 
-#### writeInstructions( instructions : <span style="font-weight: 400; opacity: 80%;">RenderInstruction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeInstructions data-toc-label='writeInstructions' }
+#### getLogic() : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> {: #getLogic data-toc-label='getLogic' }
 
-#### split( face : <span style="font-weight: 400; opacity: 80%;">RenderableFace</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderableFace[]</span> {: #split data-toc-label='split' }
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
 
-#### serialize() : <span style="font-weight: 400; opacity: 80%;">SerializedRenderRadialGradient</span> {: #serialize data-toc-label='serialize' }
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
+
+#### split( face : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)</span> ) : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)[]</span> {: #split data-toc-label='split' }
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderRadialGradient](../alpenglow/RenderRadialGradient.md#SerializedRenderRadialGradient)</span> {: #serialize data-toc-label='serialize' }
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400; opacity: 80%;">SerializedRenderRadialGradient</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradient</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderRadialGradient](../alpenglow/RenderRadialGradient.md#SerializedRenderRadialGradient)</span> ) : <span style="font-weight: 400;">[RenderRadialGradient](../alpenglow/RenderRadialGradient.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 
 
@@ -58,17 +58,17 @@ import { RenderRadialGradientLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderRadialGradientLogic( conicTransform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span>, focalX : <span style="font-weight: 400; opacity: 80%;">number</span>, radius : <span style="font-weight: 400; opacity: 80%;">number</span>, kind : <span style="font-weight: 400; opacity: 80%;">RadialGradientType</span>, isSwapped : <span style="font-weight: 400; opacity: 80%;">boolean</span>, ratios : <span style="font-weight: 400; opacity: 80%;">number[]</span>, extend : <span style="font-weight: 400; opacity: 80%;">RenderExtend</span>, accuracy : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientAccuracy</span> ) {: #RenderRadialGradientLogic-constructor data-toc-label='RenderRadialGradientLogic-constructor' }
+#### new RenderRadialGradientLogic( conicTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, focalX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, kind : <span style="font-weight: 400;">[RadialGradientType](../alpenglow/RenderRadialGradient.md#RadialGradientType)</span>, isSwapped : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span> ) {: #RenderRadialGradientLogic-constructor data-toc-label='RenderRadialGradientLogic-constructor' }
 
 ### Instance Methods
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientLogic</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #RenderRadialGradientLogic-equals data-toc-label='RenderRadialGradientLogic-equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderRadialGradientLogic-equals data-toc-label='RenderRadialGradientLogic-equals' }
 
-#### computeLinearValue( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #RenderRadialGradientLogic-computeLinearValue data-toc-label='RenderRadialGradientLogic-computeLinearValue' }
+#### computeLinearValue( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderRadialGradientLogic-computeLinearValue data-toc-label='RenderRadialGradientLogic-computeLinearValue' }
 
 ### Static Methods
 
-#### from( transform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span>, start : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, startRadius : <span style="font-weight: 400; opacity: 80%;">number</span>, end : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, endRadius : <span style="font-weight: 400; opacity: 80%;">number</span>, ratios : <span style="font-weight: 400; opacity: 80%;">number[]</span>, extend : <span style="font-weight: 400; opacity: 80%;">RenderExtend</span>, accuracy : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientAccuracy</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderRadialGradientLogic</span> {: #RenderRadialGradientLogic-from data-toc-label='RenderRadialGradientLogic-from' }
+#### from( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, startRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span> ) : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> {: #RenderRadialGradientLogic-from data-toc-label='RenderRadialGradientLogic-from' }
 
 
 

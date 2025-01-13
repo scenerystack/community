@@ -14,31 +14,31 @@ import { SVGPattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGPattern( pattern : <span style="font-weight: 400; opacity: 80%;">Pattern</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGPattern( pattern : <span style="font-weight: 400;">[Pattern](../scenery/Pattern.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( pattern : <span style="font-weight: 400; opacity: 80%;">Pattern</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #initialize data-toc-label='initialize' }
+#### initialize( pattern : <span style="font-weight: 400;">[Pattern](../scenery/Pattern.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
-#### update() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #update data-toc-label='update' }
+#### update() {: #update data-toc-label='update' }
 
 Called from SVGBlock, matches other paints.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes, so that it can be reused from the pool.
 
-#### freeToPool() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
 ### Instance Properties
 
-#### definition : <span style="font-weight: 400; opacity: 80%;">SVGPatternElement</span> {: #definition data-toc-label='definition' }
+#### definition : <span style="font-weight: 400;">SVGPatternElement</span> {: #definition data-toc-label='definition' }
 
 persistent
 
 ### Static Properties
 
-#### pool : <span style="font-weight: 400; opacity: 80%;">Pool</span> {: #pool data-toc-label='pool' }
+#### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
 

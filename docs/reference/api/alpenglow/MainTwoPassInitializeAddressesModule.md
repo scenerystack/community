@@ -16,7 +16,7 @@ import { MainTwoPassInitializeAddressesModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassInitializeAddressesModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">MainTwoPassInitializeAddressesModuleOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassInitializeAddressesModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassInitializeAddressesModuleOptions](../alpenglow/MainTwoPassInitializeAddressesModule.md#MainTwoPassInitializeAddressesModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,7 +24,7 @@ import { MainTwoPassInitializeAddressesModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### addresses : <span style="font-weight: 400; opacity: 80%;">BufferSlot&lt;number[]&gt;</span> {: #addresses data-toc-label='addresses' }
+#### addresses : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;</span> {: #addresses data-toc-label='addresses' }
 
 (readonly)
 

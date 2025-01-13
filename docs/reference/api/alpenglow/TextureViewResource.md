@@ -14,13 +14,13 @@ import { TextureViewResource } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TextureViewResource( textureView : <span style="font-weight: 400; opacity: 80%;">GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextureViewResource( textureView : <span style="font-weight: 400;">GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getBindGroupEntry( binding : <span style="font-weight: 400; opacity: 80%;">Binding</span> ) : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupEntry</span> {: #getBindGroupEntry data-toc-label='getBindGroupEntry' }
+#### getBindGroupEntry( binding : <span style="font-weight: 400;">[Binding](../alpenglow/Binding.md)</span> ) : <span style="font-weight: 400;">GPUBindGroupEntry</span> {: #getBindGroupEntry data-toc-label='getBindGroupEntry' }
 
-#### toDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toDebugString data-toc-label='toDebugString' }
+#### toDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toDebugString data-toc-label='toDebugString' }
 
 
 

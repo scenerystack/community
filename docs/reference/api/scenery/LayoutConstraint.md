@@ -24,7 +24,7 @@ import { LayoutConstraint } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### layout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #layout data-toc-label='layout' }
+#### layout() {: #layout data-toc-label='layout' }
 
 (protected)
 
@@ -32,18 +32,18 @@ NOTE: DO NOT call from places other than super.layout() in overridden layout() O
       updateLayout(). Doing so would break the lock mechanism.
 NOTE: Cannot be marked as abstract due to how mixins work
 
-#### updateLayout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updateLayout data-toc-label='updateLayout' }
+#### updateLayout() {: #updateLayout data-toc-label='updateLayout' }
 
 Updates the layout of this constraint. Called automatically during initialization, when children change (if
 resize is true), or when client wants to call this public method for any reason.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #ancestorNode data-toc-label='ancestorNode' }
+#### ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #ancestorNode data-toc-label='ancestorNode' }
 
 (readonly)
 

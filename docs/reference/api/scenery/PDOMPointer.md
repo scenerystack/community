@@ -16,11 +16,11 @@ import { PDOMPointer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMPointer( display : <span style="font-weight: 400; opacity: 80%;">Display</span> ) {: #constructor data-toc-label='constructor' }
+#### new PDOMPointer( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### updateTrail( trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) : <span style="font-weight: 400; opacity: 80%;">Trail</span> {: #updateTrail data-toc-label='updateTrail' }
+#### updateTrail( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #updateTrail data-toc-label='updateTrail' }
 
 
 

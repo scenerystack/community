@@ -21,23 +21,23 @@ import { PhetioAction } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new PhetioAction( action : <span style="font-weight: 400; opacity: 80%;">( ...args: T ) =&gt; void</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ActionOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PhetioAction( action : <span style="font-weight: 400;">( ...args: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">[ActionOptions](../tandem/PhetioAction.md#ActionOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### execute( ...args : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #execute data-toc-label='execute' }
+#### execute( ...args : <span style="font-weight: 400;">T</span> ) {: #execute data-toc-label='execute' }
 
 Invokes the action.
 @params - expected parameters are based on options.parameters, see constructor
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Note: Be careful about adding disposal logic directly to this function, it is likely preferred to add it to
 disposePhetioAction instead, see disposeOnExecuteCompletion for details.
 
 ### Instance Properties
 
-#### executedEmitter : <span style="font-weight: 400; opacity: 80%;">Emitter&lt;T&gt;</span> {: #executedEmitter data-toc-label='executedEmitter' }
+#### executedEmitter : <span style="font-weight: 400;">[Emitter](../axon/Emitter.md)&lt;T&gt;</span> {: #executedEmitter data-toc-label='executedEmitter' }
 
 (readonly)
 

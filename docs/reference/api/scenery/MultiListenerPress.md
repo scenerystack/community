@@ -15,29 +15,29 @@ import { MultiListenerPress } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new MultiListenerPress( pointer : <span style="font-weight: 400; opacity: 80%;">Pointer</span>, trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) {: #constructor data-toc-label='constructor' }
+#### new MultiListenerPress( pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### recomputeLocalPoint() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #recomputeLocalPoint data-toc-label='recomputeLocalPoint' }
+#### recomputeLocalPoint() {: #recomputeLocalPoint data-toc-label='recomputeLocalPoint' }
 
 Compute the local point for this Press, which is the local point for the leaf Node of this Press's Trail.
 
 ### Instance Properties
 
-#### pointer : <span style="font-weight: 400; opacity: 80%;">Pointer</span> {: #pointer data-toc-label='pointer' }
+#### pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span> {: #pointer data-toc-label='pointer' }
 
-#### trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> {: #trail data-toc-label='trail' }
+#### trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #trail data-toc-label='trail' }
 
-#### interrupted : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #interrupted data-toc-label='interrupted' }
+#### interrupted : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #interrupted data-toc-label='interrupted' }
 
-#### initialPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #initialPoint data-toc-label='initialPoint' }
+#### initialPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #initialPoint data-toc-label='initialPoint' }
 
 (readonly)
 
 down point for the new press, in the global coordinate frame
 
-#### localPoint : <span style="font-weight: 400; opacity: 80%;">Vector2 | null</span> {: #localPoint data-toc-label='localPoint' }
+#### localPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #localPoint data-toc-label='localPoint' }
 
 point for the new press, in the local coordinate frame of the leaf Node of the Trail
 

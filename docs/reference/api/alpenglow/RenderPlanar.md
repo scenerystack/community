@@ -16,25 +16,25 @@ import { RenderPlanar } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPlanar( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, pointA : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, pointB : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, pointC : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPlanar( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, pointA : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointB : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointC : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getDepth( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getDepth data-toc-label='getDepth' }
+#### getDepth( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getDepth data-toc-label='getDepth' }
 
-#### getDepthRange( face : <span style="font-weight: 400; opacity: 80%;">ClippableFace</span> ) : <span style="font-weight: 400; opacity: 80%;">Range</span> {: #getDepthRange data-toc-label='getDepthRange' }
+#### getDepthRange( face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span> ) : <span style="font-weight: 400;">[Range](../dot/Range.md)</span> {: #getDepthRange data-toc-label='getDepthRange' }
 
 Returns the range of potential depth values included in the face.
 
-#### getDepthSplit( planar : <span style="font-weight: 400; opacity: 80%;">RenderPlanar</span>, face : <span style="font-weight: 400; opacity: 80%;">ClippableFace</span> ) : <span style="font-weight: 400; opacity: 80%;">{ ourFaceFront: ClippableFace | null; otherFaceFront: ClippableFace | null }</span> {: #getDepthSplit data-toc-label='getDepthSplit' }
+#### getDepthSplit( planar : <span style="font-weight: 400;">[RenderPlanar](../alpenglow/RenderPlanar.md)</span>, face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span> ) : <span style="font-weight: 400;">{ ourFaceFront: [ClippableFace](../alpenglow/ClippableFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>; otherFaceFront: [ClippableFace](../alpenglow/ClippableFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> }</span> {: #getDepthSplit data-toc-label='getDepthSplit' }
 
-#### transformed( transform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPlanar</span> {: #transformed data-toc-label='transformed' }
+#### transformed( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderPlanar](../alpenglow/RenderPlanar.md)</span> {: #transformed data-toc-label='transformed' }
 
-#### withProgram( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPlanar</span> {: #withProgram data-toc-label='withProgram' }
+#### withProgram( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">[RenderPlanar](../alpenglow/RenderPlanar.md)</span> {: #withProgram data-toc-label='withProgram' }
 
 ### Instance Properties
 
-#### plane : <span style="font-weight: 400; opacity: 80%;">Plane3</span> {: #plane data-toc-label='plane' }
+#### plane : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md)</span> {: #plane data-toc-label='plane' }
 
 (readonly)
 

@@ -25,11 +25,11 @@ import { LevelSelectionButtonGroup } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400; opacity: 80%;">LevelSelectionButtonGroupItem[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">LevelSelectionButtonGroupOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400;">LevelSelectionButtonGroupItem[]</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonGroupOptions](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### focusLevelSelectionButton( level : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #focusLevelSelectionButton data-toc-label='focusLevelSelectionButton' }
+#### focusLevelSelectionButton( level : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #focusLevelSelectionButton data-toc-label='focusLevelSelectionButton' }
 
 Sets the focus to the button associated with a specified level number. If your simulation supports keyboard
 traversal, you'll typically need to call this when returning to the UI that show the LevelSelectionButtonGroup,

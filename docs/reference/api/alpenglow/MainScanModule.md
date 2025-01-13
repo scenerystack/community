@@ -16,7 +16,7 @@ import { MainScanModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainScanModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">MainScanModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainScanModule( providedOptions : <span style="font-weight: 400;">[MainScanModuleOptions](../alpenglow/MainScanModule.md#MainScanModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,23 +24,23 @@ import { MainScanModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### input : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #input data-toc-label='input' }
+#### input : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #input data-toc-label='input' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 
-#### reduction : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt; | null</span> {: #reduction data-toc-label='reduction' }
+#### reduction : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #reduction data-toc-label='reduction' }
 
 (readonly)
 
-#### scannedReduction : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt; | null</span> {: #scannedReduction data-toc-label='scannedReduction' }
+#### scannedReduction : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #scannedReduction data-toc-label='scannedReduction' }
 
 (readonly)
 
-#### scannedDoubleReduction : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt; | null</span> {: #scannedDoubleReduction data-toc-label='scannedDoubleReduction' }
+#### scannedDoubleReduction : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #scannedDoubleReduction data-toc-label='scannedDoubleReduction' }
 
 (readonly)
 

@@ -14,11 +14,11 @@ import { FlowLine } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### clean() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clean data-toc-label='clean' }
+#### clean() {: #clean data-toc-label='clean' }
 
 ### Instance Properties
 
-#### cells : <span style="font-weight: 400; opacity: 80%;">FlowCell[]</span> {: #cells data-toc-label='cells' }
+#### cells : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)[]</span> {: #cells data-toc-label='cells' }
 
 
 

@@ -16,11 +16,11 @@ import { MarginLayoutCell } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Static Methods
 
-#### createHelperNode( cells : <span style="font-weight: 400; opacity: 80%;">Cell[]</span>, layoutBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, cellToText : <span style="font-weight: 400; opacity: 80%;">( cell: Cell ) =&gt; string</span> ) : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #createHelperNode data-toc-label='createHelperNode' }
+#### createHelperNode( cells : <span style="font-weight: 400;">Cell[]</span>, layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, cellToText : <span style="font-weight: 400;">( cell: Cell ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #createHelperNode data-toc-label='createHelperNode' }
 
 
 

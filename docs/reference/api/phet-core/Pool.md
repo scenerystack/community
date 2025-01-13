@@ -30,22 +30,22 @@ import { Pool } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Pool( type : <span style="font-weight: 400; opacity: 80%;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400; opacity: 80%;">PossiblyRequiredParameterSpread&lt;PoolableOptions&lt;T&gt;&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Pool( type : <span style="font-weight: 400;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400;">[PossiblyRequiredParameterSpread](../phet-core/Pool.md#PossiblyRequiredParameterSpread)&lt;[PoolableOptions](../phet-core/Pool.md#PoolableOptions)&lt;T&gt;&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### fetch() : <span style="font-weight: 400; opacity: 80%;">InstanceType&lt;T&gt;</span> {: #fetch data-toc-label='fetch' }
+#### fetch() : <span style="font-weight: 400;">InstanceType&lt;T&gt;</span> {: #fetch data-toc-label='fetch' }
 
 Returns an object with arbitrary state (possibly constructed with the default arguments).
 
-#### create( ...args : <span style="font-weight: 400; opacity: 80%;">ConstructorParameters&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">InstanceType&lt;T&gt;</span> {: #create data-toc-label='create' }
+#### create( ...args : <span style="font-weight: 400;">ConstructorParameters&lt;T&gt;</span> ) : <span style="font-weight: 400;">InstanceType&lt;T&gt;</span> {: #create data-toc-label='create' }
 
 Returns an object that behaves as if it was constructed with the given arguments. May result in a new object
 being created (if the pool is empty), or it may use the constructor to mutate an object from the pool.
 
-#### freeToPool( object : <span style="font-weight: 400; opacity: 80%;">InstanceType&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #freeToPool data-toc-label='freeToPool' }
+#### freeToPool( object : <span style="font-weight: 400;">InstanceType&lt;T&gt;</span> ) {: #freeToPool data-toc-label='freeToPool' }
 
-#### forEach( callback : <span style="font-weight: 400; opacity: 80%;">( object: InstanceType&lt;T&gt; ) =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #forEach data-toc-label='forEach' }
+#### forEach( callback : <span style="font-weight: 400;">( object: InstanceType&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #forEach data-toc-label='forEach' }
 
 
 

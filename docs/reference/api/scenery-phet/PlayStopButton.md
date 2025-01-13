@@ -16,7 +16,7 @@ import { PlayStopButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlayStopButton( isPlayingProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PlayStopButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlayStopButton( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PlayStopButtonOptions](../scenery-phet/PlayStopButton.md#PlayStopButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

@@ -21,15 +21,15 @@ import { LinearFunction } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new LinearFunction( a1 : <span style="font-weight: 400; opacity: 80%;">number</span>, a2 : <span style="font-weight: 400; opacity: 80%;">number</span>, b1 : <span style="font-weight: 400; opacity: 80%;">number</span>, b2 : <span style="font-weight: 400; opacity: 80%;">number</span>, clamp ) {: #constructor data-toc-label='constructor' }
+#### new LinearFunction( a1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, a2 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, b1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, b2 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, clamp ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### evaluate( a3 : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( a3 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
 Maps from a to b.
 
-#### inverse( b3 : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #inverse data-toc-label='inverse' }
+#### inverse( b3 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #inverse data-toc-label='inverse' }
 
 Maps from b to a
 

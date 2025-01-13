@@ -18,27 +18,27 @@ import { GameAudioPlayer } from 'scenerystack/vegas';
 
 ### Instance Methods
 
-#### correctAnswer() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #correctAnswer data-toc-label='correctAnswer' }
+#### correctAnswer() {: #correctAnswer data-toc-label='correctAnswer' }
 
 play the sound that indicates a correct answer
 
-#### wrongAnswer() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #wrongAnswer data-toc-label='wrongAnswer' }
+#### wrongAnswer() {: #wrongAnswer data-toc-label='wrongAnswer' }
 
 play the sound that indicates an incorrect answer
 
-#### challengeComplete() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #challengeComplete data-toc-label='challengeComplete' }
+#### challengeComplete() {: #challengeComplete data-toc-label='challengeComplete' }
 
 play the sound that indicates a challenge has been completed
 
-#### gameOverZeroScore() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #gameOverZeroScore data-toc-label='gameOverZeroScore' }
+#### gameOverZeroScore() {: #gameOverZeroScore data-toc-label='gameOverZeroScore' }
 
 play the sound that indicates that the user completed the game but didn't earn any points
 
-#### gameOverImperfectScore() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #gameOverImperfectScore data-toc-label='gameOverImperfectScore' }
+#### gameOverImperfectScore() {: #gameOverImperfectScore data-toc-label='gameOverImperfectScore' }
 
 play the sound that indicates that the user finished the game and got some correct and some incorrect answers
 
-#### gameOverPerfectScore() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #gameOverPerfectScore data-toc-label='gameOverPerfectScore' }
+#### gameOverPerfectScore() {: #gameOverPerfectScore data-toc-label='gameOverPerfectScore' }
 
 play the sound that indicates that the user finished the game and got a perfect score
 

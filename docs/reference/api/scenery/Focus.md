@@ -16,7 +16,7 @@ import { Focus } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Focus( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> ) {: #constructor data-toc-label='constructor' }
+#### new Focus( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,13 +24,13 @@ import { Focus } from 'scenerystack/scenery';
 
 ### Instance Properties
 
-#### trail : <span style="font-weight: 400; opacity: 80%;">Trail</span> {: #trail data-toc-label='trail' }
+#### trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #trail data-toc-label='trail' }
 
 (readonly)
 
 The trail to the focused Node.
 
-#### display : <span style="font-weight: 400; opacity: 80%;">Display</span> {: #display data-toc-label='display' }
+#### display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> {: #display data-toc-label='display' }
 
 (readonly)
 
@@ -38,7 +38,7 @@ The Display containing the Trail to the focused Node.
 
 ### Static Properties
 
-#### FocusIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #FocusIO data-toc-label='FocusIO' }
+#### FocusIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #FocusIO data-toc-label='FocusIO' }
 
 (readonly)
 

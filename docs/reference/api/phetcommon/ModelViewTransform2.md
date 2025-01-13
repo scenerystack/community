@@ -19,79 +19,79 @@ import { ModelViewTransform2 } from 'scenerystack/phetcommon';
 ```
 ### Instance Methods
 
-#### modelToViewPosition( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelToViewPosition data-toc-label='modelToViewPosition' }
+#### modelToViewPosition( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelToViewPosition data-toc-label='modelToViewPosition' }
 
 -------------------------------------------------------------------------------------------------------------
  convenience model =&gt; view
 -------------------------------------------------------------------------------------------------------------
 
-#### modelToViewXY( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelToViewXY data-toc-label='modelToViewXY' }
+#### modelToViewXY( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelToViewXY data-toc-label='modelToViewXY' }
 
-#### modelToViewX( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #modelToViewX data-toc-label='modelToViewX' }
+#### modelToViewX( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #modelToViewX data-toc-label='modelToViewX' }
 
-#### modelToViewY( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #modelToViewY data-toc-label='modelToViewY' }
+#### modelToViewY( y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #modelToViewY data-toc-label='modelToViewY' }
 
-#### modelToViewDelta( vector : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelToViewDelta data-toc-label='modelToViewDelta' }
+#### modelToViewDelta( vector : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelToViewDelta data-toc-label='modelToViewDelta' }
 
-#### modelToViewNormal( normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelToViewNormal data-toc-label='modelToViewNormal' }
+#### modelToViewNormal( normal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelToViewNormal data-toc-label='modelToViewNormal' }
 
-#### modelToViewDeltaX( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #modelToViewDeltaX data-toc-label='modelToViewDeltaX' }
+#### modelToViewDeltaX( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #modelToViewDeltaX data-toc-label='modelToViewDeltaX' }
 
-#### modelToViewDeltaY( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #modelToViewDeltaY data-toc-label='modelToViewDeltaY' }
+#### modelToViewDeltaY( y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #modelToViewDeltaY data-toc-label='modelToViewDeltaY' }
 
-#### modelToViewBounds( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #modelToViewBounds data-toc-label='modelToViewBounds' }
+#### modelToViewBounds( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #modelToViewBounds data-toc-label='modelToViewBounds' }
 
-#### modelToViewShape( shape : <span style="font-weight: 400; opacity: 80%;">Shape</span> ) : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #modelToViewShape data-toc-label='modelToViewShape' }
+#### modelToViewShape( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #modelToViewShape data-toc-label='modelToViewShape' }
 
-#### modelToViewRay( ray : <span style="font-weight: 400; opacity: 80%;">Ray2</span> ) : <span style="font-weight: 400; opacity: 80%;">Ray2</span> {: #modelToViewRay data-toc-label='modelToViewRay' }
+#### modelToViewRay( ray : <span style="font-weight: 400;">[Ray2](../dot/Ray2.md)</span> ) : <span style="font-weight: 400;">[Ray2](../dot/Ray2.md)</span> {: #modelToViewRay data-toc-label='modelToViewRay' }
 
-#### viewToModelPosition( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #viewToModelPosition data-toc-label='viewToModelPosition' }
+#### viewToModelPosition( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #viewToModelPosition data-toc-label='viewToModelPosition' }
 
 -------------------------------------------------------------------------------------------------------------
  convenience view =&gt; model
 -------------------------------------------------------------------------------------------------------------
 
-#### viewToModelXY( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #viewToModelXY data-toc-label='viewToModelXY' }
+#### viewToModelXY( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #viewToModelXY data-toc-label='viewToModelXY' }
 
-#### viewToModelX( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #viewToModelX data-toc-label='viewToModelX' }
+#### viewToModelX( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #viewToModelX data-toc-label='viewToModelX' }
 
-#### viewToModelY( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #viewToModelY data-toc-label='viewToModelY' }
+#### viewToModelY( y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #viewToModelY data-toc-label='viewToModelY' }
 
-#### viewToModelDelta( vector : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #viewToModelDelta data-toc-label='viewToModelDelta' }
+#### viewToModelDelta( vector : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #viewToModelDelta data-toc-label='viewToModelDelta' }
 
-#### viewToModelDeltaXY( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #viewToModelDeltaXY data-toc-label='viewToModelDeltaXY' }
+#### viewToModelDeltaXY( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #viewToModelDeltaXY data-toc-label='viewToModelDeltaXY' }
 
-#### viewToModelNormal( normal : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #viewToModelNormal data-toc-label='viewToModelNormal' }
+#### viewToModelNormal( normal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #viewToModelNormal data-toc-label='viewToModelNormal' }
 
-#### viewToModelDeltaX( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #viewToModelDeltaX data-toc-label='viewToModelDeltaX' }
+#### viewToModelDeltaX( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #viewToModelDeltaX data-toc-label='viewToModelDeltaX' }
 
-#### viewToModelDeltaY( y : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #viewToModelDeltaY data-toc-label='viewToModelDeltaY' }
+#### viewToModelDeltaY( y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #viewToModelDeltaY data-toc-label='viewToModelDeltaY' }
 
-#### viewToModelBounds( bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #viewToModelBounds data-toc-label='viewToModelBounds' }
+#### viewToModelBounds( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #viewToModelBounds data-toc-label='viewToModelBounds' }
 
-#### viewToModelShape( shape : <span style="font-weight: 400; opacity: 80%;">Shape</span> ) : <span style="font-weight: 400; opacity: 80%;">Shape</span> {: #viewToModelShape data-toc-label='viewToModelShape' }
+#### viewToModelShape( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #viewToModelShape data-toc-label='viewToModelShape' }
 
-#### viewToModelRay( ray : <span style="font-weight: 400; opacity: 80%;">Ray2</span> ) : <span style="font-weight: 400; opacity: 80%;">Ray2</span> {: #viewToModelRay data-toc-label='viewToModelRay' }
+#### viewToModelRay( ray : <span style="font-weight: 400;">[Ray2](../dot/Ray2.md)</span> ) : <span style="font-weight: 400;">[Ray2](../dot/Ray2.md)</span> {: #viewToModelRay data-toc-label='viewToModelRay' }
 
-#### validateMatrix( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #validateMatrix data-toc-label='validateMatrix' }
+#### validateMatrix( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) {: #validateMatrix data-toc-label='validateMatrix' }
 
 (protected)
 
-#### setToRectangleMapping( modelBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, viewBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setToRectangleMapping data-toc-label='setToRectangleMapping' }
+#### setToRectangleMapping( modelBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, viewBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setToRectangleMapping data-toc-label='setToRectangleMapping' }
 
 See ModelViewTransform2.createRectangleMapping
 
-#### setToRectangleInvertedYMapping( modelBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, viewBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setToRectangleInvertedYMapping data-toc-label='setToRectangleInvertedYMapping' }
+#### setToRectangleInvertedYMapping( modelBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, viewBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setToRectangleInvertedYMapping data-toc-label='setToRectangleInvertedYMapping' }
 
 See ModelViewTransform2.createRectangleInvertedYMapping
 
 ### Static Methods
 
-#### createIdentity() : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createIdentity data-toc-label='createIdentity' }
+#### createIdentity() : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createIdentity data-toc-label='createIdentity' }
 
 Creates a ModelViewTransform2 that uses the identity transform (i.e. model coordinates are the same as view coordinates)
 
-#### createOffsetScaleMapping( offset : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, scale : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createOffsetScaleMapping data-toc-label='createOffsetScaleMapping' }
+#### createOffsetScaleMapping( offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, scale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createOffsetScaleMapping data-toc-label='createOffsetScaleMapping' }
 
 Creates a ModelViewTransform2 that has the specified scale and offset such that
 view = model * scale + offset
@@ -99,7 +99,7 @@ view = model * scale + offset
 @param offset - the offset in view coordinates
 @param scale - the scale to map model to view
 
-#### createOffsetXYScaleMapping( offset : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, xScale : <span style="font-weight: 400; opacity: 80%;">number</span>, yScale : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createOffsetXYScaleMapping data-toc-label='createOffsetXYScaleMapping' }
+#### createOffsetXYScaleMapping( offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, xScale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, yScale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createOffsetXYScaleMapping data-toc-label='createOffsetXYScaleMapping' }
 
 Creates a shearless ModelViewTransform2 that has the specified scale and offset such that
 view.x = model.x * xScale + offset.x
@@ -109,7 +109,7 @@ view.y = model.y * yScale + offset.y
 @param xScale - the scale to map model to view in the x-dimension
 @param yScale - the scale to map model to view in the y-dimension
 
-#### createSinglePointXYScaleMapping( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, viewPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, xScale : <span style="font-weight: 400; opacity: 80%;">number</span>, yScale : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createSinglePointXYScaleMapping data-toc-label='createSinglePointXYScaleMapping' }
+#### createSinglePointXYScaleMapping( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, viewPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, xScale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, yScale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createSinglePointXYScaleMapping data-toc-label='createSinglePointXYScaleMapping' }
 
 Creates a shearless ModelViewTransform2 that maps the specified model point to the specified view point,
 with the given x and y scales.
@@ -119,7 +119,7 @@ with the given x and y scales.
 @param xScale - the amount to scale in the x direction
 @param yScale - the amount to scale in the y direction
 
-#### createSinglePointScaleMapping( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, viewPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, scale : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createSinglePointScaleMapping data-toc-label='createSinglePointScaleMapping' }
+#### createSinglePointScaleMapping( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, viewPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, scale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createSinglePointScaleMapping data-toc-label='createSinglePointScaleMapping' }
 
 Creates a shearless ModelViewTransform2 that maps the specified model point to the specified view point,
 with the given scale factor for both x and y dimensions.
@@ -128,7 +128,7 @@ with the given scale factor for both x and y dimensions.
 @param viewPoint - the reference point in the view
 @param scale - the amount to scale in the x and y directions
 
-#### createSinglePointScaleInvertedYMapping( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, viewPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, scale : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createSinglePointScaleInvertedYMapping data-toc-label='createSinglePointScaleInvertedYMapping' }
+#### createSinglePointScaleInvertedYMapping( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, viewPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, scale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createSinglePointScaleInvertedYMapping data-toc-label='createSinglePointScaleInvertedYMapping' }
 
 Creates a shearless ModelViewTransform2 that maps the specified model point to the specified view point,
 with the given scale factor for both x and y dimensions, but inverting the y axis so that +y in the model
@@ -139,7 +139,7 @@ and -y is down in pixel coordinates.
 @param viewPoint - the reference point in the view
 @param scale - the amount to scale in the x and y directions
 
-#### createRectangleMapping( modelBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, viewBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createRectangleMapping data-toc-label='createRectangleMapping' }
+#### createRectangleMapping( modelBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, viewBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createRectangleMapping data-toc-label='createRectangleMapping' }
 
 Creates a shearless ModelViewTransform2 that maps the specified rectangle in the model to the specified rectangle
 in the view, so that any point x% of the way across and y% down in the model rectangle will be mapped to the
@@ -149,7 +149,7 @@ the rectangle bounds.
 @param modelBounds - the reference rectangle in the model, must have area &gt; 0
 @param viewBounds - the reference rectangle in the view, must have area &gt; 0
 
-#### createRectangleInvertedYMapping( modelBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span>, viewBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">ModelViewTransform2</span> {: #createRectangleInvertedYMapping data-toc-label='createRectangleInvertedYMapping' }
+#### createRectangleInvertedYMapping( modelBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, viewBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;">[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)</span> {: #createRectangleInvertedYMapping data-toc-label='createRectangleInvertedYMapping' }
 
 Creates a shearless ModelViewTransform2 that maps the specified rectangle in the model to the specified rectangle
 in the view, so that any point x% of the way across and y% down in the model rectangle will be mapped to the

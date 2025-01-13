@@ -33,31 +33,31 @@ import { Enumeration } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Enumeration( Enumeration : <span style="font-weight: 400; opacity: 80%;">Constructor&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">EnumerationOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Enumeration( Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationOptions](../phet-core/Enumeration.md#EnumerationOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getKey( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getKey data-toc-label='getKey' }
+#### getKey( value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getKey data-toc-label='getKey' }
 
-#### getValue( key : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">T</span> {: #getValue data-toc-label='getValue' }
+#### getValue( key : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">T</span> {: #getValue data-toc-label='getValue' }
 
-#### includes( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #includes data-toc-label='includes' }
+#### includes( value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #includes data-toc-label='includes' }
 
 ### Instance Properties
 
-#### values : <span style="font-weight: 400; opacity: 80%;">T[]</span> {: #values data-toc-label='values' }
+#### values : <span style="font-weight: 400;">T[]</span> {: #values data-toc-label='values' }
 
 (readonly)
 
-#### keys : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #keys data-toc-label='keys' }
+#### keys : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> {: #keys data-toc-label='keys' }
 
 (readonly)
 
-#### Enumeration : <span style="font-weight: 400; opacity: 80%;">Constructor&lt;T&gt; &amp; Record&lt;string, T&gt;</span> {: #Enumeration data-toc-label='Enumeration' }
+#### Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt; &amp; Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, T&gt;</span> {: #Enumeration data-toc-label='Enumeration' }
 
 (readonly)
 
-#### phetioDocumentation : <span style="font-weight: 400; opacity: 80%;">string</span> {: #phetioDocumentation data-toc-label='phetioDocumentation' }
+#### phetioDocumentation : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #phetioDocumentation data-toc-label='phetioDocumentation' }
 
 (readonly)
 

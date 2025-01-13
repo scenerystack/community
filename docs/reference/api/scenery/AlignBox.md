@@ -40,11 +40,11 @@ import { AlignBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AlignBox( content : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">AlignBoxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new AlignBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### invalidateAlignment() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #invalidateAlignment data-toc-label='invalidateAlignment' }
+#### invalidateAlignment() {: #invalidateAlignment data-toc-label='invalidateAlignment' }
 
 Triggers recomputation of the alignment. Should be called if it needs to be refreshed.
 
@@ -52,7 +52,7 @@ NOTE: alignBox.getBounds() will not trigger a bounds validation for our content,
 layout. content.getBounds() should trigger it, but invalidateAligment() is the preferred method for forcing a
 re-check.
 
-#### setAlignBounds( alignBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2 | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setAlignBounds data-toc-label='setAlignBounds' }
+#### setAlignBounds( alignBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setAlignBounds data-toc-label='setAlignBounds' }
 
 Sets the alignment bounds (the bounds in which our content will be aligned). If null, AlignBox will act
 as if the alignment bounds have a left-top corner of (0,0) and with a width/height that fits the content and
@@ -60,130 +60,130 @@ bounds.
 
 NOTE: If the group is a valid AlignGroup, it will be responsible for setting the alignBounds.
 
-#### getAlignBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2 | null</span> {: #getAlignBounds data-toc-label='getAlignBounds' }
+#### getAlignBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAlignBounds data-toc-label='getAlignBounds' }
 
 Returns the current alignment bounds (if available, see setAlignBounds for details).
 
-#### setGroup( group : <span style="font-weight: 400; opacity: 80%;">AlignGroup | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setGroup data-toc-label='setGroup' }
+#### setGroup( group : <span style="font-weight: 400;">[AlignGroup](../scenery/AlignGroup.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setGroup data-toc-label='setGroup' }
 
 Sets the attachment to an AlignGroup. When attached, our alignBounds will be controlled by the group.
 
-#### getGroup() : <span style="font-weight: 400; opacity: 80%;">AlignGroup | null</span> {: #getGroup data-toc-label='getGroup' }
+#### getGroup() : <span style="font-weight: 400;">[AlignGroup](../scenery/AlignGroup.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getGroup data-toc-label='getGroup' }
 
 Returns the attached alignment group (if one exists), or null otherwise.
 
-#### setXAlign( xAlign : <span style="font-weight: 400; opacity: 80%;">AlignBoxXAlign</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setXAlign data-toc-label='setXAlign' }
+#### setXAlign( xAlign : <span style="font-weight: 400;">[AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setXAlign data-toc-label='setXAlign' }
 
 Sets the horizontal alignment of this box.
 
-#### getXAlign() : <span style="font-weight: 400; opacity: 80%;">AlignBoxXAlign</span> {: #getXAlign data-toc-label='getXAlign' }
+#### getXAlign() : <span style="font-weight: 400;">[AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign)</span> {: #getXAlign data-toc-label='getXAlign' }
 
 Returns the current horizontal alignment of this box.
 
-#### setYAlign( yAlign : <span style="font-weight: 400; opacity: 80%;">AlignBoxYAlign</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setYAlign data-toc-label='setYAlign' }
+#### setYAlign( yAlign : <span style="font-weight: 400;">[AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setYAlign data-toc-label='setYAlign' }
 
 Sets the vertical alignment of this box.
 
-#### getYAlign() : <span style="font-weight: 400; opacity: 80%;">AlignBoxYAlign</span> {: #getYAlign data-toc-label='getYAlign' }
+#### getYAlign() : <span style="font-weight: 400;">[AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)</span> {: #getYAlign data-toc-label='getYAlign' }
 
 Returns the current vertical alignment of this box.
 
-#### getAlign() : <span style="font-weight: 400; opacity: 80%;">AlignBoxXAlign &amp; AlignBoxYAlign</span> {: #getAlign data-toc-label='getAlign' }
+#### getAlign() : <span style="font-weight: 400;">[AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign) &amp; [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)</span> {: #getAlign data-toc-label='getAlign' }
 
-#### setAlign( value : <span style="font-weight: 400; opacity: 80%;">AlignBoxXAlign &amp; AlignBoxYAlign</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setAlign data-toc-label='setAlign' }
+#### setAlign( value : <span style="font-weight: 400;">[AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign) &amp; [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setAlign data-toc-label='setAlign' }
 
-#### setMargin( margin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setMargin data-toc-label='setMargin' }
+#### setMargin( margin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setMargin data-toc-label='setMargin' }
 
 Sets the margin of this box (setting margin values for all sides at once).
 
 This margin is the minimum amount of horizontal space that will exist between the content the sides of this
 box.
 
-#### getMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMargin data-toc-label='getMargin' }
+#### getMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMargin data-toc-label='getMargin' }
 
 Returns the current margin of this box (assuming all margin values are the same).
 
-#### setXMargin( xMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setXMargin data-toc-label='setXMargin' }
+#### setXMargin( xMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setXMargin data-toc-label='setXMargin' }
 
 Sets the horizontal margin of this box (setting both left and right margins at once).
 
 This margin is the minimum amount of horizontal space that will exist between the content and the left and
 right sides of this box.
 
-#### getXMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getXMargin data-toc-label='getXMargin' }
+#### getXMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getXMargin data-toc-label='getXMargin' }
 
 Returns the current horizontal margin of this box (assuming the left and right margins are the same).
 
-#### setYMargin( yMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setYMargin data-toc-label='setYMargin' }
+#### setYMargin( yMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setYMargin data-toc-label='setYMargin' }
 
 Sets the vertical margin of this box (setting both top and bottom margins at once).
 
 This margin is the minimum amount of vertical space that will exist between the content and the top and
 bottom sides of this box.
 
-#### getYMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getYMargin data-toc-label='getYMargin' }
+#### getYMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getYMargin data-toc-label='getYMargin' }
 
 Returns the current vertical margin of this box (assuming the top and bottom margins are the same).
 
-#### setLeftMargin( leftMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setLeftMargin data-toc-label='setLeftMargin' }
+#### setLeftMargin( leftMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setLeftMargin data-toc-label='setLeftMargin' }
 
 Sets the left margin of this box.
 
 This margin is the minimum amount of horizontal space that will exist between the content and the left side of
 the box.
 
-#### getLeftMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getLeftMargin data-toc-label='getLeftMargin' }
+#### getLeftMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLeftMargin data-toc-label='getLeftMargin' }
 
 Returns the current left margin of this box.
 
-#### setRightMargin( rightMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setRightMargin data-toc-label='setRightMargin' }
+#### setRightMargin( rightMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setRightMargin data-toc-label='setRightMargin' }
 
 Sets the right margin of this box.
 
 This margin is the minimum amount of horizontal space that will exist between the content and the right side of
 the container.
 
-#### getRightMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getRightMargin data-toc-label='getRightMargin' }
+#### getRightMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getRightMargin data-toc-label='getRightMargin' }
 
 Returns the current right margin of this box.
 
-#### setTopMargin( topMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setTopMargin data-toc-label='setTopMargin' }
+#### setTopMargin( topMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setTopMargin data-toc-label='setTopMargin' }
 
 Sets the top margin of this box.
 
 This margin is the minimum amount of vertical space that will exist between the content and the top side of the
 container.
 
-#### getTopMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getTopMargin data-toc-label='getTopMargin' }
+#### getTopMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getTopMargin data-toc-label='getTopMargin' }
 
 Returns the current top margin of this box.
 
-#### setBottomMargin( bottomMargin : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setBottomMargin data-toc-label='setBottomMargin' }
+#### setBottomMargin( bottomMargin : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setBottomMargin data-toc-label='setBottomMargin' }
 
 Sets the bottom margin of this box.
 
 This margin is the minimum amount of vertical space that will exist between the content and the bottom side of the
 container.
 
-#### getBottomMargin() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getBottomMargin data-toc-label='getBottomMargin' }
+#### getBottomMargin() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getBottomMargin data-toc-label='getBottomMargin' }
 
 Returns the current bottom margin of this box.
 
-#### getContent() : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #getContent data-toc-label='getContent' }
+#### getContent() : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #getContent data-toc-label='getContent' }
 
-#### getContentBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #getContentBounds data-toc-label='getContentBounds' }
+#### getContentBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #getContentBounds data-toc-label='getContentBounds' }
 
 Returns the bounding box of this box's content. This will include any margins.
 
-#### getMinimumWidth() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinimumWidth data-toc-label='getMinimumWidth' }
+#### getMinimumWidth() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinimumWidth data-toc-label='getMinimumWidth' }
 
-#### getMinimumHeight() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinimumHeight data-toc-label='getMinimumHeight' }
+#### getMinimumHeight() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinimumHeight data-toc-label='getMinimumHeight' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes this box, releasing listeners and any references to an AlignGroup
 
-#### mutate( options? : <span style="font-weight: 400; opacity: 80%;">AlignBoxOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #mutate data-toc-label='mutate' }
+#### mutate( options? : <span style="font-weight: 400;">[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #mutate data-toc-label='mutate' }
 
 
 

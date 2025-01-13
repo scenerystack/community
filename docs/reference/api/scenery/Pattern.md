@@ -17,29 +17,29 @@ import { Pattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Pattern( image : <span style="font-weight: 400; opacity: 80%;">HTMLImageElement</span> ) {: #constructor data-toc-label='constructor' }
+#### new Pattern( image : <span style="font-weight: 400;">HTMLImageElement</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getCanvasStyle() : <span style="font-weight: 400; opacity: 80%;">CanvasPattern</span> {: #getCanvasStyle data-toc-label='getCanvasStyle' }
+#### getCanvasStyle() : <span style="font-weight: 400;">CanvasPattern</span> {: #getCanvasStyle data-toc-label='getCanvasStyle' }
 
 Returns an object that can be passed to a Canvas context's fillStyle or strokeStyle.
 
-#### createSVGPaint( svgBlock : <span style="font-weight: 400; opacity: 80%;">SVGBlock</span> ) : <span style="font-weight: 400; opacity: 80%;">SVGPattern</span> {: #createSVGPaint data-toc-label='createSVGPaint' }
+#### createSVGPaint( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span> ) : <span style="font-weight: 400;">[SVGPattern](../scenery/SVGPattern.md)</span> {: #createSVGPaint data-toc-label='createSVGPaint' }
 
 Creates an SVG paint object for creating/updating the SVG equivalent definition.
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Returns a string form of this object
 
 ### Instance Properties
 
-#### image : <span style="font-weight: 400; opacity: 80%;">HTMLImageElement</span> {: #image data-toc-label='image' }
+#### image : <span style="font-weight: 400;">HTMLImageElement</span> {: #image data-toc-label='image' }
 
-#### canvasPattern : <span style="font-weight: 400; opacity: 80%;">CanvasPattern</span> {: #canvasPattern data-toc-label='canvasPattern' }
+#### canvasPattern : <span style="font-weight: 400;">CanvasPattern</span> {: #canvasPattern data-toc-label='canvasPattern' }
 
-#### isPattern : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isPattern data-toc-label='isPattern' }
+#### isPattern : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isPattern data-toc-label='isPattern' }
 
 
 

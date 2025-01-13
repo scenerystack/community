@@ -15,19 +15,19 @@ import { NumberPicker } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new NumberPicker( valueProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;number&gt;</span>, rangeProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Range&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">NumberPickerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberPicker( valueProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, rangeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[NumberPickerOptions](../sun/NumberPicker.md#NumberPickerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### setArrowsVisible( visible : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setArrowsVisible data-toc-label='setArrowsVisible' }
+#### setArrowsVisible( visible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setArrowsVisible data-toc-label='setArrowsVisible' }
 
 Sets visibility of the arrows.
 
 ### Static Methods
 
-#### createIcon( value : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CreateIconOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #createIcon data-toc-label='createIcon' }
+#### createIcon( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">CreateIconOptions</span> ) : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #createIcon data-toc-label='createIcon' }
 
 
 

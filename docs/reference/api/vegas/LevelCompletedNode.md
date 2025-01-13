@@ -15,11 +15,11 @@ import { LevelCompletedNode } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new LevelCompletedNode( level : <span style="font-weight: 400; opacity: 80%;">number</span>, score : <span style="font-weight: 400; opacity: 80%;">number</span>, perfectScore : <span style="font-weight: 400; opacity: 80%;">number</span>, numberOfStars : <span style="font-weight: 400; opacity: 80%;">number</span>, timerEnabled : <span style="font-weight: 400; opacity: 80%;">boolean</span>, elapsedTime : <span style="font-weight: 400; opacity: 80%;">number</span>, bestTimeAtThisLevel : <span style="font-weight: 400; opacity: 80%;">number | null</span>, isNewBestTime : <span style="font-weight: 400; opacity: 80%;">boolean</span>, continueFunction : <span style="font-weight: 400; opacity: 80%;">PushButtonListener</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">LevelCompletedNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new LevelCompletedNode( level : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, score : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, perfectScore : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numberOfStars : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, timerEnabled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, elapsedTime : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bestTimeAtThisLevel : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, isNewBestTime : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, continueFunction : <span style="font-weight: 400;">[PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)</span>, providedOptions? : <span style="font-weight: 400;">[LevelCompletedNodeOptions](../vegas/LevelCompletedNode.md#LevelCompletedNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

@@ -14,37 +14,37 @@ import { PipelineBlueprint } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new PipelineBlueprint( providedOptions : <span style="font-weight: 400; opacity: 80%;">PipelineBlueprintOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PipelineBlueprint( providedOptions : <span style="font-weight: 400;">[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toComputePipeline( deviceContext : <span style="font-weight: 400; opacity: 80%;">DeviceContext</span>, pipelineLayout : <span style="font-weight: 400; opacity: 80%;">PipelineLayout</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;ComputePipeline&gt;</span> {: #toComputePipeline data-toc-label='toComputePipeline' }
+#### toComputePipeline( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;">Promise&lt;[ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span> {: #toComputePipeline data-toc-label='toComputePipeline' }
 
-#### add( name : <span style="font-weight: 400; opacity: 80%;">string</span>, declarations : <span style="font-weight: 400; opacity: 80%;">WGSLModuleDeclarations</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #add data-toc-label='add' }
+#### add( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #add data-toc-label='add' }
 
-#### addSlot( name : <span style="font-weight: 400; opacity: 80%;">string</span>, slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span>, bindingType : <span style="font-weight: 400; opacity: 80%;">BindingType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addSlot data-toc-label='addSlot' }
+#### addSlot( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #addSlot data-toc-label='addSlot' }
 
-#### toString( pipelineLayout : <span style="font-weight: 400; opacity: 80%;">PipelineLayout</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString( pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### toDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toDebugString data-toc-label='toDebugString' }
+#### toDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toDebugString data-toc-label='toDebugString' }
 
 ### Instance Properties
 
-#### usages : <span style="font-weight: 400; opacity: 80%;">ResourceUsage[]</span> {: #usages data-toc-label='usages' }
+#### usages : <span style="font-weight: 400;">[ResourceUsage](../alpenglow/ResourceUsage.md)[]</span> {: #usages data-toc-label='usages' }
 
 (readonly)
 
-#### name : <span style="font-weight: 400; opacity: 80%;">string</span> {: #name data-toc-label='name' }
+#### name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #name data-toc-label='name' }
 
 (readonly)
 
-#### log : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #log data-toc-label='log' }
+#### log : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #log data-toc-label='log' }
 
 (readonly)
 
 ### Static Properties
 
-#### LOG_BUFFER_SLOT : <span style="font-weight: 400; opacity: 80%;">BufferSlot</span> {: #LOG_BUFFER_SLOT data-toc-label='LOG_BUFFER_SLOT' }
+#### LOG_BUFFER_SLOT : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)</span> {: #LOG_BUFFER_SLOT data-toc-label='LOG_BUFFER_SLOT' }
 
 (readonly)
 

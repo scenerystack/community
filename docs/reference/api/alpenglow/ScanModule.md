@@ -16,7 +16,7 @@ import { ScanModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ScanModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">ScanModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScanModule( providedOptions : <span style="font-weight: 400;">[ScanModuleOptions](../alpenglow/ScanModule.md#ScanModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,19 +24,19 @@ import { ScanModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### input : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #input data-toc-label='input' }
+#### input : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #input data-toc-label='input' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 
-#### slots : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;[]</span> {: #slots data-toc-label='slots' }
+#### slots : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;[]</span> {: #slots data-toc-label='slots' }
 
 (readonly)
 
-#### internalSlots : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;[]</span> {: #internalSlots data-toc-label='internalSlots' }
+#### internalSlots : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;[]</span> {: #internalSlots data-toc-label='internalSlots' }
 
 (readonly)
 

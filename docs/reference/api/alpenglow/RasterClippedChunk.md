@@ -14,27 +14,27 @@ import { RasterClippedChunk } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterClippedChunk( renderProgramIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, needsFace : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isConstant : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isReducible : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isComplete : <span style="font-weight: 400; opacity: 80%;">boolean</span>, isFullArea : <span style="font-weight: 400; opacity: 80%;">boolean</span>, area : <span style="font-weight: 400; opacity: 80%;">number</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span>, maxX : <span style="font-weight: 400; opacity: 80%;">number</span>, maxY : <span style="font-weight: 400; opacity: 80%;">number</span>, minXCount : <span style="font-weight: 400; opacity: 80%;">number</span>, minYCount : <span style="font-weight: 400; opacity: 80%;">number</span>, maxXCount : <span style="font-weight: 400; opacity: 80%;">number</span>, maxYCount : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterClippedChunk( renderProgramIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, needsFace : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isConstant : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isReducible : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isComplete : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isFullArea : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, area : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minXCount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minYCount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxXCount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxYCount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### needsCompleteOutputSplit() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #needsCompleteOutputSplit data-toc-label='needsCompleteOutputSplit' }
+#### needsCompleteOutputSplit() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #needsCompleteOutputSplit data-toc-label='needsCompleteOutputSplit' }
 
-#### outputSplitCount() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #outputSplitCount data-toc-label='outputSplitCount' }
+#### outputSplitCount() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #outputSplitCount data-toc-label='outputSplitCount' }
 
-#### getSplitReduceData() : <span style="font-weight: 400; opacity: 80%;">RasterSplitReduceData</span> {: #getSplitReduceData data-toc-label='getSplitReduceData' }
+#### getSplitReduceData() : <span style="font-weight: 400;">[RasterSplitReduceData](../alpenglow/RasterSplitReduceData.md)</span> {: #getSplitReduceData data-toc-label='getSplitReduceData' }
 
-#### isExportingCompleteEdges() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isExportingCompleteEdges data-toc-label='isExportingCompleteEdges' }
+#### isExportingCompleteEdges() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isExportingCompleteEdges data-toc-label='isExportingCompleteEdges' }
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### writeEncoding( encoder : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #writeEncoding data-toc-label='writeEncoding' }
+#### writeEncoding( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #writeEncoding data-toc-label='writeEncoding' }
 
 ### Static Methods
 
-#### readEncoding( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterClippedChunk</span> {: #readEncoding data-toc-label='readEncoding' }
+#### readEncoding( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span>, byteOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)</span> {: #readEncoding data-toc-label='readEncoding' }
 
-#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) : <span style="font-weight: 400; opacity: 80%;">RasterClippedChunk[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
+#### fromArrayBuffer( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)[]</span> {: #fromArrayBuffer data-toc-label='fromArrayBuffer' }
 
 ### Static Properties
 
@@ -42,11 +42,11 @@ import { RasterClippedChunk } from 'scenerystack/alpenglow';
 
 (readonly)
 
-#### INDETERMINATE : <span style="font-weight: 400; opacity: 80%;">RasterClippedChunk</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
+#### INDETERMINATE : <span style="font-weight: 400;">[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)</span> {: #INDETERMINATE data-toc-label='INDETERMINATE' }
 
 (readonly)
 
-#### DISCARDABLE : <span style="font-weight: 400; opacity: 80%;">RasterClippedChunk</span> {: #DISCARDABLE data-toc-label='DISCARDABLE' }
+#### DISCARDABLE : <span style="font-weight: 400;">[RasterClippedChunk](../alpenglow/RasterClippedChunk.md)</span> {: #DISCARDABLE data-toc-label='DISCARDABLE' }
 
 (readonly)
 

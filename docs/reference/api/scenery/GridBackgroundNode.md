@@ -17,11 +17,11 @@ import { GridBackgroundNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GridBackgroundNode( constraint : <span style="font-weight: 400; opacity: 80%;">GridConstraint</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">GridBackgroundNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridBackgroundNode( constraint : <span style="font-weight: 400;">[GridConstraint](../scenery/GridConstraint.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridBackgroundNodeOptions](../scenery/GridBackgroundNode.md#GridBackgroundNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 

@@ -14,29 +14,29 @@ import { LayoutNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutNode( providedOptions? : <span style="font-weight: 400; opacity: 80%;">LayoutNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutNode( providedOptions? : <span style="font-weight: 400;">[LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### linkLayoutBounds() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #linkLayoutBounds data-toc-label='linkLayoutBounds' }
+#### linkLayoutBounds() {: #linkLayoutBounds data-toc-label='linkLayoutBounds' }
 
 (protected)
 
-#### setExcludeInvisibleChildrenFromBounds( excludeInvisibleChildrenFromBounds : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setExcludeInvisibleChildrenFromBounds data-toc-label='setExcludeInvisibleChildrenFromBounds' }
+#### setExcludeInvisibleChildrenFromBounds( excludeInvisibleChildrenFromBounds : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setExcludeInvisibleChildrenFromBounds data-toc-label='setExcludeInvisibleChildrenFromBounds' }
 
-#### setChildren( children : <span style="font-weight: 400; opacity: 80%;">Node[]</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setChildren data-toc-label='setChildren' }
+#### setChildren( children : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setChildren data-toc-label='setChildren' }
 
-#### updateLayout() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #updateLayout data-toc-label='updateLayout' }
+#### updateLayout() {: #updateLayout data-toc-label='updateLayout' }
 
 Manually run the layout (for instance, if resize:false is currently set, or if there is other hackery going on).
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### layoutOriginProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Vector2&gt;</span> {: #layoutOriginProperty data-toc-label='layoutOriginProperty' }
+#### layoutOriginProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Vector2](../dot/Vector2.md)&gt;</span> {: #layoutOriginProperty data-toc-label='layoutOriginProperty' }
 
 (readonly)
 

@@ -18,7 +18,7 @@ import { ParallelRasterEdgeIndexPatch } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### dispatch( workgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, chunkIndexMap : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;number&gt;</span>, chunkIndices : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;number&gt;</span>, numEdges : <span style="font-weight: 400; opacity: 80%;">number</span>, edges : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterEdge&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #dispatch data-toc-label='dispatch' }
+#### dispatch( workgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, chunkIndexMap : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, chunkIndices : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, numEdges : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, edges : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterEdge](../alpenglow/RasterEdge.md)&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #dispatch data-toc-label='dispatch' }
 
 
 

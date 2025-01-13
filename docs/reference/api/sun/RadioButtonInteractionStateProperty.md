@@ -14,7 +14,7 @@ import { RadioButtonInteractionStateProperty } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RadioButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400; opacity: 80%;">ButtonModel</span>, property : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new RadioButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

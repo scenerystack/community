@@ -18,25 +18,25 @@ import { RenderExecutor } from 'scenerystack/alpenglow';
 
 ### Instance Methods
 
-#### loadRenderProgram( renderProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #loadRenderProgram data-toc-label='loadRenderProgram' }
+#### loadRenderProgram( renderProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #loadRenderProgram data-toc-label='loadRenderProgram' }
 
-#### loadInstructions( instructions : <span style="font-weight: 400; opacity: 80%;">RenderInstruction[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #loadInstructions data-toc-label='loadInstructions' }
+#### loadInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #loadInstructions data-toc-label='loadInstructions' }
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
-#### execute( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span>, output : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #execute data-toc-label='execute' }
+#### execute( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, output : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #execute data-toc-label='execute' }
 
-#### jump( location : <span style="font-weight: 400; opacity: 80%;">RenderInstructionLocation</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #jump data-toc-label='jump' }
+#### jump( location : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #jump data-toc-label='jump' }
 
-#### call( location : <span style="font-weight: 400; opacity: 80%;">RenderInstructionLocation</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #call data-toc-label='call' }
+#### call( location : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #call data-toc-label='call' }
 
-#### return() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #return data-toc-label='return' }
+#### return() {: #return data-toc-label='return' }
 
-#### exit() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #exit data-toc-label='exit' }
+#### exit() {: #exit data-toc-label='exit' }
 
 ### Instance Properties
 
-#### evaluator : <span style="font-weight: 400; opacity: 80%;">RenderEvaluator</span> {: #evaluator data-toc-label='evaluator' }
+#### evaluator : <span style="font-weight: 400;">[RenderEvaluator](../alpenglow/RenderProgram.md#RenderEvaluator)</span> {: #evaluator data-toc-label='evaluator' }
 
 (readonly)
 

@@ -14,7 +14,7 @@ import { LineSplitter } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### splitIntegerEdges( integerEdges : <span style="font-weight: 400; opacity: 80%;">IntegerEdge[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[]</span> {: #splitIntegerEdges data-toc-label='splitIntegerEdges' }
+#### splitIntegerEdges( integerEdges : <span style="font-weight: 400;">[IntegerEdge](../alpenglow/IntegerEdge.md)[]</span> ) : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[]</span> {: #splitIntegerEdges data-toc-label='splitIntegerEdges' }
 
 
 

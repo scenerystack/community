@@ -14,15 +14,15 @@ import { VBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new VBox( providedOptions? : <span style="font-weight: 400; opacity: 80%;">VBoxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new VBox( providedOptions? : <span style="font-weight: 400;">[VBoxOptions](../scenery/VBox.md#VBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### onFlowBoxChildInserted( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, index : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onFlowBoxChildInserted data-toc-label='onFlowBoxChildInserted' }
+#### onFlowBoxChildInserted( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #onFlowBoxChildInserted data-toc-label='onFlowBoxChildInserted' }
 
 (protected)
 
-#### mutate( options? : <span style="font-weight: 400; opacity: 80%;">VBoxOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #mutate data-toc-label='mutate' }
+#### mutate( options? : <span style="font-weight: 400;">[VBoxOptions](../scenery/VBox.md#VBoxOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #mutate data-toc-label='mutate' }
 
 
 

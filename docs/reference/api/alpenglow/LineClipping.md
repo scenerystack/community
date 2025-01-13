@@ -14,7 +14,7 @@ import { LineClipping } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### matthesDrakopoulosClip( p0 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, p1 : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, minX : <span style="font-weight: 400; opacity: 80%;">number</span>, minY : <span style="font-weight: 400; opacity: 80%;">number</span>, maxX : <span style="font-weight: 400; opacity: 80%;">number</span>, maxY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #matthesDrakopoulosClip data-toc-label='matthesDrakopoulosClip' }
+#### matthesDrakopoulosClip( p0 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, p1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #matthesDrakopoulosClip data-toc-label='matthesDrakopoulosClip' }
 
 From "Another Simple but Faster Method for 2D Line Clipping" (2019)
 by Dimitrios Matthes and Vasileios Drakopoulos

@@ -22,23 +22,23 @@ import { ToggleSwitch } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleSwitch( property : <span style="font-weight: 400; opacity: 80%;">Property&lt;T&gt;</span>, leftValue : <span style="font-weight: 400; opacity: 80%;">T</span>, rightValue : <span style="font-weight: 400; opacity: 80%;">T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ToggleSwitchOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, leftValue : <span style="font-weight: 400;">T</span>, rightValue : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### switchToLeftSoundPlayer : <span style="font-weight: 400; opacity: 80%;">TSoundPlayer</span> {: #switchToLeftSoundPlayer data-toc-label='switchToLeftSoundPlayer' }
+#### switchToLeftSoundPlayer : <span style="font-weight: 400;">TSoundPlayer</span> {: #switchToLeftSoundPlayer data-toc-label='switchToLeftSoundPlayer' }
 
 (readonly)
 
-#### switchToRightSoundPlayer : <span style="font-weight: 400; opacity: 80%;">TSoundPlayer</span> {: #switchToRightSoundPlayer data-toc-label='switchToRightSoundPlayer' }
+#### switchToRightSoundPlayer : <span style="font-weight: 400;">TSoundPlayer</span> {: #switchToRightSoundPlayer data-toc-label='switchToRightSoundPlayer' }
 
 (readonly)
 
-#### onInputEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
+#### onInputEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
 
 (readonly)
 

@@ -15,21 +15,21 @@ import { AquaRadioButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new AquaRadioButton( property : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;T&gt;</span>, value : <span style="font-weight: 400; opacity: 80%;">T</span>, labelNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">AquaRadioButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new AquaRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, labelNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### value : <span style="font-weight: 400; opacity: 80%;">T</span> {: #value data-toc-label='value' }
+#### value : <span style="font-weight: 400;">T</span> {: #value data-toc-label='value' }
 
 (readonly)
 
 the value associated with this radio button
 
-#### onInputEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
+#### onInputEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #onInputEmitter data-toc-label='onInputEmitter' }
 
 (readonly)
 

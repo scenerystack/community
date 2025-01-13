@@ -40,73 +40,73 @@ import { Hotkey } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Hotkey( providedOptions : <span style="font-weight: 400; opacity: 80%;">HotkeyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Hotkey( providedOptions : <span style="font-weight: 400;">[HotkeyOptions](../scenery/Hotkey.md#HotkeyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### onRelease( event : <span style="font-weight: 400; opacity: 80%;">KeyboardEvent | null</span>, interrupted : <span style="font-weight: 400; opacity: 80%;">boolean</span>, shouldFire : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onRelease data-toc-label='onRelease' }
+#### onRelease( event : <span style="font-weight: 400;">KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, interrupted : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, shouldFire : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #onRelease data-toc-label='onRelease' }
 
 On "release" of a Hotkey. All keys are released while the Hotkey is inactive. May also fire depending on
 events. See hotkeyManager.
 
-#### interrupt() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #interrupt data-toc-label='interrupt' }
+#### interrupt() {: #interrupt data-toc-label='interrupt' }
 
 Manually interrupt this hotkey, releasing it and setting a flag so that it will not fire until the next time
 keys are pressed.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### keyStringProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;OneKeyStroke&gt;</span> {: #keyStringProperty data-toc-label='keyStringProperty' }
+#### keyStringProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;</span> {: #keyStringProperty data-toc-label='keyStringProperty' }
 
 (readonly)
 
 Straight from options
 
-#### fire : <span style="font-weight: 400; opacity: 80%;">( event: KeyboardEvent | null ) =&gt; void</span> {: #fire data-toc-label='fire' }
+#### fire : <span style="font-weight: 400;">( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> {: #fire data-toc-label='fire' }
 
 (readonly)
 
-#### press : <span style="font-weight: 400; opacity: 80%;">( event: KeyboardEvent | null ) =&gt; void</span> {: #press data-toc-label='press' }
+#### press : <span style="font-weight: 400;">( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> {: #press data-toc-label='press' }
 
 (readonly)
 
-#### release : <span style="font-weight: 400; opacity: 80%;">( event: KeyboardEvent | null ) =&gt; void</span> {: #release data-toc-label='release' }
+#### release : <span style="font-weight: 400;">( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> {: #release data-toc-label='release' }
 
 (readonly)
 
-#### fireOnDown : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #fireOnDown data-toc-label='fireOnDown' }
+#### fireOnDown : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #fireOnDown data-toc-label='fireOnDown' }
 
 (readonly)
 
-#### fireOnHold : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #fireOnHold data-toc-label='fireOnHold' }
+#### fireOnHold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #fireOnHold data-toc-label='fireOnHold' }
 
 (readonly)
 
-#### fireOnHoldTiming : <span style="font-weight: 400; opacity: 80%;">HotkeyFireOnHoldTiming</span> {: #fireOnHoldTiming data-toc-label='fireOnHoldTiming' }
+#### fireOnHoldTiming : <span style="font-weight: 400;">[HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)</span> {: #fireOnHoldTiming data-toc-label='fireOnHoldTiming' }
 
 (readonly)
 
-#### allowOverlap : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #allowOverlap data-toc-label='allowOverlap' }
+#### allowOverlap : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #allowOverlap data-toc-label='allowOverlap' }
 
 (readonly)
 
-#### override : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #override data-toc-label='override' }
+#### override : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #override data-toc-label='override' }
 
 (readonly)
 
-#### keyDescriptorProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;KeyDescriptor&gt;</span> {: #keyDescriptorProperty data-toc-label='keyDescriptorProperty' }
+#### keyDescriptorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[KeyDescriptor](../scenery/KeyDescriptor.md)&gt;</span> {: #keyDescriptorProperty data-toc-label='keyDescriptorProperty' }
 
 (readonly)
 
 A Property for the KeyDescriptor describing the key and modifier keys for this hotkey from the keyStringProperty.
 
-#### keysProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;AllowedKeysString[]&gt;</span> {: #keysProperty data-toc-label='keysProperty' }
+#### keysProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]&gt;</span> {: #keysProperty data-toc-label='keysProperty' }
 
 All keys that are part of this hotkey (key + modifierKeys) as defined by the current KeyDescriptor.
 
-#### isPressedProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #isPressedProperty data-toc-label='isPressedProperty' }
+#### isPressedProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isPressedProperty data-toc-label='isPressedProperty' }
 
 (readonly)
 

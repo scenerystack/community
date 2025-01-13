@@ -14,11 +14,11 @@ import { Binding } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Binding( location : <span style="font-weight: 400; opacity: 80%;">BindingLocation</span>, bindingType : <span style="font-weight: 400; opacity: 80%;">BindingType</span>, slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) {: #constructor data-toc-label='constructor' }
+#### new Binding( location : <span style="font-weight: 400;">[BindingLocation](../alpenglow/BindingLocation.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getWGSLDeclaration( name : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">WGSLModuleDeclarations</span> {: #getWGSLDeclaration data-toc-label='getWGSLDeclaration' }
+#### getWGSLDeclaration( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> {: #getWGSLDeclaration data-toc-label='getWGSLDeclaration' }
 
 
 

@@ -15,7 +15,7 @@ import { RoundButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundButton( buttonModel : <span style="font-weight: 400; opacity: 80%;">ButtonModel</span>, interactionStateProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ButtonInteractionState&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">RoundButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -23,7 +23,7 @@ import { RoundButton } from 'scenerystack/sun';
 
 ### Static Properties
 
-#### ThreeDAppearanceStrategy : <span style="font-weight: 400; opacity: 80%;">TButtonAppearanceStrategy</span> {: #ThreeDAppearanceStrategy data-toc-label='ThreeDAppearanceStrategy' }
+#### ThreeDAppearanceStrategy : <span style="font-weight: 400;">[TButtonAppearanceStrategy](../sun/TButtonAppearanceStrategy.md)</span> {: #ThreeDAppearanceStrategy data-toc-label='ThreeDAppearanceStrategy' }
 
 
 
@@ -39,15 +39,15 @@ import { ThreeDAppearanceStrategy } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ThreeDAppearanceStrategy( buttonBackground : <span style="font-weight: 400; opacity: 80%;">Path</span>, interactionStateProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;ButtonInteractionState | RadioButtonInteractionState&gt;</span>, baseColorProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;Color&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">TButtonAppearanceStrategyOptions</span> ) {: #ThreeDAppearanceStrategy-constructor data-toc-label='ThreeDAppearanceStrategy-constructor' }
+#### new ThreeDAppearanceStrategy( buttonBackground : <span style="font-weight: 400;">[Path](../scenery/Path.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md) | [RadioButtonInteractionState](../sun/RadioButtonInteractionState.md)&gt;</span>, baseColorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)</span> ) {: #ThreeDAppearanceStrategy-constructor data-toc-label='ThreeDAppearanceStrategy-constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #ThreeDAppearanceStrategy-dispose data-toc-label='ThreeDAppearanceStrategy-dispose' }
+#### dispose() {: #ThreeDAppearanceStrategy-dispose data-toc-label='ThreeDAppearanceStrategy-dispose' }
 
 ### Instance Properties
 
-#### maxLineWidth : <span style="font-weight: 400; opacity: 80%;">number</span> {: #ThreeDAppearanceStrategy-maxLineWidth data-toc-label='ThreeDAppearanceStrategy-maxLineWidth' }
+#### maxLineWidth : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #ThreeDAppearanceStrategy-maxLineWidth data-toc-label='ThreeDAppearanceStrategy-maxLineWidth' }
 
 (readonly)
 

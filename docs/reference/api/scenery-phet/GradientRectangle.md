@@ -34,29 +34,29 @@ import { GradientRectangle } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new GradientRectangle( providedOptions? : <span style="font-weight: 400; opacity: 80%;">GradientRectangleOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new GradientRectangle( providedOptions? : <span style="font-weight: 400;">[GradientRectangleOptions](../scenery-phet/GradientRectangle.md#GradientRectangleOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### invalidateRectangle() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #invalidateRectangle data-toc-label='invalidateRectangle' }
+#### invalidateRectangle() {: #invalidateRectangle data-toc-label='invalidateRectangle' }
 
 (protected)
 
 Custom behavior so we can see when the rectangle dimensions change.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Overrides disposal to clean up some extra things.
 
-#### setFill( fill : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setFill data-toc-label='setFill' }
+#### setFill( fill : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setFill data-toc-label='setFill' }
 
 We want to be notified of fill changes.
 
-#### setStroke( stroke : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setStroke data-toc-label='setStroke' }
+#### setStroke( stroke : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setStroke data-toc-label='setStroke' }
 
 We don't want to allow strokes.
 
-#### mutate( options? : <span style="font-weight: 400; opacity: 80%;">GradientRectangleOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #mutate data-toc-label='mutate' }
+#### mutate( options? : <span style="font-weight: 400;">[GradientRectangleOptions](../scenery-phet/GradientRectangle.md#GradientRectangleOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #mutate data-toc-label='mutate' }
 
 
 

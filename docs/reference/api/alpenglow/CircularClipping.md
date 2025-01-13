@@ -14,7 +14,7 @@ import { CircularClipping } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### binaryCircularClipEdges( edges : <span style="font-weight: 400; opacity: 80%;">LinearEdge[]</span>, center : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, radius : <span style="font-weight: 400; opacity: 80%;">number</span>, maxAngleSplit : <span style="font-weight: 400; opacity: 80%;">number</span>, inside : <span style="font-weight: 400; opacity: 80%;">LinearEdge[]</span>, outside : <span style="font-weight: 400; opacity: 80%;">LinearEdge[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #binaryCircularClipEdges data-toc-label='binaryCircularClipEdges' }
+#### binaryCircularClipEdges( edges : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span>, center : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxAngleSplit : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, inside : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span>, outside : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span> ) {: #binaryCircularClipEdges data-toc-label='binaryCircularClipEdges' }
 
 Clips a polygon (represented by unsorted LinearEdges) by a circle. This will output both the inside and outside,
 appending LinearEdges to the given arrays.
@@ -26,7 +26,7 @@ appending LinearEdges to the given arrays.
 @param inside - (OUTPUT) the edges that are inside the circle (will be appended to)
 @param outside - (OUTPUT) the edges that are outside the circle (will be appended to)
 
-#### binaryCircularClipPolygon( polygons : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span>, center : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, radius : <span style="font-weight: 400; opacity: 80%;">number</span>, maxAngleSplit : <span style="font-weight: 400; opacity: 80%;">number</span>, inside : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span>, outside : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #binaryCircularClipPolygon data-toc-label='binaryCircularClipPolygon' }
+#### binaryCircularClipPolygon( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span>, center : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxAngleSplit : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, inside : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span>, outside : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #binaryCircularClipPolygon data-toc-label='binaryCircularClipPolygon' }
 
 Clips a polygon (represented by polygonal vertex lists) by a circle. This will output both the inside and outside,
 appending vertices to the arrays
@@ -38,7 +38,7 @@ appending vertices to the arrays
 @param inside - (OUTPUT) the polygon that is inside the circle (will be appended to)
 @param outside - (OUTPUT) the polygon that is outside the circle (will be appended to)
 
-#### binaryCircularTracingClipIterate( polygons : <span style="font-weight: 400; opacity: 80%;">Vector2[][]</span>, center : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, radius : <span style="font-weight: 400; opacity: 80%;">number</span>, maxAngleSplit : <span style="font-weight: 400; opacity: 80%;">number</span>, callback : <span style="font-weight: 400; opacity: 80%;">BinaryClipCallback</span>, polygonCompleteCallback : <span style="font-weight: 400; opacity: 80%;">BinaryPolygonCompleteCallback</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #binaryCircularTracingClipIterate data-toc-label='binaryCircularTracingClipIterate' }
+#### binaryCircularTracingClipIterate( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span>, center : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxAngleSplit : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, callback : <span style="font-weight: 400;">[BinaryClipCallback](../alpenglow/BinaryClipping.md#BinaryClipCallback)</span>, polygonCompleteCallback : <span style="font-weight: 400;">[BinaryPolygonCompleteCallback](../alpenglow/BinaryClipping.md#BinaryPolygonCompleteCallback)</span> ) {: #binaryCircularTracingClipIterate data-toc-label='binaryCircularTracingClipIterate' }
 
 Clips a polygon (represented by polygonal vertex lists) by a circle. This will output both the inside and outside,
 appending vertices to the arrays.

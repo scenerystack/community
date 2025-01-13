@@ -14,7 +14,7 @@ import { CohenSutherlandClipping } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### getCode( x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">Code</span> {: #getCode data-toc-label='getCode' }
+#### getCode( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) : <span style="font-weight: 400;">Code</span> {: #getCode data-toc-label='getCode' }
 
 The Maillot extension of the Cohen-Sutherland encoding of points
 

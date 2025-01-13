@@ -19,55 +19,55 @@ import { IOType } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new IOType( typeName : <span style="font-weight: 400; opacity: 80%;">IOTypeName</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new IOType( typeName : <span style="font-weight: 400;">IOTypeName</span>, providedOptions : <span style="font-weight: 400;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toStateObject( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">StateType</span> {: #toStateObject data-toc-label='toStateObject' }
+#### toStateObject( coreObject : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">StateType</span> {: #toStateObject data-toc-label='toStateObject' }
 
-#### fromStateObject( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">T</span> {: #fromStateObject data-toc-label='fromStateObject' }
+#### fromStateObject( stateObject : <span style="font-weight: 400;">StateType</span> ) : <span style="font-weight: 400;">T</span> {: #fromStateObject data-toc-label='fromStateObject' }
 
-#### applyState( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span>, stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #applyState data-toc-label='applyState' }
+#### applyState( coreObject : <span style="font-weight: 400;">T</span>, stateObject : <span style="font-weight: 400;">StateType</span> ) {: #applyState data-toc-label='applyState' }
 
-#### stateObjectToCreateElementArguments( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">unknown[]</span> {: #stateObjectToCreateElementArguments data-toc-label='stateObjectToCreateElementArguments' }
+#### stateObjectToCreateElementArguments( stateObject : <span style="font-weight: 400;">StateType</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>[]</span> {: #stateObjectToCreateElementArguments data-toc-label='stateObjectToCreateElementArguments' }
 
-#### extends( type : <span style="font-weight: 400; opacity: 80%;">IOType&lt;unknown, unknown&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #extends data-toc-label='extends' }
+#### extends( type : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #extends data-toc-label='extends' }
 
 Returns true if this IOType is a subtype of the passed-in type (or if they are the same).
 
-#### getAllMetadataDefaults() : <span style="font-weight: 400; opacity: 80%;">Partial&lt;PhetioElementMetadata&gt;</span> {: #getAllMetadataDefaults data-toc-label='getAllMetadataDefaults' }
+#### getAllMetadataDefaults() : <span style="font-weight: 400;">Partial&lt;PhetioElementMetadata&gt;</span> {: #getAllMetadataDefaults data-toc-label='getAllMetadataDefaults' }
 
 Return all the metadata defaults (for the entire IOType hierarchy)
 
-#### getAllDataDefaults() : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, unknown&gt;</span> {: #getAllDataDefaults data-toc-label='getAllDataDefaults' }
+#### getAllDataDefaults() : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> {: #getAllDataDefaults data-toc-label='getAllDataDefaults' }
 
 Return all the data defaults (for the entire IOType hierarchy)
 
-#### getAllAPIStateKeys() : <span style="font-weight: 400; opacity: 80%;">APIStateKeys</span> {: #getAllAPIStateKeys data-toc-label='getAllAPIStateKeys' }
+#### getAllAPIStateKeys() : <span style="font-weight: 400;">APIStateKeys</span> {: #getAllAPIStateKeys data-toc-label='getAllAPIStateKeys' }
 
 Return all the apiStateKeys (for the entire IOType hierarchy) in one array.
 
-#### toStateObjectForAPI( coreObject : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">StateType</span> {: #toStateObjectForAPI data-toc-label='toStateObjectForAPI' }
+#### toStateObjectForAPI( coreObject : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;">StateType</span> {: #toStateObjectForAPI data-toc-label='toStateObjectForAPI' }
 
 Get the state object for a PhET-iO Element, but only the entries that should be tracked by the PhET-iO API. See
 StateSchema.apiStateKeys for details. This implementation sets a global to make sure that nested state also only
 selects the apiStateKeys for api tracking (PropertyIO&lt;RangeIO&gt; could have validValues of PointIO that shouldn't
 include non-tracked values of PointIO, if there are any).
 
-#### isStateObjectValid( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span>, toAssert, schemaKeysPresentInStateObject : <span style="font-weight: 400; opacity: 80%;">string[]</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isStateObjectValid data-toc-label='isStateObjectValid' }
+#### isStateObjectValid( stateObject : <span style="font-weight: 400;">StateType</span>, toAssert, schemaKeysPresentInStateObject : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isStateObjectValid data-toc-label='isStateObjectValid' }
 
 @param stateObject - the stateObject to validate against
 @param toAssert=false - whether to assert when invalid
 @param schemaKeysPresentInStateObject=[]
 @returns if the stateObject is valid or not.
 
-#### validateStateObject( stateObject : <span style="font-weight: 400; opacity: 80%;">StateType</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #validateStateObject data-toc-label='validateStateObject' }
+#### validateStateObject( stateObject : <span style="font-weight: 400;">StateType</span> ) {: #validateStateObject data-toc-label='validateStateObject' }
 
 Assert if the provided stateObject is not valid to this IOType's stateSchema
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">IOTypeName</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;">IOTypeName</span> {: #toString data-toc-label='toString' }
 
-#### getAPI() : <span style="font-weight: 400; opacity: 80%;">PhetioType</span> {: #getAPI data-toc-label='getAPI' }
+#### getAPI() : <span style="font-weight: 400;">PhetioType</span> {: #getAPI data-toc-label='getAPI' }
 
 Return an object that indicates the API type, including documentation, methods &amp; signatures, supertypes, etc.
 The object is intended for serialization via JSON.stringify().
@@ -76,67 +76,67 @@ This function could be static, but that doesn't work well with the singleton pat
 
 ### Instance Properties
 
-#### supertype : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #supertype data-toc-label='supertype' }
+#### supertype : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #supertype data-toc-label='supertype' }
 
 (readonly)
 
 See documentation in options type declaration
 
-#### documentation : <span style="font-weight: 400; opacity: 80%;">string</span> {: #documentation data-toc-label='documentation' }
+#### documentation : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #documentation data-toc-label='documentation' }
 
 (readonly)
 
-#### methods : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, IOTypeMethod&gt;</span> {: #methods data-toc-label='methods' }
+#### methods : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, IOTypeMethod&gt;</span> {: #methods data-toc-label='methods' }
 
 (readonly)
 
-#### events : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #events data-toc-label='events' }
+#### events : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> {: #events data-toc-label='events' }
 
 (readonly)
 
-#### metadataDefaults : <span style="font-weight: 400; opacity: 80%;">Partial&lt;PhetioElementMetadata&gt;</span> {: #metadataDefaults data-toc-label='metadataDefaults' }
+#### metadataDefaults : <span style="font-weight: 400;">Partial&lt;PhetioElementMetadata&gt;</span> {: #metadataDefaults data-toc-label='metadataDefaults' }
 
 (readonly)
 
-#### dataDefaults : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, unknown&gt;</span> {: #dataDefaults data-toc-label='dataDefaults' }
+#### dataDefaults : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> {: #dataDefaults data-toc-label='dataDefaults' }
 
 (readonly)
 
-#### methodOrder : <span style="font-weight: 400; opacity: 80%;">string[]</span> {: #methodOrder data-toc-label='methodOrder' }
+#### methodOrder : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> {: #methodOrder data-toc-label='methodOrder' }
 
 (readonly)
 
-#### parameterTypes : <span style="font-weight: 400; opacity: 80%;">IOType[]</span> {: #parameterTypes data-toc-label='parameterTypes' }
+#### parameterTypes : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)[]</span> {: #parameterTypes data-toc-label='parameterTypes' }
 
 (readonly)
 
-#### fromStateObjectOption : <span style="font-weight: 400; opacity: 80%;">( ( state: StateType ) =&gt; T ) | null</span> {: #fromStateObjectOption data-toc-label='fromStateObjectOption' }
+#### fromStateObjectOption : <span style="font-weight: 400;">( ( state: StateType ) =&gt; T ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #fromStateObjectOption data-toc-label='fromStateObjectOption' }
 
 (readonly)
 
-#### stateObjectToCreateElementArgumentsOption : <span style="font-weight: 400; opacity: 80%;">( ( s: StateType ) =&gt; unknown[] ) | null</span> {: #stateObjectToCreateElementArgumentsOption data-toc-label='stateObjectToCreateElementArgumentsOption' }
+#### stateObjectToCreateElementArgumentsOption : <span style="font-weight: 400;">( ( s: StateType ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>[] ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #stateObjectToCreateElementArgumentsOption data-toc-label='stateObjectToCreateElementArgumentsOption' }
 
 (readonly)
 
 TODO: instead of unknown this is the second parameter type for PhetioDynamicElementContainer. How? https://github.com/phetsims/tandem/issues/261
 
-#### addChildElement : <span style="font-weight: 400; opacity: 80%;">AddChildElement</span> {: #addChildElement data-toc-label='addChildElement' }
+#### addChildElement : <span style="font-weight: 400;">AddChildElement</span> {: #addChildElement data-toc-label='addChildElement' }
 
 (readonly)
 
-#### validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span> {: #validator data-toc-label='validator' }
+#### validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span> {: #validator data-toc-label='validator' }
 
 (readonly)
 
-#### defaultDeserializationMethod : <span style="font-weight: 400; opacity: 80%;">DeserializationType</span> {: #defaultDeserializationMethod data-toc-label='defaultDeserializationMethod' }
+#### defaultDeserializationMethod : <span style="font-weight: 400;">DeserializationType</span> {: #defaultDeserializationMethod data-toc-label='defaultDeserializationMethod' }
 
 (readonly)
 
-#### isFunctionType : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isFunctionType data-toc-label='isFunctionType' }
+#### isFunctionType : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isFunctionType data-toc-label='isFunctionType' }
 
 (readonly)
 
-#### stateSchema : <span style="font-weight: 400; opacity: 80%;">StateSchema&lt;T, SelfStateType&gt; | null</span> {: #stateSchema data-toc-label='stateSchema' }
+#### stateSchema : <span style="font-weight: 400;">StateSchema&lt;T, SelfStateType&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #stateSchema data-toc-label='stateSchema' }
 
 (readonly)
 
@@ -144,7 +144,7 @@ The StateSchema (type) that the option is made into. The option is more flexible
 
 ### Static Properties
 
-#### ObjectIO : <span style="font-weight: 400; opacity: 80%;">IOType</span> {: #ObjectIO data-toc-label='ObjectIO' }
+#### ObjectIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ObjectIO data-toc-label='ObjectIO' }
 
 The base IOType for the entire hierarchy.
 

@@ -16,13 +16,13 @@ import { LayoutCell } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### onLayoutOptionsChange() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
+#### onLayoutOptionsChange() {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
 
 (protected)
 
 Can't be abstract, we're using mixins :(
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 

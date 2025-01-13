@@ -16,7 +16,7 @@ import { HistogramModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new HistogramModule( providedOptions : <span style="font-weight: 400; opacity: 80%;">HistogramModuleOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new HistogramModule( providedOptions : <span style="font-weight: 400;">[HistogramModuleOptions](../alpenglow/HistogramModule.md#HistogramModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -24,11 +24,11 @@ import { HistogramModule } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### input : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;T&gt;</span> {: #input data-toc-label='input' }
+#### input : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;</span> {: #input data-toc-label='input' }
 
 (readonly)
 
-#### output : <span style="font-weight: 400; opacity: 80%;">BufferArraySlot&lt;number&gt;</span> {: #output data-toc-label='output' }
+#### output : <span style="font-weight: 400;">[BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #output data-toc-label='output' }
 
 (readonly)
 

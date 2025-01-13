@@ -21,7 +21,7 @@ import { Easing } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new Easing( value : <span style="font-weight: 400; opacity: 80%;">NumberFunction</span>, derivative : <span style="font-weight: 400; opacity: 80%;">NumberFunction</span>, secondDerivative : <span style="font-weight: 400; opacity: 80%;">NumberFunction</span> ) {: #constructor data-toc-label='constructor' }
+#### new Easing( value : <span style="font-weight: 400;">NumberFunction</span>, derivative : <span style="font-weight: 400;">NumberFunction</span>, secondDerivative : <span style="font-weight: 400;">NumberFunction</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -29,82 +29,82 @@ import { Easing } from 'scenerystack/twixt';
 
 ### Static Methods
 
-#### polynomialEaseInValue( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInValue data-toc-label='polynomialEaseInValue' }
+#### polynomialEaseInValue( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInValue data-toc-label='polynomialEaseInValue' }
 
 The "polynomial ease in" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseOutValue( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseOutValue data-toc-label='polynomialEaseOutValue' }
+#### polynomialEaseOutValue( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseOutValue data-toc-label='polynomialEaseOutValue' }
 
 The "polynomial ease out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseInOutValue( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInOutValue data-toc-label='polynomialEaseInOutValue' }
+#### polynomialEaseInOutValue( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInOutValue data-toc-label='polynomialEaseInOutValue' }
 
 The "polynomial ease in-out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseInDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInDerivative data-toc-label='polynomialEaseInDerivative' }
+#### polynomialEaseInDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInDerivative data-toc-label='polynomialEaseInDerivative' }
 
 The derivative of the "polynomial ease in" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseOutDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseOutDerivative data-toc-label='polynomialEaseOutDerivative' }
+#### polynomialEaseOutDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseOutDerivative data-toc-label='polynomialEaseOutDerivative' }
 
 The derivative of the "polynomial ease out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseInOutDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInOutDerivative data-toc-label='polynomialEaseInOutDerivative' }
+#### polynomialEaseInOutDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInOutDerivative data-toc-label='polynomialEaseInOutDerivative' }
 
 The derivative of the "polynomial ease in-out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseInSecondDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInSecondDerivative data-toc-label='polynomialEaseInSecondDerivative' }
+#### polynomialEaseInSecondDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInSecondDerivative data-toc-label='polynomialEaseInSecondDerivative' }
 
 The second derivative of the "polynomial ease in" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseOutSecondDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseOutSecondDerivative data-toc-label='polynomialEaseOutSecondDerivative' }
+#### polynomialEaseOutSecondDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseOutSecondDerivative data-toc-label='polynomialEaseOutSecondDerivative' }
 
 The second derivative of the "polynomial ease out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseInOutSecondDerivative( n : <span style="font-weight: 400; opacity: 80%;">number</span>, t : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #polynomialEaseInOutSecondDerivative data-toc-label='polynomialEaseInOutSecondDerivative' }
+#### polynomialEaseInOutSecondDerivative( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #polynomialEaseInOutSecondDerivative data-toc-label='polynomialEaseInOutSecondDerivative' }
 
 The second derivative of the "polynomial ease in-out" function.
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 @param t - The linear ratio [0,1] of the animation
 
-#### polynomialEaseIn( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Easing</span> {: #polynomialEaseIn data-toc-label='polynomialEaseIn' }
+#### polynomialEaseIn( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Easing](../twixt/Easing.md)</span> {: #polynomialEaseIn data-toc-label='polynomialEaseIn' }
 
 Creates a polynomial "in" easing (smooth start)
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 
-#### polynomialEaseOut( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Easing</span> {: #polynomialEaseOut data-toc-label='polynomialEaseOut' }
+#### polynomialEaseOut( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Easing](../twixt/Easing.md)</span> {: #polynomialEaseOut data-toc-label='polynomialEaseOut' }
 
 Creates a polynomial "out" easing (smooth end)
 
 @param n - The degree of the polynomial (does not have to be an integer!)
 
-#### polynomialEaseInOut( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">Easing</span> {: #polynomialEaseInOut data-toc-label='polynomialEaseInOut' }
+#### polynomialEaseInOut( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Easing](../twixt/Easing.md)</span> {: #polynomialEaseInOut data-toc-label='polynomialEaseInOut' }
 
 Creates a polynomial "in-out" easing (smooth start and end)
 

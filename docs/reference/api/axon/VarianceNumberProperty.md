@@ -15,15 +15,15 @@ import { VarianceNumberProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new VarianceNumberProperty( value : <span style="font-weight: 400; opacity: 80%;">number</span>, computeVariance : <span style="font-weight: 400; opacity: 80%;">VarianceComputer</span>, options? : <span style="font-weight: 400; opacity: 80%;">VarianceNumberPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new VarianceNumberProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, computeVariance : <span style="font-weight: 400;">VarianceComputer</span>, options? : <span style="font-weight: 400;">VarianceNumberPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getRandomizedValue() : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getRandomizedValue data-toc-label='getRandomizedValue' }
+#### getRandomizedValue() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getRandomizedValue data-toc-label='getRandomizedValue' }
 
 ### Instance Properties
 
-#### computeVariance : <span style="font-weight: 400; opacity: 80%;">VarianceComputer | null</span> {: #computeVariance data-toc-label='computeVariance' }
+#### computeVariance : <span style="font-weight: 400;">VarianceComputer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #computeVariance data-toc-label='computeVariance' }
 
 (readonly)
 

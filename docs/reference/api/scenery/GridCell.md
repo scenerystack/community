@@ -14,13 +14,13 @@ import { GridCell } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### onLayoutOptionsChange( isInitial ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
+#### onLayoutOptionsChange( isInitial ) {: #onLayoutOptionsChange data-toc-label='onLayoutOptionsChange' }
 
 (protected)
 
 ### Instance Properties
 
-#### size : <span style="font-weight: 400; opacity: 80%;">OrientationPair&lt;number&gt;</span> {: #size data-toc-label='size' }
+#### size : <span style="font-weight: 400;">[OrientationPair](../phet-core/OrientationPair.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #size data-toc-label='size' }
 
 
 

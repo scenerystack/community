@@ -14,35 +14,35 @@ import { ShapeBasedOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ShapeBasedOverlay( display : <span style="font-weight: 400; opacity: 80%;">Display</span>, rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, name : <span style="font-weight: 400; opacity: 80%;">string</span> ) {: #constructor data-toc-label='constructor' }
+#### new ShapeBasedOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### addShape( shape : <span style="font-weight: 400; opacity: 80%;">Shape</span>, color : <span style="font-weight: 400; opacity: 80%;">string</span>, isOffset : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addShape data-toc-label='addShape' }
+#### addShape( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, color : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, isOffset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #addShape data-toc-label='addShape' }
 
-#### update() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #update data-toc-label='update' }
+#### update() {: #update data-toc-label='update' }
 
-#### addShapes() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addShapes data-toc-label='addShapes' }
+#### addShapes() {: #addShapes data-toc-label='addShapes' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### display : <span style="font-weight: 400; opacity: 80%;">Display</span> {: #display data-toc-label='display' }
+#### display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> {: #display data-toc-label='display' }
 
 (protected)
 
-#### rootNode : <span style="font-weight: 400; opacity: 80%;">Node</span> {: #rootNode data-toc-label='rootNode' }
+#### rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #rootNode data-toc-label='rootNode' }
 
 (protected)
 
-#### svg : <span style="font-weight: 400; opacity: 80%;">SVGElement</span> {: #svg data-toc-label='svg' }
+#### svg : <span style="font-weight: 400;">SVGElement</span> {: #svg data-toc-label='svg' }
 
 (protected)
 
-#### domElement : <span style="font-weight: 400; opacity: 80%;">SVGElement</span> {: #domElement data-toc-label='domElement' }
+#### domElement : <span style="font-weight: 400;">SVGElement</span> {: #domElement data-toc-label='domElement' }
 
 
 

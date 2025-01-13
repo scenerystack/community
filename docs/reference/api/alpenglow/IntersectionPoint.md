@@ -14,17 +14,17 @@ import { IntersectionPoint } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new IntersectionPoint( t0 : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, t1 : <span style="font-weight: 400; opacity: 80%;">BigRational</span>, point : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) {: #constructor data-toc-label='constructor' }
+#### new IntersectionPoint( t0 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, t1 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, point : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
-#### verify( p0 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p1 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p2 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p3 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #verify data-toc-label='verify' }
+#### verify( p0 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p1 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p2 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p3 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span> ) {: #verify data-toc-label='verify' }
 
 ### Static Methods
 
-#### intersectLineSegments( p0 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p1 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p2 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span>, p3 : <span style="font-weight: 400; opacity: 80%;">BigIntVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">IntersectionPoint[]</span> {: #intersectLineSegments data-toc-label='intersectLineSegments' }
+#### intersectLineSegments( p0 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p1 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p2 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span>, p3 : <span style="font-weight: 400;">[BigIntVector2](../alpenglow/BigIntVector2.md)</span> ) : <span style="font-weight: 400;">[IntersectionPoint](../alpenglow/IntersectionPoint.md)[]</span> {: #intersectLineSegments data-toc-label='intersectLineSegments' }
 
 
 

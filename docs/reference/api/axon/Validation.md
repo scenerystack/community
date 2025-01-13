@@ -39,24 +39,24 @@ import { Validation } from 'scenerystack/axon';
 ```
 ### Static Methods
 
-#### getValidatorValidationError( validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">string | null</span> {: #getValidatorValidationError data-toc-label='getValidatorValidationError' }
+#### getValidatorValidationError( validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getValidatorValidationError data-toc-label='getValidatorValidationError' }
 
 @returns an error string if incorrect, otherwise null if valid
 
-#### validateValidator( validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #validateValidator data-toc-label='validateValidator' }
+#### validateValidator( validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span> ) {: #validateValidator data-toc-label='validateValidator' }
 
-#### containsValidatorKey( validator : <span style="font-weight: 400; opacity: 80%;">IntentionalAny</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #containsValidatorKey data-toc-label='containsValidatorKey' }
+#### containsValidatorKey( validator : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsValidatorKey data-toc-label='containsValidatorKey' }
 
 @param validator - object which may or may not contain validation keys
 
-#### isValueValid( value : <span style="font-weight: 400; opacity: 80%;">T</span>, validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">IsValidValueOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isValueValid data-toc-label='isValueValid' }
+#### isValueValid( value : <span style="font-weight: 400;">T</span>, validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[IsValidValueOptions](../axon/Validation.md#IsValidValueOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isValueValid data-toc-label='isValueValid' }
 
-#### getValidationError( value : <span style="font-weight: 400; opacity: 80%;">IntentionalAny</span>, validator : <span style="font-weight: 400; opacity: 80%;">Validator&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">IsValidValueOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">string | null</span> {: #getValidationError data-toc-label='getValidationError' }
+#### getValidationError( value : <span style="font-weight: 400;">IntentionalAny</span>, validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[IsValidValueOptions](../axon/Validation.md#IsValidValueOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getValidationError data-toc-label='getValidationError' }
 
 Determines whether a value is valid (returning a boolean value), returning the problem as a string if invalid,
 otherwise returning null when valid.
 
-#### equalsForValidationStrategy( a : <span style="font-weight: 400; opacity: 80%;">T</span>, b : <span style="font-weight: 400; opacity: 80%;">T</span>, valueComparisonStrategy : <span style="font-weight: 400; opacity: 80%;">ValueComparisonStrategy&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsForValidationStrategy data-toc-label='equalsForValidationStrategy' }
+#### equalsForValidationStrategy( a : <span style="font-weight: 400;">T</span>, b : <span style="font-weight: 400;">T</span>, valueComparisonStrategy : <span style="font-weight: 400;">ValueComparisonStrategy&lt;T&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsForValidationStrategy data-toc-label='equalsForValidationStrategy' }
 
 Compare the two provided values for equality using the valueComparisonStrategy provided, see
 ValueComparisonStrategy type.
@@ -67,7 +67,7 @@ ValueComparisonStrategy type.
 
 (readonly)
 
-#### STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR : <span style="font-weight: 400; opacity: 80%;">Validator&lt;string&gt;</span> {: #STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR data-toc-label='STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR' }
+#### STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR data-toc-label='STRING_WITHOUT_TEMPLATE_VARS_VALIDATOR' }
 
 (readonly)
 

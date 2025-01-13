@@ -15,23 +15,23 @@ import { Plane3 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Plane3( normal : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, distance : <span style="font-weight: 400; opacity: 80%;">number</span> ) {: #constructor data-toc-label='constructor' }
+#### new Plane3( normal : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, distance : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### intersectWithRay( ray : <span style="font-weight: 400; opacity: 80%;">Ray3</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector3</span> {: #intersectWithRay data-toc-label='intersectWithRay' }
+#### intersectWithRay( ray : <span style="font-weight: 400;">[Ray3](../dot/Ray3.md)</span> ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #intersectWithRay data-toc-label='intersectWithRay' }
 
-#### getIntersection( plane : <span style="font-weight: 400; opacity: 80%;">Plane3</span> ) : <span style="font-weight: 400; opacity: 80%;">Ray3 | null</span> {: #getIntersection data-toc-label='getIntersection' }
+#### getIntersection( plane : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md)</span> ) : <span style="font-weight: 400;">[Ray3](../dot/Ray3.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getIntersection data-toc-label='getIntersection' }
 
 ### Instance Properties
 
-#### normal : <span style="font-weight: 400; opacity: 80%;">Vector3</span> {: #normal data-toc-label='normal' }
+#### normal : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #normal data-toc-label='normal' }
 
-#### distance : <span style="font-weight: 400; opacity: 80%;">number</span> {: #distance data-toc-label='distance' }
+#### distance : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #distance data-toc-label='distance' }
 
 ### Static Methods
 
-#### fromTriangle( a : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, b : <span style="font-weight: 400; opacity: 80%;">Vector3</span>, c : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) : <span style="font-weight: 400; opacity: 80%;">Plane3 | null</span> {: #fromTriangle data-toc-label='fromTriangle' }
+#### fromTriangle( a : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, b : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, c : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #fromTriangle data-toc-label='fromTriangle' }
 
 Returns a new plane that passes through three points $(\vec{a},\vec{b},\vec{c})$
 The normal of the plane points along $\vec{c-a} \times \vec{b-a}$
@@ -43,15 +43,15 @@ Passing three collinear points will return null
 
 ### Static Properties
 
-#### XY : <span style="font-weight: 400; opacity: 80%;">Plane3</span> {: #XY data-toc-label='XY' }
+#### XY : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md)</span> {: #XY data-toc-label='XY' }
 
 (readonly)
 
-#### XZ : <span style="font-weight: 400; opacity: 80%;">Plane3</span> {: #XZ data-toc-label='XZ' }
+#### XZ : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md)</span> {: #XZ data-toc-label='XZ' }
 
 (readonly)
 
-#### YZ : <span style="font-weight: 400; opacity: 80%;">Plane3</span> {: #YZ data-toc-label='YZ' }
+#### YZ : <span style="font-weight: 400;">[Plane3](../dot/Plane3.md)</span> {: #YZ data-toc-label='YZ' }
 
 (readonly)
 

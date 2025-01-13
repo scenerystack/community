@@ -14,15 +14,15 @@ import { PiecewiseLinearFunction } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new PiecewiseLinearFunction( array : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new PiecewiseLinearFunction( array : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### evaluate( x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
 ### Static Methods
 
-#### evaluate( array : <span style="font-weight: 400; opacity: 80%;">number[]</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #evaluate data-toc-label='evaluate' }
+#### evaluate( array : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #evaluate data-toc-label='evaluate' }
 
 This algorithm generates no garbage
 @param array - in the form x0,y0, x1,y1, x2,y2, etc.  Points do not have to be ordered from low to high x

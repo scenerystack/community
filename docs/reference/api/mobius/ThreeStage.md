@@ -14,37 +14,37 @@ import { ThreeStage } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeStage( providedOptions? : <span style="font-weight: 400; opacity: 80%;">ThreeStageOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeStage( providedOptions? : <span style="font-weight: 400;">[ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### renderToCanvas( supersampleMultiplier, backingMultiplier, scale ) : <span style="font-weight: 400; opacity: 80%;">HTMLCanvasElement</span> {: #renderToCanvas data-toc-label='renderToCanvas' }
+#### renderToCanvas( supersampleMultiplier, backingMultiplier, scale ) : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span> {: #renderToCanvas data-toc-label='renderToCanvas' }
 
 Returns a Canvas containing the displayed content in this scene.
 
-#### projectPoint( point : <span style="font-weight: 400; opacity: 80%;">Vector3</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #projectPoint data-toc-label='projectPoint' }
+#### projectPoint( point : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #projectPoint data-toc-label='projectPoint' }
 
 Projects a 3d point in the global coordinate frame to one within the 2d global coordinate frame.
 
-#### unprojectPoint( point : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, modelZ ) : <span style="font-weight: 400; opacity: 80%;">Vector3</span> {: #unprojectPoint data-toc-label='unprojectPoint' }
+#### unprojectPoint( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, modelZ ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #unprojectPoint data-toc-label='unprojectPoint' }
 
 Project a 2d global screen coordinate into 3d global coordinates using THREE/Vector3.unproject()
 
 
-#### getRayFromScreenPoint( screenPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Ray3</span> {: #getRayFromScreenPoint data-toc-label='getRayFromScreenPoint' }
+#### getRayFromScreenPoint( screenPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Ray3](../dot/Ray3.md)</span> {: #getRayFromScreenPoint data-toc-label='getRayFromScreenPoint' }
 
 Given a screen point, returns a 3D ray representing the camera's position and direction that point would be in the
 3D scene.
 
-#### setDimensions( width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setDimensions data-toc-label='setDimensions' }
+#### setDimensions( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setDimensions data-toc-label='setDimensions' }
 
-#### adjustViewOffset( cameraBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #adjustViewOffset data-toc-label='adjustViewOffset' }
+#### adjustViewOffset( cameraBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #adjustViewOffset data-toc-label='adjustViewOffset' }
 
 Adjusts the camera's view offsets so that it displays the camera's main output within the specified cameraBounds.
 This is a generalization of the isometric FOV computation, as it also supports other combinations such as properly
 handling pan/zoom. See https://github.com/phetsims/density/issues/50
 
-#### render( target : <span style="font-weight: 400; opacity: 80%;">THREE.WebGLRenderTarget | undefined</span>, autoClear ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #render data-toc-label='render' }
+#### render( target : <span style="font-weight: 400;">THREE.WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span>, autoClear ) {: #render data-toc-label='render' }
 
 Renders the simulation to a specific rendering target
 
@@ -52,45 +52,45 @@ Renders the simulation to a specific rendering target
 @param autoClear - when true, THREE will clear all pixels prior to rendering the next frame onto it. This is
                    expensive, but can clean up animations where objects look laggy/warped in certain contexts.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references.
 
 ### Instance Properties
 
-#### activeScale : <span style="font-weight: 400; opacity: 80%;">number</span> {: #activeScale data-toc-label='activeScale' }
+#### activeScale : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #activeScale data-toc-label='activeScale' }
 
 Scale applied to interaction that isn't directly tied to screen coordinates (rotation), updated in layout
 
-#### canvasWidth : <span style="font-weight: 400; opacity: 80%;">number</span> {: #canvasWidth data-toc-label='canvasWidth' }
+#### canvasWidth : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #canvasWidth data-toc-label='canvasWidth' }
 
-#### canvasHeight : <span style="font-weight: 400; opacity: 80%;">number</span> {: #canvasHeight data-toc-label='canvasHeight' }
+#### canvasHeight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #canvasHeight data-toc-label='canvasHeight' }
 
-#### threeScene : <span style="font-weight: 400; opacity: 80%;">THREE.Scene</span> {: #threeScene data-toc-label='threeScene' }
-
-(readonly)
-
-#### threeCamera : <span style="font-weight: 400; opacity: 80%;">THREE.PerspectiveCamera</span> {: #threeCamera data-toc-label='threeCamera' }
+#### threeScene : <span style="font-weight: 400;">THREE.Scene</span> {: #threeScene data-toc-label='threeScene' }
 
 (readonly)
 
-#### threeRenderer : <span style="font-weight: 400; opacity: 80%;">THREE.WebGLRenderer | null</span> {: #threeRenderer data-toc-label='threeRenderer' }
-
-#### dimensionsChangedEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #dimensionsChangedEmitter data-toc-label='dimensionsChangedEmitter' }
+#### threeCamera : <span style="font-weight: 400;">THREE.PerspectiveCamera</span> {: #threeCamera data-toc-label='threeCamera' }
 
 (readonly)
 
-#### contextLostEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #contextLostEmitter data-toc-label='contextLostEmitter' }
+#### threeRenderer : <span style="font-weight: 400;">THREE.WebGLRenderer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #threeRenderer data-toc-label='threeRenderer' }
+
+#### dimensionsChangedEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #dimensionsChangedEmitter data-toc-label='dimensionsChangedEmitter' }
 
 (readonly)
 
-#### contextRestoredEmitter : <span style="font-weight: 400; opacity: 80%;">TEmitter</span> {: #contextRestoredEmitter data-toc-label='contextRestoredEmitter' }
+#### contextLostEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #contextLostEmitter data-toc-label='contextLostEmitter' }
+
+(readonly)
+
+#### contextRestoredEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #contextRestoredEmitter data-toc-label='contextRestoredEmitter' }
 
 (readonly)
 
 ### Static Methods
 
-#### computeIsometricFOV( fov : <span style="font-weight: 400; opacity: 80%;">number</span>, canvasWidth : <span style="font-weight: 400; opacity: 80%;">number</span>, canvasHeight : <span style="font-weight: 400; opacity: 80%;">number</span>, layoutWidth : <span style="font-weight: 400; opacity: 80%;">number</span>, layoutHeight : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #computeIsometricFOV data-toc-label='computeIsometricFOV' }
+#### computeIsometricFOV( fov : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, canvasWidth : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, canvasHeight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, layoutWidth : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, layoutHeight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #computeIsometricFOV data-toc-label='computeIsometricFOV' }
 
 It's a bit tricky, since if we are vertically-constrained, we don't need to adjust the camera's FOV (since the
 width of the scene will scale proportionally to the scale we display our contents at). It's only when our view

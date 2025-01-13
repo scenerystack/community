@@ -26,46 +26,46 @@ import { ContinuousPatternVibrationController } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400; opacity: 80%;">VibrationManageriOS</span>, providedOptions : <span style="font-weight: 400; opacity: 80%;">ContinuousPatternVibrationControllerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400;">[VibrationManageriOS](../tappi/VibrationManageriOS.md)</span>, providedOptions : <span style="font-weight: 400;">[ContinuousPatternVibrationControllerOptions](../tappi/ContinuousPatternVibrationController.md#ContinuousPatternVibrationControllerOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### step( dt : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #step data-toc-label='step' }
+#### step( dt : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #step data-toc-label='step' }
 
 Step forward in time, updates patterns.
 
-#### setNewActivePattern( pattern : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setNewActivePattern data-toc-label='setNewActivePattern' }
+#### setNewActivePattern( pattern : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #setNewActivePattern data-toc-label='setNewActivePattern' }
 
 Transition from the previous pattern to the next pattern, which will start to play when start() is called.
 
-#### setPattern( pattern : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setPattern data-toc-label='setPattern' }
+#### setPattern( pattern : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #setPattern data-toc-label='setPattern' }
 
 Set the new pattern for the controller. If we are running, this will be the pending pattern
 which we will request at the end of the current pattern to avoid stutter during rapid changes.
 If a pattern is not running, this will be set as the active pattern right away, and can begin
 ass soon as start() is called.
 
-#### setIntensity( intensity : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setIntensity data-toc-label='setIntensity' }
+#### setIntensity( intensity : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setIntensity data-toc-label='setIntensity' }
 
 Set the intensity for the vibration pattern, for both the active and pending patterns.
 
-#### setSharpness( sharpness : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setSharpness data-toc-label='setSharpness' }
+#### setSharpness( sharpness : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setSharpness data-toc-label='setSharpness' }
 
 Set the sharpness for the vibration pattern, for both the active and pending patterns.
 
-#### setRepeat( repeat : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setRepeat data-toc-label='setRepeat' }
+#### setRepeat( repeat : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setRepeat data-toc-label='setRepeat' }
 
 Set whether or not the active pattern will repeat.
 
-#### start() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #start data-toc-label='start' }
+#### start() {: #start data-toc-label='start' }
 
 Start vibrating with the active pattern. Calling this will reset where we are in the active vibration pattern.
 
-#### stop() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #stop data-toc-label='stop' }
+#### stop() {: #stop data-toc-label='stop' }
 
 Stop all vibration and play of the active pattern if we are running.
 
-#### resetPattern() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #resetPattern data-toc-label='resetPattern' }
+#### resetPattern() {: #resetPattern data-toc-label='resetPattern' }
 
 Reset the active pattern, and where we are in its playthrough.
 

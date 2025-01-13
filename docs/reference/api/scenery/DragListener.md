@@ -76,11 +76,11 @@ import { DragListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DragListener( providedOptions? : <span style="font-weight: 400; opacity: 80%;">DragListenerOptions&lt;PressedDragListener&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DragListener( providedOptions? : <span style="font-weight: 400;">[DragListenerOptions](../scenery/DragListener.md#DragListenerOptions)&lt;[PressedDragListener](../scenery/DragListener.md#PressedDragListener)&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### press( event : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span>, targetNode? : <span style="font-weight: 400; opacity: 80%;">Node</span>, callback? : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #press data-toc-label='press' }
+#### press( event : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span>, targetNode? : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, callback? : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #press data-toc-label='press' }
 
 Attempts to start a drag with a press.
 
@@ -92,7 +92,7 @@ be used to determine whether this will actually start a drag.
 @param [callback] - to be run at the end of the function, but only on success
 @returns success - Returns whether the press was actually started
 
-#### release( event? : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span>, callback? : <span style="font-weight: 400; opacity: 80%;">() =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #release data-toc-label='release' }
+#### release( event? : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span>, callback? : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #release data-toc-label='release' }
 
 Stops the drag.
 
@@ -102,43 +102,43 @@ events. If the cancel/interrupt behavior is more preferable, call interrupt() on
 @param [event] - scenery event if there was one
 @param [callback] - called at the end of the release
 
-#### canClick() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #canClick data-toc-label='canClick' }
+#### canClick() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #canClick data-toc-label='canClick' }
 
 Components using DragListener should generally not be activated with a click. A single click from alternative
 input would pick up the component then immediately release it. But occasionally that is desirable and can be
 controlled with the canClick option.
 
-#### drag( event : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #drag data-toc-label='drag' }
+#### drag( event : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span> ) {: #drag data-toc-label='drag' }
 
 Called when move events are fired on the attached pointer listener during a drag.
 
-#### tryTouchSnag( event : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #tryTouchSnag data-toc-label='tryTouchSnag' }
+#### tryTouchSnag( event : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span> ) {: #tryTouchSnag data-toc-label='tryTouchSnag' }
 
 Attempts to start a touch snag, given a SceneryEvent.
 
 Should be safe to be called externally with an event.
 
-#### getGlobalPoint() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getGlobalPoint data-toc-label='getGlobalPoint' }
+#### getGlobalPoint() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getGlobalPoint data-toc-label='getGlobalPoint' }
 
 Returns a defensive copy of the local-coordinate-frame point of the drag.
 
-#### getLocalPoint() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getLocalPoint data-toc-label='getLocalPoint' }
+#### getLocalPoint() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getLocalPoint data-toc-label='getLocalPoint' }
 
 Returns a defensive copy of the local-coordinate-frame point of the drag.
 
-#### getParentPoint() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getParentPoint data-toc-label='getParentPoint' }
+#### getParentPoint() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getParentPoint data-toc-label='getParentPoint' }
 
 Returns a defensive copy of the parent-coordinate-frame point of the drag.
 
-#### getModelPoint() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getModelPoint data-toc-label='getModelPoint' }
+#### getModelPoint() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getModelPoint data-toc-label='getModelPoint' }
 
 Returns a defensive copy of the model-coordinate-frame point of the drag.
 
-#### getModelDelta() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getModelDelta data-toc-label='getModelDelta' }
+#### getModelDelta() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getModelDelta data-toc-label='getModelDelta' }
 
 Returns a defensive copy of the model-coordinate-frame delta.
 
-#### globalToParentPoint( globalPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #globalToParentPoint data-toc-label='globalToParentPoint' }
+#### globalToParentPoint( globalPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #globalToParentPoint data-toc-label='globalToParentPoint' }
 
 (protected)
 
@@ -148,7 +148,7 @@ NOTE: This mutates the input vector (for performance)
 
 Should be overridden if a custom transformation is needed.
 
-#### parentToLocalPoint( parentPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #parentToLocalPoint data-toc-label='parentToLocalPoint' }
+#### parentToLocalPoint( parentPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #parentToLocalPoint data-toc-label='parentToLocalPoint' }
 
 (protected)
 
@@ -158,7 +158,7 @@ NOTE: This mutates the input vector (for performance)
 
 Should be overridden if a custom transformation is needed.
 
-#### localToParentPoint( localPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #localToParentPoint data-toc-label='localToParentPoint' }
+#### localToParentPoint( localPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #localToParentPoint data-toc-label='localToParentPoint' }
 
 (protected)
 
@@ -168,7 +168,7 @@ NOTE: This mutates the input vector (for performance)
 
 Should be overridden if a custom transformation is needed.
 
-#### parentToModelPoint( parentPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #parentToModelPoint data-toc-label='parentToModelPoint' }
+#### parentToModelPoint( parentPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #parentToModelPoint data-toc-label='parentToModelPoint' }
 
 (protected)
 
@@ -179,7 +179,7 @@ NOTE: This mutates the input vector (for performance)
 Should be overridden if a custom transformation is needed. Note that by default, unless a transform is provided,
 the parent coordinate frame will be the same as the model coordinate frame.
 
-#### modelToParentPoint( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #modelToParentPoint data-toc-label='modelToParentPoint' }
+#### modelToParentPoint( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #modelToParentPoint data-toc-label='modelToParentPoint' }
 
 (protected)
 
@@ -190,7 +190,7 @@ NOTE: This mutates the input vector (for performance)
 Should be overridden if a custom transformation is needed. Note that by default, unless a transform is provided,
 the parent coordinate frame will be the same as the model coordinate frame.
 
-#### mapModelPoint( modelPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #mapModelPoint data-toc-label='mapModelPoint' }
+#### mapModelPoint( modelPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #mapModelPoint data-toc-label='mapModelPoint' }
 
 (protected)
 
@@ -204,32 +204,32 @@ Should be overridden (or use mapPosition) if a custom transformation is needed.
 
 @returns - A point in the model coordinate frame
 
-#### applyParentOffset( parentPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #applyParentOffset data-toc-label='applyParentOffset' }
+#### applyParentOffset( parentPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #applyParentOffset data-toc-label='applyParentOffset' }
 
 (protected)
 
 Mutates the parentPoint given to account for the initial pointer's offset from the drag target's origin.
 
-#### reposition( globalPoint : <span style="font-weight: 400; opacity: 80%;">Vector2</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reposition data-toc-label='reposition' }
+#### reposition( globalPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #reposition data-toc-label='reposition' }
 
 Triggers an update of the drag position, potentially changing position properties.
 
 Should be called when something that changes the output positions of the drag occurs (most often, a drag event
 itself).
 
-#### getDragBounds() : <span style="font-weight: 400; opacity: 80%;">Bounds2 | null</span> {: #getDragBounds data-toc-label='getDragBounds' }
+#### getDragBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getDragBounds data-toc-label='getDragBounds' }
 
 Returns the drag bounds of the listener.
 
-#### setTransform( transform : <span style="font-weight: 400; opacity: 80%;">Transform3 | TReadOnlyProperty&lt;Transform3&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTransform data-toc-label='setTransform' }
+#### setTransform( transform : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Transform3](../dot/Transform3.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setTransform data-toc-label='setTransform' }
 
 Sets the drag transform of the listener.
 
-#### getTransform() : <span style="font-weight: 400; opacity: 80%;">Transform3 | TReadOnlyProperty&lt;Transform3&gt; | null</span> {: #getTransform data-toc-label='getTransform' }
+#### getTransform() : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Transform3](../dot/Transform3.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getTransform data-toc-label='getTransform' }
 
 Returns the transform of the listener.
 
-#### interrupt() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #interrupt data-toc-label='interrupt' }
+#### interrupt() {: #interrupt data-toc-label='interrupt' }
 
 Interrupts the listener, releasing it (canceling behavior).
 
@@ -238,23 +238,23 @@ so that code can determine whether a release/end happened naturally, or was canc
 
 This can be called manually, but can also be called through node.interruptSubtreeInput().
 
-#### canPress( event : <span style="font-weight: 400; opacity: 80%;">PressListenerEvent</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #canPress data-toc-label='canPress' }
+#### canPress( event : <span style="font-weight: 400;">[PressListenerEvent](../scenery/PressListener.md#PressListenerEvent)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #canPress data-toc-label='canPress' }
 
 Returns whether a press can be started with a particular event.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Disposes the listener, releasing references. It should not be used after this.
 
 ### Instance Properties
 
-#### isUserControlledProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;boolean&gt;</span> {: #isUserControlledProperty data-toc-label='isUserControlledProperty' }
+#### isUserControlledProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isUserControlledProperty data-toc-label='isUserControlledProperty' }
 
 Alias for isPressedProperty (as this name makes more sense for dragging)
 
 ### Static Methods
 
-#### createForwardingListener( down : <span style="font-weight: 400; opacity: 80%;">( event: PressListenerEvent ) =&gt; void</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CreateForwardingListenerOptions</span> ) : <span style="font-weight: 400; opacity: 80%;">TInputListener</span> {: #createForwardingListener data-toc-label='createForwardingListener' }
+#### createForwardingListener( down : <span style="font-weight: 400;">( event: [PressListenerEvent](../scenery/PressListener.md#PressListenerEvent) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">CreateForwardingListenerOptions</span> ) : <span style="font-weight: 400;">[TInputListener](../scenery/TInputListener.md)</span> {: #createForwardingListener data-toc-label='createForwardingListener' }
 
 Creates an input listener that forwards events to the specified input listener. The target listener should
 probably be using PressListener.options.targetNode so that the forwarded drag has the correct Trail

@@ -23,30 +23,30 @@ import { SegmentTree } from 'scenerystack/kite';
 
 ### Instance Methods
 
-#### getMinX( item : <span style="font-weight: 400; opacity: 80%;">T</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMinX data-toc-label='getMinX' }
+#### getMinX( item : <span style="font-weight: 400;">T</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMinX data-toc-label='getMinX' }
 
-#### getMaxX( item : <span style="font-weight: 400; opacity: 80%;">T</span>, epsilon : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getMaxX data-toc-label='getMaxX' }
+#### getMaxX( item : <span style="font-weight: 400;">T</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getMaxX data-toc-label='getMaxX' }
 
-#### query( item : <span style="font-weight: 400; opacity: 80%;">T</span>, interruptableCallback : <span style="font-weight: 400; opacity: 80%;">( item: T ) =&gt; boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #query data-toc-label='query' }
+#### query( item : <span style="font-weight: 400;">T</span>, interruptableCallback : <span style="font-weight: 400;">( item: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #query data-toc-label='query' }
 
 Calls interruptableCallback in turn for every "possibly overlapping" item stored in this tree.
 
 @param item - The item to use for the bounds range.
 @param interruptableCallback - When this returns true, the search will be aborted
 
-#### addItem( item : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #addItem data-toc-label='addItem' }
+#### addItem( item : <span style="font-weight: 400;">T</span> ) {: #addItem data-toc-label='addItem' }
 
-#### removeItem( item : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #removeItem data-toc-label='removeItem' }
+#### removeItem( item : <span style="font-weight: 400;">T</span> ) {: #removeItem data-toc-label='removeItem' }
 
-#### audit() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #audit data-toc-label='audit' }
+#### audit() {: #audit data-toc-label='audit' }
 
 For assertion purposes
 
-#### toString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 ### Instance Properties
 
-#### rootNode : <span style="font-weight: 400; opacity: 80%;">SegmentNode&lt;T&gt;</span> {: #rootNode data-toc-label='rootNode' }
+#### rootNode : <span style="font-weight: 400;">SegmentNode&lt;T&gt;</span> {: #rootNode data-toc-label='rootNode' }
 
 
 

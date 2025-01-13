@@ -29,7 +29,7 @@ import { DerivedStringProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new DerivedStringProperty( dependencies : <span style="font-weight: 400; opacity: 80%;">Dependencies&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;</span>, derivation : <span style="font-weight: 400; opacity: 80%;">( ...params: [ T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">DerivedStringPropertyOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DerivedStringProperty( dependencies : <span style="font-weight: 400;">Dependencies&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;</span>, derivation : <span style="font-weight: 400;">( ...params: [ T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedStringPropertyOptions](../axon/DerivedStringProperty.md#DerivedStringPropertyOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

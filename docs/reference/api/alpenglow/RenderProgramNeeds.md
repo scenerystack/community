@@ -14,7 +14,7 @@ import { RenderProgramNeeds } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderProgramNeeds( needsFace : <span style="font-weight: 400; opacity: 80%;">boolean</span>, needsArea : <span style="font-weight: 400; opacity: 80%;">boolean</span>, needsCentroid : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderProgramNeeds( needsFace : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsArea : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsCentroid : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

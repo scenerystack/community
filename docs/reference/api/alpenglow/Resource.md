@@ -14,19 +14,19 @@ import { Resource } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Resource( resource : <span style="font-weight: 400; opacity: 80%;">GPUBuffer | GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
+#### new Resource( resource : <span style="font-weight: 400;">GPUBuffer | GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getBindGroupEntry( binding : <span style="font-weight: 400; opacity: 80%;">Binding</span> ) : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupEntry</span> {: #getBindGroupEntry data-toc-label='getBindGroupEntry' }
+#### getBindGroupEntry( binding : <span style="font-weight: 400;">[Binding](../alpenglow/Binding.md)</span> ) : <span style="font-weight: 400;">GPUBindGroupEntry</span> {: #getBindGroupEntry data-toc-label='getBindGroupEntry' }
 
 TODO: consider modifying to just BufferLocation or bindingIndex
 
-#### toDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toDebugString data-toc-label='toDebugString' }
+#### toDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toDebugString data-toc-label='toDebugString' }
 
 ### Instance Properties
 
-#### id : <span style="font-weight: 400; opacity: 80%;">number</span> {: #id data-toc-label='id' }
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
 
 (readonly)
 

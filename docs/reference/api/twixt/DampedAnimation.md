@@ -17,21 +17,21 @@ import { DampedAnimation } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new DampedAnimation( providedOptions? : <span style="font-weight: 400; opacity: 80%;">DampedAnimationOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new DampedAnimation( providedOptions? : <span style="font-weight: 400;">[DampedAnimationOptions](../twixt/DampedAnimation.md#DampedAnimationOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### step( dt : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #step data-toc-label='step' }
+#### step( dt : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #step data-toc-label='step' }
 
 Steps the animation forward in time.
 
 ### Instance Properties
 
-#### valueProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
+#### valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #valueProperty data-toc-label='valueProperty' }
 
 (readonly)
 
-#### velocityProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number&gt;</span> {: #velocityProperty data-toc-label='velocityProperty' }
+#### velocityProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #velocityProperty data-toc-label='velocityProperty' }
 
 (readonly)
 

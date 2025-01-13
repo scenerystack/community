@@ -19,7 +19,7 @@ import { KeyNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new KeyNode( keyIcon : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">KeyNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyNode( keyIcon : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

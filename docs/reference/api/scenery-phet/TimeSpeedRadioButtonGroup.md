@@ -18,7 +18,7 @@ import { TimeSpeedRadioButtonGroup } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TimeSpeedRadioButtonGroup( timeSpeedProperty : <span style="font-weight: 400; opacity: 80%;">EnumerationProperty&lt;TimeSpeed&gt;</span>, timeSpeeds : <span style="font-weight: 400; opacity: 80%;">TimeSpeed[]</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">TimeSpeedRadioButtonGroupOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new TimeSpeedRadioButtonGroup( timeSpeedProperty : <span style="font-weight: 400;">[EnumerationProperty](../axon/EnumerationProperty.md)&lt;[TimeSpeed](../scenery-phet/TimeSpeed.md)&gt;</span>, timeSpeeds : <span style="font-weight: 400;">[TimeSpeed](../scenery-phet/TimeSpeed.md)[]</span>, providedOptions? : <span style="font-weight: 400;">[TimeSpeedRadioButtonGroupOptions](../scenery-phet/TimeSpeedRadioButtonGroup.md#TimeSpeedRadioButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

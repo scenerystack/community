@@ -14,25 +14,25 @@ import { RationalBoundary } from 'scenerystack/alpenglow';
 ```
 ### Instance Methods
 
-#### computeProperties() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #computeProperties data-toc-label='computeProperties' }
+#### computeProperties() {: #computeProperties data-toc-label='computeProperties' }
 
-#### containsPoint( point : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #containsPoint data-toc-label='containsPoint' }
+#### containsPoint( point : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsPoint data-toc-label='containsPoint' }
 
-#### toTransformedPolygon( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> {: #toTransformedPolygon data-toc-label='toTransformedPolygon' }
+#### toTransformedPolygon( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> {: #toTransformedPolygon data-toc-label='toTransformedPolygon' }
 
-#### toTransformedLinearEdges( matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">LinearEdge[]</span> {: #toTransformedLinearEdges data-toc-label='toTransformedLinearEdges' }
+#### toTransformedLinearEdges( matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span> {: #toTransformedLinearEdges data-toc-label='toTransformedLinearEdges' }
 
 ### Instance Properties
 
-#### edges : <span style="font-weight: 400; opacity: 80%;">RationalHalfEdge[]</span> {: #edges data-toc-label='edges' }
+#### edges : <span style="font-weight: 400;">[RationalHalfEdge](../alpenglow/RationalHalfEdge.md)[]</span> {: #edges data-toc-label='edges' }
 
 (readonly)
 
-#### signedArea : <span style="font-weight: 400; opacity: 80%;">number</span> {: #signedArea data-toc-label='signedArea' }
+#### signedArea : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #signedArea data-toc-label='signedArea' }
 
-#### bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #bounds data-toc-label='bounds' }
+#### bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #bounds data-toc-label='bounds' }
 
-#### minimalXRationalPoint : <span style="font-weight: 400; opacity: 80%;">BigRationalVector2</span> {: #minimalXRationalPoint data-toc-label='minimalXRationalPoint' }
+#### minimalXRationalPoint : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> {: #minimalXRationalPoint data-toc-label='minimalXRationalPoint' }
 
 
 

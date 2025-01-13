@@ -14,22 +14,22 @@ import { ParallelRaster } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### getTestRawInputChunks() : <span style="font-weight: 400; opacity: 80%;">RasterChunk[]</span> {: #getTestRawInputChunks data-toc-label='getTestRawInputChunks' }
+#### getTestRawInputChunks() : <span style="font-weight: 400;">[RasterChunk](../alpenglow/RasterChunk.md)[]</span> {: #getTestRawInputChunks data-toc-label='getTestRawInputChunks' }
 
-#### getTestRawInputEdges() : <span style="font-weight: 400; opacity: 80%;">RasterEdge[]</span> {: #getTestRawInputEdges data-toc-label='getTestRawInputEdges' }
+#### getTestRawInputEdges() : <span style="font-weight: 400;">[RasterEdge](../alpenglow/RasterEdge.md)[]</span> {: #getTestRawInputEdges data-toc-label='getTestRawInputEdges' }
 
-#### test() : <span style="font-weight: 400; opacity: 80%;">Promise&lt;void&gt;</span> {: #test data-toc-label='test' }
+#### test() : <span style="font-weight: 400;">Promise&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>&gt;</span> {: #test data-toc-label='test' }
 
-#### process( workgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, numInputChunks : <span style="font-weight: 400; opacity: 80%;">number</span>, numInputEdges : <span style="font-weight: 400; opacity: 80%;">number</span>, inputChunks : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterChunk&gt;</span>, inputEdges : <span style="font-weight: 400; opacity: 80%;">ParallelStorageArray&lt;RasterEdge&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">Promise&lt;{
-    reducibleChunks: ParallelStorageArray&lt;RasterChunk&gt;;
-    reducibleEdges: ParallelStorageArray&lt;RasterEdge&gt;;
-    numReducibleChunks: number;
-    numReducibleEdges: number;
+#### process( workgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numInputChunks : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numInputEdges : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, inputChunks : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterChunk](../alpenglow/RasterChunk.md)&gt;</span>, inputEdges : <span style="font-weight: 400;">[ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterEdge](../alpenglow/RasterEdge.md)&gt;</span> ) : <span style="font-weight: 400;">Promise&lt;{
+    reducibleChunks: [ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterChunk](../alpenglow/RasterChunk.md)&gt;;
+    reducibleEdges: [ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterEdge](../alpenglow/RasterEdge.md)&gt;;
+    numReducibleChunks: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+    numReducibleEdges: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
 
-    completeChunks: ParallelStorageArray&lt;RasterCompleteChunk&gt;;
-    completeEdges: ParallelStorageArray&lt;RasterCompleteEdge&gt;;
-    numCompleteChunks: number;
-    numCompleteEdges: number;
+    completeChunks: [ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterCompleteChunk](../alpenglow/RasterCompleteChunk.md)&gt;;
+    completeEdges: [ParallelStorageArray](../alpenglow/ParallelStorageArray.md)&lt;[RasterCompleteEdge](../alpenglow/RasterCompleteEdge.md)&gt;;
+    numCompleteChunks: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
+    numCompleteEdges: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
   }&gt;</span> {: #process data-toc-label='process' }
 
 

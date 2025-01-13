@@ -14,32 +14,32 @@ import { LocalizedString } from 'scenerystack/chipper';
 ```
 ### Constructor
 
-#### new LocalizedString( stringKey : <span style="font-weight: 400; opacity: 80%;">string</span>, localeToTranslationMap : <span style="font-weight: 400; opacity: 80%;">LocalizedStringStateDelta</span>, tandem : <span style="font-weight: 400; opacity: 80%;">Tandem</span>, metadata? : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, unknown&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new LocalizedString( stringKey : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, localeToTranslationMap : <span style="font-weight: 400;">[LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)</span>, tandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span>, metadata? : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getStateDelta() : <span style="font-weight: 400; opacity: 80%;">LocalizedStringStateDelta</span> {: #getStateDelta data-toc-label='getStateDelta' }
+#### getStateDelta() : <span style="font-weight: 400;">[LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)</span> {: #getStateDelta data-toc-label='getStateDelta' }
 
 Returns an object that shows the changes of strings from their initial values. This includes whether strings are
 marked as "overridden"
 
-#### setStateDelta( state : <span style="font-weight: 400; opacity: 80%;">LocalizedStringStateDelta</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setStateDelta data-toc-label='setStateDelta' }
+#### setStateDelta( state : <span style="font-weight: 400;">[LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)</span> ) {: #setStateDelta data-toc-label='setStateDelta' }
 
 Take a state from getStateDelta, and apply it.
 
-#### getLocaleSpecificProperty( locale : <span style="font-weight: 400; opacity: 80%;">Locale</span> ) : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;string&gt;</span> {: #getLocaleSpecificProperty data-toc-label='getLocaleSpecificProperty' }
+#### getLocaleSpecificProperty( locale : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span> ) : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #getLocaleSpecificProperty data-toc-label='getLocaleSpecificProperty' }
 
 Returns the locale-specific Property for any locale (lazily creating it if necessary)
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### restoreInitialValue( locale : <span style="font-weight: 400; opacity: 80%;">Locale</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #restoreInitialValue data-toc-label='restoreInitialValue' }
+#### restoreInitialValue( locale : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span> ) {: #restoreInitialValue data-toc-label='restoreInitialValue' }
 
 Reset to the initial value for the specified locale, used for testing.
 
 ### Instance Properties
 
-#### property : <span style="font-weight: 400; opacity: 80%;">LocalizedStringProperty</span> {: #property data-toc-label='property' }
+#### property : <span style="font-weight: 400;">[LocalizedStringProperty](../chipper/LocalizedStringProperty.md)</span> {: #property data-toc-label='property' }
 
 (readonly)
 
@@ -47,9 +47,9 @@ Public-facing IProperty&lt;string&gt;, used by string modules
 
 ### Static Methods
 
-#### getLocaleFallbacks( locale : <span style="font-weight: 400; opacity: 80%;">Locale</span> ) : <span style="font-weight: 400; opacity: 80%;">Locale[]</span> {: #getLocaleFallbacks data-toc-label='getLocaleFallbacks' }
+#### getLocaleFallbacks( locale : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span> ) : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)[]</span> {: #getLocaleFallbacks data-toc-label='getLocaleFallbacks' }
 
-#### getNestedStringProperties( stringData : <span style="font-weight: 400; opacity: 80%;">StringData</span> ) : <span style="font-weight: 400; opacity: 80%;">ToStringPropertyMap&lt;StringData&gt;</span> {: #getNestedStringProperties data-toc-label='getNestedStringProperties' }
+#### getNestedStringProperties( stringData : <span style="font-weight: 400;">StringData</span> ) : <span style="font-weight: 400;">ToStringPropertyMap&lt;StringData&gt;</span> {: #getNestedStringProperties data-toc-label='getNestedStringProperties' }
 
 Computes a nested map of LocalizedStringProperties from a nested input structure of strings.
 The string Properties will change values based on the current locale

@@ -14,23 +14,23 @@ import { BlitShader } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BlitShader( device : <span style="font-weight: 400; opacity: 80%;">GPUDevice</span>, format : <span style="font-weight: 400; opacity: 80%;">GPUTextureFormat</span> ) {: #constructor data-toc-label='constructor' }
+#### new BlitShader( device : <span style="font-weight: 400;">GPUDevice</span>, format : <span style="font-weight: 400;">GPUTextureFormat</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispatch( encoder : <span style="font-weight: 400; opacity: 80%;">GPUCommandEncoder</span>, outTextureView : <span style="font-weight: 400; opacity: 80%;">GPUTextureView</span>, sourceTextureView : <span style="font-weight: 400; opacity: 80%;">GPUTextureView</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispatch data-toc-label='dispatch' }
+#### dispatch( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, outTextureView : <span style="font-weight: 400;">GPUTextureView</span>, sourceTextureView : <span style="font-weight: 400;">GPUTextureView</span> ) {: #dispatch data-toc-label='dispatch' }
 
 ### Instance Properties
 
-#### module : <span style="font-weight: 400; opacity: 80%;">GPUShaderModule</span> {: #module data-toc-label='module' }
+#### module : <span style="font-weight: 400;">GPUShaderModule</span> {: #module data-toc-label='module' }
 
 (readonly)
 
-#### bindGroupLayout : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupLayout</span> {: #bindGroupLayout data-toc-label='bindGroupLayout' }
+#### bindGroupLayout : <span style="font-weight: 400;">GPUBindGroupLayout</span> {: #bindGroupLayout data-toc-label='bindGroupLayout' }
 
 (readonly)
 
-#### pipeline : <span style="font-weight: 400; opacity: 80%;">GPURenderPipeline</span> {: #pipeline data-toc-label='pipeline' }
+#### pipeline : <span style="font-weight: 400;">GPURenderPipeline</span> {: #pipeline data-toc-label='pipeline' }
 
 (readonly)
 

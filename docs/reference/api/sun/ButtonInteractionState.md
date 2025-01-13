@@ -14,25 +14,25 @@ import { ButtonInteractionState } from 'scenerystack/sun';
 ```
 ### Static Properties
 
-#### IDLE : <span style="font-weight: 400; opacity: 80%;">ButtonInteractionState</span> {: #IDLE data-toc-label='IDLE' }
+#### IDLE : <span style="font-weight: 400;">[ButtonInteractionState](../sun/ButtonInteractionState.md)</span> {: #IDLE data-toc-label='IDLE' }
 
 (readonly)
 
 button is just sitting there, doing nothing
 
-#### OVER : <span style="font-weight: 400; opacity: 80%;">ButtonInteractionState</span> {: #OVER data-toc-label='OVER' }
+#### OVER : <span style="font-weight: 400;">[ButtonInteractionState](../sun/ButtonInteractionState.md)</span> {: #OVER data-toc-label='OVER' }
 
 (readonly)
 
 a pointer is over the button, but it is not being pressed
 
-#### PRESSED : <span style="font-weight: 400; opacity: 80%;">ButtonInteractionState</span> {: #PRESSED data-toc-label='PRESSED' }
+#### PRESSED : <span style="font-weight: 400;">[ButtonInteractionState](../sun/ButtonInteractionState.md)</span> {: #PRESSED data-toc-label='PRESSED' }
 
 (readonly)
 
 the button is being pressed by the user
 
-#### enumeration : <span style="font-weight: 400; opacity: 80%;">Enumeration</span> {: #enumeration data-toc-label='enumeration' }
+#### enumeration : <span style="font-weight: 400;">[Enumeration](../phet-core/Enumeration.md)</span> {: #enumeration data-toc-label='enumeration' }
 
 (readonly)
 

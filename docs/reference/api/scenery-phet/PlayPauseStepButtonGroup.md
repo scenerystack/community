@@ -18,19 +18,19 @@ import { PlayPauseStepButtonGroup } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlayPauseStepButtonGroup( isPlayingProperty : <span style="font-weight: 400; opacity: 80%;">Property&lt;boolean&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PlayPauseStepButtonGroupOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlayPauseStepButtonGroup( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PlayPauseStepButtonGroupOptions](../scenery-phet/PlayPauseStepButtonGroup.md#PlayPauseStepButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getPlayPauseButtonCenter() : <span style="font-weight: 400; opacity: 80%;">Vector2</span> {: #getPlayPauseButtonCenter data-toc-label='getPlayPauseButtonCenter' }
+#### getPlayPauseButtonCenter() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #getPlayPauseButtonCenter data-toc-label='getPlayPauseButtonCenter' }
 
 Get the center of the PlayPauseButton, in the local coordinate frame of the PlayPauseStepButtonGroup.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
-#### playPauseButton : <span style="font-weight: 400; opacity: 80%;">PlayPauseButton</span> {: #playPauseButton data-toc-label='playPauseButton' }
+#### playPauseButton : <span style="font-weight: 400;">[PlayPauseButton](../scenery-phet/PlayPauseButton.md)</span> {: #playPauseButton data-toc-label='playPauseButton' }
 
 (readonly)
 

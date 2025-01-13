@@ -14,13 +14,13 @@ import { Module } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Module( pipelineBlueprints : <span style="font-weight: 400; opacity: 80%;">PipelineBlueprint[]</span>, execute : <span style="font-weight: 400; opacity: 80%;">( context: ExecutionContext, data: T ) =&gt; void</span> ) {: #constructor data-toc-label='constructor' }
+#### new Module( pipelineBlueprints : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)[]</span>, execute : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getResourceSlots() : <span style="font-weight: 400; opacity: 80%;">ResourceSlot[]</span> {: #getResourceSlots data-toc-label='getResourceSlots' }
+#### getResourceSlots() : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)[]</span> {: #getResourceSlots data-toc-label='getResourceSlots' }
 
-#### getTopLevelResourceSlots( sharedBufferSlots : <span style="font-weight: 400; opacity: 80%;">BufferSlot[]</span> ) : <span style="font-weight: 400; opacity: 80%;">ResourceSlot[]</span> {: #getTopLevelResourceSlots data-toc-label='getTopLevelResourceSlots' }
+#### getTopLevelResourceSlots( sharedBufferSlots : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)[]</span> ) : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)[]</span> {: #getTopLevelResourceSlots data-toc-label='getTopLevelResourceSlots' }
 
 
 

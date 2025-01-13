@@ -16,26 +16,26 @@ import { Property } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new Property( value : <span style="font-weight: 400; opacity: 80%;">T</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">PropertyOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Property( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getInitialValue() : <span style="font-weight: 400; opacity: 80%;">T</span> {: #getInitialValue data-toc-label='getInitialValue' }
+#### getInitialValue() : <span style="font-weight: 400;">T</span> {: #getInitialValue data-toc-label='getInitialValue' }
 
 Returns the initial value of this Property.
 
-#### setInitialValue( initialValue : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setInitialValue data-toc-label='setInitialValue' }
+#### setInitialValue( initialValue : <span style="font-weight: 400;">T</span> ) {: #setInitialValue data-toc-label='setInitialValue' }
 
 Stores the specified value as the initial value, which will be taken on reset. Sims should use this sparingly,
 typically only in situations where the initial value is unknowable at instantiation.
 
-#### reset() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #reset data-toc-label='reset' }
+#### reset() {: #reset data-toc-label='reset' }
 
-#### set( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #set data-toc-label='set' }
+#### set( value : <span style="font-weight: 400;">T</span> ) {: #set data-toc-label='set' }
 
 Overridden to make public
 
-#### isSettable() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isSettable data-toc-label='isSettable' }
+#### isSettable() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSettable data-toc-label='isSettable' }
 
 
 

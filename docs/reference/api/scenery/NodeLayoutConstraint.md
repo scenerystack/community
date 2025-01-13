@@ -15,31 +15,31 @@ import { NodeLayoutConstraint } from 'scenerystack/scenery';
 ```
 ### Instance Methods
 
-#### filterLayoutCells( cells : <span style="font-weight: 400; opacity: 80%;">Cell[]</span> ) : <span style="font-weight: 400; opacity: 80%;">Cell[]</span> {: #filterLayoutCells data-toc-label='filterLayoutCells' }
+#### filterLayoutCells( cells : <span style="font-weight: 400;">Cell[]</span> ) : <span style="font-weight: 400;">Cell[]</span> {: #filterLayoutCells data-toc-label='filterLayoutCells' }
 
 (protected)
 
 Filters out cells to only those that will be involved in layout
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### preferredHeightProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number | null&gt;</span> {: #preferredHeightProperty data-toc-label='preferredHeightProperty' }
+#### preferredHeightProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #preferredHeightProperty data-toc-label='preferredHeightProperty' }
 
 (readonly)
 
-#### minimumWidthProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number | null&gt;</span> {: #minimumWidthProperty data-toc-label='minimumWidthProperty' }
+#### minimumWidthProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #minimumWidthProperty data-toc-label='minimumWidthProperty' }
 
 (readonly)
 
-#### minimumHeightProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;number | null&gt;</span> {: #minimumHeightProperty data-toc-label='minimumHeightProperty' }
+#### minimumHeightProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #minimumHeightProperty data-toc-label='minimumHeightProperty' }
 
 (readonly)
 
-#### layoutOriginProperty : <span style="font-weight: 400; opacity: 80%;">TProperty&lt;Vector2&gt;</span> {: #layoutOriginProperty data-toc-label='layoutOriginProperty' }
+#### layoutOriginProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Vector2](../dot/Vector2.md)&gt;</span> {: #layoutOriginProperty data-toc-label='layoutOriginProperty' }
 
 (readonly)
 

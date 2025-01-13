@@ -14,17 +14,17 @@ import { RenderFromNode } from 'scenerystack/alpenglow';
 ```
 ### Static Methods
 
-#### nodeToRenderProgram( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, matrix : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #nodeToRenderProgram data-toc-label='nodeToRenderProgram' }
+#### nodeToRenderProgram( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #nodeToRenderProgram data-toc-label='nodeToRenderProgram' }
 
-#### addBackgroundColor( renderProgram : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, color : <span style="font-weight: 400; opacity: 80%;">Color</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #addBackgroundColor data-toc-label='addBackgroundColor' }
+#### addBackgroundColor( renderProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, color : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #addBackgroundColor data-toc-label='addBackgroundColor' }
 
-#### showSim() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #showSim data-toc-label='showSim' }
+#### showSim() {: #showSim data-toc-label='showSim' }
 
-#### nodeToJSON( node : <span style="font-weight: 400; opacity: 80%;">Node</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #nodeToJSON data-toc-label='nodeToJSON' }
+#### nodeToJSON( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #nodeToJSON data-toc-label='nodeToJSON' }
 
-#### premultipliedSRGBToColor( premultiplied : <span style="font-weight: 400; opacity: 80%;">Vector4</span> ) : <span style="font-weight: 400; opacity: 80%;">Color</span> {: #premultipliedSRGBToColor data-toc-label='premultipliedSRGBToColor' }
+#### premultipliedSRGBToColor( premultiplied : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> {: #premultipliedSRGBToColor data-toc-label='premultipliedSRGBToColor' }
 
-#### colorFrom( ...args : <span style="font-weight: 400; opacity: 80%;">ConstructorParameters&lt;ConstructorOf&lt;Color&gt;&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderColor</span> {: #colorFrom data-toc-label='colorFrom' }
+#### colorFrom( ...args : <span style="font-weight: 400;">ConstructorParameters&lt;ConstructorOf&lt;[Color](../scenery/Color.md)&gt;&gt;</span> ) : <span style="font-weight: 400;">[RenderColor](../alpenglow/RenderColor.md)</span> {: #colorFrom data-toc-label='colorFrom' }
 
 
 

@@ -14,7 +14,7 @@ import { NodePattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new NodePattern( node : <span style="font-weight: 400; opacity: 80%;">Node</span>, resolution : <span style="font-weight: 400; opacity: 80%;">number</span>, x : <span style="font-weight: 400; opacity: 80%;">number</span>, y : <span style="font-weight: 400; opacity: 80%;">number</span>, width : <span style="font-weight: 400; opacity: 80%;">number</span>, height : <span style="font-weight: 400; opacity: 80%;">number</span>, matrix ) {: #constructor data-toc-label='constructor' }
+#### new NodePattern( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, resolution : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, matrix ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

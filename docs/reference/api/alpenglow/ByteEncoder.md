@@ -14,79 +14,79 @@ import { ByteEncoder } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ByteEncoder( arrayBuffer? : <span style="font-weight: 400; opacity: 80%;">ArrayBuffer</span> ) {: #constructor data-toc-label='constructor' }
+#### new ByteEncoder( arrayBuffer? : <span style="font-weight: 400;">ArrayBuffer</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### clear() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clear data-toc-label='clear' }
+#### clear() {: #clear data-toc-label='clear' }
 
-#### pushByteEncoder( byteBuffer : <span style="font-weight: 400; opacity: 80%;">ByteEncoder</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushByteEncoder data-toc-label='pushByteEncoder' }
+#### pushByteEncoder( byteBuffer : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span> ) {: #pushByteEncoder data-toc-label='pushByteEncoder' }
 
-#### pushF32( f32 : <span style="font-weight: 400; opacity: 80%;">F32</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushF32 data-toc-label='pushF32' }
+#### pushF32( f32 : <span style="font-weight: 400;">[F32](../alpenglow/ByteEncoder.md#F32)</span> ) {: #pushF32 data-toc-label='pushF32' }
 
-#### pushU32( u32 : <span style="font-weight: 400; opacity: 80%;">U32</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushU32 data-toc-label='pushU32' }
+#### pushU32( u32 : <span style="font-weight: 400;">[U32](../alpenglow/ByteEncoder.md#U32)</span> ) {: #pushU32 data-toc-label='pushU32' }
 
-#### pushI32( i32 : <span style="font-weight: 400; opacity: 80%;">I32</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushI32 data-toc-label='pushI32' }
+#### pushI32( i32 : <span style="font-weight: 400;">[I32](../alpenglow/ByteEncoder.md#I32)</span> ) {: #pushI32 data-toc-label='pushI32' }
 
-#### pushReversedU32( u32 : <span style="font-weight: 400; opacity: 80%;">U32</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushReversedU32 data-toc-label='pushReversedU32' }
+#### pushReversedU32( u32 : <span style="font-weight: 400;">[U32](../alpenglow/ByteEncoder.md#U32)</span> ) {: #pushReversedU32 data-toc-label='pushReversedU32' }
 
-#### pushU8( u8 : <span style="font-weight: 400; opacity: 80%;">U8</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #pushU8 data-toc-label='pushU8' }
+#### pushU8( u8 : <span style="font-weight: 400;">[U8](../alpenglow/ByteEncoder.md#U8)</span> ) {: #pushU8 data-toc-label='pushU8' }
 
-#### resize( byteLength ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #resize data-toc-label='resize' }
+#### resize( byteLength ) {: #resize data-toc-label='resize' }
 
 NOTE: this MAY truncate
 
-#### encodeValues( values : <span style="font-weight: 400; opacity: 80%;">T[]</span>, encode : <span style="font-weight: 400; opacity: 80%;">( element: T, encoder: ByteEncoder ) =&gt; void</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #encodeValues data-toc-label='encodeValues' }
+#### encodeValues( values : <span style="font-weight: 400;">T[]</span>, encode : <span style="font-weight: 400;">( element: T, encoder: [ByteEncoder](../alpenglow/ByteEncoder.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #encodeValues data-toc-label='encodeValues' }
 
-#### decodeValues( decode : <span style="font-weight: 400; opacity: 80%;">( encoder: ByteEncoder, offset: number ) =&gt; T</span>, bytesPerElement : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">T[]</span> {: #decodeValues data-toc-label='decodeValues' }
+#### decodeValues( decode : <span style="font-weight: 400;">( encoder: [ByteEncoder](../alpenglow/ByteEncoder.md), offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; T</span>, bytesPerElement : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">T[]</span> {: #decodeValues data-toc-label='decodeValues' }
 
 TODO: Note the stride of each value might be larger, based on the alignment of the type for WGSL
 
-#### getDebug32String() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getDebug32String data-toc-label='getDebug32String' }
+#### getDebug32String() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getDebug32String data-toc-label='getDebug32String' }
 
 ### Static Methods
 
-#### padLeft( input : <span style="font-weight: 400; opacity: 80%;">string</span>, padding : <span style="font-weight: 400; opacity: 80%;">string</span>, length : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #padLeft data-toc-label='padLeft' }
+#### padLeft( input : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, padding : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, length : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #padLeft data-toc-label='padLeft' }
 
-#### padRight( input : <span style="font-weight: 400; opacity: 80%;">string</span>, padding : <span style="font-weight: 400; opacity: 80%;">string</span>, length : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #padRight data-toc-label='padRight' }
+#### padRight( input : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, padding : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, length : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #padRight data-toc-label='padRight' }
 
-#### toU32Hex( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toU32Hex data-toc-label='toU32Hex' }
+#### toU32Hex( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toU32Hex data-toc-label='toU32Hex' }
 
-#### toU32Binary( n : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toU32Binary data-toc-label='toU32Binary' }
+#### toU32Binary( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toU32Binary data-toc-label='toU32Binary' }
 
-#### rightShiftU32( n : <span style="font-weight: 400; opacity: 80%;">number</span>, shift : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #rightShiftU32 data-toc-label='rightShiftU32' }
+#### rightShiftU32( n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, shift : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #rightShiftU32 data-toc-label='rightShiftU32' }
 
 A safer right-shift that handles negative and out-of-range values
 
-#### alignUp( len : <span style="font-weight: 400; opacity: 80%;">number</span>, alignment : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #alignUp data-toc-label='alignUp' }
+#### alignUp( len : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, alignment : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #alignUp data-toc-label='alignUp' }
 
-#### nextMultipleOf( val : <span style="font-weight: 400; opacity: 80%;">number</span>, rhs : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #nextMultipleOf data-toc-label='nextMultipleOf' }
+#### nextMultipleOf( val : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, rhs : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #nextMultipleOf data-toc-label='nextMultipleOf' }
 
-#### f32ToBytes( float : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">U8[]</span> {: #f32ToBytes data-toc-label='f32ToBytes' }
+#### f32ToBytes( float : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[U8](../alpenglow/ByteEncoder.md#U8)[]</span> {: #f32ToBytes data-toc-label='f32ToBytes' }
 
 Convert f32 to 4 bytes in little endian order
 
-#### u32ToBytes( int : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">U8[]</span> {: #u32ToBytes data-toc-label='u32ToBytes' }
+#### u32ToBytes( int : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[U8](../alpenglow/ByteEncoder.md#U8)[]</span> {: #u32ToBytes data-toc-label='u32ToBytes' }
 
 Convert u32 to 4 bytes in little endian order
 
-#### i32ToBytes( int : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">U8[]</span> {: #i32ToBytes data-toc-label='i32ToBytes' }
+#### i32ToBytes( int : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[U8](../alpenglow/ByteEncoder.md#U8)[]</span> {: #i32ToBytes data-toc-label='i32ToBytes' }
 
 Convert i32 to 4 bytes in little endian order
 
-#### toStripedIndex( blockedIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, workgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, grainSize : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #toStripedIndex data-toc-label='toStripedIndex' }
+#### toStripedIndex( blockedIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, workgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, grainSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #toStripedIndex data-toc-label='toStripedIndex' }
 
 Converts an index from a normal (blocked) order to a striped order (for improved memory coherence).
 
-#### fromStripedIndex( stripedIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, workgroupSize : <span style="font-weight: 400; opacity: 80%;">number</span>, grainSize : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #fromStripedIndex data-toc-label='fromStripedIndex' }
+#### fromStripedIndex( stripedIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, workgroupSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, grainSize : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #fromStripedIndex data-toc-label='fromStripedIndex' }
 
 Converts an index from a striped order to a normal (blocked) order.
 
-#### getConvergentIndex( index : <span style="font-weight: 400; opacity: 80%;">number</span>, size : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getConvergentIndex data-toc-label='getConvergentIndex' }
+#### getConvergentIndex( index : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, size : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getConvergentIndex data-toc-label='getConvergentIndex' }
 
 Converts to/from convergent indices (and handles the modulo-size portion)
 
-#### getCorank( k : <span style="font-weight: 400; opacity: 80%;">number</span>, m : <span style="font-weight: 400; opacity: 80%;">number</span>, n : <span style="font-weight: 400; opacity: 80%;">number</span>, compare : <span style="font-weight: 400; opacity: 80%;">( aIndex: number, bIndex: number ) =&gt; number</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #getCorank data-toc-label='getCorank' }
+#### getCorank( k : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, m : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, n : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, compare : <span style="font-weight: 400;">( aIndex: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, bIndex: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCorank data-toc-label='getCorank' }
 
 Co-rank function, that determines the indices into two arrays that would be at a given rank if they were sorted
 together (with a binary search).

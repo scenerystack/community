@@ -15,7 +15,7 @@ import { ActivatedReadingBlockHighlight } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ActivatedReadingBlockHighlight( node : <span style="font-weight: 400; opacity: 80%;">Node | null</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ActivatedReadingBlockHighlightOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ActivatedReadingBlockHighlight( node : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">ActivatedReadingBlockHighlightOptions</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

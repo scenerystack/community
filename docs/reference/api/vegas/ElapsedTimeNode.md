@@ -14,11 +14,11 @@ import { ElapsedTimeNode } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new ElapsedTimeNode( elapsedTimeProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;number&gt;</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ElapsedTimeNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ElapsedTimeNode( elapsedTimeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ElapsedTimeNodeOptions](../vegas/ElapsedTimeNode.md#ElapsedTimeNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 
 

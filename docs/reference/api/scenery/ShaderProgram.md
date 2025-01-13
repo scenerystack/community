@@ -14,37 +14,37 @@ import { ShaderProgram } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ShaderProgram( gl : <span style="font-weight: 400; opacity: 80%;">WebGLRenderingContext</span>, vertexSource : <span style="font-weight: 400; opacity: 80%;">string</span>, fragmentSource : <span style="font-weight: 400; opacity: 80%;">string</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ShaderProgramOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ShaderProgram( gl : <span style="font-weight: 400;">WebGLRenderingContext</span>, vertexSource : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, fragmentSource : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, providedOptions? : <span style="font-weight: 400;">[ShaderProgramOptions](../scenery/ShaderProgram.md#ShaderProgramOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### initialize( gl : <span style="font-weight: 400; opacity: 80%;">WebGLRenderingContext</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #initialize data-toc-label='initialize' }
+#### initialize( gl : <span style="font-weight: 400;">WebGLRenderingContext</span> ) {: #initialize data-toc-label='initialize' }
 
 Initializes (or reinitializes) the WebGL state and uniform/attribute references.
 
-#### use() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #use data-toc-label='use' }
+#### use() {: #use data-toc-label='use' }
 
-#### activateAttribute( attributeName : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #activateAttribute data-toc-label='activateAttribute' }
+#### activateAttribute( attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #activateAttribute data-toc-label='activateAttribute' }
 
-#### enableVertexAttribArray( attributeName : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #enableVertexAttribArray data-toc-label='enableVertexAttribArray' }
+#### enableVertexAttribArray( attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #enableVertexAttribArray data-toc-label='enableVertexAttribArray' }
 
-#### unuse() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #unuse data-toc-label='unuse' }
+#### unuse() {: #unuse data-toc-label='unuse' }
 
-#### disableVertexAttribArray( attributeName : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #disableVertexAttribArray data-toc-label='disableVertexAttribArray' }
+#### disableVertexAttribArray( attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #disableVertexAttribArray data-toc-label='disableVertexAttribArray' }
 
-#### deactivateAttribute( attributeName : <span style="font-weight: 400; opacity: 80%;">string</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #deactivateAttribute data-toc-label='deactivateAttribute' }
+#### deactivateAttribute( attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #deactivateAttribute data-toc-label='deactivateAttribute' }
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Instance Properties
 
-#### uniformLocations : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, WebGLUniformLocation&gt;</span> {: #uniformLocations data-toc-label='uniformLocations' }
+#### uniformLocations : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, WebGLUniformLocation&gt;</span> {: #uniformLocations data-toc-label='uniformLocations' }
 
-#### attributeLocations : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, number&gt;</span> {: #attributeLocations data-toc-label='attributeLocations' }
+#### attributeLocations : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #attributeLocations data-toc-label='attributeLocations' }
 
-#### activeAttributes : <span style="font-weight: 400; opacity: 80%;">Record&lt;string, boolean&gt;</span> {: #activeAttributes data-toc-label='activeAttributes' }
+#### activeAttributes : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #activeAttributes data-toc-label='activeAttributes' }
 
 
 

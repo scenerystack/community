@@ -14,7 +14,7 @@ import { Vector2Property } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Vector2Property( initialValue : <span style="font-weight: 400; opacity: 80%;">Vector2</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">Vector2PropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Vector2Property( initialValue : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[Vector2PropertyOptions](../dot/Vector2Property.md#Vector2PropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,7 +22,7 @@ import { Vector2Property } from 'scenerystack/dot';
 
 ### Instance Properties
 
-#### validBounds : <span style="font-weight: 400; opacity: 80%;">Bounds2 | null</span> {: #validBounds data-toc-label='validBounds' }
+#### validBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #validBounds data-toc-label='validBounds' }
 
 (readonly)
 

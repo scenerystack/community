@@ -14,11 +14,11 @@ import { BindingDescriptor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BindingDescriptor( bindingIndex : <span style="font-weight: 400; opacity: 80%;">number</span>, bindingType : <span style="font-weight: 400; opacity: 80%;">BindingType</span>, slot : <span style="font-weight: 400; opacity: 80%;">ResourceSlot</span> ) {: #constructor data-toc-label='constructor' }
+#### new BindingDescriptor( bindingIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getBindGroupLayoutEntry() : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupLayoutEntry</span> {: #getBindGroupLayoutEntry data-toc-label='getBindGroupLayoutEntry' }
+#### getBindGroupLayoutEntry() : <span style="font-weight: 400;">GPUBindGroupLayoutEntry</span> {: #getBindGroupLayoutEntry data-toc-label='getBindGroupLayoutEntry' }
 
 
 

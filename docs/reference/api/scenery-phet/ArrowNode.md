@@ -17,28 +17,28 @@ import { ArrowNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ArrowNode( tailX : <span style="font-weight: 400; opacity: 80%;">number</span>, tailY : <span style="font-weight: 400; opacity: 80%;">number</span>, tipX : <span style="font-weight: 400; opacity: 80%;">number</span>, tipY : <span style="font-weight: 400; opacity: 80%;">number</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">ArrowNodeOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ArrowNode( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[ArrowNodeOptions](../scenery-phet/ArrowNode.md#ArrowNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setTailAndTip( tailX : <span style="font-weight: 400; opacity: 80%;">number</span>, tailY : <span style="font-weight: 400; opacity: 80%;">number</span>, tipX : <span style="font-weight: 400; opacity: 80%;">number</span>, tipY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTailAndTip data-toc-label='setTailAndTip' }
+#### setTailAndTip( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setTailAndTip data-toc-label='setTailAndTip' }
 
 Sets the tail and tip positions to update the arrow shape.
 If the tail and tip are at the same point, the arrow is not shown.
 
-#### setTail( tailX : <span style="font-weight: 400; opacity: 80%;">number</span>, tailY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTail data-toc-label='setTail' }
+#### setTail( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setTail data-toc-label='setTail' }
 
 Sets the tail position.
 
-#### setTip( tipX : <span style="font-weight: 400; opacity: 80%;">number</span>, tipY : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTip data-toc-label='setTip' }
+#### setTip( tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setTip data-toc-label='setTip' }
 
 Sets the tip position.
 
-#### setTailWidth( tailWidth : <span style="font-weight: 400; opacity: 80%;">number</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTailWidth data-toc-label='setTailWidth' }
+#### setTailWidth( tailWidth : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setTailWidth data-toc-label='setTailWidth' }
 
 Sets the tail width.
 
-#### setDoubleHead( doubleHead : <span style="font-weight: 400; opacity: 80%;">boolean</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setDoubleHead data-toc-label='setDoubleHead' }
+#### setDoubleHead( doubleHead : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #setDoubleHead data-toc-label='setDoubleHead' }
 
 Sets whether the arrow has one or two heads.
 

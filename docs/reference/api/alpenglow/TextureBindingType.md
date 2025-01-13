@@ -14,15 +14,15 @@ import { TextureBindingType } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TextureBindingType( sampleType : <span style="font-weight: 400; opacity: 80%;">GPUTextureSampleType</span>, viewDimension : <span style="font-weight: 400; opacity: 80%;">GPUTextureViewDimension</span>, multisampled ) {: #constructor data-toc-label='constructor' }
+#### new TextureBindingType( sampleType : <span style="font-weight: 400;">GPUTextureSampleType</span>, viewDimension : <span style="font-weight: 400;">GPUTextureViewDimension</span>, multisampled ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### toDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #toDebugString data-toc-label='toDebugString' }
+#### toDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toDebugString data-toc-label='toDebugString' }
 
-#### combined( other : <span style="font-weight: 400; opacity: 80%;">BindingType</span> ) : <span style="font-weight: 400; opacity: 80%;">BindingType | null</span> {: #combined data-toc-label='combined' }
+#### combined( other : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #combined data-toc-label='combined' }
 
-#### mutateBindGroupLayoutEntry( entry : <span style="font-weight: 400; opacity: 80%;">GPUBindGroupLayoutEntry</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #mutateBindGroupLayoutEntry data-toc-label='mutateBindGroupLayoutEntry' }
+#### mutateBindGroupLayoutEntry( entry : <span style="font-weight: 400;">GPUBindGroupLayoutEntry</span> ) {: #mutateBindGroupLayoutEntry data-toc-label='mutateBindGroupLayoutEntry' }
 
 (protected)
 

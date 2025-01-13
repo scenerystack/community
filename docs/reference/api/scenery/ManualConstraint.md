@@ -30,17 +30,17 @@ import { ManualConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ManualConstraint( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, nodes : <span style="font-weight: 400; opacity: 80%;">T</span>, layoutCallback : <span style="font-weight: 400; opacity: 80%;">LayoutCallback&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ManualConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references
 
 ### Static Methods
 
-#### create( ancestorNode : <span style="font-weight: 400; opacity: 80%;">Node</span>, nodes : <span style="font-weight: 400; opacity: 80%;">T</span>, layoutCallback : <span style="font-weight: 400; opacity: 80%;">LayoutCallback&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">ManualConstraint&lt;T&gt;</span> {: #create data-toc-label='create' }
+#### create( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) : <span style="font-weight: 400;">[ManualConstraint](../scenery/ManualConstraint.md)&lt;T&gt;</span> {: #create data-toc-label='create' }
 
 
 

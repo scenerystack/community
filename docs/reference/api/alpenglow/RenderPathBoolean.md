@@ -14,43 +14,43 @@ import { RenderPathBoolean } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPathBoolean( path : <span style="font-weight: 400; opacity: 80%;">RenderPath</span>, inside : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, outside : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPathBoolean( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, inside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, outside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### getName() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getName data-toc-label='getName' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### withChildren( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPathBoolean</span> {: #withChildren data-toc-label='withChildren' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #withChildren data-toc-label='withChildren' }
 
-#### transformed( transform : <span style="font-weight: 400; opacity: 80%;">Matrix3</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #transformed data-toc-label='transformed' }
+#### transformed( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #transformed data-toc-label='transformed' }
 
-#### equalsTyped( other : <span style="font-weight: 400; opacity: 80%;">this</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsTyped data-toc-label='equalsTyped' }
-
-(protected)
-
-#### isOneSided() : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #isOneSided data-toc-label='isOneSided' }
-
-#### getOneSide() : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #getOneSide data-toc-label='getOneSide' }
-
-#### withOneSide( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> {: #withOneSide data-toc-label='withOneSide' }
-
-#### getSimplified( children : <span style="font-weight: 400; opacity: 80%;">RenderProgram[]</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderProgram | null</span> {: #getSimplified data-toc-label='getSimplified' }
+#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
 
 (protected)
 
-#### evaluate( context : <span style="font-weight: 400; opacity: 80%;">RenderEvaluationContext</span> ) : <span style="font-weight: 400; opacity: 80%;">Vector4</span> {: #evaluate data-toc-label='evaluate' }
+#### isOneSided() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isOneSided data-toc-label='isOneSided' }
 
-#### getExtraDebugString() : <span style="font-weight: 400; opacity: 80%;">string</span> {: #getExtraDebugString data-toc-label='getExtraDebugString' }
+#### getOneSide() : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #getOneSide data-toc-label='getOneSide' }
+
+#### withOneSide( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #withOneSide data-toc-label='withOneSide' }
+
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
 
 (protected)
 
-#### serialize() : <span style="font-weight: 400; opacity: 80%;">SerializedRenderPathBoolean</span> {: #serialize data-toc-label='serialize' }
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
+
+#### getExtraDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getExtraDebugString data-toc-label='getExtraDebugString' }
+
+(protected)
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderPathBoolean](../alpenglow/RenderPathBoolean.md#SerializedRenderPathBoolean)</span> {: #serialize data-toc-label='serialize' }
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400; opacity: 80%;">SerializedRenderPathBoolean</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPathBoolean</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderPathBoolean](../alpenglow/RenderPathBoolean.md#SerializedRenderPathBoolean)</span> ) : <span style="font-weight: 400;">[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #deserialize data-toc-label='deserialize' }
 
-#### fromInside( path : <span style="font-weight: 400; opacity: 80%;">RenderPath</span>, inside : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span> ) : <span style="font-weight: 400; opacity: 80%;">RenderPathBoolean</span> {: #fromInside data-toc-label='fromInside' }
+#### fromInside( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, inside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #fromInside data-toc-label='fromInside' }
 
 
 

@@ -14,7 +14,7 @@ import { BoundedSubpath } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BoundedSubpath( path : <span style="font-weight: 400; opacity: 80%;">RenderPath</span>, subpath : <span style="font-weight: 400; opacity: 80%;">Vector2[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new BoundedSubpath( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, subpath : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
@@ -22,13 +22,13 @@ import { BoundedSubpath } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### bounds : <span style="font-weight: 400; opacity: 80%;">Bounds2</span> {: #bounds data-toc-label='bounds' }
+#### bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #bounds data-toc-label='bounds' }
 
 (readonly)
 
 ### Static Methods
 
-#### fromPathSet( paths : <span style="font-weight: 400; opacity: 80%;">Set&lt;RenderPath&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">BoundedSubpath[]</span> {: #fromPathSet data-toc-label='fromPathSet' }
+#### fromPathSet( paths : <span style="font-weight: 400;">Set&lt;[RenderPath](../alpenglow/RenderPath.md)&gt;</span> ) : <span style="font-weight: 400;">[BoundedSubpath](../alpenglow/BoundedSubpath.md)[]</span> {: #fromPathSet data-toc-label='fromPathSet' }
 
 
 

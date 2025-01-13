@@ -14,17 +14,17 @@ import { RenderTrail } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderTrail( program : <span style="font-weight: 400; opacity: 80%;">RenderProgram</span>, indices : <span style="font-weight: 400; opacity: 80%;">number[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderTrail( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, indices : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### equals( other : <span style="font-weight: 400; opacity: 80%;">RenderTrail</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equals data-toc-label='equals' }
+#### equals( other : <span style="font-weight: 400;">[RenderTrail](../alpenglow/RenderTrail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
-#### compare( other : <span style="font-weight: 400; opacity: 80%;">RenderTrail</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #compare data-toc-label='compare' }
+#### compare( other : <span style="font-weight: 400;">[RenderTrail](../alpenglow/RenderTrail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compare data-toc-label='compare' }
 
 ### Static Methods
 
-#### closureCompare( a : <span style="font-weight: 400; opacity: 80%;">RenderTrail</span>, b : <span style="font-weight: 400; opacity: 80%;">RenderTrail</span> ) : <span style="font-weight: 400; opacity: 80%;">number</span> {: #closureCompare data-toc-label='closureCompare' }
+#### closureCompare( a : <span style="font-weight: 400;">[RenderTrail](../alpenglow/RenderTrail.md)</span>, b : <span style="font-weight: 400;">[RenderTrail](../alpenglow/RenderTrail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #closureCompare data-toc-label='closureCompare' }
 
 
 

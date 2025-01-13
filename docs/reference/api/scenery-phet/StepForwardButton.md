@@ -15,7 +15,7 @@ import { StepForwardButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StepForwardButton( providedOptions? : <span style="font-weight: 400; opacity: 80%;">StepForwardButtonOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new StepForwardButton( providedOptions? : <span style="font-weight: 400;">[StepForwardButtonOptions](../scenery-phet/StepForwardButton.md#StepForwardButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 

@@ -14,36 +14,36 @@ import { Checkbox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Checkbox( property : <span style="font-weight: 400; opacity: 80%;">PhetioProperty&lt;boolean&gt;</span>, content : <span style="font-weight: 400; opacity: 80%;">Node</span>, providedOptions? : <span style="font-weight: 400; opacity: 80%;">CheckboxOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Checkbox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions)</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setInputEnabledProperty( newTarget : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;boolean&gt; | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setInputEnabledProperty data-toc-label='setInputEnabledProperty' }
+#### setInputEnabledProperty( newTarget : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setInputEnabledProperty data-toc-label='setInputEnabledProperty' }
 
 The inputEnabledProperty for Checkbox is internally controlled by factors such as the displayOnlyProperty
 and the enabledProperty.
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
-#### setCheckboxColorBackground( value : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setCheckboxColorBackground data-toc-label='setCheckboxColorBackground' }
+#### setCheckboxColorBackground( value : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setCheckboxColorBackground data-toc-label='setCheckboxColorBackground' }
 
 Sets the background color of the checkbox.
 
-#### getCheckboxColorBackground() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getCheckboxColorBackground data-toc-label='getCheckboxColorBackground' }
+#### getCheckboxColorBackground() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getCheckboxColorBackground data-toc-label='getCheckboxColorBackground' }
 
 Gets the background color of the checkbox.
 
-#### setCheckboxColor( value : <span style="font-weight: 400; opacity: 80%;">TPaint</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setCheckboxColor data-toc-label='setCheckboxColor' }
+#### setCheckboxColor( value : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> ) {: #setCheckboxColor data-toc-label='setCheckboxColor' }
 
 Sets the color of the checkbox.
 
-#### getCheckboxColor() : <span style="font-weight: 400; opacity: 80%;">TPaint</span> {: #getCheckboxColor data-toc-label='getCheckboxColor' }
+#### getCheckboxColor() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getCheckboxColor data-toc-label='getCheckboxColor' }
 
 Gets the color of the checkbox.
 
-#### setMouseArea( area : <span style="font-weight: 400; opacity: 80%;">Shape | Bounds2 | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setMouseArea data-toc-label='setMouseArea' }
+#### setMouseArea( area : <span style="font-weight: 400;">[Shape](../kite/Shape.md) | [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setMouseArea data-toc-label='setMouseArea' }
 
-#### setTouchArea( area : <span style="font-weight: 400; opacity: 80%;">Shape | Bounds2 | null</span> ) : <span style="font-weight: 400; opacity: 80%;">this</span> {: #setTouchArea data-toc-label='setTouchArea' }
+#### setTouchArea( area : <span style="font-weight: 400;">[Shape](../kite/Shape.md) | [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setTouchArea data-toc-label='setTouchArea' }
 
 
 

@@ -15,33 +15,33 @@ import { TinyOverrideProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyOverrideProperty( targetProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyOverrideProperty( targetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
 
 ### Instance Methods
 
-#### setTargetProperty( targetProperty : <span style="font-weight: 400; opacity: 80%;">TReadOnlyProperty&lt;T&gt;</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setTargetProperty data-toc-label='setTargetProperty' }
+#### setTargetProperty( targetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span> ) {: #setTargetProperty data-toc-label='setTargetProperty' }
 
-#### clearOverride() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #clearOverride data-toc-label='clearOverride' }
+#### clearOverride() {: #clearOverride data-toc-label='clearOverride' }
 
 Remove the "overridden" nature of this Property, so that it takes on the appearance of the targetProperty
 
-#### get() : <span style="font-weight: 400; opacity: 80%;">T</span> {: #get data-toc-label='get' }
+#### get() : <span style="font-weight: 400;">T</span> {: #get data-toc-label='get' }
 
-#### set( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #set data-toc-label='set' }
+#### set( value : <span style="font-weight: 400;">T</span> ) {: #set data-toc-label='set' }
 
-#### setPropertyValue( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #setPropertyValue data-toc-label='setPropertyValue' }
+#### setPropertyValue( value : <span style="font-weight: 400;">T</span> ) {: #setPropertyValue data-toc-label='setPropertyValue' }
 
-#### equalsValue( value : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">boolean</span> {: #equalsValue data-toc-label='equalsValue' }
+#### equalsValue( value : <span style="font-weight: 400;">T</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsValue data-toc-label='equalsValue' }
 
 (protected)
 
 We have to override here to have the getter called
 
-#### notifyListeners( oldValue : <span style="font-weight: 400; opacity: 80%;">T</span> ) : <span style="font-weight: 400; opacity: 80%;">void</span> {: #notifyListeners data-toc-label='notifyListeners' }
+#### notifyListeners( oldValue : <span style="font-weight: 400;">T</span> ) {: #notifyListeners data-toc-label='notifyListeners' }
 
 Overridden, since we need to call our getter
 
-#### dispose() : <span style="font-weight: 400; opacity: 80%;">void</span> {: #dispose data-toc-label='dispose' }
+#### dispose() {: #dispose data-toc-label='dispose' }
 
 ### Instance Properties
 
