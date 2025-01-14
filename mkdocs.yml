@@ -145,7 +145,7 @@ nav:
   - Learn:
     - Overview: learn/overview.md
     - Getting Started:
-      - Before Starting: learn/before-starting.md
+      - Setup: learn/setup.md
       - Simulation: learn/simulation.md
       - Scenery Application: learn/scenery-application.md
       - Standalone Library: learn/standalone-library.md
@@ -176,7 +176,7 @@ nav:
 #      - Coding Conventions: info_sync/coding_conventions.md
 #      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
   - Reference:
-    - Software Design Patterns: info_sync/software_design_patterns.md
+    - Software Design Patterns: info-sync/software-design-patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - API:
 ### AUTO-GENERATE BELOW
@@ -1195,9 +1195,6 @@ nav:
 ### AUTO-GENERATE ABOVE
     - Libraries: reference/scenerystack_list.md
 #    - Library APIs:
-#      - Scenery: https://phetsims.github.io/scenery/
-#      - Dot: https://phetsims.github.io/dot/
-#      - Kite: https://phetsims.github.io/kite/
 #      - Alpenglow: https://phetsims.github.io/alpenglow/
   - Community:
     - Join Us: community/join.md

@@ -1,4 +1,4 @@
-# Before Starting
+# Setup
 
 ## Installing Prerequisites
 
