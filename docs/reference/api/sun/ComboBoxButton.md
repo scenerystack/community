@@ -69,6 +69,8 @@ import type { ComboBoxButtonOptions } from 'scenerystack/sun';
 - **arrowDirection**?: [ComboBoxButtonArrowDirection](../sun/ComboBoxButton.md#ComboBoxButtonArrowDirection)
 - **arrowFill**?: [TPaint](../scenery/TPaint.md)
 - **comboBoxVoicingNameResponsePattern**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  The pattern for the voicingNameResponse, with "{{value}}" provided to be filled in with
+  ComboBoxItem.a11yName.
 - **localPreferredWidthProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **localMinimumWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "children" | "ariaLabelledbyAssociations"&gt;

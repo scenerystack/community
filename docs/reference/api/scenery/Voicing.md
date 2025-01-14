@@ -59,13 +59,23 @@ import type { VoicingOptions } from 'scenerystack/scenery';
 
 
 - **voicingNameResponse**?: VoicingResponse
+<br>  see ResponsePacket.nameResponse
 - **voicingObjectResponse**?: VoicingResponse
+<br>  see ResponsePacket.objectResponse
 - **voicingContextResponse**?: VoicingResponse
+<br>  see ResponsePacket.contextResponse
 - **voicingHintResponse**?: VoicingResponse
+<br>  see ResponsePacket.hintResponse
 - **voicingResponsePatternCollection**?: ResponsePatternCollection
+<br>  see ResponsePacket.responsePatternCollection
 - **voicingIgnoreVoicingManagerProperties**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  see ResponsePacket.ignoreProperties
 - **voicingFocusListener**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Called when this Node is focused to speak voicing responses on focus. See Voicing.defaultFocusListener for default
+  listener.
 - **voicingUtterance**?: Utterance | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The utterance to use if you want this response to be more controlled in the UtteranceQueue. This Utterance will be
+  used by all responses spoken by this class. Null to not use an Utterance.
 - &amp; [InteractiveHighlightingOptions](../scenery/InteractiveHighlighting.md#InteractiveHighlightingOptions)
 
 

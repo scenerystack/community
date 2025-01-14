@@ -17,7 +17,9 @@ import type { compactSingleRadixSortWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **totalBits**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  number of bits in the key
 - **getBitsAtIndex**: ( value: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), bitIndex: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+<br>  get the bits at the given index
 - &amp; StrictOmit&lt;[nBitCompactSingleSortWGSLOptions](../alpenglow/nBitCompactSingleSortWGSL.md#nBitCompactSingleSortWGSLOptions)&lt;T&gt;, "getBits"&gt;
 
 

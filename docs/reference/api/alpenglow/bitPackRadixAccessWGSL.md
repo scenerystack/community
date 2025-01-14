@@ -39,10 +39,16 @@ import type { bitPackRadixAccessWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **bits**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+<br>  u32 name
 - **bitVector**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+<br>  (u32/vec2u/vec3u/vec4u) name
 - **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  TODO: once this is working, form it into a larger object of settings for Radix handling
+  e.g. 2 for a two-bit sort
 - **bitVectorSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  (1/2/3/4) for (u32/vec2u/vec3u/vec4u) e.g. 4 for a vec4u
 - **maxCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  the maximum count in the histogram
 
 
 

@@ -181,19 +181,44 @@ import type { KeyboardListenerOptions } from 'scenerystack/scenery';
 
 
 - **keys**?: Keys | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The keys that need to be pressed to fire the callback. In a form like `[ 'shift+t', 'alt+shift+r' ]`. See top
+  level documentation for more information and an example of providing keys.
 - **keyStringProperties**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  A list of KeyDescriptor Properties that describe the keys that need to be pressed to fire the callback.
+  This is an alternative to providing keys directly. You cannot provide both keys and keyDescriptorProperties.
+  This is useful for dynamic behavior, such as i18n or mapping to a different set of keys.
 - **fire**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>], listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called when the listener detects that the set of keys are pressed.
 - **press**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>], listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called when the listener detects that the set of keys are pressed. Press is always called on the first press of
+  keys, but does not continue with fire-on-hold behavior. Will be called before fire if fireOnDown is true.
 - **release**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called when the listener detects that the set of keys have been released. keysPressed may be null
+  in cases of interruption.
 - **focus**?: ( listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called when the listener target receives focus.
 - **blur**?: ( listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called when the listener target loses focus.
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the hotkey will fire when the hotkey is initially pressed.
+  If false, the hotkey will fire when the hotkey is finally released.
 - **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the fire-on-hold feature is enabled
 - **fireOnHoldTiming**?: [HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)
+<br>  Whether we should listen to the browser's fire-on-hold timing, or use our own.
 - **fireOnHoldCustomDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Start to fire continuously after pressing for this long (milliseconds)
 - **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Fire continuously at this interval (milliseconds)
 - **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Controls whether the keys used by this KeyboardListener are allowed to overlap with other KeyboardListeners
+  that are listening for the same keys. If true, the KeyboardListener will fire even if another KeyboardListener.
+  This is implemented with Hotkey, see Hotkey.ts for more information.
 - **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, Keyboard listeners with overlapping keys (either added to an ancestor's inputListener or later in the
+  local/global order) will be ignored. Only the most 'local' Hotkey will fire. The default is true for
+  KeyboardListeners added to focusable Nodes, and false for global KeyboardListeners to catch overlapping global
+  keys.
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 

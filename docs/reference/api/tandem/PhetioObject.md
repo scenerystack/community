@@ -21,11 +21,16 @@ import type { PhetioObjectOptions } from 'scenerystack/tandem';
 
 
 - **tandem**?: [Tandem](../tandem/Tandem.md)
+<br>  This is the only place in the project where this is allowed
 - **descriptionTandem**?: [Tandem](../tandem/Tandem.md)
 - **phetioType**?: [IOType](../tandem/IOType.md)
 - **phetioEventType**?: [EventType](../tandem/EventType.md)
 - **phetioEventMetadata**?: EventMetadata | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **tandemNameSuffix**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The element's tandem name must have a specified suffix. This is to enforce naming conventions for PhET-iO.
+  If string[] is provided, the tandem name must have a suffix that matches one of the strings in the array.
+  null means that there is no constraint on tandem name. The first character is not case-sensitive, to support
+  uses like 'thermometerNode' versus 'upperThermometerNode'.
 - &amp; StrictOmit&lt;Partial&lt;PhetioElementMetadata&gt;, "phetioTypeName" | "phetioArchetypePhetioID" | "phetioIsArchetype" | "phetioEventType"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 

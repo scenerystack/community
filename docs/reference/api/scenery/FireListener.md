@@ -88,8 +88,13 @@ import type { FireListenerOptions } from 'scenerystack/scenery';
 
 
 - **fire**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called as fire() when the button is fired.
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the button will fire when the button is pressed. If false, the button will fire when the
+  button is released while the pointer is over the button.
 - **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  fire-on-hold feature, see https://github.com/phetsims/scenery/issues/1004
+  TODO: these options are not supported with PDOM interaction, see https://github.com/phetsims/scenery/issues/1117
 - **fireOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **fireOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; StrictOmit&lt;ParentOptions&lt;Listener&gt;, "phetioPressActionInstrumented" | "phetioReleaseActionInstrumented"&gt;

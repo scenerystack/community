@@ -57,7 +57,9 @@ import type { ShaderProgramOptions } from 'scenerystack/scenery';
 
 
 - **attributes**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
+<br>  (vertex) attribute names in the shader source
 - **uniforms**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
+<br>  uniform names in the shader source
 
 
 

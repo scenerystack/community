@@ -264,8 +264,11 @@ import type { DashValues } from 'scenerystack/kite';
 
 
 - **values**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+<br>  Parametric (t) values for where dash boundaries exist
 - **arcLength**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Total arc length for this segment
 - **initiallyInside**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the start of the segment is inside a dash (instead of a gap)
 
 
 
@@ -279,11 +282,18 @@ import type { PiecewiseLinearOptions } from 'scenerystack/kite';
 
 
 - **minLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  how many levels to force subdivisions
 - **maxLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  prevent subdivision past this level
 - **distanceEpsilon**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  controls level of subdivision by attempting to ensure a maximum (squared) deviation from the curve
 - **curveEpsilon**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  controls level of subdivision by attempting to ensure a maximum curvature change between segments
 - **pointMap**?: ( v: [Vector2](../dot/Vector2.md) ) =&gt; [Vector2](../dot/Vector2.md)
+<br>  represents a (usually non-linear) transformation applied
 - **methodName**?: KeysMatching&lt;[Segment](../kite/Segment.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Arc](../kite/Arc.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Cubic](../kite/Cubic.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[EllipticalArc](../kite/EllipticalArc.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Line](../scenery/Line.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Quadratic](../kite/Quadratic.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt;
+<br>  if the method name is found on the segment, it is called with the expected signature
+  function( options ) : Array[Segment] instead of using our brute-force logic
 
 
 

@@ -166,13 +166,36 @@ import type { KeyboardDragListenerOptions } from 'scenerystack/scenery';
 
 
 - **dragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  How much the position Property will change in view (parent) coordinates every moveOnHoldInterval. Object will
+  move in discrete steps at this interval. If you would like smoother "animated" motion use dragSpeed
+  instead. dragDelta produces a UX that is more typical for applications but dragSpeed is better for video
+  game-like components. dragDelta and dragSpeed are mutually exclusive options.
 - **shiftDragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  How much the PositionProperty will change in view (parent) coordinates every moveOnHoldInterval while the shift modifier
+  key is pressed. Shift modifier should produce more fine-grained motion so this value needs to be less than
+  dragDelta if provided. Object will move in discrete steps. If you would like smoother "animated" motion use
+  dragSpeed options instead. dragDelta options produce a UX that is more typical for applications but dragSpeed
+  is better for game-like components. dragDelta and dragSpeed are mutually exclusive options.
 - **dragSpeed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  While a direction key is held down, the target will move by this amount in view (parent) coordinates every second.
+  This is an alternative way to control motion with keyboard than dragDelta and produces smoother motion for
+  the object. dragSpeed and dragDelta options are mutually exclusive. See dragDelta for more information.
 - **shiftDragSpeed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  While a direction key is held down with the shift modifier key, the target will move by this amount in parent view
+  coordinates every second. Shift modifier should produce more fine-grained motion so this value needs to be less
+  than dragSpeed if provided. This is an alternative way to control motion with keyboard than dragDelta and
+  produces smoother motion for the object. dragSpeed and dragDelta options are mutually exclusive. See dragDelta
+  for more information.
 - **keyboardDragDirection**?: KeyboardDragDirection
+<br>  Specifies the direction of motion for the KeyboardDragListener. By default, the position Vector2 can change in
+  both directions by pressing the arrow keys. But you can constrain dragging to 1D left-right or up-down motion
+  with this value.
 - **moveOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Arrow keys must be pressed this long to begin movement set on moveOnHoldInterval, in ms
 - **moveOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)" | "phetioReadOnly"&gt; &amp; PickOptional&lt;ParentOptions, "focus" | "blur"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+<br>  Time interval at which the object will change position while the arrow key is held down, in ms. This must be larger
+  than 0 to prevent dragging that is based on how often animation-frame steps occur.
+- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem" | "phetioReadOnly"&gt; &amp; PickOptional&lt;ParentOptions, "focus" | "blur"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 
 

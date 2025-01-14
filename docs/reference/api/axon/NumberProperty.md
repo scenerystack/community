@@ -60,6 +60,7 @@ import type { NumberPropertyOptions } from 'scenerystack/axon';
 - **numberType**?: NumberType
 - **range**?: [Range](../dot/Range.md) | [Property](../axon/Property.md)&lt;[Range](../dot/Range.md)&gt;
 - **rangePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Range](../dot/Range.md)&gt;
+<br>  Passed to this.rangeProperty if NumberProperty creates it. Ignored if a Property is provided via options.range.
 - &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "phetioValueType" | "valueType"&gt;
 
 

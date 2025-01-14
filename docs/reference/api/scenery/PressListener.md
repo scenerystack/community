@@ -321,19 +321,56 @@ import type { PressListenerOptions } from 'scenerystack/scenery';
 
 
 - **press**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
+<br>  Called when this listener is pressed (typically from a down event, but can be triggered by other handlers)
 - **release**?: [PressListenerNullableCallback](../scenery/PressListener.md#PressListenerNullableCallback)&lt;Listener&gt;
+<br>  Called when this listener is released. Note that an SceneryEvent arg cannot be guaranteed from this listener. This
+  is, in part, to support interrupt. (pointer up/cancel or interrupt when pressed/after click from the pdom).
+  NOTE: This will also be called if the press is "released" due to being interrupted or canceled.
 - **drag**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
+<br>  Called when this listener is dragged (move events on the pointer while pressed)
 - **targetNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If provided, the pressedTrail (calculated from the down event) will be replaced with the (sub)trail that ends with
+  the targetNode as the leaf-most Node. This affects the parent coordinate frame computations.
+  This is ideally used when the Node which has this input listener is different from the Node being transformed,
+  as otherwise offsets and drag behavior would be incorrect by default.
 - **attach**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, this listener will not "press" while the associated pointer is attached, and when pressed,
+  will mark itself as attached to the pointer. If this listener should not be interrupted by others and isn't
+  a "primary" handler of the pointer's behavior, this should be set to false.
 - **mouseButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Restricts to the specific mouse button (but allows any touch). Only one mouse button is allowed at
+  a time. The button numbers are defined in https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button,
+  where typically:
+    0: Left mouse button
+    1: Middle mouse button (or wheel press)
+    2: Right mouse button
+    3+: other specific numbered buttons that are more rare
 - **pressCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If the targetNode/currentTarget don't have a custom cursor, this will set the pointer cursor to
+  this value when this listener is "pressed". This means that even when the mouse moves out of the node after
+  pressing down, it will still have this cursor (overriding the cursor of whatever nodes the pointer may be
+  over).
 - **useInputListenerCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  When true, any node this listener is added to will use this listener's cursor (see options.pressCursor)
+  as the cursor for that node. This only applies if the node's cursor is null, see Node.getEffectiveCursor().
 - **canStartPress**?: [PressListenerCanStartPressCallback](../scenery/PressListener.md#PressListenerCanStartPressCallback)&lt;Listener&gt;
+<br>  Checks this when trying to start a press. If this function returns false, a press will not be started
 - **a11yLooksPressedInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  (a11y) - How long something should 'look' pressed after an accessible click input event, in ms
 - **collapseDragEvents**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, multiple drag events in a row (between steps) will be collapsed into one drag event
+  (usually for performance) by just calling the callbacks for the last drag event. Other events (press/release
+  handling) will force through the last pending drag event. Calling step() every frame will then be generally
+  necessary to have accurate-looking drags. NOTE that this may put in events out-of-order.
+  This is appropriate when the drag operation is expensive performance-wise AND ideally should only be run at
+  most once per frame (any more, and it would be a waste).
 - **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Though PressListener is not instrumented, declare these here to support properly passing this to children, see https://github.com/phetsims/tandem/issues/60.
+  PressListener by default doesn't allow PhET-iO to trigger press/release Action events
 - **phetioFeatured**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **phetioPressActionInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Opt out of instrumenting pressAction and releaseAction, only useful in subtypes where you have a better API that
+  makes these redundant.
 - **phetioReleaseActionInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 

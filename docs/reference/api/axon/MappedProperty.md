@@ -42,7 +42,11 @@ import type { MappedPropertyOptions } from 'scenerystack/axon';
 
 
 - **bidirectional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If set to true then changes to this Property (if valuePropertyProperty.value is non-null at the time) will also be
+  made to valuePropertyProperty.value.
 - **map**?: ( ( inputValue: InputValueType ) =&gt; ThisValueType ) | KeysMatching&lt;InputValueType, ThisValueType&gt;
+<br>  Maps our input Property value to/from this Property's value. See top-level documentation for usage.
+  If it's a string, it will grab that named property out (e.g. it's like passing u =&gt; u[ derive ])
 - **inverseMap**?: ( ( thisValue: ThisValueType ) =&gt; InputValueType ) | KeysMatching&lt;ThisValueType, InputValueType&gt;
 - &amp; StrictOmit&lt;[DynamicPropertyOptions](../axon/DynamicProperty.md#DynamicPropertyOptions)&lt;ThisValueType, InputValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InputValueType&gt;&gt;, "defaultValue" | "derive"&gt;
 

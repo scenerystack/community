@@ -15,6 +15,7 @@ import type { TAttachableInputListener } from 'scenerystack/scenery';
 
 
 - **interrupt**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Has to be interruptable
 - &amp; [TInputListener](../scenery/TInputListener.md)
 
 

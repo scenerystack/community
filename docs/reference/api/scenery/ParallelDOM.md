@@ -966,10 +966,12 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **focusable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **tagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Higher Level API Functions
 - **accessibleParagraph**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **helpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **pdomHeading**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleNameBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+<br>  Lower Level API Functions
 - **helpTextBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
 - **pdomHeadingBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
 - **containerTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

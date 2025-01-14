@@ -78,8 +78,15 @@ import type { SpritesOptions } from 'scenerystack/scenery';
 
 
 - **sprites**?: [Sprite](../scenery/Sprite.md)[]
+<br>  Provide a fixed set of Sprite objects that will be used for this node. Currently, it cannot be modified after
+  construction for simplicity of the implementation.
 - **spriteInstances**?: [SpriteInstance](../scenery/SpriteInstance.md)[]
+<br>  A reference to an Array of instances. This array can be (and should be)
+  manipulated to adjust the displayed instances (their sprites/transforms/etc.). After this has been adjusted,
+  invalidatePaint() should be called on the Sprites node.
 - **hitTestSprites**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether individual sprites will be hit-tested to determine what is a contained point (for hit
+  testing, etc.). If false, the canvasBounds will be used for hit testing.
 - **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

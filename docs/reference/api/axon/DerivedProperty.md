@@ -144,6 +144,7 @@ import type { DerivedPropertyOptions } from 'scenerystack/axon';
 
 
 - **phetioLinkDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  When true, if this DerivedProperty is PhET-iO instrument, add a LinkedElement for each PhET-iO instrumented dependency.
 - &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;
 
 

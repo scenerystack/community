@@ -38,6 +38,12 @@ import type { MarginLayoutConfigurableOptions } from 'scenerystack/scenery';
 
 
 - **margin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Adds extra space for each cell in the layout (margin controls all 4 sides, xMargin controls left/right, yMargin
+  controls top/bottom).
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-margins
+  See https://phetsims.github.io/scenery/doc/layout#GridBox-margins
+  Margins will control how much extra space is FORCED around content within a cell's available area. These margins do
+  not collapse (each cell gets its own).
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **leftMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -45,6 +51,12 @@ import type { MarginLayoutConfigurableOptions } from 'scenerystack/scenery';
 - **topMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **bottomMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **minContentWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Forces size minimums and maximums on the cells (which does not include the margins).
+  NOTE: For these, the nullable portion is actually part of the possible "value"
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-minContent and
+  https://phetsims.github.io/scenery/doc/layout#FlowBox-maxContent
+  See https://phetsims.github.io/scenery/doc/layout#GridBox-minContent and
+  https://phetsims.github.io/scenery/doc/layout#GridBox-maxContent
 - **minContentHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **maxContentWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **maxContentHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

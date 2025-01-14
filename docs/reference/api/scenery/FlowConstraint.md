@@ -48,13 +48,21 @@ import type { FlowConstraintOptions } from 'scenerystack/scenery';
 
 
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  The default spacing in-between elements in the primary direction. If additional (or less) spacing is desired for
+  certain elements, per-element margins (even negative) can be set in the layoutOptions of nodes contained.
 - **lineSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  The default spacing in-between lines long the secondary axis.
 - **justify**?: [HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification) | [VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification)
+<br>  How extra space along the primary axis is allocated. The default is spaceBetween.
 - **justifyLines**?: [HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification) | [VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  How extra space along the secondary axis is allocated. The default is null (which will expand content to fit)
 - **wrap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether line-wrapping is enabled. If so, the primary preferred axis will determine where things are wrapped.
 - **preferredWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+<br>  The preferred width/height (ideally from a container's localPreferredWidth/localPreferredHeight.
 - **preferredHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+<br>  The minimum width/height (ideally from a container's localMinimumWidth/localMinimumHeight.
 - **minimumHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - &amp; [ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions) &amp; [NodeLayoutAvailableConstraintOptions](../scenery/NodeLayoutConstraint.md#NodeLayoutAvailableConstraintOptions)
 

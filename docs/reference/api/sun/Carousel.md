@@ -119,19 +119,25 @@ import type { CarouselOptions } from 'scenerystack/sun';
 
 
 - **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md)
+<br>  container
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **defaultPageNumber**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **itemsPerPage**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  items
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **margin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **alignBoxOptions**?: [AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)
+<br>  options for the AlignBoxes (particularly if alignment of items should be changed, or if specific margins are desired)
 - **buttonOptions**?: [CarouselButtonOptions](../sun/CarouselButton.md#CarouselButtonOptions)
+<br>  next/previous button options
 - **separatorsVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  item separator options
 - **separatorOptions**?: [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
 - **animationEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  animation, scrolling between pages
 - **animationOptions**?: StrictOmit&lt;[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "to" | "setValue" | "getValue"&gt;
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 

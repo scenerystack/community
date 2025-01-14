@@ -55,23 +55,37 @@ import type { ToggleSwitchOptions } from 'scenerystack/sun';
 
 
 - **size**?: [Dimension2](../dot/Dimension2.md)
+<br>  if you want the thumb to be a circle, use width that is 2x height
 - **toggleWhileDragging**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  controls the behavior of when model value changes occur during dragging (if any)
+  null: triggers model changes when thumb is dragged far enough to the side, similar to iOS
+  true: triggers model changes whenever the thumb crosses sides
+  false: only trigger model changes until release
 - **dragThreshold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  number of view-space units the drag needs to cover to be considered a "drag" instead of a "click/tap"
 - **toggleThreshold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  number of thumb-widths outside the normal range past where the model value will change
 - **thumbFill**?: [TPaint](../scenery/TPaint.md)
+<br>  thumb
 - **thumbStroke**?: [TPaint](../scenery/TPaint.md)
 - **thumbTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **trackFillLeft**?: [TPaint](../scenery/TPaint.md)
+<br>  track
 - **trackFillRight**?: [TPaint](../scenery/TPaint.md)
 - **trackStroke**?: [TPaint](../scenery/TPaint.md)
 - **switchToLeftSoundPlayer**?: TSoundPlayer
+<br>  sound
 - **switchToRightSoundPlayer**?: TSoundPlayer
 - **leftValueContextResponse**?: TAlertable
+<br>  If provided, these responses will be spoken to describe the change in context for both Voicing
+  and Interactive Description features when value changes to either left or right value.
 - **rightValueContextResponse**?: TAlertable
 - **accessibleSwitch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  pdom - If true, aria attributes are added to this Node to indicate that it is a switch.
+  Aria switches do not work well when selecting between non-boolean values, so you can disable this if needed.
 - &amp; [TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;
 
 

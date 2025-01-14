@@ -80,9 +80,12 @@ import type { ContinuousPatternVibrationControllerOptions } from 'scenerystack/t
 
 
 - **repeat**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Should the active pattern loop?
 - **sharpness**?: 1
 - **intensity**?: 1
 - **activePattern**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+<br>  Initial pattern for the vibration controller, a sequence of on/off intervals in seconds - won't start vibrating
+  until calling start().
 
 
 

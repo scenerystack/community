@@ -19,6 +19,7 @@ import type { mainReduceAtomicWGSLOptions } from 'scenerystack/alpenglow';
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
 - **loadReducedOptions**?: StrictOmit&lt;[loadReducedWGSLOptions](../alpenglow/loadReducedWGSL.md#loadReducedWGSLOptions)&lt;T&gt;, "value" | "binaryOp" | "loadExpression" | "loadStatements" | "workgroupSize" | "grainSize" | "globalIndex" | "workgroupIndex" | "localIndex"&gt;
+<br>  e.g. length / inputOrder / inputAccessOrder / sequentialReduceStyle
 - **reduceOptions**?: StrictOmit&lt;[reduceWGSLOptions](../alpenglow/reduceWGSL.md#reduceWGSLOptions)&lt;T&gt;, "value" | "scratch" | "workgroupSize" | "binaryOp" | "localIndex" | "scratchPreloaded" | "valuePreloaded" | "mapScratchIndex"&gt;
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
 

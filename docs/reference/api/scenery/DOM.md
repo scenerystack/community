@@ -83,8 +83,11 @@ import type { DOMOptions } from 'scenerystack/scenery';
 
 
 - **element**?: Element
+<br>  Sets the element, see setElement() for more documentation
 - **preventTransform**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Sets whether Scenery is allowed to transform the element. see setPreventTransform() for docs
 - **allowInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether we allow input to be received by the DOM element
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

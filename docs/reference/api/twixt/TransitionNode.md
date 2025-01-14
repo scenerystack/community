@@ -112,8 +112,16 @@ import type { TransitionNodeOptions } from 'scenerystack/twixt';
 
 
 - **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Optionally may have initial content
 - **useBoundsClip**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, a clip area will be set to the value of the transitionBoundsProperty so that outside content won't be
+  shown.
 - **cachedNodes**?: [Node](../scenery/Node.md)[]
+<br>  Any node specified in this array will be added as a permanent child internally, so that transitions to/from it
+  doesn't incur higher performance penalties. It will instead just be invisible when not involved in a transition.
+  Performance issues were initially noted in
+  https://github.com/phetsims/equality-explorer/issues/75. Additional notes in
+  https://github.com/phetsims/twixt/issues/17.
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 

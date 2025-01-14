@@ -15,6 +15,7 @@ import type { toStripedIndexWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **i**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+<br>  represents a normal (blocked) index into data. So 0 is the 1st element, 1 is the 2nd, etc.
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
 
 

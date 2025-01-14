@@ -40,11 +40,24 @@ import type { GridConfigurableOptions } from 'scenerystack/scenery';
 
 
 - **xAlign**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Alignments control how the content of a cell is positioned within that cell's available area (thus it only applies
+  if there is ADDITIONAL space, e.g. in a row/column with a larger item, or there is a preferred size on the GridBox.
+  
+  For 'origin', the x=0 or y=0 points of each item content will be aligned (vertically or horizontally). This is
+  particularly useful for Text, where the origin (y=0) is the baseline of the text, so that differently-sized texts
+  can have their baselines aligned, or other content can be aligned (e.g. a circle whose origin is at its center).
+  
+  NOTE: 'origin' aligns will only apply to cells that are 1 grid line in that orientation (width/height)
 - **yAlign**?: [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **stretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Stretch will control whether a resizable component (mixes in WidthSizable/HeightSizable) will expand to fill the
+  available space within a cell's available area. Similarly to align, this only applies if there is additional space.
 - **xStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **yStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **grow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Grow will control how additional empty space (above the minimum sizes that the grid could take) will be
+  proportioned out to the rows and columns. Unlike stretch, this affects the size of the columns, and does not affect
+  the individual cells.
 - **xGrow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **yGrow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - &amp; [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions)

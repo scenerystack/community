@@ -20,8 +20,16 @@ import type { TInputListener } from 'scenerystack/scenery';
 - **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **listener**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>
 - **createPanTargetBounds**?: ( () =&gt; [Bounds2](../dot/Bounds2.md) ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Function that returns the Bounds2 for AnimatedPanZoomListener to keep in view during drag input.
+  Bounds are in the global coordinate frame.
+  While dragging, the AnimatedPanZoomListener will try to keep these bounds in view. Intended to be
+  called from a listener attached to a Pointer so that the API is compatible with multi-touch.
 - **hotkeys**?: [Hotkey](../scenery/Hotkey.md)[]
+<br>  Hotkeys that will be available whenever a node with this listener is in a focused trail.
 - **focus**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt;
+<br>  //////////////////////////////////////////////
+  ////////////////////////////////////////////
+  Only actual events below here
 - **blur**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt;
 - **focusin**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt;
 - **focusout**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt;

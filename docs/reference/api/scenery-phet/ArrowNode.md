@@ -58,7 +58,9 @@ import type { ArrowNodeOptions } from 'scenerystack/scenery-phet';
 - **isHeadDynamic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **scaleTailToo**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **fractionalHeadHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  head will be scaled when headHeight is greater than fractionalHeadHeight * arrow length
 - **doubleHead**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  true puts heads on both ends of the arrow, false puts a head at the tip
 - &amp; [PathOptions](../scenery/Path.md#PathOptions)
 
 

@@ -38,6 +38,7 @@ import type { DialogOptions } from 'scenerystack/sim';
 
 
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Margins and spacing
 - **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **topMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **bottomMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -48,21 +49,31 @@ import type { DialogOptions } from 'scenerystack/sim';
 - **closeButtonTopMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closeButtonRightMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **title**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  title
 - **titleAlign**?: DialogTitleAlign
 - **layoutStrategy**?: DialogLayoutStrategy
+<br>  Sets the dialog's position in global coordinates.
 - **closeButtonListener**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  close button options
 - **closeButtonColor**?: [TColor](../scenery/TColor.md)
 - **closeButtonTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closeButtonTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closeButtonMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closeButtonMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closeButtonVoicingDialogTitle**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If provided use this dialog title in the Close button voicingNameResponse. This should be provided
+  for proper Dialog Voicing design.
 - **closeButtonLastInPDOM**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  By default, the close button is placed first in the PDOMOrder (and thus the focus order). Set this to true
+  if you want the close button to be the last element in the focus order for the Dialog.
 - **openedSoundPlayer**?: TSoundPlayer
+<br>  sound generation
 - **closedSoundPlayer**?: TSoundPlayer
 - **sim**?: [Sim](../sim/Sim.md)
 - **showCallback**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Called after the dialog is shown, see https://github.com/phetsims/joist/issues/478
 - **hideCallback**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Called after the dialog is hidden, see https://github.com/phetsims/joist/issues/478
 - &amp; StrictOmit&lt;TrimmedParentOptions, "xMargin" | "yMargin"&gt;
 
 

@@ -50,17 +50,27 @@ import type { AquaRadioButtonOptions } from 'scenerystack/sun';
 
 
 - **centerColor**?: [TPaint](../scenery/TPaint.md)
+<br>  color used to fill the center of the button when it's selected
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  radius of the button
 - **selectedColor**?: [TPaint](../scenery/TPaint.md)
+<br>  color used to fill the button when it's selected
 - **deselectedColor**?: [TPaint](../scenery/TPaint.md)
+<br>  color used to fill the button when it's deselected
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  horizontal space between the button and the labelNode
 - **stroke**?: [TPaint](../scenery/TPaint.md)
+<br>  color used to stroke the outer edge of the button
 - **soundPlayer**?: TSoundPlayer
+<br>  sound generator, usually overridden when creating a group of these
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  pointer areas
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **a11yNameAttribute**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Each button in a group of radio buttons must have the same 'name' attribute to be considered a 'group' by the
+  browser. Otherwise, arrow keys will navigate through all inputs of type radio in the document.
 - &amp; [TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;
 
 

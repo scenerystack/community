@@ -272,11 +272,38 @@ import type { DragListenerOptions } from 'scenerystack/scenery';
 
 
 - **allowTouchSnag**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, unattached touches that move across our node will trigger a press(). This helps sometimes
+  for small draggable objects.
 - **applyOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the initial offset of the pointer's position is taken into account, so that drags will
+  try to keep the pointer at the same local point of our dragged node.
+  NOTE: The default behavior is to use the given Node (either the targetNode or the node with the listener on it)
+  and use its transform to compute the "local point" (assuming that the node's local origin is what is
+  transformed around). This is ideal for most situations, but it's also possible to use a parent-coordinate
+  based approach for offsets (see useParentOffset)
 - **useParentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If set to true, then any offsets applied will be handled in the parent coordinate space using the
+  positionProperty as the "ground truth", instead of looking at the Node's actual position and transform. This
+  is useful if the position/transform cannot be applied directly to a single Node (e.g. positioning multiple
+  independent nodes, or centering things instead of transforming based on the origin of the Node).
+  
+  NOTE: Use this option most likely if converting from MovableDragHandler, because it transformed based in
+  the parent's coordinate frame. See https://github.com/phetsims/scenery/issues/1014
+  
+  NOTE: This also requires providing a positionProperty
 - **trackAncestors**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, ancestor transforms will be watched. If they change, it will trigger a repositioning;
+  which will usually adjust the position/transform to maintain position.
 - **offsetPosition**?: OffsetPosition&lt;Listener&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If provided, its result will be added to the parentPoint before computation continues, to allow the ability to
+  "offset" where the pointer position seems to be. Useful for touch, where things shouldn't be under the pointer
+  directly.
 - **canClick**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  pdom
+  Whether to allow `click` events to trigger behavior in the supertype PressListener.
+  Generally DragListener should not respond to click events, but there are some exceptions where drag
+  functionality is nice but a click should still activate the component. See
+  https://github.com/phetsims/sun/issues/696
 - &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt; &amp; [PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)&lt;Listener&gt;
 
 

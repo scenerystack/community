@@ -201,8 +201,26 @@ import type { PathOptions } from 'scenerystack/scenery';
 
 
 - **shape**?: [InputShape](../scenery/Path.md#InputShape)
+<br>  This sets the shape of the Path, which determines the shape of its appearance. It should generally not be called
+  on Path subtypes like Line, Rectangle, etc. See InputShape for details about what to provide for the shape.
+  
+  NOTE: When you create a Path with a shape in the constructor, this setter will be called (don't overload the option).
 - **shapeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;
+<br>  Similar to `shape`, but allows setting the shape as a Property.
 - **boundsMethod**?: [PathBoundsMethod](../scenery/Path.md#PathBoundsMethod)
+<br>  Sets the bounds method for the Path. This determines how our (self) bounds are computed, and can particularly
+  determine how expensive to compute our bounds are if we have a stroke.
+  
+  There are the following options:
+  - 'accurate' - Always uses the most accurate way of getting bounds. Computes the exact stroked bounds.
+  - 'unstroked' - Ignores any stroke, just gives the filled bounds.
+                  If there is a stroke, the bounds will be marked as inaccurate
+  - 'tightPadding' - Pads the filled bounds by enough to cover everything except mitered joints.
+                      If there is a stroke, the bounds wil be marked as inaccurate.
+  - 'safePadding' - Pads the filled bounds by enough to cover all line joins/caps.
+  - 'none' - Returns Bounds2.NOTHING. The bounds will be marked as inaccurate.
+             NOTE: It's important to provide a localBounds override if you use this option, so its bounds cover the
+             Path's shape. (path.localBounds = ...)
 - &amp; [PaintableOptions](../scenery/Paintable.md#PaintableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

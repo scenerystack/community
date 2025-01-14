@@ -26,14 +26,23 @@ import type { loadReducedWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **value**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+<br>  the "output" variable name
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
 - **loadExpression**?: ( ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  wrap with parentheses as needed TODO: should we always do this to prevent errors?
 - **loadStatements**?: ( ( varName: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName), index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements) ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  ( varName: string, index ) =&gt; statements setting varName: T,
 - **inputOrder**?: "blocked" | "striped"
+<br>  The actual order of the data in memory (needed for range checks, not required if range checks are disabled)
 - **inputAccessOrder**?: "blocked" | "striped"
+<br>  The order of access to the input data (determines the "value" output order also)
 - **sequentialReduceStyle**?: "factored" | "unfactored" | "nested"
+<br>  Whether local variables should be used to factor out subexpressions (potentially more register usage, but less
+  computation), or also whether to nest the combine calls, e.g. combine( combine( combine( a, b ), c ), d )
 - **useSelectIfOptional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **orderOverride**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  (WARNING: only use this if you know what you are doing) If true, we will not check that the binaryOp is commutative
+  if the order does not match.
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; [GlobalIndexable](../alpenglow/WGSLUtils.md#GlobalIndexable) &amp; [WorkgroupIndexable](../alpenglow/WGSLUtils.md#WorkgroupIndexable) &amp; [LocalIndexable](../alpenglow/WGSLUtils.md#LocalIndexable) &amp; [OptionalLengthExpressionable](../alpenglow/WGSLUtils.md#OptionalLengthExpressionable)
 
 

@@ -16,6 +16,7 @@ import type { GetLineBreaksOptions } from 'scenerystack/scenery';
 
 
 - **requiredOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Line breaks can be "required" or "optional". If this is true, ranges will only be given for required line breaks.
 
 
 

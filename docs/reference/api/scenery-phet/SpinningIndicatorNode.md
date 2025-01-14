@@ -48,11 +48,17 @@ import type { SpinningIndicatorNodeOptions } from 'scenerystack/scenery-phet';
 
 
 - **diameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Diameter of the indicator
 - **speed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  A multiplier for how fast/slow the indicator will spin.
 - **numberOfElements**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  The number of elements that make up the indicator
 - **elementFactory**?: ( diameter: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, numberOfElements: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [Path](../scenery/Path.md)
+<br>  Creates one of the elements (Path) that make up the indicator
 - **activeColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  The active "mostly visible" color at the lead.
 - **inactiveColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  The inactive "mostly invisible" color at the tail.
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 

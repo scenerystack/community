@@ -68,15 +68,30 @@ import type { SliderTrackOptions } from 'scenerystack/sun';
 
 
 - **size**?: [Dimension2](../dot/Dimension2.md)
+<br>  NOTE: for backwards-compatibility, the size does NOT include the extent of the stroke, so the track will be larger
+  than this size
 - **startDrag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  called when a drag sequence starts
 - **drag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  called at the beginning of a drag event, before any other drag work happens
 - **endDrag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  called when a drag sequence ends
 - **constrainValue**?: ( n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  called before valueProperty is set
 - **enabledRangeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;
+<br>  Defaults to a constant range
 - **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  This is used to generate sounds when clicking in the track.  If not provided, the default sound generator
+  will be created. If set to null, the slider will generate no sound.
 - **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+<br>  Options for the default sound generator.  These should only be provided when using the default.
 - **voicingOnEndResponse**?: VoicingOnEndResponse
+<br>  Announces the voicing response at the end of an interaction. Used by AccessibleValueHandler, see
+  Slider for an example usage.
 - **leftVisualOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Since our historical slider tracks extend PAST the 0,size range (e.g. with strokes), and this information is needed
+  so we can control the size based on our preferredWidth. We'll need the size to be somewhat smaller than our
+  preferredWidth
 - **rightVisualOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

@@ -40,9 +40,15 @@ import type { RectangularRadioButtonGroupOptions } from 'scenerystack/sun';
 
 
 - **soundPlayers**?: TSoundPlayer[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Sound generation for the radio buttons.
+  null means to use the defaults. Otherwise, there must be one for each button.
 - **labelAlign**?: RectangularRadioButtonLabelAlign
+<br>  Determines where the optional label appears, relative to the button
 - **labelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Spacing between the optional label and the button
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Applied to each button, or each button + optional label.
+  This is not handled via radioButtonOptions because we may have an optional label in addition to the button.
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

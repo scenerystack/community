@@ -33,6 +33,7 @@ import type { RoundToggleButtonOptions } from 'scenerystack/sun';
 
 
 - **valueOffSoundPlayer**?: TSoundPlayer
+<br>  sounds to be played on toggle transitions
 - **valueOnSoundPlayer**?: TSoundPlayer
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
 

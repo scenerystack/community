@@ -1154,7 +1154,7 @@ nav:
         - StringIO: reference/api/tandem/StringIO.md
         - StringUnionIO: reference/api/tandem/StringUnionIO.md
         - Tandem: reference/api/tandem/Tandem.md
-        - tandem: reference/api/tandem/tandem.md
+        - tandemNamespace: reference/api/tandem/tandemNamespace.md
         - ValueIO: reference/api/tandem/ValueIO.md
         - VoidIO: reference/api/tandem/VoidIO.md
       - tappi:

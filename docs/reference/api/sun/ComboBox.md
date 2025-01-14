@@ -100,9 +100,14 @@ import type { ComboBoxItem } from 'scenerystack/sun';
 
 
 - **value**: T
+<br>  the value associated with the item
 - **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Sound that will be played when this item is selected.  If set to `null` a default sound will be used that is based
+  on this item's position in the combo box list.  A value of `nullSoundPlayer` can be used to disable.
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  pdom - the label for this item's associated Node in the combo box
 - **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)
+<br>  Options passed to ComboBoxListItemNode, the Node that appears in the listBox
 - &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
 
 
@@ -146,12 +151,20 @@ import type { ComboBoxOptions } from 'scenerystack/sun';
 - **align**?: [ComboBoxAlign](../sun/ComboBox.md#ComboBoxAlign)
 - **listPosition**?: [ComboBoxListPosition](../sun/ComboBox.md#ComboBoxListPosition)
 - **labelXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  horizontal space between label and combo box
 - **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  opacity used to make the control look disabled, 0-1
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  applied to button, listBox, and item highlights
 - **highlightFill**?: [TPaint](../scenery/TPaint.md)
+<br>  highlight behind items in the list
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Margins around the edges of the button and listbox when highlight is invisible.
+  Highlight margins around the items in the list are set to 1/2 of these values.
+  These values must be &gt; 0.
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **buttonFill**?: [TColor](../scenery/TColor.md)
+<br>  button
 - **buttonStroke**?: [TPaint](../scenery/TPaint.md)
 - **buttonLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **buttonTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -159,14 +172,27 @@ import type { ComboBoxOptions } from 'scenerystack/sun';
 - **buttonMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **buttonMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **listFill**?: [TPaint](../scenery/TPaint.md)
+<br>  list
 - **listStroke**?: [TPaint](../scenery/TPaint.md)
 - **listLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **openedSoundPlayer**?: TSoundPlayer
+<br>  Sound generators for when combo box is opened and for when it is closed with no change (closing
+  *with* a change is handled elsewhere).
 - **closedNoChangeSoundPlayer**?: TSoundPlayer
 - **buttonLabelTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  pdom
+  The tag name for the label of the ComboBox. The AccessibleNameBehavior forwards the name to the ComboBoxButton,
+  so if you need a different tag name for the ComboBox, set it here. See the ACCESSIBLE_NAME_BEHAVIOR functions
+  for ComboBox and ComboBoxButton.
 - **comboBoxVoicingNameResponsePattern**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  Voicing
+  ComboBox does not mix Voicing, so it creates custom options to pass to composed Voicing Nodes.
+  The pattern for the name response string, must include `{{value}}` so that the selected value string can
+  be filled in.
 - **comboBoxVoicingContextResponse**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  most context responses are dynamic to the current state of the sim, so lazily create them when needed.
 - **comboBoxVoicingHintResponse**?: SpeakableResolvedResponse | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  string for the voicing response
 - &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;, "children"&gt;
 
 

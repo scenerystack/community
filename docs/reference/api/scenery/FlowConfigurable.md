@@ -43,10 +43,27 @@ import type { FlowConfigurableOptions } from 'scenerystack/scenery';
 
 
 - **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The main orientation of the layout that takes place. Items will be spaced out in this orientation (e.g. if it's
+  'vertical', the y-values of the components will be adjusted to space them out); this is known as the "primary"
+  axis. Items will be aligned/stretched in the opposite orientation (e.g. if it's 'vertical', the x-values of
+  the components will be adjusted by align and stretch); this is known as the "secondary" or "opposite" axis.
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-orientation
 - **align**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Adjusts the position of elements in the "opposite" axis, either to a specific side, the center, or so that all
+  the origins of items are aligned (similar to x=0 for a 'vertical' orientation).
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-align
 - **cellAlign**?: [RestrictedVerticalLayoutAlign](../scenery/LayoutAlign.md#RestrictedVerticalLayoutAlign) | [RestrictedHorizontalLayoutAlign](../scenery/LayoutAlign.md#RestrictedHorizontalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  In the "primary" axis, IF the cell is marked with a grow value, AND the node cannot expand to fill the space,
+  cellAlign will control the positioning of the node within the cell.
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-cellAlign
 - **stretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Controls whether elements will attempt to expand along the "opposite" axis to take up the full size of the
+  largest layout element.
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-stretch
 - **grow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Controls whether elements will attempt to expand along the "primary" axis. Elements will expand proportionally
+  based on the total grow sum (and will not expand at all if the grow is zero).
+  See https://phetsims.github.io/scenery/doc/layout#FlowBox-grow
 - &amp; [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions)
 
 

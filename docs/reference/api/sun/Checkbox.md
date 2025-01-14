@@ -60,17 +60,24 @@ import type { CheckboxOptions } from 'scenerystack/sun';
 - **checkboxColor**?: [TPaint](../scenery/TPaint.md)
 - **checkboxColorBackground**?: [TPaint](../scenery/TPaint.md)
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  pointer areas
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **checkedSoundPlayer**?: TSoundPlayer
+<br>  sounds
 - **uncheckedSoundPlayer**?: TSoundPlayer
 - **checkedContextResponse**?: TAlertable
+<br>  Utterances to be spoken with a screen reader after the checkbox is pressed. Also used for the voicingContextResponse.
 - **uncheckedContextResponse**?: TAlertable
 - **voiceNameResponseOnSelection**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  By default voice the name response on checkbox change (with the context response), but optionally turn it off here.
 - **voicingCheckedObjectResponse**?: TAlertable
+<br>  Output describing the state of the Checkbox after it is pressed using the Voicing feature. Like "Checked" or
+  "Locked". Not usually needed, default is null.
 - **voicingUncheckedObjectResponse**?: TAlertable
 - **phetioDisplayOnlyPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  whether the displayOnlyProperty for this checkbox is instrumented for PhET-iO
 - &amp; StrictOmit&lt;ParentOptions, "children" | "mouseArea" | "touchArea" | "tagName"&gt;
 
 

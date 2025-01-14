@@ -63,6 +63,7 @@ import type { PipelineBlueprintOptions } from 'scenerystack/alpenglow';
 
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **log**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  TODO: NOTE that this is not really... needed? Can we remove it? (log should only be for the WGSL generation)
 
 
 

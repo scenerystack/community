@@ -57,11 +57,20 @@ import type { GridConstraintOptions } from 'scenerystack/scenery';
 
 
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+<br>  Spacings are controlled in each dimension (setting `spacing`) will adjust both. If it's a number, it will be an
+  extra gap in-between every row or column. If it's an array, it will specify the gap between successive rows/columns
+  e.g. [ 5, 4 ] will have a spacing of 5 between the first and second lines, and 4 between the second and third
+  lines. In that case, if there were a third line, it would have zero spacing between the second (any non-specified
+  spacings for extra rows/columns will be zero).
+  NOTE: If a line (row/column) is invisible (and excludeInvisible is set to true), then the spacing that is directly
+  after (to the right/bottom of) that line will be ignored.
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **preferredWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+<br>  The preferred width/height (ideally from a container's localPreferredWidth/localPreferredHeight.
 - **preferredHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+<br>  The minimum width/height (ideally from a container's localMinimumWidth/localMinimumHeight.
 - **minimumHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - &amp; [ExternalGridConfigurableOptions](../scenery/GridConfigurable.md#ExternalGridConfigurableOptions) &amp; [NodeLayoutAvailableConstraintOptions](../scenery/NodeLayoutConstraint.md#NodeLayoutAvailableConstraintOptions)
 

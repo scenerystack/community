@@ -32,12 +32,18 @@ import type { mainScanWGSLOptions } from 'scenerystack/alpenglow';
 - **addScannedDoubleReduction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **areScannedReductionsExclusive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **input**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Iff inPlace:false
 - **output**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **data**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Iff inPlace:true
 - **reduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  iff storeReduction:true
 - **scannedReduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  iff addScannedReduction:true
 - **scannedDoubleReduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  iff addScannedDoubleReduction:true
 - **getAddedValue**?: [scanComprehensiveWGSLOptions](../alpenglow/scanComprehensiveWGSL.md#scanComprehensiveWGSLOptions)&lt;T&gt;[ 'getAddedValue' ]
+<br>  only if addScannedReduction:false
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; Pick&lt;[scanComprehensiveWGSLOptions](../alpenglow/scanComprehensiveWGSL.md#scanComprehensiveWGSLOptions)&lt;T&gt;, "exclusive" | "lengthExpression" | "inputOrder" | "inputAccessOrder" | "factorOutSubexpressions" | "stripeReducedOutput"&gt;
 
 

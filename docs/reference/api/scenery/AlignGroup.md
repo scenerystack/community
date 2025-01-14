@@ -93,7 +93,9 @@ import type { AlignGroupOptions } from 'scenerystack/scenery';
 
 
 - **matchHorizontal**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the boxes should have all matching widths (otherwise it fits to size)
 - **matchVertical**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the boxes should have all matching heights (otherwise it fits to size)
 - &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 

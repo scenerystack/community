@@ -34,6 +34,7 @@ import type { MatrixBetweenPropertyOptions } from 'scenerystack/scenery';
 
 
 - **fromCoordinateFrame**?: CoordinateFrame
+<br>  Which coordinate frames we want to be converting from/to, for each node
 - **toCoordinateFrame**?: CoordinateFrame
 
 

@@ -393,33 +393,155 @@ import type { RichTextOptions } from 'scenerystack/scenery';
 
 
 - **boundsMethod**?: [TextBoundsMethod](../scenery/Text.md#TextBoundsMethod)
+<br>  Sets how bounds are determined for text
 - **font**?: [Font](../scenery/Font.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  Sets the font for the text
 - **fill**?: [TPaint](../scenery/TPaint.md)
+<br>  Sets the fill of the text
 - **stroke**?: [TPaint](../scenery/TPaint.md)
+<br>  Sets the stroke around the text
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the lineWidth around the text
 - **subScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the scale of any subscript elements
 - **subXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets horizontal spacing before any subscript elements
 - **subYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets vertical offset for any subscript elements
 - **supScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the scale for any superscript elements
 - **supXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the horizontal offset before any superscript elements
 - **supYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the vertical offset for any superscript elements
 - **capHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the expected cap height cap height (baseline to top of capital letters) as a scale
 - **underlineLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the line width for underlines
 - **underlineHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the underline height as a scale relative to text bounds height
 - **strikethroughLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets line width for strikethrough
 - **strikethroughHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets height of strikethrough as a scale relative to text bounds height
 - **linkFill**?: [TPaint](../scenery/TPaint.md)
+<br>  Sets the fill for links within the text
 - **linkEventsHandled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Sets whether link clicks will call event.handle()
 - **links**?: [RichTextLinks](../scenery/RichText.md#RichTextLinks)
+<br>  Sets the map of href placeholder =&gt; actual href/callback used for links. However, if set to true ({boolean}) as a
+  full object, links in the string will not be mapped, but will be directly added.
+  
+  For instance, the default is to map hrefs for security purposes:
+  
+  new RichText( '&lt;a href="{{alink}}"&gt;content&lt;/a&gt;', {
+    links: {
+      alink: 'https://phet.colorado.edu'
+    }
+  } );
+  
+  But links with an href not matching will be ignored. This can be avoided by passing links: true to directly
+  embed links:
+  
+  new RichText( '&lt;a href="https://phet.colorado.edu"&gt;content&lt;/a&gt;', { links: true } );
+  
+  Callbacks (instead of a URL) are also supported, e.g.:
+  
+  new RichText( '&lt;a href="{{acallback}}"&gt;content&lt;/a&gt;', {
+    links: {
+      acallback: function() { console.log( 'clicked' ) }
+    }
+  } );
+  
+  See https://github.com/phetsims/scenery-phet/issues/316 for more information.
 - **nodes**?: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [Node](../scenery/Node.md)&gt;
+<br>  A map of string =&gt; Node, where `&lt;node id="string"/&gt;` will get replaced by the given Node (DAG supported)
+  
+  For example:
+  
+  new RichText( 'This is a &lt;node id="test"/&gt;', {
+    nodes: {
+      test: new Text( 'Node' )
+    }
+  }
+  
+  Alignment is also supported, with the align attribute (center/top/bottom/origin).
+  This alignment is in relation to the current text/font size in the HTML where the &lt;node&gt; tag is placed.
+  An example:
+  
+  new RichText( 'This is a &lt;node id="test" align="top"/&gt;', {
+    nodes: {
+      test: new Text( 'Node' )
+    }
+  }
+  NOTE: When alignment isn't supplied, origin is used as a default. Origin means "y=0 is placed at the baseline of
+  the text".
 - **tags**?: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, ( node: [Node](../scenery/Node.md) ) =&gt; [Node](../scenery/Node.md)&gt;
+<br>  A map of string =&gt; Node replacement function ( node: Node ) =&gt; Node, where RichText will "render" line content
+  inside the tag, and then pass it to the function to replace the content of the Node. Each tag function should
+  return a new Node.
+  
+  For example:
+  
+    new RichText( 'There is &lt;blue&gt;blue text&lt;/blue&gt; and &lt;blur&gt;blurry text&lt;/blur&gt;', {
+      tags: {
+        blur: node =&gt; new Node( { children: [ node ], filters: [ new GaussianBlur( 1.5 ) ] } ),
+        blue: node =&gt; new Node( { children: [ Rectangle.bounds( node.bounds, { fill: '#88f' } ), node ] } )
+      }
+    } )
+  
+  NOTE: This does NOT affect the layout or bounds of the resulting content, since the layout is done BEFORE this
+  wrapping is done. If we ever need the wrapping to be done BEFORE, the wrapping will need to be called many times
+  when line-wrapping is done.
+  
+  Here is a more in-depth example with many elements:
+  
+    new RichText( 'This is a test with &lt;blue&gt;blue&lt;/blue&gt; text being &lt;blue&gt;wrapped in a blue color that should support line wrap&lt;/blue&gt;. Text can also be &lt;translucent&gt;more transparent&lt;/translucent&gt;, or can be &lt;blur&gt;blurred&lt;/blur&gt; or have &lt;shadow&gt;drop shadow&lt;/shadow&gt;. Tags can be &lt;blue&gt;repeated or &lt;blur&gt;nested&lt;/blur&gt;&lt;/blue&gt;', {
+      lineWrap: 300,
+      tags: {
+        blur: node =&gt; {
+          return new Node( {
+            children: [ node ],
+            filters: [ new GaussianBlur( 1.5 ) ]
+          } );
+        },
+        shadow: node =&gt; {
+          return new Node( {
+            children: [ node ],
+            filters: [ new DropShadow( new Vector2( 2, 1 ), 2, 'red' ) ]
+          } );
+        },
+        translucent: node =&gt; {
+          return new Node( {
+            children: [ node ],
+            opacity: 0.5
+          } );
+        },
+        blue: node =&gt; {
+          return new Node( {
+            children: [
+              Rectangle.bounds( node.bounds.dilated( 1 ), { fill: '#88f' } ),
+              node
+            ]
+          } );
+        }
+      }
+    } )
 - **replaceNewlines**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Will replace newlines (`\n`) with &lt;br&gt;, similar to the old MultiLineText (defaults to false)
 - **align**?: [RichTextAlign](../scenery/RichText.md#RichTextAlign)
+<br>  Sets text alignment if there are multiple lines
 - **leading**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the spacing between lines if there are multiple lines
 - **lineWrap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | "stretch" | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Sets width of text before creating a new line.
+  When set to 'stretch' controls whether its WidthSizable. In this case it will use the preferred width
+  to determine the line wrap.
 - **stringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Sets forwarding of the stringProperty, see setStringProperty() for more documentation
 - **stringPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 - **string**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Sets the string to be displayed by this Node
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

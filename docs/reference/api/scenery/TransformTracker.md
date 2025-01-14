@@ -51,6 +51,7 @@ import type { TransformTrackerOptions } from 'scenerystack/scenery';
 
 
 - **isStatic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the bounds listeners should be added with on() or onStatic().
 
 
 

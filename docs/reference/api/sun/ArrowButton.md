@@ -45,12 +45,16 @@ import type { ArrowButtonOptions } from 'scenerystack/sun';
 
 
 - **arrowHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  from tip to base
 - **arrowWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  width of base
 - **arrowFill**?: [TPaint](../scenery/TPaint.md)
 - **arrowStroke**?: [TPaint](../scenery/TPaint.md)
 - **arrowLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numberOfArrows**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  each arrow will have the same shape and styling
 - **arrowSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  spacing for each arrow such that they overlap slightly
 - &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "listener"&gt;
 
 

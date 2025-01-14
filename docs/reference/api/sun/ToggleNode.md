@@ -96,7 +96,14 @@ import type { ToggleNodeOptions } from 'scenerystack/sun';
 
 
 - **alignChildren**?: ( children: [Layoutable](../scenery/LayoutProxy.md#Layoutable)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  {function} determines the relative layout of element Nodes. See below for pre-defined layout.
 - **unselectedChildrenSceneGraphStrategy**?: "included" | "excluded"
+<br>  Determine whether unselected children (the ones not displayed) are in the scene graph.
+  - If included (the default), unselected children are in the scene graph and hidden via setVisible(false). In this case
+    the layout is the union of the bounds of all children (visible and invisible).
+  - If excluded, children are added to the scene graph when selected and removed when not selected. The ToggleNode has
+  the bounds of its selected child. This option can sometimes improve performance. Children added to the ToggleNode
+  outside the constructor will not be managed correctly.
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 

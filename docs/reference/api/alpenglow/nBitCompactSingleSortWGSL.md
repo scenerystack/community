@@ -21,13 +21,19 @@ import type { nBitCompactSingleSortWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **order**: [BitOrder](../alpenglow/ConcreteType.md#BitOrder)&lt;T&gt;
+<br>  Currently mostly used for the type, but we might be able to use it for more later. (TODO)
 - **bitsScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+<br>  var&lt;workgroup&gt; array&lt;u32|vec2u|vec3u|vec4u, workgroupSize&gt; TODO: we can pack this more efficiently, no?
 - **valueScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+<br>  var&lt;workgroup&gt; array&lt;T, workgroupSize * grainSize&gt;
 - **lengthExpression**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **getBits**: ( value: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **earlyLoad**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  (controls whether we load the values early or late - might affect register pressure)
 - **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  e.g. 2 for a two-bit sort
 - **bitVectorSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  (1/2/3/4) for (u32/vec2u/vec3u/vec4u) e.g. 4 for a vec4u
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; [LocalIndexable](../alpenglow/WGSLUtils.md#LocalIndexable)
 
 

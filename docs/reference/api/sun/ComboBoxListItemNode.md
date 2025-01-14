@@ -46,8 +46,11 @@ import type { ComboBoxListItemNodeOptions } from 'scenerystack/sun';
 
 - **align**?: "left" | "right" | "center"
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  margin between the item and the highlight edge
 - **highlightFill**?: [TPaint](../scenery/TPaint.md)
+<br>  highlight behind the item
 - **highlightCornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  corner radius for the highlight
 - **comboBoxVoicingNameResponsePattern**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - &amp; StrictOmit&lt;ParentOptions, "children" | "innerContent"&gt;
 

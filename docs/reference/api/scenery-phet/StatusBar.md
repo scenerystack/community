@@ -54,7 +54,11 @@ import type { StatusBarOptions } from 'scenerystack/scenery-phet';
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **floatToTop**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  true: float bar to top of visible bounds
+  false: bar at top of layoutBounds
 - **dynamicAlignment**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  true: keeps things on the status bar aligned with left and right edges of self bounds (aka visible bounds)
+  false: keeps things on the status bar aligned with left and right edges of layoutBounds
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

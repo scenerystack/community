@@ -58,10 +58,19 @@ import type { PoolableOptions } from 'scenerystack/phet-core';
 
 
 - **defaultArguments**?: ConstructorParameters&lt;T&gt;
+<br>  If an object needs to be created without a direct call (say, to fill the pool initially), these are the arguments
+  that will be passed into the constructor
 - **initialize**?: PoolableInitializer&lt;T&gt;
+<br>  The function to call on the objects to reinitialize them (that is either the constructor, or acts like the
+  constructor). NOTE: This should return the object itself!
 - **maxSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  A limit for the pool size (so we don't leak memory by growing the pool faster than we take things from it). Can be
+  customized by setting Type.maxPoolSize
 - **initialSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  The initial size of the pool. To fill it, objects will be created with the default arguments.
 - **useDefaultConstruction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, when constructing the default arguments will always be used (and then initialized with the initializer)
+  instead of just providing the arguments straight to the constructor.
 - &amp; ( InstanceType&lt;T&gt; extends { initialize: PoolableInitializer&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
   // Require initialize if our type doesn't have a compatible initialize method.
   initialize: PoolableInitializer&lt;T&gt;;
@@ -94,6 +103,8 @@ import type { TPoolable } from 'scenerystack/phet-core';
 
 
 - **freeToPool**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Adds this object into the pool, so that it can be reused elsewhere. Generally when this is done, no other
+  references to the object should be held (since they should not be used at all).
 
 
 

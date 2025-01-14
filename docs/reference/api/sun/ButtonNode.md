@@ -78,20 +78,35 @@ import type { ButtonNodeOptions } from 'scenerystack/sun';
 
 
 - **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  what appears on the button (icon, label, etc.)
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  margin in x direction, i.e. on left and right
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  margin in y direction, i.e. on top and bottom
 - **xAlign**?: [AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign)
+<br>  Alignment, relevant only when options minWidth or minHeight are greater than the size of options.content
 - **yAlign**?: [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)
 - **xContentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  By default, icons are centered in the button, but icons with odd
+  shapes that are not wrapped in a normalizing parent node may need to
+  specify offsets to line things up properly
 - **yContentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **listenerOptions**?: [PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)
+<br>  Options that will be passed through to the main input listener (PressListener)
 - **baseColor**?: [TPaint](../scenery/TPaint.md)
+<br>  initial color of the button's background
 - **disabledColor**?: [TPaint](../scenery/TPaint.md)
+<br>  Color when disabled
 - **buttonAppearanceStrategy**?: [TButtonAppearanceStrategy](../sun/TButtonAppearanceStrategy.md)
+<br>  Class and associated options that determine the button's appearance and the changes that occur when the button is
+  pressed, hovered over, disabled, and so forth.
 - **buttonAppearanceStrategyOptions**?: [TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)
 - **contentAppearanceStrategy**?: [TContentAppearanceStrategy](../sun/TContentAppearanceStrategy.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Class and associated options that determine how the content node looks and the changes that occur when the button
+  is pressed, hovered over, disabled, and so forth.
 - **contentAppearanceStrategyOptions**?: [TContentAppearanceStrategyOptions](../sun/TContentAppearanceStrategy.md#TContentAppearanceStrategyOptions)
 - **enabledAppearanceStrategy**?: EnabledAppearanceStrategy
+<br>  Alter the appearance when changing the enabled of the button.
 - &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions) &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

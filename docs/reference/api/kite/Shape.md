@@ -688,6 +688,7 @@ import type { NonlinearTransformedOptions } from 'scenerystack/kite';
 
 
 - **includeCurvature**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  whether to include a default curveEpsilon (usually off by default)
 - &amp; [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions)
 
 

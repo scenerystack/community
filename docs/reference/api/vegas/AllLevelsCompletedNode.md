@@ -31,7 +31,9 @@ import type { AllLevelsCompletedNodeOptions } from 'scenerystack/vegas';
 
 
 - **faceDiameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  diameter of the smiley face
 - **maxTextWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Controls the width of the main message and the text in the button
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

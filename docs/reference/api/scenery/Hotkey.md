@@ -146,16 +146,37 @@ import type { HotkeyOptions } from 'scenerystack/scenery';
 
 
 - **keyStringProperty**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;
+<br>  Describes the keys, modifier keys, and ignored modifier keys for this hotkey. This is a Property to support
+  dynamic behavior. This will be useful for i18n or creating new keymaps. See KeyDescriptor for documentation
+  about the key and modifierKeys.
 - **fire**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called as fire() when the hotkey is fired (see fireOnDown/fireOnHold for when that happens).
+  The event will be null if the hotkey was fired due to fire-on-hold.
 - **press**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called as press() when the hotkey is pressed. Note that the Hotkey may be pressed before firing depending
+  on fireOnDown. And press is not called with fire-on-hold. The event may be null if there is a press due to
+  the hotkey becoming active due to change in state without a key press.
 - **release**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Called as release() when the Hotkey is released. Note that the Hotkey may release without calling fire() depending
+  on fireOnDown. Event may be null in cases of interrupt or if the hotkey is released due to change in state without
+  a key release.
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the hotkey will fire when the hotkey is initially pressed.
+  If false, the hotkey will fire when the hotkey is finally released.
 - **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether the fire-on-hold feature is enabled
 - **fireOnHoldTiming**?: [HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)
+<br>  Whether we should listen to the browser's fire-on-hold timing, or use our own.
 - **fireOnHoldCustomDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Start to fire continuously after pressing for this long (milliseconds)
 - **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Fire continuously at this interval (milliseconds)
 - **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  For each main `key`, the hotkey system will only allow one hotkey with allowOverlap:false to be active at any time.
+  This is provided to allow multiple hotkeys with the same keys to fire. Default is false.
 - **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, any overlapping hotkeys (either added to an ancestor's inputListener or later in the local/global order)
+  will be ignored.
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 

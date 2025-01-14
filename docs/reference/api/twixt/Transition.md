@@ -149,8 +149,12 @@ import type { TransitionOptions } from 'scenerystack/twixt';
 
 
 - **fromTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
+<br>  A list of partial configurations that will individually be passed to the targets for an Animation (and thus to
+  AnimationTarget). They will be combined with `object: node` and options.targetOptions to create the Animation.
+  See Animation's targets parameter for more information
 - **toTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
 - **resetNode**: ( node: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  resets the animated parameter(s) to their default values.
 - **targetOptions**?: AnimationTargetOptions&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [Node](../scenery/Node.md)&gt;
 - &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;SelfType, SelfObjectType, TargetTypes, TargetObjectTypes&gt;
 

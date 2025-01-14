@@ -18,6 +18,7 @@ import type { mainMergeWGSLOptions } from 'scenerystack/alpenglow';
 - **workgroupSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **blockOutputSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **sharedMemorySize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  should be a divisor of blockOutputSize, and ideally a multiple of workgroupSize
 - **order**: [CompareOrder](../alpenglow/ConcreteType.md#CompareOrder)&lt;T&gt;
 - **lengthExpressionA**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **lengthExpressionB**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)

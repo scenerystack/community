@@ -69,7 +69,7 @@ Help text used on the screen buttons, see options above.
 
 (readonly)
 
-#### createKeyboardHelpNode : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( [tandem](../tandem/tandem.md): [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )</span> {: #createKeyboardHelpNode data-toc-label='createKeyboardHelpNode' }
+#### createKeyboardHelpNode : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( tandem: [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )</span> {: #createKeyboardHelpNode data-toc-label='createKeyboardHelpNode' }
 
 (readonly)
 
@@ -108,14 +108,20 @@ import type { ScreenOptions } from 'scenerystack/sim';
 - **name**?: [PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **instrumentNameProperty**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **backgroundColorProperty**?: [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md)&gt; | [Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [ProfileColorProperty](../scenery/ProfileColorProperty.md)
+<br>  It would be preferable to support Property&lt;Color | string&gt; solely, but many subtypes are hardcoded to be Color only
+  or string only, so we support this polymorphic form
 - **homeScreenIcon**?: [ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **showUnselectedHomeScreenIconFrame**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **navigationBarIcon**?: [ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **showScreenIconFrameForNavigationBarFill**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **maxDT**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **createKeyboardHelpNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( [tandem](../tandem/tandem.md): [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )
+<br>  dt cap in seconds, see https://github.com/phetsims/joist/issues/130
+- **createKeyboardHelpNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( tandem: [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )
 - **screenButtonsHelpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- &amp; StrictOmit&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandemNameSuffix"&gt; &amp; PickRequired&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+<br>  Help text that will be added to the Home screen button and navigation bar button for this screen.
+  This is often a full but short sentence with a period at the end of it. This is also used as the
+  hint response for these buttons with the Voicing feature.
+- &amp; StrictOmit&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandemNameSuffix"&gt; &amp; PickRequired&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

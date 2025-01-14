@@ -61,8 +61,11 @@ import type { CallbackTimerOptions } from 'scenerystack/axon';
 
 
 - **callback**?: [CallbackTimerCallback](../axon/CallbackTimer.md#CallbackTimerCallback)
+<br>  convenience for adding 1 callback
 - **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  start to fire continuously after pressing for this long, in ms
 - **interval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  fire continuously at this interval, in ms
 
 
 

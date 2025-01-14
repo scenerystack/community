@@ -84,6 +84,9 @@ import type { IsValidValueOptions } from 'scenerystack/axon';
 
 
 - **validateValidator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  By default validation will always check the validity of the validator itself. However, for types like
+  Property and Emitter re-checking the validator every time the Property value changes or the Emitter emits
+  wastes cpu. Hence cases like those can opt-out
 
 
 
@@ -109,12 +112,36 @@ import type { Validator } from 'scenerystack/axon';
 
 
 - **valueType**?: ValueType | ValueType[]
+<br>  Type of the value.
+  If {function}, the function must be a constructor.
+  If {string}, the string must be one of the primitive types listed in TYPEOF_STRINGS.
+  If {null|undefined}, the value must be null (which doesn't make sense until the next line of doc)
+  If {Array.&lt;string|function|null|undefined&gt;}, each item must be a legal value as explained in the above doc
+  Unused if null.
+  Examples:
+  valueType: Vector2
+  valueType: 'string'
+  valueType: 'number',
+  valueType: [ 'number', null ]
+  valueType: [ 'number', 'string', Node, null ]
 - **validValues**?: readonly T[]
+<br>  Valid values for this Property. Unused if null.
+  Example:
+  validValues: [ 'horizontal', 'vertical' ]
 - **valueComparisonStrategy**?: ValueComparisonStrategy&lt;T&gt;
+<br>  equalsFunction -&gt; must have .equals() function on the type T
 - **isValidValue**?: ( v: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Function that validates the value. Single argument is the value, returns boolean. Unused if null.
+  Example:
+  isValidValue: function( value ) { return Number.isInteger( value ) &amp;&amp; value &gt;= 0; }
 - **phetioType**?: [IOType](../tandem/IOType.md)
+<br>  An IOType used to specify the public typing for PhET-iO. Each IOType must have a
+  `validator` key specified that can be used for validation. See IOType for an example.
 - **validationMessage**?: [ValidationMessage](../axon/Validation.md#ValidationMessage)
+<br>  if provided, this will provide supplemental information to the assertion/validation messages in addition to the
+  validate-key-specific message that will be given.
 - **validators**?: [Validator](../axon/Validation.md#Validator)&lt;T&gt;[]
+<br>  A list of Validator objects, each of which must pass to be a valid value
 
 
 

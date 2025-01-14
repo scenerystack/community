@@ -109,8 +109,12 @@ import type { HighlightOverlayOptions } from 'scenerystack/scenery';
 
 
 - **pdomFocusHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+<br>  Controls whether highlights related to DOM focus are visible
 - **interactiveHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+<br>  Controls whether highlights related to Interactive Highlights are visible
 - **readingBlockHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+<br>  Controls whether highlights associated with ReadingBlocks (of the Voicing feature set)
+  are shown when pointerFocusProperty changes
 
 
 

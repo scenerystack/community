@@ -45,10 +45,12 @@ import type { CarouselComboBoxOptions } from 'scenerystack/sun';
 
 
 - **itemNodeOptions**?: CarouselItemNodeOptions
+<br>  Nested options passed to subcomponents
 - **carouselOptions**?: [CarouselOptions](../sun/Carousel.md#CarouselOptions)
 - **pageControlOptions**?: StrictOmit&lt;[PageControlOptions](../sun/PageControl.md#PageControlOptions), "orientation"&gt;
 - **buttonOptions**?: StrictOmit&lt;[ComboBoxButtonOptions](../sun/ComboBoxButton.md#ComboBoxButtonOptions), "content" | "listener"&gt;
 - **openedSoundPlayer**?: TSoundPlayer
+<br>  Sound generators for when the combo box is opened and closed.
 - **closedSoundPlayer**?: TSoundPlayer
 - &amp; StrictOmit&lt;ParentOptions, "children"&gt;
 

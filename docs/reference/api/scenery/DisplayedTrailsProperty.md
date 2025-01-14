@@ -58,11 +58,28 @@ import type { DisplayedTrailsPropertyOptions } from 'scenerystack/scenery';
 
 
 - **display**?: DisplayPredicate
+<br>  If provided, we will only report trails that are rooted for the specific Display provided.
 - **followPDOMOrder**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, we will additionally follow the pdomParent if it is available (if our child node is specified in a pdomOrder of another
+  node, we will follow that order).
+  This essentially tracks the following:
+  
+  REVIEW: I'd actually add [a-z]?Pdom[A-Z] to phet/bad-sim-text if you're alright with that. Close to https://github.com/phetsims/chipper/blob/f56c273970f22f857bc8f5bd0148f256534a702f/eslint/rules/bad-sim-text.js#L35-L36
+  
+  REVIEW: Aren't these boolean values opposite? followPDOMOrder:true should respect pdomOrder. Also, it isn't clear
+          from the doc how you ask for "all trails, visual or PDOM". Is that part of the featureset? I believe
+          that likely we would always force visible as a base feature, and only add on visibility, but this should
+          be explained. As easy as the doc update above I just did: "we will _additionally_ follow the pdomParent"
+  - followPDOMOrder: true = visual trails (just children)
+  - followPDOMOrder: false = pdom trails (respecting pdomOrder)
 - **requireVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, we will only report trails where every node is visible: true.
 - **requirePDOMVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, we will only report trails where every node is pdomVisible: true.
 - **requireEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, we will only report trails where every node is enabled: true.
 - **requireInputEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, we will only report trails where every node is inputEnabled: true.
 
 
 

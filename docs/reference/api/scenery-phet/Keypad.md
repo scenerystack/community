@@ -175,8 +175,14 @@ import type { KeypadOptions } from 'scenerystack/scenery-phet';
 - **buttonColor**?: [TPaint](../scenery/TPaint.md)
 - **buttonFont**?: [Font](../scenery/Font.md)
 - **accumulator**?: [AbstractKeyAccumulator](../scenery-phet/AbstractKeyAccumulator.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Accumulator that collects and interprets key presses, see various implementations for examples. If provided, this
+  will be disposed with this Keypad
 - **accumulatorOptions**?: [NumberAccumulatorOptions](../scenery-phet/NumberAccumulator.md#NumberAccumulatorOptions) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Options passed to NumberAccumulator, ignored if options.accumulator is provided
 - **useGlobalKeyboardListener**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the KeyboardListener for this KeyPad will be "global" and key presses will control the Keypad regardless
+  of where focus is in the document. Only have one Keypad at a time that can receive global keyboard input
+  (an assertion will be thrown).
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

@@ -51,7 +51,14 @@ import type { LayoutNodeOptions } from 'scenerystack/scenery';
 
 
 - **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Controls whether the layout container will re-trigger layout automatically after the "first" layout during
+  construction. The layout container will layout once after processing the options object, but if resize:false,
+  then after that manual layout calls will need to be done (with updateLayout())
 - **layoutOrigin**?: [Vector2](../dot/Vector2.md)
+<br>  Controls where the origin of the "layout" is placed (usually within the Node itself). For typical usages, this will
+  be (0,0) and the upper-left of the content will be placed there. `layoutOrigin` will adjust this point.
+  NOTE: If there is origin-based content, that content will be placed at this origin (and may go to the top/left of
+  this layoutOrigin).
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions) &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions)
 
 

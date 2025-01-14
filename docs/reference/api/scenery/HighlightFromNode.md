@@ -50,8 +50,13 @@ import type { HighlightFromNodeOptions } from 'scenerystack/scenery';
 
 
 - **useLocalBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, highlight will surround local bounds instead of parent bounds
 - **dilationCoefficient**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  default value is function of node transform (minus translation), but can be set explicitly.
+  see HighlightPath.getDilationCoefficient(). A number here refers to the amount in global coordinates to
+  dilate the focus highlight.
 - **useGroupDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, dilation for bounds around node will increase, see setShapeFromNode()
 - &amp; StrictOmit&lt;[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions), "transformSourceNode"&gt;
 
 

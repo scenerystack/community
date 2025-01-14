@@ -66,12 +66,19 @@ import type { PushButtonModelOptions } from 'scenerystack/sun';
 
 
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  true: fire on pointer down; false: fire on pointer up if pointer is over button
 - **listener**?: [PushButtonListener](../sun/PushButtonModel.md#PushButtonListener) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  convenience for adding 1 listener, no args
 - **interruptListener**?: ( ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  a listener that gets fired before other listeners on this button, with the express purpose of just interrupting
+  other input/pointers for better multi-touch support. See https://github.com/phetsims/sun/issues/858
 - **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  fire-on-hold feature
+  TODO: these options are not supported with PDOM interaction, see https://github.com/phetsims/scenery/issues/1117
 - **fireOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **fireOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  to support properly passing this to children, see https://github.com/phetsims/tandem/issues/60
 - &amp; [ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
 
 

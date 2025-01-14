@@ -15,6 +15,7 @@ import type { fromStripedIndexWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **i**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+<br>  represents a striped index into data. So 0 is the 1st element, workgroupSIze is the 2nd element, etc.
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
 
 

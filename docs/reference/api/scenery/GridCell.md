@@ -33,9 +33,13 @@ import type { GridCellOptions } from 'scenerystack/scenery';
 
 
 - **row**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Defines the row (or if height&gt;1, the top-most row) index of the cell. row:0 is the top-most row
 - **column**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Defines the column (or if width&gt;1, the left-most column) index of the cell. column:0 is the left-most column.
 - **horizontalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  How many columns this one cell spans.
 - **verticalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  How many rows this one cell spans
 - &amp; [ExternalGridConfigurableOptions](../scenery/GridConfigurable.md#ExternalGridConfigurableOptions)
 
 

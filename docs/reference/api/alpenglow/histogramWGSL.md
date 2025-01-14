@@ -15,6 +15,7 @@ import type { histogramWGSLOptions } from 'scenerystack/alpenglow';
 
 
 - **histogramScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+<br>  var&lt;workgroup&gt; array&lt;atomic&lt;u32&gt;, numBins&gt; // TODO: can we actually get memory-compacted histograms here, instead of using a full u32?
 - **getBin**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - &amp; StrictOmit&lt;[coalescedLoopWGSLOptions](../alpenglow/coalescedLoopWGSL.md#coalescedLoopWGSLOptions), "callback"&gt;
 

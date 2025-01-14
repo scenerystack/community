@@ -107,8 +107,28 @@ import type { KeyDescriptorOptions } from 'scenerystack/scenery';
 
 
 - **key**: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)
+<br>  The key that should be pressed to trigger the hotkey (in fireOnDown:true mode) or released to trigger the hotkey
+  (in fireOnDown:false mode).
 - **modifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
+<br>  A set of modifier keys that:
+  
+  1. Need to be pressed before the main key before this hotkey is considered pressed.
+  2. Must NOT be pressed for other hotkeys to be activated when this hotkey is present.
+  
+  A Hotkey will also not activate if the standard modifier keys (ctrl/alt/meta/shift) are pressed, unless they
+  are explicitly included in the modifierKeys array.
+  
+  NOTE: This is a generalization of the normal concept of "modifier key"
+  (https://en.wikipedia.org/wiki/Modifier_key). It is a PhET-specific concept that allows other non-standard
+  modifier keys to be used as modifiers. The standard modifier keys (ctrl/alt/meta/shift) are automatically handled
+  by the hotkey system, but this can expand the set of modifier keys that can be used. When a modifier key is added,
+  pressing it will prevent any other Hotkeys from becoming active. This is how the typical modifier keys behave and
+  so that is kept consistent for PhET-specific modifier keys.
+  
+  Note that the release of a modifier key may "activate" the hotkey for "fire-on-hold", but not for "fire-on-down".
 - **ignoredModifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
+<br>  A set of modifier keys that can be down and the hotkey will still fire. Essentially ignoring the modifier
+  key behavior for this key.
 
 
 

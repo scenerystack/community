@@ -42,6 +42,9 @@ import type { ClippableFaceAccumulator } from 'scenerystack/alpenglow';
 
 
 - **usesEndPoint**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  A performance marker, such that if this is false, the user can provide arbitrary data to endX/endY/endPoint and
+  it won't matter. This is primarily for polygonal data, where we don't want to require computing the end-data
+  since it will only use the start point of each edge.
 
 
 

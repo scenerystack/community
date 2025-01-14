@@ -94,7 +94,12 @@ import type { SliderOptions } from 'scenerystack/sun';
 
 - **orientation**?: [Orientation](../phet-core/Orientation.md)
 - **trackNode**?: [SliderTrack](../sun/SliderTrack.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  optional track, replaces the default.
+  Client is responsible for highlighting, disable and pointer areas.
+  For instrumented Sliders, a supplied trackNode must be instrumented.
+  The tandem component name must be Slider.TRACK_NODE_TANDEM_NAME and it must be nested under the Slider tandem.
 - **trackSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  track - options to create a SliderTrack if trackNode not supplied
 - **trackFillEnabled**?: [TPaint](../scenery/TPaint.md)
 - **trackFillDisabled**?: [TPaint](../scenery/TPaint.md)
 - **trackStroke**?: [TPaint](../scenery/TPaint.md)
@@ -102,22 +107,39 @@ import type { SliderOptions } from 'scenerystack/sun';
 - **trackCornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **trackPickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **thumbNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  optional thumb, replaces the default.
+  Client is responsible for highlighting, disabling and pointer areas.
+  The thumb is positioned based on its center and hence can have its origin anywhere
+  Note for PhET-IO: This thumbNode should be instrumented. The thumb's dragListener is instrumented underneath
+  this thumbNode. The tandem component name must be Slider.THUMB_NODE_TANDEM_NAME and it must be nested under
+  the Slider tandem.
 - **thumbSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Options for the default thumb, ignored if thumbNode is set
 - **thumbFill**?: [TPaint](../scenery/TPaint.md)
 - **thumbFillHighlighted**?: [TPaint](../scenery/TPaint.md)
 - **thumbStroke**?: [TPaint](../scenery/TPaint.md)
 - **thumbLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbCenterLineStroke**?: [TPaint](../scenery/TPaint.md)
 - **thumbTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  dilations are specific to orientation
 - **thumbTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **thumbYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Applied to default or supplied thumb
 - **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  opacity applied to the entire Slider when disabled
 - **phetioLinkedProperty**?: [PhetioObject](../tandem/PhetioObject.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If provided, create a LinkedElement for this PhET-iO instrumented Property, instead
+  of using the passed in Property. This option was created to support passing DynamicProperty or "wrapping"
+  Property that are "implementation  details" to the PhET-iO API, and still support having a LinkedElement that
+  points to the underlying model Property.
 - **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  This is used to generate sounds as the slider is moved by the user.  If not provided, the default sound generator
+  will be created. If set to null, the slider will generate no sound.
 - **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+<br>  Options for the default sound generator.  These should only be provided when using the default.
 - &amp; [SliderTickOptions](../sun/SliderTick.md#SliderTickOptions) &amp; StrictOmit&lt;ParentOptions, RequiredParentOptionsSuppliedBySlider&gt; &amp; PickOptional&lt;ParentOptions, "enabledRangeProperty"&gt;
 
 

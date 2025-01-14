@@ -2089,6 +2089,12 @@ import type { NodeOptions } from 'scenerystack/scenery';
 - **clipArea**?: [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **transformBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **visiblePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+<br>  This option is used to create the instrumented, default PhET-iO visibleProperty. These options should not
+  be provided if a `visibleProperty` was provided to this Node, though if they are, they will just be ignored.
+  This grace is to support default options across the component hierarchy melding with usages providing a visibleProperty.
+  This option is a bit buried because it can only be used when the Node is being instrumented, which is when
+  the default, instrumented visibleProperty is conditionally created. We don't want to store these on the Node,
+  and thus they aren't support through `mutate()`.
 - **enabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - **inputEnabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - &amp; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions) &amp; [NodeTransformOptions](../scenery/Node.md#NodeTransformOptions)

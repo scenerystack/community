@@ -90,10 +90,15 @@ import type { ButtonModelOptions } from 'scenerystack/sun';
 
 
 - **startCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  called on pointer down
 - **endCallback**?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  called on pointer up, indicates whether the pointer was released over the button
 - **phetioState**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  to support properly passing this to children, see https://github.com/phetsims/tandem/issues/60
 - **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  to support properly passing this to children, see https://github.com/phetsims/tandem/issues/60
 - **phetioFeatured**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  to support properly passing this to children, see https://github.com/phetsims/tandem/issues/60
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 

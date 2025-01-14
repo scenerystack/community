@@ -87,8 +87,18 @@ import type { PanZoomListenerOptions } from 'scenerystack/scenery';
 
 
 - **panBounds**?: [Bounds2](../dot/Bounds2.md)
+<br>  these bounds should be fully filled with content at all times, in the global coordinate frame
 - **targetBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Bounds for the target node that get transformed with this listener and fill panBounds,
+  useful if the targetNode bounds do not accurately describe the targetNode (like if invisible content
+  extends off screen). Defaults to targetNode bounds if null. Bounds in the global coordinate frame of the
+  target Node.
 - **targetScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Scale that accurately describes scale of the targetNode, but is different from the actual scale of the
+  targetNode's transform. This scale is applied to translation Vectors for the TargetNode during panning. If
+  targetNode children get scaled uniformly (such as in response to self resizing or native browser zoom), you
+  likely want that scale to be applied during translation operations so that pan/zoom behaves
+  the same regardless of self size or native browser zoom.
 - &amp; [MultiListenerOptions](../scenery/MultiListener.md#MultiListenerOptions)
 
 

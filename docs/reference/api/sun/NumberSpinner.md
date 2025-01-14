@@ -32,18 +32,25 @@ import type { NumberSpinnerOptions } from 'scenerystack/sun';
 
 
 - **arrowsPosition**?: NumberSpinnerArrowsPosition
+<br>  where to place the arrow buttons
 - **arrowsScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  By default, arrows are scaled to fit dimensions of value background. This is an additional scale factor.
 - **arrowButtonFill**?: [TColor](../scenery/TColor.md)
 - **arrowButtonStroke**?: [TColor](../scenery/TColor.md)
 - **arrowButtonLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowsSoundPlayer**?: TSoundPlayer
 - **incrementFunction**?: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
+<br>  Function called when the increment button is pressed. Defaults to adding options.deltaValue.
 - **decrementFunction**?: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
+<br>  Function called when the decrement button is pressed. Defaults to subtracting options.deltaValue.
 - **deltaValue**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  may be ignored if incrementFunction and decrementFunction are provided
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numberDisplayOptions**?: [NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)
+<br>  NumberDisplay options
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  arrow button pointer areas
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

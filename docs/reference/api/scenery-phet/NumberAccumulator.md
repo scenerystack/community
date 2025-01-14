@@ -58,7 +58,7 @@ import type { NumberAccumulatorOptions } from 'scenerystack/scenery-phet';
 
 - **maxDigitsRightOfMantissa**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **maxDigits**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)" | "tandemNameSuffix"&gt;
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem" | "tandemNameSuffix"&gt;
 
 
 

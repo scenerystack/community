@@ -18,8 +18,11 @@ import type { mainReduceNonCommutativeWGSLOptions } from 'scenerystack/alpenglow
 - **input**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
+<br>  TODO: length handling?!?
 - **stripeOutput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  We can stripe the output (so the next layer of reduce can read it as striped)
 - **reduceOptions**?: StrictOmit&lt;[reduceWGSLOptions](../alpenglow/reduceWGSL.md#reduceWGSLOptions)&lt;T&gt;, "value" | "scratch" | "workgroupSize" | "binaryOp" | "localIndex" | "scratchPreloaded" | "valuePreloaded" | "mapScratchIndex" | "convergent"&gt;
+<br>  e.g. something in the future?
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; [OptionalLengthExpressionable](../alpenglow/WGSLUtils.md#OptionalLengthExpressionable)
 
 

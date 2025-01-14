@@ -38,6 +38,8 @@ import type { ShadedRectangleOptions } from 'scenerystack/scenery-phet';
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **lightSource**?: LightSource
 - **lightOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  What fraction of the cornerRadius should the light and dark gradients extend into the rectangle?
+  Should always be less than 1.
 - **darkOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

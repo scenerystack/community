@@ -47,12 +47,18 @@ import type { PlayPauseStepButtonGroupOptions } from 'scenerystack/scenery-phet'
 
 
 - **includeStepForwardButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, a StepForwardButton is included in the button group
 - **includeStepBackwardButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, a StepBackwardButton is included in the button group
 - **playPauseStepXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **playPauseButtonOptions**?: StrictOmit&lt;[PlayPauseButtonOptions](../scenery-phet/PlayPauseButton.md#PlayPauseButtonOptions), "[tandem](../tandem/tandem.md)" | "phetioDocumentation"&gt;
-- **stepForwardButtonOptions**?: StrictOmit&lt;[StepForwardButtonOptions](../scenery-phet/StepForwardButton.md#StepForwardButtonOptions), "[tandem](../tandem/tandem.md)" | "phetioDocumentation"&gt;
-- **stepBackwardButtonOptions**?: StrictOmit&lt;[StepBackwardButtonOptions](../scenery-phet/StepBackwardButton.md#StepBackwardButtonOptions), "[tandem](../tandem/tandem.md)" | "phetioDocumentation"&gt;
+<br>  horizontal space between Play/Pause and Step buttons
+- **playPauseButtonOptions**?: StrictOmit&lt;[PlayPauseButtonOptions](../scenery-phet/PlayPauseButton.md#PlayPauseButtonOptions), "tandem" | "phetioDocumentation"&gt;
+<br>  options for button subcomponents
+- **stepForwardButtonOptions**?: StrictOmit&lt;[StepForwardButtonOptions](../scenery-phet/StepForwardButton.md#StepForwardButtonOptions), "tandem" | "phetioDocumentation"&gt;
+- **stepBackwardButtonOptions**?: StrictOmit&lt;[StepBackwardButtonOptions](../scenery-phet/StepBackwardButton.md#StepBackwardButtonOptions), "tandem" | "phetioDocumentation"&gt;
 - **playingHelpText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  pdom - Strings used for the help text of this button group in the playing and paused states. If not provided,
+  default help text will be used when a step button is visible.
 - **pausedHelpText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - &amp; StrictOmit&lt;[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions)&gt;, "spacing" | "children"&gt;
 

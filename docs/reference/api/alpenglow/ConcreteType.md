@@ -16,11 +16,17 @@ import type { ConcreteType } from 'scenerystack/alpenglow';
 
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **bytesPerElement**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  TODO: deduplicate with wgslSize/wgslAlign. This is the size of the ENTIRE type, drop the "element" bit
 - **outOfRangeElement**?: T
 - **equals**: ( a: T, b: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  TS
 - **equalsWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionBool](../alpenglow/WGSLString.md#WGSLExpressionBool)
+<br>  WGSL
 - **valueType**: [WGSLType](../alpenglow/WGSLString.md#WGSLType)
+<br>  WGSL representation
+  TODO: consider rename to valueTypeWGSL?
 - **wgslAlign**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  See https://www.w3.org/TR/WGSL/#alignment-and-size
 - **wgslSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 
@@ -38,10 +44,14 @@ import type { BinaryOp } from 'scenerystack/alpenglow';
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **isCommutative**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **identity**: T
+<br>  TS
 - **apply**: ( a: T, b: T ) =&gt; T
 - **identityWGSL**: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT)
+<br>  WGSL
 - **combineExpression**?: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT)
 - **combineStatements**?: ( varName: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName), a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
+<br>  TODO: Don't have this, if needed just rely on a function placed on the blueprint(!)
+  TODO: remove this(!)
 - **atomicName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 
 
@@ -58,7 +68,9 @@ import type { BitOrder } from 'scenerystack/alpenglow';
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **getBits**: ( value: T, bitOffset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, bitQuantity: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  TS
 - **getBitsWGSL**: ( value: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), bitOffset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, bitQuantity: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+<br>  WGSL
 
 
 
@@ -74,7 +86,9 @@ import type { CompareOrder } from 'scenerystack/alpenglow';
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **compare**: ( a: T, b: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  TS
 - **compareWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionI32](../alpenglow/WGSLString.md#WGSLExpressionI32)
+<br>  WGSL
 - **greaterThanWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionBool](../alpenglow/WGSLString.md#WGSLExpressionBool)
 - **lessThanOrEqualWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionBool](../alpenglow/WGSLString.md#WGSLExpressionBool)
 

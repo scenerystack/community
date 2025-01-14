@@ -46,13 +46,21 @@ import type { LevelSelectionButtonGroupOptions } from 'scenerystack/vegas';
 ```
 
 
-- **levelSelectionButtonOptions**?: StrictOmit&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "[tandem](../tandem/tandem.md)" | "buttonHeight" | "buttonWidth"&gt;
+- **levelSelectionButtonOptions**?: StrictOmit&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "tandem" | "buttonHeight" | "buttonWidth"&gt;
+<br>  Options for all LevelSelectionButton instances in the group.
+  These can be overridden for specific button(s) via LevelSelectionButtonGroupItem.options.
 - **flowBoxOptions**?: StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "children"&gt;
+<br>  Options for the default layout, which is a FlowBox. Ignored if createLayoutNode is provided.
 - **createLayoutNode**?: ( buttons: [LevelSelectionButton](../vegas/LevelSelectionButton.md)[] ) =&gt; [LayoutNode](../scenery/LayoutNode.md)&lt;[NodeLayoutConstraint](../scenery/NodeLayoutConstraint.md)&gt;
+<br>  Creates the Node that handles layout of the buttons.
+  Use this option if you have a custom layout that cannot be achieved using the default FlowBox.
 - **gameLevels**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+<br>  Game levels whose buttons should be visible. Levels are numbered starting from 1.
+  Set this to the value of the gameLevels query parameter, a required query parameter.
+  See getGameLevelsSchema.ts and example use in FMWQueryParameters.
 - **groupButtonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **groupButtonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt; &amp; PickRequired&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "[tandem](../tandem/tandem.md)"&gt;
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt; &amp; PickRequired&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tandem"&gt;
 
 
 

@@ -39,8 +39,10 @@ import type { PageControlOptions } from 'scenerystack/sun';
 - **dotTouchAreaDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **dotMouseAreaDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **currentPageFill**?: [TPaint](../scenery/TPaint.md)
+<br>  dots representing the current page
 - **currentPageStroke**?: [TPaint](../scenery/TPaint.md)
 - **pageFill**?: [TPaint](../scenery/TPaint.md)
+<br>  dots representing all pages except the current page
 - **pageStroke**?: [TPaint](../scenery/TPaint.md)
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 

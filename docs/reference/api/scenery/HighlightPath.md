@@ -180,11 +180,18 @@ import type { HighlightPathOptions } from 'scenerystack/scenery';
 
 
 - **outerStroke**?: [TPaint](../scenery/TPaint.md)
+<br>  strokes for each highlight
 - **innerStroke**?: [TPaint](../scenery/TPaint.md)
 - **outerLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  lineWidth for each highlight. If null, the lineWidth will be calculated from the transform of
+  the Node of this highlight (or the transformSourceNode).
 - **innerLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **dashed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the highlight will appear dashed with a lineDash effect. Used often by PhET to indicate that an
+  interactive component is currently picked up and being manipulated by the user.
 - **transformSourceNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  If specified, this HighlightPath will reposition with transform changes along the unique trail to this source
+  Node. Otherwise you will have to position this highlight node yourself.
 - &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "stroke" | "lineWidth"&gt;
 
 

@@ -358,27 +358,77 @@ import type { DisplayOptions } from 'scenerystack/scenery';
 
 
 - **width**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Initial (or override) display width
 - **height**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Initial (or override) display height
 - **allowCSSHacks**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Applies CSS styles to the root DOM element that make it amenable to interactive content
 - **allowSafariRedrawWorkaround**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether we allow the display to put a rectangle in front of everything that subtly shifts every frame, in order to
+  force repaints for https://github.com/phetsims/geometric-optics-basics/issues/31.
 - **allowSceneOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Usually anything displayed outside our dom element is hidden with CSS overflow.
 - **allowLayerFitting**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If false, this will disable layer fitting (like putting preventFit: true on Nodes, but for the entire Display).
+  Layer fitting has caused some unsightly jittering (https://github.com/phetsims/scenery/issues/1289), so this
+  allows it to be turned on in a case-by-case manner.
 - **defaultCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  What cursor is used when no other cursor is specified
 - **forceSVGRefresh**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Forces SVG elements to be refreshed every frame, which can force repainting and detect (or potentially in some
+  cases work around) SVG rendering browser bugs. See https://github.com/phetsims/scenery/issues/1507
 - **backgroundColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Initial background color
 - **preserveDrawingBuffer**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether WebGL will preserve the drawing buffer
+  WARNING!: This can significantly reduce performance if set to true.
 - **allowWebGL**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether WebGL is enabled at all for drawables in this Display
+  Makes it possible to disable WebGL for ease of testing on non-WebGL platforms, see #289
 - **accessibility**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Enables accessibility features
 - **supportsInteractiveHighlights**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  {boolean} - Enables Interactive Highlights in the HighlightOverlay. These are highlights that surround
+  interactive components when using mouse or touch which improves low vision access.
 - **interactive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether mouse/touch/keyboard inputs are enabled (if input has been added).
 - **listenToOnlyElement**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, input event listeners will be attached to the Display's DOM element instead of the self.
+  Normally, attaching listeners to the self is preferred (it will see mouse moves/ups outside of the browser
+  self, allowing correct button tracking), however there may be instances where a global listener is not
+  preferred.
 - **batchDOMEvents**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Forwarded to Input: If true, most event types will be batched until otherwise triggered.
 - **assumeFullWindow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the input event location (based on the top-left of the browser tab's viewport, with no
+  scaling applied) will be used. Usually, this is not a safe assumption, so when false the location of the
+  display's DOM element will be used to get the correct event location. There is a slight performance hit to
+  doing so, thus this option is provided if the top-left location can be guaranteed.
+  NOTE: Rotation of the Display's DOM element (e.g. with a CSS transform) will result in an incorrect event
+        mapping, as getBoundingClientRect() can't work with this. getBoxQuads() should fix this when browser
+        support is available.
 - **aggressiveContextRecreation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether Scenery will try to aggressively re-create WebGL Canvas/context instead of waiting for
+  a context restored event. Sometimes context losses can occur without a restoration afterwards, but this can
+  jump-start the process.
+  See https://github.com/phetsims/scenery/issues/347.
 - **passiveEvents**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Whether the `passive` flag should be set when adding and removing DOM event listeners.
+  See https://github.com/phetsims/scenery/issues/770 for more details.
+  If it is true or false, that is the value of the passive flag that will be used. If it is null, the default
+  behavior of the browser will be used.
+  
+  Safari doesn't support touch-action: none, so we NEED to not use passive events (which would not allow
+  preventDefault to do anything, so drags actually can scroll the sim).
+  Chrome also did the same "passive by default", but because we have `touch-action: none` in place, it doesn't
+  affect us, and we can potentially get performance improvements by allowing passive events.
+  See https://github.com/phetsims/scenery/issues/770 for more information.
 - **allowBackingScaleAntialiasing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether, if no WebGL antialiasing is detected, the backing scale can be increased to provide some
+  antialiasing benefit. See https://github.com/phetsims/scenery/issues/859.
 - **container**?: HTMLElement
-- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+<br>  An HTMLElement used to contain the contents of the Display
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

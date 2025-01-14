@@ -18,6 +18,7 @@ import type { RenderImageable } from 'scenerystack/alpenglow';
 - **height**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **isFullyOpaque**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **evaluate**: ( x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [Vector4](../dot/Vector4.md)
+<br>  TODO: sampling of things, actually have methods that get samples (in any color space)
 
 
 

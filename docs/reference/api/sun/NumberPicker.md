@@ -67,11 +67,20 @@ import type { NumberPickerOptions } from 'scenerystack/sun';
 - **arrowDisabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **valueMaxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **formatValue**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  Converts a value to a string to be displayed in a Text node. NOTE: If this function can give different strings
+  to the same value depending on external state, it is recommended to rebuild the NumberPicker when that state
+  changes (as it uses formatValue over the initial range to determine the bounds that labels can take).
 - **onInput**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, oldValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  Listener that is called when the NumberPicker has input on it due to user interaction.
 - **incrementEnabledFunction**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, range: [Range](../dot/Range.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Determines when the increment arrow is enabled.
 - **decrementEnabledFunction**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, range: [Range](../dot/Range.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Determines when the decrement arrow is enabled.
 - **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Opacity used to indicate disabled, [0,1] exclusive
 - **valueChangedSoundPlayer**?: TSoundPlayer
+<br>  Sound generators for when the NumberPicker's value changes, and when it hits range extremities.
+  Use nullSoundPlayer to disable.
 - **boundarySoundPlayer**?: TSoundPlayer
 - &amp; StrictOmit&lt;ParentOptions, "valueProperty" | "enabledRangeProperty" | "pdomTimerDelay" | "pdomTimerInterval"&gt;
 

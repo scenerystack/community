@@ -40,10 +40,15 @@ import type { EnabledComponentOptions } from 'scenerystack/axon';
 
 
 - **enabledProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  if not provided, a Property will be created
 - **enabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  initial value of enabledProperty if we create it, ignored if enabledProperty is provided
 - **enabledPropertyOptions**?: [EnabledPropertyOptions](../axon/EnabledProperty.md#EnabledPropertyOptions) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  options to enabledProperty if we create it, ignored if enabledProperty is provided
 - **phetioEnabledPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
+<br>  Whether the default-created enabledProperty should be instrumented for PhET-iO. Ignored if
+  options.enabledProperty is provided.
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 
 

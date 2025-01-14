@@ -249,10 +249,20 @@ import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
 
 
 - **units**?: Units | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  units for the value, see units.js. Should prefer abbreviated units, see https://github.com/phetsims/phet-io/issues/530
 - **reentrant**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether reentrant calls to 'set' are allowed.
+  Use this to detect or prevent update cycles. Update cycles may be due to floating point error,
+  faulty logic, etc. This may be of particular interest for PhET-iO instrumentation, where such
+  cycles may pollute the data stream. See https://github.com/phetsims/axon/issues/179
 - **phetioValueType**?: [IOType](../tandem/IOType.md)
+<br>  The IOType for the values this Property supports. At this level, it doesn't matter what the state type is, so
+  it defaults to IntentionalAny.
 - **phetioOuterType**?: ( parameterType: [IOType](../tandem/IOType.md) ) =&gt; [IOType](../tandem/IOType.md)
+<br>  The IOType function that returns a parameterized IOType based on the valueType. There is a general default, but
+  subtypes can implement their own, more specific IOType.
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If specified as true, this flag will ensure that listener order never changes (like via ?listenerOrder=random)
 - &amp; Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;ParentOptions&lt;T&gt;, "phetioType"&gt;
 
 
@@ -268,6 +278,7 @@ import type { ReadOnlyPropertyState } from 'scenerystack/axon';
 
 - **value**: StateType
 - **validValues**: StateType[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Only include validValues if specified, so they only show up in PhET-iO Studio when supplied.
 - **units**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 
 

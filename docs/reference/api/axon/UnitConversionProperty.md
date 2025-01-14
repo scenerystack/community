@@ -53,6 +53,9 @@ import type { UnitConversionPropertyOptions } from 'scenerystack/axon';
 
 
 - **factor**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  The multiplicative factor to convert from INPUT =&gt; OUTPUT, e.g.
+  this.value === factor * property.value
+  This will be used to provide defaults for map/inverseMap if provided
 - &amp; [MappedPropertyOptions](../axon/MappedProperty.md#MappedPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 
 

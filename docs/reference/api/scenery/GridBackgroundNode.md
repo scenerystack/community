@@ -36,7 +36,12 @@ import type { GridBackgroundNodeOptions } from 'scenerystack/scenery';
 
 
 - **createCellBackground**?: CreateCellBackground
+<br>  Allows full customization of the background for each cell. The cell is passed in, and can be used in any way to
+  generate the background. `cell.lastAvailableBounds` is the bounds to provide. `cell.position.horizontal` and
+  `cell.position.vertical` are the row and column indices of the cell. `cell.size` can also be used.
 - **fill**?: [TPaint](../scenery/TPaint.md)
+<br>  If no createCellBackground is provided, these will be used for the fill/stroke of the Rectangle created for the
+  cells.
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

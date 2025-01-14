@@ -39,10 +39,17 @@ import type { PlayControlButtonOptions } from 'scenerystack/scenery-phet';
 
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **scaleFactorWhenNotPlaying**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  {Scale factor applied to the button when the "Play" button is shown (isPlayingProperty is false).
+  PhET convention is to increase the size of the "Play" button when interaction with the sim does NOT unpause the sim.
 - **includeGlobalHotkey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  pdom: If true, listener is added to toggle isPlayingProperty with key command "alt + k" regardless
+  of where focus is in the document. Only if the sim supports Interactive Description.
 - **startPlayingLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)
+<br>  Label for the button in the PDOM when the button will set isPlayingProperty to true
 - **endPlayingLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Label for the button in the PDOM when the button will set isPlayingProperty to false
 - **valueOffSoundPlayer**?: TSoundPlayer
+<br>  sound generation
 - **valueOnSoundPlayer**?: TSoundPlayer
 - &amp; [BooleanRoundToggleButtonOptions](../sun/BooleanRoundToggleButton.md#BooleanRoundToggleButtonOptions)
 

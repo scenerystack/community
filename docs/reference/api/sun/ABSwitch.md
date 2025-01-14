@@ -51,10 +51,17 @@ import type { ABSwitchOptions } from 'scenerystack/sun';
 
 
 - **toggleSwitchOptions**?: [ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)
+<br>  options passed to ToggleSwitch
 - **setLabelEnabled**?: ( labelNode: [Node](../scenery/Node.md), enabled: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+<br>  method of making a label look disabled
 - **valueAAccessibleName**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Accessible names for each value. They will be inserted into a pattern string for the accessible name
+  of the ABSwitch. If not provided, ABSwitch will try to find default values from the label Nodes. The
+  final string will look like:
+  "{{valueAAccessibleName}}, Switch to {{valueBAccessibleName}}"
 - **valueBAccessibleName**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **centerOnSwitch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, this.center will be at the center of the ToggleSwitch
 - &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions)&gt;, "accessibleName"&gt;
 
 

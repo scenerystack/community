@@ -26,8 +26,10 @@ import type { TButtonAppearanceStrategyOptions } from 'scenerystack/sun';
 
 
 - **stroke**?: [TPaint](../scenery/TPaint.md)
+<br>  These two act as defaults for the other strokes and line widths when provided, as sort of "convenience options".
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **overFill**?: [TPaint](../scenery/TPaint.md)
+<br>  Fill, stroke, line width, and opacity values for the various button states.
 - **overStroke**?: [TPaint](../scenery/TPaint.md)
 - **overLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **overButtonOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

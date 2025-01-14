@@ -209,9 +209,17 @@ import type { SimOptions } from 'scenerystack/sim';
 
 - **credits**?: CreditsData
 - **homeScreenWarningNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Node](../scenery/Node.md)
+<br>  a {Node} placed onto the home screen (if available)
 - **preferencesModel**?: PreferencesModel | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The PreferencesModel defines the available features for the simulation that are controllable
+  through the Preferences Dialog. Will not be null! This is a workaround to prevent creating a "default" PreferencesModel
 - **webgl**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Passed to SimDisplay, but a top level option for API ease.
 - **detachInactiveScreenViews**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  When false (default), all ScreenViews will be children (but only one will be visible). When true, only the selected
+  ScreenView will be a child. This is useful for performance reasons, e.g. when using WebGL or wish to reduce memory
+  costs. Setting this to true MAY increase the amount of time needed to switch screens.
+  See https://github.com/phetsims/faradays-electromagnetic-lab/issues/153
 - &amp; PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "phetioDesigned"&gt;
 
 

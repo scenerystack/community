@@ -42,7 +42,7 @@ import type { AquaRadioButtonGroupItem } from 'scenerystack/sun';
 
 
 - **value**: T
-- **options**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "[tandem](../tandem/tandem.md)"&gt;
+- **options**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "tandem"&gt;
 - &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
 
 
@@ -56,8 +56,12 @@ import type { AquaRadioButtonGroupOptions } from 'scenerystack/sun';
 ```
 
 
-- **radioButtonOptions**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "soundPlayer" | "[tandem](../tandem/tandem.md)"&gt;
+- **radioButtonOptions**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "soundPlayer" | "tandem"&gt;
+<br>  options propagated to AquaRadioButton instances
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Dilation of pointer areas for each radio button.
+  X dilation is ignored for orientation === 'horizontal'.
+  Y dilation is ignored for orientation === 'vertical'.
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

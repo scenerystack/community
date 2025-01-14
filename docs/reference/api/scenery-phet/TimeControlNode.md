@@ -45,12 +45,19 @@ import type { TimeControlNodeOptions } from 'scenerystack/scenery-phet';
 
 
 - **timeSpeedProperty**?: [EnumerationProperty](../axon/EnumerationProperty.md)&lt;[TimeSpeed](../scenery-phet/TimeSpeed.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Play speed Property for the radio button group. If null, no radio buttons included in this control.
 - **timeSpeeds**?: [TimeSpeed](../scenery-phet/TimeSpeed.md)[]
+<br>  Speeds supported by this TimeControlNode. Vertical radio buttons are created for each in the order provided.
 - **speedRadioButtonGroupPlacement**?: "left" | "right" | "top" | "bottom"
+<br>  speed radio buttons placement relative to the play/pause button group
 - **playPauseStepButtonOptions**?: [PlayPauseStepButtonGroupOptions](../scenery-phet/PlayPauseStepButtonGroup.md#PlayPauseStepButtonGroupOptions)
-- **speedRadioButtonGroupOptions**?: StrictOmit&lt;[TimeSpeedRadioButtonGroupOptions](../scenery-phet/TimeSpeedRadioButtonGroup.md#TimeSpeedRadioButtonGroupOptions), "[tandem](../tandem/tandem.md)"&gt;
+<br>  options passed along to the PlayPauseStepButtons, see the inner class for defaults
+- **speedRadioButtonGroupOptions**?: StrictOmit&lt;[TimeSpeedRadioButtonGroupOptions](../scenery-phet/TimeSpeedRadioButtonGroup.md#TimeSpeedRadioButtonGroupOptions), "tandem"&gt;
+<br>  options passed along to the SpeedRadioButtonGroup, if included
 - **flowBoxAlign**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)
+<br>  Alignment of the FlowBox containing the buttons
 - **flowBoxSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  horizontal space between PlayPauseStepButtons and SpeedRadioButtonGroup, if SpeedRadioButtonGroup is included
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 

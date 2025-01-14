@@ -39,13 +39,28 @@ import type { RasterizationOptions } from 'scenerystack/alpenglow';
 
 
 - **outputRasterOffset**?: [Vector2](../dot/Vector2.md)
+<br>  We'll write our results into the output raster at this x,y offset. NOTE: This is not needed when tiling, if we are
+  rendering a region that goes from x:(100,200), by default we will output into the raster at x:(100,200). This
+  should be used if we want to e.g. render a region that goes from x:(100,200) into the raster at x:(0,100).
 - **tileSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Tiling is splitting our processing into (tileSize x tileSize) chunks BEFORE sending our processing to the CAG.
+  Each tile will get CAG'ed separately, and then we'll combine the results. This is useful for large images, where
+  it can reduce the edge-intersection costs. In addition, it will likely be helpful for parallelization.
 - **polygonFiltering**?: [PolygonFilterType](../alpenglow/PolygonFilterType.md)
+<br>  TODO: doc
 - **polygonFilterWindowMultiplier**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  We'll expand the filter self by this multiplier. If it is not 1, it will potentially drop performance
+  significantly (we won't be able to grid-clip to do it efficiently, and it might cover significantly more area).
 - **edgeIntersectionSortMethod**?: "none" | "center-size" | "min-max" | "min-max-size" | "center-min-max" | "random"
+<br>  TODO: consistent naming conventions
 - **edgeIntersectionMethod**?: "quadratic" | "boundsTree" | "arrayBoundsTree"
 - **renderableFaceType**?: "polygonal" | "edged" | "edgedClipped"
 - **renderableFaceMethod**?: "simple" | "fullyCombined" | "simplifyingCombined" | "traced"
+<br>  - 'simple' will simply pass through the edges to the renderable faces
+  - 'fullyCombined' will combine ALL faces with equivalent RenderPrograms into one.
+  - 'simplifyingCombined' will (a) only combine compatible faces if they touch, and (b) will remove edges between
+     compatible faces.
+  - 'traced' will function similarly to simplifyingCombined, but will trace out the resulting polygonal faces.
 - **splitPrograms**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **executionMethod**?: RenderExecutionMethod
 - **log**?: [RasterLog](../alpenglow/RasterLog.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

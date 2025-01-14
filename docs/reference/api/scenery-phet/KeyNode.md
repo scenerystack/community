@@ -36,20 +36,31 @@ import type { KeyNodeOptions } from 'scenerystack/scenery-phet';
 
 
 - **keyFill**?: [TColor](../scenery/TColor.md)
+<br>  color and styling
 - **keyShadowFill**?: [TColor](../scenery/TColor.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **xShadowOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  offset for the shadow rectangle relative to the top left corner of the key
 - **yShadowOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  margins set by AlignBox
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **xAlign**?: XAlign
+<br>  icon aligned in center of key by default
 - **yAlign**?: YAlign
 - **xPadding**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  x and y padding around the icon, will increase the size of the key if there is available space,
+  or scale down the icon if key is at max width or height
 - **yPadding**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **minKeyWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Key will be at least this wide, making it possible to surround the icon with extra space if necessary.
+  The minimum width of the KeyNode allowed, if the icon is wider, than it will expand gracefully
 - **keyHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  the desired height of the KeyNode; icon will be scaled down if too big
 - **forceSquareKey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Force the width of the KeyNode to be the same width as height, based on the height.
+  Will scale down the icon if too wide.
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 

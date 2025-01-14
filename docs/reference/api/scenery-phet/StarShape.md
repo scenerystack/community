@@ -31,8 +31,11 @@ import type { StarShapeOptions } from 'scenerystack/scenery-phet';
 
 
 - **outerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Distance from the center to the tip of a star limb
 - **innerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Distance from the center to the closest point on the exterior of the star.  Sets the "thickness" of the star limbs
 - **numberStarPoints**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Number of star points, must be an integer
 
 
 

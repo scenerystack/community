@@ -143,10 +143,51 @@ import type { GridBoxOptions } from 'scenerystack/scenery';
 
 
 - **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Controls whether the GridBox will re-trigger layout automatically after the "first" layout during construction.
+  The GridBox will layout once after processing the options object, but if resize:false, then after that manual
+  layout calls will need to be done (with updateLayout())
 - **rows**?: LineArrays
+<br>  Sets the children of the GridBox and positions them using a 2-dimensional array of Node|null (null is a placeholder
+  and does nothing). The first index is treated as a row, and the second is treated as a column, so that:
+  
+    rows[ row ][ column ] = Node
+    rows[ y ][ x ] = Node
+  
+  Thus the following will have 2 rows that have 3 columns each:
+    rows: [ [ a, b, c ], [ d, e, f ] ]
+  
+  NOTE: This will mutate the layoutOptions of the Nodes themselves, and will also wipe out any existing children.
+  NOTE: Don't use this option with either `children` or `columns` also being set
 - **columns**?: LineArrays
+<br>  Sets the children of the GridBox and positions them using a 2-dimensional array of Node|null (null is a placeholder
+  and does nothing). The first index is treated as a column, and the second is treated as a row, so that:
+  
+    columns[ column ][ row ] = Node
+    columns[ x ][ y ] = Node
+  
+  Thus the following will have 2 columns that have 3 rows each:
+    columns: [ [ a, b, c ], [ d, e, f ] ]
+  
+  NOTE: This will mutate the layoutOptions of the Nodes themselves, and will also wipe out any existing children.
+  NOTE: Don't use this option with either `children` or `rows` also being set
 - **autoRows**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  When non-null, the cells of this grid will be positioned/sized to be 1x1 cells, filling rows until a column has
+  `autoRows` number of rows, then it will go to the next column. This should generally be used with `children` or
+  adding/removing children in normal ways.
+  NOTE: This should be used with the `children` option and/or adding children manually (addChild, etc.)
+  NOTE: This should NOT be used with autoColumns or rows/columns, as those also specify coordinate information
+  NOTE: This will only lay out children with valid bounds, and if excludeInvisibleChildrenFromBounds is true then it
+  will ALSO be constrained to only visible children. It won't leave gaps for children that don't meet these
+  constraints.
 - **autoColumns**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  When non-null, the cells of this grid will be positioned/sized to be 1x1 cells, filling columns until a row has
+  `autoColumns` number of columns, then it will go to the next row. This should generally be used with `children` or
+  adding/removing children in normal ways.
+  NOTE: This should be used with the `children` option and/or adding children manually (addChild, etc.)
+  NOTE: This should NOT be used with autoRows or rows/columns, as those also specify coordinate information
+  NOTE: This will only lay out children with valid bounds, and if excludeInvisibleChildrenFromBounds is true then it
+  will ALSO be constrained to only visible children. It won't leave gaps for children that don't meet these
+  constraints.
 - &amp; StrictOmit&lt;[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions), GridConstraintExcludedOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
 
 

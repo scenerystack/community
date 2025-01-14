@@ -68,11 +68,16 @@ import type { NodeLayoutConstraintOptions } from 'scenerystack/scenery';
 
 
 - **excludeInvisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Whether invisible Nodes are excluded from the layout.
 - **preferredWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+<br>  If available, the local versions of these Properties for the layout container should be passed in. We do the
+  layout in the local coordinate frame of e.g. GridBox/FlowBox. It's named this way just for ease-of-use within
+  this code.
 - **preferredHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **layoutOriginProperty**?: [TProperty](../axon/TProperty.md)&lt;[Vector2](../dot/Vector2.md)&gt;
+<br>  If provided, will position content at an offset from the normal origin
 
 
 

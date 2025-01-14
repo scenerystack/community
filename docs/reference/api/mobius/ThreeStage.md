@@ -112,6 +112,7 @@ import type { ThreeStageOptions } from 'scenerystack/mobius';
 
 - **backgroundColorProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;
 - **cameraPosition**?: [Vector3](../dot/Vector3.md)
+<br>  The initial camera position
 - **threeRendererOptions**?: THREE.WebGLRendererParameters
 - **threeRendererPixelRatio**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 

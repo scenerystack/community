@@ -105,14 +105,29 @@ import type { MultiListenerOptions } from 'scenerystack/scenery';
 
 
 - **mouseButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  {number} - Restricts input to the specified mouse button (but allows any touch). Only one mouse button is
+  allowed at a time. The button numbers are defined in https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button,
+  where typically:
+    0: Left mouse button
+    1: Middle mouse button (or wheel press)
+    2: Right mouse button
+    3+: other specific numbered buttons that are more rare
 - **pressCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  {string} - Sets the Pointer cursor to this cursor when the listener is "pressed".
 - **allowScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  {boolean} - If true, the listener will scale the targetNode from input
 - **allowRotation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  {boolean} - If true, the listener will rotate the targetNode from input
 - **allowMultitouchInterruption**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  {boolean} - if true, multitouch will interrupt any active pointer listeners and initiate translation
+  and scale from multitouch gestures
 - **allowMoveInterruption**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  if true, a certain amount of movement in the global coordinate frame will interrupt any pointer listeners and
+  initiate translation from the pointer, unless default behavior has been prevented by setting Intent on the Pointer.
 - **minScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  magnitude limits for scaling in both x and y
 - **maxScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

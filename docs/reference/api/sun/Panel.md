@@ -70,14 +70,21 @@ import type { PanelOptions } from 'scenerystack/sun';
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  width of the background border
 - **lineDash**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  radius of the rounded corners on the background
 - **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  dynamically resize when content bounds change
 - **backgroundPickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **align**?: [PanelAlign](../sun/Panel.md#PanelAlign)
+<br>  horizontal alignment of content in the pane, see ALIGN_VALUES
+  All alignments are equal when the content width &gt;= minWidth
+  Left is the default alignment so when there are multiple panels, their content will left align, see #252
 - **minWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  minimum width of the panel (lineWidth will add to this)
 - **minHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
