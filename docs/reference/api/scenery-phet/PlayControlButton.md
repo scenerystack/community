@@ -15,7 +15,7 @@ import { PlayControlButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlayControlButton( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, endPlayingIcon : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PlayControlButtonOptions](../scenery-phet/PlayControlButton.md#PlayControlButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlayControlButton( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, endPlayingIcon : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PlayControlButtonOptions](../scenery-phet/PlayControlButton.md#PlayControlButtonOptions)</span> ) {: #PlayControlButton-constructor data-toc-label='new PlayControlButton' }
 
 ### Instance Methods
 

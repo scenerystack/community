@@ -36,7 +36,7 @@ import { BinPacker } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new BinPacker( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BinPacker( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #BinPacker-constructor data-toc-label='new BinPacker' }
 
 ### Instance Methods
 
@@ -66,7 +66,7 @@ import { Bin } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Bin( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, parent : <span style="font-weight: 400;">[Bin](../dot/BinPacker.md#Bin) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #Bin-constructor data-toc-label='Bin-constructor' }
+#### new Bin( bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, parent : <span style="font-weight: 400;">[Bin](../dot/BinPacker.md#Bin) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #Bin-Bin-constructor data-toc-label='new Bin-Bin' }
 
 ### Instance Methods
 

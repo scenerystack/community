@@ -27,7 +27,7 @@ import { AlignGroup } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AlignGroup( providedOptions? : <span style="font-weight: 400;">[AlignGroupOptions](../scenery/AlignGroup.md#AlignGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AlignGroup( providedOptions? : <span style="font-weight: 400;">[AlignGroupOptions](../scenery/AlignGroup.md#AlignGroupOptions)</span> ) {: #AlignGroup-constructor data-toc-label='new AlignGroup' }
 
 ### Instance Methods
 

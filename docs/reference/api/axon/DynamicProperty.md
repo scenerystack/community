@@ -117,7 +117,7 @@ import { DynamicProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new DynamicProperty( valuePropertyProperty : <span style="font-weight: 400;">[TNullableProperty](../axon/DynamicProperty.md#TNullableProperty)&lt;OuterValueType&gt; | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;OuterValueType&gt;</span>, providedOptions? : <span style="font-weight: 400;">[DynamicPropertyOptions](../axon/DynamicProperty.md#DynamicPropertyOptions)&lt;ThisValueType, InnerValueType, OuterValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DynamicProperty( valuePropertyProperty : <span style="font-weight: 400;">[TNullableProperty](../axon/DynamicProperty.md#TNullableProperty)&lt;OuterValueType&gt; | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;OuterValueType&gt;</span>, providedOptions? : <span style="font-weight: 400;">[DynamicPropertyOptions](../axon/DynamicProperty.md#DynamicPropertyOptions)&lt;ThisValueType, InnerValueType, OuterValueType&gt;</span> ) {: #DynamicProperty-constructor data-toc-label='new DynamicProperty' }
 
 ### Instance Methods
 

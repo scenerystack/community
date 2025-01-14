@@ -14,7 +14,7 @@ import { DOMDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DOMDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new DOMDrawable( renderer, instance ) {: #DOMDrawable-constructor data-toc-label='new DOMDrawable' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { EraserButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new EraserButton( providedOptions? : <span style="font-weight: 400;">[EraserButtonOptions](../scenery-phet/EraserButton.md#EraserButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new EraserButton( providedOptions? : <span style="font-weight: 400;">[EraserButtonOptions](../scenery-phet/EraserButton.md#EraserButtonOptions)</span> ) {: #EraserButton-constructor data-toc-label='new EraserButton' }
 
 ### Instance Methods
 

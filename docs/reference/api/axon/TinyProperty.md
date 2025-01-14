@@ -18,7 +18,7 @@ import { TinyProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyProperty( value : <span style="font-weight: 400;">T</span>, onBeforeNotify? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['onBeforeNotify'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, hasListenerOrderDependencies? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['hasListenerOrderDependencies'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, reentrantNotificationStrategy? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['reentrantNotificationStrategy'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyProperty( value : <span style="font-weight: 400;">T</span>, onBeforeNotify? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['onBeforeNotify'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, hasListenerOrderDependencies? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['hasListenerOrderDependencies'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, reentrantNotificationStrategy? : <span style="font-weight: 400;">OptionsAlias&lt;T&gt;['reentrantNotificationStrategy'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #TinyProperty-constructor data-toc-label='new TinyProperty' }
 
 ### Instance Methods
 

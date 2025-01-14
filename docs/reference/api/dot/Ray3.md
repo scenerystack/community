@@ -14,7 +14,7 @@ import { Ray3 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Ray3( position : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, direction : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Ray3( position : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, direction : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #Ray3-constructor data-toc-label='new Ray3' }
 
 ### Instance Methods
 

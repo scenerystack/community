@@ -16,7 +16,7 @@ import { MainRadixScatterModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainRadixScatterModule( providedOptions : <span style="font-weight: 400;">[MainRadixScatterModuleOptions](../alpenglow/MainRadixScatterModule.md#MainRadixScatterModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainRadixScatterModule( providedOptions : <span style="font-weight: 400;">[MainRadixScatterModuleOptions](../alpenglow/MainRadixScatterModule.md#MainRadixScatterModuleOptions)&lt;T&gt;</span> ) {: #MainRadixScatterModule-constructor data-toc-label='new MainRadixScatterModule' }
 
 ### Instance Methods
 

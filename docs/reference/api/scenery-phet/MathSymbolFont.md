@@ -15,7 +15,7 @@ import { MathSymbolFont } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new MathSymbolFont( providedOptions? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [MathSymbolFontOptions](../scenery-phet/MathSymbolFont.md#MathSymbolFontOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MathSymbolFont( providedOptions? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [MathSymbolFontOptions](../scenery-phet/MathSymbolFont.md#MathSymbolFontOptions)</span> ) {: #MathSymbolFont-constructor data-toc-label='new MathSymbolFont' }
 
 ### Instance Methods
 

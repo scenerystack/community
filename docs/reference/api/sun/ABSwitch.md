@@ -16,7 +16,7 @@ import { ABSwitch } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ABSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueA : <span style="font-weight: 400;">T</span>, labelA : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, valueB : <span style="font-weight: 400;">T</span>, labelB : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ABSwitchOptions](../sun/ABSwitch.md#ABSwitchOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ABSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueA : <span style="font-weight: 400;">T</span>, labelA : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, valueB : <span style="font-weight: 400;">T</span>, labelB : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ABSwitchOptions](../sun/ABSwitch.md#ABSwitchOptions)</span> ) {: #ABSwitch-constructor data-toc-label='new ABSwitch' }
 
 ### Instance Methods
 

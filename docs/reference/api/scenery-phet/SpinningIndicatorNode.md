@@ -19,7 +19,7 @@ import { SpinningIndicatorNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new SpinningIndicatorNode( providedOptions? : <span style="font-weight: 400;">[SpinningIndicatorNodeOptions](../scenery-phet/SpinningIndicatorNode.md#SpinningIndicatorNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SpinningIndicatorNode( providedOptions? : <span style="font-weight: 400;">[SpinningIndicatorNodeOptions](../scenery-phet/SpinningIndicatorNode.md#SpinningIndicatorNodeOptions)</span> ) {: #SpinningIndicatorNode-constructor data-toc-label='new SpinningIndicatorNode' }
 
 ### Instance Methods
 

@@ -29,7 +29,7 @@ import { PressListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PressListener( providedOptions? : <span style="font-weight: 400;">[PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PressListener( providedOptions? : <span style="font-weight: 400;">[PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)</span> ) {: #PressListener-constructor data-toc-label='new PressListener' }
 
 ### Instance Methods
 

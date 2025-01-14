@@ -14,7 +14,7 @@ import { Saturate } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Saturate( amount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new Saturate( amount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Saturate-constructor data-toc-label='new Saturate' }
 
 ### Instance Methods
 

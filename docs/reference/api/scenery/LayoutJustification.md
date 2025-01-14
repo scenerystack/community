@@ -17,7 +17,7 @@ import { LayoutJustification } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutJustification( spacingFunctionFactory : <span style="font-weight: 400;">SpaceRemainingFunctionFactory</span>, horizontal : <span style="font-weight: 400;">[HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification)</span>, vertical : <span style="font-weight: 400;">[VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutJustification( spacingFunctionFactory : <span style="font-weight: 400;">SpaceRemainingFunctionFactory</span>, horizontal : <span style="font-weight: 400;">[HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification)</span>, vertical : <span style="font-weight: 400;">[VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification)</span> ) {: #LayoutJustification-constructor data-toc-label='new LayoutJustification' }
 
 ### Instance Methods
 

@@ -31,7 +31,7 @@ import { Font } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Font( providedOptions? : <span style="font-weight: 400;">[FontOptions](../scenery/Font.md#FontOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Font( providedOptions? : <span style="font-weight: 400;">[FontOptions](../scenery/Font.md#FontOptions)</span> ) {: #Font-constructor data-toc-label='new Font' }
 
 ### Instance Methods
 

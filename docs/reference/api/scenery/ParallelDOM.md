@@ -140,7 +140,7 @@ import { ParallelDOM } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ParallelDOM( options? : <span style="font-weight: 400;">[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelDOM( options? : <span style="font-weight: 400;">[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)</span> ) {: #ParallelDOM-constructor data-toc-label='new ParallelDOM' }
 
 ### Instance Methods
 

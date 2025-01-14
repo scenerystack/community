@@ -14,7 +14,7 @@ import { RenderableFace } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderableFace( face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span>, renderProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderableFace( face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span>, renderProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #RenderableFace-constructor data-toc-label='new RenderableFace' }
 
 ### Instance Methods
 

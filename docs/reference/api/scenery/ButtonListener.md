@@ -26,7 +26,7 @@ import { ButtonListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ButtonListener( options ) {: #constructor data-toc-label='constructor' }
+#### new ButtonListener( options ) {: #ButtonListener-constructor data-toc-label='new ButtonListener' }
 
 ### Instance Methods
 

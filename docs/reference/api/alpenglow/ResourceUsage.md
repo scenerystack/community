@@ -14,7 +14,7 @@ import { ResourceUsage } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ResourceUsage( resourceSlot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ResourceUsage( resourceSlot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #ResourceUsage-constructor data-toc-label='new ResourceUsage' }
 
 ### Instance Methods
 

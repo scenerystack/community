@@ -58,7 +58,7 @@ import { Display } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Display( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DisplayOptions](../scenery/Display.md#DisplayOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Display( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DisplayOptions](../scenery/Display.md#DisplayOptions)</span> ) {: #Display-constructor data-toc-label='new Display' }
 
 ### Instance Methods
 

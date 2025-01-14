@@ -18,7 +18,7 @@ import { KeyDescriptor } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyDescriptor( providedOptions? : <span style="font-weight: 400;">[KeyDescriptorOptions](../scenery/KeyDescriptor.md#KeyDescriptorOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyDescriptor( providedOptions? : <span style="font-weight: 400;">[KeyDescriptorOptions](../scenery/KeyDescriptor.md#KeyDescriptorOptions)</span> ) {: #KeyDescriptor-constructor data-toc-label='new KeyDescriptor' }
 
 ### Instance Methods
 

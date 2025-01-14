@@ -16,7 +16,7 @@ import { MergeSimpleModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MergeSimpleModule( providedOptions : <span style="font-weight: 400;">[MergeSimpleModuleOptions](../alpenglow/MergeSimpleModule.md#MergeSimpleModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MergeSimpleModule( providedOptions : <span style="font-weight: 400;">[MergeSimpleModuleOptions](../alpenglow/MergeSimpleModule.md#MergeSimpleModuleOptions)&lt;T&gt;</span> ) {: #MergeSimpleModule-constructor data-toc-label='new MergeSimpleModule' }
 
 ### Instance Methods
 

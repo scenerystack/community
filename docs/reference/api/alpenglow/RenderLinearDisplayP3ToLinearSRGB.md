@@ -14,7 +14,7 @@ import { RenderLinearDisplayP3ToLinearSRGB } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearDisplayP3ToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearDisplayP3ToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLinearDisplayP3ToLinearSRGB-constructor data-toc-label='new RenderLinearDisplayP3ToLinearSRGB' }
 
 ### Instance Methods
 

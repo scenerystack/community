@@ -16,7 +16,7 @@ import { PDOMPointer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMPointer( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PDOMPointer( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> ) {: #PDOMPointer-constructor data-toc-label='new PDOMPointer' }
 
 ### Instance Methods
 

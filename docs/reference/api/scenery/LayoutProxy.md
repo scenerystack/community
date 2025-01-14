@@ -20,7 +20,7 @@ import { LayoutProxy } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutProxy( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutProxy( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #LayoutProxy-constructor data-toc-label='new LayoutProxy' }
 
 ### Instance Methods
 

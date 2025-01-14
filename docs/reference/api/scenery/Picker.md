@@ -17,7 +17,7 @@ import { Picker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Picker( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Picker( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #Picker-constructor data-toc-label='new Picker' }
 
 ### Instance Methods
 

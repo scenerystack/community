@@ -21,7 +21,7 @@ import { Screen } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Screen( createModel : <span style="font-weight: 400;">() =&gt; M</span>, createView : <span style="font-weight: 400;">( model: M ) =&gt; V</span>, providedOptions : <span style="font-weight: 400;">[ScreenOptions](../sim/Screen.md#ScreenOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Screen( createModel : <span style="font-weight: 400;">() =&gt; M</span>, createView : <span style="font-weight: 400;">( model: M ) =&gt; V</span>, providedOptions : <span style="font-weight: 400;">[ScreenOptions](../sim/Screen.md#ScreenOptions)</span> ) {: #Screen-constructor data-toc-label='new Screen' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { TiledTwoPassModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TiledTwoPassModule( providedOptions : <span style="font-weight: 400;">[TiledTwoPassModuleOptions](../alpenglow/TiledTwoPassModule.md#TiledTwoPassModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TiledTwoPassModule( providedOptions : <span style="font-weight: 400;">[TiledTwoPassModuleOptions](../alpenglow/TiledTwoPassModule.md#TiledTwoPassModuleOptions)</span> ) {: #TiledTwoPassModule-constructor data-toc-label='new TiledTwoPassModule' }
 
 ### Instance Methods
 

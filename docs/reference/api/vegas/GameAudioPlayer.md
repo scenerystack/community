@@ -14,7 +14,7 @@ import { GameAudioPlayer } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new GameAudioPlayer() {: #constructor data-toc-label='constructor' }
+#### new GameAudioPlayer() {: #GameAudioPlayer-constructor data-toc-label='new GameAudioPlayer' }
 
 ### Instance Methods
 

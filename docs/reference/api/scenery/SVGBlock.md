@@ -14,7 +14,7 @@ import { SVGBlock } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #constructor data-toc-label='constructor' }
+#### new SVGBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #SVGBlock-constructor data-toc-label='new SVGBlock' }
 
 ### Instance Methods
 

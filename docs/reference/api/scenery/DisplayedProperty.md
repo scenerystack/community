@@ -14,7 +14,7 @@ import { DisplayedProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DisplayedProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">[DisplayedPropertyOptions](../scenery/DisplayedProperty.md#DisplayedPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new DisplayedProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">[DisplayedPropertyOptions](../scenery/DisplayedProperty.md#DisplayedPropertyOptions)</span> ) {: #DisplayedProperty-constructor data-toc-label='new DisplayedProperty' }
 
 ### Instance Methods
 

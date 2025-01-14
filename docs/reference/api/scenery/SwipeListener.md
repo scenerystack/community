@@ -26,7 +26,7 @@ import { SwipeListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SwipeListener( input ) {: #constructor data-toc-label='constructor' }
+#### new SwipeListener( input ) {: #SwipeListener-constructor data-toc-label='new SwipeListener' }
 
 ### Instance Methods
 

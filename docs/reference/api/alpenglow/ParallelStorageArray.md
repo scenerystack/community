@@ -27,7 +27,7 @@ import { ParallelStorageArray } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelStorageArray( data : <span style="font-weight: 400;">T[]</span>, indeterminateValue : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelStorageArray( data : <span style="font-weight: 400;">T[]</span>, indeterminateValue : <span style="font-weight: 400;">T</span> ) {: #ParallelStorageArray-constructor data-toc-label='new ParallelStorageArray' }
 
 ### Instance Methods
 

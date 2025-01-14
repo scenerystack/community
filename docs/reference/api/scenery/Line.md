@@ -14,7 +14,7 @@ import { Line } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Line( options? : <span style="font-weight: 400;">[LineOptions](../scenery/Line.md#LineOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Line( options? : <span style="font-weight: 400;">[LineOptions](../scenery/Line.md#LineOptions)</span> ) {: #Line-constructor data-toc-label='new Line' }
 
 ### Instance Methods
 

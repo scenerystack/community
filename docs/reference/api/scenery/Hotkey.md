@@ -40,7 +40,7 @@ import { Hotkey } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Hotkey( providedOptions : <span style="font-weight: 400;">[HotkeyOptions](../scenery/Hotkey.md#HotkeyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Hotkey( providedOptions : <span style="font-weight: 400;">[HotkeyOptions](../scenery/Hotkey.md#HotkeyOptions)</span> ) {: #Hotkey-constructor data-toc-label='new Hotkey' }
 
 ### Instance Methods
 

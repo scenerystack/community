@@ -14,7 +14,7 @@ import { BindGroupLayout } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BindGroupLayout( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, groupIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bindingDescriptors : <span style="font-weight: 400;">[BindingDescriptor](../alpenglow/BindingDescriptor.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new BindGroupLayout( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, groupIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bindingDescriptors : <span style="font-weight: 400;">[BindingDescriptor](../alpenglow/BindingDescriptor.md)[]</span> ) {: #BindGroupLayout-constructor data-toc-label='new BindGroupLayout' }
 
 ### Instance Methods
 

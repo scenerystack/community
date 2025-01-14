@@ -16,7 +16,7 @@ import { ButtonNode } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ButtonNode( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, buttonBackground : <span style="font-weight: 400;">[Path](../scenery/Path.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ButtonNodeOptions](../sun/ButtonNode.md#ButtonNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ButtonNode( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, buttonBackground : <span style="font-weight: 400;">[Path](../scenery/Path.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ButtonNodeOptions](../sun/ButtonNode.md#ButtonNodeOptions)</span> ) {: #ButtonNode-constructor data-toc-label='new ButtonNode' }
 
 ### Instance Methods
 
@@ -108,7 +108,7 @@ import { FlatAppearanceStrategy } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new FlatAppearanceStrategy( buttonBackground : <span style="font-weight: 400;">[PaintableNode](../scenery/Paintable.md#PaintableNode)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, baseColorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)</span> ) {: #FlatAppearanceStrategy-constructor data-toc-label='FlatAppearanceStrategy-constructor' }
+#### new FlatAppearanceStrategy( buttonBackground : <span style="font-weight: 400;">[PaintableNode](../scenery/Paintable.md#PaintableNode)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, baseColorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)</span> ) {: #FlatAppearanceStrategy-FlatAppearanceStrategy-constructor data-toc-label='new FlatAppearanceStrategy-FlatAppearanceStrategy' }
 
 ### Instance Methods
 

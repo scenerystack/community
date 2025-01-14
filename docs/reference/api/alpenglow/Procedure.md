@@ -14,7 +14,7 @@ import { Procedure } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Procedure( routine : <span style="font-weight: 400;">[Routine](../alpenglow/Routine.md)&lt;IntentionalAny, In, Out&gt;</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span>, bindGroupMap : <span style="font-weight: 400;">Map&lt;[BindGroupLayout](../alpenglow/BindGroupLayout.md), [BindGroup](../alpenglow/BindGroup.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Procedure( routine : <span style="font-weight: 400;">[Routine](../alpenglow/Routine.md)&lt;IntentionalAny, In, Out&gt;</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span>, bindGroupMap : <span style="font-weight: 400;">Map&lt;[BindGroupLayout](../alpenglow/BindGroupLayout.md), [BindGroup](../alpenglow/BindGroup.md)&gt;</span> ) {: #Procedure-constructor data-toc-label='new Procedure' }
 
 ### Instance Methods
 

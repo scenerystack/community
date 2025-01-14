@@ -17,7 +17,7 @@ import { PointerOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PointerOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PointerOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #PointerOverlay-constructor data-toc-label='new PointerOverlay' }
 
 ### Instance Methods
 

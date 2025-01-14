@@ -14,7 +14,7 @@ import { Gradient } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Gradient() {: #constructor data-toc-label='constructor' }
+#### new Gradient() {: #Gradient-constructor data-toc-label='new Gradient' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { RectangleDOMDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RectangleDOMDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new RectangleDOMDrawable( renderer, instance ) {: #RectangleDOMDrawable-constructor data-toc-label='new RectangleDOMDrawable' }
 
 ### Instance Methods
 

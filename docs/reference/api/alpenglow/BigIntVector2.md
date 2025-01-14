@@ -14,7 +14,7 @@ import { BigIntVector2 } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BigIntVector2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new BigIntVector2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">bigint</span></span> ) {: #BigIntVector2-constructor data-toc-label='new BigIntVector2' }
 
 ### Instance Methods
 

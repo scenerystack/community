@@ -15,7 +15,7 @@ import { SpriteImage } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SpriteImage( image : <span style="font-weight: 400;">[ImageableImage](../scenery/Imageable.md#ImageableImage) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;</span>, offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[SpriteImageOptions](../scenery/SpriteImage.md#SpriteImageOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SpriteImage( image : <span style="font-weight: 400;">[ImageableImage](../scenery/Imageable.md#ImageableImage) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;</span>, offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[SpriteImageOptions](../scenery/SpriteImage.md#SpriteImageOptions)</span> ) {: #SpriteImage-constructor data-toc-label='new SpriteImage' }
 
 ### Instance Methods
 

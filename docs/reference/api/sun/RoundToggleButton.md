@@ -16,7 +16,7 @@ import { RoundToggleButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundToggleButton( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundToggleButton( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions)</span> ) {: #RoundToggleButton-constructor data-toc-label='new RoundToggleButton' }
 
 ### Instance Methods
 

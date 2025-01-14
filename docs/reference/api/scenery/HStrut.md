@@ -15,7 +15,7 @@ import { HStrut } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HStrut( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[HStrutOptions](../scenery/HStrut.md#HStrutOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HStrut( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[HStrutOptions](../scenery/HStrut.md#HStrutOptions)</span> ) {: #HStrut-constructor data-toc-label='new HStrut' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { RendererSummary } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RendererSummary( node ) {: #constructor data-toc-label='constructor' }
+#### new RendererSummary( node ) {: #RendererSummary-constructor data-toc-label='new RendererSummary' }
 
 ### Instance Methods
 

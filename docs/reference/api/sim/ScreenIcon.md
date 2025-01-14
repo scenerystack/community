@@ -16,7 +16,7 @@ import { ScreenIcon } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new ScreenIcon( iconNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ScreenIconOptions](../sim/ScreenIcon.md#ScreenIconOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScreenIcon( iconNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ScreenIconOptions](../sim/ScreenIcon.md#ScreenIconOptions)</span> ) {: #ScreenIcon-constructor data-toc-label='new ScreenIcon' }
 
 ### Instance Methods
 

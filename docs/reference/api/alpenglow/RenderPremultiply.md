@@ -14,7 +14,7 @@ import { RenderPremultiply } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderPremultiply-constructor data-toc-label='new RenderPremultiply' }
 
 ### Instance Methods
 

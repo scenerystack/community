@@ -15,7 +15,7 @@ import { ScoreDisplayLabeledNumber } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new ScoreDisplayLabeledNumber( scoreProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ScoreDisplayLabeledNumberOptions](../vegas/ScoreDisplayLabeledNumber.md#ScoreDisplayLabeledNumberOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScoreDisplayLabeledNumber( scoreProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ScoreDisplayLabeledNumberOptions](../vegas/ScoreDisplayLabeledNumber.md#ScoreDisplayLabeledNumberOptions)</span> ) {: #ScoreDisplayLabeledNumber-constructor data-toc-label='new ScoreDisplayLabeledNumber' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { EnumerationMap } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new EnumerationMap( enumeration : <span style="font-weight: 400;">[TEnumeration](../phet-core/TEnumeration.md)&lt;T&gt;</span>, factory : <span style="font-weight: 400;">( t: T ) =&gt; U</span> ) {: #constructor data-toc-label='constructor' }
+#### new EnumerationMap( enumeration : <span style="font-weight: 400;">[TEnumeration](../phet-core/TEnumeration.md)&lt;T&gt;</span>, factory : <span style="font-weight: 400;">( t: T ) =&gt; U</span> ) {: #EnumerationMap-constructor data-toc-label='new EnumerationMap' }
 
 ### Instance Methods
 

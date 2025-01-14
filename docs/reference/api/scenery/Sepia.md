@@ -14,7 +14,7 @@ import { Sepia } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Sepia( amount ) {: #constructor data-toc-label='constructor' }
+#### new Sepia( amount ) {: #Sepia-constructor data-toc-label='new Sepia' }
 
 ### Instance Methods
 

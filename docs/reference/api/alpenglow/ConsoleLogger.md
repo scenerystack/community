@@ -28,7 +28,7 @@ import { ConsoleLoggedEntry } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ConsoleLoggedEntry( info : <span style="font-weight: 400;">[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)</span>, data : <span style="font-weight: 400;">T</span>, additionalIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, otherEntries : <span style="font-weight: 400;">[ConsoleLoggedEntry](../alpenglow/ConsoleLogger.md#ConsoleLoggedEntry)[]</span> ) {: #ConsoleLoggedEntry-constructor data-toc-label='ConsoleLoggedEntry-constructor' }
+#### new ConsoleLoggedEntry( info : <span style="font-weight: 400;">[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)</span>, data : <span style="font-weight: 400;">T</span>, additionalIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, otherEntries : <span style="font-weight: 400;">[ConsoleLoggedEntry](../alpenglow/ConsoleLogger.md#ConsoleLoggedEntry)[]</span> ) {: #ConsoleLoggedEntry-ConsoleLoggedEntry-constructor data-toc-label='new ConsoleLoggedEntry-ConsoleLoggedEntry' }
 
 ### Instance Methods
 
@@ -50,7 +50,7 @@ import { ConsoleLoggedLine } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ConsoleLoggedLine( info : <span style="font-weight: 400;">[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)</span>, additionalIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dataArray : <span style="font-weight: 400;">T[]</span>, threads : <span style="font-weight: 400;">[ConsoleLoggedThread](../alpenglow/ConsoleLogger.md#ConsoleLoggedThread)[]</span> ) {: #ConsoleLoggedLine-constructor data-toc-label='ConsoleLoggedLine-constructor' }
+#### new ConsoleLoggedLine( info : <span style="font-weight: 400;">[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)</span>, additionalIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dataArray : <span style="font-weight: 400;">T[]</span>, threads : <span style="font-weight: 400;">[ConsoleLoggedThread](../alpenglow/ConsoleLogger.md#ConsoleLoggedThread)[]</span> ) {: #ConsoleLoggedLine-ConsoleLoggedLine-constructor data-toc-label='new ConsoleLoggedLine-ConsoleLoggedLine' }
 
 ### Instance Methods
 
@@ -110,7 +110,7 @@ import { ConsoleLoggedThread } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ConsoleLoggedThread( workgroupIndex : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, localIndex : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #ConsoleLoggedThread-constructor data-toc-label='ConsoleLoggedThread-constructor' }
+#### new ConsoleLoggedThread( workgroupIndex : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, localIndex : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #ConsoleLoggedThread-ConsoleLoggedThread-constructor data-toc-label='new ConsoleLoggedThread-ConsoleLoggedThread' }
 
 ### Instance Methods
 

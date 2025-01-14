@@ -15,7 +15,7 @@ import { AbstractKeyAccumulator } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new AbstractKeyAccumulator( validators : <span style="font-weight: 400;">( ( keys: [KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> )[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new AbstractKeyAccumulator( validators : <span style="font-weight: 400;">( ( keys: [KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> )[]</span> ) {: #AbstractKeyAccumulator-constructor data-toc-label='new AbstractKeyAccumulator' }
 
 ### Instance Methods
 

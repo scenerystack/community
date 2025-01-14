@@ -18,7 +18,7 @@ import { PlayPauseStepButtonGroup } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlayPauseStepButtonGroup( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PlayPauseStepButtonGroupOptions](../scenery-phet/PlayPauseStepButtonGroup.md#PlayPauseStepButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlayPauseStepButtonGroup( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PlayPauseStepButtonGroupOptions](../scenery-phet/PlayPauseStepButtonGroup.md#PlayPauseStepButtonGroupOptions)</span> ) {: #PlayPauseStepButtonGroup-constructor data-toc-label='new PlayPauseStepButtonGroup' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { StatusBar } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new StatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions)</span> ) {: #StatusBar-constructor data-toc-label='new StatusBar' }
 
 ### Instance Methods
 

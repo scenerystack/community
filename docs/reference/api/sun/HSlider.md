@@ -15,7 +15,7 @@ import { HSlider } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new HSlider( valueProperty : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, options? : <span style="font-weight: 400;">[HSliderOptions](../sun/HSlider.md#HSliderOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HSlider( valueProperty : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, options? : <span style="font-weight: 400;">[HSliderOptions](../sun/HSlider.md#HSliderOptions)</span> ) {: #HSlider-constructor data-toc-label='new HSlider' }
 
 ### Instance Methods
 

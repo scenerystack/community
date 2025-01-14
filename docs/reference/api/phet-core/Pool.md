@@ -30,7 +30,7 @@ import { Pool } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Pool( type : <span style="font-weight: 400;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400;">[PossiblyRequiredParameterSpread](../phet-core/Pool.md#PossiblyRequiredParameterSpread)&lt;[PoolableOptions](../phet-core/Pool.md#PoolableOptions)&lt;T&gt;&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Pool( type : <span style="font-weight: 400;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400;">[PossiblyRequiredParameterSpread](../phet-core/Pool.md#PossiblyRequiredParameterSpread)&lt;[PoolableOptions](../phet-core/Pool.md#PoolableOptions)&lt;T&gt;&gt;</span> ) {: #Pool-constructor data-toc-label='new Pool' }
 
 ### Instance Methods
 

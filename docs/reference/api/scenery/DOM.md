@@ -15,7 +15,7 @@ import { DOM } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DOM( element : <span style="font-weight: 400;">Element | JQuery</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new DOM( element : <span style="font-weight: 400;">Element | JQuery</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #DOM-constructor data-toc-label='new DOM' }
 
 ### Instance Methods
 

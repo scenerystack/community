@@ -30,7 +30,7 @@ import { ManualConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ManualConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ManualConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) {: #ManualConstraint-constructor data-toc-label='new ManualConstraint' }
 
 ### Instance Methods
 

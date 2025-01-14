@@ -17,7 +17,7 @@ import { Complex } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Complex( real : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, imaginary : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new Complex( real : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, imaginary : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Complex-constructor data-toc-label='new Complex' }
 
 ### Instance Methods
 

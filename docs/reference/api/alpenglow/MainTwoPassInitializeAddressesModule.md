@@ -16,7 +16,7 @@ import { MainTwoPassInitializeAddressesModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassInitializeAddressesModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassInitializeAddressesModuleOptions](../alpenglow/MainTwoPassInitializeAddressesModule.md#MainTwoPassInitializeAddressesModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassInitializeAddressesModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassInitializeAddressesModuleOptions](../alpenglow/MainTwoPassInitializeAddressesModule.md#MainTwoPassInitializeAddressesModuleOptions)</span> ) {: #MainTwoPassInitializeAddressesModule-constructor data-toc-label='new MainTwoPassInitializeAddressesModule' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { PDOMFuzzer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMFuzzer( nodeCount, logToConsole, seed ) {: #constructor data-toc-label='constructor' }
+#### new PDOMFuzzer( nodeCount, logToConsole, seed ) {: #PDOMFuzzer-constructor data-toc-label='new PDOMFuzzer' }
 
 ### Instance Methods
 

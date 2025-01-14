@@ -14,7 +14,7 @@ import { RationalFace } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RationalFace( boundary : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RationalFace( boundary : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)</span> ) {: #RationalFace-constructor data-toc-label='new RationalFace' }
 
 ### Instance Methods
 

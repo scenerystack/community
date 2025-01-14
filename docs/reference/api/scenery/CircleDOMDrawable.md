@@ -14,7 +14,7 @@ import { CircleDOMDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new CircleDOMDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new CircleDOMDrawable( renderer, instance ) {: #CircleDOMDrawable-constructor data-toc-label='new CircleDOMDrawable' }
 
 ### Instance Methods
 

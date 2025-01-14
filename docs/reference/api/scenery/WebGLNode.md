@@ -19,7 +19,7 @@ import { WebGLNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new WebGLNode( painterType : <span style="font-weight: 400;">WebGLNodePainterType</span>, options? : <span style="font-weight: 400;">[WebGLNodeOptions](../scenery/WebGLNode.md#WebGLNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new WebGLNode( painterType : <span style="font-weight: 400;">WebGLNodePainterType</span>, options? : <span style="font-weight: 400;">[WebGLNodeOptions](../scenery/WebGLNode.md#WebGLNodeOptions)</span> ) {: #WebGLNode-constructor data-toc-label='new WebGLNode' }
 
 ### Instance Methods
 

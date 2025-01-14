@@ -14,7 +14,7 @@ import { BufferBindingType } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferBindingType( type : <span style="font-weight: 400;">GPUBufferBindingType</span> ) {: #constructor data-toc-label='constructor' }
+#### new BufferBindingType( type : <span style="font-weight: 400;">GPUBufferBindingType</span> ) {: #BufferBindingType-constructor data-toc-label='new BufferBindingType' }
 
 ### Instance Methods
 

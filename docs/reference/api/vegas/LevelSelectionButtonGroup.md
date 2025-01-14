@@ -25,7 +25,7 @@ import { LevelSelectionButtonGroup } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400;">LevelSelectionButtonGroupItem[]</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonGroupOptions](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400;">LevelSelectionButtonGroupItem[]</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonGroupOptions](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupOptions)</span> ) {: #LevelSelectionButtonGroup-constructor data-toc-label='new LevelSelectionButtonGroup' }
 
 ### Instance Methods
 

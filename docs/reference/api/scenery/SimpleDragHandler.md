@@ -16,7 +16,7 @@ import { SimpleDragHandler } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SimpleDragHandler( options ) {: #constructor data-toc-label='constructor' }
+#### new SimpleDragHandler( options ) {: #SimpleDragHandler-constructor data-toc-label='new SimpleDragHandler' }
 
 ### Instance Methods
 

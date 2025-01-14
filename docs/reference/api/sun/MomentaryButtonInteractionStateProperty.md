@@ -14,7 +14,7 @@ import { MomentaryButtonInteractionStateProperty } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new MomentaryButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400;">[MomentaryButtonModel](../sun/MomentaryButtonModel.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MomentaryButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400;">[MomentaryButtonModel](../sun/MomentaryButtonModel.md)&lt;T&gt;</span> ) {: #MomentaryButtonInteractionStateProperty-constructor data-toc-label='new MomentaryButtonInteractionStateProperty' }
 
 ### Instance Methods
 

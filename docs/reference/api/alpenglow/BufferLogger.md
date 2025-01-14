@@ -14,7 +14,7 @@ import { BufferLogger } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferLogger( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BufferLogger( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span> ) {: #BufferLogger-constructor data-toc-label='new BufferLogger' }
 
 ### Instance Methods
 

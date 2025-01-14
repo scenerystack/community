@@ -15,7 +15,7 @@ import { FiniteStatusBar } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new FiniteStatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, scoreProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[FiniteStatusBarOptions](../vegas/FiniteStatusBar.md#FiniteStatusBarOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new FiniteStatusBar( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, visibleBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, scoreProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[FiniteStatusBarOptions](../vegas/FiniteStatusBar.md#FiniteStatusBarOptions)</span> ) {: #FiniteStatusBar-constructor data-toc-label='new FiniteStatusBar' }
 
 ### Instance Methods
 

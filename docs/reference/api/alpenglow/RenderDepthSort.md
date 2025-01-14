@@ -14,7 +14,7 @@ import { RenderDepthSort } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderDepthSort( items : <span style="font-weight: 400;">[RenderPlanar](../alpenglow/RenderPlanar.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderDepthSort( items : <span style="font-weight: 400;">[RenderPlanar](../alpenglow/RenderPlanar.md)[]</span> ) {: #RenderDepthSort-constructor data-toc-label='new RenderDepthSort' }
 
 ### Instance Methods
 

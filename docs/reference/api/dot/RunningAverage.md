@@ -15,7 +15,7 @@ import { RunningAverage } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new RunningAverage( windowSize ) {: #constructor data-toc-label='constructor' }
+#### new RunningAverage( windowSize ) {: #RunningAverage-constructor data-toc-label='new RunningAverage' }
 
 ### Instance Methods
 

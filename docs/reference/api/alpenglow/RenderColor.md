@@ -14,7 +14,7 @@ import { RenderColor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderColor( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderColor( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderColor-constructor data-toc-label='new RenderColor' }
 
 ### Instance Methods
 

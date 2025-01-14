@@ -15,7 +15,7 @@ import { ResetShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ResetShape( radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new ResetShape( radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #ResetShape-constructor data-toc-label='new ResetShape' }
 
 ### Instance Methods
 

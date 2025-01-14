@@ -18,7 +18,7 @@ import { GaussianBlur } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GaussianBlur( standardDeviation : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, filterRegionPercentage ) {: #constructor data-toc-label='constructor' }
+#### new GaussianBlur( standardDeviation : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, filterRegionPercentage ) {: #GaussianBlur-constructor data-toc-label='new GaussianBlur' }
 
 ### Instance Methods
 

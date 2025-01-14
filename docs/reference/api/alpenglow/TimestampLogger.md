@@ -14,7 +14,7 @@ import { TimestampLogger } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TimestampLogger( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, capacity : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new TimestampLogger( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, capacity : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #TimestampLogger-constructor data-toc-label='new TimestampLogger' }
 
 ### Instance Methods
 
@@ -34,7 +34,7 @@ import { TimestampLoggerResult } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TimestampLoggerResult( timestamps : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, timestampNames : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> ) {: #TimestampLoggerResult-constructor data-toc-label='TimestampLoggerResult-constructor' }
+#### new TimestampLoggerResult( timestamps : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, timestampNames : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]</span> ) {: #TimestampLoggerResult-TimestampLoggerResult-constructor data-toc-label='new TimestampLoggerResult-TimestampLoggerResult' }
 
 ### Instance Methods
 

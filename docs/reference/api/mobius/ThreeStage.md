@@ -14,7 +14,7 @@ import { ThreeStage } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeStage( providedOptions? : <span style="font-weight: 400;">[ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeStage( providedOptions? : <span style="font-weight: 400;">[ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions)</span> ) {: #ThreeStage-constructor data-toc-label='new ThreeStage' }
 
 ### Instance Methods
 

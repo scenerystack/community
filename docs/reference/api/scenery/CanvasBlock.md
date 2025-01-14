@@ -14,7 +14,7 @@ import { CanvasBlock } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new CanvasBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #constructor data-toc-label='constructor' }
+#### new CanvasBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #CanvasBlock-constructor data-toc-label='new CanvasBlock' }
 
 ### Instance Methods
 

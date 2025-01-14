@@ -14,7 +14,7 @@ import { LayoutNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutNode( providedOptions? : <span style="font-weight: 400;">[LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutNode( providedOptions? : <span style="font-weight: 400;">[LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)</span> ) {: #LayoutNode-constructor data-toc-label='new LayoutNode' }
 
 ### Instance Methods
 

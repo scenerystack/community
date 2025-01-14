@@ -15,7 +15,7 @@ import { SimpleClockIcon } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new SimpleClockIcon( radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[SimpleClockIconOptions](../scenery-phet/SimpleClockIcon.md#SimpleClockIconOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SimpleClockIcon( radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[SimpleClockIconOptions](../scenery-phet/SimpleClockIcon.md#SimpleClockIconOptions)</span> ) {: #SimpleClockIcon-constructor data-toc-label='new SimpleClockIcon' }
 
 ### Instance Methods
 

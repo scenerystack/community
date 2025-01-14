@@ -18,7 +18,7 @@ import { RenderStack } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderStack( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderStack( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) {: #RenderStack-constructor data-toc-label='new RenderStack' }
 
 ### Instance Methods
 
@@ -52,7 +52,7 @@ import { RenderInstructionOpaqueJump } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionOpaqueJump( location : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionOpaqueJump-constructor data-toc-label='RenderInstructionOpaqueJump-constructor' }
+#### new RenderInstructionOpaqueJump( location : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionOpaqueJump-RenderInstructionOpaqueJump-constructor data-toc-label='new RenderInstructionOpaqueJump-RenderInstructionOpaqueJump' }
 
 ### Instance Methods
 

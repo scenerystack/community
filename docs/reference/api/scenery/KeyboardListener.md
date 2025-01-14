@@ -84,7 +84,7 @@ import { KeyboardListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyboardListener( providedOptions : <span style="font-weight: 400;">[KeyboardListenerOptions](../scenery/KeyboardListener.md#KeyboardListenerOptions)&lt;Keys&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyboardListener( providedOptions : <span style="font-weight: 400;">[KeyboardListenerOptions](../scenery/KeyboardListener.md#KeyboardListenerOptions)&lt;Keys&gt;</span> ) {: #KeyboardListener-constructor data-toc-label='new KeyboardListener' }
 
 ### Instance Methods
 

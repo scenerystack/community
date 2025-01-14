@@ -17,7 +17,7 @@ import { CanvasContextWrapper } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new CanvasContextWrapper( canvas, context ) {: #constructor data-toc-label='constructor' }
+#### new CanvasContextWrapper( canvas, context ) {: #CanvasContextWrapper-constructor data-toc-label='new CanvasContextWrapper' }
 
 ### Instance Methods
 

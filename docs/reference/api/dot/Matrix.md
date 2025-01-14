@@ -14,7 +14,7 @@ import { Matrix } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Matrix( m, n, filler, fast ) {: #constructor data-toc-label='constructor' }
+#### new Matrix( m, n, filler, fast ) {: #Matrix-constructor data-toc-label='new Matrix' }
 
 ### Instance Methods
 
@@ -448,7 +448,7 @@ import { EigenvalueDecomposition } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new EigenvalueDecomposition( matrix ) {: #EigenvalueDecomposition-constructor data-toc-label='EigenvalueDecomposition-constructor' }
+#### new EigenvalueDecomposition( matrix ) {: #EigenvalueDecomposition-EigenvalueDecomposition-constructor data-toc-label='new EigenvalueDecomposition-EigenvalueDecomposition' }
 
 ### Instance Methods
 
@@ -526,7 +526,7 @@ import { LUDecomposition } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new LUDecomposition( matrix ) {: #LUDecomposition-constructor data-toc-label='LUDecomposition-constructor' }
+#### new LUDecomposition( matrix ) {: #LUDecomposition-LUDecomposition-constructor data-toc-label='new LUDecomposition-LUDecomposition' }
 
 ### Instance Methods
 
@@ -587,7 +587,7 @@ import { QRDecomposition } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new QRDecomposition( matrix ) {: #QRDecomposition-constructor data-toc-label='QRDecomposition-constructor' }
+#### new QRDecomposition( matrix ) {: #QRDecomposition-QRDecomposition-constructor data-toc-label='new QRDecomposition-QRDecomposition' }
 
 ### Instance Methods
 
@@ -636,7 +636,7 @@ import { SingularValueDecomposition } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new SingularValueDecomposition( matrix ) {: #SingularValueDecomposition-constructor data-toc-label='SingularValueDecomposition-constructor' }
+#### new SingularValueDecomposition( matrix ) {: #SingularValueDecomposition-SingularValueDecomposition-constructor data-toc-label='new SingularValueDecomposition-SingularValueDecomposition' }
 
 ### Instance Methods
 

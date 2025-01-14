@@ -16,7 +16,7 @@ import { ParallelWorkgroup } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelWorkgroup( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, id : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, values : <span style="font-weight: 400;">WorkgroupValues</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelWorkgroup( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, id : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, values : <span style="font-weight: 400;">WorkgroupValues</span> ) {: #ParallelWorkgroup-constructor data-toc-label='new ParallelWorkgroup' }
 
 ### Instance Methods
 

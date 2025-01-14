@@ -14,7 +14,7 @@ import { EnumerationProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new EnumerationProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationPropertyOptions](../axon/EnumerationProperty.md#EnumerationPropertyOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new EnumerationProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationPropertyOptions](../axon/EnumerationProperty.md#EnumerationPropertyOptions)&lt;T&gt;</span> ) {: #EnumerationProperty-constructor data-toc-label='new EnumerationProperty' }
 
 ### Instance Methods
 

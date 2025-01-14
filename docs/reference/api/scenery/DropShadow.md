@@ -18,7 +18,7 @@ import { DropShadow } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DropShadow( offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, blurRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span>, filterRegionPercentage ) {: #constructor data-toc-label='constructor' }
+#### new DropShadow( offset : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, blurRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span>, filterRegionPercentage ) {: #DropShadow-constructor data-toc-label='new DropShadow' }
 
 ### Instance Methods
 

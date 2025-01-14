@@ -30,7 +30,7 @@ import { Pointer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Pointer( initialPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, type : <span style="font-weight: 400;">PointerType</span> ) {: #constructor data-toc-label='constructor' }
+#### new Pointer( initialPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, type : <span style="font-weight: 400;">PointerType</span> ) {: #Pointer-constructor data-toc-label='new Pointer' }
 
 ### Instance Methods
 

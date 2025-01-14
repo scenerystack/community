@@ -17,7 +17,7 @@ import { LayoutAlign } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutAlign( horizontal : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign)</span>, vertical : <span style="font-weight: 400;">[VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span>, padRatio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutAlign( horizontal : <span style="font-weight: 400;">[HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign)</span>, vertical : <span style="font-weight: 400;">[VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)</span>, padRatio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #LayoutAlign-constructor data-toc-label='new LayoutAlign' }
 
 ### Instance Methods
 

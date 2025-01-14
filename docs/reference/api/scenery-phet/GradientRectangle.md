@@ -34,7 +34,7 @@ import { GradientRectangle } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new GradientRectangle( providedOptions? : <span style="font-weight: 400;">[GradientRectangleOptions](../scenery-phet/GradientRectangle.md#GradientRectangleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new GradientRectangle( providedOptions? : <span style="font-weight: 400;">[GradientRectangleOptions](../scenery-phet/GradientRectangle.md#GradientRectangleOptions)</span> ) {: #GradientRectangle-constructor data-toc-label='new GradientRectangle' }
 
 ### Instance Methods
 

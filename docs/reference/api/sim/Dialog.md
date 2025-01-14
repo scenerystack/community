@@ -17,7 +17,7 @@ import { Dialog } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Dialog( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DialogOptions](../sim/Dialog.md#DialogOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Dialog( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DialogOptions](../sim/Dialog.md#DialogOptions)</span> ) {: #Dialog-constructor data-toc-label='new Dialog' }
 
 ### Instance Methods
 

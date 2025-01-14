@@ -14,7 +14,7 @@ import { TextureViewResource } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TextureViewResource( textureView : <span style="font-weight: 400;">GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextureViewResource( textureView : <span style="font-weight: 400;">GPUTextureView</span> ) {: #TextureViewResource-constructor data-toc-label='new TextureViewResource' }
 
 ### Instance Methods
 

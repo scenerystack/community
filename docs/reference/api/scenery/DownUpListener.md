@@ -16,7 +16,7 @@ import { DownUpListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DownUpListener( options ) {: #constructor data-toc-label='constructor' }
+#### new DownUpListener( options ) {: #DownUpListener-constructor data-toc-label='new DownUpListener' }
 
 ### Instance Methods
 

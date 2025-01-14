@@ -16,7 +16,7 @@ import { ReadingBlockUtterance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ReadingBlockUtterance( focus : <span style="font-weight: 400;">[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[ReadingBlockUtteranceOptions](../scenery/ReadingBlockUtterance.md#ReadingBlockUtteranceOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReadingBlockUtterance( focus : <span style="font-weight: 400;">[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, options? : <span style="font-weight: 400;">[ReadingBlockUtteranceOptions](../scenery/ReadingBlockUtterance.md#ReadingBlockUtteranceOptions)</span> ) {: #ReadingBlockUtterance-constructor data-toc-label='new ReadingBlockUtterance' }
 
 ### Instance Methods
 

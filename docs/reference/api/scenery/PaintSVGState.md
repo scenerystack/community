@@ -14,7 +14,7 @@ import { PaintSVGState } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PaintSVGState() {: #constructor data-toc-label='constructor' }
+#### new PaintSVGState() {: #PaintSVGState-constructor data-toc-label='new PaintSVGState' }
 
 ### Instance Methods
 

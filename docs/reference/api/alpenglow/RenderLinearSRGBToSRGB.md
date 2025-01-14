@@ -14,7 +14,7 @@ import { RenderLinearSRGBToSRGB } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearSRGBToSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearSRGBToSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLinearSRGBToSRGB-constructor data-toc-label='new RenderLinearSRGBToSRGB' }
 
 ### Instance Methods
 

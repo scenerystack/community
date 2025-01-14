@@ -15,7 +15,7 @@ import { OnOffSwitch } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new OnOffSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions : <span style="font-weight: 400;">[OnOffSwitchOptions](../sun/OnOffSwitch.md#OnOffSwitchOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new OnOffSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions : <span style="font-weight: 400;">[OnOffSwitchOptions](../sun/OnOffSwitch.md#OnOffSwitchOptions)</span> ) {: #OnOffSwitch-constructor data-toc-label='new OnOffSwitch' }
 
 ### Instance Methods
 

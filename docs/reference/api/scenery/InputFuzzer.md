@@ -14,7 +14,7 @@ import { InputFuzzer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new InputFuzzer( display, seed ) {: #constructor data-toc-label='constructor' }
+#### new InputFuzzer( display, seed ) {: #InputFuzzer-constructor data-toc-label='new InputFuzzer' }
 
 ### Instance Methods
 

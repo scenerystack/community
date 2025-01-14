@@ -14,7 +14,7 @@ import { TextKeyNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TextKeyNode( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TextKeyNodeOptions](../scenery-phet/TextKeyNode.md#TextKeyNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextKeyNode( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TextKeyNodeOptions](../scenery-phet/TextKeyNode.md#TextKeyNodeOptions)</span> ) {: #TextKeyNode-constructor data-toc-label='new TextKeyNode' }
 
 ### Instance Methods
 

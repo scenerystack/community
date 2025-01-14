@@ -16,7 +16,7 @@ import { BufferArraySlot } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferArraySlot( concreteArrayType : <span style="font-weight: 400;">[ConcreteArrayType](../alpenglow/ConcreteType.md#ConcreteArrayType)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new BufferArraySlot( concreteArrayType : <span style="font-weight: 400;">[ConcreteArrayType](../alpenglow/ConcreteType.md#ConcreteArrayType)&lt;T&gt;</span> ) {: #BufferArraySlot-constructor data-toc-label='new BufferArraySlot' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { Quadratic } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new Quadratic( start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Quadratic( start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #Quadratic-constructor data-toc-label='new Quadratic' }
 
 ### Instance Methods
 

@@ -25,7 +25,7 @@ import { ScreenView } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new ScreenView( providedOptions? : <span style="font-weight: 400;">[ScreenViewOptions](../sim/ScreenView.md#ScreenViewOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScreenView( providedOptions? : <span style="font-weight: 400;">[ScreenViewOptions](../sim/ScreenView.md#ScreenViewOptions)</span> ) {: #ScreenView-constructor data-toc-label='new ScreenView' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { BatchedDOMEvent } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new BatchedDOMEvent( eventContext : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)</span>, type : <span style="font-weight: 400;">[BatchedDOMEventType](../scenery/BatchedDOMEvent.md#BatchedDOMEventType)</span>, callback : <span style="font-weight: 400;">[BatchedDOMEventCallback](../scenery/BatchedDOMEvent.md#BatchedDOMEventCallback)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BatchedDOMEvent( eventContext : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)</span>, type : <span style="font-weight: 400;">[BatchedDOMEventType](../scenery/BatchedDOMEvent.md#BatchedDOMEventType)</span>, callback : <span style="font-weight: 400;">[BatchedDOMEventCallback](../scenery/BatchedDOMEvent.md#BatchedDOMEventCallback)</span> ) {: #BatchedDOMEvent-constructor data-toc-label='new BatchedDOMEvent' }
 
 ### Instance Methods
 

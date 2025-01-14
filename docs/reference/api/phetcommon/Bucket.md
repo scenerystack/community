@@ -22,7 +22,7 @@ import { Bucket } from 'scenerystack/phetcommon';
 ```
 ### Constructor
 
-#### new Bucket( providedOptions? : <span style="font-weight: 400;">[BucketOptions](../phetcommon/Bucket.md#BucketOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Bucket( providedOptions? : <span style="font-weight: 400;">[BucketOptions](../phetcommon/Bucket.md#BucketOptions)</span> ) {: #Bucket-constructor data-toc-label='new Bucket' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { TinyOverrideProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyOverrideProperty( targetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyOverrideProperty( targetProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span> ) {: #TinyOverrideProperty-constructor data-toc-label='new TinyOverrideProperty' }
 
 ### Instance Methods
 

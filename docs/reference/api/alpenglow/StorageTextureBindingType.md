@@ -14,7 +14,7 @@ import { StorageTextureBindingType } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new StorageTextureBindingType( access : <span style="font-weight: 400;">GPUStorageTextureAccess</span>, format : <span style="font-weight: 400;">GPUTextureFormat</span>, viewDimension : <span style="font-weight: 400;">GPUTextureViewDimension</span> ) {: #constructor data-toc-label='constructor' }
+#### new StorageTextureBindingType( access : <span style="font-weight: 400;">GPUStorageTextureAccess</span>, format : <span style="font-weight: 400;">GPUTextureFormat</span>, viewDimension : <span style="font-weight: 400;">GPUTextureViewDimension</span> ) {: #StorageTextureBindingType-constructor data-toc-label='new StorageTextureBindingType' }
 
 ### Instance Methods
 

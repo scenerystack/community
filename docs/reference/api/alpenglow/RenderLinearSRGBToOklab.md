@@ -14,7 +14,7 @@ import { RenderLinearSRGBToOklab } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearSRGBToOklab( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearSRGBToOklab( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLinearSRGBToOklab-constructor data-toc-label='new RenderLinearSRGBToOklab' }
 
 ### Instance Methods
 

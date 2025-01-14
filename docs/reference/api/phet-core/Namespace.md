@@ -18,7 +18,7 @@ import { Namespace } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Namespace( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new Namespace( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #Namespace-constructor data-toc-label='new Namespace' }
 
 ### Instance Methods
 

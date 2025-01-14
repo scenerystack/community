@@ -14,7 +14,7 @@ import { CompositeModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new CompositeModule( modules : <span style="font-weight: 400;">[Module](../alpenglow/Module.md)&lt;IntentionalAny&gt;[]</span>, execute : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new CompositeModule( modules : <span style="font-weight: 400;">[Module](../alpenglow/Module.md)&lt;IntentionalAny&gt;[]</span>, execute : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #CompositeModule-constructor data-toc-label='new CompositeModule' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { BackboneDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new BackboneDrawable( display, backboneInstance, transformRootInstance, renderer, isDisplayRoot ) {: #constructor data-toc-label='constructor' }
+#### new BackboneDrawable( display, backboneInstance, transformRootInstance, renderer, isDisplayRoot ) {: #BackboneDrawable-constructor data-toc-label='new BackboneDrawable' }
 
 ### Instance Methods
 

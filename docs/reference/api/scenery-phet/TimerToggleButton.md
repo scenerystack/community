@@ -14,7 +14,7 @@ import { TimerToggleButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TimerToggleButton( timerRunningProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, provideOptions? : <span style="font-weight: 400;">[TimerToggleButtonOptions](../scenery-phet/TimerToggleButton.md#TimerToggleButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TimerToggleButton( timerRunningProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, provideOptions? : <span style="font-weight: 400;">[TimerToggleButtonOptions](../scenery-phet/TimerToggleButton.md#TimerToggleButtonOptions)</span> ) {: #TimerToggleButton-constructor data-toc-label='new TimerToggleButton' }
 
 ### Instance Methods
 

@@ -69,7 +69,7 @@ import { EnumerationDeprecated } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new EnumerationDeprecated( config ) {: #constructor data-toc-label='constructor' }
+#### new EnumerationDeprecated( config ) {: #EnumerationDeprecated-constructor data-toc-label='new EnumerationDeprecated' }
 
 ### Instance Methods
 

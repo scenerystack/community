@@ -16,7 +16,7 @@ import { MainTwoPassFineModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassFineModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassFineModuleOptions](../alpenglow/MainTwoPassFineModule.md#MainTwoPassFineModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassFineModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassFineModuleOptions](../alpenglow/MainTwoPassFineModule.md#MainTwoPassFineModuleOptions)</span> ) {: #MainTwoPassFineModule-constructor data-toc-label='new MainTwoPassFineModule' }
 
 ### Instance Methods
 

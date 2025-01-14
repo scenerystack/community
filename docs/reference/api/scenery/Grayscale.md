@@ -14,7 +14,7 @@ import { Grayscale } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Grayscale( amount ) {: #constructor data-toc-label='constructor' }
+#### new Grayscale( amount ) {: #Grayscale-constructor data-toc-label='new Grayscale' }
 
 ### Instance Methods
 

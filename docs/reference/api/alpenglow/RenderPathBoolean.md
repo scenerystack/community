@@ -14,7 +14,7 @@ import { RenderPathBoolean } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPathBoolean( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, inside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, outside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPathBoolean( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, inside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, outside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderPathBoolean-constructor data-toc-label='new RenderPathBoolean' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { StarShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StarShape( providedOptions? : <span style="font-weight: 400;">[StarShapeOptions](../scenery-phet/StarShape.md#StarShapeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new StarShape( providedOptions? : <span style="font-weight: 400;">[StarShapeOptions](../scenery-phet/StarShape.md#StarShapeOptions)</span> ) {: #StarShape-constructor data-toc-label='new StarShape' }
 
 ### Instance Methods
 

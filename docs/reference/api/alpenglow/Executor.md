@@ -14,7 +14,7 @@ import { Executor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Executor( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, bufferLogger : <span style="font-weight: 400;">[BufferLogger](../alpenglow/BufferLogger.md)</span>, providedOptions? : <span style="font-weight: 400;">[ExecutorOptions](../alpenglow/Executor.md#ExecutorOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Executor( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, bufferLogger : <span style="font-weight: 400;">[BufferLogger](../alpenglow/BufferLogger.md)</span>, providedOptions? : <span style="font-weight: 400;">[ExecutorOptions](../alpenglow/Executor.md#ExecutorOptions)</span> ) {: #Executor-constructor data-toc-label='new Executor' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { ProfileColorProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ProfileColorProperty( namespace : <span style="font-weight: 400;">[Namespace](../phet-core/Namespace.md)</span>, colorName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, colorProfileMap : <span style="font-weight: 400;">ColorProfileMap</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ProfileColorProperty( namespace : <span style="font-weight: 400;">[Namespace](../phet-core/Namespace.md)</span>, colorName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, colorProfileMap : <span style="font-weight: 400;">ColorProfileMap</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;</span> ) {: #ProfileColorProperty-constructor data-toc-label='new ProfileColorProperty' }
 
 ### Instance Methods
 

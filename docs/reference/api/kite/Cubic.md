@@ -18,7 +18,7 @@ import { Cubic } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new Cubic( start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control2 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Cubic( start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, control2 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #Cubic-constructor data-toc-label='new Cubic' }
 
 ### Instance Methods
 

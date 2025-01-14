@@ -17,7 +17,7 @@ import { GridBackgroundNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GridBackgroundNode( constraint : <span style="font-weight: 400;">[GridConstraint](../scenery/GridConstraint.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridBackgroundNodeOptions](../scenery/GridBackgroundNode.md#GridBackgroundNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridBackgroundNode( constraint : <span style="font-weight: 400;">[GridConstraint](../scenery/GridConstraint.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridBackgroundNodeOptions](../scenery/GridBackgroundNode.md#GridBackgroundNodeOptions)</span> ) {: #GridBackgroundNode-constructor data-toc-label='new GridBackgroundNode' }
 
 ### Instance Methods
 

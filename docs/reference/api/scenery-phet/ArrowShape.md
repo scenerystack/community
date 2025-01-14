@@ -19,7 +19,7 @@ import { ArrowShape } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ArrowShape( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions : <span style="font-weight: 400;">[ArrowShapeOptions](../scenery-phet/ArrowShape.md#ArrowShapeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ArrowShape( tailX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tailY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tipY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions : <span style="font-weight: 400;">[ArrowShapeOptions](../scenery-phet/ArrowShape.md#ArrowShapeOptions)</span> ) {: #ArrowShape-constructor data-toc-label='new ArrowShape' }
 
 ### Instance Methods
 

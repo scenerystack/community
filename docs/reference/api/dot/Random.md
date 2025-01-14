@@ -21,7 +21,7 @@ import { Random } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Random( providedOptions? : <span style="font-weight: 400;">RandomOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new Random( providedOptions? : <span style="font-weight: 400;">RandomOptions</span> ) {: #Random-constructor data-toc-label='new Random' }
 
 ### Instance Methods
 

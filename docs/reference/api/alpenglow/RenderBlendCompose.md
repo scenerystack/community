@@ -14,7 +14,7 @@ import { RenderBlendCompose } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderBlendCompose( composeType : <span style="font-weight: 400;">[RenderComposeType](../alpenglow/RenderComposeType.md)</span>, blendType : <span style="font-weight: 400;">[RenderBlendType](../alpenglow/RenderBlendType.md)</span>, a : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, b : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderBlendComposeLogic](../alpenglow/RenderBlendCompose.md#RenderBlendComposeLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderBlendCompose( composeType : <span style="font-weight: 400;">[RenderComposeType](../alpenglow/RenderComposeType.md)</span>, blendType : <span style="font-weight: 400;">[RenderBlendType](../alpenglow/RenderBlendType.md)</span>, a : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, b : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderBlendComposeLogic](../alpenglow/RenderBlendCompose.md#RenderBlendComposeLogic)</span> ) {: #RenderBlendCompose-constructor data-toc-label='new RenderBlendCompose' }
 
 ### Instance Methods
 
@@ -94,7 +94,7 @@ import { RenderBlendComposeLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderBlendComposeLogic( composeType : <span style="font-weight: 400;">[RenderComposeType](../alpenglow/RenderComposeType.md)</span>, blendType : <span style="font-weight: 400;">[RenderBlendType](../alpenglow/RenderBlendType.md)</span> ) {: #RenderBlendComposeLogic-constructor data-toc-label='RenderBlendComposeLogic-constructor' }
+#### new RenderBlendComposeLogic( composeType : <span style="font-weight: 400;">[RenderComposeType](../alpenglow/RenderComposeType.md)</span>, blendType : <span style="font-weight: 400;">[RenderBlendType](../alpenglow/RenderBlendType.md)</span> ) {: #RenderBlendComposeLogic-RenderBlendComposeLogic-constructor data-toc-label='new RenderBlendComposeLogic-RenderBlendComposeLogic' }
 
 ### Instance Methods
 
@@ -110,7 +110,7 @@ import { RenderInstructionBlendCompose } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionBlendCompose( logic : <span style="font-weight: 400;">[RenderBlendComposeLogic](../alpenglow/RenderBlendCompose.md#RenderBlendComposeLogic)</span> ) {: #RenderInstructionBlendCompose-constructor data-toc-label='RenderInstructionBlendCompose-constructor' }
+#### new RenderInstructionBlendCompose( logic : <span style="font-weight: 400;">[RenderBlendComposeLogic](../alpenglow/RenderBlendCompose.md#RenderBlendComposeLogic)</span> ) {: #RenderInstructionBlendCompose-RenderInstructionBlendCompose-constructor data-toc-label='new RenderInstructionBlendCompose-RenderInstructionBlendCompose' }
 
 ### Instance Methods
 

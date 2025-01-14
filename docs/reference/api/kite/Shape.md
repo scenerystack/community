@@ -26,7 +26,7 @@ import { Shape } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new Shape( subpaths? : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, bounds? : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Shape( subpaths? : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, bounds? : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> ) {: #Shape-constructor data-toc-label='new Shape' }
 
 ### Instance Methods
 

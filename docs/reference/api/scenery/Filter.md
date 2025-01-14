@@ -35,7 +35,7 @@ import { Filter } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Filter() {: #constructor data-toc-label='constructor' }
+#### new Filter() {: #Filter-constructor data-toc-label='new Filter' }
 
 ### Instance Methods
 

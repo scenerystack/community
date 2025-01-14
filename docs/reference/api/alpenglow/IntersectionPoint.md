@@ -14,7 +14,7 @@ import { IntersectionPoint } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new IntersectionPoint( t0 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, t1 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, point : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new IntersectionPoint( t0 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, t1 : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, point : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #IntersectionPoint-constructor data-toc-label='new IntersectionPoint' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { Transform3 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Transform3( matrix ) {: #constructor data-toc-label='constructor' }
+#### new Transform3( matrix ) {: #Transform3-constructor data-toc-label='new Transform3' }
 
 ### Instance Methods
 

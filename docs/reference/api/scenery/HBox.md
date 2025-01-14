@@ -14,7 +14,7 @@ import { HBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HBox( providedOptions? : <span style="font-weight: 400;">[HBoxOptions](../scenery/HBox.md#HBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HBox( providedOptions? : <span style="font-weight: 400;">[HBoxOptions](../scenery/HBox.md#HBoxOptions)</span> ) {: #HBox-constructor data-toc-label='new HBox' }
 
 ### Instance Methods
 

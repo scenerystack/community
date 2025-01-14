@@ -17,7 +17,7 @@ import { FireListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FireListener( providedOptions? : <span style="font-weight: 400;">[FireListenerOptions](../scenery/FireListener.md#FireListenerOptions)&lt;[FireListener](../scenery/FireListener.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new FireListener( providedOptions? : <span style="font-weight: 400;">[FireListenerOptions](../scenery/FireListener.md#FireListenerOptions)&lt;[FireListener](../scenery/FireListener.md)&gt;</span> ) {: #FireListener-constructor data-toc-label='new FireListener' }
 
 ### Instance Methods
 

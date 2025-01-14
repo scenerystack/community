@@ -16,7 +16,7 @@ import { Focus } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Focus( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Focus( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #Focus-constructor data-toc-label='new Focus' }
 
 ### Instance Methods
 

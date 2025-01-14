@@ -14,7 +14,7 @@ import { RenderImage } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderImage( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, image : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span>, extendX : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, extendY : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, resampleType : <span style="font-weight: 400;">[RenderResampleType](../alpenglow/RenderResampleType.md)</span>, logic? : <span style="font-weight: 400;">[RenderImageLogic](../alpenglow/RenderImage.md#RenderImageLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderImage( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, image : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span>, extendX : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, extendY : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, resampleType : <span style="font-weight: 400;">[RenderResampleType](../alpenglow/RenderResampleType.md)</span>, logic? : <span style="font-weight: 400;">[RenderImageLogic](../alpenglow/RenderImage.md#RenderImageLogic)</span> ) {: #RenderImage-constructor data-toc-label='new RenderImage' }
 
 ### Instance Methods
 
@@ -107,7 +107,7 @@ import { RenderImageLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderImageLogic( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, image : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span>, extendX : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, extendY : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, resampleType : <span style="font-weight: 400;">[RenderResampleType](../alpenglow/RenderResampleType.md)</span> ) {: #RenderImageLogic-constructor data-toc-label='RenderImageLogic-constructor' }
+#### new RenderImageLogic( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, image : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span>, extendX : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, extendY : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, resampleType : <span style="font-weight: 400;">[RenderResampleType](../alpenglow/RenderResampleType.md)</span> ) {: #RenderImageLogic-RenderImageLogic-constructor data-toc-label='new RenderImageLogic-RenderImageLogic' }
 
 ### Instance Methods
 
@@ -135,7 +135,7 @@ import { RenderInstructionImage } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionImage( logic : <span style="font-weight: 400;">[RenderImageLogic](../alpenglow/RenderImage.md#RenderImageLogic)</span> ) {: #RenderInstructionImage-constructor data-toc-label='RenderInstructionImage-constructor' }
+#### new RenderInstructionImage( logic : <span style="font-weight: 400;">[RenderImageLogic](../alpenglow/RenderImage.md#RenderImageLogic)</span> ) {: #RenderInstructionImage-RenderInstructionImage-constructor data-toc-label='new RenderInstructionImage-RenderInstructionImage' }
 
 ### Instance Methods
 

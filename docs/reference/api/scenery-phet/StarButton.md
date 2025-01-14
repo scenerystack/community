@@ -14,7 +14,7 @@ import { StarButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StarButton( providedOptions? : <span style="font-weight: 400;">[StarButtonOptions](../scenery-phet/StarButton.md#StarButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new StarButton( providedOptions? : <span style="font-weight: 400;">[StarButtonOptions](../scenery-phet/StarButton.md#StarButtonOptions)</span> ) {: #StarButton-constructor data-toc-label='new StarButton' }
 
 ### Instance Methods
 

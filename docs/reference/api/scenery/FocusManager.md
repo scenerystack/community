@@ -33,7 +33,7 @@ import { FocusManager } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FocusManager() {: #constructor data-toc-label='constructor' }
+#### new FocusManager() {: #FocusManager-constructor data-toc-label='new FocusManager' }
 
 ### Instance Methods
 

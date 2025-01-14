@@ -70,7 +70,7 @@ import { Hilbert2 } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Hilbert2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert2-constructor data-toc-label='Hilbert2-constructor' }
+#### new Hilbert2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert2-Hilbert2-constructor data-toc-label='new Hilbert2-Hilbert2' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { SelfDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SelfDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new SelfDrawable( renderer, instance ) {: #SelfDrawable-constructor data-toc-label='new SelfDrawable' }
 
 ### Instance Methods
 

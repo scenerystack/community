@@ -14,7 +14,7 @@ import { RenderLinearGradient } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span>, logic? : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span>, logic? : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> ) {: #RenderLinearGradient-constructor data-toc-label='new RenderLinearGradient' }
 
 ### Instance Methods
 
@@ -62,7 +62,7 @@ import { RenderInstructionComputeGradientRatio } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionComputeGradientRatio( logic : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic) | [RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span>, stopLocations : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)[]</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeGradientRatio-constructor data-toc-label='RenderInstructionComputeGradientRatio-constructor' }
+#### new RenderInstructionComputeGradientRatio( logic : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic) | [RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span>, stopLocations : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)[]</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeGradientRatio-RenderInstructionComputeGradientRatio-constructor data-toc-label='new RenderInstructionComputeGradientRatio-RenderInstructionComputeGradientRatio' }
 
 ### Instance Methods
 
@@ -96,7 +96,7 @@ import { RenderLinearGradientLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearGradientLogic( inverseTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, gradDelta : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span> ) {: #RenderLinearGradientLogic-constructor data-toc-label='RenderLinearGradientLogic-constructor' }
+#### new RenderLinearGradientLogic( inverseTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, gradDelta : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span> ) {: #RenderLinearGradientLogic-RenderLinearGradientLogic-constructor data-toc-label='new RenderLinearGradientLogic-RenderLinearGradientLogic' }
 
 ### Instance Methods
 

@@ -20,7 +20,7 @@ import { CouldNotYetDeserializeError } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new CouldNotYetDeserializeError() {: #constructor data-toc-label='constructor' }
+#### new CouldNotYetDeserializeError() {: #CouldNotYetDeserializeError-constructor data-toc-label='new CouldNotYetDeserializeError' }
 
 ### Instance Methods
 

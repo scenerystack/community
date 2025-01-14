@@ -14,7 +14,7 @@ import { Paint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Paint() {: #constructor data-toc-label='constructor' }
+#### new Paint() {: #Paint-constructor data-toc-label='new Paint' }
 
 ### Instance Methods
 

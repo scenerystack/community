@@ -14,7 +14,7 @@ import { RenderPath } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPath( fillRule : <span style="font-weight: 400;">[FillRule](../alpenglow/FillRule.md)</span>, subpaths : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPath( fillRule : <span style="font-weight: 400;">[FillRule](../alpenglow/FillRule.md)</span>, subpaths : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #RenderPath-constructor data-toc-label='new RenderPath' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { VBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new VBox( providedOptions? : <span style="font-weight: 400;">[VBoxOptions](../scenery/VBox.md#VBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VBox( providedOptions? : <span style="font-weight: 400;">[VBoxOptions](../scenery/VBox.md#VBoxOptions)</span> ) {: #VBox-constructor data-toc-label='new VBox' }
 
 ### Instance Methods
 

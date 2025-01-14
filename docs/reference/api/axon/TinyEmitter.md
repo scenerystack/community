@@ -15,7 +15,7 @@ import { TinyEmitter } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyEmitter( onBeforeNotify? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['onBeforeNotify'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, hasListenerOrderDependencies? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['hasListenerOrderDependencies'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, reentrantNotificationStrategy? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['reentrantNotificationStrategy'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyEmitter( onBeforeNotify? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['onBeforeNotify'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, hasListenerOrderDependencies? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['hasListenerOrderDependencies'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, reentrantNotificationStrategy? : <span style="font-weight: 400;">TinyEmitterOptions&lt;T&gt;['reentrantNotificationStrategy'] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #TinyEmitter-constructor data-toc-label='new TinyEmitter' }
 
 ### Instance Methods
 

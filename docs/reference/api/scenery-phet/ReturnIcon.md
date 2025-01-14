@@ -15,7 +15,7 @@ import { ReturnIcon } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ReturnIcon( providedOptions? : <span style="font-weight: 400;">[ReturnIconOptions](../scenery-phet/ReturnIcon.md#ReturnIconOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReturnIcon( providedOptions? : <span style="font-weight: 400;">[ReturnIconOptions](../scenery-phet/ReturnIcon.md#ReturnIconOptions)</span> ) {: #ReturnIcon-constructor data-toc-label='new ReturnIcon' }
 
 ### Instance Methods
 

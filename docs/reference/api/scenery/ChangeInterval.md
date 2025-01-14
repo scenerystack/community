@@ -25,7 +25,7 @@ import { ChangeInterval } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ChangeInterval( drawableBefore, drawableAfter ) {: #constructor data-toc-label='constructor' }
+#### new ChangeInterval( drawableBefore, drawableAfter ) {: #ChangeInterval-constructor data-toc-label='new ChangeInterval' }
 
 ### Instance Methods
 

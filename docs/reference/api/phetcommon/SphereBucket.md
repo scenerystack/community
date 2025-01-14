@@ -18,7 +18,7 @@ import { SphereBucket } from 'scenerystack/phetcommon';
 ```
 ### Constructor
 
-#### new SphereBucket( providedOptions? : <span style="font-weight: 400;">SphereBucketOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new SphereBucket( providedOptions? : <span style="font-weight: 400;">SphereBucketOptions</span> ) {: #SphereBucket-constructor data-toc-label='new SphereBucket' }
 
 ### Instance Methods
 

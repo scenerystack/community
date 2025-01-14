@@ -14,7 +14,7 @@ import { WindingMap } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WindingMap( map : <span style="font-weight: 400;">Map&lt;[RenderPath](../alpenglow/RenderPath.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new WindingMap( map : <span style="font-weight: 400;">Map&lt;[RenderPath](../alpenglow/RenderPath.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) {: #WindingMap-constructor data-toc-label='new WindingMap' }
 
 ### Instance Methods
 

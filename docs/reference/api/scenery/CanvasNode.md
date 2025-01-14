@@ -18,7 +18,7 @@ import { CanvasNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new CanvasNode( options? : <span style="font-weight: 400;">[CanvasNodeOptions](../scenery/CanvasNode.md#CanvasNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new CanvasNode( options? : <span style="font-weight: 400;">[CanvasNodeOptions](../scenery/CanvasNode.md#CanvasNodeOptions)</span> ) {: #CanvasNode-constructor data-toc-label='new CanvasNode' }
 
 ### Instance Methods
 

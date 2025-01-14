@@ -16,7 +16,7 @@ import { TwoPassModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TwoPassModule( providedOptions : <span style="font-weight: 400;">[TwoPassModuleOptions](../alpenglow/TwoPassModule.md#TwoPassModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TwoPassModule( providedOptions : <span style="font-weight: 400;">[TwoPassModuleOptions](../alpenglow/TwoPassModule.md#TwoPassModuleOptions)</span> ) {: #TwoPassModule-constructor data-toc-label='new TwoPassModule' }
 
 ### Instance Methods
 

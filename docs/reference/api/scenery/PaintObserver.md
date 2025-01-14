@@ -14,7 +14,7 @@ import { PaintObserver } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PaintObserver( changeCallback ) {: #constructor data-toc-label='constructor' }
+#### new PaintObserver( changeCallback ) {: #PaintObserver-constructor data-toc-label='new PaintObserver' }
 
 ### Instance Methods
 

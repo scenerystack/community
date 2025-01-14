@@ -15,7 +15,7 @@ import { RectangularButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)</span> ) {: #RectangularButton-constructor data-toc-label='new RectangularButton' }
 
 ### Instance Methods
 

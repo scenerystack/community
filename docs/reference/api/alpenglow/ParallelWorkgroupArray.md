@@ -25,7 +25,7 @@ import { ParallelWorkgroupArray } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelWorkgroupArray( data : <span style="font-weight: 400;">T[]</span>, indeterminateValue : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelWorkgroupArray( data : <span style="font-weight: 400;">T[]</span>, indeterminateValue : <span style="font-weight: 400;">T</span> ) {: #ParallelWorkgroupArray-constructor data-toc-label='new ParallelWorkgroupArray' }
 
 ### Instance Methods
 

@@ -26,7 +26,7 @@ import { ComboBox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ComboBox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;[]</span>, listParent : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxOptions](../sun/ComboBox.md#ComboBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComboBox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;[]</span>, listParent : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxOptions](../sun/ComboBox.md#ComboBoxOptions)</span> ) {: #ComboBox-constructor data-toc-label='new ComboBox' }
 
 ### Instance Methods
 

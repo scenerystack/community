@@ -14,7 +14,7 @@ import { EventContext } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new EventContext( domEvent : <span style="font-weight: 400;">DOMEvent</span> ) {: #constructor data-toc-label='constructor' }
+#### new EventContext( domEvent : <span style="font-weight: 400;">DOMEvent</span> ) {: #EventContext-constructor data-toc-label='new EventContext' }
 
 ### Instance Methods
 

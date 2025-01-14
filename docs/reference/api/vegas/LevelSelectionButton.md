@@ -22,7 +22,7 @@ import { LevelSelectionButton } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new LevelSelectionButton( icon : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, scoreProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LevelSelectionButton( icon : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, scoreProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions)</span> ) {: #LevelSelectionButton-constructor data-toc-label='new LevelSelectionButton' }
 
 ### Instance Methods
 

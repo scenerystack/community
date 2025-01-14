@@ -14,7 +14,7 @@ import { MomentaryButtonModel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new MomentaryButtonModel( valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[MomentaryButtonModelOptions](../sun/MomentaryButtonModel.md#MomentaryButtonModelOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MomentaryButtonModel( valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[MomentaryButtonModelOptions](../sun/MomentaryButtonModel.md#MomentaryButtonModelOptions)</span> ) {: #MomentaryButtonModel-constructor data-toc-label='new MomentaryButtonModel' }
 
 ### Instance Methods
 

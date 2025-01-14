@@ -16,7 +16,7 @@ import { VibrationTestEventRecorder } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new VibrationTestEventRecorder( vibrationManager ) {: #constructor data-toc-label='constructor' }
+#### new VibrationTestEventRecorder( vibrationManager ) {: #VibrationTestEventRecorder-constructor data-toc-label='new VibrationTestEventRecorder' }
 
 ### Instance Methods
 

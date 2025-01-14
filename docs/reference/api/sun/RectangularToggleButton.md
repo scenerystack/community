@@ -16,7 +16,7 @@ import { RectangularToggleButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularToggleButton( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularToggleButton( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)</span> ) {: #RectangularToggleButton-constructor data-toc-label='new RectangularToggleButton' }
 
 ### Instance Methods
 

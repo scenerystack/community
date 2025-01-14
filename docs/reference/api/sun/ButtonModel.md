@@ -15,7 +15,7 @@ import { ButtonModel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ButtonModel( providedOptions? : <span style="font-weight: 400;">[ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ButtonModel( providedOptions? : <span style="font-weight: 400;">[ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)</span> ) {: #ButtonModel-constructor data-toc-label='new ButtonModel' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { BigRationalVector2 } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BigRationalVector2( x : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, y : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BigRationalVector2( x : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span>, y : <span style="font-weight: 400;">[BigRational](../alpenglow/BigRational.md)</span> ) {: #BigRationalVector2-constructor data-toc-label='new BigRationalVector2' }
 
 ### Instance Methods
 

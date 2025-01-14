@@ -16,7 +16,7 @@ import { SVGRadialGradient } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGRadialGradient( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[RadialGradient](../scenery/RadialGradient.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGRadialGradient( svgBlock : <span style="font-weight: 400;">[SVGBlock](../scenery/SVGBlock.md)</span>, gradient : <span style="font-weight: 400;">[RadialGradient](../scenery/RadialGradient.md)</span> ) {: #SVGRadialGradient-constructor data-toc-label='new SVGRadialGradient' }
 
 ### Instance Methods
 

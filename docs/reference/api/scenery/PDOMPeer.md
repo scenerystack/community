@@ -16,7 +16,7 @@ import { PDOMPeer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMPeer( pdomInstance, options ) {: #constructor data-toc-label='constructor' }
+#### new PDOMPeer( pdomInstance, options ) {: #PDOMPeer-constructor data-toc-label='new PDOMPeer' }
 
 ### Instance Methods
 

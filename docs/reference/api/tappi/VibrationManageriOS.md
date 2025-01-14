@@ -21,7 +21,7 @@ import { VibrationManageriOS } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new VibrationManageriOS() {: #constructor data-toc-label='constructor' }
+#### new VibrationManageriOS() {: #VibrationManageriOS-constructor data-toc-label='new VibrationManageriOS' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { PushButtonModel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new PushButtonModel( providedOptions? : <span style="font-weight: 400;">[PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PushButtonModel( providedOptions? : <span style="font-weight: 400;">[PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)</span> ) {: #PushButtonModel-constructor data-toc-label='new PushButtonModel' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { SVGGroup } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGGroup( block, instance, parent ) {: #constructor data-toc-label='constructor' }
+#### new SVGGroup( block, instance, parent ) {: #SVGGroup-constructor data-toc-label='new SVGGroup' }
 
 ### Instance Methods
 

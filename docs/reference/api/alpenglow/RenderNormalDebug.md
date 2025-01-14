@@ -14,7 +14,7 @@ import { RenderNormalDebug } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderNormalDebug( normalProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderNormalDebug( normalProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderNormalDebug-constructor data-toc-label='new RenderNormalDebug' }
 
 ### Instance Methods
 

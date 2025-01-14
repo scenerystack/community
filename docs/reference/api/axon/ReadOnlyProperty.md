@@ -18,7 +18,7 @@ import { ReadOnlyProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new ReadOnlyProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ReadOnlyProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;</span> ) {: #ReadOnlyProperty-constructor data-toc-label='new ReadOnlyProperty' }
 
 ### Instance Methods
 

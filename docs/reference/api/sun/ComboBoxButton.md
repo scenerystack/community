@@ -15,7 +15,7 @@ import { ComboBoxButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ComboBoxButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItemNoNode](../sun/ComboBox.md#ComboBoxItemNoNode)&lt;T&gt;[]</span>, nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxButtonOptions](../sun/ComboBoxButton.md#ComboBoxButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComboBoxButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[ComboBoxItemNoNode](../sun/ComboBox.md#ComboBoxItemNoNode)&lt;T&gt;[]</span>, nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span>, providedOptions? : <span style="font-weight: 400;">[ComboBoxButtonOptions](../sun/ComboBoxButton.md#ComboBoxButtonOptions)</span> ) {: #ComboBoxButton-constructor data-toc-label='new ComboBoxButton' }
 
 ### Instance Methods
 

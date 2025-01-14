@@ -16,7 +16,7 @@ import { MainScanModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainScanModule( providedOptions : <span style="font-weight: 400;">[MainScanModuleOptions](../alpenglow/MainScanModule.md#MainScanModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainScanModule( providedOptions : <span style="font-weight: 400;">[MainScanModuleOptions](../alpenglow/MainScanModule.md#MainScanModuleOptions)&lt;T&gt;</span> ) {: #MainScanModule-constructor data-toc-label='new MainScanModule' }
 
 ### Instance Methods
 

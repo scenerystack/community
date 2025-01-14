@@ -21,7 +21,7 @@ import { Sim } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Sim( simNameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, allSimScreens : <span style="font-weight: 400;">AnyScreen[]</span>, providedOptions? : <span style="font-weight: 400;">[SimOptions](../sim/Sim.md#SimOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Sim( simNameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, allSimScreens : <span style="font-weight: 400;">AnyScreen[]</span>, providedOptions? : <span style="font-weight: 400;">[SimOptions](../sim/Sim.md#SimOptions)</span> ) {: #Sim-constructor data-toc-label='new Sim' }
 
 ### Instance Methods
 

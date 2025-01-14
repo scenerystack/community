@@ -15,7 +15,7 @@ import { VoicingActivationResponseListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new VoicingActivationResponseListener( voicingNode : <span style="font-weight: 400;">[VoicingNode](../scenery/Voicing.md#VoicingNode)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VoicingActivationResponseListener( voicingNode : <span style="font-weight: 400;">[VoicingNode](../scenery/Voicing.md#VoicingNode)</span> ) {: #VoicingActivationResponseListener-constructor data-toc-label='new VoicingActivationResponseListener' }
 
 ### Instance Methods
 

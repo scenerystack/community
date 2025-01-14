@@ -18,7 +18,7 @@ import { RectangularMomentaryButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularMomentaryButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularMomentaryButtonOptions](../sun/RectangularMomentaryButton.md#RectangularMomentaryButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularMomentaryButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularMomentaryButtonOptions](../sun/RectangularMomentaryButton.md#RectangularMomentaryButtonOptions)</span> ) {: #RectangularMomentaryButton-constructor data-toc-label='new RectangularMomentaryButton' }
 
 ### Instance Methods
 

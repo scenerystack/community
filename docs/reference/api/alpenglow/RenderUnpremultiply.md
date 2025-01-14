@@ -14,7 +14,7 @@ import { RenderUnpremultiply } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderUnpremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderUnpremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderUnpremultiply-constructor data-toc-label='new RenderUnpremultiply' }
 
 ### Instance Methods
 

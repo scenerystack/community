@@ -22,7 +22,7 @@ import { RenderLinearBlend } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearBlend( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLinearBlend( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic)</span> ) {: #RenderLinearBlend-constructor data-toc-label='new RenderLinearBlend' }
 
 ### Instance Methods
 
@@ -66,7 +66,7 @@ import { RenderInstructionComputeBlendRatio } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionComputeBlendRatio( logic : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic) | [RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span>, zeroLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, oneLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeBlendRatio-constructor data-toc-label='RenderInstructionComputeBlendRatio-constructor' }
+#### new RenderInstructionComputeBlendRatio( logic : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic) | [RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span>, zeroLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, oneLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeBlendRatio-RenderInstructionComputeBlendRatio-constructor data-toc-label='new RenderInstructionComputeBlendRatio-RenderInstructionComputeBlendRatio' }
 
 ### Instance Methods
 
@@ -125,7 +125,7 @@ import { RenderLinearBlendLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearBlendLogic( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span> ) {: #RenderLinearBlendLogic-constructor data-toc-label='RenderLinearBlendLogic-constructor' }
+#### new RenderLinearBlendLogic( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span> ) {: #RenderLinearBlendLogic-RenderLinearBlendLogic-constructor data-toc-label='new RenderLinearBlendLogic-RenderLinearBlendLogic' }
 
 ### Instance Methods
 

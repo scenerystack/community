@@ -17,7 +17,7 @@ import { TinyStaticProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyStaticProperty( value : <span style="font-weight: 400;">T</span>, onAccessAttempt : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyStaticProperty( value : <span style="font-weight: 400;">T</span>, onAccessAttempt : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #TinyStaticProperty-constructor data-toc-label='new TinyStaticProperty' }
 
 ### Instance Methods
 

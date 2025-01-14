@@ -16,7 +16,7 @@ import { Fittability } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Fittability( instance ) {: #constructor data-toc-label='constructor' }
+#### new Fittability( instance ) {: #Fittability-constructor data-toc-label='new Fittability' }
 
 ### Instance Methods
 

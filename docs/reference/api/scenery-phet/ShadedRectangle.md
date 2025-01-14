@@ -14,7 +14,7 @@ import { ShadedRectangle } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ShadedRectangle( rectBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, providedOptions? : <span style="font-weight: 400;">[ShadedRectangleOptions](../scenery-phet/ShadedRectangle.md#ShadedRectangleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ShadedRectangle( rectBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, providedOptions? : <span style="font-weight: 400;">[ShadedRectangleOptions](../scenery-phet/ShadedRectangle.md#ShadedRectangleOptions)</span> ) {: #ShadedRectangle-constructor data-toc-label='new ShadedRectangle' }
 
 ### Instance Methods
 

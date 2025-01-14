@@ -14,7 +14,7 @@ import { BoundedSubpath } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BoundedSubpath( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, subpath : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new BoundedSubpath( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, subpath : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #BoundedSubpath-constructor data-toc-label='new BoundedSubpath' }
 
 ### Instance Methods
 

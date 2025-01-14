@@ -14,7 +14,7 @@ import { DirectModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new DirectModule( options : <span style="font-weight: 400;">[DirectModuleOptions](../alpenglow/DirectModule.md#DirectModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DirectModule( options : <span style="font-weight: 400;">[DirectModuleOptions](../alpenglow/DirectModule.md#DirectModuleOptions)&lt;T&gt;</span> ) {: #DirectModule-constructor data-toc-label='new DirectModule' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { RasterChunkReducePair } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterChunkReducePair( min : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span>, max : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterChunkReducePair( min : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span>, max : <span style="font-weight: 400;">[RasterChunkReduceData](../alpenglow/RasterChunkReduceData.md)</span> ) {: #RasterChunkReducePair-constructor data-toc-label='new RasterChunkReducePair' }
 
 ### Instance Methods
 

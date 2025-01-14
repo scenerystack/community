@@ -14,7 +14,7 @@ import { TextDOMDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TextDOMDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new TextDOMDrawable( renderer, instance ) {: #TextDOMDrawable-constructor data-toc-label='new TextDOMDrawable' }
 
 ### Instance Methods
 

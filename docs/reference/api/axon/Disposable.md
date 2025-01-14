@@ -21,7 +21,7 @@ import { Disposable } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new Disposable( providedOptions? : <span style="font-weight: 400;">[DisposableOptions](../axon/Disposable.md#DisposableOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Disposable( providedOptions? : <span style="font-weight: 400;">[DisposableOptions](../axon/Disposable.md#DisposableOptions)</span> ) {: #Disposable-constructor data-toc-label='new Disposable' }
 
 ### Instance Methods
 

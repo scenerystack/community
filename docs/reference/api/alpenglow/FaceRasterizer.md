@@ -12,7 +12,7 @@ import { FaceRasterizer } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new FaceRasterizer( providedOptions : <span style="font-weight: 400;">FaceRasterizerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new FaceRasterizer( providedOptions : <span style="font-weight: 400;">FaceRasterizerOptions</span> ) {: #FaceRasterizer-constructor data-toc-label='new FaceRasterizer' }
 
 ### Instance Methods
 

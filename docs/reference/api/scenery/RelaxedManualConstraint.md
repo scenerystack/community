@@ -14,7 +14,7 @@ import { RelaxedManualConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RelaxedManualConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new RelaxedManualConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, nodes : <span style="font-weight: 400;">T</span>, layoutCallback : <span style="font-weight: 400;">LayoutCallback&lt;T&gt;</span> ) {: #RelaxedManualConstraint-constructor data-toc-label='new RelaxedManualConstraint' }
 
 ### Instance Methods
 

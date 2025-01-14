@@ -19,7 +19,7 @@ import { IOType } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new IOType( typeName : <span style="font-weight: 400;">IOTypeName</span>, providedOptions : <span style="font-weight: 400;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new IOType( typeName : <span style="font-weight: 400;">IOTypeName</span>, providedOptions : <span style="font-weight: 400;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #IOType-constructor data-toc-label='new IOType' }
 
 ### Instance Methods
 

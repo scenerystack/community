@@ -18,7 +18,7 @@ import { Segment } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new Segment() {: #constructor data-toc-label='constructor' }
+#### new Segment() {: #Segment-constructor data-toc-label='new Segment' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { MainRadixHistogramModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainRadixHistogramModule( providedOptions : <span style="font-weight: 400;">[MainRadixHistogramModuleOptions](../alpenglow/MainRadixHistogramModule.md#MainRadixHistogramModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainRadixHistogramModule( providedOptions : <span style="font-weight: 400;">[MainRadixHistogramModuleOptions](../alpenglow/MainRadixHistogramModule.md#MainRadixHistogramModuleOptions)&lt;T&gt;</span> ) {: #MainRadixHistogramModule-constructor data-toc-label='new MainRadixHistogramModule' }
 
 ### Instance Methods
 

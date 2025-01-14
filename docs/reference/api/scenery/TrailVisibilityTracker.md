@@ -15,7 +15,7 @@ import { TrailVisibilityTracker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TrailVisibilityTracker( trail, options ) {: #constructor data-toc-label='constructor' }
+#### new TrailVisibilityTracker( trail, options ) {: #TrailVisibilityTracker-constructor data-toc-label='new TrailVisibilityTracker' }
 
 ### Instance Methods
 

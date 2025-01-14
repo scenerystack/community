@@ -18,7 +18,7 @@ import { KeyStateTracker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyStateTracker( options? : <span style="font-weight: 400;">KeyStateTrackerOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyStateTracker( options? : <span style="font-weight: 400;">KeyStateTrackerOptions</span> ) {: #KeyStateTracker-constructor data-toc-label='new KeyStateTracker' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { FlowCell } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowCell( constraint : <span style="font-weight: 400;">[FlowConstraint](../scenery/FlowConstraint.md)</span>, node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, proxy : <span style="font-weight: 400;">[LayoutProxy](../scenery/LayoutProxy.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowCell( constraint : <span style="font-weight: 400;">[FlowConstraint](../scenery/FlowConstraint.md)</span>, node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, proxy : <span style="font-weight: 400;">[LayoutProxy](../scenery/LayoutProxy.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #FlowCell-constructor data-toc-label='new FlowCell' }
 
 ### Instance Methods
 

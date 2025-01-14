@@ -18,7 +18,7 @@ import { Plane } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Plane( options? : <span style="font-weight: 400;">[PlaneOptions](../scenery/Plane.md#PlaneOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Plane( options? : <span style="font-weight: 400;">[PlaneOptions](../scenery/Plane.md#PlaneOptions)</span> ) {: #Plane-constructor data-toc-label='new Plane' }
 
 ### Instance Methods
 

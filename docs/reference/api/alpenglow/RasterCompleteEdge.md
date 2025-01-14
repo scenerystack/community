@@ -16,7 +16,7 @@ import { RasterCompleteEdge } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterCompleteEdge( startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterCompleteEdge( startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #RasterCompleteEdge-constructor data-toc-label='new RasterCompleteEdge' }
 
 ### Instance Methods
 

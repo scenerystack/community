@@ -15,7 +15,7 @@ import { FlowConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions)</span> ) {: #FlowConstraint-constructor data-toc-label='new FlowConstraint' }
 
 ### Instance Methods
 

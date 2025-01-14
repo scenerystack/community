@@ -14,7 +14,7 @@ import { Circle } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Circle( options? : <span style="font-weight: 400;">[CircleOptions](../scenery/Circle.md#CircleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Circle( options? : <span style="font-weight: 400;">[CircleOptions](../scenery/Circle.md#CircleOptions)</span> ) {: #Circle-constructor data-toc-label='new Circle' }
 
 ### Instance Methods
 

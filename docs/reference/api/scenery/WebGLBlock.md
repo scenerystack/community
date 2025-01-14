@@ -16,7 +16,7 @@ import { WebGLBlock } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new WebGLBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #constructor data-toc-label='constructor' }
+#### new WebGLBlock( display, renderer, transformRootInstance, filterRootInstance ) {: #WebGLBlock-constructor data-toc-label='new WebGLBlock' }
 
 ### Instance Methods
 

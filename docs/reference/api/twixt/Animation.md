@@ -29,7 +29,7 @@ import { Animation } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new Animation( providedConfig : <span style="font-weight: 400;">[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;SelfType, SelfObjectType, TargetTypes, TargetObjectTypes&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Animation( providedConfig : <span style="font-weight: 400;">[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;SelfType, SelfObjectType, TargetTypes, TargetObjectTypes&gt;</span> ) {: #Animation-constructor data-toc-label='new Animation' }
 
 ### Instance Methods
 

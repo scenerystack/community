@@ -18,7 +18,7 @@ import { BeakerNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new BeakerNode( solutionLevelProperty : <span style="font-weight: 400;">[TRangedProperty](../axon/TRangedProperty.md)</span>, providedOptions? : <span style="font-weight: 400;">[BeakerNodeOptions](../scenery-phet/BeakerNode.md#BeakerNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BeakerNode( solutionLevelProperty : <span style="font-weight: 400;">[TRangedProperty](../axon/TRangedProperty.md)</span>, providedOptions? : <span style="font-weight: 400;">[BeakerNodeOptions](../scenery-phet/BeakerNode.md#BeakerNodeOptions)</span> ) {: #BeakerNode-constructor data-toc-label='new BeakerNode' }
 
 ### Instance Methods
 

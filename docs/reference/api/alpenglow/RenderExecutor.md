@@ -14,7 +14,7 @@ import { RenderExecutor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderExecutor() {: #constructor data-toc-label='constructor' }
+#### new RenderExecutor() {: #RenderExecutor-constructor data-toc-label='new RenderExecutor' }
 
 ### Instance Methods
 

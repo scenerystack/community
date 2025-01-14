@@ -16,7 +16,7 @@ import { ThreeIsometricNode } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeIsometricNode( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, providedOptions? : <span style="font-weight: 400;">[ThreeIsometricNodeOptions](../mobius/ThreeIsometricNode.md#ThreeIsometricNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeIsometricNode( layoutBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, providedOptions? : <span style="font-weight: 400;">[ThreeIsometricNodeOptions](../mobius/ThreeIsometricNode.md#ThreeIsometricNodeOptions)</span> ) {: #ThreeIsometricNode-constructor data-toc-label='new ThreeIsometricNode' }
 
 ### Instance Methods
 

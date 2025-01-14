@@ -29,7 +29,7 @@ import { MultiListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new MultiListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[MultiListenerOptions](../scenery/MultiListener.md#MultiListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MultiListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[MultiListenerOptions](../scenery/MultiListener.md#MultiListenerOptions)</span> ) {: #MultiListener-constructor data-toc-label='new MultiListener' }
 
 ### Instance Methods
 

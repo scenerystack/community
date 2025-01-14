@@ -16,7 +16,7 @@ import { Touch } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Touch( id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, event : <span style="font-weight: 400;">Event</span> ) {: #constructor data-toc-label='constructor' }
+#### new Touch( id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, event : <span style="font-weight: 400;">Event</span> ) {: #Touch-constructor data-toc-label='new Touch' }
 
 ### Instance Methods
 

@@ -18,7 +18,7 @@ import { GridConstraint } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GridConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridConstraint( ancestorNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions)</span> ) {: #GridConstraint-constructor data-toc-label='new GridConstraint' }
 
 ### Instance Methods
 

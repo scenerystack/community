@@ -14,7 +14,7 @@ import { SVGGradientStop } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGGradientStop( svgGradient : <span style="font-weight: 400;">[ActiveSVGGradient](../scenery/SVGGradient.md#ActiveSVGGradient)</span>, ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGGradientStop( svgGradient : <span style="font-weight: 400;">[ActiveSVGGradient](../scenery/SVGGradient.md#ActiveSVGGradient)</span>, ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span> ) {: #SVGGradientStop-constructor data-toc-label='new SVGGradientStop' }
 
 ### Instance Methods
 

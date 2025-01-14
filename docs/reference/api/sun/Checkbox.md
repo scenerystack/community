@@ -14,7 +14,7 @@ import { Checkbox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Checkbox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Checkbox( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions)</span> ) {: #Checkbox-constructor data-toc-label='new Checkbox' }
 
 ### Instance Methods
 

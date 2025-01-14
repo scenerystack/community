@@ -17,7 +17,7 @@ import { SpriteInstance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SpriteInstance() {: #constructor data-toc-label='constructor' }
+#### new SpriteInstance() {: #SpriteInstance-constructor data-toc-label='new SpriteInstance' }
 
 ### Instance Methods
 

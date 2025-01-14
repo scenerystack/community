@@ -15,7 +15,7 @@ import { GameTimer } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new GameTimer() {: #constructor data-toc-label='constructor' }
+#### new GameTimer() {: #GameTimer-constructor data-toc-label='new GameTimer' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { HueRotate } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HueRotate( amount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new HueRotate( amount : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #HueRotate-constructor data-toc-label='new HueRotate' }
 
 ### Instance Methods
 

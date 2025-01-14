@@ -14,7 +14,7 @@ import { VSeparator } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new VSeparator( options? : <span style="font-weight: 400;">[VSeparatorOptions](../scenery/VSeparator.md#VSeparatorOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VSeparator( options? : <span style="font-weight: 400;">[VSeparatorOptions](../scenery/VSeparator.md#VSeparatorOptions)</span> ) {: #VSeparator-constructor data-toc-label='new VSeparator' }
 
 ### Instance Methods
 

@@ -21,7 +21,7 @@ import { Easing } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new Easing( value : <span style="font-weight: 400;">NumberFunction</span>, derivative : <span style="font-weight: 400;">NumberFunction</span>, secondDerivative : <span style="font-weight: 400;">NumberFunction</span> ) {: #constructor data-toc-label='constructor' }
+#### new Easing( value : <span style="font-weight: 400;">NumberFunction</span>, derivative : <span style="font-weight: 400;">NumberFunction</span>, secondDerivative : <span style="font-weight: 400;">NumberFunction</span> ) {: #Easing-constructor data-toc-label='new Easing' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { Transition } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new Transition( fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, config : <span style="font-weight: 400;">[TransitionOptions](../twixt/Transition.md#TransitionOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Transition( fromNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, toNode : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, config : <span style="font-weight: 400;">[TransitionOptions](../twixt/Transition.md#TransitionOptions)</span> ) {: #Transition-constructor data-toc-label='new Transition' }
 
 ### Instance Methods
 

@@ -18,7 +18,7 @@ import { HighlightPath } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HighlightPath( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HighlightPath( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions)</span> ) {: #HighlightPath-constructor data-toc-label='new HighlightPath' }
 
 ### Instance Methods
 

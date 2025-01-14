@@ -14,7 +14,7 @@ import { PushButtonInteractionStateProperty } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new PushButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400;">[PushButtonModel](../sun/PushButtonModel.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PushButtonInteractionStateProperty( buttonModel : <span style="font-weight: 400;">[PushButtonModel](../sun/PushButtonModel.md)</span> ) {: #PushButtonInteractionStateProperty-constructor data-toc-label='new PushButtonInteractionStateProperty' }
 
 ### Instance Methods
 

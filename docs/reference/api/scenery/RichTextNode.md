@@ -14,7 +14,7 @@ import { RichTextNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichTextNode( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichTextNode( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #RichTextNode-constructor data-toc-label='new RichTextNode' }
 
 ### Instance Methods
 

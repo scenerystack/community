@@ -14,7 +14,7 @@ import { TextPushButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new TextPushButton( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TextPushButtonOptions](../sun/TextPushButton.md#TextPushButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextPushButton( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TextPushButtonOptions](../sun/TextPushButton.md#TextPushButtonOptions)</span> ) {: #TextPushButton-constructor data-toc-label='new TextPushButton' }
 
 ### Instance Methods
 

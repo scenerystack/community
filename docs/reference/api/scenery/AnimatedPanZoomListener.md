@@ -16,7 +16,7 @@ import { AnimatedPanZoomListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AnimatedPanZoomListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanZoomListenerOptions](../scenery/PanZoomListener.md#PanZoomListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AnimatedPanZoomListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanZoomListenerOptions](../scenery/PanZoomListener.md#PanZoomListenerOptions)</span> ) {: #AnimatedPanZoomListener-constructor data-toc-label='new AnimatedPanZoomListener' }
 
 ### Instance Methods
 

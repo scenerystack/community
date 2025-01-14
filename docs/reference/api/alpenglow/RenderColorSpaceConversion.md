@@ -14,7 +14,7 @@ import { RenderColorSpaceConversion } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderColorSpaceConversion( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, convert : <span style="font-weight: 400;">( color: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderColorSpaceConversion( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, convert : <span style="font-weight: 400;">( color: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span> ) {: #RenderColorSpaceConversion-constructor data-toc-label='new RenderColorSpaceConversion' }
 
 ### Instance Methods
 

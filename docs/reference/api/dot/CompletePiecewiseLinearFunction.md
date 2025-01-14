@@ -21,7 +21,7 @@ import { CompletePiecewiseLinearFunction } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new CompletePiecewiseLinearFunction( points : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new CompletePiecewiseLinearFunction( points : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span> ) {: #CompletePiecewiseLinearFunction-constructor data-toc-label='new CompletePiecewiseLinearFunction' }
 
 ### Instance Methods
 

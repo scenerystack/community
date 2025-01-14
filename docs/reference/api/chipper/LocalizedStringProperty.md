@@ -14,7 +14,7 @@ import { LocalizedStringProperty } from 'scenerystack/chipper';
 ```
 ### Constructor
 
-#### new LocalizedStringProperty( localizedString : <span style="font-weight: 400;">[LocalizedString](../chipper/LocalizedString.md)</span>, tandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span>, metadata? : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new LocalizedStringProperty( localizedString : <span style="font-weight: 400;">[LocalizedString](../chipper/LocalizedString.md)</span>, tandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span>, metadata? : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> ) {: #LocalizedStringProperty-constructor data-toc-label='new LocalizedStringProperty' }
 
 ### Instance Methods
 

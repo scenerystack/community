@@ -17,7 +17,7 @@ import { TransformTracker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TransformTracker( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, providedOptions? : <span style="font-weight: 400;">[TransformTrackerOptions](../scenery/TransformTracker.md#TransformTrackerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TransformTracker( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, providedOptions? : <span style="font-weight: 400;">[TransformTrackerOptions](../scenery/TransformTracker.md#TransformTrackerOptions)</span> ) {: #TransformTracker-constructor data-toc-label='new TransformTracker' }
 
 ### Instance Methods
 

@@ -34,7 +34,7 @@ import { EnumerationValue } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new EnumerationValue() {: #constructor data-toc-label='constructor' }
+#### new EnumerationValue() {: #EnumerationValue-constructor data-toc-label='new EnumerationValue' }
 
 ### Instance Methods
 

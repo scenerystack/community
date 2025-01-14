@@ -12,7 +12,7 @@ import { VibrationTestInputListener } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new VibrationTestInputListener( eventRecorder ) {: #constructor data-toc-label='constructor' }
+#### new VibrationTestInputListener( eventRecorder ) {: #VibrationTestInputListener-constructor data-toc-label='new VibrationTestInputListener' }
 
 ### Instance Methods
 

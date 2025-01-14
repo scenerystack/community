@@ -46,7 +46,7 @@ import { KeyboardDragListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyboardDragListener( providedOptions? : <span style="font-weight: 400;">[KeyboardDragListenerOptions](../scenery/KeyboardDragListener.md#KeyboardDragListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new KeyboardDragListener( providedOptions? : <span style="font-weight: 400;">[KeyboardDragListenerOptions](../scenery/KeyboardDragListener.md#KeyboardDragListenerOptions)</span> ) {: #KeyboardDragListener-constructor data-toc-label='new KeyboardDragListener' }
 
 ### Instance Methods
 

@@ -19,7 +19,7 @@ import { Transform4 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Transform4( matrix ) {: #constructor data-toc-label='constructor' }
+#### new Transform4( matrix ) {: #Transform4-constructor data-toc-label='new Transform4' }
 
 ### Instance Methods
 

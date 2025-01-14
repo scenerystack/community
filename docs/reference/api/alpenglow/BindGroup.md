@@ -14,7 +14,7 @@ import { BindGroup } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BindGroup( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, layout : <span style="font-weight: 400;">[BindGroupLayout](../alpenglow/BindGroupLayout.md)</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new BindGroup( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, layout : <span style="font-weight: 400;">[BindGroupLayout](../alpenglow/BindGroupLayout.md)</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span> ) {: #BindGroup-constructor data-toc-label='new BindGroup' }
 
 ### Instance Methods
 

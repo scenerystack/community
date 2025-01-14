@@ -14,7 +14,7 @@ import { Combination } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Combination( inclusions : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new Combination( inclusions : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>[]</span> ) {: #Combination-constructor data-toc-label='new Combination' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { ParallelContext } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelContext( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, localId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, workgroup : <span style="font-weight: 400;">[ParallelWorkgroup](../alpenglow/ParallelWorkgroup.md)&lt;WorkgroupValues&gt;</span>, executor : <span style="font-weight: 400;">[ParallelExecutor](../alpenglow/ParallelExecutor.md)&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelContext( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span>, localId : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, workgroup : <span style="font-weight: 400;">[ParallelWorkgroup](../alpenglow/ParallelWorkgroup.md)&lt;WorkgroupValues&gt;</span>, executor : <span style="font-weight: 400;">[ParallelExecutor](../alpenglow/ParallelExecutor.md)&lt;WorkgroupValues&gt;</span> ) {: #ParallelContext-constructor data-toc-label='new ParallelContext' }
 
 ### Instance Methods
 

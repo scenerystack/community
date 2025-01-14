@@ -20,7 +20,7 @@ import { VibrationTestEvent } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new VibrationTestEvent( x, y, time, name ) {: #constructor data-toc-label='constructor' }
+#### new VibrationTestEvent( x, y, time, name ) {: #VibrationTestEvent-constructor data-toc-label='new VibrationTestEvent' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { OpenRange } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new OpenRange( min, max, options ) {: #constructor data-toc-label='constructor' }
+#### new OpenRange( min, max, options ) {: #OpenRange-constructor data-toc-label='new OpenRange' }
 
 ### Instance Methods
 

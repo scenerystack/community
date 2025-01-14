@@ -26,7 +26,7 @@ import { ContinuousPatternVibrationController } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400;">[VibrationManageriOS](../tappi/VibrationManageriOS.md)</span>, providedOptions : <span style="font-weight: 400;">[ContinuousPatternVibrationControllerOptions](../tappi/ContinuousPatternVibrationController.md#ContinuousPatternVibrationControllerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400;">[VibrationManageriOS](../tappi/VibrationManageriOS.md)</span>, providedOptions : <span style="font-weight: 400;">[ContinuousPatternVibrationControllerOptions](../tappi/ContinuousPatternVibrationController.md#ContinuousPatternVibrationControllerOptions)</span> ) {: #ContinuousPatternVibrationController-constructor data-toc-label='new ContinuousPatternVibrationController' }
 
 ### Instance Methods
 

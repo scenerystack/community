@@ -15,7 +15,7 @@ import { DotRectangle } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new DotRectangle( x, y, width, height ) {: #constructor data-toc-label='constructor' }
+#### new DotRectangle( x, y, width, height ) {: #DotRectangle-constructor data-toc-label='new DotRectangle' }
 
 ### Instance Methods
 

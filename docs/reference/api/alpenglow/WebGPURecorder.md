@@ -106,7 +106,7 @@ import { WebGPUCommand } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WebGPUCommand( result : <span style="font-weight: 400;">IntentionalAny | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dependencies : <span style="font-weight: 400;">IntentionalAny[]</span> ) {: #WebGPUCommand-constructor data-toc-label='WebGPUCommand-constructor' }
+#### new WebGPUCommand( result : <span style="font-weight: 400;">IntentionalAny | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dependencies : <span style="font-weight: 400;">IntentionalAny[]</span> ) {: #WebGPUCommand-WebGPUCommand-constructor data-toc-label='new WebGPUCommand-WebGPUCommand' }
 
 ### Instance Methods
 
@@ -126,7 +126,7 @@ import { WebGPUCommandList } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WebGPUCommandList( commands : <span style="font-weight: 400;">[WebGPUCommand](../alpenglow/WebGPURecorder.md#WebGPUCommand)[]</span> ) {: #WebGPUCommandList-constructor data-toc-label='WebGPUCommandList-constructor' }
+#### new WebGPUCommandList( commands : <span style="font-weight: 400;">[WebGPUCommand](../alpenglow/WebGPURecorder.md#WebGPUCommand)[]</span> ) {: #WebGPUCommandList-WebGPUCommandList-constructor data-toc-label='new WebGPUCommandList-WebGPUCommandList' }
 
 ### Instance Methods
 

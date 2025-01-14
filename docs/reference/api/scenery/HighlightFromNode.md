@@ -18,7 +18,7 @@ import { HighlightFromNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HighlightFromNode( node : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[HighlightFromNodeOptions](../scenery/HighlightFromNode.md#HighlightFromNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HighlightFromNode( node : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[HighlightFromNodeOptions](../scenery/HighlightFromNode.md#HighlightFromNodeOptions)</span> ) {: #HighlightFromNode-constructor data-toc-label='new HighlightFromNode' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { Resource } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Resource( resource : <span style="font-weight: 400;">GPUBuffer | GPUTextureView</span> ) {: #constructor data-toc-label='constructor' }
+#### new Resource( resource : <span style="font-weight: 400;">GPUBuffer | GPUTextureView</span> ) {: #Resource-constructor data-toc-label='new Resource' }
 
 ### Instance Methods
 

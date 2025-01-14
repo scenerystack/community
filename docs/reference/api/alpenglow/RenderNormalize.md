@@ -14,7 +14,7 @@ import { RenderNormalize } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderNormalize( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderNormalize( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderNormalize-constructor data-toc-label='new RenderNormalize' }
 
 ### Instance Methods
 

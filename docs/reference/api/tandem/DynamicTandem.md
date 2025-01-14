@@ -16,7 +16,7 @@ import { DynamicTandem } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new DynamicTandem( parentTandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, providedOptions? : <span style="font-weight: 400;">DynamicTandemOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new DynamicTandem( parentTandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, providedOptions? : <span style="font-weight: 400;">DynamicTandemOptions</span> ) {: #DynamicTandem-constructor data-toc-label='new DynamicTandem' }
 
 ### Instance Methods
 

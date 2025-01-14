@@ -16,7 +16,7 @@ import { StarNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StarNode( providedOptions? : <span style="font-weight: 400;">[StarNodeOptions](../scenery-phet/StarNode.md#StarNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new StarNode( providedOptions? : <span style="font-weight: 400;">[StarNodeOptions](../scenery-phet/StarNode.md#StarNodeOptions)</span> ) {: #StarNode-constructor data-toc-label='new StarNode' }
 
 ### Instance Methods
 

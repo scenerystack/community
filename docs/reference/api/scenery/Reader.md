@@ -20,7 +20,7 @@ import { Reader } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Reader( cursor ) {: #constructor data-toc-label='constructor' }
+#### new Reader( cursor ) {: #Reader-constructor data-toc-label='new Reader' }
 
 ### Instance Methods
 

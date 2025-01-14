@@ -15,7 +15,7 @@ import { VSlider } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new VSlider( valueProperty : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, options? : <span style="font-weight: 400;">[VSliderOptions](../sun/VSlider.md#VSliderOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VSlider( valueProperty : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, options? : <span style="font-weight: 400;">[VSliderOptions](../sun/VSlider.md#VSliderOptions)</span> ) {: #VSlider-constructor data-toc-label='new VSlider' }
 
 ### Instance Methods
 

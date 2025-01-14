@@ -14,7 +14,7 @@ import { SegmentIntersection } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new SegmentIntersection( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, aT : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bT : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new SegmentIntersection( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, aT : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, bT : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #SegmentIntersection-constructor data-toc-label='new SegmentIntersection' }
 
 ### Instance Methods
 

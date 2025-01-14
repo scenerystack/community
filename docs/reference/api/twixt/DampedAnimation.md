@@ -17,7 +17,7 @@ import { DampedAnimation } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new DampedAnimation( providedOptions? : <span style="font-weight: 400;">[DampedAnimationOptions](../twixt/DampedAnimation.md#DampedAnimationOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new DampedAnimation( providedOptions? : <span style="font-weight: 400;">[DampedAnimationOptions](../twixt/DampedAnimation.md#DampedAnimationOptions)</span> ) {: #DampedAnimation-constructor data-toc-label='new DampedAnimation' }
 
 ### Instance Methods
 

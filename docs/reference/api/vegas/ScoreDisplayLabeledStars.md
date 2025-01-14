@@ -15,7 +15,7 @@ import { ScoreDisplayLabeledStars } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new ScoreDisplayLabeledStars( scoreProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ScoreDisplayLabeledStarsOptions](../vegas/ScoreDisplayLabeledStars.md#ScoreDisplayLabeledStarsOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScoreDisplayLabeledStars( scoreProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ScoreDisplayLabeledStarsOptions](../vegas/ScoreDisplayLabeledStars.md#ScoreDisplayLabeledStarsOptions)</span> ) {: #ScoreDisplayLabeledStars-constructor data-toc-label='new ScoreDisplayLabeledStars' }
 
 ### Instance Methods
 

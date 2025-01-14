@@ -16,7 +16,7 @@ import { RadixSortModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RadixSortModule( providedOptions : <span style="font-weight: 400;">[RadixSortModuleOptions](../alpenglow/RadixSortModule.md#RadixSortModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new RadixSortModule( providedOptions : <span style="font-weight: 400;">[RadixSortModuleOptions](../alpenglow/RadixSortModule.md#RadixSortModuleOptions)&lt;T&gt;</span> ) {: #RadixSortModule-constructor data-toc-label='new RadixSortModule' }
 
 ### Instance Methods
 

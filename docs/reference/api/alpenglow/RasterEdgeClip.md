@@ -15,7 +15,7 @@ import { RasterEdgeClip } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterEdgeClip( clippedChunkIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point0 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point2 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point3 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, isFirstEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isLastEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterEdgeClip( clippedChunkIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, point0 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point1 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point2 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, point3 : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, isFirstEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isLastEdge : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #RasterEdgeClip-constructor data-toc-label='new RasterEdgeClip' }
 
 ### Instance Methods
 

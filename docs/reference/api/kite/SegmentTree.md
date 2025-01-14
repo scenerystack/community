@@ -19,7 +19,7 @@ import { SegmentTree } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new SegmentTree( epsilon ) {: #constructor data-toc-label='constructor' }
+#### new SegmentTree( epsilon ) {: #SegmentTree-constructor data-toc-label='new SegmentTree' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { EdgedFace } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new EdgedFace( edges : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span>, skipValidation ) {: #constructor data-toc-label='constructor' }
+#### new EdgedFace( edges : <span style="font-weight: 400;">[LinearEdge](../alpenglow/LinearEdge.md)[]</span>, skipValidation ) {: #EdgedFace-constructor data-toc-label='new EdgedFace' }
 
 ### Instance Methods
 

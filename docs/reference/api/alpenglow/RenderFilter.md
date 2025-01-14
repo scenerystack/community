@@ -17,7 +17,7 @@ import { RenderFilter } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderFilter( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, logic? : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderFilter( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, logic? : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #RenderFilter-constructor data-toc-label='new RenderFilter' }
 
 ### Instance Methods
 
@@ -61,7 +61,7 @@ import { RenderFilterLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderFilterLogic( colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderFilterLogic-constructor data-toc-label='RenderFilterLogic-constructor' }
+#### new RenderFilterLogic( colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderFilterLogic-RenderFilterLogic-constructor data-toc-label='new RenderFilterLogic-RenderFilterLogic' }
 
 ### Instance Methods
 
@@ -77,7 +77,7 @@ import { RenderInstructionFilter } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionFilter( logic : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #RenderInstructionFilter-constructor data-toc-label='RenderInstructionFilter-constructor' }
+#### new RenderInstructionFilter( logic : <span style="font-weight: 400;">[RenderFilterLogic](../alpenglow/RenderFilter.md#RenderFilterLogic)</span> ) {: #RenderInstructionFilter-RenderInstructionFilter-constructor data-toc-label='new RenderInstructionFilter-RenderInstructionFilter' }
 
 ### Instance Methods
 

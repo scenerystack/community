@@ -14,7 +14,7 @@ import { AllLevelsCompletedNode } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new AllLevelsCompletedNode( listener : <span style="font-weight: 400;">[PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)</span>, providedOptions? : <span style="font-weight: 400;">[AllLevelsCompletedNodeOptions](../vegas/AllLevelsCompletedNode.md#AllLevelsCompletedNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AllLevelsCompletedNode( listener : <span style="font-weight: 400;">[PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)</span>, providedOptions? : <span style="font-weight: 400;">[AllLevelsCompletedNodeOptions](../vegas/AllLevelsCompletedNode.md#AllLevelsCompletedNodeOptions)</span> ) {: #AllLevelsCompletedNode-constructor data-toc-label='new AllLevelsCompletedNode' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { RenderProgram } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderProgram( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span>, isFullyTransparent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isFullyOpaque : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsFace, needsArea, needsCentroid ) {: #constructor data-toc-label='constructor' }
+#### new RenderProgram( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span>, isFullyTransparent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isFullyOpaque : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsFace, needsArea, needsCentroid ) {: #RenderProgram-constructor data-toc-label='new RenderProgram' }
 
 ### Instance Methods
 

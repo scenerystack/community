@@ -14,7 +14,7 @@ import { ShadedSphereNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ShadedSphereNode( diameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[ShadedSphereNodeOptions](../scenery-phet/ShadedSphereNode.md#ShadedSphereNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ShadedSphereNode( diameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[ShadedSphereNodeOptions](../scenery-phet/ShadedSphereNode.md#ShadedSphereNodeOptions)</span> ) {: #ShadedSphereNode-constructor data-toc-label='new ShadedSphereNode' }
 
 ### Instance Methods
 

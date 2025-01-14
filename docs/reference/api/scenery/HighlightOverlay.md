@@ -17,7 +17,7 @@ import { HighlightOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HighlightOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, focusRootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[HighlightOverlayOptions](../scenery/HighlightOverlay.md#HighlightOverlayOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HighlightOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, focusRootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[HighlightOverlayOptions](../scenery/HighlightOverlay.md#HighlightOverlayOptions)</span> ) {: #HighlightOverlay-constructor data-toc-label='new HighlightOverlay' }
 
 ### Instance Methods
 

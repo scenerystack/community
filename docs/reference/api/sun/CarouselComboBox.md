@@ -28,7 +28,7 @@ import { CarouselComboBox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new CarouselComboBox( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, comboBoxItems : <span style="font-weight: 400;">[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[CarouselComboBoxOptions](../sun/CarouselComboBox.md#CarouselComboBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new CarouselComboBox( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, comboBoxItems : <span style="font-weight: 400;">[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[CarouselComboBoxOptions](../sun/CarouselComboBox.md#CarouselComboBoxOptions)</span> ) {: #CarouselComboBox-constructor data-toc-label='new CarouselComboBox' }
 
 ### Instance Methods
 

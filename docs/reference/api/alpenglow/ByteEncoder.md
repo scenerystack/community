@@ -14,7 +14,7 @@ import { ByteEncoder } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ByteEncoder( arrayBuffer? : <span style="font-weight: 400;">ArrayBuffer</span> ) {: #constructor data-toc-label='constructor' }
+#### new ByteEncoder( arrayBuffer? : <span style="font-weight: 400;">ArrayBuffer</span> ) {: #ByteEncoder-constructor data-toc-label='new ByteEncoder' }
 
 ### Instance Methods
 

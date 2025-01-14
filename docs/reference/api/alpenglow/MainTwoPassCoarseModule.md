@@ -16,7 +16,7 @@ import { MainTwoPassCoarseModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassCoarseModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassCoarseModuleOptions](../alpenglow/MainTwoPassCoarseModule.md#MainTwoPassCoarseModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassCoarseModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassCoarseModuleOptions](../alpenglow/MainTwoPassCoarseModule.md#MainTwoPassCoarseModuleOptions)</span> ) {: #MainTwoPassCoarseModule-constructor data-toc-label='new MainTwoPassCoarseModule' }
 
 ### Instance Methods
 

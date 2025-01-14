@@ -18,7 +18,7 @@ import { RoundMomentaryButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundMomentaryButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RoundMomentaryButtonOptions](../sun/RoundMomentaryButton.md#RoundMomentaryButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundMomentaryButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RoundMomentaryButtonOptions](../sun/RoundMomentaryButton.md#RoundMomentaryButtonOptions)</span> ) {: #RoundMomentaryButton-constructor data-toc-label='new RoundMomentaryButton' }
 
 ### Instance Methods
 

@@ -16,7 +16,7 @@ import { VibrationIndicator } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new VibrationIndicator( vibratingProperty ) {: #constructor data-toc-label='constructor' }
+#### new VibrationIndicator( vibratingProperty ) {: #VibrationIndicator-constructor data-toc-label='new VibrationIndicator' }
 
 ### Instance Methods
 

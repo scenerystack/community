@@ -14,7 +14,7 @@ import { LinearEdge } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new LinearEdge( startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, containsFakeCorner ) {: #constructor data-toc-label='constructor' }
+#### new LinearEdge( startPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endPoint : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, containsFakeCorner ) {: #LinearEdge-constructor data-toc-label='new LinearEdge' }
 
 ### Instance Methods
 

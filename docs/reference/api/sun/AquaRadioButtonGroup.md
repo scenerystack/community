@@ -15,7 +15,7 @@ import { AquaRadioButtonGroup } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new AquaRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[AquaRadioButtonGroupItem](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupItem)&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AquaRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[AquaRadioButtonGroupItem](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupItem)&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions)</span> ) {: #AquaRadioButtonGroup-constructor data-toc-label='new AquaRadioButtonGroup' }
 
 ### Instance Methods
 

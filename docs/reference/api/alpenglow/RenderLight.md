@@ -14,7 +14,7 @@ import { RenderLight } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLight( directionProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, colorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderLight( directionProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, colorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLight-constructor data-toc-label='new RenderLight' }
 
 ### Instance Methods
 

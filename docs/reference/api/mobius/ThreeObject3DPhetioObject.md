@@ -14,7 +14,7 @@ import { ThreeObject3DPhetioObject } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new ThreeObject3DPhetioObject( providedOptions? : <span style="font-weight: 400;">ThreeObject3DPhetioObjectOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new ThreeObject3DPhetioObject( providedOptions? : <span style="font-weight: 400;">ThreeObject3DPhetioObjectOptions</span> ) {: #ThreeObject3DPhetioObject-constructor data-toc-label='new ThreeObject3DPhetioObject' }
 
 ### Instance Methods
 

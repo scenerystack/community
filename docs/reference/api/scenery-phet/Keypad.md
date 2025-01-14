@@ -15,7 +15,7 @@ import { Keypad } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new Keypad( layout : <span style="font-weight: 400;">( [Key](../scenery-phet/Key.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[][]</span>, providedOptions? : <span style="font-weight: 400;">[KeypadOptions](../scenery-phet/Keypad.md#KeypadOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Keypad( layout : <span style="font-weight: 400;">( [Key](../scenery-phet/Key.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[][]</span>, providedOptions? : <span style="font-weight: 400;">[KeypadOptions](../scenery-phet/Keypad.md#KeypadOptions)</span> ) {: #Keypad-constructor data-toc-label='new Keypad' }
 
 ### Instance Methods
 

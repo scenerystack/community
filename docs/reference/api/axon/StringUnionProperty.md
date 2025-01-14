@@ -15,7 +15,7 @@ import { StringUnionProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new StringUnionProperty( value : <span style="font-weight: 400;">T</span>, providedOptions : <span style="font-weight: 400;">StringEnumerationPropertyOptions&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new StringUnionProperty( value : <span style="font-weight: 400;">T</span>, providedOptions : <span style="font-weight: 400;">StringEnumerationPropertyOptions&lt;T&gt;</span> ) {: #StringUnionProperty-constructor data-toc-label='new StringUnionProperty' }
 
 ### Instance Methods
 

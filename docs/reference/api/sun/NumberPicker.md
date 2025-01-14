@@ -15,7 +15,7 @@ import { NumberPicker } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new NumberPicker( valueProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, rangeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[NumberPickerOptions](../sun/NumberPicker.md#NumberPickerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberPicker( valueProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, rangeProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[NumberPickerOptions](../sun/NumberPicker.md#NumberPickerOptions)</span> ) {: #NumberPicker-constructor data-toc-label='new NumberPicker' }
 
 ### Instance Methods
 

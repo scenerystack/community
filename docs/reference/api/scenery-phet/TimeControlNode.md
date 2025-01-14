@@ -18,7 +18,7 @@ import { TimeControlNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new TimeControlNode( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TimeControlNodeOptions](../scenery-phet/TimeControlNode.md#TimeControlNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TimeControlNode( isPlayingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TimeControlNodeOptions](../scenery-phet/TimeControlNode.md#TimeControlNodeOptions)</span> ) {: #TimeControlNode-constructor data-toc-label='new TimeControlNode' }
 
 ### Instance Methods
 

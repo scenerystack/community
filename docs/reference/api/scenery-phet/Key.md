@@ -15,7 +15,7 @@ import { Key } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new Key( label : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, identifier : <span style="font-weight: 400;">[KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)</span>, providedOptions? : <span style="font-weight: 400;">[KeyOptions](../scenery-phet/Key.md#KeyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Key( label : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, identifier : <span style="font-weight: 400;">[KeyIDValue](../scenery-phet/KeyID.md#KeyIDValue)</span>, providedOptions? : <span style="font-weight: 400;">[KeyOptions](../scenery-phet/Key.md#KeyOptions)</span> ) {: #Key-constructor data-toc-label='new Key' }
 
 ### Instance Methods
 

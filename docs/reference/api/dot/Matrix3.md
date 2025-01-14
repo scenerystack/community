@@ -14,7 +14,7 @@ import { Matrix3 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Matrix3() {: #constructor data-toc-label='constructor' }
+#### new Matrix3() {: #Matrix3-constructor data-toc-label='new Matrix3' }
 
 ### Instance Methods
 

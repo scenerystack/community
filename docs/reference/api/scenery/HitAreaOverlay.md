@@ -14,7 +14,7 @@ import { HitAreaOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HitAreaOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new HitAreaOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #HitAreaOverlay-constructor data-toc-label='new HitAreaOverlay' }
 
 ### Instance Methods
 

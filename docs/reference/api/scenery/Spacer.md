@@ -14,7 +14,7 @@ import { Spacer } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Spacer( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[SpacerOptions](../scenery/Spacer.md#SpacerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Spacer( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[SpacerOptions](../scenery/Spacer.md#SpacerOptions)</span> ) {: #Spacer-constructor data-toc-label='new Spacer' }
 
 ### Instance Methods
 

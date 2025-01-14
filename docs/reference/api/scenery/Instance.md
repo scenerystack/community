@@ -28,7 +28,7 @@ import { Instance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Instance( display, trail, isDisplayRoot, isSharedCanvasCacheRoot ) {: #constructor data-toc-label='constructor' }
+#### new Instance( display, trail, isDisplayRoot, isSharedCanvasCacheRoot ) {: #Instance-constructor data-toc-label='new Instance' }
 
 ### Instance Methods
 

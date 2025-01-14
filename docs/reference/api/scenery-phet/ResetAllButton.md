@@ -16,7 +16,7 @@ import { ResetAllButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ResetAllButton( providedOptions? : <span style="font-weight: 400;">[ResetAllButtonOptions](../scenery-phet/ResetAllButton.md#ResetAllButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ResetAllButton( providedOptions? : <span style="font-weight: 400;">[ResetAllButtonOptions](../scenery-phet/ResetAllButton.md#ResetAllButtonOptions)</span> ) {: #ResetAllButton-constructor data-toc-label='new ResetAllButton' }
 
 ### Instance Methods
 

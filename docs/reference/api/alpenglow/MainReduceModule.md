@@ -16,7 +16,7 @@ import { MainReduceModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainReduceModule( providedOptions : <span style="font-weight: 400;">[MainReduceModuleOptions](../alpenglow/MainReduceModule.md#MainReduceModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainReduceModule( providedOptions : <span style="font-weight: 400;">[MainReduceModuleOptions](../alpenglow/MainReduceModule.md#MainReduceModuleOptions)&lt;T&gt;</span> ) {: #MainReduceModule-constructor data-toc-label='new MainReduceModule' }
 
 ### Instance Methods
 

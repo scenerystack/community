@@ -16,7 +16,7 @@ import { SliderTrack } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new SliderTrack( valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, trackNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SliderTrack( valueProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, trackNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, range : <span style="font-weight: 400;">[Range](../dot/Range.md) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions)</span> ) {: #SliderTrack-constructor data-toc-label='new SliderTrack' }
 
 ### Instance Methods
 

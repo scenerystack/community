@@ -16,7 +16,7 @@ import { MainReduceNonCommutativeModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainReduceNonCommutativeModule( providedOptions : <span style="font-weight: 400;">[MainReduceNonCommutativeModuleOptions](../alpenglow/MainReduceNonCommutativeModule.md#MainReduceNonCommutativeModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainReduceNonCommutativeModule( providedOptions : <span style="font-weight: 400;">[MainReduceNonCommutativeModuleOptions](../alpenglow/MainReduceNonCommutativeModule.md#MainReduceNonCommutativeModuleOptions)&lt;T&gt;</span> ) {: #MainReduceNonCommutativeModule-constructor data-toc-label='new MainReduceNonCommutativeModule' }
 
 ### Instance Methods
 

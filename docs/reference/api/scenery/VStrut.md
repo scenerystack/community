@@ -15,7 +15,7 @@ import { VStrut } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new VStrut( height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[VStrutOptions](../scenery/VStrut.md#VStrutOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VStrut( height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[VStrutOptions](../scenery/VStrut.md#VStrutOptions)</span> ) {: #VStrut-constructor data-toc-label='new VStrut' }
 
 ### Instance Methods
 

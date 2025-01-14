@@ -23,7 +23,7 @@ import { Cursor } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Cursor( domElement ) {: #constructor data-toc-label='constructor' }
+#### new Cursor( domElement ) {: #Cursor-constructor data-toc-label='new Cursor' }
 
 ### Instance Methods
 

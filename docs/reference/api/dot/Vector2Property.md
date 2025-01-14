@@ -14,7 +14,7 @@ import { Vector2Property } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Vector2Property( initialValue : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[Vector2PropertyOptions](../dot/Vector2Property.md#Vector2PropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Vector2Property( initialValue : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, providedOptions? : <span style="font-weight: 400;">[Vector2PropertyOptions](../dot/Vector2Property.md#Vector2PropertyOptions)</span> ) {: #Vector2Property-constructor data-toc-label='new Vector2Property' }
 
 ### Instance Methods
 

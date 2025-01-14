@@ -29,7 +29,7 @@ import { ParallelExecutor } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ParallelExecutor( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ParallelExecutor( kernel : <span style="font-weight: 400;">[ParallelKernel](../alpenglow/ParallelKernel.md)&lt;WorkgroupValues&gt;</span> ) {: #ParallelExecutor-constructor data-toc-label='new ParallelExecutor' }
 
 ### Instance Methods
 

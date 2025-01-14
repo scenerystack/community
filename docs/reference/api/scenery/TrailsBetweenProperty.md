@@ -15,7 +15,7 @@ import { TrailsBetweenProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new TrailsBetweenProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TrailsBetweenProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #TrailsBetweenProperty-constructor data-toc-label='new TrailsBetweenProperty' }
 
 ### Instance Methods
 

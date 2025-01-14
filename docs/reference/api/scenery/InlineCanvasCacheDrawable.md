@@ -14,7 +14,7 @@ import { InlineCanvasCacheDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new InlineCanvasCacheDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new InlineCanvasCacheDrawable( renderer, instance ) {: #InlineCanvasCacheDrawable-constructor data-toc-label='new InlineCanvasCacheDrawable' }
 
 ### Instance Methods
 

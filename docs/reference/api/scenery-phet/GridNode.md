@@ -17,7 +17,7 @@ import { GridNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new GridNode( transformProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)&gt;</span>, spacing : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, center : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, numberOfGridLines : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[GridNodeOptions](../scenery-phet/GridNode.md#GridNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridNode( transformProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ModelViewTransform2](../phetcommon/ModelViewTransform2.md)&gt;</span>, spacing : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, center : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, numberOfGridLines : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[GridNodeOptions](../scenery-phet/GridNode.md#GridNodeOptions)</span> ) {: #GridNode-constructor data-toc-label='new GridNode' }
 
 ### Instance Methods
 

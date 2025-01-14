@@ -241,7 +241,7 @@ import { RenderInstructionMultiplyScalar } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionMultiplyScalar( factor : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionMultiplyScalar-constructor data-toc-label='RenderInstructionMultiplyScalar-constructor' }
+#### new RenderInstructionMultiplyScalar( factor : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionMultiplyScalar-RenderInstructionMultiplyScalar-constructor data-toc-label='new RenderInstructionMultiplyScalar-RenderInstructionMultiplyScalar' }
 
 ### Instance Methods
 
@@ -269,7 +269,7 @@ import { RenderInstructionPush } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionPush( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderInstructionPush-constructor data-toc-label='RenderInstructionPush-constructor' }
+#### new RenderInstructionPush( vector : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) {: #RenderInstructionPush-RenderInstructionPush-constructor data-toc-label='new RenderInstructionPush-RenderInstructionPush' }
 
 ### Instance Methods
 

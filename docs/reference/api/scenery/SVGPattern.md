@@ -14,7 +14,7 @@ import { SVGPattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SVGPattern( pattern : <span style="font-weight: 400;">[Pattern](../scenery/Pattern.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new SVGPattern( pattern : <span style="font-weight: 400;">[Pattern](../scenery/Pattern.md)</span> ) {: #SVGPattern-constructor data-toc-label='new SVGPattern' }
 
 ### Instance Methods
 

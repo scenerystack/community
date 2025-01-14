@@ -16,7 +16,7 @@ import { Text } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Text( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, options? : <span style="font-weight: 400;">[TextOptions](../scenery/Text.md#TextOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Text( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, options? : <span style="font-weight: 400;">[TextOptions](../scenery/Text.md#TextOptions)</span> ) {: #Text-constructor data-toc-label='new Text' }
 
 ### Instance Methods
 

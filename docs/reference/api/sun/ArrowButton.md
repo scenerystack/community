@@ -16,7 +16,7 @@ import { ArrowButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ArrowButton( direction : <span style="font-weight: 400;">[ArrowButtonDirection](../sun/ArrowButton.md#ArrowButtonDirection)</span>, callback : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">[ArrowButtonOptions](../sun/ArrowButton.md#ArrowButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ArrowButton( direction : <span style="font-weight: 400;">[ArrowButtonDirection](../sun/ArrowButton.md#ArrowButtonDirection)</span>, callback : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">[ArrowButtonOptions](../sun/ArrowButton.md#ArrowButtonOptions)</span> ) {: #ArrowButton-constructor data-toc-label='new ArrowButton' }
 
 ### Instance Methods
 

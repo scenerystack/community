@@ -18,7 +18,7 @@ import { BooleanRectangularStickyToggleButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new BooleanRectangularStickyToggleButton( booleanProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[BooleanRectangularStickyToggleButtonOptions](../sun/BooleanRectangularStickyToggleButton.md#BooleanRectangularStickyToggleButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BooleanRectangularStickyToggleButton( booleanProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[BooleanRectangularStickyToggleButtonOptions](../sun/BooleanRectangularStickyToggleButton.md#BooleanRectangularStickyToggleButtonOptions)</span> ) {: #BooleanRectangularStickyToggleButton-constructor data-toc-label='new BooleanRectangularStickyToggleButton' }
 
 ### Instance Methods
 

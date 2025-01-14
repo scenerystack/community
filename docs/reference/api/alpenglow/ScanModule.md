@@ -16,7 +16,7 @@ import { ScanModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ScanModule( providedOptions : <span style="font-weight: 400;">[ScanModuleOptions](../alpenglow/ScanModule.md#ScanModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ScanModule( providedOptions : <span style="font-weight: 400;">[ScanModuleOptions](../alpenglow/ScanModule.md#ScanModuleOptions)&lt;T&gt;</span> ) {: #ScanModule-constructor data-toc-label='new ScanModule' }
 
 ### Instance Methods
 

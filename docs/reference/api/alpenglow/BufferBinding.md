@@ -14,7 +14,7 @@ import { BufferBinding } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferBinding( location : <span style="font-weight: 400;">[BindingLocation](../alpenglow/BindingLocation.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new BufferBinding( location : <span style="font-weight: 400;">[BindingLocation](../alpenglow/BindingLocation.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;</span> ) {: #BufferBinding-constructor data-toc-label='new BufferBinding' }
 
 ### Instance Methods
 

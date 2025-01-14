@@ -14,7 +14,7 @@ import { Drawer } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new Drawer( contentsNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, provideOptions? : <span style="font-weight: 400;">[DrawerOptions](../scenery-phet/Drawer.md#DrawerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Drawer( contentsNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, provideOptions? : <span style="font-weight: 400;">[DrawerOptions](../scenery-phet/Drawer.md#DrawerOptions)</span> ) {: #Drawer-constructor data-toc-label='new Drawer' }
 
 ### Instance Methods
 

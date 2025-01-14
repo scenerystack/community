@@ -76,7 +76,7 @@ import { DragListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DragListener( providedOptions? : <span style="font-weight: 400;">[DragListenerOptions](../scenery/DragListener.md#DragListenerOptions)&lt;[PressedDragListener](../scenery/DragListener.md#PressedDragListener)&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DragListener( providedOptions? : <span style="font-weight: 400;">[DragListenerOptions](../scenery/DragListener.md#DragListenerOptions)&lt;[PressedDragListener](../scenery/DragListener.md#PressedDragListener)&gt;</span> ) {: #DragListener-constructor data-toc-label='new DragListener' }
 
 ### Instance Methods
 

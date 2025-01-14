@@ -159,7 +159,7 @@ import { Node } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Node( options? : <span style="font-weight: 400;">[NodeOptions](../scenery/Node.md#NodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Node( options? : <span style="font-weight: 400;">[NodeOptions](../scenery/Node.md#NodeOptions)</span> ) {: #Node-constructor data-toc-label='new Node' }
 
 ### Instance Methods
 

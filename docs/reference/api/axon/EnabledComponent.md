@@ -17,7 +17,7 @@ import { EnabledComponent } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new EnabledComponent( providedOptions? : <span style="font-weight: 400;">[EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new EnabledComponent( providedOptions? : <span style="font-weight: 400;">[EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)</span> ) {: #EnabledComponent-constructor data-toc-label='new EnabledComponent' }
 
 ### Instance Methods
 

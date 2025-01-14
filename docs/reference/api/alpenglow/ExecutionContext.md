@@ -14,7 +14,7 @@ import { ExecutionContext } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ExecutionContext( executor : <span style="font-weight: 400;">[Executor](../alpenglow/Executor.md)</span>, computePipelineMap : <span style="font-weight: 400;">Map&lt;[PipelineBlueprint](../alpenglow/PipelineBlueprint.md), [ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span>, bindGroupMap : <span style="font-weight: 400;">Map&lt;[BindGroupLayout](../alpenglow/BindGroupLayout.md), [BindGroup](../alpenglow/BindGroup.md)&gt;</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span>, separateComputePasses : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new ExecutionContext( executor : <span style="font-weight: 400;">[Executor](../alpenglow/Executor.md)</span>, computePipelineMap : <span style="font-weight: 400;">Map&lt;[PipelineBlueprint](../alpenglow/PipelineBlueprint.md), [ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span>, bindGroupMap : <span style="font-weight: 400;">Map&lt;[BindGroupLayout](../alpenglow/BindGroupLayout.md), [BindGroup](../alpenglow/BindGroup.md)&gt;</span>, resourceMap : <span style="font-weight: 400;">Map&lt;[ResourceSlot](../alpenglow/ResourceSlot.md), [Resource](../alpenglow/Resource.md)&gt;</span>, separateComputePasses : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #ExecutionContext-constructor data-toc-label='new ExecutionContext' }
 
 ### Instance Methods
 

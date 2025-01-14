@@ -15,7 +15,7 @@ import { Sprites } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Sprites( providedOptions? : <span style="font-weight: 400;">[SpritesOptions](../scenery/Sprites.md#SpritesOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Sprites( providedOptions? : <span style="font-weight: 400;">[SpritesOptions](../scenery/Sprites.md#SpritesOptions)</span> ) {: #Sprites-constructor data-toc-label='new Sprites' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { CarouselButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new CarouselButton( providedOptions? : <span style="font-weight: 400;">[CarouselButtonOptions](../sun/CarouselButton.md#CarouselButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new CarouselButton( providedOptions? : <span style="font-weight: 400;">[CarouselButtonOptions](../sun/CarouselButton.md#CarouselButtonOptions)</span> ) {: #CarouselButton-constructor data-toc-label='new CarouselButton' }
 
 ### Instance Methods
 

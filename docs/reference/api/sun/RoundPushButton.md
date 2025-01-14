@@ -15,7 +15,7 @@ import { RoundPushButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundPushButton( providedOptions? : <span style="font-weight: 400;">[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundPushButton( providedOptions? : <span style="font-weight: 400;">[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions)</span> ) {: #RoundPushButton-constructor data-toc-label='new RoundPushButton' }
 
 ### Instance Methods
 

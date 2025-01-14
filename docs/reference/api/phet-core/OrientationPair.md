@@ -14,7 +14,7 @@ import { OrientationPair } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new OrientationPair( horizontal : <span style="font-weight: 400;">T</span>, vertical : <span style="font-weight: 400;">T</span> ) {: #constructor data-toc-label='constructor' }
+#### new OrientationPair( horizontal : <span style="font-weight: 400;">T</span>, vertical : <span style="font-weight: 400;">T</span> ) {: #OrientationPair-constructor data-toc-label='new OrientationPair' }
 
 ### Instance Methods
 

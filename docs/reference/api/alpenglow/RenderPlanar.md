@@ -16,7 +16,7 @@ import { RenderPlanar } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPlanar( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, pointA : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointB : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointC : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPlanar( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, pointA : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointB : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, pointC : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #RenderPlanar-constructor data-toc-label='new RenderPlanar' }
 
 ### Instance Methods
 

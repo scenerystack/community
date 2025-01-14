@@ -14,7 +14,7 @@ import { TextureBindingType } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TextureBindingType( sampleType : <span style="font-weight: 400;">GPUTextureSampleType</span>, viewDimension : <span style="font-weight: 400;">GPUTextureViewDimension</span>, multisampled ) {: #constructor data-toc-label='constructor' }
+#### new TextureBindingType( sampleType : <span style="font-weight: 400;">GPUTextureSampleType</span>, viewDimension : <span style="font-weight: 400;">GPUTextureViewDimension</span>, multisampled ) {: #TextureBindingType-constructor data-toc-label='new TextureBindingType' }
 
 ### Instance Methods
 

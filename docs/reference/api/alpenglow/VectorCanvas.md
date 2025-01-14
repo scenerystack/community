@@ -20,7 +20,7 @@ import { VectorCanvas } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new VectorCanvas( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, colorSpace : <span style="font-weight: 400;">'srgb' | 'display-p3'</span>, polygonFiltering : <span style="font-weight: 400;">[PolygonFilterType](../alpenglow/PolygonFilterType.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new VectorCanvas( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, colorSpace : <span style="font-weight: 400;">'srgb' | 'display-p3'</span>, polygonFiltering : <span style="font-weight: 400;">[PolygonFilterType](../alpenglow/PolygonFilterType.md)</span> ) {: #VectorCanvas-constructor data-toc-label='new VectorCanvas' }
 
 ### Instance Methods
 

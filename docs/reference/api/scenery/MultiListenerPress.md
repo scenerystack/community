@@ -15,7 +15,7 @@ import { MultiListenerPress } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new MultiListenerPress( pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MultiListenerPress( pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #MultiListenerPress-constructor data-toc-label='new MultiListenerPress' }
 
 ### Instance Methods
 

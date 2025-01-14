@@ -16,7 +16,7 @@ import { MainTwoPassTileModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new MainTwoPassTileModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassTileModuleOptions](../alpenglow/MainTwoPassTileModule.md#MainTwoPassTileModuleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MainTwoPassTileModule( providedOptions : <span style="font-weight: 400;">[MainTwoPassTileModuleOptions](../alpenglow/MainTwoPassTileModule.md#MainTwoPassTileModuleOptions)</span> ) {: #MainTwoPassTileModule-constructor data-toc-label='new MainTwoPassTileModule' }
 
 ### Instance Methods
 

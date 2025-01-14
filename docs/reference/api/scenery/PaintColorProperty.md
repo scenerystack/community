@@ -43,7 +43,7 @@ import { PaintColorProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PaintColorProperty( paint : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span>, providedOptions? : <span style="font-weight: 400;">[PaintColorPropertyOptions](../scenery/PaintColorProperty.md#PaintColorPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PaintColorProperty( paint : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span>, providedOptions? : <span style="font-weight: 400;">[PaintColorPropertyOptions](../scenery/PaintColorProperty.md#PaintColorPropertyOptions)</span> ) {: #PaintColorProperty-constructor data-toc-label='new PaintColorProperty' }
 
 ### Instance Methods
 

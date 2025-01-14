@@ -15,7 +15,7 @@ import { TextureQuad } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new TextureQuad( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, materialOptions? : <span style="font-weight: 400;">THREE.MaterialParameters</span> ) {: #constructor data-toc-label='constructor' }
+#### new TextureQuad( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, materialOptions? : <span style="font-weight: 400;">THREE.MaterialParameters</span> ) {: #TextureQuad-constructor data-toc-label='new TextureQuad' }
 
 ### Instance Methods
 

@@ -21,7 +21,7 @@ import { PhetioAction } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new PhetioAction( action : <span style="font-weight: 400;">( ...args: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">[ActionOptions](../tandem/PhetioAction.md#ActionOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PhetioAction( action : <span style="font-weight: 400;">( ...args: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, providedOptions? : <span style="font-weight: 400;">[ActionOptions](../tandem/PhetioAction.md#ActionOptions)</span> ) {: #PhetioAction-constructor data-toc-label='new PhetioAction' }
 
 ### Instance Methods
 

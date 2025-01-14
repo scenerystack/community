@@ -14,7 +14,7 @@ import { Mouse } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Mouse( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Mouse( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) {: #Mouse-constructor data-toc-label='new Mouse' }
 
 ### Instance Methods
 

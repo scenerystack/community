@@ -40,7 +40,7 @@ import { MutableOptionsNode } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new MutableOptionsNode( nodeSubtype, parameters, staticOptions, dynamicOptions, wrapperOptions ) {: #constructor data-toc-label='constructor' }
+#### new MutableOptionsNode( nodeSubtype, parameters, staticOptions, dynamicOptions, wrapperOptions ) {: #MutableOptionsNode-constructor data-toc-label='new MutableOptionsNode' }
 
 ### Instance Methods
 

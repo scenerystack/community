@@ -14,7 +14,7 @@ import { RenderAlpha } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderAlpha( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderAlpha( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderAlpha-constructor data-toc-label='new RenderAlpha' }
 
 ### Instance Methods
 

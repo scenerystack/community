@@ -14,7 +14,7 @@ import { Invert } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Invert( amount ) {: #constructor data-toc-label='constructor' }
+#### new Invert( amount ) {: #Invert-constructor data-toc-label='new Invert' }
 
 ### Instance Methods
 

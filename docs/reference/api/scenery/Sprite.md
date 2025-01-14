@@ -14,7 +14,7 @@ import { Sprite } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Sprite( spriteImage : <span style="font-weight: 400;">[SpriteImage](../scenery/SpriteImage.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Sprite( spriteImage : <span style="font-weight: 400;">[SpriteImage](../scenery/SpriteImage.md)</span> ) {: #Sprite-constructor data-toc-label='new Sprite' }
 
 ### Instance Methods
 

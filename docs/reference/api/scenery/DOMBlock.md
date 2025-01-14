@@ -15,7 +15,7 @@ import { DOMBlock } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DOMBlock( display, domDrawable ) {: #constructor data-toc-label='constructor' }
+#### new DOMBlock( display, domDrawable ) {: #DOMBlock-constructor data-toc-label='new DOMBlock' }
 
 ### Instance Methods
 

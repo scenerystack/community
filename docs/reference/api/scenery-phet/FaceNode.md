@@ -16,7 +16,7 @@ import { FaceNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new FaceNode( headDiameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[FaceNodeOptions](../scenery-phet/FaceNode.md#FaceNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new FaceNode( headDiameter : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[FaceNodeOptions](../scenery-phet/FaceNode.md#FaceNodeOptions)</span> ) {: #FaceNode-constructor data-toc-label='new FaceNode' }
 
 ### Instance Methods
 

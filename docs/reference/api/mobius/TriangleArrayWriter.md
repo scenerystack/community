@@ -14,7 +14,7 @@ import { TriangleArrayWriter } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new TriangleArrayWriter( positionArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, normalArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, uvArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, offset, offsetPosition : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TriangleArrayWriter( positionArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, normalArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, uvArray : <span style="font-weight: 400;">Float32Array | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, offset, offsetPosition : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> ) {: #TriangleArrayWriter-constructor data-toc-label='new TriangleArrayWriter' }
 
 ### Instance Methods
 

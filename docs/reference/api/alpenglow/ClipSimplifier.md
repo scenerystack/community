@@ -22,7 +22,7 @@ import { ClipSimplifier } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ClipSimplifier( checkGeneralCollinearity ) {: #constructor data-toc-label='constructor' }
+#### new ClipSimplifier( checkGeneralCollinearity ) {: #ClipSimplifier-constructor data-toc-label='new ClipSimplifier' }
 
 ### Instance Methods
 

@@ -23,7 +23,7 @@ import { TinyForwardingProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new TinyForwardingProperty( value : <span style="font-weight: 400;">ValueType</span>, targetPropertyInstrumented, onBeforeNotify? : <span style="font-weight: 400;">[TinyPropertyOnBeforeNotify](../axon/TinyProperty.md#TinyPropertyOnBeforeNotify)&lt;ValueType&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TinyForwardingProperty( value : <span style="font-weight: 400;">ValueType</span>, targetPropertyInstrumented, onBeforeNotify? : <span style="font-weight: 400;">[TinyPropertyOnBeforeNotify](../axon/TinyProperty.md#TinyPropertyOnBeforeNotify)&lt;ValueType&gt;</span> ) {: #TinyForwardingProperty-constructor data-toc-label='new TinyForwardingProperty' }
 
 ### Instance Methods
 

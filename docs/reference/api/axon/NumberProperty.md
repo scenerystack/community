@@ -15,7 +15,7 @@ import { NumberProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new NumberProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[NumberPropertyOptions](../axon/NumberProperty.md#NumberPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">[NumberPropertyOptions](../axon/NumberProperty.md#NumberPropertyOptions)</span> ) {: #NumberProperty-constructor data-toc-label='new NumberProperty' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { ComputePass } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new ComputePass( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, computePassDescriptor : <span style="font-weight: 400;">GPUComputePassDescriptor</span> ) {: #constructor data-toc-label='constructor' }
+#### new ComputePass( encoder : <span style="font-weight: 400;">GPUCommandEncoder</span>, computePassDescriptor : <span style="font-weight: 400;">GPUComputePassDescriptor</span> ) {: #ComputePass-constructor data-toc-label='new ComputePass' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { Pattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Pattern( image : <span style="font-weight: 400;">HTMLImageElement</span> ) {: #constructor data-toc-label='constructor' }
+#### new Pattern( image : <span style="font-weight: 400;">HTMLImageElement</span> ) {: #Pattern-constructor data-toc-label='new Pattern' }
 
 ### Instance Methods
 

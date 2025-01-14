@@ -40,7 +40,7 @@ import { AlignBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AlignBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AlignBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)</span> ) {: #AlignBox-constructor data-toc-label='new AlignBox' }
 
 ### Instance Methods
 

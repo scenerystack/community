@@ -14,7 +14,7 @@ import { Path } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Path( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PathOptions](../scenery/Path.md#PathOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Path( shape : <span style="font-weight: 400;">[InputShape](../scenery/Path.md#InputShape) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PathOptions](../scenery/Path.md#PathOptions)</span> ) {: #Path-constructor data-toc-label='new Path' }
 
 ### Instance Methods
 

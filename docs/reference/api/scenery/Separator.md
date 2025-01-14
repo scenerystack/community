@@ -15,7 +15,7 @@ import { Separator } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Separator( providedOptions? : <span style="font-weight: 400;">[SeparatorOptions](../scenery/Separator.md#SeparatorOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Separator( providedOptions? : <span style="font-weight: 400;">[SeparatorOptions](../scenery/Separator.md#SeparatorOptions)</span> ) {: #Separator-constructor data-toc-label='new Separator' }
 
 ### Instance Methods
 

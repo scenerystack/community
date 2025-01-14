@@ -16,7 +16,7 @@ import { BooleanToggleNode } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new BooleanToggleNode( booleanProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, trueNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, falseNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[BooleanToggleNodeOptions](../sun/BooleanToggleNode.md#BooleanToggleNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new BooleanToggleNode( booleanProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, trueNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, falseNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[BooleanToggleNodeOptions](../sun/BooleanToggleNode.md#BooleanToggleNodeOptions)</span> ) {: #BooleanToggleNode-constructor data-toc-label='new BooleanToggleNode' }
 
 ### Instance Methods
 

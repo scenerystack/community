@@ -19,7 +19,7 @@ import { LUDecompositionDecimal } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new LUDecompositionDecimal( matrix, Decimal ) {: #constructor data-toc-label='constructor' }
+#### new LUDecompositionDecimal( matrix, Decimal ) {: #LUDecompositionDecimal-constructor data-toc-label='new LUDecompositionDecimal' }
 
 ### Instance Methods
 

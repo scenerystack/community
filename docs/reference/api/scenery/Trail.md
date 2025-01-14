@@ -23,7 +23,7 @@ import { Trail } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Trail( nodes? : <span style="font-weight: 400;">[Trail](../scenery/Trail.md) | [Node](../scenery/Node.md)[] | [Node](../scenery/Node.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Trail( nodes? : <span style="font-weight: 400;">[Trail](../scenery/Trail.md) | [Node](../scenery/Node.md)[] | [Node](../scenery/Node.md)</span> ) {: #Trail-constructor data-toc-label='new Trail' }
 
 ### Instance Methods
 

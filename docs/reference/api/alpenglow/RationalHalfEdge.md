@@ -19,7 +19,7 @@ import { RationalHalfEdge } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RationalHalfEdge( edgeId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span>, p1 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RationalHalfEdge( edgeId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, p0 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span>, p1 : <span style="font-weight: 400;">[BigRationalVector2](../alpenglow/BigRationalVector2.md)</span> ) {: #RationalHalfEdge-constructor data-toc-label='new RationalHalfEdge' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { NodeTexture } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new NodeTexture( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">NodeTextureOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new NodeTexture( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">NodeTextureOptions</span> ) {: #NodeTexture-constructor data-toc-label='new NodeTexture' }
 
 ### Instance Methods
 

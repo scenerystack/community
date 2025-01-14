@@ -15,7 +15,7 @@ import { ToggleButtonModel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleButtonModel( valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ToggleButtonModelOptions](../sun/ToggleButtonModel.md#ToggleButtonModelOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleButtonModel( valueOff : <span style="font-weight: 400;">T</span>, valueOn : <span style="font-weight: 400;">T</span>, property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ToggleButtonModelOptions](../sun/ToggleButtonModel.md#ToggleButtonModelOptions)</span> ) {: #ToggleButtonModel-constructor data-toc-label='new ToggleButtonModel' }
 
 ### Instance Methods
 

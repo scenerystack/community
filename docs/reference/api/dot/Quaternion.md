@@ -16,7 +16,7 @@ import { Quaternion } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Quaternion( x, y, z, w ) {: #constructor data-toc-label='constructor' }
+#### new Quaternion( x, y, z, w ) {: #Quaternion-constructor data-toc-label='new Quaternion' }
 
 ### Instance Methods
 

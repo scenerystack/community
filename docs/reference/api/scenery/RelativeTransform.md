@@ -92,7 +92,7 @@ import { RelativeTransform } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RelativeTransform( instance ) {: #constructor data-toc-label='constructor' }
+#### new RelativeTransform( instance ) {: #RelativeTransform-constructor data-toc-label='new RelativeTransform' }
 
 ### Instance Methods
 

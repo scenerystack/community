@@ -14,7 +14,7 @@ import { SceneImage } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SceneImage( scene ) {: #constructor data-toc-label='constructor' }
+#### new SceneImage( scene ) {: #SceneImage-constructor data-toc-label='new SceneImage' }
 
 ### Instance Methods
 

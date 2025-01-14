@@ -16,7 +16,7 @@ import { PolygonalFace } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new PolygonalFace( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #constructor data-toc-label='constructor' }
+#### new PolygonalFace( polygons : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[][]</span> ) {: #PolygonalFace-constructor data-toc-label='new PolygonalFace' }
 
 ### Instance Methods
 

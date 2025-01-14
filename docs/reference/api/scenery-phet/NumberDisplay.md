@@ -14,7 +14,7 @@ import { NumberDisplay } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new NumberDisplay( numberProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span>, displayRange : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, providedOptions? : <span style="font-weight: 400;">[NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberDisplay( numberProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span>, displayRange : <span style="font-weight: 400;">[Range](../dot/Range.md)</span>, providedOptions? : <span style="font-weight: 400;">[NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)</span> ) {: #NumberDisplay-constructor data-toc-label='new NumberDisplay' }
 
 ### Instance Methods
 

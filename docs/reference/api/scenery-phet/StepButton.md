@@ -16,7 +16,7 @@ import { StepButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new StepButton( providedOptions? : <span style="font-weight: 400;">[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new StepButton( providedOptions? : <span style="font-weight: 400;">[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions)</span> ) {: #StepButton-constructor data-toc-label='new StepButton' }
 
 ### Instance Methods
 

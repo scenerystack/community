@@ -20,7 +20,7 @@ import { FocusableHeadingNode } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FocusableHeadingNode( providedOptions? : <span style="font-weight: 400;">[FocusableHeadingNodeOptions](../scenery/FocusableHeadingNode.md#FocusableHeadingNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new FocusableHeadingNode( providedOptions? : <span style="font-weight: 400;">[FocusableHeadingNodeOptions](../scenery/FocusableHeadingNode.md#FocusableHeadingNodeOptions)</span> ) {: #FocusableHeadingNode-constructor data-toc-label='new FocusableHeadingNode' }
 
 ### Instance Methods
 

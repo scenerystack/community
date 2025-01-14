@@ -14,7 +14,7 @@ import { PipelineBlueprint } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new PipelineBlueprint( providedOptions : <span style="font-weight: 400;">[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PipelineBlueprint( providedOptions : <span style="font-weight: 400;">[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)</span> ) {: #PipelineBlueprint-constructor data-toc-label='new PipelineBlueprint' }
 
 ### Instance Methods
 

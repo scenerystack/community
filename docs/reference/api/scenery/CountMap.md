@@ -14,7 +14,7 @@ import { CountMap } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new CountMap( create, destroy ) {: #constructor data-toc-label='constructor' }
+#### new CountMap( create, destroy ) {: #CountMap-constructor data-toc-label='new CountMap' }
 
 ### Instance Methods
 

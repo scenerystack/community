@@ -14,7 +14,7 @@ import { Module } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Module( pipelineBlueprints : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)[]</span>, execute : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new Module( pipelineBlueprints : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)[]</span>, execute : <span style="font-weight: 400;">( context: [ExecutionContext](../alpenglow/ExecutionContext.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #Module-constructor data-toc-label='new Module' }
 
 ### Instance Methods
 

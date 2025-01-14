@@ -110,7 +110,7 @@ import { WGSLMainModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLMainModule( slots : <span style="font-weight: 400;">[WGSLSlot](../alpenglow/WGSLString.md#WGSLSlot)[]</span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLMainModule-constructor data-toc-label='WGSLMainModule-constructor' }
+#### new WGSLMainModule( slots : <span style="font-weight: 400;">[WGSLSlot](../alpenglow/WGSLString.md#WGSLSlot)[]</span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLMainModule-WGSLMainModule-constructor data-toc-label='new WGSLMainModule-WGSLMainModule' }
 
 ### Instance Methods
 
@@ -128,7 +128,7 @@ import { WGSLModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLModule-constructor data-toc-label='WGSLModule-constructor' }
+#### new WGSLModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLModule-WGSLModule-constructor data-toc-label='new WGSLModule-WGSLModule' }
 
 ### Instance Methods
 
@@ -156,7 +156,7 @@ import { WGSLReferenceModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLReferenceModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLReferenceModule-constructor data-toc-label='WGSLReferenceModule-constructor' }
+#### new WGSLReferenceModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLReferenceModule-WGSLReferenceModule-constructor data-toc-label='new WGSLReferenceModule-WGSLReferenceModule' }
 
 ### Instance Methods
 
@@ -172,7 +172,7 @@ import { WGSLSlot } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLSlot( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #WGSLSlot-constructor data-toc-label='WGSLSlot-constructor' }
+#### new WGSLSlot( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #WGSLSlot-WGSLSlot-constructor data-toc-label='new WGSLSlot-WGSLSlot' }
 
 ### Instance Methods
 
@@ -220,7 +220,7 @@ import { WGSLStringFunction } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLStringFunction( value : <span style="font-weight: 400;">( blueprint: [PipelineBlueprint](../alpenglow/PipelineBlueprint.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #WGSLStringFunction-constructor data-toc-label='WGSLStringFunction-constructor' }
+#### new WGSLStringFunction( value : <span style="font-weight: 400;">( blueprint: [PipelineBlueprint](../alpenglow/PipelineBlueprint.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #WGSLStringFunction-WGSLStringFunction-constructor data-toc-label='new WGSLStringFunction-WGSLStringFunction' }
 
 ### Instance Methods
 
@@ -236,7 +236,7 @@ import { WGSLStringLiteral } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLStringLiteral( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #WGSLStringLiteral-constructor data-toc-label='WGSLStringLiteral-constructor' }
+#### new WGSLStringLiteral( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #WGSLStringLiteral-WGSLStringLiteral-constructor data-toc-label='new WGSLStringLiteral-WGSLStringLiteral' }
 
 ### Instance Methods
 
@@ -252,7 +252,7 @@ import { WGSLStringModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WGSLStringModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, string : <span style="font-weight: 400;">[WGSLString](../alpenglow/WGSLString.md)</span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLStringModule-constructor data-toc-label='WGSLStringModule-constructor' }
+#### new WGSLStringModule( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, string : <span style="font-weight: 400;">[WGSLString](../alpenglow/WGSLString.md)</span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #WGSLStringModule-WGSLStringModule-constructor data-toc-label='new WGSLStringModule-WGSLStringModule' }
 
 ### Instance Methods
 

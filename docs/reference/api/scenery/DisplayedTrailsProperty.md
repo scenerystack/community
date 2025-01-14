@@ -24,7 +24,7 @@ import { DisplayedTrailsProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DisplayedTrailsProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DisplayedTrailsPropertyOptions](../scenery/DisplayedTrailsProperty.md#DisplayedTrailsPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new DisplayedTrailsProperty( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[DisplayedTrailsPropertyOptions](../scenery/DisplayedTrailsProperty.md#DisplayedTrailsPropertyOptions)</span> ) {: #DisplayedTrailsProperty-constructor data-toc-label='new DisplayedTrailsProperty' }
 
 ### Instance Methods
 

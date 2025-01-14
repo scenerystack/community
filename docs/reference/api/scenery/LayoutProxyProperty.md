@@ -25,7 +25,7 @@ import { LayoutProxyProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new LayoutProxyProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[LayoutProxyPropertyOptions](../scenery/LayoutProxyProperty.md#LayoutProxyPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LayoutProxyProperty( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, leafNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[LayoutProxyPropertyOptions](../scenery/LayoutProxyProperty.md#LayoutProxyPropertyOptions)</span> ) {: #LayoutProxyProperty-constructor data-toc-label='new LayoutProxyProperty' }
 
 ### Instance Methods
 

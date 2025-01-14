@@ -19,7 +19,7 @@ import { DerivedProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new DerivedProperty( dependencies : <span style="font-weight: 400;">RP1&lt;T1&gt;</span>, derivation : <span style="font-weight: 400;">( ...params: [ T1 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new DerivedProperty( dependencies : <span style="font-weight: 400;">RP1&lt;T1&gt;</span>, derivation : <span style="font-weight: 400;">( ...params: [ T1 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;</span> ) {: #DerivedProperty-constructor data-toc-label='new DerivedProperty' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { DeviceContext } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new DeviceContext( device : <span style="font-weight: 400;">GPUDevice</span> ) {: #constructor data-toc-label='constructor' }
+#### new DeviceContext( device : <span style="font-weight: 400;">GPUDevice</span> ) {: #DeviceContext-constructor data-toc-label='new DeviceContext' }
 
 ### Instance Methods
 

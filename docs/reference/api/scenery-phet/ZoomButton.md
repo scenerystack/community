@@ -14,7 +14,7 @@ import { ZoomButton } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new ZoomButton( providedOptions? : <span style="font-weight: 400;">[ZoomButtonOptions](../scenery-phet/ZoomButton.md#ZoomButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ZoomButton( providedOptions? : <span style="font-weight: 400;">[ZoomButtonOptions](../scenery-phet/ZoomButton.md#ZoomButtonOptions)</span> ) {: #ZoomButton-constructor data-toc-label='new ZoomButton' }
 
 ### Instance Methods
 

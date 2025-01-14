@@ -15,7 +15,7 @@ import { RichTextLink } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichTextLink( innerContent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, href : <span style="font-weight: 400;">[RichTextHref](../scenery/RichText.md#RichTextHref)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichTextLink( innerContent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, href : <span style="font-weight: 400;">[RichTextHref](../scenery/RichText.md#RichTextHref)</span> ) {: #RichTextLink-constructor data-toc-label='new RichTextLink' }
 
 ### Instance Methods
 

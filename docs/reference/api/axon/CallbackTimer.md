@@ -15,7 +15,7 @@ import { CallbackTimer } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new CallbackTimer( options? : <span style="font-weight: 400;">[CallbackTimerOptions](../axon/CallbackTimer.md#CallbackTimerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new CallbackTimer( options? : <span style="font-weight: 400;">[CallbackTimerOptions](../axon/CallbackTimer.md#CallbackTimerOptions)</span> ) {: #CallbackTimer-constructor data-toc-label='new CallbackTimer' }
 
 ### Instance Methods
 

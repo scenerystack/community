@@ -17,7 +17,7 @@ import { PropertyStateHandler } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new PropertyStateHandler() {: #constructor data-toc-label='constructor' }
+#### new PropertyStateHandler() {: #PropertyStateHandler-constructor data-toc-label='new PropertyStateHandler' }
 
 ### Instance Methods
 

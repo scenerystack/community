@@ -33,7 +33,7 @@ import { Enumeration } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Enumeration( Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationOptions](../phet-core/Enumeration.md#EnumerationOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new Enumeration( Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationOptions](../phet-core/Enumeration.md#EnumerationOptions)&lt;T&gt;</span> ) {: #Enumeration-constructor data-toc-label='new Enumeration' }
 
 ### Instance Methods
 

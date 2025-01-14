@@ -67,7 +67,7 @@ import { RichText } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichText( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RichTextOptions](../scenery/RichText.md#RichTextOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichText( string : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RichTextOptions](../scenery/RichText.md#RichTextOptions)</span> ) {: #RichText-constructor data-toc-label='new RichText' }
 
 ### Instance Methods
 

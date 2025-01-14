@@ -14,7 +14,7 @@ import { RenderPhong } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, ambientColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, diffuseColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, specularColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, positionProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, normalProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, lights : <span style="font-weight: 400;">[RenderLight](../alpenglow/RenderLight.md)[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, ambientColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, diffuseColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, specularColorProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, positionProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, normalProgram : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, lights : <span style="font-weight: 400;">[RenderLight](../alpenglow/RenderLight.md)[]</span> ) {: #RenderPhong-constructor data-toc-label='new RenderPhong' }
 
 ### Instance Methods
 
@@ -52,7 +52,7 @@ import { RenderInstructionPhong } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numLights : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-constructor data-toc-label='RenderInstructionPhong-constructor' }
+#### new RenderInstructionPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numLights : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-RenderInstructionPhong-constructor data-toc-label='new RenderInstructionPhong-RenderInstructionPhong' }
 
 ### Instance Methods
 

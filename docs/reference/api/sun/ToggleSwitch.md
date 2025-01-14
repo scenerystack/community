@@ -22,7 +22,7 @@ import { ToggleSwitch } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, leftValue : <span style="font-weight: 400;">T</span>, rightValue : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleSwitch( property : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;T&gt;</span>, leftValue : <span style="font-weight: 400;">T</span>, rightValue : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)</span> ) {: #ToggleSwitch-constructor data-toc-label='new ToggleSwitch' }
 
 ### Instance Methods
 

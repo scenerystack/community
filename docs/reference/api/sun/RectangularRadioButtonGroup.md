@@ -16,7 +16,7 @@ import { RectangularRadioButtonGroup } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">RectangularRadioButtonGroupItem&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonGroupOptions](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonGroupOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">RectangularRadioButtonGroupItem&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonGroupOptions](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonGroupOptions)</span> ) {: #RectangularRadioButtonGroup-constructor data-toc-label='new RectangularRadioButtonGroup' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { MatrixBetweenProperty } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new MatrixBetweenProperty( from : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, to : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[MatrixBetweenPropertyOptions](../scenery/MatrixBetweenProperty.md#MatrixBetweenPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new MatrixBetweenProperty( from : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, to : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[MatrixBetweenPropertyOptions](../scenery/MatrixBetweenProperty.md#MatrixBetweenPropertyOptions)</span> ) {: #MatrixBetweenProperty-constructor data-toc-label='new MatrixBetweenProperty' }
 
 ### Instance Methods
 

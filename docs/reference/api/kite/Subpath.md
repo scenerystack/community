@@ -17,7 +17,7 @@ import { Subpath } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new Subpath( segments? : <span style="font-weight: 400;">[Segment](../kite/Segment.md)[]</span>, points? : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, closed? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new Subpath( segments? : <span style="font-weight: 400;">[Segment](../kite/Segment.md)[]</span>, points? : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)[]</span>, closed? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #Subpath-constructor data-toc-label='new Subpath' }
 
 ### Instance Methods
 

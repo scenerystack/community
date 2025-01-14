@@ -16,7 +16,7 @@ import { RenderBarycentricBlend } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderBarycentricBlend( pointA : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointB : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointC : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, accuracy : <span style="font-weight: 400;">[RenderBarycentricBlendAccuracy](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendAccuracy)</span>, a : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, b : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, c : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderBarycentricBlendLogic](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendLogic)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderBarycentricBlend( pointA : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointB : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointC : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, accuracy : <span style="font-weight: 400;">[RenderBarycentricBlendAccuracy](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendAccuracy)</span>, a : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, b : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, c : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderBarycentricBlendLogic](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendLogic)</span> ) {: #RenderBarycentricBlend-constructor data-toc-label='new RenderBarycentricBlend' }
 
 ### Instance Methods
 
@@ -60,7 +60,7 @@ import { RenderBarycentricBlendLogic } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderBarycentricBlendLogic( det : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, diffA : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, diffB : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointC : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, accuracy : <span style="font-weight: 400;">[RenderBarycentricBlendAccuracy](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendAccuracy)</span> ) {: #RenderBarycentricBlendLogic-constructor data-toc-label='RenderBarycentricBlendLogic-constructor' }
+#### new RenderBarycentricBlendLogic( det : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, diffA : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, diffB : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, pointC : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, accuracy : <span style="font-weight: 400;">[RenderBarycentricBlendAccuracy](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendAccuracy)</span> ) {: #RenderBarycentricBlendLogic-RenderBarycentricBlendLogic-constructor data-toc-label='new RenderBarycentricBlendLogic-RenderBarycentricBlendLogic' }
 
 ### Instance Methods
 
@@ -82,7 +82,7 @@ import { RenderInstructionBarycentricBlend } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderInstructionBarycentricBlend( logic : <span style="font-weight: 400;">[RenderBarycentricBlendLogic](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendLogic)</span> ) {: #RenderInstructionBarycentricBlend-constructor data-toc-label='RenderInstructionBarycentricBlend-constructor' }
+#### new RenderInstructionBarycentricBlend( logic : <span style="font-weight: 400;">[RenderBarycentricBlendLogic](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendLogic)</span> ) {: #RenderInstructionBarycentricBlend-RenderInstructionBarycentricBlend-constructor data-toc-label='new RenderInstructionBarycentricBlend-RenderInstructionBarycentricBlend' }
 
 ### Instance Methods
 

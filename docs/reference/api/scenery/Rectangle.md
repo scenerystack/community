@@ -14,7 +14,7 @@ import { Rectangle } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Rectangle( options? : <span style="font-weight: 400;">[RectangleOptions](../scenery/Rectangle.md#RectangleOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Rectangle( options? : <span style="font-weight: 400;">[RectangleOptions](../scenery/Rectangle.md#RectangleOptions)</span> ) {: #Rectangle-constructor data-toc-label='new Rectangle' }
 
 ### Instance Methods
 

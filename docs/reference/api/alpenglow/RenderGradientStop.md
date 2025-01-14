@@ -14,7 +14,7 @@ import { RenderGradientStop } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderGradientStop( ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderGradientStop( ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderGradientStop-constructor data-toc-label='new RenderGradientStop' }
 
 ### Instance Methods
 

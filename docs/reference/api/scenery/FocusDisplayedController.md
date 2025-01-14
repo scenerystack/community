@@ -18,7 +18,7 @@ import { FocusDisplayedController } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FocusDisplayedController( focusProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new FocusDisplayedController( focusProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[Focus](../scenery/Focus.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> ) {: #FocusDisplayedController-constructor data-toc-label='new FocusDisplayedController' }
 
 ### Instance Methods
 

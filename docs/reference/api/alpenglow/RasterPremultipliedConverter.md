@@ -20,7 +20,7 @@ import { RasterPremultipliedConverter } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RasterPremultipliedConverter( gamutMap : <span style="font-weight: 400;">( color: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RasterPremultipliedConverter( gamutMap : <span style="font-weight: 400;">( color: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span> ) {: #RasterPremultipliedConverter-constructor data-toc-label='new RasterPremultipliedConverter' }
 
 ### Instance Methods
 

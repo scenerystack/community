@@ -16,7 +16,7 @@ import { LineStyles } from 'scenerystack/kite';
 ```
 ### Constructor
 
-#### new LineStyles( options? : <span style="font-weight: 400;">[LineStylesOptions](../kite/LineStyles.md#LineStylesOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new LineStyles( options? : <span style="font-weight: 400;">[LineStylesOptions](../kite/LineStyles.md#LineStylesOptions)</span> ) {: #LineStyles-constructor data-toc-label='new LineStyles' }
 
 ### Instance Methods
 

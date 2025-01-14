@@ -16,7 +16,7 @@ import { EnumerationDeprecatedProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new EnumerationDeprecatedProperty( enumeration, initialValue, options ) {: #constructor data-toc-label='constructor' }
+#### new EnumerationDeprecatedProperty( enumeration, initialValue, options ) {: #EnumerationDeprecatedProperty-constructor data-toc-label='new EnumerationDeprecatedProperty' }
 
 ### Instance Methods
 

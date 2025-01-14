@@ -27,7 +27,7 @@ import { Carousel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Carousel( items : <span style="font-weight: 400;">[CarouselItem](../sun/Carousel.md#CarouselItem)[]</span>, providedOptions? : <span style="font-weight: 400;">[CarouselOptions](../sun/Carousel.md#CarouselOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Carousel( items : <span style="font-weight: 400;">[CarouselItem](../sun/Carousel.md#CarouselItem)[]</span>, providedOptions? : <span style="font-weight: 400;">[CarouselOptions](../sun/Carousel.md#CarouselOptions)</span> ) {: #Carousel-constructor data-toc-label='new Carousel' }
 
 ### Instance Methods
 

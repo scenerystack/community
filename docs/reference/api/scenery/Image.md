@@ -15,7 +15,7 @@ import { Image } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Image( image : <span style="font-weight: 400;">[ImageableImage](../scenery/Imageable.md#ImageableImage) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ImageOptions](../scenery/Image.md#ImageOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Image( image : <span style="font-weight: 400;">[ImageableImage](../scenery/Imageable.md#ImageableImage) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ImageOptions](../scenery/Image.md#ImageOptions)</span> ) {: #Image-constructor data-toc-label='new Image' }
 
 ### Instance Methods
 

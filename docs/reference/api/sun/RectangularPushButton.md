@@ -14,7 +14,7 @@ import { RectangularPushButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularPushButton( providedOptions? : <span style="font-weight: 400;">[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularPushButton( providedOptions? : <span style="font-weight: 400;">[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions)</span> ) {: #RectangularPushButton-constructor data-toc-label='new RectangularPushButton' }
 
 ### Instance Methods
 

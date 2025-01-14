@@ -30,7 +30,7 @@ import { UnitConversionProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new UnitConversionProperty( property : <span style="font-weight: 400;">( [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | [TRangedProperty](../axon/TRangedProperty.md) )</span>, providedOptions : <span style="font-weight: 400;">[UnitConversionPropertyOptions](../axon/UnitConversionProperty.md#UnitConversionPropertyOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new UnitConversionProperty( property : <span style="font-weight: 400;">( [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | [TRangedProperty](../axon/TRangedProperty.md) )</span>, providedOptions : <span style="font-weight: 400;">[UnitConversionPropertyOptions](../axon/UnitConversionProperty.md#UnitConversionPropertyOptions)</span> ) {: #UnitConversionProperty-constructor data-toc-label='new UnitConversionProperty' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { AccordionBox } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new AccordionBox( contentNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AccordionBoxOptions](../sun/AccordionBox.md#AccordionBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AccordionBox( contentNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AccordionBoxOptions](../sun/AccordionBox.md#AccordionBoxOptions)</span> ) {: #AccordionBox-constructor data-toc-label='new AccordionBox' }
 
 ### Instance Methods
 

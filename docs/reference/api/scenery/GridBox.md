@@ -54,7 +54,7 @@ import { GridBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GridBox( providedOptions? : <span style="font-weight: 400;">[GridBoxOptions](../scenery/GridBox.md#GridBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new GridBox( providedOptions? : <span style="font-weight: 400;">[GridBoxOptions](../scenery/GridBox.md#GridBoxOptions)</span> ) {: #GridBox-constructor data-toc-label='new GridBox' }
 
 ### Instance Methods
 

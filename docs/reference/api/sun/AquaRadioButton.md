@@ -15,7 +15,7 @@ import { AquaRadioButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new AquaRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, labelNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new AquaRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, labelNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions)</span> ) {: #AquaRadioButton-constructor data-toc-label='new AquaRadioButton' }
 
 ### Instance Methods
 

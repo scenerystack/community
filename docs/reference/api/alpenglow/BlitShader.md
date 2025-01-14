@@ -14,7 +14,7 @@ import { BlitShader } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BlitShader( device : <span style="font-weight: 400;">GPUDevice</span>, format : <span style="font-weight: 400;">GPUTextureFormat</span> ) {: #constructor data-toc-label='constructor' }
+#### new BlitShader( device : <span style="font-weight: 400;">GPUDevice</span>, format : <span style="font-weight: 400;">GPUTextureFormat</span> ) {: #BlitShader-constructor data-toc-label='new BlitShader' }
 
 ### Instance Methods
 

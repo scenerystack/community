@@ -14,7 +14,7 @@ import { BufferResource } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferResource( buffer : <span style="font-weight: 400;">GPUBuffer</span>, offset, size ) {: #constructor data-toc-label='constructor' }
+#### new BufferResource( buffer : <span style="font-weight: 400;">GPUBuffer</span>, offset, size ) {: #BufferResource-constructor data-toc-label='new BufferResource' }
 
 ### Instance Methods
 

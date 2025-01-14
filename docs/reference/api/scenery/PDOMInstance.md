@@ -35,7 +35,7 @@ import { PDOMInstance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #PDOMInstance-constructor data-toc-label='new PDOMInstance' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { NumberAccumulator } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new NumberAccumulator( providedOptions? : <span style="font-weight: 400;">[NumberAccumulatorOptions](../scenery-phet/NumberAccumulator.md#NumberAccumulatorOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new NumberAccumulator( providedOptions? : <span style="font-weight: 400;">[NumberAccumulatorOptions](../scenery-phet/NumberAccumulator.md#NumberAccumulatorOptions)</span> ) {: #NumberAccumulator-constructor data-toc-label='new NumberAccumulator' }
 
 ### Instance Methods
 

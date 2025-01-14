@@ -14,7 +14,7 @@ import { ToggleButtonInteractionStateProperty } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleButtonInteractionStateProperty( toggleButtonModel : <span style="font-weight: 400;">[ToggleButtonModel](../sun/ToggleButtonModel.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleButtonInteractionStateProperty( toggleButtonModel : <span style="font-weight: 400;">[ToggleButtonModel](../sun/ToggleButtonModel.md)&lt;T&gt;</span> ) {: #ToggleButtonInteractionStateProperty-constructor data-toc-label='new ToggleButtonInteractionStateProperty' }
 
 ### Instance Methods
 

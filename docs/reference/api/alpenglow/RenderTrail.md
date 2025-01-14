@@ -14,7 +14,7 @@ import { RenderTrail } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderTrail( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, indices : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new RenderTrail( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, indices : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #RenderTrail-constructor data-toc-label='new RenderTrail' }
 
 ### Instance Methods
 

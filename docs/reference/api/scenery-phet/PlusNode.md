@@ -15,7 +15,7 @@ import { PlusNode } from 'scenerystack/scenery-phet';
 ```
 ### Constructor
 
-#### new PlusNode( providedOptions? : <span style="font-weight: 400;">[PlusNodeOptions](../scenery-phet/PlusNode.md#PlusNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PlusNode( providedOptions? : <span style="font-weight: 400;">[PlusNodeOptions](../scenery-phet/PlusNode.md#PlusNodeOptions)</span> ) {: #PlusNode-constructor data-toc-label='new PlusNode' }
 
 ### Instance Methods
 

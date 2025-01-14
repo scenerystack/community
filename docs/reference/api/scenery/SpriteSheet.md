@@ -22,7 +22,7 @@ import { SpriteSheet } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SpriteSheet( useMipmaps : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new SpriteSheet( useMipmaps : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #SpriteSheet-constructor data-toc-label='new SpriteSheet' }
 
 ### Instance Methods
 

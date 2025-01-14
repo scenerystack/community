@@ -17,7 +17,7 @@ import { Emitter } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new Emitter( providedOptions? : <span style="font-weight: 400;">[EmitterOptions](../axon/Emitter.md#EmitterOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Emitter( providedOptions? : <span style="font-weight: 400;">[EmitterOptions](../axon/Emitter.md#EmitterOptions)</span> ) {: #Emitter-constructor data-toc-label='new Emitter' }
 
 ### Instance Methods
 

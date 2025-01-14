@@ -21,7 +21,7 @@ import { DelaunayTriangulation } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new DelaunayTriangulation( points, constraints, options ) {: #constructor data-toc-label='constructor' }
+#### new DelaunayTriangulation( points, constraints, options ) {: #DelaunayTriangulation-constructor data-toc-label='new DelaunayTriangulation' }
 
 ### Instance Methods
 

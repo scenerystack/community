@@ -15,7 +15,7 @@ import { TransitionNode } from 'scenerystack/twixt';
 ```
 ### Constructor
 
-#### new TransitionNode( transitionBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TransitionNodeOptions](../twixt/TransitionNode.md#TransitionNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new TransitionNode( transitionBoundsProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TransitionNodeOptions](../twixt/TransitionNode.md#TransitionNodeOptions)</span> ) {: #TransitionNode-constructor data-toc-label='new TransitionNode' }
 
 ### Instance Methods
 

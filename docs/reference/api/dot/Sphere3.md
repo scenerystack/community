@@ -14,7 +14,7 @@ import { Sphere3 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Sphere3( center, radius ) {: #constructor data-toc-label='constructor' }
+#### new Sphere3( center, radius ) {: #Sphere3-constructor data-toc-label='new Sphere3' }
 
 ### Instance Methods
 

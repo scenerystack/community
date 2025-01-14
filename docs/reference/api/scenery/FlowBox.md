@@ -43,7 +43,7 @@ import { FlowBox } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new FlowBox( providedOptions? : <span style="font-weight: 400;">[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new FlowBox( providedOptions? : <span style="font-weight: 400;">[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions)</span> ) {: #FlowBox-constructor data-toc-label='new FlowBox' }
 
 ### Instance Methods
 

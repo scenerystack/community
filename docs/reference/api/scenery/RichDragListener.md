@@ -39,7 +39,7 @@ import { RichDragListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RichDragListener( providedOptions? : <span style="font-weight: 400;">[RichDragListenerOptions](../scenery/RichDragListener.md#RichDragListenerOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RichDragListener( providedOptions? : <span style="font-weight: 400;">[RichDragListenerOptions](../scenery/RichDragListener.md#RichDragListenerOptions)</span> ) {: #RichDragListener-constructor data-toc-label='new RichDragListener' }
 
 ### Instance Methods
 

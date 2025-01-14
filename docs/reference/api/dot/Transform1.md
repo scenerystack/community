@@ -15,7 +15,7 @@ import { Transform1 } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new Transform1( evaluationFunction, inverseFunction, options ) {: #constructor data-toc-label='constructor' }
+#### new Transform1( evaluationFunction, inverseFunction, options ) {: #Transform1-constructor data-toc-label='new Transform1' }
 
 ### Instance Methods
 

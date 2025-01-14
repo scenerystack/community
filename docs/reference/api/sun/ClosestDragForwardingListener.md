@@ -22,7 +22,7 @@ import { ClosestDragForwardingListener } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ClosestDragForwardingListener( touchThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, mouseThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new ClosestDragForwardingListener( touchThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, mouseThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #ClosestDragForwardingListener-constructor data-toc-label='new ClosestDragForwardingListener' }
 
 ### Instance Methods
 

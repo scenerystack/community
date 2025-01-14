@@ -83,7 +83,7 @@ import { EventTimer } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new EventTimer( eventModel : <span style="font-weight: 400;">{ getPeriodBeforeNextEvent: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }</span>, eventCallback : <span style="font-weight: 400;">( timeElapsed: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #constructor data-toc-label='constructor' }
+#### new EventTimer( eventModel : <span style="font-weight: 400;">{ getPeriodBeforeNextEvent: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }</span>, eventCallback : <span style="font-weight: 400;">( timeElapsed: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #EventTimer-constructor data-toc-label='new EventTimer' }
 
 ### Instance Methods
 

@@ -18,7 +18,7 @@ import { Color } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Color( color : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Color( color : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> ) {: #Color-constructor data-toc-label='new Color' }
 
 ### Instance Methods
 

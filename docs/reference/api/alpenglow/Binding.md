@@ -14,7 +14,7 @@ import { Binding } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new Binding( location : <span style="font-weight: 400;">[BindingLocation](../alpenglow/BindingLocation.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Binding( location : <span style="font-weight: 400;">[BindingLocation](../alpenglow/BindingLocation.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span> ) {: #Binding-constructor data-toc-label='new Binding' }
 
 ### Instance Methods
 

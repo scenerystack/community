@@ -14,7 +14,7 @@ import { TypedBuffer } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new TypedBuffer( buffer : <span style="font-weight: 400;">GPUBuffer</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new TypedBuffer( buffer : <span style="font-weight: 400;">GPUBuffer</span>, type : <span style="font-weight: 400;">[ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;</span> ) {: #TypedBuffer-constructor data-toc-label='new TypedBuffer' }
 
 ### Instance Methods
 

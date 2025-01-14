@@ -15,7 +15,7 @@ import { PageControl } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new PageControl( pageNumberProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, numberOfPagesProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PageControlOptions](../sun/PageControl.md#PageControlOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new PageControl( pageNumberProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, numberOfPagesProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[PageControlOptions](../sun/PageControl.md#PageControlOptions)</span> ) {: #PageControl-constructor data-toc-label='new PageControl' }
 
 ### Instance Methods
 

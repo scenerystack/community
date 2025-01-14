@@ -14,7 +14,7 @@ import { ImageDOMDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new ImageDOMDrawable( renderer, instance ) {: #constructor data-toc-label='constructor' }
+#### new ImageDOMDrawable( renderer, instance ) {: #ImageDOMDrawable-constructor data-toc-label='new ImageDOMDrawable' }
 
 ### Instance Methods
 

@@ -14,7 +14,7 @@ import { SharedCanvasCacheDrawable } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SharedCanvasCacheDrawable( trail, renderer, instance, sharedInstance ) {: #constructor data-toc-label='constructor' }
+#### new SharedCanvasCacheDrawable( trail, renderer, instance, sharedInstance ) {: #SharedCanvasCacheDrawable-constructor data-toc-label='new SharedCanvasCacheDrawable' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { VarianceNumberProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new VarianceNumberProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, computeVariance : <span style="font-weight: 400;">VarianceComputer</span>, options? : <span style="font-weight: 400;">VarianceNumberPropertyOptions</span> ) {: #constructor data-toc-label='constructor' }
+#### new VarianceNumberProperty( value : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, computeVariance : <span style="font-weight: 400;">VarianceComputer</span>, options? : <span style="font-weight: 400;">VarianceNumberPropertyOptions</span> ) {: #VarianceNumberProperty-constructor data-toc-label='new VarianceNumberProperty' }
 
 ### Instance Methods
 

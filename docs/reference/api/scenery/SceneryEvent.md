@@ -22,7 +22,7 @@ import { SceneryEvent } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new SceneryEvent( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, type : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, context : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)&lt;DOMEvent&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new SceneryEvent( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, type : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, pointer : <span style="font-weight: 400;">[Pointer](../scenery/Pointer.md)</span>, context : <span style="font-weight: 400;">[EventContext](../scenery/EventContext.md)&lt;DOMEvent&gt;</span> ) {: #SceneryEvent-constructor data-toc-label='new SceneryEvent' }
 
 ### Instance Methods
 

@@ -17,7 +17,7 @@ import { ToggleNode } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ToggleNode( valueProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span>, elements : <span style="font-weight: 400;">[ToggleNodeElement](../sun/ToggleNode.md#ToggleNodeElement)&lt;T, N&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[ToggleNodeOptions](../sun/ToggleNode.md#ToggleNodeOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new ToggleNode( valueProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;</span>, elements : <span style="font-weight: 400;">[ToggleNodeElement](../sun/ToggleNode.md#ToggleNodeElement)&lt;T, N&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[ToggleNodeOptions](../sun/ToggleNode.md#ToggleNodeOptions)</span> ) {: #ToggleNode-constructor data-toc-label='new ToggleNode' }
 
 ### Instance Methods
 

@@ -15,7 +15,7 @@ import { RectangularRadioButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RectangularRadioButton( property : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;T&gt;</span>, value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions)</span> ) {: #RectangularRadioButton-constructor data-toc-label='new RectangularRadioButton' }
 
 ### Instance Methods
 

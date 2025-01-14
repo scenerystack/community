@@ -14,7 +14,7 @@ import { PiecewiseLinearFunction } from 'scenerystack/dot';
 ```
 ### Constructor
 
-#### new PiecewiseLinearFunction( array : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #constructor data-toc-label='constructor' }
+#### new PiecewiseLinearFunction( array : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> ) {: #PiecewiseLinearFunction-constructor data-toc-label='new PiecewiseLinearFunction' }
 
 ### Instance Methods
 

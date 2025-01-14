@@ -17,7 +17,7 @@ import { Panel } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new Panel( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanelOptions](../sun/Panel.md#PanelOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new Panel( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanelOptions](../sun/Panel.md#PanelOptions)</span> ) {: #Panel-constructor data-toc-label='new Panel' }
 
 ### Instance Methods
 

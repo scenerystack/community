@@ -16,7 +16,7 @@ import { HistogramModule } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new HistogramModule( providedOptions : <span style="font-weight: 400;">[HistogramModuleOptions](../alpenglow/HistogramModule.md#HistogramModuleOptions)&lt;T&gt;</span> ) {: #constructor data-toc-label='constructor' }
+#### new HistogramModule( providedOptions : <span style="font-weight: 400;">[HistogramModuleOptions](../alpenglow/HistogramModule.md#HistogramModuleOptions)&lt;T&gt;</span> ) {: #HistogramModule-constructor data-toc-label='new HistogramModule' }
 
 ### Instance Methods
 

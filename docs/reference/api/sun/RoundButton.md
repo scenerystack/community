@@ -15,7 +15,7 @@ import { RoundButton } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RoundButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)</span> ) {: #constructor data-toc-label='constructor' }
+#### new RoundButton( buttonModel : <span style="font-weight: 400;">[ButtonModel](../sun/ButtonModel.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)</span> ) {: #RoundButton-constructor data-toc-label='new RoundButton' }
 
 ### Instance Methods
 
@@ -61,7 +61,7 @@ import { ThreeDAppearanceStrategy } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new ThreeDAppearanceStrategy( buttonBackground : <span style="font-weight: 400;">[Path](../scenery/Path.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md) | [RadioButtonInteractionState](../sun/RadioButtonInteractionState.md)&gt;</span>, baseColorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)</span> ) {: #ThreeDAppearanceStrategy-constructor data-toc-label='ThreeDAppearanceStrategy-constructor' }
+#### new ThreeDAppearanceStrategy( buttonBackground : <span style="font-weight: 400;">[Path](../scenery/Path.md)</span>, interactionStateProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md) | [RadioButtonInteractionState](../sun/RadioButtonInteractionState.md)&gt;</span>, baseColorProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;</span>, providedOptions? : <span style="font-weight: 400;">[TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)</span> ) {: #ThreeDAppearanceStrategy-ThreeDAppearanceStrategy-constructor data-toc-label='new ThreeDAppearanceStrategy-ThreeDAppearanceStrategy' }
 
 ### Instance Methods
 
