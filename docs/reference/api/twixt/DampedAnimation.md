@@ -45,6 +45,8 @@ Steps the animation forward in time.
 ```js
 import type { DampedAnimationOptions } from 'scenerystack/twixt';
 ```
+
+
 - **valueProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 - **velocityProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 - **damping**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

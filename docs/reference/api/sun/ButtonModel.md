@@ -87,6 +87,8 @@ indicates that interaction was interrupted during a press. Valid until next pres
 ```js
 import type { ButtonModelOptions } from 'scenerystack/sun';
 ```
+
+
 - **startCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **endCallback**?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **phetioState**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

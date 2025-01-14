@@ -182,6 +182,8 @@ Given a value and a delta to change that value, clamp the delta to make sure the
 ```js
 import type { RangeStateObject } from 'scenerystack/dot';
 ```
+
+
 StateObject&lt;typeof STATE_SCHEMA&gt;
 
 
@@ -192,6 +194,8 @@ StateObject&lt;typeof STATE_SCHEMA&gt;
 ```js
 import type { TRange } from 'scenerystack/dot';
 ```
+
+
 - **min**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **max**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 

@@ -28,6 +28,8 @@ import { VSeparator } from 'scenerystack/scenery';
 ```js
 import type { VSeparatorOptions } from 'scenerystack/scenery';
 ```
+
+
 [HeightSizableOptions](../scenery/HeightSizable.md#HeightSizableOptions) &amp; [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
 
 

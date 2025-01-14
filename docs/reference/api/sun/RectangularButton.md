@@ -33,6 +33,8 @@ import { RectangularButton } from 'scenerystack/sun';
 ```js
 import type { RectangularButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **minWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **minHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

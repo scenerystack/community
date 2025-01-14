@@ -12,6 +12,8 @@ Converts an index from a normal (blocked) order to a striped order (for improved
 ```js
 import type { toStripedIndexWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **i**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
 

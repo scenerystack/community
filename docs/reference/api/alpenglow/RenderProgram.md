@@ -165,6 +165,8 @@ Output should be chained (the `output` parameter should be returned, for conveni
 ```js
 import type { RenderEvaluator } from 'scenerystack/alpenglow';
 ```
+
+
 ( context: [RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md), output: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)
 
 
@@ -175,6 +177,8 @@ import type { RenderEvaluator } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderProgram } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 
 

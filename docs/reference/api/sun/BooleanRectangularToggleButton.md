@@ -28,6 +28,8 @@ import { BooleanRectangularToggleButton } from 'scenerystack/sun';
 ```js
 import type { BooleanRectangularToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 StrictOmit&lt;[RectangularToggleButtonOptions](../sun/RectangularToggleButton.md#RectangularToggleButtonOptions), "content"&gt;
 
 

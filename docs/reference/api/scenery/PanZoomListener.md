@@ -84,6 +84,8 @@ targetNode transform. This could be removed by work recommended in
 ```js
 import type { PanZoomListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **panBounds**?: [Bounds2](../dot/Bounds2.md)
 - **targetBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **targetScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

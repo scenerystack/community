@@ -60,6 +60,8 @@ output
 ```js
 import type { MainTwoPassTileModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **config**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;
 - **initialRenderableFaces**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassInitialRenderableFace](../alpenglow/TwoPassInitialRenderableFace.md)[]&gt;
 - **initialEdges**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;

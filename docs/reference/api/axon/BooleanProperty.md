@@ -31,6 +31,8 @@ client cannot specify superclass options that are controlled by BooleanProperty
 ```js
 import type { BooleanPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;, "isValidValue" | "valueType" | "phetioValueType"&gt;
 
 

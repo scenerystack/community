@@ -53,6 +53,8 @@ Gets the color of the checkbox.
 ```js
 import type { CheckboxOptions } from 'scenerystack/sun';
 ```
+
+
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **boxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **checkboxColor**?: [TPaint](../scenery/TPaint.md)

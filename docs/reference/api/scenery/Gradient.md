@@ -69,6 +69,8 @@ Returns the current value of the generally-allowed color types for Gradient, as 
 ```js
 import type { GradientStop } from 'scenerystack/scenery';
 ```
+
+
 - **ratio**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **color**: [TColor](../scenery/TColor.md)
 

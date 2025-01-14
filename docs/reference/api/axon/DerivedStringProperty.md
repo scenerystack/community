@@ -43,6 +43,8 @@ import { DerivedStringProperty } from 'scenerystack/axon';
 ```js
 import type { DerivedStringPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 StrictOmit&lt;SuperOptions&lt;T&gt;, "phetioValueType"&gt; &amp; [DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;
 
 

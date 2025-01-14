@@ -53,6 +53,8 @@ splitting into each possible non-zero-area combination.
 ```js
 import type { SerializedRenderDepthSort } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderDepthSort](../alpenglow/RenderDepthSort.md)"
 - **items**: {
     program: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram);

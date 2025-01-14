@@ -45,6 +45,8 @@ RoundButton has this.buttonModel, but we also need this.pushButtonModel, because
 ```js
 import type { RoundPushButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
 

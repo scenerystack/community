@@ -355,6 +355,8 @@ https://github.com/phetsims/scenery/issues/1149. Do not directly modify this!
 ```js
 import type { DisplayOptions } from 'scenerystack/scenery';
 ```
+
+
 - **width**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **height**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **allowCSSHacks**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

@@ -44,6 +44,8 @@ import { MergeModule } from 'scenerystack/alpenglow';
 ```js
 import type { MergeModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **inputA**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **inputB**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;

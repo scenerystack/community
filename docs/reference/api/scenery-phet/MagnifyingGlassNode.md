@@ -27,6 +27,8 @@ import { MagnifyingGlassNode } from 'scenerystack/scenery-phet';
 ```js
 import type { MagnifyingGlassNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **glassRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **glassFill**?: [TColor](../scenery/TColor.md)
 - **glassStroke**?: [TColor](../scenery/TColor.md)

@@ -104,6 +104,8 @@ These are public for layout - NOTE: These are mutated if the size changes after 
 ```js
 import type { CarouselItem } from 'scenerystack/sun';
 ```
+
+
 [GroupItemOptions](../sun/GroupItemOptions.md) &amp; { alignBoxOptions?: [AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions) }
 
 
@@ -114,6 +116,8 @@ import type { CarouselItem } from 'scenerystack/sun';
 ```js
 import type { CarouselOptions } from 'scenerystack/sun';
 ```
+
+
 - **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md)
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)

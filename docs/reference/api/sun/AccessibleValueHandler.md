@@ -22,6 +22,8 @@ totally custom interaction keeping the general slider behavior the same.
 ```js
 import type { AccessibleValueHandlerOptions } from 'scenerystack/sun';
 ```
+
+
 - **valueProperty**: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 - **enabledRangeProperty**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;
 - **startInput**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>

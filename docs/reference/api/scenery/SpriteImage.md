@@ -49,6 +49,8 @@ Returns whether a given point is considered "inside" the SpriteImage.
 ```js
 import type { SpriteImageOptions } from 'scenerystack/scenery';
 ```
+
+
 - **hitTestPixels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **pickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [ImageableOptions](../scenery/Imageable.md#ImageableOptions)

@@ -29,6 +29,8 @@ import { PageControl } from 'scenerystack/sun';
 ```js
 import type { PageControlOptions } from 'scenerystack/sun';
 ```
+
+
 - **interactive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md)
 - **dotRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

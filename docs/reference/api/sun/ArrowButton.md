@@ -30,6 +30,8 @@ import { ArrowButton } from 'scenerystack/sun';
 ```js
 import type { ArrowButtonDirection } from 'scenerystack/sun';
 ```
+
+
 "up" | "down" | "left" | "right"
 
 
@@ -40,6 +42,8 @@ import type { ArrowButtonDirection } from 'scenerystack/sun';
 ```js
 import type { ArrowButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **arrowHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowFill**?: [TPaint](../scenery/TPaint.md)

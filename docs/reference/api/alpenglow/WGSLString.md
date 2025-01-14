@@ -24,6 +24,8 @@ import { WGSLString } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLBinaryExpression } from 'scenerystack/alpenglow';
 ```
+
+
 ( a: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression), b: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression) ) =&gt; [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -34,6 +36,8 @@ import type { WGSLBinaryExpression } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpression } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLString](../alpenglow/WGSLString.md)
 
 
@@ -44,6 +48,8 @@ import type { WGSLExpression } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpressionBool } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -54,6 +60,8 @@ import type { WGSLExpressionBool } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpressionF32 } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -64,6 +72,8 @@ import type { WGSLExpressionF32 } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpressionI32 } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -74,6 +84,8 @@ import type { WGSLExpressionI32 } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpressionT } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -84,6 +96,8 @@ import type { WGSLExpressionT } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLExpressionU32 } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
 
 
@@ -128,6 +142,8 @@ import { WGSLModule } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLModuleDeclarations } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLString](../alpenglow/WGSLString.md)
 
 
@@ -170,6 +186,8 @@ import { WGSLSlot } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLStatements } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLString](../alpenglow/WGSLString.md)
 
 
@@ -248,6 +266,8 @@ import { WGSLStringModule } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLType } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLString](../alpenglow/WGSLString.md)
 
 
@@ -258,6 +278,8 @@ import type { WGSLType } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLVariableName } from 'scenerystack/alpenglow';
 ```
+
+
 [WGSLString](../alpenglow/WGSLString.md)
 
 

@@ -14,6 +14,8 @@ Types for Himalaya
 ```js
 import type { HimalayaAttribute } from 'scenerystack/scenery';
 ```
+
+
 - **key**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **value**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 
@@ -26,6 +28,8 @@ import type { HimalayaAttribute } from 'scenerystack/scenery';
 ```js
 import type { HimalayaElementNode } from 'scenerystack/scenery';
 ```
+
+
 - **type**: "element"
 - **tagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **children**: [HimalayaNode](../scenery/RichTextUtils.md#HimalayaNode)[]
@@ -42,6 +46,8 @@ import type { HimalayaElementNode } from 'scenerystack/scenery';
 ```js
 import type { HimalayaNode } from 'scenerystack/scenery';
 ```
+
+
 - **type**: "element" | "comment" | "text"
 - **innerContent**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 
@@ -54,6 +60,8 @@ import type { HimalayaNode } from 'scenerystack/scenery';
 ```js
 import type { HimalayaTextNode } from 'scenerystack/scenery';
 ```
+
+
 - **type**: "text"
 - **content**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - &amp; [HimalayaNode](../scenery/RichTextUtils.md#HimalayaNode)

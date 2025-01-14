@@ -23,6 +23,8 @@ scanned reductions can be added into final results (also for use in multi-level 
 ```js
 import type { mainScanWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
 - **inPlace**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **storeReduction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

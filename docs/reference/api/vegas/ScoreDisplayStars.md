@@ -31,6 +31,8 @@ import { ScoreDisplayStars } from 'scenerystack/vegas';
 ```js
 import type { ScoreDisplayStarsOptions } from 'scenerystack/vegas';
 ```
+
+
 - **numberOfStars**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **perfectScore**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **starNodeOptions**?: [StarNodeOptions](../scenery-phet/StarNode.md#StarNodeOptions)

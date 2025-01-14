@@ -23,6 +23,8 @@ We remove the null values for the values that won't actually take null
 ```js
 import type { ExternalMarginLayoutConfigurableOptions } from 'scenerystack/scenery';
 ```
+
+
 WithoutNull&lt;[MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), Exclude&lt;keyof [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
 
 
@@ -33,6 +35,8 @@ WithoutNull&lt;[MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigur
 ```js
 import type { MarginLayoutConfigurableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **margin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -54,6 +58,8 @@ import type { MarginLayoutConfigurableOptions } from 'scenerystack/scenery';
 ```js
 import type { TMarginLayoutConfigurable } from 'scenerystack/scenery';
 ```
+
+
 - **_leftMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **_rightMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **_topMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

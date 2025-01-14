@@ -55,6 +55,8 @@ REVIEW: Please add doc why we only need to listen to a Node once, even if it is 
 ```js
 import type { DisplayedTrailsPropertyOptions } from 'scenerystack/scenery';
 ```
+
+
 - **display**?: DisplayPredicate
 - **followPDOMOrder**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **requireVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

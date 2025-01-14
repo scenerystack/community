@@ -33,6 +33,8 @@ import { RoundButton } from 'scenerystack/sun';
 ```js
 import type { RoundButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **stroke**?: [TPaint](../scenery/TPaint.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

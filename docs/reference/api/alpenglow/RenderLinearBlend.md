@@ -141,6 +141,8 @@ import { RenderLinearBlendLogic } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderLinearBlend } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)"
 - **scaledNormal**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **offset**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

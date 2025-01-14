@@ -10,6 +10,8 @@
 ```js
 import type { mainRadixScatterWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **histogramOffsets**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;

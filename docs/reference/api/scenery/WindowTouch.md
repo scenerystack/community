@@ -17,6 +17,8 @@ For example usage, see scenery/examples/input.html. Usually you can just pass a 
 ```js
 import type { WindowTouch } from 'scenerystack/scenery';
 ```
+
+
 [Touch](../scenery/Touch.md)
 
 

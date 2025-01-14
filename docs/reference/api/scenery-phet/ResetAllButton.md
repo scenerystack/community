@@ -36,6 +36,8 @@ import { ResetAllButton } from 'scenerystack/scenery-phet';
 ```js
 import type { ResetAllButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **phetioRestoreScreenStateOnReset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **interruptScreenViewInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; StrictOmit&lt;[ResetButtonOptions](../scenery-phet/ResetButton.md#ResetButtonOptions), "xMargin" | "yMargin"&gt;

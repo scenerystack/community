@@ -163,6 +163,8 @@ Returns true if this Property value can be set externally, by set() or .value =
 ```js
 import type { DynamicPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **bidirectional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **defaultValue**?: InnerValueType
 - **derive**?: ( ( outerValue: OuterValueType ) =&gt; [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt; ) | KeysMatching&lt;OuterValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt;&gt;
@@ -179,6 +181,8 @@ import type { DynamicPropertyOptions } from 'scenerystack/axon';
 ```js
 import type { TNullableProperty } from 'scenerystack/axon';
 ```
+
+
 [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt; | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;
 
 

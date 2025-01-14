@@ -90,6 +90,8 @@ We provide these options to the super, also enabledRangeProperty is turned from 
 ```js
 import type { SliderOptions } from 'scenerystack/sun';
 ```
+
+
 - **orientation**?: [Orientation](../phet-core/Orientation.md)
 - **trackNode**?: [SliderTrack](../sun/SliderTrack.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **trackSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

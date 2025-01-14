@@ -60,6 +60,8 @@ persistent
 ```js
 import type { ActiveSVGGradient } from 'scenerystack/scenery';
 ```
+
+
 WithoutNull&lt;[SVGGradient](../scenery/SVGGradient.md), "svgBlock" | "gradient"&gt;
 
 

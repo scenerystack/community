@@ -296,6 +296,8 @@ the middlePoint somewhere between the two.
 ```js
 import type { SerializedArc } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[Arc](../kite/Arc.md)"
 - **centerX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **centerY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

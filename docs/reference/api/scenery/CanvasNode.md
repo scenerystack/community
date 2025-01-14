@@ -84,6 +84,8 @@ Returns a Shape that represents the area covered by containsPointSelf.
 ```js
 import type { CanvasNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

@@ -110,6 +110,8 @@ Creates a transition that fades from `fromNode` to `toNode` by varying the opaci
 ```js
 import type { DissolveTransitionOptions } from 'scenerystack/twixt';
 ```
+
+
 [PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; &amp; DissolveTransitionSelfOptions
 
 
@@ -120,6 +122,8 @@ import type { DissolveTransitionOptions } from 'scenerystack/twixt';
 ```js
 import type { PartialTransitionOptions } from 'scenerystack/twixt';
 ```
+
+
 StrictOmit&lt;SelfOptions&lt;[ T ]&gt;, "fromTargets" | "toTargets" | "resetNode"&gt; &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [ T ], [ [Node](../scenery/Node.md) ]&gt;
 
 
@@ -130,6 +134,8 @@ StrictOmit&lt;SelfOptions&lt;[ T ]&gt;, "fromTargets" | "toTargets" | "resetNode
 ```js
 import type { SlideTransitionOptions } from 'scenerystack/twixt';
 ```
+
+
 [PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 
 
@@ -140,6 +146,8 @@ import type { SlideTransitionOptions } from 'scenerystack/twixt';
 ```js
 import type { TransitionOptions } from 'scenerystack/twixt';
 ```
+
+
 - **fromTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
 - **toTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
 - **resetNode**: ( node: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
@@ -155,6 +163,8 @@ import type { TransitionOptions } from 'scenerystack/twixt';
 ```js
 import type { WipeTransitionOptions } from 'scenerystack/twixt';
 ```
+
+
 [PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;[Shape](../kite/Shape.md)&gt;
 
 

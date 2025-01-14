@@ -30,6 +30,8 @@ import { ScoreDisplayNumberAndStar } from 'scenerystack/vegas';
 ```js
 import type { ScoreDisplayNumberAndStarOptions } from 'scenerystack/vegas';
 ```
+
+
 - **font**?: [Font](../scenery/Font.md)
 - **textFill**?: [TColor](../scenery/TColor.md)
 - **scoreDecimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

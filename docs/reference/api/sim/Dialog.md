@@ -35,6 +35,8 @@ import { Dialog } from 'scenerystack/sim';
 ```js
 import type { DialogOptions } from 'scenerystack/sim';
 ```
+
+
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **topMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

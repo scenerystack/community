@@ -29,6 +29,8 @@ import { VStrut } from 'scenerystack/scenery';
 ```js
 import type { VStrutOptions } from 'scenerystack/scenery';
 ```
+
+
 [SpacerOptions](../scenery/Spacer.md#SpacerOptions)
 
 

@@ -50,6 +50,8 @@ import { UnitConversionProperty } from 'scenerystack/axon';
 ```js
 import type { UnitConversionPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **factor**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [MappedPropertyOptions](../axon/MappedProperty.md#MappedPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 

@@ -103,6 +103,8 @@ import { RenderInstructionFilter } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderFilter } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderFilter](../alpenglow/RenderFilter.md)"
 - **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 - **colorMatrix**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]

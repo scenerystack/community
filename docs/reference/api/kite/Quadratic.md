@@ -217,6 +217,8 @@ to a quadratic, but generally that shouldn't be done.
 ```js
 import type { SerializedQuadratic } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[Quadratic](../kite/Quadratic.md)"
 - **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

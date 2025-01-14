@@ -36,6 +36,8 @@ import { Rasterize } from 'scenerystack/alpenglow';
 ```js
 import type { RasterizationOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **outputRasterOffset**?: [Vector2](../dot/Vector2.md)
 - **tileSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **polygonFiltering**?: [PolygonFilterType](../alpenglow/PolygonFilterType.md)

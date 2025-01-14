@@ -87,6 +87,8 @@ Allowed keys as a string - the format they will be provided by the user.
 ```js
 import type { AllowedKeysString } from 'scenerystack/scenery';
 ```
+
+
 `${AllowedKeys}`
 
 
@@ -102,6 +104,8 @@ type KeyCombinations = `${OneKeyStroke}` | `${OneKeyStroke},${OneKeyStroke}`;
 ```js
 import type { KeyDescriptorOptions } from 'scenerystack/scenery';
 ```
+
+
 - **key**: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)
 - **modifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
 - **ignoredModifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
@@ -115,6 +119,8 @@ import type { KeyDescriptorOptions } from 'scenerystack/scenery';
 ```js
 import type { OneKeyStroke } from 'scenerystack/scenery';
 ```
+
+
 `${AllowedKeys}` | `${ModifierKey}+${AllowedKeys}` | `${ModifierKey}+${ModifierKey}+${AllowedKeys}` | `${IgnoreModifierKey}+${AllowedKeys}` | `${IgnoreModifierKey}+${ModifierKey}+${AllowedKeys}` | `${IgnoreOtherModifierKeys}+${AllowedKeys}` | `${IgnoreOtherModifierKeys}+${ModifierKey}+${AllowedKeys}`
 
 
@@ -127,6 +133,8 @@ A key stroke entry is a single key or a key with "ignore" modifiers, see example
 ```js
 import type { OneKeyStrokeEntry } from 'scenerystack/scenery';
 ```
+
+
 `${AllowedKeys}` | `${IgnoreModifierKey}+${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}` | `${IgnoreOtherModifierKeys}+${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}`
 
 

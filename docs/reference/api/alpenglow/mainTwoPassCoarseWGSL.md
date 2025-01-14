@@ -14,6 +14,8 @@ Should be dispatched with one workgroup PER coarse renderable face (one thread p
 ```js
 import type { mainTwoPassCoarseWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **config**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;
 - **coarseRenderableFaces**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassCoarseRenderableFace](../alpenglow/TwoPassCoarseRenderableFace.md)[]&gt;
 - **coarseEdges**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;

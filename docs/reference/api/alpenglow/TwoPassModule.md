@@ -64,6 +64,8 @@ import { TwoPassModule } from 'scenerystack/alpenglow';
 ```js
 import type { TwoPassModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
 
 
@@ -74,6 +76,8 @@ import type { TwoPassModuleOptions } from 'scenerystack/alpenglow';
 ```js
 import type { TwoPassRunSize } from 'scenerystack/alpenglow';
 ```
+
+
 - **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numCoarseRenderableFaces**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 

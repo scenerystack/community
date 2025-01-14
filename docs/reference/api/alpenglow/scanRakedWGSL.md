@@ -14,6 +14,8 @@ WILL NEED workgroupBarrier() before/after (before if needed for scratch, after f
 ```js
 import type { scanRakedWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **scratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **direction**?: "left" | "right"
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;

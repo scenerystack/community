@@ -90,6 +90,8 @@ When to cut off lineJoin:miter to look like lineJoin:bevel. See https://svgwg.or
 ```js
 import type { LineCap } from 'scenerystack/kite';
 ```
+
+
 "butt" | "round" | "square"
 
 
@@ -100,6 +102,8 @@ import type { LineCap } from 'scenerystack/kite';
 ```js
 import type { LineJoin } from 'scenerystack/kite';
 ```
+
+
 "miter" | "round" | "bevel"
 
 
@@ -110,6 +114,8 @@ import type { LineJoin } from 'scenerystack/kite';
 ```js
 import type { LineStylesOptions } from 'scenerystack/kite';
 ```
+
+
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **lineCap**?: [LineCap](../kite/LineStyles.md#LineCap)
 - **lineJoin**?: [LineJoin](../kite/LineStyles.md#LineJoin)

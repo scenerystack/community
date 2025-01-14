@@ -28,6 +28,8 @@ import { CarouselButton } from 'scenerystack/sun';
 ```js
 import type { CarouselButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **arrowPathOptions**?: [PathOptions](../scenery/Path.md#PathOptions)
 - **arrowDirection**?: ArrowDirection
 - **arrowSize**?: [Dimension2](../dot/Dimension2.md)

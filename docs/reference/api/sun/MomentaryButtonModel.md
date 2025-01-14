@@ -34,6 +34,8 @@ import { MomentaryButtonModel } from 'scenerystack/sun';
 ```js
 import type { MomentaryButtonModelOptions } from 'scenerystack/sun';
 ```
+
+
 [ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
 
 

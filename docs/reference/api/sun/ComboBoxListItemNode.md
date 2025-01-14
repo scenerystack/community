@@ -42,6 +42,8 @@ Free memory references to avoid leaks.
 ```js
 import type { ComboBoxListItemNodeOptions } from 'scenerystack/sun';
 ```
+
+
 - **align**?: "left" | "right" | "center"
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **highlightFill**?: [TPaint](../scenery/TPaint.md)

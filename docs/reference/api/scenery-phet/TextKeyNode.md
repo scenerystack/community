@@ -65,6 +65,8 @@ in the PDOM please use getAltKeyString().
 ```js
 import type { TextKeyNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **font**?: [Font](../scenery/Font.md)
 - **fill**?: [TColor](../scenery/TColor.md)
 - **textMaxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

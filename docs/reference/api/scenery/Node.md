@@ -2023,6 +2023,8 @@ See https://github.com/phetsims/scenery/issues/1332
 ```js
 import type { NodeBoundsBasedTranslationOptions } from 'scenerystack/scenery';
 ```
+
+
 - **leftTop**?: [Vector2](../dot/Vector2.md)
 - **centerTop**?: [Vector2](../dot/Vector2.md)
 - **rightTop**?: [Vector2](../dot/Vector2.md)
@@ -2050,6 +2052,8 @@ All base Node options
 ```js
 import type { NodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **children**?: [Node](../scenery/Node.md)[]
 - **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **phetioVisiblePropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -2100,6 +2104,8 @@ All transform options (includes translation options)
 ```js
 import type { NodeTransformOptions } from 'scenerystack/scenery';
 ```
+
+
 - **matrix**?: [Matrix3](../dot/Matrix3.md)
 - **rotation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **scale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [Vector2](../dot/Vector2.md)
@@ -2116,6 +2122,8 @@ All translation options (includes those based on bounds and those that are not)
 ```js
 import type { NodeTranslationOptions } from 'scenerystack/scenery';
 ```
+
+
 - **translation**?: [Vector2](../dot/Vector2.md)
 - **x**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **y**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -2130,6 +2138,8 @@ import type { NodeTranslationOptions } from 'scenerystack/scenery';
 ```js
 import type { RendererType } from 'scenerystack/scenery';
 ```
+
+
 "svg" | "canvas" | "webgl" | "dom" | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 
 

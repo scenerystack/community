@@ -63,6 +63,8 @@ Mipmap data structure - Image supports a mipmap data structure that provides ras
 ```js
 import type { ImageableImage } from 'scenerystack/scenery';
 ```
+
+
 <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | HTMLImageElement | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [Mipmap](../scenery/Imageable.md#Mipmap)
 
 
@@ -73,6 +75,8 @@ import type { ImageableImage } from 'scenerystack/scenery';
 ```js
 import type { ImageableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **image**?: [ImageableImage](../scenery/Imageable.md#ImageableImage)
 - **imageProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[ImageableImage](../scenery/Imageable.md#ImageableImage)&gt;
 - **imageOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -93,6 +97,8 @@ import type { ImageableOptions } from 'scenerystack/scenery';
 ```js
 import type { Mipmap } from 'scenerystack/scenery';
 ```
+
+
 {
   width: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
   height: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;

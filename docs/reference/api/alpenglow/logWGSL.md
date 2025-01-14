@@ -12,6 +12,8 @@ Provides the ability to log things to a buffer in storage, like console.log woul
 ```js
 import type { logWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **additionalIndex**?: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **type**?: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

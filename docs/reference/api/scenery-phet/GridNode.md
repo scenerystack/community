@@ -31,6 +31,8 @@ import { GridNode } from 'scenerystack/scenery-phet';
 ```js
 import type { GridNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 [PathOptions](../scenery/Path.md#PathOptions)
 
 

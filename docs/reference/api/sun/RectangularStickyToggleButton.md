@@ -30,6 +30,8 @@ import { RectangularStickyToggleButton } from 'scenerystack/sun';
 ```js
 import type { RectangularStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)
 

@@ -123,6 +123,8 @@ add it to the range.
 ```js
 import type { SerializedLinearEdge } from 'scenerystack/alpenglow';
 ```
+
+
 - **startPoint**:
   - **x**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
   - **y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -15,6 +15,8 @@ See https://github.com/phetsims/joist/issues/861 for the origins and design hist
 ```js
 import type { TModel } from 'scenerystack/joist';
 ```
+
+
 - **step**?: ( dt: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **reset**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 

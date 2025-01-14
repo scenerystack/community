@@ -131,6 +131,8 @@ If false, the hotkey was released due to the key being released.
 ```js
 import type { HotkeyFireOnHoldTiming } from 'scenerystack/scenery';
 ```
+
+
 "browser" | "custom"
 
 
@@ -141,6 +143,8 @@ import type { HotkeyFireOnHoldTiming } from 'scenerystack/scenery';
 ```js
 import type { HotkeyOptions } from 'scenerystack/scenery';
 ```
+
+
 - **keyStringProperty**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;
 - **fire**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **press**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>

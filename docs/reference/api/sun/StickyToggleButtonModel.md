@@ -45,6 +45,8 @@ import { StickyToggleButtonModel } from 'scenerystack/sun';
 ```js
 import type { StickyToggleButtonModelOptions } from 'scenerystack/sun';
 ```
+
+
 [ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
 
 

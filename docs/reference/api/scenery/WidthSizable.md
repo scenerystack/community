@@ -14,6 +14,8 @@ layout container, and the component should adjust its size so that it takes up t
 ```js
 import type { TWidthSizable } from 'scenerystack/scenery';
 ```
+
+
 - **preferredWidthProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumWidthProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **localPreferredWidthProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
@@ -46,6 +48,8 @@ and provide a type for a Node that extends this type.
 ```js
 import type { WidthSizableNode } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) &amp; [TWidthSizable](../scenery/WidthSizable.md#TWidthSizable)
 
 
@@ -56,6 +60,8 @@ import type { WidthSizableNode } from 'scenerystack/scenery';
 ```js
 import type { WidthSizableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **preferredWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **minimumWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **localPreferredWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

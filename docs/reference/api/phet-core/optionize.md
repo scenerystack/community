@@ -21,6 +21,8 @@ progress on this pattern.
 ```js
 import type { EmptySelfOptions } from 'scenerystack/phet-core';
 ```
+
+
 - **_emptySelfOptionsKey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span>
 
 

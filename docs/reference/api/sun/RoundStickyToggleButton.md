@@ -30,6 +30,8 @@ import { RoundStickyToggleButton } from 'scenerystack/sun';
 ```js
 import type { RoundStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
 

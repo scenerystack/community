@@ -28,6 +28,8 @@ import { DisplayedProperty } from 'scenerystack/scenery';
 ```js
 import type { DisplayedPropertyOptions } from 'scenerystack/scenery';
 ```
+
+
 [DisplayedTrailsPropertyOptions](../scenery/DisplayedTrailsProperty.md#DisplayedTrailsPropertyOptions) &amp; [DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 
 

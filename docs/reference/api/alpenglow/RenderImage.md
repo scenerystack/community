@@ -157,6 +157,8 @@ import { RenderInstructionImage } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderImage } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderImage](../alpenglow/RenderImage.md)"
 - **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **image**: [SerializedRenderImageable](../alpenglow/RenderImageable.md#SerializedRenderImageable)

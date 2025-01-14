@@ -193,6 +193,8 @@ Disposes this box, releasing listeners and any references to an AlignGroup
 ```js
 import type { AlignBoxOptions } from 'scenerystack/scenery';
 ```
+
+
 - **alignBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **alignBoundsProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;
 - **align**?: [AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign) &amp; [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)
@@ -217,6 +219,8 @@ import type { AlignBoxOptions } from 'scenerystack/scenery';
 ```js
 import type { AlignBoxXAlign } from 'scenerystack/scenery';
 ```
+
+
 ( typeof [AlignBoxXAlignValues](../scenery/AlignBox.md#AlignBoxXAlignValues) )[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>]
 
 
@@ -227,6 +231,8 @@ import type { AlignBoxXAlign } from 'scenerystack/scenery';
 ```js
 import type { AlignBoxYAlign } from 'scenerystack/scenery';
 ```
+
+
 ( typeof [AlignBoxYAlignValues](../scenery/AlignBox.md#AlignBoxYAlignValues) )[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>]
 
 

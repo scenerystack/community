@@ -12,6 +12,8 @@ The main type interface for input listeners
 ```js
 import type { TAttachableInputListener } from 'scenerystack/scenery';
 ```
+
+
 - **interrupt**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - &amp; [TInputListener](../scenery/TInputListener.md)
 

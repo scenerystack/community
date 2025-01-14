@@ -16,6 +16,8 @@ is added or removed, the lengthProperty changes before elementAddedEmitter or el
 ```js
 import type { ObservableArrayOptions } from 'scenerystack/axon';
 ```
+
+
 - **length**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **elements**?: T[]
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

@@ -99,6 +99,8 @@ and import them into a single file that will be passed to this function.
 ```js
 import type { LocalizedStringStateDelta } from 'scenerystack/chipper';
 ```
+
+
 Partial&lt;Record&lt;[Locale](../joist/localeProperty.md#Locale), TranslationString&gt;&gt;
 
 
@@ -111,6 +113,8 @@ Where "string" is a phetioID
 ```js
 import type { StringsStateStateObject } from 'scenerystack/chipper';
 ```
+
+
 - **data**: Record&lt;PhetioID, [LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)&gt;
 
 

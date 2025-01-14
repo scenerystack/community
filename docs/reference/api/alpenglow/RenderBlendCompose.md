@@ -136,6 +136,8 @@ import { RenderInstructionBlendCompose } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderBlendCompose } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderBlendCompose](../alpenglow/RenderBlendCompose.md)"
 - **composeType**: [RenderComposeType](../alpenglow/RenderComposeType.md)
 - **blendType**: [RenderBlendType](../alpenglow/RenderBlendType.md)

@@ -29,6 +29,8 @@ import { ScoreDisplayLabeledStars } from 'scenerystack/vegas';
 ```js
 import type { ScoreDisplayLabeledStarsOptions } from 'scenerystack/vegas';
 ```
+
+
 - **font**?: [Font](../scenery/Font.md)
 - **textFill**?: [TColor](../scenery/TColor.md)
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

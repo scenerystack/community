@@ -14,6 +14,8 @@ into a more compact form (packed into either a u32/vec2u/vec3u/vec4u, depending 
 ```js
 import type { compactSingleRadixSortWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **totalBits**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **getBitsAtIndex**: ( value: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), bitIndex: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - &amp; StrictOmit&lt;[nBitCompactSingleSortWGSLOptions](../alpenglow/nBitCompactSingleSortWGSL.md#nBitCompactSingleSortWGSLOptions)&lt;T&gt;, "getBits"&gt;

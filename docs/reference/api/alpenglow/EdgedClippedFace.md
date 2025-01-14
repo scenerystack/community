@@ -317,6 +317,8 @@ Will reset without creating a face
 ```js
 import type { SerializedEdgedClippedFace } from 'scenerystack/alpenglow';
 ```
+
+
 - **edges**: [SerializedLinearEdge](../alpenglow/LinearEdge.md#SerializedLinearEdge)[]
 - **minX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **minY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -32,6 +32,8 @@ import { Plane } from 'scenerystack/scenery';
 ```js
 import type { PlaneOptions } from 'scenerystack/scenery';
 ```
+
+
 [RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
 
 

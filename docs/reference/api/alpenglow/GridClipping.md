@@ -30,6 +30,8 @@ TODO: intercepts to values that will be acceptable?
 ```js
 import type { GridClipCallback } from 'scenerystack/alpenglow';
 ```
+
+
 (
   cellX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
   cellY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,

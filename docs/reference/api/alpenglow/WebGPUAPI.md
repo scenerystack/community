@@ -107,6 +107,8 @@ TODO: consider adding the other approach to dynamic offsets?
 ```js
 import type { PreferredCanvasFormat } from 'scenerystack/alpenglow';
 ```
+
+
 "bgra8unorm" | "rgba8unorm"
 
 

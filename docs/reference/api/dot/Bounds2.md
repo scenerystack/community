@@ -744,6 +744,8 @@ For PhET-iO serialization
 ```js
 import type { Bounds2StateObject } from 'scenerystack/dot';
 ```
+
+
 - **minX**: InfiniteNumberStateObject
 - **minY**: InfiniteNumberStateObject
 - **maxX**: InfiniteNumberStateObject

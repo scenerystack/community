@@ -252,6 +252,8 @@ Will reset without creating a face
 ```js
 import type { SerializedEdgedFace } from 'scenerystack/alpenglow';
 ```
+
+
 - **edges**: [SerializedLinearEdge](../alpenglow/LinearEdge.md#SerializedLinearEdge)[]
 
 

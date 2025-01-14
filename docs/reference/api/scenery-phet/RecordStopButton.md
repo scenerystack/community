@@ -28,6 +28,8 @@ import { RecordStopButton } from 'scenerystack/scenery-phet';
 ```js
 import type { RecordStopButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **recordIconColor**?: [TColor](../scenery/TColor.md)
 - **stopIconColor**?: [TColor](../scenery/TColor.md)

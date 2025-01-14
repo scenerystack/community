@@ -29,6 +29,8 @@ import { VoicingRichText } from 'scenerystack/scenery';
 ```js
 import type { VoicingRichTextOptions } from 'scenerystack/scenery';
 ```
+
+
 [ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; StrictOmit&lt;[RichTextOptions](../scenery/RichText.md#RichTextOptions), "focusHighlight"&gt;
 
 

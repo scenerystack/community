@@ -473,6 +473,8 @@ ImmutableVector2 vector: $\begin{bmatrix} 0\\1 \end{bmatrix}$
 ```js
 import type { Vector2StateObject } from 'scenerystack/dot';
 ```
+
+
 StateObject&lt;typeof STATE_SCHEMA&gt;
 
 

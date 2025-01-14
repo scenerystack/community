@@ -152,6 +152,8 @@ Weird Layout is created for testing purposes to test the edge cases and layout c
 ```js
 import type { KeypadLayout } from 'scenerystack/scenery-phet';
 ```
+
+
 ( [Key](../scenery-phet/Key.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[][]
 
 
@@ -162,6 +164,8 @@ import type { KeypadLayout } from 'scenerystack/scenery-phet';
 ```js
 import type { KeypadOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **buttonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **buttonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

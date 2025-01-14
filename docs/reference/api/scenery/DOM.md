@@ -80,6 +80,8 @@ the usual preventDefault(). If true, we'll set a flag internally so that we don'
 ```js
 import type { DOMOptions } from 'scenerystack/scenery';
 ```
+
+
 - **element**?: Element
 - **preventTransform**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **allowInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

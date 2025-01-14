@@ -140,6 +140,8 @@ Removes all child Nodes in a given column
 ```js
 import type { GridBoxOptions } from 'scenerystack/scenery';
 ```
+
+
 - **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **rows**?: LineArrays
 - **columns**?: LineArrays

@@ -36,6 +36,8 @@ import { RenderGradientStop } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderGradientStop } from 'scenerystack/alpenglow';
 ```
+
+
 - **ratio**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 

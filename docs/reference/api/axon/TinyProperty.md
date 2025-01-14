@@ -105,6 +105,8 @@ Releases references.
 ```js
 import type { TinyPropertyEmitterParameters } from 'scenerystack/axon';
 ```
+
+
 [ T, T | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt; ]
 
 
@@ -115,6 +117,8 @@ import type { TinyPropertyEmitterParameters } from 'scenerystack/axon';
 ```js
 import type { TinyPropertyOnBeforeNotify } from 'scenerystack/axon';
 ```
+
+
 ( ...args: [TinyPropertyEmitterParameters](../axon/TinyProperty.md#TinyPropertyEmitterParameters)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

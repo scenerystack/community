@@ -46,6 +46,8 @@ import { StatusBar } from 'scenerystack/scenery-phet';
 ```js
 import type { StatusBarOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **barFill**?: [TColor](../scenery/TColor.md)
 - **barStroke**?: [TColor](../scenery/TColor.md)
 - **barHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

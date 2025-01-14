@@ -30,6 +30,8 @@ import { GridCell } from 'scenerystack/scenery';
 ```js
 import type { GridCellOptions } from 'scenerystack/scenery';
 ```
+
+
 - **row**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **column**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **horizontalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

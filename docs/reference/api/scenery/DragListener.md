@@ -269,6 +269,8 @@ See https://github.com/phetsims/scenery/issues/639
 ```js
 import type { DragListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **allowTouchSnag**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **applyOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **useParentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -286,6 +288,8 @@ import type { DragListenerOptions } from 'scenerystack/scenery';
 ```js
 import type { PressedDragListener } from 'scenerystack/scenery';
 ```
+
+
 [DragListener](../scenery/DragListener.md) &amp; [PressedPressListener](../scenery/PressListener.md#PressedPressListener)
 
 

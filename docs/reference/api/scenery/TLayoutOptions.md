@@ -14,6 +14,8 @@ The main type interface for Node's layoutOptions (for use with Grid/Flow based l
 ```js
 import type { TLayoutOptions } from 'scenerystack/scenery';
 ```
+
+
 [GridCellOptions](../scenery/GridCell.md#GridCellOptions) &amp; [FlowCellOptions](../scenery/FlowCell.md#FlowCellOptions)
 
 

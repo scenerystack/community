@@ -34,6 +34,8 @@ import { BeakerNode } from 'scenerystack/scenery-phet';
 ```js
 import type { BeakerNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **emptyBeakerFill**?: [TPaint](../scenery/TPaint.md)
 - **solutionFill**?: [TColor](../scenery/TColor.md)
 - **solutionShadowFill**?: [TPaint](../scenery/TPaint.md)

@@ -13,6 +13,8 @@ If a key has multiple code values, listener behavior will fire if either are pre
 ```js
 import type { EnglishKey } from 'scenerystack/scenery';
 ```
+
+
 keyof typeof [EnglishStringToCodeMap](../scenery/EnglishStringToCodeMap.md)
 
 
@@ -23,6 +25,8 @@ keyof typeof [EnglishStringToCodeMap](../scenery/EnglishStringToCodeMap.md)
 ```js
 import type { EnglishKeyString } from 'scenerystack/scenery';
 ```
+
+
 `${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}`
 
 

@@ -37,6 +37,8 @@ import { EnabledComponent } from 'scenerystack/axon';
 ```js
 import type { EnabledComponentOptions } from 'scenerystack/axon';
 ```
+
+
 - **enabledProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **enabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **enabledPropertyOptions**?: [EnabledPropertyOptions](../axon/EnabledProperty.md#EnabledPropertyOptions) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

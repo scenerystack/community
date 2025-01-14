@@ -47,6 +47,8 @@ Wraps a dynamic string in RichText markup that will display the string in the sa
 ```js
 import type { MathSymbolFontOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 StrictOmit&lt;[FontOptions](../scenery/Font.md#FontOptions), "family"&gt;
 
 

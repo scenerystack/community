@@ -45,6 +45,8 @@ Factory method for creating circle-shaped elements, sized to fit.
 ```js
 import type { SpinningIndicatorNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **diameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **speed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numberOfElements**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -14,6 +14,8 @@ here.
 ```js
 import type { KeyIDValue } from 'scenerystack/scenery-phet';
 ```
+
+
 typeof [KeyID](../scenery-phet/KeyID.md)[keyof typeof [KeyID](../scenery-phet/KeyID.md)]
 
 

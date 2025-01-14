@@ -32,6 +32,8 @@ import { RectangularMomentaryButton } from 'scenerystack/sun';
 ```js
 import type { RectangularMomentaryButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **valueOffSoundPlayer**?: TSoundPlayer
 - **valueOnSoundPlayer**?: TSoundPlayer
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)

@@ -60,6 +60,8 @@ implements this for OutputRaster
 ```js
 import type { CombinedRasterOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **colorSpace**?: "srgb" | "display-p3"
 - **showOutOfGamut**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 

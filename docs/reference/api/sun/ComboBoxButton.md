@@ -39,6 +39,8 @@ For use by ComboBox.
 ```js
 import type { ComboBoxButtonAlign } from 'scenerystack/sun';
 ```
+
+
 "left" | "center" | "right"
 
 
@@ -49,6 +51,8 @@ import type { ComboBoxButtonAlign } from 'scenerystack/sun';
 ```js
 import type { ComboBoxButtonArrowDirection } from 'scenerystack/sun';
 ```
+
+
 "up" | "down"
 
 
@@ -59,6 +63,8 @@ import type { ComboBoxButtonArrowDirection } from 'scenerystack/sun';
 ```js
 import type { ComboBoxButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **align**?: [ComboBoxButtonAlign](../sun/ComboBoxButton.md#ComboBoxButtonAlign)
 - **arrowDirection**?: [ComboBoxButtonArrowDirection](../sun/ComboBoxButton.md#ComboBoxButtonArrowDirection)
 - **arrowFill**?: [TPaint](../scenery/TPaint.md)

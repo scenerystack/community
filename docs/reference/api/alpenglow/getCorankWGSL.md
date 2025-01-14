@@ -20,6 +20,8 @@ Somewhat adapted from "Programming Massively Parallel Processors" by Hwu, Kirk a
 ```js
 import type { getCorankWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **value**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **outputIndex**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **lengthA**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)

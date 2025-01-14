@@ -29,6 +29,8 @@ import { ReturnIcon } from 'scenerystack/scenery-phet';
 ```js
 import type { ReturnIconOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **height**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [PathOptions](../scenery/Path.md#PathOptions)
 

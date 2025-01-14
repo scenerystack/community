@@ -75,6 +75,8 @@ This sets a "dirty" flag, so that it will be repainted the next time it would be
 ```js
 import type { SpritesOptions } from 'scenerystack/scenery';
 ```
+
+
 - **sprites**?: [Sprite](../scenery/Sprite.md)[]
 - **spriteInstances**?: [SpriteInstance](../scenery/SpriteInstance.md)[]
 - **hitTestSprites**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

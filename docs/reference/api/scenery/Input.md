@@ -248,6 +248,8 @@ set as `null`. See domEventPropertiesToSerialize for the full list of supported 
 ```js
 import type { InputOptions } from 'scenerystack/scenery';
 ```
+
+
 PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
 
 

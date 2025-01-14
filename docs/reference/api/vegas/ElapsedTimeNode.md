@@ -28,6 +28,8 @@ import { ElapsedTimeNode } from 'scenerystack/vegas';
 ```js
 import type { ElapsedTimeNodeOptions } from 'scenerystack/vegas';
 ```
+
+
 - **clockIconRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **font**?: [Font](../scenery/Font.md)
 - **textFill**?: [TColor](../scenery/TColor.md)

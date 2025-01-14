@@ -34,6 +34,8 @@ We require size/enabledRangeProperty instead of leaving it optional for the supe
 ```js
 import type { DefaultSliderTrackOptions } from 'scenerystack/sun';
 ```
+
+
 - **fillEnabled**?: [TPaint](../scenery/TPaint.md)
 - **fillDisabled**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)

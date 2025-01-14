@@ -43,6 +43,8 @@ Releases references
 ```js
 import type { BatchedDOMEventCallback } from 'scenerystack/scenery';
 ```
+
+
 ( ...args: IntentionalAny[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

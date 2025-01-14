@@ -12,6 +12,8 @@ Increments a count from within a bit-packed histogram. See bit_pack_radix_access
 ```js
 import type { bitPackRadixIncrementWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **bits**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **bitVector**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

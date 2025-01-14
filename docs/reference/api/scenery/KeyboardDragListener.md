@@ -127,6 +127,8 @@ The current drag point in the model coordinate frame.
 ```js
 import type { KeyboardDragListenerCallback } from 'scenerystack/scenery';
 ```
+
+
 [SceneryListenerCallback](../scenery/PressListener.md#SceneryListenerCallback)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt;
 
 
@@ -137,6 +139,8 @@ import type { KeyboardDragListenerCallback } from 'scenerystack/scenery';
 ```js
 import type { KeyboardDragListenerDOMEvent } from 'scenerystack/scenery';
 ```
+
+
 KeyboardEvent
 
 
@@ -147,6 +151,8 @@ KeyboardEvent
 ```js
 import type { KeyboardDragListenerNullableCallback } from 'scenerystack/scenery';
 ```
+
+
 [SceneryListenerNullableCallback](../scenery/PressListener.md#SceneryListenerNullableCallback)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt;
 
 
@@ -157,6 +163,8 @@ import type { KeyboardDragListenerNullableCallback } from 'scenerystack/scenery'
 ```js
 import type { KeyboardDragListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **dragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **shiftDragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **dragSpeed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

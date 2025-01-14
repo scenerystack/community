@@ -112,6 +112,8 @@ import { RenderInstructionStackBlend } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderStack } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderStack](../alpenglow/RenderStack.md)"
 - **children**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)[]
 

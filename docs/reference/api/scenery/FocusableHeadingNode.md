@@ -43,6 +43,8 @@ explicitly again.
 ```js
 import type { FocusableHeadingNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **headingLevel**?: HeadingLevelNumber
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tagName" | "focusHighlight"&gt;
 

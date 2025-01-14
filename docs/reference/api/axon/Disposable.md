@@ -64,6 +64,8 @@ Used in subclasses to support mutate.
 ```js
 import type { DisposableOptions } from 'scenerystack/axon';
 ```
+
+
 - **isDisposable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 

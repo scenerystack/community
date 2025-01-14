@@ -15,6 +15,8 @@ Alias can help cover cases where that doesn't work, see https://github.com/phets
 ```js
 import type { PhetioProperty } from 'scenerystack/axon';
 ```
+
+
 [TProperty](../axon/TProperty.md)&lt;T&gt; &amp; [PhetioObject](../tandem/PhetioObject.md)
 
 

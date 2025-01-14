@@ -669,6 +669,8 @@ Returns a new Shape constructed by appending a list of segments together.
 ```js
 import type { CornerRadiiOptions } from 'scenerystack/kite';
 ```
+
+
 - **topLeft**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **topRight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **bottomRight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -683,6 +685,8 @@ import type { CornerRadiiOptions } from 'scenerystack/kite';
 ```js
 import type { NonlinearTransformedOptions } from 'scenerystack/kite';
 ```
+
+
 - **includeCurvature**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions)
 
@@ -698,6 +702,8 @@ var weirdDir = v( Math.PI, 22 / 7 );
 ```js
 import type { SerializedShape } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[Shape](../kite/Shape.md)"
 - **subpaths**: SerializedSubpath[]
 

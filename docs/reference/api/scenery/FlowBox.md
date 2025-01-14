@@ -95,6 +95,8 @@ LayoutBox Compatibility (see the ES5 setters/getters, or the options doc)
 ```js
 import type { FlowBoxOptions } from 'scenerystack/scenery';
 ```
+
+
 - **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; StrictOmit&lt;[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions), ExcludeFlowConstraintOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
 

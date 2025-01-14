@@ -78,6 +78,8 @@ import { RenderInstructionPhong } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderPhong } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderPhong](../alpenglow/RenderPhong.md)"
 - **children**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)[]
 - **alpha**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

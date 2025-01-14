@@ -67,6 +67,8 @@ their look based on the value of interactionStateProperty.
 ```js
 import type { RectangularRadioButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)&gt;, "enabledProperty" | "enabled"&gt;
 

@@ -30,6 +30,8 @@ import { ShadedSphereNode } from 'scenerystack/scenery-phet';
 ```js
 import type { ShadedSphereNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **mainColor**?: [TColor](../scenery/TColor.md)
 - **highlightColor**?: [TColor](../scenery/TColor.md)
 - **shadowColor**?: [TColor](../scenery/TColor.md)

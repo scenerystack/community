@@ -53,6 +53,8 @@ Releases references.
 ```js
 import type { ThreeNodeOptions } from 'scenerystack/mobius';
 ```
+
+
 - **fov**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

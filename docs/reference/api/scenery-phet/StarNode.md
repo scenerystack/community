@@ -30,6 +30,8 @@ import { StarNode } from 'scenerystack/scenery-phet';
 ```js
 import type { StarNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **value**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **emptyFill**?: [TPaint](../scenery/TPaint.md)
 - **emptyStroke**?: [TPaint](../scenery/TPaint.md)

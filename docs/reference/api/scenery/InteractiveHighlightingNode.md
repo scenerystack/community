@@ -29,6 +29,8 @@ import { InteractiveHighlightingNode } from 'scenerystack/scenery';
 ```js
 import type { InteractiveHighlightingNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 [InteractiveHighlightingOptions](../scenery/InteractiveHighlighting.md#InteractiveHighlightingOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

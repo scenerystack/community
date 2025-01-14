@@ -93,6 +93,8 @@ Converts an internal Enumeration value into a string union value.
 ```js
 import type { HorizontalLayoutJustification } from 'scenerystack/scenery';
 ```
+
+
 "left" | "right" | "center" | "spaceBetween" | "spaceAround" | "spaceEvenly"
 
 
@@ -103,6 +105,8 @@ import type { HorizontalLayoutJustification } from 'scenerystack/scenery';
 ```js
 import type { VerticalLayoutJustification } from 'scenerystack/scenery';
 ```
+
+
 "top" | "bottom" | "center" | "spaceBetween" | "spaceAround" | "spaceEvenly"
 
 

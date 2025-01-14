@@ -12,6 +12,8 @@ Calculates a histogram for a section, then writes the histogram out in a striped
 ```js
 import type { radixHistogramWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **storeHistogram**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32), value: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
 - &amp; WithoutNull&lt;WithRequired&lt;[histogramWGSLOptions](../alpenglow/histogramWGSL.md#histogramWGSLOptions), "lengthExpression"&gt;, "lengthExpression"&gt;

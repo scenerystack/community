@@ -122,6 +122,8 @@ the targets array.
 ```js
 import type { AnimationOptions } from 'scenerystack/twixt';
 ```
+
+
 - **targets**?: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], TargetObjectTypes[K]&gt; } | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **duration**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

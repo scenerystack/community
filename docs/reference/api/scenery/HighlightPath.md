@@ -177,6 +177,8 @@ The stroke and linewidth of this path are set with outerLineWidth and outerStrok
 ```js
 import type { HighlightPathOptions } from 'scenerystack/scenery';
 ```
+
+
 - **outerStroke**?: [TPaint](../scenery/TPaint.md)
 - **innerStroke**?: [TPaint](../scenery/TPaint.md)
 - **outerLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

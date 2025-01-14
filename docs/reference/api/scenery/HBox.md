@@ -32,6 +32,8 @@ import { HBox } from 'scenerystack/scenery';
 ```js
 import type { HBoxOptions } from 'scenerystack/scenery';
 ```
+
+
 StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "orientation"&gt;
 
 

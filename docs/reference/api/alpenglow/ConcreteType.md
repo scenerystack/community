@@ -12,6 +12,8 @@ Represents a data type that can be serialized/deserialized to/from a binary form
 ```js
 import type { ConcreteType } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **bytesPerElement**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **outOfRangeElement**?: T
@@ -30,6 +32,8 @@ import type { ConcreteType } from 'scenerystack/alpenglow';
 ```js
 import type { BinaryOp } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **isCommutative**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -49,6 +53,8 @@ import type { BinaryOp } from 'scenerystack/alpenglow';
 ```js
 import type { BitOrder } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **getBits**: ( value: T, bitOffset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, bitQuantity: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -63,6 +69,8 @@ import type { BitOrder } from 'scenerystack/alpenglow';
 ```js
 import type { CompareOrder } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;
 - **compare**: ( a: T, b: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -83,12 +91,16 @@ import type { ConcreteArrayType } from 'scenerystack/alpenglow';
 
 
 
+
+
 ## Type Order {: #Order }
 
 
 ```js
 import type { Order } from 'scenerystack/alpenglow';
 ```
+
+
 [BitOrder](../alpenglow/ConcreteType.md#BitOrder)&lt;T&gt; &amp; [CompareOrder](../alpenglow/ConcreteType.md#CompareOrder)&lt;T&gt;
 
 
@@ -99,6 +111,8 @@ import type { Order } from 'scenerystack/alpenglow';
 ```js
 import type { StoreStatementCallback } from 'scenerystack/alpenglow';
 ```
+
+
 ( offset: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32), u32expr: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
 
 
@@ -109,6 +123,8 @@ import type { StoreStatementCallback } from 'scenerystack/alpenglow';
 ```js
 import type { WGSLBinaryStatements } from 'scenerystack/alpenglow';
 ```
+
+
 ( value: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName), a: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression), b: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
 
 

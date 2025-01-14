@@ -31,6 +31,8 @@ import { BackButton } from 'scenerystack/scenery-phet';
 ```js
 import type { BackButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer
 - &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 

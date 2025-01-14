@@ -25,6 +25,8 @@ Export a type that lets you check if your Node is composed with ReadingBlock
 ```js
 import type { ReadingBlockNode } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) &amp; [TReadingBlock](../scenery/ReadingBlock.md#TReadingBlock)
 
 
@@ -35,6 +37,8 @@ import type { ReadingBlockNode } from 'scenerystack/scenery';
 ```js
 import type { ReadingBlockOptions } from 'scenerystack/scenery';
 ```
+
+
 - **readingBlockTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockDisabledTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockNameResponse**?: VoicingResponse
@@ -52,6 +56,8 @@ import type { ReadingBlockOptions } from 'scenerystack/scenery';
 ```js
 import type { TReadingBlock } from 'scenerystack/scenery';
 ```
+
+
 - **readingBlockActiveHighlightChangedEmitter**: [TEmitter](../axon/TEmitter.md)
 - **readingBlockTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockDisabledTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

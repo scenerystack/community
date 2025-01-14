@@ -12,6 +12,8 @@ Sets up the addresses so we (a) have atomics for the coarse pass, and (b) have t
 ```js
 import type { mainTwoPassInitializeAddressesWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **addresses**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
 
 

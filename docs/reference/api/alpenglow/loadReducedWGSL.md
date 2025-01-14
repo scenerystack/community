@@ -23,6 +23,8 @@ CASE: scan: load how the data is stored (blocked/striped), NO storeOrder, then s
 ```js
 import type { loadReducedWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **value**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
 - **loadExpression**?: ( ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

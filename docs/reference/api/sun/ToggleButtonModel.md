@@ -43,6 +43,8 @@ import { ToggleButtonModel } from 'scenerystack/sun';
 ```js
 import type { ToggleButtonModelOptions } from 'scenerystack/sun';
 ```
+
+
 [ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
 
 

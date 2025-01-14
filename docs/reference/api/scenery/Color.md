@@ -338,6 +338,8 @@ Whether the specified CSS string is a valid CSS color string
 ```js
 import type { ColorState } from 'scenerystack/scenery';
 ```
+
+
 - **r**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **g**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **b**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

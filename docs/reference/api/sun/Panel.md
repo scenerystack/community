@@ -53,6 +53,8 @@ Change the background rectangle's fill (can be overridden)
 ```js
 import type { PanelAlign } from 'scenerystack/sun';
 ```
+
+
 "left" | "center" | "right"
 
 
@@ -63,6 +65,8 @@ import type { PanelAlign } from 'scenerystack/sun';
 ```js
 import type { PanelOptions } from 'scenerystack/sun';
 ```
+
+
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

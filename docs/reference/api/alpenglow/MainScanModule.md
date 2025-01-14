@@ -52,6 +52,8 @@ import { MainScanModule } from 'scenerystack/alpenglow';
 ```js
 import type { MainScanModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **output**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **data**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

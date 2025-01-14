@@ -12,6 +12,8 @@ A template that performs a scan operation using workgroup memory on a single wor
 ```js
 import type { scanWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **value**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **scratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **direction**?: "left" | "right"

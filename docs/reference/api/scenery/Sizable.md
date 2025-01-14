@@ -13,6 +13,8 @@ but with added features that allow convenience of working with both dimensions a
 ```js
 import type { SizableNode } from 'scenerystack/scenery';
 ```
+
+
 - &amp; [Node](../scenery/Node.md) &amp; [TWidthSizable](../scenery/WidthSizable.md#TWidthSizable) &amp; [THeightSizable](../scenery/HeightSizable.md#THeightSizable)
 
 
@@ -24,6 +26,8 @@ import type { SizableNode } from 'scenerystack/scenery';
 ```js
 import type { SizableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **preferredSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **minimumSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **localPreferredSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

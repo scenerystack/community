@@ -12,6 +12,8 @@ Represents a compiled shader and associated data.
 ```js
 import type { GlobalIndexable } from 'scenerystack/alpenglow';
 ```
+
+
 - **globalIndex**?: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 
 
@@ -23,6 +25,8 @@ import type { GlobalIndexable } from 'scenerystack/alpenglow';
 ```js
 import type { GrainSizable } from 'scenerystack/alpenglow';
 ```
+
+
 - **grainSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 
@@ -34,6 +38,8 @@ import type { GrainSizable } from 'scenerystack/alpenglow';
 ```js
 import type { LocalIndexable } from 'scenerystack/alpenglow';
 ```
+
+
 - **localIndex**?: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 
 
@@ -45,6 +51,8 @@ import type { LocalIndexable } from 'scenerystack/alpenglow';
 ```js
 import type { OptionalLengthExpressionable } from 'scenerystack/alpenglow';
 ```
+
+
 - **lengthExpression**?: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 
 
@@ -56,6 +64,8 @@ import type { OptionalLengthExpressionable } from 'scenerystack/alpenglow';
 ```js
 import type { RakedSizable } from 'scenerystack/alpenglow';
 ```
+
+
 [WorkgroupSizable](../alpenglow/WGSLUtils.md#WorkgroupSizable) &amp; [GrainSizable](../alpenglow/WGSLUtils.md#GrainSizable)
 
 
@@ -66,6 +76,8 @@ import type { RakedSizable } from 'scenerystack/alpenglow';
 ```js
 import type { WorkgroupIndexable } from 'scenerystack/alpenglow';
 ```
+
+
 - **workgroupIndex**?: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 
 
@@ -77,6 +89,8 @@ import type { WorkgroupIndexable } from 'scenerystack/alpenglow';
 ```js
 import type { WorkgroupSizable } from 'scenerystack/alpenglow';
 ```
+
+
 - **workgroupSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 

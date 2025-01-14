@@ -12,6 +12,8 @@ All of the needed logic for a raked workgroup scan (including the logic to load 
 ```js
 import type { scanComprehensiveWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **output**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **scratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)

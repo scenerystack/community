@@ -14,6 +14,8 @@ Type representing a PaintDef
 ```js
 import type { TPaint } from 'scenerystack/scenery';
 ```
+
+
 [Paint](../scenery/Paint.md) | [TColor](../scenery/TColor.md)
 
 

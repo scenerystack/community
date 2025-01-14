@@ -57,6 +57,8 @@ To listen to when the action has completed.
 ```js
 import type { ActionOptions } from 'scenerystack/tandem';
 ```
+
+
 StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
 
 

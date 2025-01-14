@@ -77,6 +77,8 @@ For supporting general cases where you may layout a Node, or use in ManualConstr
 ```js
 import type { Layoutable } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) | [LayoutProxy](../scenery/LayoutProxy.md)
 
 

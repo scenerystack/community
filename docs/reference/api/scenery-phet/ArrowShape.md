@@ -48,6 +48,8 @@ same position, there are no points and the arrow will not be shown.
 ```js
 import type { ArrowShapeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **tailWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **headWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **headHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

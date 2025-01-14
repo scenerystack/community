@@ -30,6 +30,8 @@ import { BooleanToggleNode } from 'scenerystack/sun';
 ```js
 import type { BooleanToggleNodeOptions } from 'scenerystack/sun';
 ```
+
+
 [ToggleNodeOptions](../sun/ToggleNode.md#ToggleNodeOptions)
 
 

@@ -55,6 +55,8 @@ being created (if the pool is empty), or it may use the constructor to mutate an
 ```js
 import type { PoolableOptions } from 'scenerystack/phet-core';
 ```
+
+
 - **defaultArguments**?: ConstructorParameters&lt;T&gt;
 - **initialize**?: PoolableInitializer&lt;T&gt;
 - **maxSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -77,6 +79,8 @@ this case, we actually want it to be any type of non-nullish structural type, to
 ```js
 import type { PossiblyRequiredParameterSpread } from 'scenerystack/phet-core';
 ```
+
+
 ( {} extends T ? [ T? ] : [ T ] )
 
 
@@ -87,6 +91,8 @@ import type { PossiblyRequiredParameterSpread } from 'scenerystack/phet-core';
 ```js
 import type { TPoolable } from 'scenerystack/phet-core';
 ```
+
+
 - **freeToPool**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

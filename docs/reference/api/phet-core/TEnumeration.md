@@ -14,6 +14,8 @@ Abstraction used by EnumerationProperty, and implemented by Enumeration.ts
 ```js
 import type { TEnumeration } from 'scenerystack/phet-core';
 ```
+
+
 - **keys**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
 - **values**: T[]
 - **phetioDocumentation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>

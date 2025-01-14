@@ -28,6 +28,8 @@ import { EnumerationProperty } from 'scenerystack/axon';
 ```js
 import type { EnumerationPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **enumeration**?: [Enumeration](../phet-core/Enumeration.md)&lt;T&gt;
 - &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;, "phetioValueType"&gt;
 

@@ -69,6 +69,8 @@ import { Enumeration } from 'scenerystack/phet-core';
 ```js
 import type { EnumerationOptions } from 'scenerystack/phet-core';
 ```
+
+
 - **phetioDocumentation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **instanceType**?: Constructor&lt;T&gt;
 

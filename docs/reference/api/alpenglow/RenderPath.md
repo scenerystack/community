@@ -48,6 +48,8 @@ Without scanning the entire path, returns whether we can guarantee that this pat
 ```js
 import type { SerializedRenderPath } from 'scenerystack/alpenglow';
 ```
+
+
 - **fillRule**: [FillRule](../alpenglow/FillRule.md)
 - **subpaths**: { x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }[][]
 

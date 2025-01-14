@@ -30,6 +30,8 @@ import { BackspaceIcon } from 'scenerystack/scenery-phet';
 ```js
 import type { BackspaceIconOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - &amp; [PathOptions](../scenery/Path.md#PathOptions)
 

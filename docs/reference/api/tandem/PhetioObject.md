@@ -18,6 +18,8 @@ unexpectedly.
 ```js
 import type { PhetioObjectOptions } from 'scenerystack/tandem';
 ```
+
+
 - **tandem**?: [Tandem](../tandem/Tandem.md)
 - **descriptionTandem**?: [Tandem](../tandem/Tandem.md)
 - **phetioType**?: [IOType](../tandem/IOType.md)

@@ -30,6 +30,8 @@ import { ScreenIcon } from 'scenerystack/sim';
 ```js
 import type { ScreenIconOptions } from 'scenerystack/sim';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - **maxIconWidthProportion**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **maxIconHeightProportion**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

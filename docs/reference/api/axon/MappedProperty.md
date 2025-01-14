@@ -39,6 +39,8 @@ import { MappedProperty } from 'scenerystack/axon';
 ```js
 import type { MappedPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **bidirectional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **map**?: ( ( inputValue: InputValueType ) =&gt; ThisValueType ) | KeysMatching&lt;InputValueType, ThisValueType&gt;
 - **inverseMap**?: ( ( thisValue: ThisValueType ) =&gt; InputValueType ) | KeysMatching&lt;ThisValueType, InputValueType&gt;

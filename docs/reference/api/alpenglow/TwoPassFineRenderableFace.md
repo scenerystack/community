@@ -14,6 +14,8 @@ Raw type for a TwoPassFineRenderableFace
 ```js
 import type { TwoPassFineRenderableFace } from 'scenerystack/alpenglow';
 ```
+
+
 - **renderProgramIndex**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **needsCentroid**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **needsFace**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

@@ -36,6 +36,8 @@ import { MainTwoPassInitializeAddressesModule } from 'scenerystack/alpenglow';
 ```js
 import type { MainTwoPassInitializeAddressesModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **addresses**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
 - &amp; [mainTwoPassInitializeAddressesWGSLOptions](../alpenglow/mainTwoPassInitializeAddressesWGSL.md#mainTwoPassInitializeAddressesWGSLOptions) &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
 

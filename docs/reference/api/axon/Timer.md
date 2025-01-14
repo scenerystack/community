@@ -49,6 +49,8 @@ Run a callback on the next frame. This method is largely for clarity.
 ```js
 import type { TimerListener } from 'scenerystack/axon';
 ```
+
+
 ( dt: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

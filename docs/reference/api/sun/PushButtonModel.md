@@ -51,6 +51,8 @@ used by ResetAllButton to call functions during reset start/end
 ```js
 import type { PushButtonListener } from 'scenerystack/sun';
 ```
+
+
 () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -61,6 +63,8 @@ import type { PushButtonListener } from 'scenerystack/sun';
 ```js
 import type { PushButtonModelOptions } from 'scenerystack/sun';
 ```
+
+
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **listener**?: [PushButtonListener](../sun/PushButtonModel.md#PushButtonListener) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **interruptListener**?: ( ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

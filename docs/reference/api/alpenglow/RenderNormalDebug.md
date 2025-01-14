@@ -76,6 +76,8 @@ import { RenderInstructionNormalDebug } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderNormalDebug } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderNormalDebug](../alpenglow/RenderNormalDebug.md)"
 - **normalProgram**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 

@@ -931,6 +931,8 @@ should be available for the entire component.
 ```js
 import type { Association } from 'scenerystack/scenery';
 ```
+
+
 - **otherNode**: [Node](../scenery/Node.md)
 - **otherElementName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **thisElementName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
@@ -944,6 +946,8 @@ import type { Association } from 'scenerystack/scenery';
 ```js
 import type { LimitPanDirection } from 'scenerystack/scenery';
 ```
+
+
 "horizontal" | "vertical"
 
 
@@ -957,6 +961,8 @@ behaves as a default.
 ```js
 import type { ParallelDOMOptions } from 'scenerystack/scenery';
 ```
+
+
 - **focusable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **tagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -1015,6 +1021,8 @@ this list for execution after this Node is fully created. See discussion in http
 ```js
 import type { PDOMBehaviorFunction } from 'scenerystack/scenery';
 ```
+
+
 ( node: [Node](../scenery/Node.md), options: [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
 
 
@@ -1025,6 +1033,8 @@ import type { PDOMBehaviorFunction } from 'scenerystack/scenery';
 ```js
 import type { PDOMValueType } from 'scenerystack/scenery';
 ```
+
+
 <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 
 
@@ -1037,6 +1047,8 @@ Removes all options from T that are in ParallelDOMSelfOptions.
 ```js
 import type { RemoveParallelDOMOptions } from 'scenerystack/scenery';
 ```
+
+
 StrictOmit&lt;T, keyof ParallelDOMSelfOptions&gt;
 
 
@@ -1051,6 +1063,8 @@ accessibility with the lower-level API.
 ```js
 import type { TrimParallelDOMOptions } from 'scenerystack/scenery';
 ```
+
+
 [RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; PickOptional&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "focusable" | "pdomVisible"&gt;
 
 

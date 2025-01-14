@@ -12,6 +12,8 @@ Performs a serial exclusive scan (prefix sum) on a bit-packed histogram. See bit
 ```js
 import type { bitPackRadixExclusiveScanWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **bitVector**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **bitVectorSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

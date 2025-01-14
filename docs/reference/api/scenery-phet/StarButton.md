@@ -28,6 +28,8 @@ import { StarButton } from 'scenerystack/scenery-phet';
 ```js
 import type { StarButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 

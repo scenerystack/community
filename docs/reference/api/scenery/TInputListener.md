@@ -14,6 +14,8 @@ Refer to Input.ts for documentation on the event types.
 ```js
 import type { TInputListener } from 'scenerystack/scenery';
 ```
+
+
 - **interrupt**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **listener**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>
@@ -76,6 +78,8 @@ import type { TInputListener } from 'scenerystack/scenery';
 ```js
 import type { SceneryListenerFunction } from 'scenerystack/scenery';
 ```
+
+
 ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -86,6 +90,8 @@ import type { SceneryListenerFunction } from 'scenerystack/scenery';
 ```js
 import type { SceneryNullableListenerFunction } from 'scenerystack/scenery';
 ```
+
+
 ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -98,6 +104,8 @@ Exclude all but the actual browser events
 ```js
 import type { SupportedEventTypes } from 'scenerystack/scenery';
 ```
+
+
 keyof StrictOmit&lt;[TInputListener](../scenery/TInputListener.md), 'interrupt' | 'cursor' | 'listener' | 'createPanTargetBounds'&gt;
 
 

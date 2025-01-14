@@ -44,6 +44,8 @@ for example, when the 'Back' or 'Start Over' button is pressed in a game.
 ```js
 import type { LevelSelectionButtonGroupOptions } from 'scenerystack/vegas';
 ```
+
+
 - **levelSelectionButtonOptions**?: StrictOmit&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "[tandem](../tandem/tandem.md)" | "buttonHeight" | "buttonWidth"&gt;
 - **flowBoxOptions**?: StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "children"&gt;
 - **createLayoutNode**?: ( buttons: [LevelSelectionButton](../vegas/LevelSelectionButton.md)[] ) =&gt; [LayoutNode](../scenery/LayoutNode.md)&lt;[NodeLayoutConstraint](../scenery/NodeLayoutConstraint.md)&gt;

@@ -52,6 +52,8 @@ Emits on input that results in a change to the Property value, after the Propert
 ```js
 import type { ToggleSwitchOptions } from 'scenerystack/sun';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - **toggleWhileDragging**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **dragThreshold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

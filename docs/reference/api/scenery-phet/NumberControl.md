@@ -82,6 +82,8 @@ Like createLayoutFunction1, but the title and value go all the way to the edges.
 ```js
 import type { NumberControlOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **startCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **endCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **delta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

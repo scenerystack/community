@@ -30,6 +30,8 @@ import { StepButton } from 'scenerystack/scenery-phet';
 ```js
 import type { StepButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **direction**?: Direction
 - **iconFill**?: [TPaint](../scenery/TPaint.md)

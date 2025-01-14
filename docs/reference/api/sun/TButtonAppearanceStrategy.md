@@ -15,12 +15,16 @@ import type { TButtonAppearanceStrategy } from 'scenerystack/sun';
 
 
 
+
+
 ## Type TButtonAppearanceStrategyOptions {: #TButtonAppearanceStrategyOptions }
 
 
 ```js
 import type { TButtonAppearanceStrategyOptions } from 'scenerystack/sun';
 ```
+
+
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **overFill**?: [TPaint](../scenery/TPaint.md)

@@ -55,6 +55,8 @@ Get parent state and append NumberProperty-specific metadata to it.
 ```js
 import type { NumberPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **numberType**?: NumberType
 - **range**?: [Range](../dot/Range.md) | [Property](../axon/Property.md)&lt;[Range](../dot/Range.md)&gt;
 - **rangePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Range](../dot/Range.md)&gt;
@@ -69,6 +71,8 @@ import type { NumberPropertyOptions } from 'scenerystack/axon';
 ```js
 import type { NumberPropertyState } from 'scenerystack/axon';
 ```
+
+
 - **numberType**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **range**: [RangeStateObject](../dot/Range.md#RangeStateObject)
 - **rangePhetioID**: PhetioID | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

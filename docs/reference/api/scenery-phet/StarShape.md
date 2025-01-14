@@ -28,6 +28,8 @@ import { StarShape } from 'scenerystack/scenery-phet';
 ```js
 import type { StarShapeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **outerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **innerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numberStarPoints**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

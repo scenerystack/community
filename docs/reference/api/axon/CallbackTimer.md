@@ -46,6 +46,8 @@ Calls all callbacks. Clients are free to call this when the timer is not running
 ```js
 import type { CallbackTimerCallback } from 'scenerystack/axon';
 ```
+
+
 () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -56,6 +58,8 @@ import type { CallbackTimerCallback } from 'scenerystack/axon';
 ```js
 import type { CallbackTimerOptions } from 'scenerystack/axon';
 ```
+
+
 - **callback**?: [CallbackTimerCallback](../axon/CallbackTimer.md#CallbackTimerCallback)
 - **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **interval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

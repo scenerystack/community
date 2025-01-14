@@ -89,6 +89,8 @@ see https://github.com/phetsims/axon/issues/204 for more details.
 ```js
 import type { EmitterOptions } from 'scenerystack/axon';
 ```
+
+
 Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
 
 

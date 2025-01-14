@@ -24,6 +24,8 @@ import type { ClippableFace } from 'scenerystack/alpenglow';
 
 
 
+
+
 ## Type ClippableFaceAccumulator {: #ClippableFaceAccumulator }
 
 
@@ -37,6 +39,8 @@ fresh new face.
 ```js
 import type { ClippableFaceAccumulator } from 'scenerystack/alpenglow';
 ```
+
+
 - **usesEndPoint**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 

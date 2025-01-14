@@ -86,6 +86,8 @@ TODO: reduce code duplication around here
 ```js
 import type { DeviceContextDeviceOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **maxLimits**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **timestampQuery**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **highPerformance**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

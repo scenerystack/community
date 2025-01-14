@@ -29,6 +29,8 @@ import { VoicingText } from 'scenerystack/scenery';
 ```js
 import type { VoicingTextOptions } from 'scenerystack/scenery';
 ```
+
+
 [ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [TextOptions](../scenery/Text.md#TextOptions)
 
 

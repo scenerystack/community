@@ -40,6 +40,8 @@ import { MainRadixScatterModule } from 'scenerystack/alpenglow';
 ```js
 import type { MainRadixScatterModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - &amp; [mainRadixScatterWGSLOptions](../alpenglow/mainRadixScatterWGSL.md#mainRadixScatterWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)

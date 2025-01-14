@@ -52,6 +52,8 @@ import { RenderAlpha } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderAlpha } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderAlpha](../alpenglow/RenderAlpha.md)"
 - **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 - **alpha**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

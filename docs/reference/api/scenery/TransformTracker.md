@@ -48,6 +48,8 @@ NOTE: The matrix returned should not be mutated. Please make a copy if needed.
 ```js
 import type { TransformTrackerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **isStatic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 

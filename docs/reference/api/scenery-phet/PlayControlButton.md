@@ -35,6 +35,8 @@ import { PlayControlButton } from 'scenerystack/scenery-phet';
 ```js
 import type { PlayControlButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **scaleFactorWhenNotPlaying**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **includeGlobalHotkey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

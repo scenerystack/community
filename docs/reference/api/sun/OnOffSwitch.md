@@ -29,6 +29,8 @@ import { OnOffSwitch } from 'scenerystack/sun';
 ```js
 import type { OnOffSwitchOptions } from 'scenerystack/sun';
 ```
+
+
 [ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)
 
 

@@ -12,6 +12,8 @@ A simple unrolled loop that provides both a "blocked" and "striped" (coalesced) 
 ```js
 import type { coalescedLoopWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **callback**: ( localIndex: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32), dataIndex: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; [OptionalLengthExpressionable](../alpenglow/WGSLUtils.md#OptionalLengthExpressionable) &amp; [WorkgroupIndexable](../alpenglow/WGSLUtils.md#WorkgroupIndexable) &amp; [LocalIndexable](../alpenglow/WGSLUtils.md#LocalIndexable)
 

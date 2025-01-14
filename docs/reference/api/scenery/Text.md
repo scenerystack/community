@@ -266,6 +266,8 @@ TODO: A stack-based implementation that doesn't create a bunch of objects/closur
 ```js
 import type { TextBoundsMethod } from 'scenerystack/scenery';
 ```
+
+
 "fast" | "fastCanvas" | "accurate" | "hybrid"
 
 
@@ -276,6 +278,8 @@ import type { TextBoundsMethod } from 'scenerystack/scenery';
 ```js
 import type { TextOptions } from 'scenerystack/scenery';
 ```
+
+
 - **boundsMethod**?: [TextBoundsMethod](../scenery/Text.md#TextBoundsMethod)
 - **stringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **string**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

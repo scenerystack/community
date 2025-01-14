@@ -205,6 +205,8 @@ root node for the Display
 ```js
 import type { SimOptions } from 'scenerystack/sim';
 ```
+
+
 - **credits**?: CreditsData
 - **homeScreenWarningNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Node](../scenery/Node.md)
 - **preferencesModel**?: PreferencesModel | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

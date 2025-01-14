@@ -12,6 +12,8 @@ Interface specifically for SelfDrawables for a Line Node.
 ```js
 import type { TLineDrawable } from 'scenerystack/scenery';
 ```
+
+
 - &amp; [TPathDrawable](../scenery/TPathDrawable.md)
 
 

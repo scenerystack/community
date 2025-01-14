@@ -12,6 +12,8 @@ Interface specifically for SelfDrawables for a Rectangle Node.
 ```js
 import type { TRectangleDrawable } from 'scenerystack/scenery';
 ```
+
+
 - &amp; [TPathDrawable](../scenery/TPathDrawable.md)
 
 

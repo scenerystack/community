@@ -28,6 +28,8 @@ import { EraserButton } from 'scenerystack/scenery-phet';
 ```js
 import type { EraserButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **iconWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; StrictOmit&lt;TrimmedParentOptions, "content"&gt;
 

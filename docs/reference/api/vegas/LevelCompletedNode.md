@@ -29,6 +29,8 @@ import { LevelCompletedNode } from 'scenerystack/vegas';
 ```js
 import type { LevelCompletedNodeOptions } from 'scenerystack/vegas';
 ```
+
+
 - **levelVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **titleFont**?: [Font](../scenery/Font.md)

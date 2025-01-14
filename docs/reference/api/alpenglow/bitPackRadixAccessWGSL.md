@@ -36,6 +36,8 @@ TODO: NOT the case
 ```js
 import type { bitPackRadixAccessWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **bits**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - **bitVector**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

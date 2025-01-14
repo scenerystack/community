@@ -44,6 +44,8 @@ Public to help with positioning
 ```js
 import type { PlayPauseStepButtonGroupOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **includeStepForwardButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **includeStepBackwardButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **playPauseStepXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

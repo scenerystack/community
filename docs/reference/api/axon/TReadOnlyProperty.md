@@ -15,6 +15,8 @@ See comments in Property.ts / TinyProperty.ts
 ```js
 import type { TReadOnlyProperty } from 'scenerystack/axon';
 ```
+
+
 - **get**: () =&gt; T
 - **valueComparisonStrategy**: ValueComparisonStrategy&lt;T&gt;
 - **isDisposed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -28,6 +30,8 @@ import type { TReadOnlyProperty } from 'scenerystack/axon';
 ```js
 import type { PropertyLazyLinkListener } from 'scenerystack/axon';
 ```
+
+
 ( value: T, oldValue: T, tinyProperty: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -42,6 +46,8 @@ type checking is ignored in "method" types but not in "property" types. See http
 ```js
 import type { PropertyLinkListener } from 'scenerystack/axon';
 ```
+
+
 ( value: T, oldValue: T | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, tinyProperty: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -52,6 +58,8 @@ import type { PropertyLinkListener } from 'scenerystack/axon';
 ```js
 import type { PropertyListener } from 'scenerystack/axon';
 ```
+
+
 [PropertyLinkListener](../axon/TReadOnlyProperty.md#PropertyLinkListener)&lt;T&gt; | [PropertyLazyLinkListener](../axon/TReadOnlyProperty.md#PropertyLazyLinkListener)&lt;T&gt;
 
 

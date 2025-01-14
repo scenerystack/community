@@ -29,6 +29,8 @@ import { NumberSpinner } from 'scenerystack/sun';
 ```js
 import type { NumberSpinnerOptions } from 'scenerystack/sun';
 ```
+
+
 - **arrowsPosition**?: NumberSpinnerArrowsPosition
 - **arrowsScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **arrowButtonFill**?: [TColor](../scenery/TColor.md)

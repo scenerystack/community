@@ -140,6 +140,8 @@ Returns whether this Path has an associated Shape (instead of no shape, represen
 ```js
 import type { LineOptions } from 'scenerystack/scenery';
 ```
+
+
 - **p1**?: [Vector2](../dot/Vector2.md)
 - **p2**?: [Vector2](../dot/Vector2.md)
 - **x1**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

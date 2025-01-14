@@ -18,6 +18,8 @@ and provide a type for a Node that extends this type.
 ```js
 import type { HeightSizableNode } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) &amp; [THeightSizable](../scenery/HeightSizable.md#THeightSizable)
 
 
@@ -28,6 +30,8 @@ import type { HeightSizableNode } from 'scenerystack/scenery';
 ```js
 import type { HeightSizableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **preferredHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **minimumHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **localPreferredHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -43,6 +47,8 @@ import type { HeightSizableOptions } from 'scenerystack/scenery';
 ```js
 import type { THeightSizable } from 'scenerystack/scenery';
 ```
+
+
 - **preferredHeightProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **minimumHeightProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **localPreferredHeightProperty**: [TinyProperty](../axon/TinyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;

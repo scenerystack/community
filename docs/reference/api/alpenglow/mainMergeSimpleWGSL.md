@@ -10,6 +10,8 @@
 ```js
 import type { mainMergeSimpleWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **inputA**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **inputB**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;

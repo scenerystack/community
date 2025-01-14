@@ -85,6 +85,8 @@ button that shows the current selection (internal)
 ```js
 import type { ComboBoxAlign } from 'scenerystack/sun';
 ```
+
+
 "left" | "right" | "center"
 
 
@@ -95,6 +97,8 @@ import type { ComboBoxAlign } from 'scenerystack/sun';
 ```js
 import type { ComboBoxItem } from 'scenerystack/sun';
 ```
+
+
 - **value**: T
 - **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -113,6 +117,8 @@ hence the type name "No Node".
 ```js
 import type { ComboBoxItemNoNode } from 'scenerystack/sun';
 ```
+
+
 StrictOmit&lt;[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;, "createNode"&gt;
 
 
@@ -123,6 +129,8 @@ StrictOmit&lt;[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;, "createN
 ```js
 import type { ComboBoxListPosition } from 'scenerystack/sun';
 ```
+
+
 "above" | "below"
 
 
@@ -133,6 +141,8 @@ import type { ComboBoxListPosition } from 'scenerystack/sun';
 ```js
 import type { ComboBoxOptions } from 'scenerystack/sun';
 ```
+
+
 - **align**?: [ComboBoxAlign](../sun/ComboBox.md#ComboBoxAlign)
 - **listPosition**?: [ComboBoxListPosition](../sun/ComboBox.md#ComboBoxListPosition)
 - **labelXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

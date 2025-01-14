@@ -39,6 +39,8 @@ import { LayoutProxyProperty } from 'scenerystack/scenery';
 ```js
 import type { LayoutProxyPropertyOptions } from 'scenerystack/scenery';
 ```
+
+
 - **onTransformChange**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

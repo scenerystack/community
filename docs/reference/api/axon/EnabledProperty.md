@@ -34,6 +34,8 @@ import { EnabledProperty } from 'scenerystack/axon';
 ```js
 import type { EnabledPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **checkTandemName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [BooleanPropertyOptions](../axon/BooleanProperty.md#BooleanPropertyOptions)
 

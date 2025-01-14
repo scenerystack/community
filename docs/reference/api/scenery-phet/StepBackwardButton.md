@@ -28,6 +28,8 @@ import { StepBackwardButton } from 'scenerystack/scenery-phet';
 ```js
 import type { StepBackwardButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 StrictOmit&lt;[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions), "direction"&gt;
 
 

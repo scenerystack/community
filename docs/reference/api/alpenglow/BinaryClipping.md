@@ -43,6 +43,8 @@ line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; val
 ```js
 import type { BinaryClipCallback } from 'scenerystack/alpenglow';
 ```
+
+
 (
   isMinFace: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>,
   startX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
@@ -61,6 +63,8 @@ import type { BinaryClipCallback } from 'scenerystack/alpenglow';
 ```js
 import type { BinaryPolygonCompleteCallback } from 'scenerystack/alpenglow';
 ```
+
+
 (
   isMinFace: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
@@ -73,6 +77,8 @@ import type { BinaryPolygonCompleteCallback } from 'scenerystack/alpenglow';
 ```js
 import type { PolygonCompleteCallback } from 'scenerystack/alpenglow';
 ```
+
+
 () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

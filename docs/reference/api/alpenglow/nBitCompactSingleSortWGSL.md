@@ -18,6 +18,8 @@ in order to achieve a full sort.
 ```js
 import type { nBitCompactSingleSortWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **order**: [BitOrder](../alpenglow/ConcreteType.md#BitOrder)&lt;T&gt;
 - **bitsScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **valueScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)

@@ -37,6 +37,8 @@ under other layers, so use caution for coordinate transformations.
 ```js
 import type { RectangularRadioButtonGroupOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayers**?: TSoundPlayer[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **labelAlign**?: RectangularRadioButtonLabelAlign
 - **labelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

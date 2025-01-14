@@ -48,6 +48,8 @@ import { ScanModule } from 'scenerystack/alpenglow';
 ```js
 import type { ScanModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
 
 

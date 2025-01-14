@@ -30,6 +30,8 @@ import { PlayPauseButton } from 'scenerystack/scenery-phet';
 ```js
 import type { PlayPauseButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 [PlayControlButtonOptions](../scenery-phet/PlayControlButton.md#PlayControlButtonOptions)
 
 

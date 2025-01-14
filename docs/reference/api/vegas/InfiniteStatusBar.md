@@ -30,6 +30,8 @@ import { InfiniteStatusBar } from 'scenerystack/vegas';
 ```js
 import type { InfiniteStatusBarOptions } from 'scenerystack/vegas';
 ```
+
+
 - **backButtonListener**?: [PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

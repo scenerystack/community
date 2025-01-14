@@ -158,6 +158,8 @@ OUTPUTS unpremultiplied Display P3, with a valid alpha value
 ```js
 import type { SerializedRenderColor } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderColor](../alpenglow/RenderColor.md)"
 - **color**:
   - **r**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

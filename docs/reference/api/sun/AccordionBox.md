@@ -49,6 +49,8 @@ Returns the ideal height of the expanded box (ignoring things like stroke width)
 ```js
 import type { AccordionBoxOptions } from 'scenerystack/sun';
 ```
+
+
 - **titleNode**?: [Node](../scenery/Node.md)
 - **expandedProperty**?: [Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - **expandedDefaultValue**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

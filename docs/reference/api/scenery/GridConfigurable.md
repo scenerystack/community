@@ -25,6 +25,8 @@ We remove the null values for the values that won't actually take null
 ```js
 import type { ExternalGridConfigurableOptions } from 'scenerystack/scenery';
 ```
+
+
 WithoutNull&lt;[GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), Exclude&lt;keyof [GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
 
 
@@ -35,6 +37,8 @@ WithoutNull&lt;[GridConfigurableOptions](../scenery/GridConfigurable.md#GridConf
 ```js
 import type { GridConfigurableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **xAlign**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **yAlign**?: [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **stretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

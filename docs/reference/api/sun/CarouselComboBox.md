@@ -42,6 +42,8 @@ import { CarouselComboBox } from 'scenerystack/sun';
 ```js
 import type { CarouselComboBoxOptions } from 'scenerystack/sun';
 ```
+
+
 - **itemNodeOptions**?: CarouselItemNodeOptions
 - **carouselOptions**?: [CarouselOptions](../sun/Carousel.md#CarouselOptions)
 - **pageControlOptions**?: StrictOmit&lt;[PageControlOptions](../sun/PageControl.md#PageControlOptions), "orientation"&gt;

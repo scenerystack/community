@@ -542,6 +542,8 @@ Convert back from a serialized Object to a Matrix3
 ```js
 import type { Matrix3StateObject } from 'scenerystack/dot';
 ```
+
+
 - **entries**: NineNumbers
 - **type**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 

@@ -77,6 +77,8 @@ Reset the active pattern, and where we are in its playthrough.
 ```js
 import type { ContinuousPatternVibrationControllerOptions } from 'scenerystack/tappi';
 ```
+
+
 - **repeat**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **sharpness**?: 1
 - **intensity**?: 1

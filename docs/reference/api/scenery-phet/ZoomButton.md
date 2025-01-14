@@ -28,6 +28,8 @@ import { ZoomButton } from 'scenerystack/scenery-phet';
 ```js
 import type { ZoomButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **in**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **magnifyingGlassOptions**?: StrictOmit&lt;[MagnifyingGlassNodeOptions](../scenery-phet/MagnifyingGlassNode.md#MagnifyingGlassNodeOptions), "icon"&gt;
 - &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;

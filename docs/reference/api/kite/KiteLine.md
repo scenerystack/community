@@ -217,6 +217,8 @@ This should be more optimized than the general intersection routine of arbitrary
 ```js
 import type { SerializedLine } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[Line](../scenery/Line.md)"
 - **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -40,6 +40,8 @@ import { MainReduceNonCommutativeModule } from 'scenerystack/alpenglow';
 ```js
 import type { MainReduceNonCommutativeModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - &amp; [mainReduceNonCommutativeWGSLOptions](../alpenglow/mainReduceNonCommutativeWGSL.md#mainReduceNonCommutativeWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)

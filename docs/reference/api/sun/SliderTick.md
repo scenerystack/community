@@ -35,6 +35,8 @@ import { SliderTick } from 'scenerystack/sun';
 ```js
 import type { SliderTickOptions } from 'scenerystack/sun';
 ```
+
+
 - **tickLabelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **majorTickLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **majorTickStroke**?: [TPaint](../scenery/TPaint.md)

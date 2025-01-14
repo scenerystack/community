@@ -108,6 +108,8 @@ import { RenderInstructionBarycentricBlend } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderBarycentricBlend } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderBarycentricBlend](../alpenglow/RenderBarycentricBlend.md)"
 - **pointA**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **pointB**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]

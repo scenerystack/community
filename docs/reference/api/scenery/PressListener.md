@@ -246,6 +246,8 @@ Display.prototype.focusManager.FocusManager.pdomFocusHighlightsVisibleProperty f
 ```js
 import type { PressedPressListener } from 'scenerystack/scenery';
 ```
+
+
 WithoutNull&lt;[PressListener](../scenery/PressListener.md), "pointer" | "pressedTrail"&gt;
 
 
@@ -256,6 +258,8 @@ WithoutNull&lt;[PressListener](../scenery/PressListener.md), "pointer" | "presse
 ```js
 import type { PressListenerCallback } from 'scenerystack/scenery';
 ```
+
+
 [SceneryListenerCallback](../scenery/PressListener.md#SceneryListenerCallback)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
 
 
@@ -266,6 +270,8 @@ import type { PressListenerCallback } from 'scenerystack/scenery';
 ```js
 import type { PressListenerCanStartPressCallback } from 'scenerystack/scenery';
 ```
+
+
 ( event: [PressListenerEvent](../scenery/PressListener.md#PressListenerEvent) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 
@@ -276,6 +282,8 @@ import type { PressListenerCanStartPressCallback } from 'scenerystack/scenery';
 ```js
 import type { PressListenerDOMEvent } from 'scenerystack/scenery';
 ```
+
+
 MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent
 
 
@@ -286,6 +294,8 @@ MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent
 ```js
 import type { PressListenerEvent } from 'scenerystack/scenery';
 ```
+
+
 [SceneryEvent](../scenery/SceneryEvent.md)&lt;[PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
 
 
@@ -296,6 +306,8 @@ import type { PressListenerEvent } from 'scenerystack/scenery';
 ```js
 import type { PressListenerNullableCallback } from 'scenerystack/scenery';
 ```
+
+
 [SceneryListenerNullableCallback](../scenery/PressListener.md#SceneryListenerNullableCallback)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
 
 
@@ -306,6 +318,8 @@ import type { PressListenerNullableCallback } from 'scenerystack/scenery';
 ```js
 import type { PressListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **press**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
 - **release**?: [PressListenerNullableCallback](../scenery/PressListener.md#PressListenerNullableCallback)&lt;Listener&gt;
 - **drag**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
@@ -334,6 +348,8 @@ General type of callback structure shared by many scenery input-listeners
 ```js
 import type { SceneryListenerCallback } from 'scenerystack/scenery';
 ```
+
+
 ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;DomEventTypes&gt;, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 
@@ -344,6 +360,8 @@ import type { SceneryListenerCallback } from 'scenerystack/scenery';
 ```js
 import type { SceneryListenerNullableCallback } from 'scenerystack/scenery';
 ```
+
+
 ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;DomEventTypes&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
 

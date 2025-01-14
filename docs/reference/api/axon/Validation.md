@@ -81,6 +81,8 @@ General validator for validating that a string doesn't have template variables i
 ```js
 import type { IsValidValueOptions } from 'scenerystack/axon';
 ```
+
+
 - **validateValidator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 
@@ -92,6 +94,8 @@ import type { IsValidValueOptions } from 'scenerystack/axon';
 ```js
 import type { ValidationMessage } from 'scenerystack/axon';
 ```
+
+
 <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> )
 
 
@@ -102,6 +106,8 @@ import type { ValidationMessage } from 'scenerystack/axon';
 ```js
 import type { Validator } from 'scenerystack/axon';
 ```
+
+
 - **valueType**?: ValueType | ValueType[]
 - **validValues**?: readonly T[]
 - **valueComparisonStrategy**?: ValueComparisonStrategy&lt;T&gt;

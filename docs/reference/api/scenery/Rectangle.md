@@ -242,6 +242,8 @@ See Rectangle's constructor for detailed parameter information.
 ```js
 import type { RectangleOptions } from 'scenerystack/scenery';
 ```
+
+
 - **rectBounds**?: [Bounds2](../dot/Bounds2.md)
 - **rectSize**?: [Dimension2](../dot/Dimension2.md)
 - **rectX**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

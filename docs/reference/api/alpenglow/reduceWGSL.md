@@ -12,6 +12,8 @@ A template that performs a reduce operation on a single workgroup. The value wil
 ```js
 import type { reduceWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **value**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **scratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;

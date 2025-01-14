@@ -29,6 +29,8 @@ import { VerticalCheckboxGroup } from 'scenerystack/sun';
 ```js
 import type { VerticalCheckboxGroupItem } from 'scenerystack/sun';
 ```
+
+
 - **property**: [PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - **options**?: StrictOmit&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "[tandem](../tandem/tandem.md)"&gt;
 - &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
@@ -42,6 +44,8 @@ import type { VerticalCheckboxGroupItem } from 'scenerystack/sun';
 ```js
 import type { VerticalCheckboxGroupOptions } from 'scenerystack/sun';
 ```
+
+
 - **checkboxOptions**?: StrictOmit&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "[tandem](../tandem/tandem.md)"&gt;
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

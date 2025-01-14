@@ -14,6 +14,8 @@ Workaround type since we can't detect mixins in the type system well
 ```js
 import type { PaintableNode } from 'scenerystack/scenery';
 ```
+
+
 [Path](../scenery/Path.md) | [Text](../scenery/Text.md)
 
 
@@ -24,6 +26,8 @@ import type { PaintableNode } from 'scenerystack/scenery';
 ```js
 import type { PaintableOptions } from 'scenerystack/scenery';
 ```
+
+
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **fillPickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **stroke**?: [TPaint](../scenery/TPaint.md)

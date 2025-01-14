@@ -13,6 +13,8 @@ values, haven't run into that yet).
 ```js
 import type { mainReduceAtomicWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;

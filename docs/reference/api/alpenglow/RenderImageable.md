@@ -12,6 +12,8 @@ Represents queryable raster data (e.g. an image)
 ```js
 import type { RenderImageable } from 'scenerystack/alpenglow';
 ```
+
+
 - **width**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **height**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **isFullyOpaque**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -26,6 +28,8 @@ import type { RenderImageable } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderImageable } from 'scenerystack/alpenglow';
 ```
+
+
 - **width**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **height**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **isFullyOpaque**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

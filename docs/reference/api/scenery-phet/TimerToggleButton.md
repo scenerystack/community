@@ -28,6 +28,8 @@ import { TimerToggleButton } from 'scenerystack/scenery-phet';
 ```js
 import type { TimerToggleButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 [BooleanRectangularToggleButtonOptions](../sun/BooleanRectangularToggleButton.md#BooleanRectangularToggleButtonOptions)
 
 

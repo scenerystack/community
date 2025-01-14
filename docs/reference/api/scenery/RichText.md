@@ -354,6 +354,8 @@ Text and RichText currently use the same tandem name for their stringProperty.
 ```js
 import type { RichTextAlign } from 'scenerystack/scenery';
 ```
+
+
 "left" | "center" | "right"
 
 
@@ -364,6 +366,8 @@ import type { RichTextAlign } from 'scenerystack/scenery';
 ```js
 import type { RichTextHref } from 'scenerystack/scenery';
 ```
+
+
 ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 
 
@@ -374,6 +378,8 @@ import type { RichTextHref } from 'scenerystack/scenery';
 ```js
 import type { RichTextLinks } from 'scenerystack/scenery';
 ```
+
+
 RichTextLinksObject | true
 
 
@@ -384,6 +390,8 @@ RichTextLinksObject | true
 ```js
 import type { RichTextOptions } from 'scenerystack/scenery';
 ```
+
+
 - **boundsMethod**?: [TextBoundsMethod](../scenery/Text.md#TextBoundsMethod)
 - **font**?: [Font](../scenery/Font.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **fill**?: [TPaint](../scenery/TPaint.md)

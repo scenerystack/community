@@ -28,6 +28,8 @@ import { VerticalAquaRadioButtonGroup } from 'scenerystack/sun';
 ```js
 import type { VerticalAquaRadioButtonGroupOptions } from 'scenerystack/sun';
 ```
+
+
 StrictOmit&lt;[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions), "orientation"&gt;
 
 

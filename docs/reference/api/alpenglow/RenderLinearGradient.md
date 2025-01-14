@@ -116,6 +116,8 @@ import { RenderLinearGradientLogic } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderLinearGradient } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderLinearGradient](../alpenglow/RenderLinearGradient.md)"
 - **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **start**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]

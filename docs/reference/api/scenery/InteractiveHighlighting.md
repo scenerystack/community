@@ -15,6 +15,8 @@ InteractiveHighlightingNode.ts type. Renamed here so they can be in the same nam
 ```js
 import type { InteractiveHighlightingNodeType } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) &amp; [TInteractiveHighlighting](../scenery/InteractiveHighlighting.md#TInteractiveHighlighting)
 
 
@@ -25,6 +27,8 @@ import type { InteractiveHighlightingNodeType } from 'scenerystack/scenery';
 ```js
 import type { InteractiveHighlightingOptions } from 'scenerystack/scenery';
 ```
+
+
 - **interactiveHighlight**?: [Highlight](../scenery/HighlightOverlay.md#Highlight)
 - **interactiveHighlightLayerable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **interactiveHighlightEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

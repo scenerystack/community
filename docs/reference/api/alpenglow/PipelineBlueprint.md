@@ -59,6 +59,8 @@ TODO: Or actually, just an ability to put structs of arbitrary types in Concrete
 ```js
 import type { PipelineBlueprintOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **log**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 

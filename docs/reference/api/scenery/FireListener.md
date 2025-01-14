@@ -85,6 +85,8 @@ This can be called manually, but can also be called through node.interruptSubtre
 ```js
 import type { FireListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **fire**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

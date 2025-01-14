@@ -75,6 +75,8 @@ Normal options, for use in optionize
 ```js
 import type { ButtonNodeOptions } from 'scenerystack/sun';
 ```
+
+
 - **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -70,6 +70,8 @@ import { RenderInstructionNormalize } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderNormalize } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderNormalize](../alpenglow/RenderNormalize.md)"
 - **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 

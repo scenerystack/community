@@ -29,6 +29,8 @@ import { HStrut } from 'scenerystack/scenery';
 ```js
 import type { HStrutOptions } from 'scenerystack/scenery';
 ```
+
+
 [SpacerOptions](../scenery/Spacer.md#SpacerOptions)
 
 

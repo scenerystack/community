@@ -55,6 +55,8 @@ For keyboard input, this is used to identify the keystroke to activate this key 
 ```js
 import type { KeyOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **horizontalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **verticalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **keyboardIdentifiers**?: [OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)[]

@@ -50,6 +50,8 @@ import { Executor } from 'scenerystack/alpenglow';
 ```js
 import type { ExecutorOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **getTimestampWrites**?: ( name: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> ) =&gt; GPUComputePassTimestampWrites | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **logBuffer**?: GPUBuffer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 

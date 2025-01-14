@@ -103,6 +103,8 @@ Help text used on the screen buttons, see options above.
 ```js
 import type { ScreenOptions } from 'scenerystack/sim';
 ```
+
+
 - **name**?: [PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **instrumentNameProperty**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **backgroundColorProperty**?: [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md)&gt; | [Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [ProfileColorProperty](../scenery/ProfileColorProperty.md)

@@ -29,6 +29,8 @@ import { CurvedArrowShape } from 'scenerystack/scenery-phet';
 ```js
 import type { CurvedArrowShapeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **doubleHead**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **headWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **headHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -32,6 +32,8 @@ import { TimeSpeedRadioButtonGroup } from 'scenerystack/scenery-phet';
 ```js
 import type { TimeSpeedRadioButtonGroupOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **labelOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
 - &amp; [VerticalAquaRadioButtonGroupOptions](../sun/VerticalAquaRadioButtonGroup.md#VerticalAquaRadioButtonGroupOptions)

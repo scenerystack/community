@@ -102,6 +102,8 @@ Reset transform on the target Node.
 ```js
 import type { MultiListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 - **mouseButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **pressCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **allowScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

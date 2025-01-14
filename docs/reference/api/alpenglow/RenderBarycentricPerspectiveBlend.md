@@ -108,6 +108,8 @@ import { RenderInstructionBarycentricPerspectiveBlend } from 'scenerystack/alpen
 ```js
 import type { SerializedRenderBarycentricPerspectiveBlend } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderBarycentricPerspectiveBlend](../alpenglow/RenderBarycentricPerspectiveBlend.md)"
 - **pointA**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **pointB**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]

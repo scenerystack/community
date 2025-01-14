@@ -78,6 +78,8 @@ The shape of the front portion of the bucket.
 ```js
 import type { BucketOptions } from 'scenerystack/phetcommon';
 ```
+
+
 - **position**?: [Vector2](../dot/Vector2.md)
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - **baseColor**?: [TColor](../scenery/TColor.md)

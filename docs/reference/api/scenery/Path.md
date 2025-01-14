@@ -174,6 +174,8 @@ NOTE: Be aware of the potential for memory leaks. If a Shape is not marked as im
 ```js
 import type { InputShape } from 'scenerystack/scenery';
 ```
+
+
 [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 
 
@@ -184,6 +186,8 @@ import type { InputShape } from 'scenerystack/scenery';
 ```js
 import type { PathBoundsMethod } from 'scenerystack/scenery';
 ```
+
+
 "accurate" | "unstroked" | "tightPadding" | "safePadding" | "none"
 
 
@@ -194,6 +198,8 @@ import type { PathBoundsMethod } from 'scenerystack/scenery';
 ```js
 import type { PathOptions } from 'scenerystack/scenery';
 ```
+
+
 - **shape**?: [InputShape](../scenery/Path.md#InputShape)
 - **shapeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;
 - **boundsMethod**?: [PathBoundsMethod](../scenery/Path.md#PathBoundsMethod)

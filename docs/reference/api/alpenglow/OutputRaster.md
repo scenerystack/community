@@ -12,6 +12,8 @@ Interface for an output raster
 ```js
 import type { OutputRaster } from 'scenerystack/alpenglow';
 ```
+
+
 - **colorConverter**: [RasterColorConverter](../alpenglow/RasterColorConverter.md)
 
 

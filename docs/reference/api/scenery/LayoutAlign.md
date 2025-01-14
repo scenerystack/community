@@ -91,6 +91,8 @@ Converts an internal Enumeration value into a string union value.
 ```js
 import type { HorizontalLayoutAlign } from 'scenerystack/scenery';
 ```
+
+
 "left" | "right" | "center" | "origin"
 
 
@@ -101,6 +103,8 @@ import type { HorizontalLayoutAlign } from 'scenerystack/scenery';
 ```js
 import type { RestrictedHorizontalLayoutAlign } from 'scenerystack/scenery';
 ```
+
+
 "left" | "right" | "center"
 
 
@@ -111,6 +115,8 @@ import type { RestrictedHorizontalLayoutAlign } from 'scenerystack/scenery';
 ```js
 import type { RestrictedVerticalLayoutAlign } from 'scenerystack/scenery';
 ```
+
+
 "top" | "bottom" | "center"
 
 
@@ -121,6 +127,8 @@ import type { RestrictedVerticalLayoutAlign } from 'scenerystack/scenery';
 ```js
 import type { VerticalLayoutAlign } from 'scenerystack/scenery';
 ```
+
+
 "top" | "bottom" | "center" | "origin"
 
 

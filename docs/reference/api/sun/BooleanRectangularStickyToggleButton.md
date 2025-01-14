@@ -32,6 +32,8 @@ import { BooleanRectangularStickyToggleButton } from 'scenerystack/sun';
 ```js
 import type { BooleanRectangularStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 [RectangularStickyToggleButtonOptions](../sun/RectangularStickyToggleButton.md#RectangularStickyToggleButtonOptions)
 
 

@@ -33,6 +33,8 @@ Releases references
 ```js
 import type { GridBackgroundNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **createCellBackground**?: CreateCellBackground
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)

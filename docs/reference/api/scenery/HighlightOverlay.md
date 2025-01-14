@@ -94,6 +94,8 @@ Highlights displayed by the overlay support these types. Highlight behavior work
 ```js
 import type { Highlight } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) | [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | "invisible"
 
 
@@ -104,6 +106,8 @@ import type { Highlight } from 'scenerystack/scenery';
 ```js
 import type { HighlightOverlayOptions } from 'scenerystack/scenery';
 ```
+
+
 - **pdomFocusHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - **interactiveHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - **readingBlockHighlightsVisibleProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;

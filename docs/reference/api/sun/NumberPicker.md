@@ -37,6 +37,8 @@ Sets visibility of the arrows.
 ```js
 import type { NumberPickerOptions } from 'scenerystack/sun';
 ```
+
+
 - **color**?: [TColor](../scenery/TColor.md)
 - **pressedColor**?: [TColor](../scenery/TColor.md)
 - **backgroundColor**?: [TColor](../scenery/TColor.md)

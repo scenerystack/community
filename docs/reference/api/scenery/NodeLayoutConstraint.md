@@ -53,6 +53,8 @@ Type export designed for use with clients
 ```js
 import type { NodeLayoutAvailableConstraintOptions } from 'scenerystack/scenery';
 ```
+
+
 Pick&lt;[NodeLayoutConstraintOptions](../scenery/NodeLayoutConstraint.md#NodeLayoutConstraintOptions), "excludeInvisible" | "layoutOriginProperty"&gt;
 
 
@@ -63,6 +65,8 @@ Pick&lt;[NodeLayoutConstraintOptions](../scenery/NodeLayoutConstraint.md#NodeLay
 ```js
 import type { NodeLayoutConstraintOptions } from 'scenerystack/scenery';
 ```
+
+
 - **excludeInvisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **preferredWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **preferredHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;

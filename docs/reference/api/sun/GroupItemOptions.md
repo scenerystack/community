@@ -12,6 +12,8 @@ For groups like radio button groups or checkbox groups, where we need to flow th
 ```js
 import type { GroupItemOptions } from 'scenerystack/sun';
 ```
+
+
 - **createNode**: ( contentTandem: [Tandem](../tandem/Tandem.md) ) =&gt; T
 - **tandemName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 

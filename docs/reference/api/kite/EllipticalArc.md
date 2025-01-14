@@ -308,6 +308,8 @@ adapted from http://www.w3.org/TR/SVG/implnote.html#PathElementImplementationNot
 ```js
 import type { SerializedEllipticalArc } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[EllipticalArc](../kite/EllipticalArc.md)"
 - **centerX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **centerY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

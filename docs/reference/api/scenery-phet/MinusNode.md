@@ -29,6 +29,8 @@ import { MinusNode } from 'scenerystack/scenery-phet';
 ```js
 import type { MinusNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - &amp; [RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
 

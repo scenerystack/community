@@ -33,6 +33,8 @@ import { KeyNode } from 'scenerystack/scenery-phet';
 ```js
 import type { KeyNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **keyFill**?: [TColor](../scenery/TColor.md)
 - **keyShadowFill**?: [TColor](../scenery/TColor.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

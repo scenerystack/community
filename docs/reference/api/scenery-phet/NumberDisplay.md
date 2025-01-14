@@ -68,6 +68,8 @@ Set the width of the background node.
 ```js
 import type { NumberDisplayOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **align**?: NumberDisplayAlign
 - **valuePattern**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 - **decimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

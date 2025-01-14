@@ -29,6 +29,8 @@ import { BooleanRoundStickyToggleButton } from 'scenerystack/sun';
 ```js
 import type { BooleanRoundStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 [RoundStickyToggleButtonOptions](../sun/RoundStickyToggleButton.md#RoundStickyToggleButtonOptions)
 
 

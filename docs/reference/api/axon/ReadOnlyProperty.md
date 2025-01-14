@@ -231,6 +231,8 @@ This caching implementation should be kept in sync with the other parametric IOT
 ```js
 import type { LinkOptions } from 'scenerystack/axon';
 ```
+
+
 - **phetioDependencies**?: Array&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;&gt;
 
 
@@ -244,6 +246,8 @@ Options that can be passed in
 ```js
 import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **units**?: Units | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **reentrant**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **phetioValueType**?: [IOType](../tandem/IOType.md)
@@ -260,6 +264,8 @@ import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
 ```js
 import type { ReadOnlyPropertyState } from 'scenerystack/axon';
 ```
+
+
 - **value**: StateType
 - **validValues**: StateType[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **units**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

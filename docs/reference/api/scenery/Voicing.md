@@ -30,6 +30,8 @@ receives focus.
 ```js
 import type { SpeakingOptions } from 'scenerystack/scenery';
 ```
+
+
 - **utterance**?: SelfOptions['voicingUtterance']
 - &amp; SpeakableResolvedOptions
 
@@ -42,6 +44,8 @@ import type { SpeakingOptions } from 'scenerystack/scenery';
 ```js
 import type { VoicingNode } from 'scenerystack/scenery';
 ```
+
+
 [Node](../scenery/Node.md) &amp; [TVoicing](../scenery/Voicing.md#TVoicing)
 
 
@@ -52,6 +56,8 @@ import type { VoicingNode } from 'scenerystack/scenery';
 ```js
 import type { VoicingOptions } from 'scenerystack/scenery';
 ```
+
+
 - **voicingNameResponse**?: VoicingResponse
 - **voicingObjectResponse**?: VoicingResponse
 - **voicingContextResponse**?: VoicingResponse

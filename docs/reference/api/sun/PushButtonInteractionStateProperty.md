@@ -28,6 +28,8 @@ import { PushButtonInteractionStateProperty } from 'scenerystack/sun';
 ```js
 import type { PushButtonInteractionStatePropertyOptions } from 'scenerystack/sun';
 ```
+
+
 [DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;
 
 

@@ -78,6 +78,8 @@ import { BufferLogger } from 'scenerystack/alpenglow';
 ```js
 import type { FromArrayBufferable } from 'scenerystack/alpenglow';
 ```
+
+
 - **fromArrayBuffer**: ( arrayBuffer: ArrayBuffer ) =&gt; { [toString](function toString() { [native code] })(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> }[]
 
 
@@ -89,6 +91,8 @@ import type { FromArrayBufferable } from 'scenerystack/alpenglow';
 ```js
 import type { FromMultiArrayBufferable } from 'scenerystack/alpenglow';
 ```
+
+
 - **fromArrayBuffer**: ( arrayBuffer: ArrayBuffer ) =&gt; { toStrings(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] }[]
 
 

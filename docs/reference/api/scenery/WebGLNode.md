@@ -88,6 +88,8 @@ Return code from painter.paint() when something was painted to the WebGL context
 ```js
 import type { WebGLNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
@@ -100,6 +102,8 @@ import type { WebGLNodeOptions } from 'scenerystack/scenery';
 ```js
 import type { WebGLNodePainter } from 'scenerystack/scenery';
 ```
+
+
 - **paint**: ( modelViewMatrix: [Matrix3](../dot/Matrix3.md), projectionMatrix: [Matrix3](../dot/Matrix3.md) ) =&gt; [WebGLNodePainterResult](../scenery/WebGLNode.md#WebGLNodePainterResult)
 - **dispose**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 
@@ -112,6 +116,8 @@ import type { WebGLNodePainter } from 'scenerystack/scenery';
 ```js
 import type { WebGLNodePainterResult } from 'scenerystack/scenery';
 ```
+
+
 0 | 1
 
 

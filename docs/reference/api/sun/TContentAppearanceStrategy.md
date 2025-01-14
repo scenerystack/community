@@ -15,12 +15,16 @@ import type { TContentAppearanceStrategy } from 'scenerystack/sun';
 
 
 
+
+
 ## Type TContentAppearanceStrategyOptions {: #TContentAppearanceStrategyOptions }
 
 
 ```js
 import type { TContentAppearanceStrategyOptions } from 'scenerystack/sun';
 ```
+
+
 - **deselectedContentOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **overContentOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **selectedContentOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

@@ -72,6 +72,8 @@ Constructor options are passed directly to ThreeStage as well as used by this No
 ```js
 import type { ThreeIsometricNodeOptions } from 'scenerystack/mobius';
 ```
+
+
 - **parentMatrixProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Matrix3](../dot/Matrix3.md)&gt;
 - **fov**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **getPhetioMouseHit**?: MouseHitListener | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

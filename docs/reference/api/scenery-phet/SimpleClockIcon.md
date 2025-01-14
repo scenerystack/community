@@ -29,6 +29,8 @@ import { SimpleClockIcon } from 'scenerystack/scenery-phet';
 ```js
 import type { SimpleClockIconOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **fill**?: [TPaint](../scenery/TPaint.md)
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

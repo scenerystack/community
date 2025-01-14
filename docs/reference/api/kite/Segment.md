@@ -245,6 +245,8 @@ Determines if the start/middle/end points are representative of a sufficiently f
 ```js
 import type { ClosestToPointResult } from 'scenerystack/kite';
 ```
+
+
 - **segment**: [Segment](../kite/Segment.md)
 - **t**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **closestPoint**: [Vector2](../dot/Vector2.md)
@@ -259,6 +261,8 @@ import type { ClosestToPointResult } from 'scenerystack/kite';
 ```js
 import type { DashValues } from 'scenerystack/kite';
 ```
+
+
 - **values**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **arcLength**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **initiallyInside**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -272,6 +276,8 @@ import type { DashValues } from 'scenerystack/kite';
 ```js
 import type { PiecewiseLinearOptions } from 'scenerystack/kite';
 ```
+
+
 - **minLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **maxLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **distanceEpsilon**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -288,6 +294,8 @@ import type { PiecewiseLinearOptions } from 'scenerystack/kite';
 ```js
 import type { SerializedSegment } from 'scenerystack/kite';
 ```
+
+
 [SerializedArc](../kite/Arc.md#SerializedArc) | [SerializedCubic](../kite/Cubic.md#SerializedCubic) | [SerializedEllipticalArc](../kite/EllipticalArc.md#SerializedEllipticalArc) | [SerializedLine](../kite/KiteLine.md#SerializedLine) | [SerializedQuadratic](../kite/Quadratic.md#SerializedQuadratic)
 
 

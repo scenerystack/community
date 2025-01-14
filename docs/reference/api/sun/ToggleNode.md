@@ -79,6 +79,8 @@ No alignment is performed.
 ```js
 import type { ToggleNodeElement } from 'scenerystack/sun';
 ```
+
+
 - **value**: T
 - &amp; [GroupItemOptions](../sun/GroupItemOptions.md)&lt;N&gt;
 
@@ -91,6 +93,8 @@ import type { ToggleNodeElement } from 'scenerystack/sun';
 ```js
 import type { ToggleNodeOptions } from 'scenerystack/sun';
 ```
+
+
 - **alignChildren**?: ( children: [Layoutable](../scenery/LayoutProxy.md#Layoutable)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **unselectedChildrenSceneGraphStrategy**?: "included" | "excluded"
 - &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;

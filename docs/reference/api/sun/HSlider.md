@@ -29,6 +29,8 @@ import { HSlider } from 'scenerystack/sun';
 ```js
 import type { HSliderOptions } from 'scenerystack/sun';
 ```
+
+
 StrictOmit&lt;[SliderOptions](../sun/Slider.md#SliderOptions), "orientation"&gt;
 
 

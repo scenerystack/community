@@ -108,6 +108,8 @@ Most of the complexity here is that threeCamera.fov is in degrees, and our ideal
 ```js
 import type { ThreeStageOptions } from 'scenerystack/mobius';
 ```
+
+
 - **backgroundColorProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;
 - **cameraPosition**?: [Vector3](../dot/Vector3.md)
 - **threeRendererOptions**?: THREE.WebGLRendererParameters

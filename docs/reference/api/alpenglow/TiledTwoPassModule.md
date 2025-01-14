@@ -64,6 +64,8 @@ import { TiledTwoPassModule } from 'scenerystack/alpenglow';
 ```js
 import type { TiledTwoPassModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
 
 
@@ -74,6 +76,8 @@ import type { TiledTwoPassModuleOptions } from 'scenerystack/alpenglow';
 ```js
 import type { TiledTwoPassRunSize } from 'scenerystack/alpenglow';
 ```
+
+
 - **numTiles**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **numInitialRenderableFaces**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

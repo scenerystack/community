@@ -119,6 +119,8 @@ with the sim size
 ```js
 import type { ScreenViewOptions } from 'scenerystack/sim';
 ```
+
+
 - **layoutBounds**?: [Bounds2](../dot/Bounds2.md)
 - **screenSummaryContent**?: ScreenSummaryContent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **includePDOMNodes**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

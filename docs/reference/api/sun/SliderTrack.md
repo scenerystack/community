@@ -65,6 +65,8 @@ See https://github.com/phetsims/sun/issues/680
 ```js
 import type { SliderTrackOptions } from 'scenerystack/sun';
 ```
+
+
 - **size**?: [Dimension2](../dot/Dimension2.md)
 - **startDrag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 - **drag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>

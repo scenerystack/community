@@ -90,6 +90,8 @@ Dispose all the boxes.
 ```js
 import type { AlignGroupOptions } from 'scenerystack/scenery';
 ```
+
+
 - **matchHorizontal**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **matchVertical**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)

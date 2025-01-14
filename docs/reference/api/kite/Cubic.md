@@ -266,6 +266,8 @@ to a quadratic, but generally that shouldn't be done.
 ```js
 import type { SerializedCubic } from 'scenerystack/kite';
 ```
+
+
 - **type**: "[Cubic](../kite/Cubic.md)"
 - **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

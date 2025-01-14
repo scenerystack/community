@@ -28,6 +28,8 @@ import { BooleanRoundToggleButton } from 'scenerystack/sun';
 ```js
 import type { BooleanRoundToggleButtonOptions } from 'scenerystack/sun';
 ```
+
+
 StrictOmit&lt;[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions), "content"&gt;
 
 

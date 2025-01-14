@@ -40,6 +40,8 @@ import { HistogramModule } from 'scenerystack/alpenglow';
 ```js
 import type { HistogramModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 - &amp; [mainHistogramWGSLOptions](../alpenglow/mainHistogramWGSL.md#mainHistogramWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)

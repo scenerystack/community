@@ -31,6 +31,8 @@ Separators are automatically shown/hidden and hence should not be instrumented f
 ```js
 import type { SeparatorOptions } from 'scenerystack/scenery';
 ```
+
+
 StrictOmit&lt;[LineOptions](../scenery/Line.md#LineOptions), "[tandem](../tandem/tandem.md)"&gt;
 
 

@@ -48,6 +48,8 @@ import { ReduceModule } from 'scenerystack/alpenglow';
 ```js
 import type { ReduceModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
 
 

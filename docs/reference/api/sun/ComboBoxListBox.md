@@ -45,6 +45,8 @@ visible, focus is placed on the first visible item.
 ```js
 import type { ComboBoxListBoxOptions } from 'scenerystack/sun';
 ```
+
+
 - **highlightFill**?: [TPaint](../scenery/TPaint.md)
 - **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)
 - **openedSoundPlayer**?: TSoundPlayer

@@ -27,6 +27,8 @@ the negative fill rule (away from the camera).
 ```js
 import type { FillRule } from 'scenerystack/alpenglow';
 ```
+
+
 "nonzero" | "evenodd" | "positive" | "negative"
 
 

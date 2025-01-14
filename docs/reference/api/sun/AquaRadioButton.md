@@ -47,6 +47,8 @@ the value associated with this radio button
 ```js
 import type { AquaRadioButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **centerColor**?: [TPaint](../scenery/TPaint.md)
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **selectedColor**?: [TPaint](../scenery/TPaint.md)

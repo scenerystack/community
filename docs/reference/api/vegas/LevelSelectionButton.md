@@ -43,6 +43,8 @@ specified size is added to ensure that the size of the returned Node is correct.
 ```js
 import type { LevelSelectionButtonOptions } from 'scenerystack/vegas';
 ```
+
+
 - **buttonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **buttonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **createScoreDisplay**?: ( scoreProperty: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; ) =&gt; [Node](../scenery/Node.md)

@@ -132,6 +132,8 @@ import { ConsoleLoggedThread } from 'scenerystack/alpenglow';
 ```js
 import type { ConsoleLogInfo } from 'scenerystack/alpenglow';
 ```
+
+
 - **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **logName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **shaderName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>

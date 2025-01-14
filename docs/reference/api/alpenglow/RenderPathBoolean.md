@@ -60,6 +60,8 @@ import { RenderPathBoolean } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderPathBoolean } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)"
 - **path**: [SerializedRenderPath](../alpenglow/RenderPath.md#SerializedRenderPath)
 - **inside**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)

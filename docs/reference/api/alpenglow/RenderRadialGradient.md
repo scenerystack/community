@@ -78,6 +78,8 @@ import { RenderRadialGradientLogic } from 'scenerystack/alpenglow';
 ```js
 import type { SerializedRenderRadialGradient } from 'scenerystack/alpenglow';
 ```
+
+
 - **type**: "[RenderRadialGradient](../alpenglow/RenderRadialGradient.md)"
 - **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **start**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]

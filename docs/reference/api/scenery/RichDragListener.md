@@ -129,6 +129,8 @@ Implements TInputListener
 ```js
 import type { RichDragListenerOptions } from 'scenerystack/scenery';
 ```
+
+
 [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;[DragListener](../scenery/DragListener.md) | [KeyboardDragListener](../scenery/KeyboardDragListener.md), [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent) | [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; { dragListenerOptions?: [DragListenerOptions](../scenery/DragListener.md#DragListenerOptions); keyboardDragListenerOptions?: [KeyboardDragListenerOptions](../scenery/KeyboardDragListener.md#KeyboardDragListenerOptions) }
 
 

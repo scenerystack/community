@@ -92,6 +92,8 @@ Releases references.
 ```js
 import type { PaintColorPropertyOptions } from 'scenerystack/scenery';
 ```
+
+
 - **luminanceFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;
 

@@ -28,6 +28,8 @@ import { AllLevelsCompletedNode } from 'scenerystack/vegas';
 ```js
 import type { AllLevelsCompletedNodeOptions } from 'scenerystack/vegas';
 ```
+
+
 - **faceDiameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **maxTextWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)

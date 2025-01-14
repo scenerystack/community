@@ -75,6 +75,8 @@ import { PatternStringProperty } from 'scenerystack/axon';
 ```js
 import type { PatternStringPropertyOptions } from 'scenerystack/axon';
 ```
+
+
 - **decimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | Record&lt;keyof Values, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 - **formatNames**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
 - &amp; ( KeysNotMatching&lt;Values, StringNumberOrProperty&gt; extends <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span> ? {

@@ -28,6 +28,8 @@ import { Spacer } from 'scenerystack/scenery';
 ```js
 import type { SpacerOptions } from 'scenerystack/scenery';
 ```
+
+
 [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

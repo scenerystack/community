@@ -42,6 +42,8 @@ push button for play/pause and (optionally) step forward, step back
 ```js
 import type { TimeControlNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **timeSpeedProperty**?: [EnumerationProperty](../axon/EnumerationProperty.md)&lt;[TimeSpeed](../scenery-phet/TimeSpeed.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **timeSpeeds**?: [TimeSpeed](../scenery-phet/TimeSpeed.md)[]
 - **speedRadioButtonGroupPlacement**?: "left" | "right" | "top" | "bottom"

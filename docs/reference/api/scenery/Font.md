@@ -137,6 +137,8 @@ of the following pattern:
 ```js
 import type { FontOptions } from 'scenerystack/scenery';
 ```
+
+
 - **style**?: [FontStyle](../scenery/Font.md#FontStyle)
 - **variant**?: FontVariant
 - **weight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [FontWeight](../scenery/Font.md#FontWeight)
@@ -155,6 +157,8 @@ import type { FontOptions } from 'scenerystack/scenery';
 ```js
 import type { FontStretch } from 'scenerystack/scenery';
 ```
+
+
 "normal" | "ultra-condensed" | "extra-condensed" | "condensed" | "semi-condensed" | "semi-expanded" | "expanded" | "extra-expanded" | "ultra-expanded"
 
 
@@ -165,6 +169,8 @@ import type { FontStretch } from 'scenerystack/scenery';
 ```js
 import type { FontStyle } from 'scenerystack/scenery';
 ```
+
+
 "normal" | "italic" | "oblique"
 
 
@@ -175,6 +181,8 @@ import type { FontStyle } from 'scenerystack/scenery';
 ```js
 import type { FontWeight } from 'scenerystack/scenery';
 ```
+
+
 "normal" | "bold" | "bolder" | "lighter" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900"
 
 

@@ -32,6 +32,8 @@ filter-radius (how much we need to expand by)
 ```js
 import type { TwoPassConfig } from 'scenerystack/alpenglow';
 ```
+
+
 - **rasterWidth**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **rasterHeight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **tileWidth**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

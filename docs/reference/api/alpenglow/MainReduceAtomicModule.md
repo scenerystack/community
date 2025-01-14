@@ -41,6 +41,8 @@ import { MainReduceAtomicModule } from 'scenerystack/alpenglow';
 ```js
 import type { MainReduceAtomicModuleOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;
 - &amp; [mainReduceAtomicWGSLOptions](../alpenglow/mainReduceAtomicWGSL.md#mainReduceAtomicWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)

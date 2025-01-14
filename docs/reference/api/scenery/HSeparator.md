@@ -28,6 +28,8 @@ import { HSeparator } from 'scenerystack/scenery';
 ```js
 import type { HSeparatorOptions } from 'scenerystack/scenery';
 ```
+
+
 [WidthSizableOptions](../scenery/WidthSizable.md#WidthSizableOptions) &amp; [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
 
 

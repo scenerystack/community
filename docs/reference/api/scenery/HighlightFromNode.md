@@ -47,6 +47,8 @@ The transformSourceNode for this highlight will be the provided Node.
 ```js
 import type { HighlightFromNodeOptions } from 'scenerystack/scenery';
 ```
+
+
 - **useLocalBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **dilationCoefficient**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **useGroupDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

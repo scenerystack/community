@@ -68,6 +68,8 @@ To be called from within the kernel execution function
 ```js
 import type { BaseWorkgroupValues } from 'scenerystack/alpenglow';
 ```
+
+
 Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [ParallelWorkgroupArray](../alpenglow/ParallelWorkgroupArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 
 

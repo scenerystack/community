@@ -29,6 +29,8 @@ import { ReturnButton } from 'scenerystack/scenery-phet';
 ```js
 import type { ReturnButtonOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **iconOptions**?: [ReturnIconOptions](../scenery-phet/ReturnIcon.md#ReturnIconOptions)
 - &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 

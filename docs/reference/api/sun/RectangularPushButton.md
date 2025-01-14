@@ -44,6 +44,8 @@ RectangularButton has this.buttonModel, but we also need this.pushButtonModel, b
 ```js
 import type { RectangularPushButtonOptions } from 'scenerystack/sun';
 ```
+
+
 - **soundPlayer**?: TSoundPlayer
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
 

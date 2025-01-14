@@ -30,6 +30,8 @@ import { FlowCell } from 'scenerystack/scenery';
 ```js
 import type { FlowCellOptions } from 'scenerystack/scenery';
 ```
+
+
 - **isSeparator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; StrictOmit&lt;[ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions), "orientation"&gt;
 

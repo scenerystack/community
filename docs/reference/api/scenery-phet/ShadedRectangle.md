@@ -28,6 +28,8 @@ import { ShadedRectangle } from 'scenerystack/scenery-phet';
 ```js
 import type { ShadedRectangleOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **baseColor**?: [TColor](../scenery/TColor.md)
 - **lightFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **lighterFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

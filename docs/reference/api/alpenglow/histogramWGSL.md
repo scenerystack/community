@@ -12,6 +12,8 @@ Calculates a histogram in shared (workgroup) memory by using atomics
 ```js
 import type { histogramWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **histogramScratch**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
 - **getBin**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 - &amp; StrictOmit&lt;[coalescedLoopWGSLOptions](../alpenglow/coalescedLoopWGSL.md#coalescedLoopWGSLOptions), "callback"&gt;

@@ -32,6 +32,8 @@ import { FaceNode } from 'scenerystack/scenery-phet';
 ```js
 import type { FaceNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **headFill**?: [TColor](../scenery/TColor.md)
 - **headStroke**?: [TColor](../scenery/TColor.md)
 - **eyeFill**?: [TColor](../scenery/TColor.md)

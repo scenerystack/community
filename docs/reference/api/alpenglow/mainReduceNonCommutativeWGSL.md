@@ -13,6 +13,8 @@ We essentially serialize some of it (reading a workgroup-size chunk at a time, r
 ```js
 import type { mainReduceNonCommutativeWGSLOptions } from 'scenerystack/alpenglow';
 ```
+
+
 - **input**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
 - **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;

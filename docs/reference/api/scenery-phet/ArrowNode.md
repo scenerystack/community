@@ -50,6 +50,8 @@ Sets whether the arrow has one or two heads.
 ```js
 import type { ArrowNodeOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 - **headHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **headWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **tailWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

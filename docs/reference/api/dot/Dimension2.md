@@ -93,6 +93,8 @@ Height of the dimension
 ```js
 import type { Dimension2StateObject } from 'scenerystack/dot';
 ```
+
+
 StateObject&lt;typeof STATE_SCHEMA&gt;
 
 

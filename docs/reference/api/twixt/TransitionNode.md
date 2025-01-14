@@ -109,6 +109,8 @@ Start a transition to replace our content with the new content, using Transition
 ```js
 import type { TransitionNodeOptions } from 'scenerystack/twixt';
 ```
+
+
 - **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **useBoundsClip**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **cachedNodes**?: [Node](../scenery/Node.md)[]

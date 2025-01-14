@@ -66,6 +66,8 @@ We don't want to allow strokes.
 ```js
 import type { GradientRectangleOptions } from 'scenerystack/scenery-phet';
 ```
+
+
 [RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
 
 
