@@ -64,6 +64,18 @@ import { RenderInstructionNormalize } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderNormalize {: #SerializedRenderNormalize }
+
+
+```js
+import type { SerializedRenderNormalize } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderNormalize](../alpenglow/RenderNormalize.md)"
+- **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderNormalize.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderNormalize.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

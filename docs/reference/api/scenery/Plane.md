@@ -26,6 +26,16 @@ import { Plane } from 'scenerystack/scenery';
 
 
 
+## Type PlaneOptions {: #PlaneOptions }
+
+
+```js
+import type { PlaneOptions } from 'scenerystack/scenery';
+```
+[RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
+
+
+
 ## Source Code
 
 See the source for [Plane.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Plane.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

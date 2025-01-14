@@ -26,6 +26,16 @@ import { HBox } from 'scenerystack/scenery';
 
 
 
+## Type HBoxOptions {: #HBoxOptions }
+
+
+```js
+import type { HBoxOptions } from 'scenerystack/scenery';
+```
+StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "orientation"&gt;
+
+
+
 ## Source Code
 
 See the source for [HBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/HBox.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

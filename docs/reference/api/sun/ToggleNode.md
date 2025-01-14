@@ -73,6 +73,31 @@ No alignment is performed.
 
 
 
+## Type ToggleNodeElement {: #ToggleNodeElement }
+
+
+```js
+import type { ToggleNodeElement } from 'scenerystack/sun';
+```
+- **value**: T
+- &amp; [GroupItemOptions](../sun/GroupItemOptions.md)&lt;N&gt;
+
+
+
+
+## Type ToggleNodeOptions {: #ToggleNodeOptions }
+
+
+```js
+import type { ToggleNodeOptions } from 'scenerystack/sun';
+```
+- **alignChildren**?: ( children: [Layoutable](../scenery/LayoutProxy.md#Layoutable)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **unselectedChildrenSceneGraphStrategy**?: "included" | "excluded"
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ToggleNode.ts](https://github.com/phetsims/sun/blob/main/js/ToggleNode.ts) in the [sun](https://github.com/phetsims/sun) repository.

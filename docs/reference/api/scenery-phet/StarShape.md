@@ -22,6 +22,19 @@ import { StarShape } from 'scenerystack/scenery-phet';
 
 
 
+## Type StarShapeOptions {: #StarShapeOptions }
+
+
+```js
+import type { StarShapeOptions } from 'scenerystack/scenery-phet';
+```
+- **outerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **innerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numberStarPoints**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [StarShape.ts](https://github.com/phetsims/scenery-phet/blob/main/js/StarShape.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

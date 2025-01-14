@@ -28,6 +28,16 @@ import { MomentaryButtonModel } from 'scenerystack/sun';
 
 
 
+## Type MomentaryButtonModelOptions {: #MomentaryButtonModelOptions }
+
+
+```js
+import type { MomentaryButtonModelOptions } from 'scenerystack/sun';
+```
+[ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
+
+
+
 ## Source Code
 
 See the source for [MomentaryButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/MomentaryButtonModel.ts) in the [sun](https://github.com/phetsims/sun) repository.

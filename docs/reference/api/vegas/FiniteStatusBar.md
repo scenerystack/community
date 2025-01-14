@@ -23,6 +23,37 @@ import { FiniteStatusBar } from 'scenerystack/vegas';
 
 
 
+## Type FiniteStatusBarOptions {: #FiniteStatusBarOptions }
+
+
+```js
+import type { FiniteStatusBarOptions } from 'scenerystack/vegas';
+```
+- **challengeIndexProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **numberOfChallengesProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **levelProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **elapsedTimeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **timerEnabledProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **levelVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **challengeNumberVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **font**?: [Font](../scenery/Font.md)
+- **textFill**?: [TColor](../scenery/TColor.md)
+- **createScoreDisplay**?: ( scoreProperty: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; ) =&gt; [Node](../scenery/Node.md)
+- **startOverButtonOptions**?: [TextPushButtonOptions](../sun/TextPushButton.md#TextPushButtonOptions)
+- **startOverButtonText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+- **clockIconRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **levelTextOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
+- **challengeTextOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
+- **barFill**?: [TColor](../scenery/TColor.md)
+- **barStroke**?: [TColor](../scenery/TColor.md)
+- &amp; StrictOmit&lt;[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions), "children" | "barHeight"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [FiniteStatusBar.ts](https://github.com/phetsims/vegas/blob/main/js/FiniteStatusBar.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

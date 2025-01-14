@@ -30,6 +30,27 @@ import { Rasterize } from 'scenerystack/alpenglow';
 
 
 
+## Type RasterizationOptions {: #RasterizationOptions }
+
+
+```js
+import type { RasterizationOptions } from 'scenerystack/alpenglow';
+```
+- **outputRasterOffset**?: [Vector2](../dot/Vector2.md)
+- **tileSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **polygonFiltering**?: [PolygonFilterType](../alpenglow/PolygonFilterType.md)
+- **polygonFilterWindowMultiplier**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **edgeIntersectionSortMethod**?: "none" | "center-size" | "min-max" | "min-max-size" | "center-min-max" | "random"
+- **edgeIntersectionMethod**?: "quadratic" | "boundsTree" | "arrayBoundsTree"
+- **renderableFaceType**?: "polygonal" | "edged" | "edgedClipped"
+- **renderableFaceMethod**?: "simple" | "fullyCombined" | "simplifyingCombined" | "traced"
+- **splitPrograms**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **executionMethod**?: RenderExecutionMethod
+- **log**?: [RasterLog](../alpenglow/RasterLog.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
+
 ## Source Code
 
 See the source for [Rasterize.ts](https://github.com/phetsims/alpenglow/blob/main/js/raster/Rasterize.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

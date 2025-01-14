@@ -30,6 +30,16 @@ Can be set and change to support reusing this ReadingBlockUtterance.
 
 
 
+## Type ReadingBlockUtteranceOptions {: #ReadingBlockUtteranceOptions }
+
+
+```js
+import type { ReadingBlockUtteranceOptions } from 'scenerystack/scenery';
+```
+UtteranceOptions
+
+
+
 ## Source Code
 
 See the source for [ReadingBlockUtterance.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/ReadingBlockUtterance.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

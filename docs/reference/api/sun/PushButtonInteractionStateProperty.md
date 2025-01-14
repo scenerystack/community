@@ -22,6 +22,16 @@ import { PushButtonInteractionStateProperty } from 'scenerystack/sun';
 
 
 
+## Type PushButtonInteractionStatePropertyOptions {: #PushButtonInteractionStatePropertyOptions }
+
+
+```js
+import type { PushButtonInteractionStatePropertyOptions } from 'scenerystack/sun';
+```
+[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;[ButtonInteractionState](../sun/ButtonInteractionState.md)&gt;
+
+
+
 ## Source Code
 
 See the source for [PushButtonInteractionStateProperty.ts](https://github.com/phetsims/sun/blob/main/js/buttons/PushButtonInteractionStateProperty.ts) in the [sun](https://github.com/phetsims/sun) repository.

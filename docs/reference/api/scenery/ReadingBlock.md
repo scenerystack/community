@@ -17,6 +17,49 @@ support mouse/touch input and ParallelDOM to support being added to the focus or
 
 @author Jesse Greenberg (PhET Interactive Simulations)
 
+## Type ReadingBlockNode {: #ReadingBlockNode }
+
+
+Export a type that lets you check if your Node is composed with ReadingBlock
+
+```js
+import type { ReadingBlockNode } from 'scenerystack/scenery';
+```
+[Node](../scenery/Node.md) &amp; [TReadingBlock](../scenery/ReadingBlock.md#TReadingBlock)
+
+
+
+## Type ReadingBlockOptions {: #ReadingBlockOptions }
+
+
+```js
+import type { ReadingBlockOptions } from 'scenerystack/scenery';
+```
+- **readingBlockTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **readingBlockDisabledTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **readingBlockNameResponse**?: VoicingResponse
+- **readingBlockHintResponse**?: VoicingResponse
+- **readingBlockResponsePatternCollection**?: ResponsePatternCollection
+- **readingBlockActiveHighlight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Shape](../kite/Shape.md) | [Node](../scenery/Node.md)
+- &amp; StrictOmit&lt;[VoicingOptions](../scenery/Voicing.md#VoicingOptions), UnsupportedVoicingOptions&gt;
+
+
+
+
+## Type TReadingBlock {: #TReadingBlock }
+
+
+```js
+import type { TReadingBlock } from 'scenerystack/scenery';
+```
+- **readingBlockActiveHighlightChangedEmitter**: [TEmitter](../axon/TEmitter.md)
+- **readingBlockTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **readingBlockDisabledTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **readingBlockResponsePatternCollection**: ResponsePatternCollection
+- **readingBlockActiveHighlight**: [Highlight](../scenery/HighlightOverlay.md#Highlight)
+- &amp; [TVoicing](../scenery/Voicing.md#TVoicing)&lt;SuperType&gt;
+
+
 
 
 ## Source Code

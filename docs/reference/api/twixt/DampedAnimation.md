@@ -39,6 +39,21 @@ Steps the animation forward in time.
 
 
 
+## Type DampedAnimationOptions {: #DampedAnimationOptions }
+
+
+```js
+import type { DampedAnimationOptions } from 'scenerystack/twixt';
+```
+- **valueProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+- **velocityProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+- **damping**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **force**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **targetValue**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [DampedAnimation.ts](https://github.com/phetsims/twixt/blob/main/js/DampedAnimation.ts) in the [twixt](https://github.com/phetsims/twixt) repository.

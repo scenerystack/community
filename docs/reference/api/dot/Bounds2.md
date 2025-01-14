@@ -736,6 +736,22 @@ Additionally, unions with EVERYTHING will always return a Bounds2 equivalent to 
 
 
 
+## Type Bounds2StateObject {: #Bounds2StateObject }
+
+
+For PhET-iO serialization
+
+```js
+import type { Bounds2StateObject } from 'scenerystack/dot';
+```
+- **minX**: InfiniteNumberStateObject
+- **minY**: InfiniteNumberStateObject
+- **maxX**: InfiniteNumberStateObject
+- **maxY**: InfiniteNumberStateObject
+
+
+
+
 ## Source Code
 
 See the source for [Bounds2.ts](https://github.com/phetsims/dot/blob/main/js/Bounds2.ts) in the [dot](https://github.com/phetsims/dot) repository.

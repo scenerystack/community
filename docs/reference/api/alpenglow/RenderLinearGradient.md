@@ -110,6 +110,23 @@ import { RenderLinearGradientLogic } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderLinearGradient {: #SerializedRenderLinearGradient }
+
+
+```js
+import type { SerializedRenderLinearGradient } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderLinearGradient](../alpenglow/RenderLinearGradient.md)"
+- **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **start**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **end**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **stops**: [SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)[]
+- **extend**: [RenderExtend](../alpenglow/RenderExtend.md)
+- **accuracy**: [RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)
+
+
+
+
 ## Source Code
 
 See the source for [RenderLinearGradient.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderLinearGradient.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

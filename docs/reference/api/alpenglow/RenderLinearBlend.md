@@ -135,6 +135,22 @@ import { RenderLinearBlendLogic } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderLinearBlend {: #SerializedRenderLinearBlend }
+
+
+```js
+import type { SerializedRenderLinearBlend } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)"
+- **scaledNormal**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **offset**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **accuracy**: [RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)
+- **zero**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **one**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderLinearBlend.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderLinearBlend.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -24,6 +24,21 @@ import { GridCell } from 'scenerystack/scenery';
 
 
 
+## Type GridCellOptions {: #GridCellOptions }
+
+
+```js
+import type { GridCellOptions } from 'scenerystack/scenery';
+```
+- **row**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **column**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **horizontalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **verticalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [ExternalGridConfigurableOptions](../scenery/GridConfigurable.md#ExternalGridConfigurableOptions)
+
+
+
+
 ## Source Code
 
 See the source for [GridCell.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridCell.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

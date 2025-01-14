@@ -25,6 +25,18 @@ import { MatrixBetweenProperty } from 'scenerystack/scenery';
 
 
 
+## Type MatrixBetweenPropertyOptions {: #MatrixBetweenPropertyOptions }
+
+
+```js
+import type { MatrixBetweenPropertyOptions } from 'scenerystack/scenery';
+```
+- **fromCoordinateFrame**?: CoordinateFrame
+- **toCoordinateFrame**?: CoordinateFrame
+
+
+
+
 ## Source Code
 
 See the source for [MatrixBetweenProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/MatrixBetweenProperty.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

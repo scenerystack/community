@@ -7,6 +7,24 @@ If a key has multiple code values, listener behavior will fire if either are pre
 
 @author Jesse Greenberg (PhET Interactive Simulations)
 
+## Type EnglishKey {: #EnglishKey }
+
+
+```js
+import type { EnglishKey } from 'scenerystack/scenery';
+```
+keyof typeof [EnglishStringToCodeMap](../scenery/EnglishStringToCodeMap.md)
+
+
+
+## Type EnglishKeyString {: #EnglishKeyString }
+
+
+```js
+import type { EnglishKeyString } from 'scenerystack/scenery';
+```
+`${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}`
+
 
 
 ## Source Code

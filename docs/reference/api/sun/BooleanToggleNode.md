@@ -24,6 +24,16 @@ import { BooleanToggleNode } from 'scenerystack/sun';
 
 
 
+## Type BooleanToggleNodeOptions {: #BooleanToggleNodeOptions }
+
+
+```js
+import type { BooleanToggleNodeOptions } from 'scenerystack/sun';
+```
+[ToggleNodeOptions](../sun/ToggleNode.md#ToggleNodeOptions)
+
+
+
 ## Source Code
 
 See the source for [BooleanToggleNode.ts](https://github.com/phetsims/sun/blob/main/js/BooleanToggleNode.ts) in the [sun](https://github.com/phetsims/sun) repository.

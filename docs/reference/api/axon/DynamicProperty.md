@@ -157,6 +157,32 @@ Returns true if this Property value can be set externally, by set() or .value =
 
 
 
+## Type DynamicPropertyOptions {: #DynamicPropertyOptions }
+
+
+```js
+import type { DynamicPropertyOptions } from 'scenerystack/axon';
+```
+- **bidirectional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **defaultValue**?: InnerValueType
+- **derive**?: ( ( outerValue: OuterValueType ) =&gt; [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt; ) | KeysMatching&lt;OuterValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt;&gt;
+- **map**?: ( ( innerValue: InnerValueType ) =&gt; ThisValueType ) | KeysMatching&lt;InnerValueType, ThisValueType&gt;
+- **inverseMap**?: ( ( value: ThisValueType ) =&gt; InnerValueType ) | KeysMatching&lt;ThisValueType, InnerValueType&gt;
+- &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;ThisValueType&gt;
+
+
+
+
+## Type TNullableProperty {: #TNullableProperty }
+
+
+```js
+import type { TNullableProperty } from 'scenerystack/axon';
+```
+[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt; | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;
+
+
+
 ## Source Code
 
 See the source for [DynamicProperty.ts](https://github.com/phetsims/axon/blob/main/js/DynamicProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

@@ -23,6 +23,16 @@ import { VoicingText } from 'scenerystack/scenery';
 
 
 
+## Type VoicingTextOptions {: #VoicingTextOptions }
+
+
+```js
+import type { VoicingTextOptions } from 'scenerystack/scenery';
+```
+[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [TextOptions](../scenery/Text.md#TextOptions)
+
+
+
 ## Source Code
 
 See the source for [VoicingText.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/VoicingText.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

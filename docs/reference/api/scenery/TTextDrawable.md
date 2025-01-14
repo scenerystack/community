@@ -4,6 +4,18 @@
 
 
 
+## Type TTextDrawable {: #TTextDrawable }
+
+
+Interface specifically for SelfDrawables for a Text Node.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import type { TTextDrawable } from 'scenerystack/scenery';
+```
+
+
 
 
 ## Source Code

@@ -83,6 +83,16 @@ see https://github.com/phetsims/axon/issues/204 for more details.
 
 
 
+## Type EmitterOptions {: #EmitterOptions }
+
+
+```js
+import type { EmitterOptions } from 'scenerystack/axon';
+```
+Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
+
+
+
 ## Source Code
 
 See the source for [Emitter.ts](https://github.com/phetsims/axon/blob/main/js/Emitter.ts) in the [axon](https://github.com/phetsims/axon) repository.

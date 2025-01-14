@@ -35,6 +35,19 @@ import { MainReduceAtomicModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainReduceAtomicModuleOptions {: #MainReduceAtomicModuleOptions }
+
+
+```js
+import type { MainReduceAtomicModuleOptions } from 'scenerystack/alpenglow';
+```
+- **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T&gt;
+- &amp; [mainReduceAtomicWGSLOptions](../alpenglow/mainReduceAtomicWGSL.md#mainReduceAtomicWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainReduceAtomicModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainReduceAtomicModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

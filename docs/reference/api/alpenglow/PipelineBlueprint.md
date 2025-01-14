@@ -53,6 +53,18 @@ TODO: Or actually, just an ability to put structs of arbitrary types in Concrete
 
 
 
+## Type PipelineBlueprintOptions {: #PipelineBlueprintOptions }
+
+
+```js
+import type { PipelineBlueprintOptions } from 'scenerystack/alpenglow';
+```
+- **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **log**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [PipelineBlueprint.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/PipelineBlueprint.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

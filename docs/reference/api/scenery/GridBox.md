@@ -134,6 +134,22 @@ Removes all child Nodes in a given column
 
 
 
+## Type GridBoxOptions {: #GridBoxOptions }
+
+
+```js
+import type { GridBoxOptions } from 'scenerystack/scenery';
+```
+- **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **rows**?: LineArrays
+- **columns**?: LineArrays
+- **autoRows**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **autoColumns**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions), GridConstraintExcludedOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [GridBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/GridBox.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

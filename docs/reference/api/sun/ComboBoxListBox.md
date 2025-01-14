@@ -39,6 +39,21 @@ visible, focus is placed on the first visible item.
 
 
 
+## Type ComboBoxListBoxOptions {: #ComboBoxListBoxOptions }
+
+
+```js
+import type { ComboBoxListBoxOptions } from 'scenerystack/sun';
+```
+- **highlightFill**?: [TPaint](../scenery/TPaint.md)
+- **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)
+- **openedSoundPlayer**?: TSoundPlayer
+- **closedNoChangeSoundPlayer**?: TSoundPlayer
+- &amp; [PanelOptions](../sun/Panel.md#PanelOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ComboBoxListBox.ts](https://github.com/phetsims/sun/blob/main/js/ComboBoxListBox.ts) in the [sun](https://github.com/phetsims/sun) repository.

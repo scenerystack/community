@@ -75,6 +75,44 @@ General validator for validating that a string doesn't have template variables i
 
 
 
+## Type IsValidValueOptions {: #IsValidValueOptions }
+
+
+```js
+import type { IsValidValueOptions } from 'scenerystack/axon';
+```
+- **validateValidator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
+## Type ValidationMessage {: #ValidationMessage }
+
+
+```js
+import type { ValidationMessage } from 'scenerystack/axon';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> )
+
+
+
+## Type Validator {: #Validator }
+
+
+```js
+import type { Validator } from 'scenerystack/axon';
+```
+- **valueType**?: ValueType | ValueType[]
+- **validValues**?: readonly T[]
+- **valueComparisonStrategy**?: ValueComparisonStrategy&lt;T&gt;
+- **isValidValue**?: ( v: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioType**?: [IOType](../tandem/IOType.md)
+- **validationMessage**?: [ValidationMessage](../axon/Validation.md#ValidationMessage)
+- **validators**?: [Validator](../axon/Validation.md#Validator)&lt;T&gt;[]
+
+
+
+
 ## Source Code
 
 See the source for [Validation.ts](https://github.com/phetsims/axon/blob/main/js/Validation.ts) in the [axon](https://github.com/phetsims/axon) repository.

@@ -81,6 +81,22 @@ indicates that interaction was interrupted during a press. Valid until next pres
 
 
 
+## Type ButtonModelOptions {: #ButtonModelOptions }
+
+
+```js
+import type { ButtonModelOptions } from 'scenerystack/sun';
+```
+- **startCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **endCallback**?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **phetioState**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioFeatured**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/ButtonModel.ts) in the [sun](https://github.com/phetsims/sun) repository.

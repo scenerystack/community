@@ -39,6 +39,16 @@ import { StickyToggleButtonModel } from 'scenerystack/sun';
 
 
 
+## Type StickyToggleButtonModelOptions {: #StickyToggleButtonModelOptions }
+
+
+```js
+import type { StickyToggleButtonModelOptions } from 'scenerystack/sun';
+```
+[ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
+
+
+
 ## Source Code
 
 See the source for [StickyToggleButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/StickyToggleButtonModel.ts) in the [sun](https://github.com/phetsims/sun) repository.

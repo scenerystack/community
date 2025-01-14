@@ -6,6 +6,16 @@ Mixin for RichText elements in the hierarchy that should be pooled with a clean(
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type RichTextCleanableNode {: #RichTextCleanableNode }
+
+
+```js
+import type { RichTextCleanableNode } from 'scenerystack/scenery';
+```
+- **isCleanable**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [Node](../scenery/Node.md) &amp; [TPoolable](../phet-core/Pool.md#TPoolable)
+
+
 
 
 ## Source Code

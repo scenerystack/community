@@ -7,6 +7,15 @@ Unicode Line Breaking Algorithm (UAX #14). Uses https://github.com/foliojs/lineb
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type GetLineBreaksOptions {: #GetLineBreaksOptions }
+
+
+```js
+import type { GetLineBreaksOptions } from 'scenerystack/scenery';
+```
+- **requiredOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
 
 
 ## Source Code

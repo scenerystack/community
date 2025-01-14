@@ -42,6 +42,16 @@ import { ScanModule } from 'scenerystack/alpenglow';
 
 
 
+## Type ScanModuleOptions {: #ScanModuleOptions }
+
+
+```js
+import type { ScanModuleOptions } from 'scenerystack/alpenglow';
+```
+[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
 ## Source Code
 
 See the source for [ScanModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/ScanModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

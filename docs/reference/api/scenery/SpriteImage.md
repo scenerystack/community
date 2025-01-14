@@ -43,6 +43,19 @@ Returns whether a given point is considered "inside" the SpriteImage.
 
 
 
+## Type SpriteImageOptions {: #SpriteImageOptions }
+
+
+```js
+import type { SpriteImageOptions } from 'scenerystack/scenery';
+```
+- **hitTestPixels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [ImageableOptions](../scenery/Imageable.md#ImageableOptions)
+
+
+
+
 ## Source Code
 
 See the source for [SpriteImage.ts](https://github.com/phetsims/scenery/blob/main/js/util/SpriteImage.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

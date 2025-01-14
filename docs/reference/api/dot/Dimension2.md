@@ -87,6 +87,16 @@ Height of the dimension
 
 
 
+## Type Dimension2StateObject {: #Dimension2StateObject }
+
+
+```js
+import type { Dimension2StateObject } from 'scenerystack/dot';
+```
+StateObject&lt;typeof STATE_SCHEMA&gt;
+
+
+
 ## Source Code
 
 See the source for [Dimension2.ts](https://github.com/phetsims/dot/blob/main/js/Dimension2.ts) in the [dot](https://github.com/phetsims/dot) repository.

@@ -41,6 +41,29 @@ the value associated with this radio button
 
 
 
+## Type AquaRadioButtonOptions {: #AquaRadioButtonOptions }
+
+
+```js
+import type { AquaRadioButtonOptions } from 'scenerystack/sun';
+```
+- **centerColor**?: [TPaint](../scenery/TPaint.md)
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **selectedColor**?: [TPaint](../scenery/TPaint.md)
+- **deselectedColor**?: [TPaint](../scenery/TPaint.md)
+- **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **soundPlayer**?: TSoundPlayer
+- **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **a11yNameAttribute**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;
+
+
+
+
 ## Source Code
 
 See the source for [AquaRadioButton.ts](https://github.com/phetsims/sun/blob/main/js/AquaRadioButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

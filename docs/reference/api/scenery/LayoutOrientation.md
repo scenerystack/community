@@ -4,6 +4,14 @@
 
 
 
+## Type LayoutOrientation {: #LayoutOrientation }
+
+
+```js
+import type { LayoutOrientation } from 'scenerystack/scenery';
+```
+"horizontal" | "vertical"
+
 
 
 ## Source Code

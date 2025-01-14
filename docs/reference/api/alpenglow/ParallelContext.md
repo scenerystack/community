@@ -62,6 +62,16 @@ To be called from within the kernel execution function
 
 
 
+## Type BaseWorkgroupValues {: #BaseWorkgroupValues }
+
+
+```js
+import type { BaseWorkgroupValues } from 'scenerystack/alpenglow';
+```
+Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [ParallelWorkgroupArray](../alpenglow/ParallelWorkgroupArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+
+
+
 ## Source Code
 
 See the source for [ParallelContext.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelContext.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

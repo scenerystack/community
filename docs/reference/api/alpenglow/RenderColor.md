@@ -152,6 +152,22 @@ OUTPUTS unpremultiplied Display P3, with a valid alpha value
 
 
 
+## Type SerializedRenderColor {: #SerializedRenderColor }
+
+
+```js
+import type { SerializedRenderColor } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderColor](../alpenglow/RenderColor.md)"
+- **color**:
+  - **r**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+  - **g**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+  - **b**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+  - **a**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [RenderColor.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderColor.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

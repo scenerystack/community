@@ -10,6 +10,21 @@ is added or removed, the lengthProperty changes before elementAddedEmitter or el
 
 @author Sam Reid (PhET Interactive Simulations)
 
+## Type ObservableArrayOptions {: #ObservableArrayOptions }
+
+
+```js
+import type { ObservableArrayOptions } from 'scenerystack/axon';
+```
+- **length**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **elements**?: T[]
+- **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **elementAddedEmitterOptions**?: StrictOmit&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "[tandem](../tandem/tandem.md)" | "parameters" | "phetioReadOnly"&gt;
+- **elementRemovedEmitterOptions**?: StrictOmit&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "[tandem](../tandem/tandem.md)" | "parameters" | "phetioReadOnly"&gt;
+- **lengthPropertyOptions**?: StrictOmit&lt;[NumberPropertyOptions](../axon/NumberProperty.md#NumberPropertyOptions), "[tandem](../tandem/tandem.md)" | "numberType" | "phetioReadOnly"&gt;
+- &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
+
+
 
 
 ## Source Code

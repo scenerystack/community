@@ -59,6 +59,20 @@ in the PDOM please use getAltKeyString().
 
 
 
+## Type TextKeyNodeOptions {: #TextKeyNodeOptions }
+
+
+```js
+import type { TextKeyNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **font**?: [Font](../scenery/Font.md)
+- **fill**?: [TColor](../scenery/TColor.md)
+- **textMaxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [KeyNodeOptions](../scenery-phet/KeyNode.md#KeyNodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [TextKeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/TextKeyNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

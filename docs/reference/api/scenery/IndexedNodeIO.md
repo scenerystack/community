@@ -16,6 +16,15 @@ be confused that the visible order does not change (even though the index change
 
 @author Sam Reid (PhET Interactive Simulations)
 
+## Type IndexedNodeIOParent {: #IndexedNodeIOParent }
+
+
+```js
+import type { IndexedNodeIOParent } from 'scenerystack/scenery';
+```
+- **onIndexedNodeIOChildMoved**: ( node: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
 
 
 ## Source Code

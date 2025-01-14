@@ -23,6 +23,20 @@ import { ScoreDisplayLabeledStars } from 'scenerystack/vegas';
 
 
 
+## Type ScoreDisplayLabeledStarsOptions {: #ScoreDisplayLabeledStarsOptions }
+
+
+```js
+import type { ScoreDisplayLabeledStarsOptions } from 'scenerystack/vegas';
+```
+- **font**?: [Font](../scenery/Font.md)
+- **textFill**?: [TColor](../scenery/TColor.md)
+- **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [ScoreDisplayStarsOptions](../vegas/ScoreDisplayStars.md#ScoreDisplayStarsOptions) &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ScoreDisplayLabeledStars.ts](https://github.com/phetsims/vegas/blob/main/js/ScoreDisplayLabeledStars.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

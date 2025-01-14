@@ -23,6 +23,20 @@ import { ScoreDisplayLabeledNumber } from 'scenerystack/vegas';
 
 
 
+## Type ScoreDisplayLabeledNumberOptions {: #ScoreDisplayLabeledNumberOptions }
+
+
+```js
+import type { ScoreDisplayLabeledNumberOptions } from 'scenerystack/vegas';
+```
+- **font**?: [Font](../scenery/Font.md)
+- **textFill**?: [TColor](../scenery/TColor.md)
+- **scoreDecimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ScoreDisplayLabeledNumber.ts](https://github.com/phetsims/vegas/blob/main/js/ScoreDisplayLabeledNumber.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

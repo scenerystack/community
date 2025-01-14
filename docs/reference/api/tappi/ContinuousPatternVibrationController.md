@@ -71,6 +71,20 @@ Reset the active pattern, and where we are in its playthrough.
 
 
 
+## Type ContinuousPatternVibrationControllerOptions {: #ContinuousPatternVibrationControllerOptions }
+
+
+```js
+import type { ContinuousPatternVibrationControllerOptions } from 'scenerystack/tappi';
+```
+- **repeat**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **sharpness**?: 1
+- **intensity**?: 1
+- **activePattern**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+
+
+
+
 ## Source Code
 
 See the source for [ContinuousPatternVibrationController.ts](https://github.com/phetsims/tappi/blob/main/js/ContinuousPatternVibrationController.ts) in the [tappi](https://github.com/phetsims/tappi) repository.

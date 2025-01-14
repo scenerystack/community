@@ -16,6 +16,38 @@ totally custom interaction keeping the general slider behavior the same.
 @author Michael Kauzmann (PhET Interactive Simulations)
 @author Jesse Greenberg (PhET Interactive Simulations)
 
+## Type AccessibleValueHandlerOptions {: #AccessibleValueHandlerOptions }
+
+
+```js
+import type { AccessibleValueHandlerOptions } from 'scenerystack/sun';
+```
+- **valueProperty**: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+- **enabledRangeProperty**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;
+- **startInput**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **endInput**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **onInput**?: OnInputFunction
+- **constrainValue**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **keyboardStep**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **shiftKeyboardStep**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pageKeyboardStep**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **reverseAlternativeInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **ariaOrientation**?: [Orientation](../phet-core/Orientation.md)
+- **panTargetNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Node](../scenery/Node.md)
+- **roundToStepSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomMapPDOMValue**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pdomMapValue**?: ( newValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, previousValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pdomRepeatEqualValueText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomCreateAriaValueText**?: CreateTextFunction
+- **pdomCreateContextResponseAlert**?: CreateTextFunction | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **contextResponsePerValueChangeDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **contextResponseMaxDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pdomDependencies**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;IntentionalAny&gt;[]
+- **tagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **voicingOnEndResponseOptions**?: VoicingOnEndResponseOptions
+- &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions)
+
+
 
 
 ## Source Code

@@ -169,6 +169,25 @@ by the layout scale so that they have the same sizes relative to the size of the
 
 
 
+## Type HighlightPathOptions {: #HighlightPathOptions }
+
+
+The stroke and linewidth of this path are set with outerLineWidth and outerStroke.
+
+```js
+import type { HighlightPathOptions } from 'scenerystack/scenery';
+```
+- **outerStroke**?: [TPaint](../scenery/TPaint.md)
+- **innerStroke**?: [TPaint](../scenery/TPaint.md)
+- **outerLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **innerLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **dashed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **transformSourceNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "stroke" | "lineWidth"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [HighlightPath.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightPath.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

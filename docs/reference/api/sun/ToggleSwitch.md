@@ -46,6 +46,35 @@ Emits on input that results in a change to the Property value, after the Propert
 
 
 
+## Type ToggleSwitchOptions {: #ToggleSwitchOptions }
+
+
+```js
+import type { ToggleSwitchOptions } from 'scenerystack/sun';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- **toggleWhileDragging**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **dragThreshold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **toggleThreshold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbFill**?: [TPaint](../scenery/TPaint.md)
+- **thumbStroke**?: [TPaint](../scenery/TPaint.md)
+- **thumbTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **trackFillLeft**?: [TPaint](../scenery/TPaint.md)
+- **trackFillRight**?: [TPaint](../scenery/TPaint.md)
+- **trackStroke**?: [TPaint](../scenery/TPaint.md)
+- **switchToLeftSoundPlayer**?: TSoundPlayer
+- **switchToRightSoundPlayer**?: TSoundPlayer
+- **leftValueContextResponse**?: TAlertable
+- **rightValueContextResponse**?: TAlertable
+- **accessibleSwitch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ToggleSwitch.ts](https://github.com/phetsims/sun/blob/main/js/ToggleSwitch.ts) in the [sun](https://github.com/phetsims/sun) repository.

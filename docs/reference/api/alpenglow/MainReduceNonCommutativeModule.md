@@ -34,6 +34,19 @@ import { MainReduceNonCommutativeModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainReduceNonCommutativeModuleOptions {: #MainReduceNonCommutativeModuleOptions }
+
+
+```js
+import type { MainReduceNonCommutativeModuleOptions } from 'scenerystack/alpenglow';
+```
+- **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- &amp; [mainReduceNonCommutativeWGSLOptions](../alpenglow/mainReduceNonCommutativeWGSL.md#mainReduceNonCommutativeWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainReduceNonCommutativeModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainReduceNonCommutativeModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

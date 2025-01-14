@@ -103,6 +103,20 @@ Start a transition to replace our content with the new content, using Transition
 
 
 
+## Type TransitionNodeOptions {: #TransitionNodeOptions }
+
+
+```js
+import type { TransitionNodeOptions } from 'scenerystack/twixt';
+```
+- **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **useBoundsClip**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **cachedNodes**?: [Node](../scenery/Node.md)[]
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [TransitionNode.ts](https://github.com/phetsims/twixt/blob/main/js/TransitionNode.ts) in the [twixt](https://github.com/phetsims/twixt) repository.

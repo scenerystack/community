@@ -28,6 +28,31 @@ import { BeakerNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type BeakerNodeOptions {: #BeakerNodeOptions }
+
+
+```js
+import type { BeakerNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **emptyBeakerFill**?: [TPaint](../scenery/TPaint.md)
+- **solutionFill**?: [TColor](../scenery/TColor.md)
+- **solutionShadowFill**?: [TPaint](../scenery/TPaint.md)
+- **solutionGlareFill**?: [TPaint](../scenery/TPaint.md)
+- **beakerGlareFill**?: [TPaint](../scenery/TPaint.md)
+- **beakerHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **beakerWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yRadiusOfEnds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **ticksVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **tickStroke**?: [TPaint](../scenery/TPaint.md)
+- **beakerStroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numberOfTicks**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **majorTickMarkModulus**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [BeakerNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/BeakerNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

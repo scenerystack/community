@@ -39,6 +39,23 @@ Factory method for creating circle-shaped elements, sized to fit.
 
 
 
+## Type SpinningIndicatorNodeOptions {: #SpinningIndicatorNodeOptions }
+
+
+```js
+import type { SpinningIndicatorNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **diameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **speed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numberOfElements**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **elementFactory**?: ( diameter: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, numberOfElements: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [Path](../scenery/Path.md)
+- **activeColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **inactiveColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [SpinningIndicatorNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SpinningIndicatorNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

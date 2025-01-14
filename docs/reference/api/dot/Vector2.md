@@ -467,6 +467,16 @@ ImmutableVector2 vector: $\begin{bmatrix} 0\\1 \end{bmatrix}$
 
 
 
+## Type Vector2StateObject {: #Vector2StateObject }
+
+
+```js
+import type { Vector2StateObject } from 'scenerystack/dot';
+```
+StateObject&lt;typeof STATE_SCHEMA&gt;
+
+
+
 ## Source Code
 
 See the source for [Vector2.ts](https://github.com/phetsims/dot/blob/main/js/Vector2.ts) in the [dot](https://github.com/phetsims/dot) repository.

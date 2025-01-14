@@ -211,6 +211,21 @@ This should be more optimized than the general intersection routine of arbitrary
 
 
 
+## Type SerializedLine {: #SerializedLine }
+
+
+```js
+import type { SerializedLine } from 'scenerystack/kite';
+```
+- **type**: "[Line](../scenery/Line.md)"
+- **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Line.ts](https://github.com/phetsims/kite/blob/main/js/segments/Line.ts) in the [kite](https://github.com/phetsims/kite) repository.

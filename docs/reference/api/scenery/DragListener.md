@@ -263,6 +263,33 @@ See https://github.com/phetsims/scenery/issues/639
 
 
 
+## Type DragListenerOptions {: #DragListenerOptions }
+
+
+```js
+import type { DragListenerOptions } from 'scenerystack/scenery';
+```
+- **allowTouchSnag**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **applyOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **useParentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **trackAncestors**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **offsetPosition**?: OffsetPosition&lt;Listener&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **canClick**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt; &amp; [PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)&lt;Listener&gt;
+
+
+
+
+## Type PressedDragListener {: #PressedDragListener }
+
+
+```js
+import type { PressedDragListener } from 'scenerystack/scenery';
+```
+[DragListener](../scenery/DragListener.md) &amp; [PressedPressListener](../scenery/PressListener.md#PressedPressListener)
+
+
+
 ## Source Code
 
 See the source for [DragListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/DragListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

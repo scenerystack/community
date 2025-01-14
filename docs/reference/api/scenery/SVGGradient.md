@@ -54,6 +54,16 @@ persistent
 
 
 
+## Type ActiveSVGGradient {: #ActiveSVGGradient }
+
+
+```js
+import type { ActiveSVGGradient } from 'scenerystack/scenery';
+```
+WithoutNull&lt;[SVGGradient](../scenery/SVGGradient.md), "svgBlock" | "gradient"&gt;
+
+
+
 ## Source Code
 
 See the source for [SVGGradient.ts](https://github.com/phetsims/scenery/blob/main/js/display/SVGGradient.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

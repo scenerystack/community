@@ -24,6 +24,34 @@ import { ArrowButton } from 'scenerystack/sun';
 
 
 
+## Type ArrowButtonDirection {: #ArrowButtonDirection }
+
+
+```js
+import type { ArrowButtonDirection } from 'scenerystack/sun';
+```
+"up" | "down" | "left" | "right"
+
+
+
+## Type ArrowButtonOptions {: #ArrowButtonOptions }
+
+
+```js
+import type { ArrowButtonOptions } from 'scenerystack/sun';
+```
+- **arrowHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **arrowWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **arrowFill**?: [TPaint](../scenery/TPaint.md)
+- **arrowStroke**?: [TPaint](../scenery/TPaint.md)
+- **arrowLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numberOfArrows**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **arrowSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "listener"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ArrowButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/ArrowButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

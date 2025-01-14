@@ -240,6 +240,114 @@ Display.prototype.focusManager.FocusManager.pdomFocusHighlightsVisibleProperty f
 
 
 
+## Type PressedPressListener {: #PressedPressListener }
+
+
+```js
+import type { PressedPressListener } from 'scenerystack/scenery';
+```
+WithoutNull&lt;[PressListener](../scenery/PressListener.md), "pointer" | "pressedTrail"&gt;
+
+
+
+## Type PressListenerCallback {: #PressListenerCallback }
+
+
+```js
+import type { PressListenerCallback } from 'scenerystack/scenery';
+```
+[SceneryListenerCallback](../scenery/PressListener.md#SceneryListenerCallback)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
+
+
+
+## Type PressListenerCanStartPressCallback {: #PressListenerCanStartPressCallback }
+
+
+```js
+import type { PressListenerCanStartPressCallback } from 'scenerystack/scenery';
+```
+( event: [PressListenerEvent](../scenery/PressListener.md#PressListenerEvent) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+## Type PressListenerDOMEvent {: #PressListenerDOMEvent }
+
+
+```js
+import type { PressListenerDOMEvent } from 'scenerystack/scenery';
+```
+MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent
+
+
+
+## Type PressListenerEvent {: #PressListenerEvent }
+
+
+```js
+import type { PressListenerEvent } from 'scenerystack/scenery';
+```
+[SceneryEvent](../scenery/SceneryEvent.md)&lt;[PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
+
+
+
+## Type PressListenerNullableCallback {: #PressListenerNullableCallback }
+
+
+```js
+import type { PressListenerNullableCallback } from 'scenerystack/scenery';
+```
+[SceneryListenerNullableCallback](../scenery/PressListener.md#SceneryListenerNullableCallback)&lt;Listener, [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent)&gt;
+
+
+
+## Type PressListenerOptions {: #PressListenerOptions }
+
+
+```js
+import type { PressListenerOptions } from 'scenerystack/scenery';
+```
+- **press**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
+- **release**?: [PressListenerNullableCallback](../scenery/PressListener.md#PressListenerNullableCallback)&lt;Listener&gt;
+- **drag**?: [PressListenerCallback](../scenery/PressListener.md#PressListenerCallback)&lt;Listener&gt;
+- **targetNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **attach**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **mouseButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pressCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **useInputListenerCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **canStartPress**?: [PressListenerCanStartPressCallback](../scenery/PressListener.md#PressListenerCanStartPressCallback)&lt;Listener&gt;
+- **a11yLooksPressedInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **collapseDragEvents**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioFeatured**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioPressActionInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioReleaseActionInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+
+
+
+
+## Type SceneryListenerCallback {: #SceneryListenerCallback }
+
+
+General type of callback structure shared by many scenery input-listeners
+
+```js
+import type { SceneryListenerCallback } from 'scenerystack/scenery';
+```
+( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;DomEventTypes&gt;, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type SceneryListenerNullableCallback {: #SceneryListenerNullableCallback }
+
+
+```js
+import type { SceneryListenerNullableCallback } from 'scenerystack/scenery';
+```
+( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;DomEventTypes&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: Listener ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
 ## Source Code
 
 See the source for [PressListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/PressListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

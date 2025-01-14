@@ -76,6 +76,19 @@ TODO: add a helper on RenderProgram
 
 
 
+## Type SerializedRenderColorSpaceConversion {: #SerializedRenderColorSpaceConversion }
+
+
+```js
+import type { SerializedRenderColorSpaceConversion } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderColorSpaceConversion](../alpenglow/RenderColorSpaceConversion.md)"
+- **subtype**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderColorSpaceConversion.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderColorSpaceConversion.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

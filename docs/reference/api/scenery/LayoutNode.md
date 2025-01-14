@@ -42,6 +42,19 @@ Releases references
 
 
 
+## Type LayoutNodeOptions {: #LayoutNodeOptions }
+
+
+```js
+import type { LayoutNodeOptions } from 'scenerystack/scenery';
+```
+- **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **layoutOrigin**?: [Vector2](../dot/Vector2.md)
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions) &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions)
+
+
+
+
 ## Source Code
 
 See the source for [LayoutNode.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/LayoutNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

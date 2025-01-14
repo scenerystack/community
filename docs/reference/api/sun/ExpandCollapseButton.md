@@ -23,6 +23,18 @@ import { ExpandCollapseButton } from 'scenerystack/sun';
 
 
 
+## Type ExpandCollapseButtonOptions {: #ExpandCollapseButtonOptions }
+
+
+```js
+import type { ExpandCollapseButtonOptions } from 'scenerystack/sun';
+```
+- **sideLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[BooleanRectangularToggleButtonOptions](../sun/BooleanRectangularToggleButton.md#BooleanRectangularToggleButtonOptions), "cornerRadius" | "xMargin" | "yMargin" | "buttonAppearanceStrategy"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ExpandCollapseButton.ts](https://github.com/phetsims/sun/blob/main/js/ExpandCollapseButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

@@ -42,6 +42,17 @@ NOTE: The matrix returned should not be mutated. Please make a copy if needed.
 
 
 
+## Type TransformTrackerOptions {: #TransformTrackerOptions }
+
+
+```js
+import type { TransformTrackerOptions } from 'scenerystack/scenery';
+```
+- **isStatic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [TransformTracker.ts](https://github.com/phetsims/scenery/blob/main/js/util/TransformTracker.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

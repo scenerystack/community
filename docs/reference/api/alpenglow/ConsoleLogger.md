@@ -126,6 +126,23 @@ import { ConsoleLoggedThread } from 'scenerystack/alpenglow';
 
 
 
+## Type ConsoleLogInfo {: #ConsoleLogInfo }
+
+
+```js
+import type { ConsoleLogInfo } from 'scenerystack/alpenglow';
+```
+- **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **logName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **shaderName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **hasAdditionalIndex**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **type**: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **dataCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **lineToLog**: ( line: [ConsoleLoggedLine](../alpenglow/ConsoleLogger.md#ConsoleLoggedLine) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>
+
+
+
+
 ## Source Code
 
 See the source for [ConsoleLogger.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/ConsoleLogger.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

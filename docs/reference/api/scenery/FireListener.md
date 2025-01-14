@@ -79,6 +79,22 @@ This can be called manually, but can also be called through node.interruptSubtre
 
 
 
+## Type FireListenerOptions {: #FireListenerOptions }
+
+
+```js
+import type { FireListenerOptions } from 'scenerystack/scenery';
+```
+- **fire**?: ( event: [SceneryEvent](../scenery/SceneryEvent.md)&lt;MouseEvent | TouchEvent | PointerEvent | FocusEvent | KeyboardEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fireOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;ParentOptions&lt;Listener&gt;, "phetioPressActionInstrumented" | "phetioReleaseActionInstrumented"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [FireListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/FireListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

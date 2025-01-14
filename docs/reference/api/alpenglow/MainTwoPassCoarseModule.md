@@ -54,6 +54,23 @@ output
 
 
 
+## Type MainTwoPassCoarseModuleOptions {: #MainTwoPassCoarseModuleOptions }
+
+
+```js
+import type { MainTwoPassCoarseModuleOptions } from 'scenerystack/alpenglow';
+```
+- **config**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;
+- **coarseRenderableFaces**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassCoarseRenderableFace](../alpenglow/TwoPassCoarseRenderableFace.md)[]&gt;
+- **coarseEdges**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;
+- **fineRenderableFaces**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassFineRenderableFace](../alpenglow/TwoPassFineRenderableFace.md)[]&gt;
+- **fineEdges**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;
+- **addresses**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
+- &amp; [mainTwoPassCoarseWGSLOptions](../alpenglow/mainTwoPassCoarseWGSL.md#mainTwoPassCoarseWGSLOptions) &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainTwoPassCoarseModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/rasterize-two-pass/MainTwoPassCoarseModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

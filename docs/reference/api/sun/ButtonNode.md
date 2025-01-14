@@ -67,6 +67,34 @@ this, the layout won't change
 
 
 
+## Type ButtonNodeOptions {: #ButtonNodeOptions }
+
+
+Normal options, for use in optionize
+
+```js
+import type { ButtonNodeOptions } from 'scenerystack/sun';
+```
+- **content**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xAlign**?: [AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign)
+- **yAlign**?: [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)
+- **xContentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yContentOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **listenerOptions**?: [PressListenerOptions](../scenery/PressListener.md#PressListenerOptions)
+- **baseColor**?: [TPaint](../scenery/TPaint.md)
+- **disabledColor**?: [TPaint](../scenery/TPaint.md)
+- **buttonAppearanceStrategy**?: [TButtonAppearanceStrategy](../sun/TButtonAppearanceStrategy.md)
+- **buttonAppearanceStrategyOptions**?: [TButtonAppearanceStrategyOptions](../sun/TButtonAppearanceStrategy.md#TButtonAppearanceStrategyOptions)
+- **contentAppearanceStrategy**?: [TContentAppearanceStrategy](../sun/TContentAppearanceStrategy.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **contentAppearanceStrategyOptions**?: [TContentAppearanceStrategyOptions](../sun/TContentAppearanceStrategy.md#TContentAppearanceStrategyOptions)
+- **enabledAppearanceStrategy**?: EnabledAppearanceStrategy
+- &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions) &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Class FlatAppearanceStrategy {: #FlatAppearanceStrategy }
 
 

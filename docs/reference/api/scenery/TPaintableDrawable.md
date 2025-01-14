@@ -4,6 +4,18 @@
 
 
 
+## Type TPaintableDrawable {: #TPaintableDrawable }
+
+
+Interface specifically for SelfDrawables for a Paintable Node.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import type { TPaintableDrawable } from 'scenerystack/scenery';
+```
+
+
 
 
 ## Source Code

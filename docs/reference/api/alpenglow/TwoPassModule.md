@@ -58,6 +58,28 @@ import { TwoPassModule } from 'scenerystack/alpenglow';
 
 
 
+## Type TwoPassModuleOptions {: #TwoPassModuleOptions }
+
+
+```js
+import type { TwoPassModuleOptions } from 'scenerystack/alpenglow';
+```
+[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+## Type TwoPassRunSize {: #TwoPassRunSize }
+
+
+```js
+import type { TwoPassRunSize } from 'scenerystack/alpenglow';
+```
+- **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numCoarseRenderableFaces**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [TwoPassModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/rasterize-two-pass/TwoPassModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

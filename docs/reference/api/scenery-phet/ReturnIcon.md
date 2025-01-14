@@ -23,6 +23,18 @@ import { ReturnIcon } from 'scenerystack/scenery-phet';
 
 
 
+## Type ReturnIconOptions {: #ReturnIconOptions }
+
+
+```js
+import type { ReturnIconOptions } from 'scenerystack/scenery-phet';
+```
+- **height**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [PathOptions](../scenery/Path.md#PathOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ReturnIcon.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ReturnIcon.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

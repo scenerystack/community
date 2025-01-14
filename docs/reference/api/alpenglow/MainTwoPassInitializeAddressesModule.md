@@ -30,6 +30,18 @@ import { MainTwoPassInitializeAddressesModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainTwoPassInitializeAddressesModuleOptions {: #MainTwoPassInitializeAddressesModuleOptions }
+
+
+```js
+import type { MainTwoPassInitializeAddressesModuleOptions } from 'scenerystack/alpenglow';
+```
+- **addresses**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
+- &amp; [mainTwoPassInitializeAddressesWGSLOptions](../alpenglow/mainTwoPassInitializeAddressesWGSL.md#mainTwoPassInitializeAddressesWGSLOptions) &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainTwoPassInitializeAddressesModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/rasterize-two-pass/MainTwoPassInitializeAddressesModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

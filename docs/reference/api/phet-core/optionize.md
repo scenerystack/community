@@ -15,6 +15,15 @@ progress on this pattern.
 @author Sam Reid (PhET Interactive Simulations)
 @author Michael Kauzmann (PhET Interactive Simulations)
 
+## Type EmptySelfOptions {: #EmptySelfOptions }
+
+
+```js
+import type { EmptySelfOptions } from 'scenerystack/phet-core';
+```
+- **_emptySelfOptionsKey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span>
+
+
 
 
 ## Source Code

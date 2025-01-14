@@ -51,6 +51,16 @@ To listen to when the action has completed.
 
 
 
+## Type ActionOptions {: #ActionOptions }
+
+
+```js
+import type { ActionOptions } from 'scenerystack/tandem';
+```
+StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
+
+
+
 ## Source Code
 
 See the source for [PhetioAction.ts](https://github.com/phetsims/tandem/blob/main/js/PhetioAction.ts) in the [tandem](https://github.com/phetsims/tandem) repository.

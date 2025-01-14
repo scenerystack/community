@@ -42,6 +42,18 @@ Without scanning the entire path, returns whether we can guarantee that this pat
 
 
 
+## Type SerializedRenderPath {: #SerializedRenderPath }
+
+
+```js
+import type { SerializedRenderPath } from 'scenerystack/alpenglow';
+```
+- **fillRule**: [FillRule](../alpenglow/FillRule.md)
+- **subpaths**: { x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }[][]
+
+
+
+
 ## Source Code
 
 See the source for [RenderPath.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPath.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

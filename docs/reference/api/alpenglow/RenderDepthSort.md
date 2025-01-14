@@ -47,6 +47,23 @@ splitting into each possible non-zero-area combination.
 
 
 
+## Type SerializedRenderDepthSort {: #SerializedRenderDepthSort }
+
+
+```js
+import type { SerializedRenderDepthSort } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderDepthSort](../alpenglow/RenderDepthSort.md)"
+- **items**: {
+    program: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram);
+    pointA: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[];
+    pointB: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[];
+    pointC: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[];
+  }[]
+
+
+
+
 ## Source Code
 
 See the source for [RenderDepthSort.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderDepthSort.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

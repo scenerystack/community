@@ -24,6 +24,22 @@ import { ScreenIcon } from 'scenerystack/sim';
 
 
 
+## Type ScreenIconOptions {: #ScreenIconOptions }
+
+
+```js
+import type { ScreenIconOptions } from 'scenerystack/sim';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- **maxIconWidthProportion**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxIconHeightProportion**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fill**?: [TColor](../scenery/TColor.md)
+- **stroke**?: [TColor](../scenery/TColor.md)
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ScreenIcon.ts](https://github.com/phetsims/joist/blob/main/js/ScreenIcon.ts) in the [joist](https://github.com/phetsims/joist) repository.

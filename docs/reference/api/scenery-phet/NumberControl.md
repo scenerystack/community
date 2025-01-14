@@ -76,6 +76,30 @@ Like createLayoutFunction1, but the title and value go all the way to the edges.
 
 
 
+## Type NumberControlOptions {: #NumberControlOptions }
+
+
+```js
+import type { NumberControlOptions } from 'scenerystack/scenery-phet';
+```
+- **startCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **endCallback**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **delta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **includeArrowButtons**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **numberDisplayOptions**?: [NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)
+- **sliderOptions**?: NumberControlSliderOptions
+- **arrowButtonOptions**?: StrictOmit&lt;[ArrowButtonOptions](../sun/ArrowButton.md#ArrowButtonOptions), "fireOnDown"&gt; &amp; { enabledEpsilon?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; leftStart?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; leftEnd?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; rightStart?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; rightEnd?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> }
+- **titleNodeOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
+- **enabledRangeProperty**?: [SliderOptions](../sun/Slider.md#SliderOptions)[ 'enabledRangeProperty' ]
+- **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+- **layoutFunction**?: LayoutFunction
+- &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[NodeOptions](../scenery/Node.md#NodeOptions)&gt;, "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [NumberControl.ts](https://github.com/phetsims/scenery-phet/blob/main/js/NumberControl.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

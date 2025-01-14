@@ -187,6 +187,50 @@ Disposes this box, releasing listeners and any references to an AlignGroup
 
 
 
+## Type AlignBoxOptions {: #AlignBoxOptions }
+
+
+```js
+import type { AlignBoxOptions } from 'scenerystack/scenery';
+```
+- **alignBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **alignBoundsProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt;
+- **align**?: [AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign) &amp; [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)
+- **xAlign**?: [AlignBoxXAlign](../scenery/AlignBox.md#AlignBoxXAlign)
+- **yAlign**?: [AlignBoxYAlign](../scenery/AlignBox.md#AlignBoxYAlign)
+- **margin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **leftMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rightMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **topMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bottomMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **group**?: [AlignGroup](../scenery/AlignGroup.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;ParentOptions, "children"&gt;
+
+
+
+
+## Type AlignBoxXAlign {: #AlignBoxXAlign }
+
+
+```js
+import type { AlignBoxXAlign } from 'scenerystack/scenery';
+```
+( typeof [AlignBoxXAlignValues](../scenery/AlignBox.md#AlignBoxXAlignValues) )[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>]
+
+
+
+## Type AlignBoxYAlign {: #AlignBoxYAlign }
+
+
+```js
+import type { AlignBoxYAlign } from 'scenerystack/scenery';
+```
+( typeof [AlignBoxYAlignValues](../scenery/AlignBox.md#AlignBoxYAlignValues) )[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>]
+
+
+
 ## Source Code
 
 See the source for [AlignBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/AlignBox.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

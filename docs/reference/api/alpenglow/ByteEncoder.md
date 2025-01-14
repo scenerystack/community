@@ -120,6 +120,46 @@ _.range( 0, a.length + b.length ).map( k =&gt; {
 
 
 
+## Type F32 {: #F32 }
+
+
+```js
+import type { F32 } from 'scenerystack/alpenglow';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+## Type I32 {: #I32 }
+
+
+```js
+import type { I32 } from 'scenerystack/alpenglow';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+## Type U32 {: #U32 }
+
+
+```js
+import type { U32 } from 'scenerystack/alpenglow';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+## Type U8 {: #U8 }
+
+
+```js
+import type { U8 } from 'scenerystack/alpenglow';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
 ## Source Code
 
 See the source for [ByteEncoder.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/ByteEncoder.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -31,6 +31,25 @@ under other layers, so use caution for coordinate transformations.
 
 
 
+## Type RectangularRadioButtonGroupOptions {: #RectangularRadioButtonGroupOptions }
+
+
+```js
+import type { RectangularRadioButtonGroupOptions } from 'scenerystack/sun';
+```
+- **soundPlayers**?: TSoundPlayer[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **labelAlign**?: RectangularRadioButtonLabelAlign
+- **labelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **radioButtonOptions**?: StrictOmit&lt;[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions), "soundPlayer" | "touchAreaXDilation" | "touchAreaYDilation" | "mouseAreaXDilation" | "mouseAreaYDilation"&gt;
+- &amp; StrictOmit&lt;TrimmedParentOptions, "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [RectangularRadioButtonGroup.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularRadioButtonGroup.ts) in the [sun](https://github.com/phetsims/sun) repository.

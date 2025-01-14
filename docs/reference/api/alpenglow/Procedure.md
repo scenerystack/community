@@ -38,6 +38,17 @@ Should be callable repeatedly (TODO test)
 
 
 
+## Type ProcedureExecuteOptions {: #ProcedureExecuteOptions }
+
+
+```js
+import type { ProcedureExecuteOptions } from 'scenerystack/alpenglow';
+```
+- **separateComputePasses**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [Procedure.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/Procedure.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

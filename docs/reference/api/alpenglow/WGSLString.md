@@ -18,6 +18,76 @@ import { WGSLString } from 'scenerystack/alpenglow';
 
 
 
+## Type WGSLBinaryExpression {: #WGSLBinaryExpression }
+
+
+```js
+import type { WGSLBinaryExpression } from 'scenerystack/alpenglow';
+```
+( a: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression), b: [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression) ) =&gt; [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
+## Type WGSLExpression {: #WGSLExpression }
+
+
+```js
+import type { WGSLExpression } from 'scenerystack/alpenglow';
+```
+[WGSLString](../alpenglow/WGSLString.md)
+
+
+
+## Type WGSLExpressionBool {: #WGSLExpressionBool }
+
+
+```js
+import type { WGSLExpressionBool } from 'scenerystack/alpenglow';
+```
+[WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
+## Type WGSLExpressionF32 {: #WGSLExpressionF32 }
+
+
+```js
+import type { WGSLExpressionF32 } from 'scenerystack/alpenglow';
+```
+[WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
+## Type WGSLExpressionI32 {: #WGSLExpressionI32 }
+
+
+```js
+import type { WGSLExpressionI32 } from 'scenerystack/alpenglow';
+```
+[WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
+## Type WGSLExpressionT {: #WGSLExpressionT }
+
+
+```js
+import type { WGSLExpressionT } from 'scenerystack/alpenglow';
+```
+[WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
+## Type WGSLExpressionU32 {: #WGSLExpressionU32 }
+
+
+```js
+import type { WGSLExpressionU32 } from 'scenerystack/alpenglow';
+```
+[WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+
+
+
 ## Class WGSLMainModule {: #WGSLMainModule }
 
 
@@ -52,6 +122,16 @@ import { WGSLModule } from 'scenerystack/alpenglow';
 
 
 
+## Type WGSLModuleDeclarations {: #WGSLModuleDeclarations }
+
+
+```js
+import type { WGSLModuleDeclarations } from 'scenerystack/alpenglow';
+```
+[WGSLString](../alpenglow/WGSLString.md)
+
+
+
 ## Class WGSLReferenceModule {: #WGSLReferenceModule }
 
 
@@ -81,6 +161,16 @@ import { WGSLSlot } from 'scenerystack/alpenglow';
 ### Instance Methods
 
 #### withBlueprint( blueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WGSLSlot-withBlueprint data-toc-label='WGSLSlot-withBlueprint' }
+
+
+
+## Type WGSLStatements {: #WGSLStatements }
+
+
+```js
+import type { WGSLStatements } from 'scenerystack/alpenglow';
+```
+[WGSLString](../alpenglow/WGSLString.md)
 
 
 
@@ -149,6 +239,26 @@ import { WGSLStringModule } from 'scenerystack/alpenglow';
 ### Instance Methods
 
 #### withBlueprint( blueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WGSLStringModule-withBlueprint data-toc-label='WGSLStringModule-withBlueprint' }
+
+
+
+## Type WGSLType {: #WGSLType }
+
+
+```js
+import type { WGSLType } from 'scenerystack/alpenglow';
+```
+[WGSLString](../alpenglow/WGSLString.md)
+
+
+
+## Type WGSLVariableName {: #WGSLVariableName }
+
+
+```js
+import type { WGSLVariableName } from 'scenerystack/alpenglow';
+```
+[WGSLString](../alpenglow/WGSLString.md)
 
 
 

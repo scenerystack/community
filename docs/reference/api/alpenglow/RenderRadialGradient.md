@@ -72,6 +72,25 @@ import { RenderRadialGradientLogic } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderRadialGradient {: #SerializedRenderRadialGradient }
+
+
+```js
+import type { SerializedRenderRadialGradient } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderRadialGradient](../alpenglow/RenderRadialGradient.md)"
+- **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **start**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **startRadius**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **end**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **endRadius**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **stops**: [SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)[]
+- **extend**: [RenderExtend](../alpenglow/RenderExtend.md)
+- **accuracy**: [RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)
+
+
+
+
 ## Source Code
 
 See the source for [RenderRadialGradient.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderRadialGradient.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

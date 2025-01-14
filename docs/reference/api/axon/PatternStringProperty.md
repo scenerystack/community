@@ -69,6 +69,33 @@ import { PatternStringProperty } from 'scenerystack/axon';
 
 
 
+## Type PatternStringPropertyOptions {: #PatternStringPropertyOptions }
+
+
+```js
+import type { PatternStringPropertyOptions } from 'scenerystack/axon';
+```
+- **decimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | Record&lt;keyof Values, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- **formatNames**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
+- &amp; ( KeysNotMatching&lt;Values, StringNumberOrProperty&gt; extends <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span> ? {
+    // Maps the input <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>/numeric values (depending on the [Property](../axon/Property.md) type) to a <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> or <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>. Decimal places will be
+    // applied after <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> step (if it returns a <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>).
+    //
+    // For example:
+    // | const stringProperty = new [TinyProperty](../axon/TinyProperty.md)( '{{grams}} grams' );
+    // | const kilogramsProperty = new [TinyProperty](../axon/TinyProperty.md)( 5.12 );
+    // | new [PatternStringProperty](../axon/PatternStringProperty.md)( stringProperty, { preposition: kilogramsProperty }, {
+    // |   maps: { preposition: kilograms =&gt; kilograms / 1000 }
+    // | } );
+    maps?: MapsType&lt;Values&gt;;
+  } : {
+      // Make <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> [required](../phet-core/required.md) if someone's passing in something that is of a non-<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>/<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> type
+      maps: MapsType&lt;Values&gt;;
+    } ) &amp; [DerivedStringPropertyOptions](../axon/DerivedStringProperty.md#DerivedStringPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+
+
+
+
 ## Source Code
 
 See the source for [PatternStringProperty.ts](https://github.com/phetsims/axon/blob/main/js/PatternStringProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

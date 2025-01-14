@@ -28,6 +28,18 @@ import { Vector2Property } from 'scenerystack/dot';
 
 
 
+## Type Vector2PropertyOptions {: #Vector2PropertyOptions }
+
+
+```js
+import type { Vector2PropertyOptions } from 'scenerystack/dot';
+```
+- **validBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Vector2](../dot/Vector2.md)&gt;, "phetioValueType" | "valueType"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Vector2Property.ts](https://github.com/phetsims/dot/blob/main/js/Vector2Property.ts) in the [dot](https://github.com/phetsims/dot) repository.

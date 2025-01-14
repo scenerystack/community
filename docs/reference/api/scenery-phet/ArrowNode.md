@@ -44,6 +44,24 @@ Sets whether the arrow has one or two heads.
 
 
 
+## Type ArrowNodeOptions {: #ArrowNodeOptions }
+
+
+```js
+import type { ArrowNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **headHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **headWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **tailWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **isHeadDynamic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **scaleTailToo**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fractionalHeadHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **doubleHead**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [PathOptions](../scenery/Path.md#PathOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ArrowNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ArrowNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

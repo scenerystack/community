@@ -29,6 +29,25 @@ import { SliderTick } from 'scenerystack/sun';
 
 
 
+## Type SliderTickOptions {: #SliderTickOptions }
+
+
+```js
+import type { SliderTickOptions } from 'scenerystack/sun';
+```
+- **tickLabelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **majorTickLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **majorTickStroke**?: [TPaint](../scenery/TPaint.md)
+- **majorTickLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minorTickLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minorTickStroke**?: [TPaint](../scenery/TPaint.md)
+- **minorTickLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **setTickInitialPoint**?: ( trackBounds: [Bounds2](../dot/Bounds2.md), tickLength: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [Vector2](../dot/Vector2.md)
+- **positionLabel**?: ( label: [Layoutable](../scenery/LayoutProxy.md#Layoutable), tickBounds: [Bounds2](../dot/Bounds2.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+
 ## Source Code
 
 See the source for [SliderTick.ts](https://github.com/phetsims/sun/blob/main/js/SliderTick.ts) in the [sun](https://github.com/phetsims/sun) repository.

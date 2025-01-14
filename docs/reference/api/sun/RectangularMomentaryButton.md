@@ -26,6 +26,19 @@ import { RectangularMomentaryButton } from 'scenerystack/sun';
 
 
 
+## Type RectangularMomentaryButtonOptions {: #RectangularMomentaryButtonOptions }
+
+
+```js
+import type { RectangularMomentaryButtonOptions } from 'scenerystack/sun';
+```
+- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: TSoundPlayer
+- &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RectangularMomentaryButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularMomentaryButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

@@ -134,6 +134,23 @@ Returns whether this Path has an associated Shape (instead of no shape, represen
 
 
 
+## Type LineOptions {: #LineOptions }
+
+
+```js
+import type { LineOptions } from 'scenerystack/scenery';
+```
+- **p1**?: [Vector2](../dot/Vector2.md)
+- **p2**?: [Vector2](../dot/Vector2.md)
+- **x1**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **y1**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **x2**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **y2**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Line.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Line.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -48,6 +48,19 @@ numerical value of the keys entered by the user
 
 
 
+## Type NumberAccumulatorOptions {: #NumberAccumulatorOptions }
+
+
+```js
+import type { NumberAccumulatorOptions } from 'scenerystack/scenery-phet';
+```
+- **maxDigitsRightOfMantissa**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxDigits**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)" | "tandemNameSuffix"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [NumberAccumulator.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/NumberAccumulator.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

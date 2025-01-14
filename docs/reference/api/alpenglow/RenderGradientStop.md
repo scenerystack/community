@@ -30,6 +30,18 @@ import { RenderGradientStop } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderGradientStop {: #SerializedRenderGradientStop }
+
+
+```js
+import type { SerializedRenderGradientStop } from 'scenerystack/alpenglow';
+```
+- **ratio**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderGradientStop.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderGradientStop.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

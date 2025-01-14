@@ -2014,6 +2014,126 @@ A mapping of all of the default options provided to Node
 
 
 
+## Type NodeBoundsBasedTranslationOptions {: #NodeBoundsBasedTranslationOptions }
+
+
+Isolated so that we can delay options that are based on bounds of the Node to after construction.
+See https://github.com/phetsims/scenery/issues/1332
+
+```js
+import type { NodeBoundsBasedTranslationOptions } from 'scenerystack/scenery';
+```
+- **leftTop**?: [Vector2](../dot/Vector2.md)
+- **centerTop**?: [Vector2](../dot/Vector2.md)
+- **rightTop**?: [Vector2](../dot/Vector2.md)
+- **leftCenter**?: [Vector2](../dot/Vector2.md)
+- **center**?: [Vector2](../dot/Vector2.md)
+- **rightCenter**?: [Vector2](../dot/Vector2.md)
+- **leftBottom**?: [Vector2](../dot/Vector2.md)
+- **centerBottom**?: [Vector2](../dot/Vector2.md)
+- **rightBottom**?: [Vector2](../dot/Vector2.md)
+- **left**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **right**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **top**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bottom**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **centerX**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **centerY**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
+## Type NodeOptions {: #NodeOptions }
+
+
+All base Node options
+
+```js
+import type { NodeOptions } from 'scenerystack/scenery';
+```
+- **children**?: [Node](../scenery/Node.md)[]
+- **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **phetioVisiblePropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **visibleProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **visible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pickableProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **phetioEnabledPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **enabledProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **enabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioInputEnabledPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **inputEnabledProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **inputEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **inputListeners**?: [TInputListener](../scenery/TInputListener.md)[]
+- **opacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **filters**?: [Filter](../scenery/Filter.md)[]
+- **excludeInvisibleChildrenFromBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **interruptSubtreeOnInvisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **layoutOptions**?: [TLayoutOptions](../scenery/TLayoutOptions.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **localBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **maxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **maxHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **renderer**?: [RendererType](../scenery/Node.md#RendererType)
+- **layerSplit**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **usesOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **cssTransform**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **excludeInvisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **webglScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **preventFit**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **mouseArea**?: [Shape](../kite/Shape.md) | [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **touchArea**?: [Shape](../kite/Shape.md) | [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **clipArea**?: [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **transformBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **visiblePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- **enabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- **inputEnabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- &amp; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions) &amp; [NodeTransformOptions](../scenery/Node.md#NodeTransformOptions)
+
+
+
+
+## Type NodeTransformOptions {: #NodeTransformOptions }
+
+
+All transform options (includes translation options)
+
+```js
+import type { NodeTransformOptions } from 'scenerystack/scenery';
+```
+- **matrix**?: [Matrix3](../dot/Matrix3.md)
+- **rotation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **scale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [Vector2](../dot/Vector2.md)
+- &amp; [NodeTranslationOptions](../scenery/Node.md#NodeTranslationOptions)
+
+
+
+
+## Type NodeTranslationOptions {: #NodeTranslationOptions }
+
+
+All translation options (includes those based on bounds and those that are not)
+
+```js
+import type { NodeTranslationOptions } from 'scenerystack/scenery';
+```
+- **translation**?: [Vector2](../dot/Vector2.md)
+- **x**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **y**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeBoundsBasedTranslationOptions](../scenery/Node.md#NodeBoundsBasedTranslationOptions)
+
+
+
+
+## Type RendererType {: #RendererType }
+
+
+```js
+import type { RendererType } from 'scenerystack/scenery';
+```
+"svg" | "canvas" | "webgl" | "dom" | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
 ## Source Code
 
 See the source for [Node.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Node.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

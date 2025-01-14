@@ -23,6 +23,16 @@ import { BooleanRoundStickyToggleButton } from 'scenerystack/sun';
 
 
 
+## Type BooleanRoundStickyToggleButtonOptions {: #BooleanRoundStickyToggleButtonOptions }
+
+
+```js
+import type { BooleanRoundStickyToggleButtonOptions } from 'scenerystack/sun';
+```
+[RoundStickyToggleButtonOptions](../sun/RoundStickyToggleButton.md#RoundStickyToggleButtonOptions)
+
+
+
 ## Source Code
 
 See the source for [BooleanRoundStickyToggleButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/BooleanRoundStickyToggleButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

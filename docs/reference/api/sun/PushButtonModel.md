@@ -45,6 +45,34 @@ used by ResetAllButton to call functions during reset start/end
 
 
 
+## Type PushButtonListener {: #PushButtonListener }
+
+
+```js
+import type { PushButtonListener } from 'scenerystack/sun';
+```
+() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type PushButtonModelOptions {: #PushButtonModelOptions }
+
+
+```js
+import type { PushButtonModelOptions } from 'scenerystack/sun';
+```
+- **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **listener**?: [PushButtonListener](../sun/PushButtonModel.md#PushButtonListener) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **interruptListener**?: ( ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fireOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **phetioReadOnly**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
+
+
+
+
 ## Source Code
 
 See the source for [PushButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/PushButtonModel.ts) in the [sun](https://github.com/phetsims/sun) repository.

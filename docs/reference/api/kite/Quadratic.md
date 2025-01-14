@@ -211,6 +211,23 @@ to a quadratic, but generally that shouldn't be done.
 
 
 
+## Type SerializedQuadratic {: #SerializedQuadratic }
+
+
+```js
+import type { SerializedQuadratic } from 'scenerystack/kite';
+```
+- **type**: "[Quadratic](../kite/Quadratic.md)"
+- **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **controlX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **controlY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Quadratic.ts](https://github.com/phetsims/kite/blob/main/js/segments/Quadratic.ts) in the [kite](https://github.com/phetsims/kite) repository.

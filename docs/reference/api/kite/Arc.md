@@ -290,6 +290,23 @@ the middlePoint somewhere between the two.
 
 
 
+## Type SerializedArc {: #SerializedArc }
+
+
+```js
+import type { SerializedArc } from 'scenerystack/kite';
+```
+- **type**: "[Arc](../kite/Arc.md)"
+- **centerX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **centerY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **radius**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **startAngle**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endAngle**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **anticlockwise**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [Arc.ts](https://github.com/phetsims/kite/blob/main/js/segments/Arc.ts) in the [kite](https://github.com/phetsims/kite) repository.

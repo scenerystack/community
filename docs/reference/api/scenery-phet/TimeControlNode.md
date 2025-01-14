@@ -36,6 +36,24 @@ push button for play/pause and (optionally) step forward, step back
 
 
 
+## Type TimeControlNodeOptions {: #TimeControlNodeOptions }
+
+
+```js
+import type { TimeControlNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **timeSpeedProperty**?: [EnumerationProperty](../axon/EnumerationProperty.md)&lt;[TimeSpeed](../scenery-phet/TimeSpeed.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **timeSpeeds**?: [TimeSpeed](../scenery-phet/TimeSpeed.md)[]
+- **speedRadioButtonGroupPlacement**?: "left" | "right" | "top" | "bottom"
+- **playPauseStepButtonOptions**?: [PlayPauseStepButtonGroupOptions](../scenery-phet/PlayPauseStepButtonGroup.md#PlayPauseStepButtonGroupOptions)
+- **speedRadioButtonGroupOptions**?: StrictOmit&lt;[TimeSpeedRadioButtonGroupOptions](../scenery-phet/TimeSpeedRadioButtonGroup.md#TimeSpeedRadioButtonGroupOptions), "[tandem](../tandem/tandem.md)"&gt;
+- **flowBoxAlign**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign)
+- **flowBoxSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [TimeControlNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/TimeControlNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

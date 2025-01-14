@@ -23,6 +23,16 @@ import { InteractiveHighlightingNode } from 'scenerystack/scenery';
 
 
 
+## Type InteractiveHighlightingNodeOptions {: #InteractiveHighlightingNodeOptions }
+
+
+```js
+import type { InteractiveHighlightingNodeOptions } from 'scenerystack/scenery';
+```
+[InteractiveHighlightingOptions](../scenery/InteractiveHighlighting.md#InteractiveHighlightingOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
 ## Source Code
 
 See the source for [InteractiveHighlightingNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/InteractiveHighlightingNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

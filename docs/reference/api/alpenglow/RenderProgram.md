@@ -157,6 +157,29 @@ Global flag for controlling whether simplification happens. Useful for debugging
 
 
 
+## Type RenderEvaluator {: #RenderEvaluator }
+
+
+Output should be chained (the `output` parameter should be returned, for convenience)
+
+```js
+import type { RenderEvaluator } from 'scenerystack/alpenglow';
+```
+( context: [RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md), output: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)
+
+
+
+## Type SerializedRenderProgram {: #SerializedRenderProgram }
+
+
+```js
+import type { SerializedRenderProgram } from 'scenerystack/alpenglow';
+```
+- **type**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+
+
+
+
 ## Source Code
 
 See the source for [RenderProgram.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderProgram.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

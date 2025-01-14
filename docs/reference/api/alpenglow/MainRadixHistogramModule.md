@@ -34,6 +34,19 @@ import { MainRadixHistogramModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainRadixHistogramModuleOptions {: #MainRadixHistogramModuleOptions }
+
+
+```js
+import type { MainRadixHistogramModuleOptions } from 'scenerystack/alpenglow';
+```
+- **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+- &amp; [mainRadixHistogramWGSLOptions](../alpenglow/mainRadixHistogramWGSL.md#mainRadixHistogramWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainRadixHistogramModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainRadixHistogramModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -23,6 +23,16 @@ import { VoicingRichText } from 'scenerystack/scenery';
 
 
 
+## Type VoicingRichTextOptions {: #VoicingRichTextOptions }
+
+
+```js
+import type { VoicingRichTextOptions } from 'scenerystack/scenery';
+```
+[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; StrictOmit&lt;[RichTextOptions](../scenery/RichText.md#RichTextOptions), "focusHighlight"&gt;
+
+
+
 ## Source Code
 
 See the source for [VoicingRichText.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/VoicingRichText.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

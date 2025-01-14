@@ -101,6 +101,16 @@ TODO: consider adding the other approach to dynamic offsets?
 
 
 
+## Type PreferredCanvasFormat {: #PreferredCanvasFormat }
+
+
+```js
+import type { PreferredCanvasFormat } from 'scenerystack/alpenglow';
+```
+"bgra8unorm" | "rgba8unorm"
+
+
+
 ## Source Code
 
 See the source for [WebGPUAPI.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/WebGPUAPI.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

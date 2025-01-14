@@ -24,6 +24,26 @@ import { MarginLayoutCell } from 'scenerystack/scenery';
 
 
 
+## Type MarginLayout {: #MarginLayout }
+
+
+Interface expected to be overridden by subtypes (GridCell, FlowCell)
+
+```js
+import type { MarginLayout } from 'scenerystack/scenery';
+```
+- **_leftMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_rightMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_topMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_bottomMargin**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_minContentWidth**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_minContentHeight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_maxContentWidth**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **_maxContentHeight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
+
 ## Source Code
 
 See the source for [MarginLayoutCell.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutCell.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

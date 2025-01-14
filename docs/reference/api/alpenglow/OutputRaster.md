@@ -6,6 +6,15 @@ Interface for an output raster
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type OutputRaster {: #OutputRaster }
+
+
+```js
+import type { OutputRaster } from 'scenerystack/alpenglow';
+```
+- **colorConverter**: [RasterColorConverter](../alpenglow/RasterColorConverter.md)
+
+
 
 
 ## Source Code

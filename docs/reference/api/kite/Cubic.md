@@ -260,6 +260,25 @@ to a quadratic, but generally that shouldn't be done.
 
 
 
+## Type SerializedCubic {: #SerializedCubic }
+
+
+```js
+import type { SerializedCubic } from 'scenerystack/kite';
+```
+- **type**: "[Cubic](../kite/Cubic.md)"
+- **startX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **startY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **control1X**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **control1Y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **control2X**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **control2Y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Cubic.ts](https://github.com/phetsims/kite/blob/main/js/segments/Cubic.ts) in the [kite](https://github.com/phetsims/kite) repository.

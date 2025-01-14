@@ -41,6 +41,16 @@ Wraps a dynamic string in RichText markup that will display the string in the sa
 
 
 
+## Type MathSymbolFontOptions {: #MathSymbolFontOptions }
+
+
+```js
+import type { MathSymbolFontOptions } from 'scenerystack/scenery-phet';
+```
+StrictOmit&lt;[FontOptions](../scenery/Font.md#FontOptions), "family"&gt;
+
+
+
 ## Source Code
 
 See the source for [MathSymbolFont.ts](https://github.com/phetsims/scenery-phet/blob/main/js/MathSymbolFont.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

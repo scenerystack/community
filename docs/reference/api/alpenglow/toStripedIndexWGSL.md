@@ -6,6 +6,16 @@ Converts an index from a normal (blocked) order to a striped order (for improved
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type toStripedIndexWGSLOptions {: #toStripedIndexWGSLOptions }
+
+
+```js
+import type { toStripedIndexWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **i**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+- &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
+
+
 
 
 ## Source Code

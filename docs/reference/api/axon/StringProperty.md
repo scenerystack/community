@@ -23,6 +23,16 @@ import { StringProperty } from 'scenerystack/axon';
 
 
 
+## Type StringPropertyOptions {: #StringPropertyOptions }
+
+
+```js
+import type { StringPropertyOptions } from 'scenerystack/axon';
+```
+StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;, "valueType" | "phetioValueType"&gt;
+
+
+
 ## Source Code
 
 See the source for [StringProperty.ts](https://github.com/phetsims/axon/blob/main/js/StringProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

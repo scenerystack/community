@@ -348,6 +348,75 @@ Text and RichText currently use the same tandem name for their stringProperty.
 
 
 
+## Type RichTextAlign {: #RichTextAlign }
+
+
+```js
+import type { RichTextAlign } from 'scenerystack/scenery';
+```
+"left" | "center" | "right"
+
+
+
+## Type RichTextHref {: #RichTextHref }
+
+
+```js
+import type { RichTextHref } from 'scenerystack/scenery';
+```
+( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+
+
+
+## Type RichTextLinks {: #RichTextLinks }
+
+
+```js
+import type { RichTextLinks } from 'scenerystack/scenery';
+```
+RichTextLinksObject | true
+
+
+
+## Type RichTextOptions {: #RichTextOptions }
+
+
+```js
+import type { RichTextOptions } from 'scenerystack/scenery';
+```
+- **boundsMethod**?: [TextBoundsMethod](../scenery/Text.md#TextBoundsMethod)
+- **font**?: [Font](../scenery/Font.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **fill**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **subScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **subXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **subYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **supScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **supXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **supYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **capHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **underlineLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **underlineHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **strikethroughLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **strikethroughHeightScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **linkFill**?: [TPaint](../scenery/TPaint.md)
+- **linkEventsHandled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **links**?: [RichTextLinks](../scenery/RichText.md#RichTextLinks)
+- **nodes**?: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [Node](../scenery/Node.md)&gt;
+- **tags**?: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, ( node: [Node](../scenery/Node.md) ) =&gt; [Node](../scenery/Node.md)&gt;
+- **replaceNewlines**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **align**?: [RichTextAlign](../scenery/RichText.md#RichTextAlign)
+- **leading**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lineWrap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | "stretch" | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **stringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **stringPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+- **string**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RichText.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/RichText.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

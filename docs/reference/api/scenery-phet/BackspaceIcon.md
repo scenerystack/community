@@ -24,6 +24,18 @@ import { BackspaceIcon } from 'scenerystack/scenery-phet';
 
 
 
+## Type BackspaceIconOptions {: #BackspaceIconOptions }
+
+
+```js
+import type { BackspaceIconOptions } from 'scenerystack/scenery-phet';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- &amp; [PathOptions](../scenery/Path.md#PathOptions)
+
+
+
+
 ## Source Code
 
 See the source for [BackspaceIcon.ts](https://github.com/phetsims/scenery-phet/blob/main/js/BackspaceIcon.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

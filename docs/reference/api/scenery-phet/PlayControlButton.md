@@ -29,6 +29,24 @@ import { PlayControlButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type PlayControlButtonOptions {: #PlayControlButtonOptions }
+
+
+```js
+import type { PlayControlButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **scaleFactorWhenNotPlaying**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **includeGlobalHotkey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **startPlayingLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)
+- **endPlayingLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: TSoundPlayer
+- &amp; [BooleanRoundToggleButtonOptions](../sun/BooleanRoundToggleButton.md#BooleanRoundToggleButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [PlayControlButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/PlayControlButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -23,6 +23,25 @@ import { LevelCompletedNode } from 'scenerystack/vegas';
 
 
 
+## Type LevelCompletedNodeOptions {: #LevelCompletedNodeOptions }
+
+
+```js
+import type { LevelCompletedNodeOptions } from 'scenerystack/vegas';
+```
+- **levelVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **titleFont**?: [Font](../scenery/Font.md)
+- **infoFont**?: [Font](../scenery/Font.md)
+- **buttonFont**?: [Font](../scenery/Font.md)
+- **buttonFill**?: [TColor](../scenery/TColor.md)
+- **starDiameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **contentMaxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [PanelOptions](../sun/Panel.md#PanelOptions)
+
+
+
+
 ## Source Code
 
 See the source for [LevelCompletedNode.ts](https://github.com/phetsims/vegas/blob/main/js/LevelCompletedNode.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

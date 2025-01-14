@@ -26,6 +26,19 @@ import { RoundMomentaryButton } from 'scenerystack/sun';
 
 
 
+## Type RoundMomentaryButtonOptions {: #RoundMomentaryButtonOptions }
+
+
+```js
+import type { RoundMomentaryButtonOptions } from 'scenerystack/sun';
+```
+- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: TSoundPlayer
+- &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RoundMomentaryButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RoundMomentaryButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

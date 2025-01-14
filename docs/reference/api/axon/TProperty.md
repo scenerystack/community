@@ -4,6 +4,16 @@
 
 
 
+## Type TProperty {: #TProperty }
+
+
+See comments in Property.ts / TinyProperty.ts
+
+```js
+import type { TProperty } from 'scenerystack/axon';
+```
+StrictOmit&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;, "value"&gt; &amp; {  }
+
 
 
 ## Source Code

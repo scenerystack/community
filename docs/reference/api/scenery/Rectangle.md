@@ -236,6 +236,26 @@ See Rectangle's constructor for detailed parameter information.
 
 
 
+## Type RectangleOptions {: #RectangleOptions }
+
+
+```js
+import type { RectangleOptions } from 'scenerystack/scenery';
+```
+- **rectBounds**?: [Bounds2](../dot/Bounds2.md)
+- **rectSize**?: [Dimension2](../dot/Dimension2.md)
+- **rectX**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rectY**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rectWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rectHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerXRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerYRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;ParentOptions, "shape" | "shapeProperty"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Rectangle.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Rectangle.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

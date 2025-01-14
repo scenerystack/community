@@ -74,6 +74,20 @@ the usual preventDefault(). If true, we'll set a flag internally so that we don'
 
 
 
+## Type DOMOptions {: #DOMOptions }
+
+
+```js
+import type { DOMOptions } from 'scenerystack/scenery';
+```
+- **element**?: Element
+- **preventTransform**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **allowInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [DOM.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/DOM.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

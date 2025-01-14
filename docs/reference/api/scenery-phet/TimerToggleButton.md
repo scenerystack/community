@@ -22,6 +22,16 @@ import { TimerToggleButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type TimerToggleButtonOptions {: #TimerToggleButtonOptions }
+
+
+```js
+import type { TimerToggleButtonOptions } from 'scenerystack/scenery-phet';
+```
+[BooleanRectangularToggleButtonOptions](../sun/BooleanRectangularToggleButton.md#BooleanRectangularToggleButtonOptions)
+
+
+
 ## Source Code
 
 See the source for [TimerToggleButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/TimerToggleButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

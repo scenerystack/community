@@ -25,6 +25,18 @@ import { BackButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type BackButtonOptions {: #BackButtonOptions }
+
+
+```js
+import type { BackButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **soundPlayer**?: TSoundPlayer
+- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [BackButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/BackButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -302,6 +302,25 @@ adapted from http://www.w3.org/TR/SVG/implnote.html#PathElementImplementationNot
 
 
 
+## Type SerializedEllipticalArc {: #SerializedEllipticalArc }
+
+
+```js
+import type { SerializedEllipticalArc } from 'scenerystack/kite';
+```
+- **type**: "[EllipticalArc](../kite/EllipticalArc.md)"
+- **centerX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **centerY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **radiusX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **radiusY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rotation**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **startAngle**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endAngle**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **anticlockwise**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [EllipticalArc.ts](https://github.com/phetsims/kite/blob/main/js/segments/EllipticalArc.ts) in the [kite](https://github.com/phetsims/kite) repository.

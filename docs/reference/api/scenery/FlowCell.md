@@ -24,6 +24,18 @@ import { FlowCell } from 'scenerystack/scenery';
 
 
 
+## Type FlowCellOptions {: #FlowCellOptions }
+
+
+```js
+import type { FlowCellOptions } from 'scenerystack/scenery';
+```
+- **isSeparator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; StrictOmit&lt;[ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions), "orientation"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [FlowCell.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/FlowCell.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

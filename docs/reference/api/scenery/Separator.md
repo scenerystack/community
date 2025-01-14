@@ -23,6 +23,18 @@ import { Separator } from 'scenerystack/scenery';
 
 
 
+## Type SeparatorOptions {: #SeparatorOptions }
+
+
+Separators are automatically shown/hidden and hence should not be instrumented for PhET-iO control.
+
+```js
+import type { SeparatorOptions } from 'scenerystack/scenery';
+```
+StrictOmit&lt;[LineOptions](../scenery/Line.md#LineOptions), "[tandem](../tandem/tandem.md)"&gt;
+
+
+
 ## Source Code
 
 See the source for [Separator.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/Separator.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

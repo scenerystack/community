@@ -23,6 +23,20 @@ import { SimpleClockIcon } from 'scenerystack/scenery-phet';
 
 
 
+## Type SimpleClockIconOptions {: #SimpleClockIconOptions }
+
+
+```js
+import type { SimpleClockIconOptions } from 'scenerystack/scenery-phet';
+```
+- **fill**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [SimpleClockIcon.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SimpleClockIcon.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

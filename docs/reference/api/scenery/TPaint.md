@@ -4,6 +4,18 @@
 
 
 
+## Type TPaint {: #TPaint }
+
+
+Type representing a PaintDef
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import type { TPaint } from 'scenerystack/scenery';
+```
+[Paint](../scenery/Paint.md) | [TColor](../scenery/TColor.md)
+
 
 
 ## Source Code

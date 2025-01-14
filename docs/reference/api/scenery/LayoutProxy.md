@@ -69,6 +69,18 @@ Nulled out when disposed
 
 
 
+## Type Layoutable {: #Layoutable }
+
+
+For supporting general cases where you may layout a Node, or use in ManualConstraints.
+
+```js
+import type { Layoutable } from 'scenerystack/scenery';
+```
+[Node](../scenery/Node.md) | [LayoutProxy](../scenery/LayoutProxy.md)
+
+
+
 ## Source Code
 
 See the source for [LayoutProxy.ts](https://github.com/phetsims/scenery/blob/main/js/layout/LayoutProxy.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

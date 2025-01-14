@@ -42,6 +42,23 @@ same position, there are no points and the arrow will not be shown.
 
 
 
+## Type ArrowShapeOptions {: #ArrowShapeOptions }
+
+
+```js
+import type { ArrowShapeOptions } from 'scenerystack/scenery-phet';
+```
+- **tailWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **headWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **headHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fractionalHeadHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **doubleHead**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **isHeadDynamic**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **scaleTailToo**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [ArrowShape.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ArrowShape.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -48,6 +48,18 @@ Releases references
 
 
 
+## Type ShaderProgramOptions {: #ShaderProgramOptions }
+
+
+```js
+import type { ShaderProgramOptions } from 'scenerystack/scenery';
+```
+- **attributes**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
+- **uniforms**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[]
+
+
+
+
 ## Source Code
 
 See the source for [ShaderProgram.ts](https://github.com/phetsims/scenery/blob/main/js/util/ShaderProgram.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

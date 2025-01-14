@@ -80,6 +80,19 @@ TODO: reduce code duplication around here
 
 
 
+## Type DeviceContextDeviceOptions {: #DeviceContextDeviceOptions }
+
+
+```js
+import type { DeviceContextDeviceOptions } from 'scenerystack/alpenglow';
+```
+- **maxLimits**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **timestampQuery**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **highPerformance**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [DeviceContext.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/DeviceContext.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

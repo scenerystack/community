@@ -33,6 +33,20 @@ import { MappedProperty } from 'scenerystack/axon';
 
 
 
+## Type MappedPropertyOptions {: #MappedPropertyOptions }
+
+
+```js
+import type { MappedPropertyOptions } from 'scenerystack/axon';
+```
+- **bidirectional**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **map**?: ( ( inputValue: InputValueType ) =&gt; ThisValueType ) | KeysMatching&lt;InputValueType, ThisValueType&gt;
+- **inverseMap**?: ( ( thisValue: ThisValueType ) =&gt; InputValueType ) | KeysMatching&lt;ThisValueType, InputValueType&gt;
+- &amp; StrictOmit&lt;[DynamicPropertyOptions](../axon/DynamicProperty.md#DynamicPropertyOptions)&lt;ThisValueType, InputValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InputValueType&gt;&gt;, "defaultValue" | "derive"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [MappedProperty.ts](https://github.com/phetsims/axon/blob/main/js/MappedProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

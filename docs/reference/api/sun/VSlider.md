@@ -23,6 +23,16 @@ import { VSlider } from 'scenerystack/sun';
 
 
 
+## Type VSliderOptions {: #VSliderOptions }
+
+
+```js
+import type { VSliderOptions } from 'scenerystack/sun';
+```
+StrictOmit&lt;[SliderOptions](../sun/Slider.md#SliderOptions), "orientation"&gt;
+
+
+
 ## Source Code
 
 See the source for [VSlider.ts](https://github.com/phetsims/sun/blob/main/js/VSlider.ts) in the [sun](https://github.com/phetsims/sun) repository.

@@ -47,6 +47,39 @@ Change the background rectangle's fill (can be overridden)
 
 
 
+## Type PanelAlign {: #PanelAlign }
+
+
+```js
+import type { PanelAlign } from 'scenerystack/sun';
+```
+"left" | "center" | "right"
+
+
+
+## Type PanelOptions {: #PanelOptions }
+
+
+```js
+import type { PanelOptions } from 'scenerystack/sun';
+```
+- **fill**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lineDash**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **backgroundPickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **align**?: [PanelAlign](../sun/Panel.md#PanelAlign)
+- **minWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [SizableOptions](../scenery/Sizable.md#SizableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Panel.ts](https://github.com/phetsims/sun/blob/main/js/Panel.ts) in the [sun](https://github.com/phetsims/sun) repository.

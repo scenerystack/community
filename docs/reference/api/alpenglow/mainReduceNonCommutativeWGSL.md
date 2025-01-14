@@ -7,6 +7,20 @@ We essentially serialize some of it (reading a workgroup-size chunk at a time, r
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type mainReduceNonCommutativeWGSLOptions {: #mainReduceNonCommutativeWGSLOptions }
+
+
+```js
+import type { mainReduceNonCommutativeWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **input**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
+- **output**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt;
+- **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
+- **stripeOutput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **reduceOptions**?: StrictOmit&lt;[reduceWGSLOptions](../alpenglow/reduceWGSL.md#reduceWGSLOptions)&lt;T&gt;, "value" | "scratch" | "workgroupSize" | "binaryOp" | "localIndex" | "scratchPreloaded" | "valuePreloaded" | "mapScratchIndex" | "convergent"&gt;
+- &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; [OptionalLengthExpressionable](../alpenglow/WGSLUtils.md#OptionalLengthExpressionable)
+
+
 
 
 ## Source Code

@@ -246,6 +246,17 @@ Will reset without creating a face
 
 
 
+## Type SerializedEdgedFace {: #SerializedEdgedFace }
+
+
+```js
+import type { SerializedEdgedFace } from 'scenerystack/alpenglow';
+```
+- **edges**: [SerializedLinearEdge](../alpenglow/LinearEdge.md#SerializedLinearEdge)[]
+
+
+
+
 ## Source Code
 
 See the source for [EdgedFace.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/EdgedFace.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -40,6 +40,29 @@ Calls all callbacks. Clients are free to call this when the timer is not running
 
 
 
+## Type CallbackTimerCallback {: #CallbackTimerCallback }
+
+
+```js
+import type { CallbackTimerCallback } from 'scenerystack/axon';
+```
+() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type CallbackTimerOptions {: #CallbackTimerOptions }
+
+
+```js
+import type { CallbackTimerOptions } from 'scenerystack/axon';
+```
+- **callback**?: [CallbackTimerCallback](../axon/CallbackTimer.md#CallbackTimerCallback)
+- **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **interval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [CallbackTimer.ts](https://github.com/phetsims/axon/blob/main/js/CallbackTimer.ts) in the [axon](https://github.com/phetsims/axon) repository.

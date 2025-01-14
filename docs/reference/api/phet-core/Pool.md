@@ -49,6 +49,49 @@ being created (if the pool is empty), or it may use the constructor to mutate an
 
 
 
+## Type PoolableOptions {: #PoolableOptions }
+
+
+```js
+import type { PoolableOptions } from 'scenerystack/phet-core';
+```
+- **defaultArguments**?: ConstructorParameters&lt;T&gt;
+- **initialize**?: PoolableInitializer&lt;T&gt;
+- **maxSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **initialSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **useDefaultConstruction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; ( InstanceType&lt;T&gt; extends { initialize: PoolableInitializer&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
+  // Require initialize if our type doesn't have a compatible initialize method.
+  initialize: PoolableInitializer&lt;T&gt;;
+} )
+
+
+
+
+## Type PossiblyRequiredParameterSpread {: #PossiblyRequiredParameterSpread }
+
+
+Our linter complains that {} should be either Record&lt;string, unknown&gt;, unknown, or Record&lt;string, never&gt;. However in
+this case, we actually want it to be any type of non-nullish structural type, to see if there is anything required.
+
+```js
+import type { PossiblyRequiredParameterSpread } from 'scenerystack/phet-core';
+```
+( {} extends T ? [ T? ] : [ T ] )
+
+
+
+## Type TPoolable {: #TPoolable }
+
+
+```js
+import type { TPoolable } from 'scenerystack/phet-core';
+```
+- **freeToPool**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+
 ## Source Code
 
 See the source for [Pool.ts](https://github.com/phetsims/phet-core/blob/main/js/Pool.ts) in the [phet-core](https://github.com/phetsims/phet-core) repository.

@@ -24,6 +24,22 @@ import { InfiniteStatusBar } from 'scenerystack/vegas';
 
 
 
+## Type InfiniteStatusBarOptions {: #InfiniteStatusBarOptions }
+
+
+```js
+import type { InfiniteStatusBarOptions } from 'scenerystack/vegas';
+```
+- **backButtonListener**?: [PushButtonListener](../sun/PushButtonModel.md#PushButtonListener)
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **createScoreDisplay**?: ( scoreProperty: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; ) =&gt; [Node](../scenery/Node.md)
+- &amp; StrictOmit&lt;[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions), "children" | "barHeight"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [InfiniteStatusBar.ts](https://github.com/phetsims/vegas/blob/main/js/InfiniteStatusBar.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

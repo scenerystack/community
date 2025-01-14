@@ -59,6 +59,28 @@ See https://github.com/phetsims/sun/issues/680
 
 
 
+## Type SliderTrackOptions {: #SliderTrackOptions }
+
+
+```js
+import type { SliderTrackOptions } from 'scenerystack/sun';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- **startDrag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **drag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **endDrag**?: ( e: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **constrainValue**?: ( n: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **enabledRangeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;
+- **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+- **voicingOnEndResponse**?: VoicingOnEndResponse
+- **leftVisualOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **rightVisualOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [SliderTrack.ts](https://github.com/phetsims/sun/blob/main/js/SliderTrack.ts) in the [sun](https://github.com/phetsims/sun) repository.

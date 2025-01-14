@@ -43,6 +43,16 @@ Run a callback on the next frame. This method is largely for clarity.
 
 
 
+## Type TimerListener {: #TimerListener }
+
+
+```js
+import type { TimerListener } from 'scenerystack/axon';
+```
+( dt: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
 ## Source Code
 
 See the source for [Timer.ts](https://github.com/phetsims/axon/blob/main/js/Timer.ts) in the [axon](https://github.com/phetsims/axon) repository.

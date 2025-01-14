@@ -72,6 +72,28 @@ import { BufferLogger } from 'scenerystack/alpenglow';
 
 
 
+## Type FromArrayBufferable {: #FromArrayBufferable }
+
+
+```js
+import type { FromArrayBufferable } from 'scenerystack/alpenglow';
+```
+- **fromArrayBuffer**: ( arrayBuffer: ArrayBuffer ) =&gt; { [toString](function toString() { [native code] })(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> }[]
+
+
+
+
+## Type FromMultiArrayBufferable {: #FromMultiArrayBufferable }
+
+
+```js
+import type { FromMultiArrayBufferable } from 'scenerystack/alpenglow';
+```
+- **fromArrayBuffer**: ( arrayBuffer: ArrayBuffer ) =&gt; { toStrings(): <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] }[]
+
+
+
+
 ## Source Code
 
 See the source for [BufferLogger.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/BufferLogger.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

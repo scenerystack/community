@@ -87,6 +87,26 @@ Converts an internal Enumeration value into a string union value.
 
 
 
+## Type HorizontalLayoutJustification {: #HorizontalLayoutJustification }
+
+
+```js
+import type { HorizontalLayoutJustification } from 'scenerystack/scenery';
+```
+"left" | "right" | "center" | "spaceBetween" | "spaceAround" | "spaceEvenly"
+
+
+
+## Type VerticalLayoutJustification {: #VerticalLayoutJustification }
+
+
+```js
+import type { VerticalLayoutJustification } from 'scenerystack/scenery';
+```
+"top" | "bottom" | "center" | "spaceBetween" | "spaceAround" | "spaceEvenly"
+
+
+
 ## Source Code
 
 See the source for [LayoutJustification.ts](https://github.com/phetsims/scenery/blob/main/js/layout/LayoutJustification.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

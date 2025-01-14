@@ -113,6 +113,24 @@ Fired when (just after) the animation has changed animated values/targets.
 
 
 
+## Type AnimationOptions {: #AnimationOptions }
+
+
+IMPORTANT: See AnimationTarget's config documentation, as those config can be passed in either here, or in
+the targets array.
+
+```js
+import type { AnimationOptions } from 'scenerystack/twixt';
+```
+- **targets**?: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], TargetObjectTypes[K]&gt; } | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **duration**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **stepEmitter**?: TReadOnlyEmitter&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; AnimationTargetOptions&lt;SelfType, SelfObjectType&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Animation.ts](https://github.com/phetsims/twixt/blob/main/js/Animation.ts) in the [twixt](https://github.com/phetsims/twixt) repository.

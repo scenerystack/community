@@ -22,6 +22,16 @@ import { StepBackwardButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type StepBackwardButtonOptions {: #StepBackwardButtonOptions }
+
+
+```js
+import type { StepBackwardButtonOptions } from 'scenerystack/scenery-phet';
+```
+StrictOmit&lt;[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions), "direction"&gt;
+
+
+
 ## Source Code
 
 See the source for [StepBackwardButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/StepBackwardButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

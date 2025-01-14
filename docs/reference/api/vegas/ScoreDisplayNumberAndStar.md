@@ -24,6 +24,21 @@ import { ScoreDisplayNumberAndStar } from 'scenerystack/vegas';
 
 
 
+## Type ScoreDisplayNumberAndStarOptions {: #ScoreDisplayNumberAndStarOptions }
+
+
+```js
+import type { ScoreDisplayNumberAndStarOptions } from 'scenerystack/vegas';
+```
+- **font**?: [Font](../scenery/Font.md)
+- **textFill**?: [TColor](../scenery/TColor.md)
+- **scoreDecimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **starNodeOptions**?: [StarNodeOptions](../scenery-phet/StarNode.md#StarNodeOptions)
+- &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ScoreDisplayNumberAndStar.ts](https://github.com/phetsims/vegas/blob/main/js/ScoreDisplayNumberAndStar.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

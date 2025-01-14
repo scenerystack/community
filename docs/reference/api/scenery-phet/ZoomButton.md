@@ -22,6 +22,19 @@ import { ZoomButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type ZoomButtonOptions {: #ZoomButtonOptions }
+
+
+```js
+import type { ZoomButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **in**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **magnifyingGlassOptions**?: StrictOmit&lt;[MagnifyingGlassNodeOptions](../scenery-phet/MagnifyingGlassNode.md#MagnifyingGlassNodeOptions), "icon"&gt;
+- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ZoomButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/ZoomButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -22,6 +22,16 @@ import { BooleanRoundToggleButton } from 'scenerystack/sun';
 
 
 
+## Type BooleanRoundToggleButtonOptions {: #BooleanRoundToggleButtonOptions }
+
+
+```js
+import type { BooleanRoundToggleButtonOptions } from 'scenerystack/sun';
+```
+StrictOmit&lt;[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions), "content"&gt;
+
+
+
 ## Source Code
 
 See the source for [BooleanRoundToggleButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/BooleanRoundToggleButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

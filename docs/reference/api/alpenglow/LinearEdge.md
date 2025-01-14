@@ -117,6 +117,23 @@ add it to the range.
 
 
 
+## Type SerializedLinearEdge {: #SerializedLinearEdge }
+
+
+```js
+import type { SerializedLinearEdge } from 'scenerystack/alpenglow';
+```
+- **startPoint**:
+  - **x**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+  - **y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **endPoint**:
+  - **x**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+  - **y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **containsFakeCorner**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [LinearEdge.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/LinearEdge.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

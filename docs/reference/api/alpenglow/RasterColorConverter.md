@@ -9,6 +9,14 @@ An interface that handles converting between essentially three "color spaces":
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type RasterColorConverter {: #RasterColorConverter }
+
+
+```js
+import type { RasterColorConverter } from 'scenerystack/alpenglow';
+```
+
+
 
 
 ## Source Code

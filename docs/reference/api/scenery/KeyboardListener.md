@@ -172,6 +172,31 @@ the document. The listener is returned so that it can be disposed.
 
 
 
+## Type KeyboardListenerOptions {: #KeyboardListenerOptions }
+
+
+```js
+import type { KeyboardListenerOptions } from 'scenerystack/scenery';
+```
+- **keys**?: Keys | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **keyStringProperties**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **fire**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>], listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **press**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>], listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **release**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, keysPressed: Keys[<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>, listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **focus**?: ( listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **blur**?: ( listener: [KeyboardListener](../scenery/KeyboardListener.md)&lt;Keys&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHoldTiming**?: [HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)
+- **fireOnHoldCustomDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+
+
+
+
 ## Source Code
 
 See the source for [KeyboardListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

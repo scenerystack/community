@@ -22,6 +22,20 @@ import { RecordStopButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type RecordStopButtonOptions {: #RecordStopButtonOptions }
+
+
+```js
+import type { RecordStopButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **recordIconColor**?: [TColor](../scenery/TColor.md)
+- **stopIconColor**?: [TColor](../scenery/TColor.md)
+- &amp; [BooleanRoundToggleButtonOptions](../sun/BooleanRoundToggleButton.md#BooleanRoundToggleButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RecordStopButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/RecordStopButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

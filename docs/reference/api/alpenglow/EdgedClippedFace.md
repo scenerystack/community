@@ -311,6 +311,25 @@ Will reset without creating a face
 
 
 
+## Type SerializedEdgedClippedFace {: #SerializedEdgedClippedFace }
+
+
+```js
+import type { SerializedEdgedClippedFace } from 'scenerystack/alpenglow';
+```
+- **edges**: [SerializedLinearEdge](../alpenglow/LinearEdge.md#SerializedLinearEdge)[]
+- **minX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxX**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxY**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minXCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **minYCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxXCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxYCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [EdgedClippedFace.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/EdgedClippedFace.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

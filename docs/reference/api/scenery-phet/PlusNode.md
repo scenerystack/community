@@ -23,6 +23,18 @@ import { PlusNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type PlusNodeOptions {: #PlusNodeOptions }
+
+
+```js
+import type { PlusNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- &amp; [PathOptions](../scenery/Path.md#PathOptions)
+
+
+
+
 ## Source Code
 
 See the source for [PlusNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/PlusNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

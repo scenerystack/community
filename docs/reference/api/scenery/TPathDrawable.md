@@ -4,6 +4,18 @@
 
 
 
+## Type TPathDrawable {: #TPathDrawable }
+
+
+Interface specifically for SelfDrawables for a Path Node.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import type { TPathDrawable } from 'scenerystack/scenery';
+```
+
+
 
 
 ## Source Code

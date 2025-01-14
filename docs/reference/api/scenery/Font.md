@@ -131,6 +131,54 @@ of the following pattern:
 
 
 
+## Type FontOptions {: #FontOptions }
+
+
+```js
+import type { FontOptions } from 'scenerystack/scenery';
+```
+- **style**?: [FontStyle](../scenery/Font.md#FontStyle)
+- **variant**?: FontVariant
+- **weight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [FontWeight](../scenery/Font.md#FontWeight)
+- **stretch**?: [FontStretch](../scenery/Font.md#FontStretch)
+- **size**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **lineHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **family**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
+
+
+
+
+## Type FontStretch {: #FontStretch }
+
+
+```js
+import type { FontStretch } from 'scenerystack/scenery';
+```
+"normal" | "ultra-condensed" | "extra-condensed" | "condensed" | "semi-condensed" | "semi-expanded" | "expanded" | "extra-expanded" | "ultra-expanded"
+
+
+
+## Type FontStyle {: #FontStyle }
+
+
+```js
+import type { FontStyle } from 'scenerystack/scenery';
+```
+"normal" | "italic" | "oblique"
+
+
+
+## Type FontWeight {: #FontWeight }
+
+
+```js
+import type { FontWeight } from 'scenerystack/scenery';
+```
+"normal" | "bold" | "bolder" | "lighter" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900"
+
+
+
 ## Source Code
 
 See the source for [Font.ts](https://github.com/phetsims/scenery/blob/main/js/util/Font.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

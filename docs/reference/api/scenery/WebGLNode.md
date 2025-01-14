@@ -82,6 +82,40 @@ Return code from painter.paint() when something was painted to the WebGL context
 
 
 
+## Type WebGLNodeOptions {: #WebGLNodeOptions }
+
+
+```js
+import type { WebGLNodeOptions } from 'scenerystack/scenery';
+```
+- **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
+## Type WebGLNodePainter {: #WebGLNodePainter }
+
+
+```js
+import type { WebGLNodePainter } from 'scenerystack/scenery';
+```
+- **paint**: ( modelViewMatrix: [Matrix3](../dot/Matrix3.md), projectionMatrix: [Matrix3](../dot/Matrix3.md) ) =&gt; [WebGLNodePainterResult](../scenery/WebGLNode.md#WebGLNodePainterResult)
+- **dispose**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+
+## Type WebGLNodePainterResult {: #WebGLNodePainterResult }
+
+
+```js
+import type { WebGLNodePainterResult } from 'scenerystack/scenery';
+```
+0 | 1
+
+
+
 ## Source Code
 
 See the source for [WebGLNode.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/WebGLNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

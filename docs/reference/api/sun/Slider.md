@@ -82,6 +82,45 @@ standardized tandem names, see https://github.com/phetsims/sun/issues/694
 
 
 
+## Type SliderOptions {: #SliderOptions }
+
+
+We provide these options to the super, also enabledRangeProperty is turned from required to optional
+
+```js
+import type { SliderOptions } from 'scenerystack/sun';
+```
+- **orientation**?: [Orientation](../phet-core/Orientation.md)
+- **trackNode**?: [SliderTrack](../sun/SliderTrack.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **trackSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **trackFillEnabled**?: [TPaint](../scenery/TPaint.md)
+- **trackFillDisabled**?: [TPaint](../scenery/TPaint.md)
+- **trackStroke**?: [TPaint](../scenery/TPaint.md)
+- **trackLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **trackCornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **trackPickable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **thumbNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **thumbSize**?: [Dimension2](../dot/Dimension2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **thumbFill**?: [TPaint](../scenery/TPaint.md)
+- **thumbFillHighlighted**?: [TPaint](../scenery/TPaint.md)
+- **thumbStroke**?: [TPaint](../scenery/TPaint.md)
+- **thumbLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbCenterLineStroke**?: [TPaint](../scenery/TPaint.md)
+- **thumbTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **thumbYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **phetioLinkedProperty**?: [PhetioObject](../tandem/PhetioObject.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+- &amp; [SliderTickOptions](../sun/SliderTick.md#SliderTickOptions) &amp; StrictOmit&lt;ParentOptions, RequiredParentOptionsSuppliedBySlider&gt; &amp; PickOptional&lt;ParentOptions, "enabledRangeProperty"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Slider.ts](https://github.com/phetsims/sun/blob/main/js/Slider.ts) in the [sun](https://github.com/phetsims/sun) repository.

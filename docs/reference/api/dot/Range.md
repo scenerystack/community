@@ -176,6 +176,28 @@ Given a value and a delta to change that value, clamp the delta to make sure the
 
 
 
+## Type RangeStateObject {: #RangeStateObject }
+
+
+```js
+import type { RangeStateObject } from 'scenerystack/dot';
+```
+StateObject&lt;typeof STATE_SCHEMA&gt;
+
+
+
+## Type TRange {: #TRange }
+
+
+```js
+import type { TRange } from 'scenerystack/dot';
+```
+- **min**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **max**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Range.ts](https://github.com/phetsims/dot/blob/main/js/Range.ts) in the [dot](https://github.com/phetsims/dot) repository.

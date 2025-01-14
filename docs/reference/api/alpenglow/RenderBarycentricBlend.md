@@ -102,6 +102,24 @@ import { RenderInstructionBarycentricBlend } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderBarycentricBlend {: #SerializedRenderBarycentricBlend }
+
+
+```js
+import type { SerializedRenderBarycentricBlend } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderBarycentricBlend](../alpenglow/RenderBarycentricBlend.md)"
+- **pointA**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **pointB**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **pointC**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **accuracy**: [RenderBarycentricBlendAccuracy](../alpenglow/RenderBarycentricBlend.md#RenderBarycentricBlendAccuracy)
+- **a**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **b**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **c**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderBarycentricBlend.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderBarycentricBlend.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -49,6 +49,19 @@ For keyboard input, this is used to identify the keystroke to activate this key 
 
 
 
+## Type KeyOptions {: #KeyOptions }
+
+
+```js
+import type { KeyOptions } from 'scenerystack/scenery-phet';
+```
+- **horizontalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **verticalSpan**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **keyboardIdentifiers**?: [OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)[]
+
+
+
+
 ## Source Code
 
 See the source for [Key.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Key.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

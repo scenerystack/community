@@ -104,6 +104,61 @@ Creates a transition that fades from `fromNode` to `toNode` by varying the opaci
 
 
 
+## Type DissolveTransitionOptions {: #DissolveTransitionOptions }
+
+
+```js
+import type { DissolveTransitionOptions } from 'scenerystack/twixt';
+```
+[PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; &amp; DissolveTransitionSelfOptions
+
+
+
+## Type PartialTransitionOptions {: #PartialTransitionOptions }
+
+
+```js
+import type { PartialTransitionOptions } from 'scenerystack/twixt';
+```
+StrictOmit&lt;SelfOptions&lt;[ T ]&gt;, "fromTargets" | "toTargets" | "resetNode"&gt; &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [ T ], [ [Node](../scenery/Node.md) ]&gt;
+
+
+
+## Type SlideTransitionOptions {: #SlideTransitionOptions }
+
+
+```js
+import type { SlideTransitionOptions } from 'scenerystack/twixt';
+```
+[PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+
+
+
+## Type TransitionOptions {: #TransitionOptions }
+
+
+```js
+import type { TransitionOptions } from 'scenerystack/twixt';
+```
+- **fromTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
+- **toTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
+- **resetNode**: ( node: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **targetOptions**?: AnimationTargetOptions&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [Node](../scenery/Node.md)&gt;
+- &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;SelfType, SelfObjectType, TargetTypes, TargetObjectTypes&gt;
+
+
+
+
+## Type WipeTransitionOptions {: #WipeTransitionOptions }
+
+
+```js
+import type { WipeTransitionOptions } from 'scenerystack/twixt';
+```
+[PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;[Shape](../kite/Shape.md)&gt;
+
+
+
 ## Source Code
 
 See the source for [Transition.ts](https://github.com/phetsims/twixt/blob/main/js/Transition.ts) in the [twixt](https://github.com/phetsims/twixt) repository.

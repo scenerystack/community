@@ -93,6 +93,29 @@ and import them into a single file that will be passed to this function.
 
 
 
+## Type LocalizedStringStateDelta {: #LocalizedStringStateDelta }
+
+
+```js
+import type { LocalizedStringStateDelta } from 'scenerystack/chipper';
+```
+Partial&lt;Record&lt;[Locale](../joist/localeProperty.md#Locale), TranslationString&gt;&gt;
+
+
+
+## Type StringsStateStateObject {: #StringsStateStateObject }
+
+
+Where "string" is a phetioID
+
+```js
+import type { StringsStateStateObject } from 'scenerystack/chipper';
+```
+- **data**: Record&lt;PhetioID, [LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)&gt;
+
+
+
+
 ## Source Code
 
 See the source for [LocalizedString.ts](https://github.com/phetsims/chipper/blob/main/js/browser/LocalizedString.ts) in the [chipper](https://github.com/phetsims/chipper) repository.

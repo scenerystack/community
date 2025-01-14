@@ -242,6 +242,16 @@ set as `null`. See domEventPropertiesToSerialize for the full list of supported 
 
 
 
+## Type InputOptions {: #InputOptions }
+
+
+```js
+import type { InputOptions } from 'scenerystack/scenery';
+```
+PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+
+
+
 ## Source Code
 
 See the source for [Input.ts](https://github.com/phetsims/scenery/blob/main/js/input/Input.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

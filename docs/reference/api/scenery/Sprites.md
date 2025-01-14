@@ -69,6 +69,21 @@ This sets a "dirty" flag, so that it will be repainted the next time it would be
 
 
 
+## Type SpritesOptions {: #SpritesOptions }
+
+
+```js
+import type { SpritesOptions } from 'scenerystack/scenery';
+```
+- **sprites**?: [Sprite](../scenery/Sprite.md)[]
+- **spriteInstances**?: [SpriteInstance](../scenery/SpriteInstance.md)[]
+- **hitTestSprites**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Sprites.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Sprites.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

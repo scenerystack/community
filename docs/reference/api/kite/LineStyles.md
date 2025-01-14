@@ -84,6 +84,42 @@ When to cut off lineJoin:miter to look like lineJoin:bevel. See https://svgwg.or
 
 
 
+## Type LineCap {: #LineCap }
+
+
+```js
+import type { LineCap } from 'scenerystack/kite';
+```
+"butt" | "round" | "square"
+
+
+
+## Type LineJoin {: #LineJoin }
+
+
+```js
+import type { LineJoin } from 'scenerystack/kite';
+```
+"miter" | "round" | "bevel"
+
+
+
+## Type LineStylesOptions {: #LineStylesOptions }
+
+
+```js
+import type { LineStylesOptions } from 'scenerystack/kite';
+```
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lineCap**?: [LineCap](../kite/LineStyles.md#LineCap)
+- **lineJoin**?: [LineJoin](../kite/LineStyles.md#LineJoin)
+- **lineDash**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **lineDashOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **miterLimit**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [LineStyles.ts](https://github.com/phetsims/kite/blob/main/js/util/LineStyles.ts) in the [kite](https://github.com/phetsims/kite) repository.

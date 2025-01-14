@@ -24,6 +24,19 @@ import { CloseButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type CloseButtonOptions {: #CloseButtonOptions }
+
+
+```js
+import type { CloseButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **iconLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pathOptions**?: [PathOptions](../scenery/Path.md#PathOptions)
+- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [CloseButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/CloseButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -102,6 +102,24 @@ import { RenderInstructionBarycentricPerspectiveBlend } from 'scenerystack/alpen
 
 
 
+## Type SerializedRenderBarycentricPerspectiveBlend {: #SerializedRenderBarycentricPerspectiveBlend }
+
+
+```js
+import type { SerializedRenderBarycentricPerspectiveBlend } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderBarycentricPerspectiveBlend](../alpenglow/RenderBarycentricPerspectiveBlend.md)"
+- **pointA**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **pointB**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **pointC**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **accuracy**: [RenderBarycentricPerspectiveBlendAccuracy](../alpenglow/RenderBarycentricPerspectiveBlend.md#RenderBarycentricPerspectiveBlendAccuracy)
+- **a**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **b**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **c**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderBarycentricPerspectiveBlend.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderBarycentricPerspectiveBlend.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

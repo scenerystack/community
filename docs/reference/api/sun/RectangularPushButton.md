@@ -38,6 +38,18 @@ RectangularButton has this.buttonModel, but we also need this.pushButtonModel, b
 
 
 
+## Type RectangularPushButtonOptions {: #RectangularPushButtonOptions }
+
+
+```js
+import type { RectangularPushButtonOptions } from 'scenerystack/sun';
+```
+- **soundPlayer**?: TSoundPlayer
+- &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RectangularPushButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularPushButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

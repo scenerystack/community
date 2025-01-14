@@ -37,6 +37,18 @@ explicitly again.
 
 
 
+## Type FocusableHeadingNodeOptions {: #FocusableHeadingNodeOptions }
+
+
+```js
+import type { FocusableHeadingNodeOptions } from 'scenerystack/scenery';
+```
+- **headingLevel**?: HeadingLevelNumber
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tagName" | "focusHighlight"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [FocusableHeadingNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/FocusableHeadingNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

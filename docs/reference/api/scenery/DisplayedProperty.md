@@ -22,6 +22,16 @@ import { DisplayedProperty } from 'scenerystack/scenery';
 
 
 
+## Type DisplayedPropertyOptions {: #DisplayedPropertyOptions }
+
+
+```js
+import type { DisplayedPropertyOptions } from 'scenerystack/scenery';
+```
+[DisplayedTrailsPropertyOptions](../scenery/DisplayedTrailsProperty.md#DisplayedTrailsPropertyOptions) &amp; [DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+
+
+
 ## Source Code
 
 See the source for [DisplayedProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/DisplayedProperty.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

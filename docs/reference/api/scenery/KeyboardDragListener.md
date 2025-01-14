@@ -121,6 +121,54 @@ The current drag point in the model coordinate frame.
 
 
 
+## Type KeyboardDragListenerCallback {: #KeyboardDragListenerCallback }
+
+
+```js
+import type { KeyboardDragListenerCallback } from 'scenerystack/scenery';
+```
+[SceneryListenerCallback](../scenery/PressListener.md#SceneryListenerCallback)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt;
+
+
+
+## Type KeyboardDragListenerDOMEvent {: #KeyboardDragListenerDOMEvent }
+
+
+```js
+import type { KeyboardDragListenerDOMEvent } from 'scenerystack/scenery';
+```
+KeyboardEvent
+
+
+
+## Type KeyboardDragListenerNullableCallback {: #KeyboardDragListenerNullableCallback }
+
+
+```js
+import type { KeyboardDragListenerNullableCallback } from 'scenerystack/scenery';
+```
+[SceneryListenerNullableCallback](../scenery/PressListener.md#SceneryListenerNullableCallback)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt;
+
+
+
+## Type KeyboardDragListenerOptions {: #KeyboardDragListenerOptions }
+
+
+```js
+import type { KeyboardDragListenerOptions } from 'scenerystack/scenery';
+```
+- **dragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **shiftDragDelta**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **dragSpeed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **shiftDragSpeed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **keyboardDragDirection**?: KeyboardDragDirection
+- **moveOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **moveOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)" | "phetioReadOnly"&gt; &amp; PickOptional&lt;ParentOptions, "focus" | "blur"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+
+
+
+
 ## Source Code
 
 See the source for [KeyboardDragListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardDragListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

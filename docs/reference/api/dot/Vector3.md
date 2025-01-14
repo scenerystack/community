@@ -403,6 +403,19 @@ Constructs a Vector3 from a duck-typed object, for use with tandem/phet-io deser
 
 
 
+## Type Vector3StateObject {: #Vector3StateObject }
+
+
+```js
+import type { Vector3StateObject } from 'scenerystack/dot';
+```
+- **x**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **z**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Vector3.ts](https://github.com/phetsims/dot/blob/main/js/Vector3.ts) in the [dot](https://github.com/phetsims/dot) repository.

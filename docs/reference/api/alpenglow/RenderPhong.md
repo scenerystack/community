@@ -72,6 +72,19 @@ import { RenderInstructionPhong } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderPhong {: #SerializedRenderPhong }
+
+
+```js
+import type { SerializedRenderPhong } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderPhong](../alpenglow/RenderPhong.md)"
+- **children**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)[]
+- **alpha**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [RenderPhong.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPhong.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

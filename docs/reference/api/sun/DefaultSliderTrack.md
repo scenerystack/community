@@ -26,6 +26,24 @@ import { DefaultSliderTrack } from 'scenerystack/sun';
 
 
 
+## Type DefaultSliderTrackOptions {: #DefaultSliderTrackOptions }
+
+
+We require size/enabledRangeProperty instead of leaving it optional for the supertype
+
+```js
+import type { DefaultSliderTrackOptions } from 'scenerystack/sun';
+```
+- **fillEnabled**?: [TPaint](../scenery/TPaint.md)
+- **fillDisabled**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions) &amp; PickRequired&lt;[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions), "size" | "enabledRangeProperty"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [DefaultSliderTrack.ts](https://github.com/phetsims/sun/blob/main/js/DefaultSliderTrack.ts) in the [sun](https://github.com/phetsims/sun) repository.

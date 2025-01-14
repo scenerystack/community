@@ -26,6 +26,16 @@ import { VBox } from 'scenerystack/scenery';
 
 
 
+## Type VBoxOptions {: #VBoxOptions }
+
+
+```js
+import type { VBoxOptions } from 'scenerystack/scenery';
+```
+StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "orientation"&gt;
+
+
+
 ## Source Code
 
 See the source for [VBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VBox.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

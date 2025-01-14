@@ -6,6 +6,15 @@ Interface specifically for SelfDrawables for a Circle Node.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type TCircleDrawable {: #TCircleDrawable }
+
+
+```js
+import type { TCircleDrawable } from 'scenerystack/scenery';
+```
+- &amp; [TPathDrawable](../scenery/TPathDrawable.md)
+
+
 
 
 ## Source Code

@@ -6,6 +6,15 @@ Interface specifically for SelfDrawables for a Line Node.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type TLineDrawable {: #TLineDrawable }
+
+
+```js
+import type { TLineDrawable } from 'scenerystack/scenery';
+```
+- &amp; [TPathDrawable](../scenery/TPathDrawable.md)
+
+
 
 
 ## Source Code

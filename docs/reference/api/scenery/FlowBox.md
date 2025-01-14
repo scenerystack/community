@@ -89,6 +89,18 @@ LayoutBox Compatibility (see the ES5 setters/getters, or the options doc)
 
 
 
+## Type FlowBoxOptions {: #FlowBoxOptions }
+
+
+```js
+import type { FlowBoxOptions } from 'scenerystack/scenery';
+```
+- **resize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; StrictOmit&lt;[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions), ExcludeFlowConstraintOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [FlowBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/FlowBox.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

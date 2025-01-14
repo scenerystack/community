@@ -22,6 +22,18 @@ import { EnumerationProperty } from 'scenerystack/axon';
 
 
 
+## Type EnumerationPropertyOptions {: #EnumerationPropertyOptions }
+
+
+```js
+import type { EnumerationPropertyOptions } from 'scenerystack/axon';
+```
+- **enumeration**?: [Enumeration](../phet-core/Enumeration.md)&lt;T&gt;
+- &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;, "phetioValueType"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [EnumerationProperty.ts](https://github.com/phetsims/axon/blob/main/js/EnumerationProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

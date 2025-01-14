@@ -23,6 +23,16 @@ import { HStrut } from 'scenerystack/scenery';
 
 
 
+## Type HStrutOptions {: #HStrutOptions }
+
+
+```js
+import type { HStrutOptions } from 'scenerystack/scenery';
+```
+[SpacerOptions](../scenery/Spacer.md#SpacerOptions)
+
+
+
 ## Source Code
 
 See the source for [HStrut.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/HStrut.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

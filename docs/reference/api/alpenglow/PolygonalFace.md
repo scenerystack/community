@@ -247,6 +247,17 @@ Will reset without creating a face
 
 
 
+## Type SerializedPolygonalFace {: #SerializedPolygonalFace }
+
+
+```js
+import type { SerializedPolygonalFace } from 'scenerystack/alpenglow';
+```
+- **polygons**: { x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }[][]
+
+
+
+
 ## Source Code
 
 See the source for [PolygonalFace.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/PolygonalFace.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

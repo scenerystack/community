@@ -23,6 +23,16 @@ import { HSlider } from 'scenerystack/sun';
 
 
 
+## Type HSliderOptions {: #HSliderOptions }
+
+
+```js
+import type { HSliderOptions } from 'scenerystack/sun';
+```
+StrictOmit&lt;[SliderOptions](../sun/Slider.md#SliderOptions), "orientation"&gt;
+
+
+
 ## Source Code
 
 See the source for [HSlider.ts](https://github.com/phetsims/sun/blob/main/js/HSlider.ts) in the [sun](https://github.com/phetsims/sun) repository.

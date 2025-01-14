@@ -37,6 +37,46 @@ line where dot( normal, point ) - value = 0. "min" side is dot-products &lt; val
 
 
 
+## Type BinaryClipCallback {: #BinaryClipCallback }
+
+
+```js
+import type { BinaryClipCallback } from 'scenerystack/alpenglow';
+```
+(
+  isMinFace: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>,
+  startX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  startY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  endX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  endY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  startPoint: [Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>,
+  endPoint: [Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type BinaryPolygonCompleteCallback {: #BinaryPolygonCompleteCallback }
+
+
+```js
+import type { BinaryPolygonCompleteCallback } from 'scenerystack/alpenglow';
+```
+(
+  isMinFace: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type PolygonCompleteCallback {: #PolygonCompleteCallback }
+
+
+```js
+import type { PolygonCompleteCallback } from 'scenerystack/alpenglow';
+```
+() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
 ## Source Code
 
 See the source for [BinaryClipping.ts](https://github.com/phetsims/alpenglow/blob/main/js/clip/BinaryClipping.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

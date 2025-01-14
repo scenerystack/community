@@ -22,6 +22,16 @@ import { VSeparator } from 'scenerystack/scenery';
 
 
 
+## Type VSeparatorOptions {: #VSeparatorOptions }
+
+
+```js
+import type { VSeparatorOptions } from 'scenerystack/scenery';
+```
+[HeightSizableOptions](../scenery/HeightSizable.md#HeightSizableOptions) &amp; [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
+
+
+
 ## Source Code
 
 See the source for [VSeparator.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VSeparator.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

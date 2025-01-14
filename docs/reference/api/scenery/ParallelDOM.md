@@ -925,6 +925,136 @@ should be available for the entire component.
 
 
 
+## Type Association {: #Association }
+
+
+```js
+import type { Association } from 'scenerystack/scenery';
+```
+- **otherNode**: [Node](../scenery/Node.md)
+- **otherElementName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **thisElementName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+
+
+
+
+## Type LimitPanDirection {: #LimitPanDirection }
+
+
+```js
+import type { LimitPanDirection } from 'scenerystack/scenery';
+```
+"horizontal" | "vertical"
+
+
+
+## Type ParallelDOMOptions {: #ParallelDOMOptions }
+
+
+Most options use null for their default behavior, see the setters for each option for a description of how null
+behaves as a default.
+
+```js
+import type { ParallelDOMOptions } from 'scenerystack/scenery';
+```
+- **focusable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **tagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleParagraph**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **helpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pdomHeading**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleNameBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **helpTextBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **pdomHeadingBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **containerTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **containerAriaRole**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **innerContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **inputType**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **inputValue**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pdomChecked**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomNamespace**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **ariaLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **ariaRole**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **ariaValueText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **labelTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **labelContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **appendLabel**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **descriptionTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **descriptionContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **appendDescription**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **focusHighlight**?: [Highlight](../scenery/HighlightOverlay.md#Highlight)
+- **focusHighlightLayerable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **groupFocusHighlight**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomVisibleProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pdomVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomOrder**?: ( [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **ariaLabelledbyAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]
+- **ariaDescribedbyAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]
+- **activeDescendantAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]
+- **focusPanTargetBoundsProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Bounds2](../dot/Bounds2.md)&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **limitPanDirection**?: [LimitPanDirection](../scenery/ParallelDOM.md#LimitPanDirection) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **positionInPDOM**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomTransformSourceNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
+
+
+
+
+## Type PDOMBehaviorFunction {: #PDOMBehaviorFunction }
+
+
+
+@param node - the Node that the pdom behavior is being applied to
+@param options - options to mutate within the function
+@param value - the value that you are setting the behavior of, like the accessibleName
+@param callbacksForOtherNodes - behavior function also support taking state from a Node and using it to
+set the accessible content for another Node. If this is the case, that logic should be set in a closure and added to
+this list for execution after this Node is fully created. See discussion in https://github.com/phetsims/sun/issues/503#issuecomment-676541373
+@returns the options that have been mutated by the behavior function.
+
+```js
+import type { PDOMBehaviorFunction } from 'scenerystack/scenery';
+```
+( node: [Node](../scenery/Node.md), options: [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
+
+
+
+## Type PDOMValueType {: #PDOMValueType }
+
+
+```js
+import type { PDOMValueType } from 'scenerystack/scenery';
+```
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+
+
+
+## Type RemoveParallelDOMOptions {: #RemoveParallelDOMOptions }
+
+
+Removes all options from T that are in ParallelDOMSelfOptions.
+
+```js
+import type { RemoveParallelDOMOptions } from 'scenerystack/scenery';
+```
+StrictOmit&lt;T, keyof ParallelDOMSelfOptions&gt;
+
+
+
+## Type TrimParallelDOMOptions {: #TrimParallelDOMOptions }
+
+
+Removes all options from T that are in ParallelDOMSelfOptions, except for the most fundamental ones.
+This is useful for creating a ParallelDOM subclass that only exposes these high-level options while implementing
+accessibility with the lower-level API.
+
+```js
+import type { TrimParallelDOMOptions } from 'scenerystack/scenery';
+```
+[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; PickOptional&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "focusable" | "pdomVisible"&gt;
+
+
+
 ## Source Code
 
 See the source for [ParallelDOM.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/ParallelDOM.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

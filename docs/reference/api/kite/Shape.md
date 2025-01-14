@@ -663,6 +663,47 @@ Returns a new Shape constructed by appending a list of segments together.
 
 
 
+## Type CornerRadiiOptions {: #CornerRadiiOptions }
+
+
+```js
+import type { CornerRadiiOptions } from 'scenerystack/kite';
+```
+- **topLeft**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **topRight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bottomRight**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bottomLeft**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
+## Type NonlinearTransformedOptions {: #NonlinearTransformedOptions }
+
+
+```js
+import type { NonlinearTransformedOptions } from 'scenerystack/kite';
+```
+- **includeCurvature**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions)
+
+
+
+
+## Type SerializedShape {: #SerializedShape }
+
+
+a normalized vector for non-zero winding checks
+var weirdDir = v( Math.PI, 22 / 7 );
+
+```js
+import type { SerializedShape } from 'scenerystack/kite';
+```
+- **type**: "[Shape](../kite/Shape.md)"
+- **subpaths**: SerializedSubpath[]
+
+
+
+
 ## Source Code
 
 See the source for [Shape.ts](https://github.com/phetsims/kite/blob/main/js/Shape.ts) in the [kite](https://github.com/phetsims/kite) repository.

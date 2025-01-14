@@ -146,6 +146,38 @@ Weird Layout is created for testing purposes to test the edge cases and layout c
 
 
 
+## Type KeypadLayout {: #KeypadLayout }
+
+
+```js
+import type { KeypadLayout } from 'scenerystack/scenery-phet';
+```
+( [Key](../scenery-phet/Key.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[][]
+
+
+
+## Type KeypadOptions {: #KeypadOptions }
+
+
+```js
+import type { KeypadOptions } from 'scenerystack/scenery-phet';
+```
+- **buttonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **ySpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonColor**?: [TPaint](../scenery/TPaint.md)
+- **buttonFont**?: [Font](../scenery/Font.md)
+- **accumulator**?: [AbstractKeyAccumulator](../scenery-phet/AbstractKeyAccumulator.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accumulatorOptions**?: [NumberAccumulatorOptions](../scenery-phet/NumberAccumulator.md#NumberAccumulatorOptions) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **useGlobalKeyboardListener**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Keypad.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Keypad.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

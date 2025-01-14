@@ -199,6 +199,22 @@ root node for the Display
 
 
 
+## Type SimOptions {: #SimOptions }
+
+
+```js
+import type { SimOptions } from 'scenerystack/sim';
+```
+- **credits**?: CreditsData
+- **homeScreenWarningNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Node](../scenery/Node.md)
+- **preferencesModel**?: PreferencesModel | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **webgl**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **detachInactiveScreenViews**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "phetioDesigned"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Sim.ts](https://github.com/phetsims/joist/blob/main/js/Sim.ts) in the [joist](https://github.com/phetsims/joist) repository.

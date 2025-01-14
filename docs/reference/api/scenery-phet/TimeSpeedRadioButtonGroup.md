@@ -26,6 +26,19 @@ import { TimeSpeedRadioButtonGroup } from 'scenerystack/scenery-phet';
 
 
 
+## Type TimeSpeedRadioButtonGroupOptions {: #TimeSpeedRadioButtonGroupOptions }
+
+
+```js
+import type { TimeSpeedRadioButtonGroupOptions } from 'scenerystack/scenery-phet';
+```
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **labelOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
+- &amp; [VerticalAquaRadioButtonGroupOptions](../sun/VerticalAquaRadioButtonGroup.md#VerticalAquaRadioButtonGroupOptions)
+
+
+
+
 ## Source Code
 
 See the source for [TimeSpeedRadioButtonGroup.ts](https://github.com/phetsims/scenery-phet/blob/main/js/TimeSpeedRadioButtonGroup.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

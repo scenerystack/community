@@ -6,6 +6,19 @@ Increments a count from within a bit-packed histogram. See bit_pack_radix_access
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type bitPackRadixIncrementWGSLOptions {: #bitPackRadixIncrementWGSLOptions }
+
+
+```js
+import type { bitPackRadixIncrementWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **bits**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+- **bitVector**: [WGSLVariableName](../alpenglow/WGSLString.md#WGSLVariableName)
+- **bitsPerInnerPass**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bitVectorSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxCount**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
 
 
 ## Source Code

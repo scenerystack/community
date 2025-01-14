@@ -22,6 +22,19 @@ import { DirectModule } from 'scenerystack/alpenglow';
 
 
 
+## Type DirectModuleOptions {: #DirectModuleOptions }
+
+
+```js
+import type { DirectModuleOptions } from 'scenerystack/alpenglow';
+```
+- **main**: [WGSLMainModule](../alpenglow/WGSLString.md#WGSLMainModule)
+- **setDispatchSize**: ( dispatchSize: [Vector3](../dot/Vector3.md), data: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [DirectModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/DirectModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

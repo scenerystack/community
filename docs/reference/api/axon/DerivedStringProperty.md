@@ -37,6 +37,16 @@ import { DerivedStringProperty } from 'scenerystack/axon';
 
 
 
+## Type DerivedStringPropertyOptions {: #DerivedStringPropertyOptions }
+
+
+```js
+import type { DerivedStringPropertyOptions } from 'scenerystack/axon';
+```
+StrictOmit&lt;SuperOptions&lt;T&gt;, "phetioValueType"&gt; &amp; [DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;
+
+
+
 ## Source Code
 
 See the source for [DerivedStringProperty.ts](https://github.com/phetsims/axon/blob/main/js/DerivedStringProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

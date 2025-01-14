@@ -33,6 +33,17 @@ import { LayoutProxyProperty } from 'scenerystack/scenery';
 
 
 
+## Type LayoutProxyPropertyOptions {: #LayoutProxyPropertyOptions }
+
+
+```js
+import type { LayoutProxyPropertyOptions } from 'scenerystack/scenery';
+```
+- **onTransformChange**?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+
 ## Source Code
 
 See the source for [LayoutProxyProperty.ts](https://github.com/phetsims/scenery/blob/main/js/layout/LayoutProxyProperty.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

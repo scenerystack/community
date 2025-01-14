@@ -24,6 +24,19 @@ import { RectangularToggleButton } from 'scenerystack/sun';
 
 
 
+## Type RectangularToggleButtonOptions {: #RectangularToggleButtonOptions }
+
+
+```js
+import type { RectangularToggleButtonOptions } from 'scenerystack/sun';
+```
+- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: TSoundPlayer
+- &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RectangularToggleButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularToggleButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

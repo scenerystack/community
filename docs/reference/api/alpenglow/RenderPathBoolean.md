@@ -54,6 +54,20 @@ import { RenderPathBoolean } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderPathBoolean {: #SerializedRenderPathBoolean }
+
+
+```js
+import type { SerializedRenderPathBoolean } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)"
+- **path**: [SerializedRenderPath](../alpenglow/RenderPath.md#SerializedRenderPath)
+- **inside**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **outside**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderPathBoolean.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPathBoolean.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

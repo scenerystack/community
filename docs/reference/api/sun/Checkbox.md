@@ -47,6 +47,33 @@ Gets the color of the checkbox.
 
 
 
+## Type CheckboxOptions {: #CheckboxOptions }
+
+
+```js
+import type { CheckboxOptions } from 'scenerystack/sun';
+```
+- **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **boxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **checkboxColor**?: [TPaint](../scenery/TPaint.md)
+- **checkboxColorBackground**?: [TPaint](../scenery/TPaint.md)
+- **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **checkedSoundPlayer**?: TSoundPlayer
+- **uncheckedSoundPlayer**?: TSoundPlayer
+- **checkedContextResponse**?: TAlertable
+- **uncheckedContextResponse**?: TAlertable
+- **voiceNameResponseOnSelection**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **voicingCheckedObjectResponse**?: TAlertable
+- **voicingUncheckedObjectResponse**?: TAlertable
+- **phetioDisplayOnlyPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; StrictOmit&lt;ParentOptions, "children" | "mouseArea" | "touchArea" | "tagName"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Checkbox.ts](https://github.com/phetsims/sun/blob/main/js/Checkbox.ts) in the [sun](https://github.com/phetsims/sun) repository.

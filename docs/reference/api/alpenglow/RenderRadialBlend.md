@@ -82,6 +82,23 @@ import { RenderRadialBlendLogic } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderRadialBlend {: #SerializedRenderRadialBlend }
+
+
+```js
+import type { SerializedRenderRadialBlend } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderRadialBlend](../alpenglow/RenderRadialBlend.md)"
+- **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **radius0**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **radius1**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **accuracy**: [RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlend.md#RenderRadialBlendAccuracy)
+- **zero**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **one**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderRadialBlend.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderRadialBlend.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -22,6 +22,20 @@ import { ElapsedTimeNode } from 'scenerystack/vegas';
 
 
 
+## Type ElapsedTimeNodeOptions {: #ElapsedTimeNodeOptions }
+
+
+```js
+import type { ElapsedTimeNodeOptions } from 'scenerystack/vegas';
+```
+- **clockIconRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **font**?: [Font](../scenery/Font.md)
+- **textFill**?: [TColor](../scenery/TColor.md)
+- &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ElapsedTimeNode.ts](https://github.com/phetsims/vegas/blob/main/js/ElapsedTimeNode.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

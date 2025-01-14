@@ -260,6 +260,37 @@ TODO: A stack-based implementation that doesn't create a bunch of objects/closur
 
 
 
+## Type TextBoundsMethod {: #TextBoundsMethod }
+
+
+```js
+import type { TextBoundsMethod } from 'scenerystack/scenery';
+```
+"fast" | "fastCanvas" | "accurate" | "hybrid"
+
+
+
+## Type TextOptions {: #TextOptions }
+
+
+```js
+import type { TextOptions } from 'scenerystack/scenery';
+```
+- **boundsMethod**?: [TextBoundsMethod](../scenery/Text.md#TextBoundsMethod)
+- **stringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **string**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **font**?: [Font](../scenery/Font.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **fontWeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fontFamily**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **fontStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **fontStyle**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **fontSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **stringPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+- &amp; [PaintableOptions](../scenery/Paintable.md#PaintableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Text.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Text.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -130,6 +130,21 @@ import { RenderInstructionBlendCompose } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderBlendCompose {: #SerializedRenderBlendCompose }
+
+
+```js
+import type { SerializedRenderBlendCompose } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderBlendCompose](../alpenglow/RenderBlendCompose.md)"
+- **composeType**: [RenderComposeType](../alpenglow/RenderComposeType.md)
+- **blendType**: [RenderBlendType](../alpenglow/RenderBlendType.md)
+- **a**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **b**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderBlendCompose.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderBlendCompose.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

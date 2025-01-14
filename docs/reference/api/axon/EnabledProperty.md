@@ -28,6 +28,18 @@ import { EnabledProperty } from 'scenerystack/axon';
 
 
 
+## Type EnabledPropertyOptions {: #EnabledPropertyOptions }
+
+
+```js
+import type { EnabledPropertyOptions } from 'scenerystack/axon';
+```
+- **checkTandemName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [BooleanPropertyOptions](../axon/BooleanProperty.md#BooleanPropertyOptions)
+
+
+
+
 ## Source Code
 
 See the source for [EnabledProperty.ts](https://github.com/phetsims/axon/blob/main/js/EnabledProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

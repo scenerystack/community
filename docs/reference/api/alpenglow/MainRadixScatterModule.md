@@ -34,6 +34,19 @@ import { MainRadixScatterModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainRadixScatterModuleOptions {: #MainRadixScatterModuleOptions }
+
+
+```js
+import type { MainRadixScatterModuleOptions } from 'scenerystack/alpenglow';
+```
+- **input**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- &amp; [mainRadixScatterWGSLOptions](../alpenglow/mainRadixScatterWGSL.md#mainRadixScatterWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainRadixScatterModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainRadixScatterModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

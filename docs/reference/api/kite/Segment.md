@@ -239,6 +239,59 @@ Determines if the start/middle/end points are representative of a sufficiently f
 
 
 
+## Type ClosestToPointResult {: #ClosestToPointResult }
+
+
+```js
+import type { ClosestToPointResult } from 'scenerystack/kite';
+```
+- **segment**: [Segment](../kite/Segment.md)
+- **t**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **closestPoint**: [Vector2](../dot/Vector2.md)
+- **distanceSquared**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
+## Type DashValues {: #DashValues }
+
+
+```js
+import type { DashValues } from 'scenerystack/kite';
+```
+- **values**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **arcLength**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **initiallyInside**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
+## Type PiecewiseLinearOptions {: #PiecewiseLinearOptions }
+
+
+```js
+import type { PiecewiseLinearOptions } from 'scenerystack/kite';
+```
+- **minLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxLevels**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **distanceEpsilon**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **curveEpsilon**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pointMap**?: ( v: [Vector2](../dot/Vector2.md) ) =&gt; [Vector2](../dot/Vector2.md)
+- **methodName**?: KeysMatching&lt;[Segment](../kite/Segment.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Arc](../kite/Arc.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Cubic](../kite/Cubic.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[EllipticalArc](../kite/EllipticalArc.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Line](../scenery/Line.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt; | KeysMatching&lt;[Quadratic](../kite/Quadratic.md), ( options: [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions) ) =&gt; [Segment](../kite/Segment.md)[]&gt;
+
+
+
+
+## Type SerializedSegment {: #SerializedSegment }
+
+
+```js
+import type { SerializedSegment } from 'scenerystack/kite';
+```
+[SerializedArc](../kite/Arc.md#SerializedArc) | [SerializedCubic](../kite/Cubic.md#SerializedCubic) | [SerializedEllipticalArc](../kite/EllipticalArc.md#SerializedEllipticalArc) | [SerializedLine](../kite/KiteLine.md#SerializedLine) | [SerializedQuadratic](../kite/Quadratic.md#SerializedQuadratic)
+
+
+
 ## Source Code
 
 See the source for [Segment.ts](https://github.com/phetsims/kite/blob/main/js/segments/Segment.ts) in the [kite](https://github.com/phetsims/kite) repository.

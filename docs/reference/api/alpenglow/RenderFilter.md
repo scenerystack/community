@@ -97,6 +97,20 @@ import { RenderInstructionFilter } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderFilter {: #SerializedRenderFilter }
+
+
+```js
+import type { SerializedRenderFilter } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderFilter](../alpenglow/RenderFilter.md)"
+- **program**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+- **colorMatrix**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **colorTranslation**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+
+
+
+
 ## Source Code
 
 See the source for [RenderFilter.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderFilter.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

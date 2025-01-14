@@ -27,6 +27,20 @@ Releases references
 
 
 
+## Type GridBackgroundNodeOptions {: #GridBackgroundNodeOptions }
+
+
+```js
+import type { GridBackgroundNodeOptions } from 'scenerystack/scenery';
+```
+- **createCellBackground**?: CreateCellBackground
+- **fill**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [GridBackgroundNode.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/GridBackgroundNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

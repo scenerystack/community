@@ -79,6 +79,58 @@ keyStrokeToKeyDescriptor('?shift+t+j');
 
 
 
+## Type AllowedKeysString {: #AllowedKeysString }
+
+
+Allowed keys as a string - the format they will be provided by the user.
+
+```js
+import type { AllowedKeysString } from 'scenerystack/scenery';
+```
+`${AllowedKeys}`
+
+
+
+## Type KeyDescriptorOptions {: #KeyDescriptorOptions }
+
+
+These combinations are not supported by TypeScript: "TS2590: Expression produces a union type that is too complex to
+represent." See above note and https://github.com/microsoft/TypeScript/issues/41160#issuecomment-1287271132.
+`${AllowedKeys}+${AllowedKeys}+${AllowedKeys}+${AllowedKeys}`;
+type KeyCombinations = `${OneKeyStroke}` | `${OneKeyStroke},${OneKeyStroke}`;
+
+```js
+import type { KeyDescriptorOptions } from 'scenerystack/scenery';
+```
+- **key**: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)
+- **modifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
+- **ignoredModifierKeys**?: [AllowedKeysString](../scenery/KeyDescriptor.md#AllowedKeysString)[]
+
+
+
+
+## Type OneKeyStroke {: #OneKeyStroke }
+
+
+```js
+import type { OneKeyStroke } from 'scenerystack/scenery';
+```
+`${AllowedKeys}` | `${ModifierKey}+${AllowedKeys}` | `${ModifierKey}+${ModifierKey}+${AllowedKeys}` | `${IgnoreModifierKey}+${AllowedKeys}` | `${IgnoreModifierKey}+${ModifierKey}+${AllowedKeys}` | `${IgnoreOtherModifierKeys}+${AllowedKeys}` | `${IgnoreOtherModifierKeys}+${ModifierKey}+${AllowedKeys}`
+
+
+
+## Type OneKeyStrokeEntry {: #OneKeyStrokeEntry }
+
+
+A key stroke entry is a single key or a key with "ignore" modifiers, see examples and keyStrokeToKeyDescriptor.
+
+```js
+import type { OneKeyStrokeEntry } from 'scenerystack/scenery';
+```
+`${AllowedKeys}` | `${IgnoreModifierKey}+${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}` | `${IgnoreOtherModifierKeys}+${[EnglishKey](../scenery/EnglishStringToCodeMap.md#EnglishKey)}`
+
+
+
 ## Source Code
 
 See the source for [KeyDescriptor.ts](https://github.com/phetsims/scenery/blob/main/js/input/KeyDescriptor.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

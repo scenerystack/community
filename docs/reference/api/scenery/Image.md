@@ -96,6 +96,18 @@ Initial values for most Node mutator options
 
 
 
+## Type ImageOptions {: #ImageOptions }
+
+
+```js
+import type { ImageOptions } from 'scenerystack/scenery';
+```
+- **imageBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions) &amp; [ImageableOptions](../scenery/Imageable.md#ImageableOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Image.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Image.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

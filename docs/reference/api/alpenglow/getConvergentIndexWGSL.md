@@ -6,6 +6,16 @@ Returns the bit-reversed version of the given value, such that it is sufficient 
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type getConvergentIndexWGSLOptions {: #getConvergentIndexWGSLOptions }
+
+
+```js
+import type { getConvergentIndexWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **i**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
+- **size**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
 
 
 ## Source Code

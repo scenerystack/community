@@ -102,6 +102,20 @@ Most of the complexity here is that threeCamera.fov is in degrees, and our ideal
 
 
 
+## Type ThreeStageOptions {: #ThreeStageOptions }
+
+
+```js
+import type { ThreeStageOptions } from 'scenerystack/mobius';
+```
+- **backgroundColorProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;
+- **cameraPosition**?: [Vector3](../dot/Vector3.md)
+- **threeRendererOptions**?: THREE.WebGLRendererParameters
+- **threeRendererPixelRatio**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [ThreeStage.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeStage.ts) in the [mobius](https://github.com/phetsims/mobius) repository.

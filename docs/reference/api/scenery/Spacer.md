@@ -22,6 +22,16 @@ import { Spacer } from 'scenerystack/scenery';
 
 
 
+## Type SpacerOptions {: #SpacerOptions }
+
+
+```js
+import type { SpacerOptions } from 'scenerystack/scenery';
+```
+[NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
 ## Source Code
 
 See the source for [Spacer.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Spacer.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

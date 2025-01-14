@@ -332,6 +332,20 @@ Whether the specified CSS string is a valid CSS color string
 
 
 
+## Type ColorState {: #ColorState }
+
+
+```js
+import type { ColorState } from 'scenerystack/scenery';
+```
+- **r**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **g**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **b**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **a**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [Color.ts](https://github.com/phetsims/scenery/blob/main/js/util/Color.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

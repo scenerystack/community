@@ -23,6 +23,18 @@ import { BooleanProperty } from 'scenerystack/axon';
 
 
 
+## Type BooleanPropertyOptions {: #BooleanPropertyOptions }
+
+
+client cannot specify superclass options that are controlled by BooleanProperty
+
+```js
+import type { BooleanPropertyOptions } from 'scenerystack/axon';
+```
+StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;, "isValidValue" | "valueType" | "phetioValueType"&gt;
+
+
+
 ## Source Code
 
 See the source for [BooleanProperty.ts](https://github.com/phetsims/axon/blob/main/js/BooleanProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

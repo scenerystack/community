@@ -23,6 +23,18 @@ import { MinusNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type MinusNodeOptions {: #MinusNodeOptions }
+
+
+```js
+import type { MinusNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- &amp; [RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MinusNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/MinusNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

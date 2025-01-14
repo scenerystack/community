@@ -22,6 +22,26 @@ import { ShadedRectangle } from 'scenerystack/scenery-phet';
 
 
 
+## Type ShadedRectangleOptions {: #ShadedRectangleOptions }
+
+
+```js
+import type { ShadedRectangleOptions } from 'scenerystack/scenery-phet';
+```
+- **baseColor**?: [TColor](../scenery/TColor.md)
+- **lightFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lighterFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **darkFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **darkerFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lightSource**?: LightSource
+- **lightOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **darkOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ShadedRectangle.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ShadedRectangle.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

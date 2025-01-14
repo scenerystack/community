@@ -79,6 +79,89 @@ button that shows the current selection (internal)
 
 
 
+## Type ComboBoxAlign {: #ComboBoxAlign }
+
+
+```js
+import type { ComboBoxAlign } from 'scenerystack/sun';
+```
+"left" | "right" | "center"
+
+
+
+## Type ComboBoxItem {: #ComboBoxItem }
+
+
+```js
+import type { ComboBoxItem } from 'scenerystack/sun';
+```
+- **value**: T
+- **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)
+- &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
+
+
+
+
+## Type ComboBoxItemNoNode {: #ComboBoxItemNoNode }
+
+
+Most usages of the items should not be able to create the Node, but rather should use the corresponding `nodes` array,
+hence the type name "No Node".
+
+```js
+import type { ComboBoxItemNoNode } from 'scenerystack/sun';
+```
+StrictOmit&lt;[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;, "createNode"&gt;
+
+
+
+## Type ComboBoxListPosition {: #ComboBoxListPosition }
+
+
+```js
+import type { ComboBoxListPosition } from 'scenerystack/sun';
+```
+"above" | "below"
+
+
+
+## Type ComboBoxOptions {: #ComboBoxOptions }
+
+
+```js
+import type { ComboBoxOptions } from 'scenerystack/sun';
+```
+- **align**?: [ComboBoxAlign](../sun/ComboBox.md#ComboBoxAlign)
+- **listPosition**?: [ComboBoxListPosition](../sun/ComboBox.md#ComboBoxListPosition)
+- **labelXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **highlightFill**?: [TPaint](../scenery/TPaint.md)
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonFill**?: [TColor](../scenery/TColor.md)
+- **buttonStroke**?: [TPaint](../scenery/TPaint.md)
+- **buttonLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonTouchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonTouchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonMouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **buttonMouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **listFill**?: [TPaint](../scenery/TPaint.md)
+- **listStroke**?: [TPaint](../scenery/TPaint.md)
+- **listLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **openedSoundPlayer**?: TSoundPlayer
+- **closedNoChangeSoundPlayer**?: TSoundPlayer
+- **buttonLabelTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **comboBoxVoicingNameResponsePattern**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **comboBoxVoicingContextResponse**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **comboBoxVoicingHintResponse**?: SpeakableResolvedResponse | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;, "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ComboBox.ts](https://github.com/phetsims/sun/blob/main/js/ComboBox.ts) in the [sun](https://github.com/phetsims/sun) repository.

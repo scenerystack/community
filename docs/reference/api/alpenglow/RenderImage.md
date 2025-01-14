@@ -151,6 +151,22 @@ import { RenderInstructionImage } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderImage {: #SerializedRenderImage }
+
+
+```js
+import type { SerializedRenderImage } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderImage](../alpenglow/RenderImage.md)"
+- **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **image**: [SerializedRenderImageable](../alpenglow/RenderImageable.md#SerializedRenderImageable)
+- **extendX**: [RenderExtend](../alpenglow/RenderExtend.md)
+- **extendY**: [RenderExtend](../alpenglow/RenderExtend.md)
+- **resampleType**: [RenderResampleType](../alpenglow/RenderResampleType.md)
+
+
+
+
 ## Source Code
 
 See the source for [RenderImage.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderImage.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

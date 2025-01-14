@@ -39,6 +39,18 @@ RoundButton has this.buttonModel, but we also need this.pushButtonModel, because
 
 
 
+## Type RoundPushButtonOptions {: #RoundPushButtonOptions }
+
+
+```js
+import type { RoundPushButtonOptions } from 'scenerystack/sun';
+```
+- **soundPlayer**?: TSoundPlayer
+- &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RoundPushButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RoundPushButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

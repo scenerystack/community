@@ -78,6 +78,18 @@ Returns a Shape that represents the area covered by containsPointSelf.
 
 
 
+## Type CanvasNodeOptions {: #CanvasNodeOptions }
+
+
+```js
+import type { CanvasNodeOptions } from 'scenerystack/scenery';
+```
+- **canvasBounds**?: [Bounds2](../dot/Bounds2.md)
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [CanvasNode.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/CanvasNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

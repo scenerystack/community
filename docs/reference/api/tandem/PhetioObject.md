@@ -12,6 +12,21 @@ unexpectedly.
 @author Sam Reid (PhET Interactive Simulations)
 @author Michael Kauzmann (PhET Interactive Simulations)
 
+## Type PhetioObjectOptions {: #PhetioObjectOptions }
+
+
+```js
+import type { PhetioObjectOptions } from 'scenerystack/tandem';
+```
+- **tandem**?: [Tandem](../tandem/Tandem.md)
+- **descriptionTandem**?: [Tandem](../tandem/Tandem.md)
+- **phetioType**?: [IOType](../tandem/IOType.md)
+- **phetioEventType**?: [EventType](../tandem/EventType.md)
+- **phetioEventMetadata**?: EventMetadata | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **tandemNameSuffix**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;Partial&lt;PhetioElementMetadata&gt;, "phetioTypeName" | "phetioArchetypePhetioID" | "phetioIsArchetype" | "phetioEventType"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
+
+
 
 
 ## Source Code

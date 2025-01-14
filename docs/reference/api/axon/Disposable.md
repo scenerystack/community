@@ -56,6 +56,19 @@ Remove all disposer actions for a given type
 
 
 
+## Type DisposableOptions {: #DisposableOptions }
+
+
+Used in subclasses to support mutate.
+
+```js
+import type { DisposableOptions } from 'scenerystack/axon';
+```
+- **isDisposable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Source Code
 
 See the source for [Disposable.ts](https://github.com/phetsims/axon/blob/main/js/Disposable.ts) in the [axon](https://github.com/phetsims/axon) repository.

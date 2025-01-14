@@ -78,6 +78,20 @@ targetNode transform. This could be removed by work recommended in
 
 
 
+## Type PanZoomListenerOptions {: #PanZoomListenerOptions }
+
+
+```js
+import type { PanZoomListenerOptions } from 'scenerystack/scenery';
+```
+- **panBounds**?: [Bounds2](../dot/Bounds2.md)
+- **targetBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **targetScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [MultiListenerOptions](../scenery/MultiListener.md#MultiListenerOptions)
+
+
+
+
 ## Source Code
 
 See the source for [PanZoomListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/PanZoomListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

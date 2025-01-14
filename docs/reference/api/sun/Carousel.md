@@ -98,6 +98,42 @@ These are public for layout - NOTE: These are mutated if the size changes after 
 
 
 
+## Type CarouselItem {: #CarouselItem }
+
+
+```js
+import type { CarouselItem } from 'scenerystack/sun';
+```
+[GroupItemOptions](../sun/GroupItemOptions.md) &amp; { alignBoxOptions?: [AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions) }
+
+
+
+## Type CarouselOptions {: #CarouselOptions }
+
+
+```js
+import type { CarouselOptions } from 'scenerystack/sun';
+```
+- **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md)
+- **fill**?: [TPaint](../scenery/TPaint.md)
+- **stroke**?: [TPaint](../scenery/TPaint.md)
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **defaultPageNumber**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **itemsPerPage**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **margin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **alignBoxOptions**?: [AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions)
+- **buttonOptions**?: [CarouselButtonOptions](../sun/CarouselButton.md#CarouselButtonOptions)
+- **separatorsVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **separatorOptions**?: [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
+- **animationEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **animationOptions**?: StrictOmit&lt;[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "to" | "setValue" | "getValue"&gt;
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Carousel.ts](https://github.com/phetsims/sun/blob/main/js/Carousel.ts) in the [sun](https://github.com/phetsims/sun) repository.

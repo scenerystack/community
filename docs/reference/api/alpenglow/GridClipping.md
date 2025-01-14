@@ -24,6 +24,25 @@ TODO: intercepts to values that will be acceptable?
 
 
 
+## Type GridClipCallback {: #GridClipCallback }
+
+
+```js
+import type { GridClipCallback } from 'scenerystack/alpenglow';
+```
+(
+  cellX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  cellY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  startX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  startY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  endX: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  endY: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>,
+  startPoint: [Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>,
+  endPoint: [Vector2](../dot/Vector2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
 ## Source Code
 
 See the source for [GridClipping.ts](https://github.com/phetsims/alpenglow/blob/main/js/clip/GridClipping.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

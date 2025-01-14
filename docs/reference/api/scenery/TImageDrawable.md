@@ -4,6 +4,18 @@
 
 
 
+## Type TImageDrawable {: #TImageDrawable }
+
+
+Interface specifically for SelfDrawables for an Image Node.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import type { TImageDrawable } from 'scenerystack/scenery';
+```
+
+
 
 
 ## Source Code

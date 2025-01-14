@@ -22,6 +22,19 @@ import { AllLevelsCompletedNode } from 'scenerystack/vegas';
 
 
 
+## Type AllLevelsCompletedNodeOptions {: #AllLevelsCompletedNodeOptions }
+
+
+```js
+import type { AllLevelsCompletedNodeOptions } from 'scenerystack/vegas';
+```
+- **faceDiameter**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxTextWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [AllLevelsCompletedNode.ts](https://github.com/phetsims/vegas/blob/main/js/AllLevelsCompletedNode.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

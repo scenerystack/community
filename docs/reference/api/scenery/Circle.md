@@ -77,6 +77,18 @@ Returns whether this Path has an associated Shape (instead of no shape, represen
 
 
 
+## Type CircleOptions {: #CircleOptions }
+
+
+```js
+import type { CircleOptions } from 'scenerystack/scenery';
+```
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions) &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Circle.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Circle.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

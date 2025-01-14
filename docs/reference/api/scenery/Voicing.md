@@ -24,6 +24,45 @@ receives focus.
 @author Jesse Greenberg (PhET Interactive Simulations)
 @author Michael Kauzmann (PhET Interactive Simulations)
 
+## Type SpeakingOptions {: #SpeakingOptions }
+
+
+```js
+import type { SpeakingOptions } from 'scenerystack/scenery';
+```
+- **utterance**?: SelfOptions['voicingUtterance']
+- &amp; SpeakableResolvedOptions
+
+
+
+
+## Type VoicingNode {: #VoicingNode }
+
+
+```js
+import type { VoicingNode } from 'scenerystack/scenery';
+```
+[Node](../scenery/Node.md) &amp; [TVoicing](../scenery/Voicing.md#TVoicing)
+
+
+
+## Type VoicingOptions {: #VoicingOptions }
+
+
+```js
+import type { VoicingOptions } from 'scenerystack/scenery';
+```
+- **voicingNameResponse**?: VoicingResponse
+- **voicingObjectResponse**?: VoicingResponse
+- **voicingContextResponse**?: VoicingResponse
+- **voicingHintResponse**?: VoicingResponse
+- **voicingResponsePatternCollection**?: ResponsePatternCollection
+- **voicingIgnoreVoicingManagerProperties**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **voicingFocusListener**?: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)&lt;FocusEvent&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **voicingUtterance**?: Utterance | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [InteractiveHighlightingOptions](../scenery/InteractiveHighlighting.md#InteractiveHighlightingOptions)
+
+
 
 
 ## Source Code

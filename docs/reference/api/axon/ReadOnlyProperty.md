@@ -225,6 +225,48 @@ This caching implementation should be kept in sync with the other parametric IOT
 
 
 
+## Type LinkOptions {: #LinkOptions }
+
+
+```js
+import type { LinkOptions } from 'scenerystack/axon';
+```
+- **phetioDependencies**?: Array&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;&gt;
+
+
+
+
+## Type ReadOnlyPropertyOptions {: #ReadOnlyPropertyOptions }
+
+
+Options that can be passed in
+
+```js
+import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
+```
+- **units**?: Units | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **reentrant**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **phetioValueType**?: [IOType](../tandem/IOType.md)
+- **phetioOuterType**?: ( parameterType: [IOType](../tandem/IOType.md) ) =&gt; [IOType](../tandem/IOType.md)
+- **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;ParentOptions&lt;T&gt;, "phetioType"&gt;
+
+
+
+
+## Type ReadOnlyPropertyState {: #ReadOnlyPropertyState }
+
+
+```js
+import type { ReadOnlyPropertyState } from 'scenerystack/axon';
+```
+- **value**: StateType
+- **validValues**: StateType[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **units**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
+
 ## Source Code
 
 See the source for [ReadOnlyProperty.ts](https://github.com/phetsims/axon/blob/main/js/ReadOnlyProperty.ts) in the [axon](https://github.com/phetsims/axon) repository.

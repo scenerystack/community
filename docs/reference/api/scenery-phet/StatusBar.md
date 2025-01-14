@@ -40,6 +40,24 @@ import { StatusBar } from 'scenerystack/scenery-phet';
 
 
 
+## Type StatusBarOptions {: #StatusBarOptions }
+
+
+```js
+import type { StatusBarOptions } from 'scenerystack/scenery-phet';
+```
+- **barFill**?: [TColor](../scenery/TColor.md)
+- **barStroke**?: [TColor](../scenery/TColor.md)
+- **barHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **floatToTop**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **dynamicAlignment**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [StatusBar.ts](https://github.com/phetsims/scenery-phet/blob/main/js/StatusBar.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

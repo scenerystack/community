@@ -24,6 +24,23 @@ import { ShadedSphereNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type ShadedSphereNodeOptions {: #ShadedSphereNodeOptions }
+
+
+```js
+import type { ShadedSphereNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **mainColor**?: [TColor](../scenery/TColor.md)
+- **highlightColor**?: [TColor](../scenery/TColor.md)
+- **shadowColor**?: [TColor](../scenery/TColor.md)
+- **highlightDiameterRatio**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **highlightXOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **highlightYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[CircleOptions](../scenery/Circle.md#CircleOptions), "fill"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ShadedSphereNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ShadedSphereNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

@@ -24,6 +24,19 @@ import { RoundToggleButton } from 'scenerystack/sun';
 
 
 
+## Type RoundToggleButtonOptions {: #RoundToggleButtonOptions }
+
+
+```js
+import type { RoundToggleButtonOptions } from 'scenerystack/sun';
+```
+- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: TSoundPlayer
+- &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
+
+
+
+
 ## Source Code
 
 See the source for [RoundToggleButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RoundToggleButton.ts) in the [sun](https://github.com/phetsims/sun) repository.

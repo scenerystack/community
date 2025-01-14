@@ -17,6 +17,35 @@ used by outside code.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type ExternalGridConfigurableOptions {: #ExternalGridConfigurableOptions }
+
+
+We remove the null values for the values that won't actually take null
+
+```js
+import type { ExternalGridConfigurableOptions } from 'scenerystack/scenery';
+```
+WithoutNull&lt;[GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), Exclude&lt;keyof [GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
+
+
+
+## Type GridConfigurableOptions {: #GridConfigurableOptions }
+
+
+```js
+import type { GridConfigurableOptions } from 'scenerystack/scenery';
+```
+- **xAlign**?: [HorizontalLayoutAlign](../scenery/LayoutAlign.md#HorizontalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **yAlign**?: [VerticalLayoutAlign](../scenery/LayoutAlign.md#VerticalLayoutAlign) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **stretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **xStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **yStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **grow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **xGrow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **yGrow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions)
+
+
 
 
 ## Source Code

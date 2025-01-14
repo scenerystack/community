@@ -97,6 +97,27 @@ Help text used on the screen buttons, see options above.
 
 
 
+## Type ScreenOptions {: #ScreenOptions }
+
+
+```js
+import type { ScreenOptions } from 'scenerystack/sim';
+```
+- **name**?: [PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **instrumentNameProperty**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **backgroundColorProperty**?: [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [Property](../axon/Property.md)&lt;[Color](../scenery/Color.md)&gt; | [Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | [ProfileColorProperty](../scenery/ProfileColorProperty.md)
+- **homeScreenIcon**?: [ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **showUnselectedHomeScreenIconFrame**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **navigationBarIcon**?: [ScreenIcon](../sim/ScreenIcon.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **showScreenIconFrameForNavigationBarFill**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **maxDT**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **createKeyboardHelpNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | ( ( [tandem](../tandem/tandem.md): [Tandem](../tandem/Tandem.md) ) =&gt; [Node](../scenery/Node.md) )
+- **screenButtonsHelpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; StrictOmit&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandemNameSuffix"&gt; &amp; PickRequired&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Screen.ts](https://github.com/phetsims/joist/blob/main/js/Screen.ts) in the [joist](https://github.com/phetsims/joist) repository.

@@ -123,6 +123,16 @@ Implements TInputListener
 
 
 
+## Type RichDragListenerOptions {: #RichDragListenerOptions }
+
+
+```js
+import type { RichDragListenerOptions } from 'scenerystack/scenery';
+```
+[AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;[DragListener](../scenery/DragListener.md) | [KeyboardDragListener](../scenery/KeyboardDragListener.md), [PressListenerDOMEvent](../scenery/PressListener.md#PressListenerDOMEvent) | [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; { dragListenerOptions?: [DragListenerOptions](../scenery/DragListener.md#DragListenerOptions); keyboardDragListenerOptions?: [KeyboardDragListenerOptions](../scenery/KeyboardDragListener.md#KeyboardDragListenerOptions) }
+
+
+
 ## Source Code
 
 See the source for [RichDragListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/RichDragListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -106,6 +106,18 @@ import { RenderInstructionStackBlend } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderStack {: #SerializedRenderStack }
+
+
+```js
+import type { SerializedRenderStack } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderStack](../alpenglow/RenderStack.md)"
+- **children**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)[]
+
+
+
+
 ## Source Code
 
 See the source for [RenderStack.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderStack.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

@@ -23,6 +23,28 @@ import { PageControl } from 'scenerystack/sun';
 
 
 
+## Type PageControlOptions {: #PageControlOptions }
+
+
+```js
+import type { PageControlOptions } from 'scenerystack/sun';
+```
+- **interactive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **orientation**?: [LayoutOrientation](../scenery/LayoutOrientation.md)
+- **dotRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **dotSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **dotTouchAreaDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **dotMouseAreaDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **currentPageFill**?: [TPaint](../scenery/TPaint.md)
+- **currentPageStroke**?: [TPaint](../scenery/TPaint.md)
+- **pageFill**?: [TPaint](../scenery/TPaint.md)
+- **pageStroke**?: [TPaint](../scenery/TPaint.md)
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [PageControl.ts](https://github.com/phetsims/sun/blob/main/js/PageControl.ts) in the [sun](https://github.com/phetsims/sun) repository.

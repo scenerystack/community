@@ -125,6 +125,38 @@ If false, the hotkey was released due to the key being released.
 
 
 
+## Type HotkeyFireOnHoldTiming {: #HotkeyFireOnHoldTiming }
+
+
+```js
+import type { HotkeyFireOnHoldTiming } from 'scenerystack/scenery';
+```
+"browser" | "custom"
+
+
+
+## Type HotkeyOptions {: #HotkeyOptions }
+
+
+```js
+import type { HotkeyOptions } from 'scenerystack/scenery';
+```
+- **keyStringProperty**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;
+- **fire**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **press**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **release**?: ( event: KeyboardEvent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **fireOnDown**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHold**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **fireOnHoldTiming**?: [HotkeyFireOnHoldTiming](../scenery/Hotkey.md#HotkeyFireOnHoldTiming)
+- **fireOnHoldCustomDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Hotkey.ts](https://github.com/phetsims/scenery/blob/main/js/input/Hotkey.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

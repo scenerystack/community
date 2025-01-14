@@ -39,6 +39,26 @@ Releases references
 
 
 
+## Type FlowConstraintOptions {: #FlowConstraintOptions }
+
+
+```js
+import type { FlowConstraintOptions } from 'scenerystack/scenery';
+```
+- **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lineSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **justify**?: [HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification) | [VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification)
+- **justifyLines**?: [HorizontalLayoutJustification](../scenery/LayoutJustification.md#HorizontalLayoutJustification) | [VerticalLayoutJustification](../scenery/LayoutJustification.md#VerticalLayoutJustification) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **wrap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **preferredWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- **preferredHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- **minimumWidthProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- **minimumHeightProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- &amp; [ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions) &amp; [NodeLayoutAvailableConstraintOptions](../scenery/NodeLayoutConstraint.md#NodeLayoutAvailableConstraintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [FlowConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/FlowConstraint.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -36,6 +36,23 @@ import { CarouselComboBox } from 'scenerystack/sun';
 
 
 
+## Type CarouselComboBoxOptions {: #CarouselComboBoxOptions }
+
+
+```js
+import type { CarouselComboBoxOptions } from 'scenerystack/sun';
+```
+- **itemNodeOptions**?: CarouselItemNodeOptions
+- **carouselOptions**?: [CarouselOptions](../sun/Carousel.md#CarouselOptions)
+- **pageControlOptions**?: StrictOmit&lt;[PageControlOptions](../sun/PageControl.md#PageControlOptions), "orientation"&gt;
+- **buttonOptions**?: StrictOmit&lt;[ComboBoxButtonOptions](../sun/ComboBoxButton.md#ComboBoxButtonOptions), "content" | "listener"&gt;
+- **openedSoundPlayer**?: TSoundPlayer
+- **closedSoundPlayer**?: TSoundPlayer
+- &amp; StrictOmit&lt;ParentOptions, "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [CarouselComboBox.ts](https://github.com/phetsims/sun/blob/main/js/CarouselComboBox.ts) in the [sun](https://github.com/phetsims/sun) repository.

@@ -96,6 +96,25 @@ Reset transform on the target Node.
 
 
 
+## Type MultiListenerOptions {: #MultiListenerOptions }
+
+
+```js
+import type { MultiListenerOptions } from 'scenerystack/scenery';
+```
+- **mouseButton**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pressCursor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **allowScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **allowRotation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **allowMultitouchInterruption**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **allowMoveInterruption**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **minScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **maxScale**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "[tandem](../tandem/tandem.md)"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [MultiListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/MultiListener.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

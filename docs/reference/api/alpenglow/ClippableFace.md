@@ -12,6 +12,34 @@ ignore these "fake" corners.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type ClippableFace {: #ClippableFace }
+
+
+TODO: assertions that all types of ClippableFace give the same results for the same methods
+
+```js
+import type { ClippableFace } from 'scenerystack/alpenglow';
+```
+
+
+
+
+## Type ClippableFaceAccumulator {: #ClippableFaceAccumulator }
+
+
+This is a type meant for building a ClippableFace (of a specific type) by adding edges, and (optionally) marking
+where we have finished one polygon, and are now going to add edges for another polygon.
+
+When you are done adding edges, use finalizeFace() to get the resulting ClippableFace. If there is no data that gives
+a non-zero area face, it will return null. This will also reset the internal state, so it can be used to create a
+fresh new face.
+
+```js
+import type { ClippableFaceAccumulator } from 'scenerystack/alpenglow';
+```
+- **usesEndPoint**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
 
 
 ## Source Code

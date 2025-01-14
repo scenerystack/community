@@ -23,6 +23,16 @@ import { OnOffSwitch } from 'scenerystack/sun';
 
 
 
+## Type OnOffSwitchOptions {: #OnOffSwitchOptions }
+
+
+```js
+import type { OnOffSwitchOptions } from 'scenerystack/sun';
+```
+[ToggleSwitchOptions](../sun/ToggleSwitch.md#ToggleSwitchOptions)
+
+
+
 ## Source Code
 
 See the source for [OnOffSwitch.ts](https://github.com/phetsims/sun/blob/main/js/OnOffSwitch.ts) in the [sun](https://github.com/phetsims/sun) repository.

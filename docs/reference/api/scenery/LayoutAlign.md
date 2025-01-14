@@ -85,6 +85,46 @@ Converts an internal Enumeration value into a string union value.
 
 
 
+## Type HorizontalLayoutAlign {: #HorizontalLayoutAlign }
+
+
+```js
+import type { HorizontalLayoutAlign } from 'scenerystack/scenery';
+```
+"left" | "right" | "center" | "origin"
+
+
+
+## Type RestrictedHorizontalLayoutAlign {: #RestrictedHorizontalLayoutAlign }
+
+
+```js
+import type { RestrictedHorizontalLayoutAlign } from 'scenerystack/scenery';
+```
+"left" | "right" | "center"
+
+
+
+## Type RestrictedVerticalLayoutAlign {: #RestrictedVerticalLayoutAlign }
+
+
+```js
+import type { RestrictedVerticalLayoutAlign } from 'scenerystack/scenery';
+```
+"top" | "bottom" | "center"
+
+
+
+## Type VerticalLayoutAlign {: #VerticalLayoutAlign }
+
+
+```js
+import type { VerticalLayoutAlign } from 'scenerystack/scenery';
+```
+"top" | "bottom" | "center" | "origin"
+
+
+
 ## Source Code
 
 See the source for [LayoutAlign.ts](https://github.com/phetsims/scenery/blob/main/js/layout/LayoutAlign.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

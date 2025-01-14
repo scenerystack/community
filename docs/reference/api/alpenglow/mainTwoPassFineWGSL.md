@@ -23,6 +23,24 @@ TODO: optimize is_constant
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type mainTwoPassFineWGSLOptions {: #mainTwoPassFineWGSLOptions }
+
+
+```js
+import type { mainTwoPassFineWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **config**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassConfig](../alpenglow/TwoPassConfig.md)&gt;
+- **addresses**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
+- **fineRenderableFaces**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[TwoPassFineRenderableFace](../alpenglow/TwoPassFineRenderableFace.md)[]&gt;
+- **renderProgramInstructions**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]&gt;
+- **edges**: [BufferSlot](../alpenglow/BufferSlot.md)&lt;[LinearEdge](../alpenglow/LinearEdge.md)[]&gt;
+- **output**: [TextureViewSlot](../alpenglow/TextureViewSlot.md)
+- **storageFormat**: GPUTextureFormat
+- **supportsGridFiltering**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **supportsBilinear**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **supportsMitchellNetravali**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
 
 
 ## Source Code

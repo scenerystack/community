@@ -60,6 +60,16 @@ We don't want to allow strokes.
 
 
 
+## Type GradientRectangleOptions {: #GradientRectangleOptions }
+
+
+```js
+import type { GradientRectangleOptions } from 'scenerystack/scenery-phet';
+```
+[RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
+
+
+
 ## Source Code
 
 See the source for [GradientRectangle.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GradientRectangle.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

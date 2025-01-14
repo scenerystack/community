@@ -42,6 +42,16 @@ import { ReduceModule } from 'scenerystack/alpenglow';
 
 
 
+## Type ReduceModuleOptions {: #ReduceModuleOptions }
+
+
+```js
+import type { ReduceModuleOptions } from 'scenerystack/alpenglow';
+```
+[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
 ## Source Code
 
 See the source for [ReduceModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/ReduceModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

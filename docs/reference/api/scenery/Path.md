@@ -155,6 +155,53 @@ Initial values for most Node mutator options
 
 
 
+## Type InputShape {: #InputShape }
+
+
+The valid parameter types are:
+- Shape: (from Kite), normally used.
+- string: Uses the SVG Path format, see https://www.w3.org/TR/SVG/paths.html (the PATH part of &lt;path d="PATH"/&gt;).
+          This will immediately be converted to a Shape object when set, and getShape() or equivalents will return
+          the parsed Shape instance instead of the original string. See "ParsedShape"
+- null: Indicates that there is no Shape, and nothing is drawn. Usually used as a placeholder.
+
+NOTE: Be aware of the potential for memory leaks. If a Shape is not marked as immutable (with makeImmutable()),
+      Path will add a listener so that it is updated when the Shape itself changes. If there is a listener
+      added, keeping a reference to the Shape will also keep a reference to the Path object (and thus whatever
+      Nodes are connected to the Path). For now, set path.shape = null if you need to release the reference
+      that the Shape would have, or call dispose() on the Path if it is not needed anymore.
+
+```js
+import type { InputShape } from 'scenerystack/scenery';
+```
+[Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
+## Type PathBoundsMethod {: #PathBoundsMethod }
+
+
+```js
+import type { PathBoundsMethod } from 'scenerystack/scenery';
+```
+"accurate" | "unstroked" | "tightPadding" | "safePadding" | "none"
+
+
+
+## Type PathOptions {: #PathOptions }
+
+
+```js
+import type { PathOptions } from 'scenerystack/scenery';
+```
+- **shape**?: [InputShape](../scenery/Path.md#InputShape)
+- **shapeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[InputShape](../scenery/Path.md#InputShape)&gt;
+- **boundsMethod**?: [PathBoundsMethod](../scenery/Path.md#PathBoundsMethod)
+- &amp; [PaintableOptions](../scenery/Paintable.md#PaintableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Path.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Path.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -17,6 +17,28 @@ scanned reductions can be added into final results (also for use in multi-level 
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type mainScanWGSLOptions {: #mainScanWGSLOptions }
+
+
+```js
+import type { mainScanWGSLOptions } from 'scenerystack/alpenglow';
+```
+- **binaryOp**: [BinaryOp](../alpenglow/ConcreteType.md#BinaryOp)&lt;T&gt;
+- **inPlace**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **storeReduction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **addScannedReduction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **addScannedDoubleReduction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **areScannedReductionsExclusive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **input**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **output**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **data**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **reduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **scannedReduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **scannedDoubleReduction**?: [BufferSlot](../alpenglow/BufferSlot.md)&lt;T[]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **getAddedValue**?: [scanComprehensiveWGSLOptions](../alpenglow/scanComprehensiveWGSL.md#scanComprehensiveWGSLOptions)&lt;T&gt;[ 'getAddedValue' ]
+- &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable) &amp; Pick&lt;[scanComprehensiveWGSLOptions](../alpenglow/scanComprehensiveWGSL.md#scanComprehensiveWGSLOptions)&lt;T&gt;, "exclusive" | "lengthExpression" | "inputOrder" | "inputAccessOrder" | "factorOutSubexpressions" | "stripeReducedOutput"&gt;
+
+
 
 
 ## Source Code

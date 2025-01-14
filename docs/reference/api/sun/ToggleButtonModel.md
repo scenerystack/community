@@ -37,6 +37,16 @@ import { ToggleButtonModel } from 'scenerystack/sun';
 
 
 
+## Type ToggleButtonModelOptions {: #ToggleButtonModelOptions }
+
+
+```js
+import type { ToggleButtonModelOptions } from 'scenerystack/sun';
+```
+[ButtonModelOptions](../sun/ButtonModel.md#ButtonModelOptions)
+
+
+
 ## Source Code
 
 See the source for [ToggleButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/ToggleButtonModel.ts) in the [sun](https://github.com/phetsims/sun) repository.

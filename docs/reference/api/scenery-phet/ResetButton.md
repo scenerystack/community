@@ -24,6 +24,19 @@ import { ResetButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type ResetButtonOptions {: #ResetButtonOptions }
+
+
+```js
+import type { ResetButtonOptions } from 'scenerystack/scenery-phet';
+```
+- **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **arrowColor**?: [TColor](../scenery/TColor.md)
+- &amp; StrictOmit&lt;[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions), "content"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [ResetButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/ResetButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

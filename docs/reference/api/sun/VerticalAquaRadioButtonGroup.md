@@ -22,6 +22,16 @@ import { VerticalAquaRadioButtonGroup } from 'scenerystack/sun';
 
 
 
+## Type VerticalAquaRadioButtonGroupOptions {: #VerticalAquaRadioButtonGroupOptions }
+
+
+```js
+import type { VerticalAquaRadioButtonGroupOptions } from 'scenerystack/sun';
+```
+StrictOmit&lt;[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions), "orientation"&gt;
+
+
+
 ## Source Code
 
 See the source for [VerticalAquaRadioButtonGroup.ts](https://github.com/phetsims/sun/blob/main/js/VerticalAquaRadioButtonGroup.ts) in the [sun](https://github.com/phetsims/sun) repository.

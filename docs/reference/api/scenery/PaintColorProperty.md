@@ -86,6 +86,18 @@ Releases references.
 
 
 
+## Type PaintColorPropertyOptions {: #PaintColorPropertyOptions }
+
+
+```js
+import type { PaintColorPropertyOptions } from 'scenerystack/scenery';
+```
+- **luminanceFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;
+
+
+
+
 ## Source Code
 
 See the source for [PaintColorProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/PaintColorProperty.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

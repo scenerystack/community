@@ -70,6 +70,18 @@ import { RenderInstructionNormalDebug } from 'scenerystack/alpenglow';
 
 
 
+## Type SerializedRenderNormalDebug {: #SerializedRenderNormalDebug }
+
+
+```js
+import type { SerializedRenderNormalDebug } from 'scenerystack/alpenglow';
+```
+- **type**: "[RenderNormalDebug](../alpenglow/RenderNormalDebug.md)"
+- **normalProgram**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
+
+
+
+
 ## Source Code
 
 See the source for [RenderNormalDebug.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderNormalDebug.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

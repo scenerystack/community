@@ -25,6 +25,16 @@ import { GridNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type GridNodeOptions {: #GridNodeOptions }
+
+
+```js
+import type { GridNodeOptions } from 'scenerystack/scenery-phet';
+```
+[PathOptions](../scenery/Path.md#PathOptions)
+
+
+
 ## Source Code
 
 See the source for [GridNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GridNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

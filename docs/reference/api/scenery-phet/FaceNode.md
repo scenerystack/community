@@ -26,6 +26,22 @@ import { FaceNode } from 'scenerystack/scenery-phet';
 
 
 
+## Type FaceNodeOptions {: #FaceNodeOptions }
+
+
+```js
+import type { FaceNodeOptions } from 'scenerystack/scenery-phet';
+```
+- **headFill**?: [TColor](../scenery/TColor.md)
+- **headStroke**?: [TColor](../scenery/TColor.md)
+- **eyeFill**?: [TColor](../scenery/TColor.md)
+- **mouthStroke**?: [TColor](../scenery/TColor.md)
+- **headLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [FaceNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/FaceNode.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

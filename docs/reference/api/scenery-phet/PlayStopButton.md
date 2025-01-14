@@ -24,6 +24,16 @@ import { PlayStopButton } from 'scenerystack/scenery-phet';
 
 
 
+## Type PlayStopButtonOptions {: #PlayStopButtonOptions }
+
+
+```js
+import type { PlayStopButtonOptions } from 'scenerystack/scenery-phet';
+```
+[PlayControlButtonOptions](../scenery-phet/PlayControlButton.md#PlayControlButtonOptions)
+
+
+
 ## Source Code
 
 See the source for [PlayStopButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/PlayStopButton.ts) in the [scenery-phet](https://github.com/phetsims/scenery-phet) repository.

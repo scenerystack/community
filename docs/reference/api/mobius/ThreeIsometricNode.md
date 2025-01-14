@@ -64,6 +64,23 @@ our target for drags that don't hit other UI components
 
 
 
+## Type ThreeIsometricNodeOptions {: #ThreeIsometricNodeOptions }
+
+
+Constructor options are passed directly to ThreeStage as well as used by this Node.
+
+```js
+import type { ThreeIsometricNodeOptions } from 'scenerystack/mobius';
+```
+- **parentMatrixProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Matrix3](../dot/Matrix3.md)&gt;
+- **fov**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **getPhetioMouseHit**?: MouseHitListener | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **viewOffset**?: [Vector2](../dot/Vector2.md)
+- &amp; [ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ThreeIsometricNode.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeIsometricNode.ts) in the [mobius](https://github.com/phetsims/mobius) repository.

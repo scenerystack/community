@@ -46,6 +46,23 @@ import { MainScanModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MainScanModuleOptions {: #MainScanModuleOptions }
+
+
+```js
+import type { MainScanModuleOptions } from 'scenerystack/alpenglow';
+```
+- **input**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **output**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **data**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **reduction**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **scannedReduction**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **scannedDoubleReduction**?: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [mainScanWGSLOptions](../alpenglow/mainScanWGSL.md#mainScanWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MainScanModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainScanModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

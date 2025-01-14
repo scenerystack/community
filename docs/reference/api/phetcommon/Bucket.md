@@ -72,6 +72,23 @@ The shape of the front portion of the bucket.
 
 
 
+## Type BucketOptions {: #BucketOptions }
+
+
+```js
+import type { BucketOptions } from 'scenerystack/phetcommon';
+```
+- **position**?: [Vector2](../dot/Vector2.md)
+- **size**?: [Dimension2](../dot/Dimension2.md)
+- **baseColor**?: [TColor](../scenery/TColor.md)
+- **captionText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **captionColor**?: [TColor](../scenery/TColor.md)
+- **invertY**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
+
+
+
+
 ## Source Code
 
 See the source for [Bucket.ts](https://github.com/phetsims/phetcommon/blob/main/js/model/Bucket.ts) in the [phetcommon](https://github.com/phetsims/phetcommon) repository.

@@ -38,6 +38,20 @@ import { MergeSimpleModule } from 'scenerystack/alpenglow';
 
 
 
+## Type MergeSimpleModuleOptions {: #MergeSimpleModuleOptions }
+
+
+```js
+import type { MergeSimpleModuleOptions } from 'scenerystack/alpenglow';
+```
+- **inputA**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **inputB**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- **output**: [BufferArraySlot](../alpenglow/BufferArraySlot.md)&lt;T&gt;
+- &amp; [mainMergeSimpleWGSLOptions](../alpenglow/mainMergeSimpleWGSL.md#mainMergeSimpleWGSLOptions)&lt;T&gt; &amp; [PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+
 ## Source Code
 
 See the source for [MergeSimpleModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MergeSimpleModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.

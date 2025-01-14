@@ -63,6 +63,18 @@ import { Enumeration } from 'scenerystack/phet-core';
 
 
 
+## Type EnumerationOptions {: #EnumerationOptions }
+
+
+```js
+import type { EnumerationOptions } from 'scenerystack/phet-core';
+```
+- **phetioDocumentation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **instanceType**?: Constructor&lt;T&gt;
+
+
+
+
 ## Source Code
 
 See the source for [Enumeration.ts](https://github.com/phetsims/phet-core/blob/main/js/Enumeration.ts) in the [phet-core](https://github.com/phetsims/phet-core) repository.

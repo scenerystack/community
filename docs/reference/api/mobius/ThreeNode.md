@@ -47,6 +47,18 @@ Releases references.
 
 
 
+## Type ThreeNodeOptions {: #ThreeNodeOptions }
+
+
+```js
+import type { ThreeNodeOptions } from 'scenerystack/mobius';
+```
+- **fov**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; [ThreeStageOptions](../mobius/ThreeStage.md#ThreeStageOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
+
+
+
+
 ## Source Code
 
 See the source for [ThreeNode.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeNode.ts) in the [mobius](https://github.com/phetsims/mobius) repository.

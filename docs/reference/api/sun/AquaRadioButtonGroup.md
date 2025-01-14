@@ -33,6 +33,35 @@ Gets the radio button that corresponds to the specified value.
 
 
 
+## Type AquaRadioButtonGroupItem {: #AquaRadioButtonGroupItem }
+
+
+```js
+import type { AquaRadioButtonGroupItem } from 'scenerystack/sun';
+```
+- **value**: T
+- **options**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "[tandem](../tandem/tandem.md)"&gt;
+- &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
+
+
+
+
+## Type AquaRadioButtonGroupOptions {: #AquaRadioButtonGroupOptions }
+
+
+```js
+import type { AquaRadioButtonGroupOptions } from 'scenerystack/sun';
+```
+- **radioButtonOptions**?: StrictOmit&lt;[AquaRadioButtonOptions](../sun/AquaRadioButton.md#AquaRadioButtonOptions), "soundPlayer" | "[tandem](../tandem/tandem.md)"&gt;
+- **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;TrimmedParentOptions, "children"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [AquaRadioButtonGroup.ts](https://github.com/phetsims/sun/blob/main/js/AquaRadioButtonGroup.ts) in the [sun](https://github.com/phetsims/sun) repository.

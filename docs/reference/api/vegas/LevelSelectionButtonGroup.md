@@ -38,6 +38,23 @@ for example, when the 'Back' or 'Start Over' button is pressed in a game.
 
 
 
+## Type LevelSelectionButtonGroupOptions {: #LevelSelectionButtonGroupOptions }
+
+
+```js
+import type { LevelSelectionButtonGroupOptions } from 'scenerystack/vegas';
+```
+- **levelSelectionButtonOptions**?: StrictOmit&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "[tandem](../tandem/tandem.md)" | "buttonHeight" | "buttonWidth"&gt;
+- **flowBoxOptions**?: StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "children"&gt;
+- **createLayoutNode**?: ( buttons: [LevelSelectionButton](../vegas/LevelSelectionButton.md)[] ) =&gt; [LayoutNode](../scenery/LayoutNode.md)&lt;[NodeLayoutConstraint](../scenery/NodeLayoutConstraint.md)&gt;
+- **gameLevels**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **groupButtonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **groupButtonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt; &amp; PickRequired&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "[tandem](../tandem/tandem.md)"&gt;
+
+
+
+
 ## Source Code
 
 See the source for [LevelSelectionButtonGroup.ts](https://github.com/phetsims/vegas/blob/main/js/LevelSelectionButtonGroup.ts) in the [vegas](https://github.com/phetsims/vegas) repository.

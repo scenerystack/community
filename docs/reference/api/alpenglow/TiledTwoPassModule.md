@@ -58,6 +58,29 @@ import { TiledTwoPassModule } from 'scenerystack/alpenglow';
 
 
 
+## Type TiledTwoPassModuleOptions {: #TiledTwoPassModuleOptions }
+
+
+```js
+import type { TiledTwoPassModuleOptions } from 'scenerystack/alpenglow';
+```
+[PipelineBlueprintOptions](../alpenglow/PipelineBlueprint.md#PipelineBlueprintOptions)
+
+
+
+## Type TiledTwoPassRunSize {: #TiledTwoPassRunSize }
+
+
+```js
+import type { TiledTwoPassRunSize } from 'scenerystack/alpenglow';
+```
+- **numTiles**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **numInitialRenderableFaces**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
+
+
+
 ## Source Code
 
 See the source for [TiledTwoPassModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/rasterize-two-pass/TiledTwoPassModule.ts) in the [alpenglow](https://github.com/phetsims/alpenglow) repository.
