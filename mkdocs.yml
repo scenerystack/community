@@ -167,7 +167,7 @@ nav:
       - Simulation Showcase: learn/examples/simulation-showcase.md
       - Application Showcase: learn/examples/application-showcase.md
 #    - Overview:
-#      - Install: learn/setup.md
+#      - Install: learn/setup_old.md
 #      - Create a New Project: learn/templates/projecta_rasa.md
 #      - Make a Simulation: learn/templates/simula_rasa.md
 #      - Add SceneryStack to a Project: learn/templates/subprojecta_rasa.md
