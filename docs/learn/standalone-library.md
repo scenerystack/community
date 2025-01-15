@@ -1,9 +1,5 @@
 # Standalone Library
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in January 2025.
-
 ??? note "Prerequisites"
     Before setting up your development environment, ensure the following tools are installed:
 
@@ -13,185 +9,65 @@
 
 ## Overview
 
-SceneryStack can be used as a standalone library for interactive visualizations or applications. This guide will walk through setting up a basic project using SceneryStack and [Vite](https://vitejs.dev/).
+This page will cover the different ways to include the SceneryStack library.
 
-For library use, SceneryStack will typically be used through its [NPM Package](https://www.npmjs.com/package/scenerystack), with a bundler like Vite or Webpack to handle dependencies and build the final project.
+There are two main ways to integrate SceneryStack:
 
-TODO:
+1. Use the **[NPM Package](https://www.npmjs.com/package/scenerystack)** and a bundler (like [Vite](https://vitejs.dev/)) to handle dependencies and build the final project.
+2. Use a **bundled build** of SceneryStack directly in the browser.
 
-- Note about the bundled builds too, e.g. scenerystack.esm/umd(.min)?.js
+It is generally recommended to use the NPM package for new projects, as the bundled builds are larger in size and include
+all of SceneryStack (including parts that may not be needed).
 
-## Project Structure
+## Using the NPM Package
 
-In a fresh directory, we will want to add the barebones files needed:
+SceneryStack can be included in an existing project by installing the package:
 
-??? example "index.html"
-    ```html
-        <!doctype html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>SceneryStack Quickstart</title>
-                <style>
-                    body { margin: 0; }
-                </style>
-          </head>
-          <body>
-            <script type="module" src="./main.ts"></script>
-          </body>
-        </html>
-    ```
-
-??? example "main.ts"
-    ```js
-        console.log( 'Success!' );
-    ```
-
-## Installation
-
-1. Install [Node.js](https://nodejs.org/).
-2. Run commands to install [SceneryStack](https://scenerystack.org/) and [Vite](https://vite.dev/) (from a terminal inside the directory):
-
-    ```sh
-    npm install --save scenerystack
-    npm install --save-dev vite
-    ```
-
-   NOTE: This will create a package.json file recording these choices.
-3. In the terminal, launch Vite by running:
-
-    ```sh
-    npx vite
-    ```
-
-4. Vite will run a local server (usually printing a URL like `http://localhost:5173/` in the terminal). Opening that URL in a browser should show a blank page.
-    ??? warning "If types are undefined"
-        Vite seems to sometimes load types in the incorrect order. If you see errors like `Uncaught TypeError: Class extends value undefined is not a constructor or null`, instead try running the Vite preview:
-        ```sh
-        npx vite preview
-        ```
-        It will function similarly to the regular Vite server, but will properly order file loads.
-
-## Hello World (Full Page)
-
-For visuals, we will use Scenery's `Display` to show an abstract tree made up of Scenery `Node`s (much like the DOM).
-
-For simplicity, we will use a full-page Display (which will automatically resize to the window size).
-
-First, in the `index.html`, we'll add a `div` to hold the Scenery content:
-
-```html
-<div id="scenery"></div>
+```shell
+npm install --save scenerystack
 ```
 
-First we'll create the root of the tree:
-
-```js
-import { Node } from 'scenerystack/scenery';
-
-const scene = new Node();
-```
-
-and we'll want to create a `Display` to show this tree within our `div`:
+This will add SceneryStack to the project's dependencies, and it can be imported in the project's code:
 
 ```js
 import { Display } from 'scenerystack/scenery';
-
-const display = new Display( scene, {
-  container: document.querySelector( '#hello-world' )
-} );
 ```
 
-Next, lets create some content to show in the scene (some text and a 100x30 red rectangle):
+To see this in action, see the tutorial [Creating an interactive Figure](./tutorials/creating-an-interactive-figure.md).
 
-```js
-import { Text, Rectangle } from 'scenerystack/scenery';
+## Using Bundled Builds
 
-const text = new Text( 'Hello World', {
-  font: '25px sans-serif'
-} );
-const rectangle = new Rectangle( 0, 0, 100, 30, { fill: 'red' } );
+SceneryStack has both ESM and UMD builds available for use in the browser.
+
+### ESM (ES Modules)
+
+A [minified](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.min.js) or [unminified](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.js) ESM build can be included in a webpage:
+
+```html
+<script type="module">
+  import { Display } from 'https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.min.js';
+</script>
 ```
 
-Content needs to be added to the tree to be shown. Here we will use a vertical layout container (`VBox`), which center-aligns content by default:
+### UMD (Using globals)
 
-```js
-import { VBox } from 'scenerystack/scenery';
+A [minified](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.min.js) or [unminified](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.js) ESM build can be included in a webpage:
 
-scene.addChild( new VBox( {
-  children: [ text, rectangle ],
-  x: 10, y: 10
-} ) );
+```html
+<script src="https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.min.js"></script>
+<script>
+  const Display = scenerystack.Display;
+</script>
 ```
 
-`Displays` do not update automatically (to allow for more control/performance), so we need to tell it to resize when the window resizes and to update visuals on each frame:
+### Versions
 
-```js
-display.resizeOnWindowResize();
-display.updateOnRequestAnimationFrame();
-```
-
-Put all together, it will look like this:
-
-??? example "index.html (Hello World)"
-    ```html
-        <!doctype html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>SceneryStack Quickstart</title>
-                <style>
-                    body { margin: 0; }
-                </style>
-          </head>
-          <body>
-            <div id="hello-world"></div>
-            <script type="module" src="./main.ts"></script>
-          </body>
-        </html>
-    ```
-
-??? example "main.ts (Hello World)"
-    ```js
-        import { Node, Display, Rectangle, Text, VBox } from 'scenerystack/scenery';
-
-        const scene = new Node();
-        const display = new Display( scene, {
-          container: document.querySelector( '#hello-world' )
-        } );
-        
-        const text = new Text( 'Hello World', {
-          font: '25px sans-serif'
-        } );
-        const rectangle = new Rectangle( 0, 0, 100, 30, { fill: 'red' } );
-        
-        scene.addChild( new VBox( {
-          children: [ text, rectangle ],
-          x: 10, y: 10
-        } ) );
-        
-        display.resizeOnWindowResize();
-        display.updateOnRequestAnimationFrame();
-    ```
-
-## Using Components
-
-TODO: Add a few common components and bind them together.
-E.g., Interaction changes another component. Animation happens.
-
-## Accessibility and Inclusive Features
-
-TODO: Add “easy” inclusive features (Pan & Zoom) and a sound (tambo usage).
-    Add Alternative Input (tab order, etc)
-    Add interactive highlights.
-    Add screen reader support
-    Tier 1 description
-    Something more advanced (pull in Jesse if needed).
-    Add Voicing
-    Same basics as screen reader.
+It is recommended to download a specific version of SceneryStack, rather than using `@latest`.
 
 ## Web Workers
 
-Parts of SceneryStack that don't rely on the DOM (e.g. axon, dot, kite) can be used in web workers. This can be useful for offloading computation from the main thread, or for running simulations in parallel.
+Parts of SceneryStack that don't rely on the DOM (e.g. axon, dot, kite) can be used in web workers. This can be useful
+for offloading computation from the main thread, or for running simulations in parallel.
+
+Since the bundled builds currently include code that will not work in the DOM, it is necessary to use the NPM package
+and a bundler to run SceneryStack in a web worker.

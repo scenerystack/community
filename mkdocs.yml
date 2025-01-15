@@ -160,7 +160,8 @@ nav:
       - Shapes: learn/shapes.md
       - Best Practices: learn/best-practices.md
     - Tutorials:
-      - Three.js Integration: learn/threejs-integration.md
+      - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
+      - Three.js Integration: learn/tutorials/threejs-integration.md
     - Examples:
       - Demo Simulation: learn/examples/demo-simulation.md
       - Scenery Layout: learn/examples/scenery-layout.md
