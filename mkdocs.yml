@@ -1193,7 +1193,7 @@ nav:
         - vegasQueryParameters: reference/api/vegas/vegasQueryParameters.md
         - VegasStrings: reference/api/vegas/VegasStrings.md
 ### AUTO-GENERATE ABOVE
-    - Software Design Patterns: info-sync/software_design_patterns.md
+    - Software Design Patterns: info-sync/software-design-patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - Libraries: reference/scenerystack_list.md
 #    - Library APIs:
