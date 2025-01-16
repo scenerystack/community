@@ -177,7 +177,7 @@ nav:
 #      - Coding Conventions: info_sync/coding_conventions.md
 #      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
   - Reference:
-    - Software Design Patterns: info-sync/software-design-patterns.md
+    - Software Design Patterns: info-sync/software_design_patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - API:
 ### AUTO-GENERATE BELOW
