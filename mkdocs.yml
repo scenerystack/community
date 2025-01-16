@@ -177,8 +177,7 @@ nav:
 #      - Coding Conventions: info_sync/coding_conventions.md
 #      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
   - Reference:
-    - Software Design Patterns: info-sync/software_design_patterns.md
-    - Accessibility Resources: accessibility/a11y_guides.md
+    - Supported Browsers: reference/supported-browsers.md
     - API:
 ### AUTO-GENERATE BELOW
       - scenery:
@@ -1194,6 +1193,8 @@ nav:
         - vegasQueryParameters: reference/api/vegas/vegasQueryParameters.md
         - VegasStrings: reference/api/vegas/VegasStrings.md
 ### AUTO-GENERATE ABOVE
+    - Software Design Patterns: info-sync/software_design_patterns.md
+    - Accessibility Resources: accessibility/a11y_guides.md
     - Libraries: reference/scenerystack_list.md
 #    - Library APIs:
 #      - Alpenglow: https://phetsims.github.io/alpenglow/
