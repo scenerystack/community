@@ -39,9 +39,12 @@ To see this in action, see the tutorial [Creating an interactive Figure](./tutor
 
 SceneryStack has both ESM and UMD builds available for use in the browser.
 
+For file size and tree shaking, it is generally recommended to use the NPM package. Even the minified bundles are
+very large, and include all of SceneryStack (including parts that may not be needed).
+
 ### ESM (ES Modules)
 
-A [minified](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.min.js) or [unminified](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.js) ESM build can be included in a webpage:
+A [production](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.min.js) or [development](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.js) ESM build can be included in a webpage:
 
 ```html
 <script type="module">
@@ -51,7 +54,7 @@ A [minified](https://unpkg.com/scenerystack@latest/dist/scenerystack.esm.min.js)
 
 ### UMD (Using globals)
 
-A [minified](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.min.js) or [unminified](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.js) ESM build can be included in a webpage:
+A [production](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.min.js) or [development](https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.js) ESM build can be included in a webpage:
 
 ```html
 <script src="https://unpkg.com/scenerystack@latest/dist/scenerystack.umd.min.js"></script>
