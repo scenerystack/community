@@ -30,11 +30,11 @@ import { ToggleSwitch } from 'scenerystack/sun';
 
 ### Instance Properties
 
-#### switchToLeftSoundPlayer : <span style="font-weight: 400;">TSoundPlayer</span> {: #switchToLeftSoundPlayer data-toc-label='switchToLeftSoundPlayer' }
+#### switchToLeftSoundPlayer : <span style="font-weight: 400;">[TSoundPlayer](../tambo/TSoundPlayer.md)</span> {: #switchToLeftSoundPlayer data-toc-label='switchToLeftSoundPlayer' }
 
 (readonly)
 
-#### switchToRightSoundPlayer : <span style="font-weight: 400;">TSoundPlayer</span> {: #switchToRightSoundPlayer data-toc-label='switchToRightSoundPlayer' }
+#### switchToRightSoundPlayer : <span style="font-weight: 400;">[TSoundPlayer](../tambo/TSoundPlayer.md)</span> {: #switchToRightSoundPlayer data-toc-label='switchToRightSoundPlayer' }
 
 (readonly)
 
@@ -76,13 +76,13 @@ import type { ToggleSwitchOptions } from 'scenerystack/sun';
 <br>  track
 - **trackFillRight**?: [TPaint](../scenery/TPaint.md)
 - **trackStroke**?: [TPaint](../scenery/TPaint.md)
-- **switchToLeftSoundPlayer**?: TSoundPlayer
+- **switchToLeftSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound
-- **switchToRightSoundPlayer**?: TSoundPlayer
-- **leftValueContextResponse**?: TAlertable
+- **switchToRightSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- **leftValueContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 <br>  If provided, these responses will be spoken to describe the change in context for both Voicing
   and Interactive Description features when value changes to either left or right value.
-- **rightValueContextResponse**?: TAlertable
+- **rightValueContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 - **accessibleSwitch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  pdom - If true, aria attributes are added to this Node to indicate that it is a switch.
   Aria switches do not work well when selecting between non-boolean values, so you can disable this if needed.

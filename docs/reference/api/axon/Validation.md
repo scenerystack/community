@@ -45,18 +45,18 @@ import { Validation } from 'scenerystack/axon';
 
 #### validateValidator( validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span> ) {: #validateValidator data-toc-label='validateValidator' }
 
-#### containsValidatorKey( validator : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsValidatorKey data-toc-label='containsValidatorKey' }
+#### containsValidatorKey( validator : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsValidatorKey data-toc-label='containsValidatorKey' }
 
 @param validator - object which may or may not contain validation keys
 
 #### isValueValid( value : <span style="font-weight: 400;">T</span>, validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[IsValidValueOptions](../axon/Validation.md#IsValidValueOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isValueValid data-toc-label='isValueValid' }
 
-#### getValidationError( value : <span style="font-weight: 400;">IntentionalAny</span>, validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[IsValidValueOptions](../axon/Validation.md#IsValidValueOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getValidationError data-toc-label='getValidationError' }
+#### getValidationError( value : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span>, validator : <span style="font-weight: 400;">[Validator](../axon/Validation.md#Validator)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[IsValidValueOptions](../axon/Validation.md#IsValidValueOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getValidationError data-toc-label='getValidationError' }
 
 Determines whether a value is valid (returning a boolean value), returning the problem as a string if invalid,
 otherwise returning null when valid.
 
-#### equalsForValidationStrategy( a : <span style="font-weight: 400;">T</span>, b : <span style="font-weight: 400;">T</span>, valueComparisonStrategy : <span style="font-weight: 400;">ValueComparisonStrategy&lt;T&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsForValidationStrategy data-toc-label='equalsForValidationStrategy' }
+#### equalsForValidationStrategy( a : <span style="font-weight: 400;">T</span>, b : <span style="font-weight: 400;">T</span>, valueComparisonStrategy : <span style="font-weight: 400;">[ValueComparisonStrategy](../axon/Validation.md#ValueComparisonStrategy)&lt;T&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsForValidationStrategy data-toc-label='equalsForValidationStrategy' }
 
 Compare the two provided values for equality using the valueComparisonStrategy provided, see
 ValueComparisonStrategy type.
@@ -128,7 +128,7 @@ import type { Validator } from 'scenerystack/axon';
 <br>  Valid values for this Property. Unused if null.
   Example:
   validValues: [ 'horizontal', 'vertical' ]
-- **valueComparisonStrategy**?: ValueComparisonStrategy&lt;T&gt;
+- **valueComparisonStrategy**?: [ValueComparisonStrategy](../axon/Validation.md#ValueComparisonStrategy)&lt;T&gt;
 <br>  equalsFunction -&gt; must have .equals() function on the type T
 - **isValidValue**?: ( v: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Function that validates the value. Single argument is the value, returns boolean. Unused if null.
@@ -143,6 +143,24 @@ import type { Validator } from 'scenerystack/axon';
 - **validators**?: [Validator](../axon/Validation.md#Validator)&lt;T&gt;[]
 <br>  A list of Validator objects, each of which must pass to be a valid value
 
+
+
+
+## Type ValueComparisonStrategy {: #ValueComparisonStrategy }
+
+
+The way that two values can be compared for equality:
+"reference" - uses triple equals comparison (most often the default)
+"equalsFunction" - asserts that the two values have an `equals()` function that can used to compare (see "ComparableObject" type)
+"lodashDeep" - uses _.isEqual() for comparison
+custom function - define any function that returns if the two provided values are equal.
+
+```js
+import type { ValueComparisonStrategy } from 'scenerystack/axon';
+```
+
+
+"equalsFunction" | "reference" | "lodashDeep" | CustomValueComparisonMethodHolder&lt;T&gt;['customValueComparison']
 
 
 

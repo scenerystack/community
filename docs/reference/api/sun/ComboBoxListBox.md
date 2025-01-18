@@ -51,10 +51,10 @@ import type { ComboBoxListBoxOptions } from 'scenerystack/sun';
 <br>  fill for the highlight behind items in the list
 - **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)
 <br>  Options that apply to every ComboBoxItemNode created in the list
-- **openedSoundPlayer**?: TSoundPlayer
+- **openedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  Sound generators for when combo box is opened and when it is closed with no change. Closing *with*
   a change is covered by individual combo box items.
-- **closedNoChangeSoundPlayer**?: TSoundPlayer
+- **closedNoChangeSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [PanelOptions](../sun/Panel.md#PanelOptions)
 
 

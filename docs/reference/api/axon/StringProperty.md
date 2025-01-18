@@ -31,7 +31,7 @@ import type { StringPropertyOptions } from 'scenerystack/axon';
 ```
 
 
-StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;, "valueType" | "phetioValueType"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;, "valueType" | "phetioValueType"&gt;
 
 
 

@@ -208,7 +208,7 @@ import type { AlignBoxOptions } from 'scenerystack/scenery';
 - **topMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **bottomMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **group**?: [AlignGroup](../scenery/AlignGroup.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- &amp; StrictOmit&lt;ParentOptions, "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "children"&gt;
 
 
 

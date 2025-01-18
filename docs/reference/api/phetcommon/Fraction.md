@@ -135,7 +135,7 @@ Divides this fraction by an integer to create a new fraction.
 This operation affects the value and sign of the denominator only, and the result is not reduced.
 Careful! Division by zero is allowed here.
 
-#### toStateObject() : <span style="font-weight: 400;">FractionStateObject</span> {: #toStateObject data-toc-label='toStateObject' }
+#### toStateObject() : <span style="font-weight: 400;">[FractionStateObject](../phetcommon/Fraction.md#FractionStateObject)</span> {: #toStateObject data-toc-label='toStateObject' }
 
 Serializes this Fraction instance.
 
@@ -149,7 +149,7 @@ Convenience method for constructing a fraction from an integer.
 
 Convert a number into a Fraction
 
-#### fromStateObject( stateObject : <span style="font-weight: 400;">FractionStateObject</span> ) : <span style="font-weight: 400;">[Fraction](../phetcommon/Fraction.md)</span> {: #fromStateObject data-toc-label='fromStateObject' }
+#### fromStateObject( stateObject : <span style="font-weight: 400;">[FractionStateObject](../phetcommon/Fraction.md#FractionStateObject)</span> ) : <span style="font-weight: 400;">[Fraction](../phetcommon/Fraction.md)</span> {: #fromStateObject data-toc-label='fromStateObject' }
 
 Deserializes a Fraction from PhET-iO state.
 
@@ -168,6 +168,20 @@ Deserializes a Fraction from PhET-iO state.
 (readonly)
 
 IOType for Fraction.
+
+
+
+## Type FractionStateObject {: #FractionStateObject }
+
+
+```js
+import type { FractionStateObject } from 'scenerystack/phetcommon';
+```
+
+
+- **numerator**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **denominator**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
 
 
 

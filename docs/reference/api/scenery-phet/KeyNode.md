@@ -61,7 +61,7 @@ import type { KeyNodeOptions } from 'scenerystack/scenery-phet';
 - **forceSquareKey**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Force the width of the KeyNode to be the same width as height, based on the height.
   Will scale down the icon if too wide.
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

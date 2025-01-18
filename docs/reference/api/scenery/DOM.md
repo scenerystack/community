@@ -15,7 +15,7 @@ import { DOM } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DOM( element : <span style="font-weight: 400;">Element | JQuery</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #DOM-constructor data-toc-label='new DOM' }
+#### new DOM( element : <span style="font-weight: 400;">[Element](../nitroglycerin/Element.md) | JQuery</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #DOM-constructor data-toc-label='new DOM' }
 
 ### Instance Methods
 
@@ -82,7 +82,7 @@ import type { DOMOptions } from 'scenerystack/scenery';
 ```
 
 
-- **element**?: Element
+- **element**?: [Element](../nitroglycerin/Element.md)
 <br>  Sets the element, see setElement() for more documentation
 - **preventTransform**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Sets whether Scenery is allowed to transform the element. see setPreventTransform() for docs

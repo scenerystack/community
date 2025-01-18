@@ -30,7 +30,7 @@ import type { HorizontalAquaRadioButtonGroupOptions } from 'scenerystack/sun';
 ```
 
 
-StrictOmit&lt;[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions), "orientation"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[AquaRadioButtonGroupOptions](../sun/AquaRadioButtonGroup.md#AquaRadioButtonGroupOptions), "orientation"&gt;
 
 
 

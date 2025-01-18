@@ -32,7 +32,7 @@ import type { ReturnButtonOptions } from 'scenerystack/scenery-phet';
 
 
 - **iconOptions**?: [ReturnIconOptions](../scenery-phet/ReturnIcon.md#ReturnIconOptions)
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

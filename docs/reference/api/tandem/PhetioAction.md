@@ -59,7 +59,7 @@ import type { ActionOptions } from 'scenerystack/tandem';
 ```
 
 
-StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[PhetioDataHandlerOptions](../tandem/PhetioDataHandler.md#PhetioDataHandlerOptions), "phetioOuterType"&gt;
 
 
 

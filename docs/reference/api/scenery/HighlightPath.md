@@ -192,7 +192,7 @@ import type { HighlightPathOptions } from 'scenerystack/scenery';
 - **transformSourceNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  If specified, this HighlightPath will reposition with transform changes along the unique trail to this source
   Node. Otherwise you will have to position this highlight node yourself.
-- &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "stroke" | "lineWidth"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PathOptions](../scenery/Path.md#PathOptions), "stroke" | "lineWidth"&gt;
 
 
 

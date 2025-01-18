@@ -57,7 +57,7 @@ import type { HighlightFromNodeOptions } from 'scenerystack/scenery';
   dilate the focus highlight.
 - **useGroupDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  if true, dilation for bounds around node will increase, see setShapeFromNode()
-- &amp; StrictOmit&lt;[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions), "transformSourceNode"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions), "transformSourceNode"&gt;
 
 
 

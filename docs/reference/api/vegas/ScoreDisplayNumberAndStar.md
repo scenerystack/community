@@ -36,7 +36,7 @@ import type { ScoreDisplayNumberAndStarOptions } from 'scenerystack/vegas';
 - **textFill**?: [TColor](../scenery/TColor.md)
 - **scoreDecimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **starNodeOptions**?: [StarNodeOptions](../scenery-phet/StarNode.md#StarNodeOptions)
-- &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
 
 
 

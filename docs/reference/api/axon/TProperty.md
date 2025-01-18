@@ -14,7 +14,7 @@ import type { TProperty } from 'scenerystack/axon';
 ```
 
 
-StrictOmit&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;, "value"&gt; &amp; {  }
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;T&gt;, "value"&gt; &amp; {  }
 
 
 

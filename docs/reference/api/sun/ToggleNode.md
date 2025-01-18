@@ -104,7 +104,7 @@ import type { ToggleNodeOptions } from 'scenerystack/sun';
   - If excluded, children are added to the scene graph when selected and removed when not selected. The ToggleNode has
   the bounds of its selected child. This option can sometimes improve performance. Children added to the ToggleNode
   outside the constructor will not be managed correctly.
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

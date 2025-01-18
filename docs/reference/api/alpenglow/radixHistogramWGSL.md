@@ -17,7 +17,7 @@ import type { radixHistogramWGSLOptions } from 'scenerystack/alpenglow';
 - **numBins**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **storeHistogram**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32), value: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLStatements](../alpenglow/WGSLString.md#WGSLStatements)
 <br>  indices up to numBins * Math.ceil( length / ( workgroupSize * grainSize ) )
-- &amp; WithoutNull&lt;WithRequired&lt;[histogramWGSLOptions](../alpenglow/histogramWGSL.md#histogramWGSLOptions), "lengthExpression"&gt;, "lengthExpression"&gt;
+- &amp; [WithoutNull](../phet-core/WithoutNull.md)&lt;[WithRequired](../phet-core/WithRequired.md)&lt;[histogramWGSLOptions](../alpenglow/histogramWGSL.md#histogramWGSLOptions), "lengthExpression"&gt;, "lengthExpression"&gt;
 
 
 

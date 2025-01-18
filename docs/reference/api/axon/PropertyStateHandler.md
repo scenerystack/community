@@ -21,9 +21,9 @@ import { PropertyStateHandler } from 'scenerystack/axon';
 
 ### Instance Methods
 
-#### initialize( phetioStateEngine : <span style="font-weight: 400;">TPhetioStateEngine</span> ) {: #initialize data-toc-label='initialize' }
+#### initialize( phetioStateEngine : <span style="font-weight: 400;">[TPhetioStateEngine](../tandem/TPhetioStateEngine.md)</span> ) {: #initialize data-toc-label='initialize' }
 
-#### registerPhetioOrderDependency( beforeProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;IntentionalAny&gt;</span>, beforePhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span>, afterProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;IntentionalAny&gt;</span>, afterPhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span> ) {: #registerPhetioOrderDependency data-toc-label='registerPhetioOrderDependency' }
+#### registerPhetioOrderDependency( beforeProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span>, beforePhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span>, afterProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span>, afterPhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span> ) {: #registerPhetioOrderDependency data-toc-label='registerPhetioOrderDependency' }
 
 Register that one Property must have a "Phase" applied for PhET-iO state before another Property's Phase. A Phase
 is an ending state in PhET-iO state set where Property values solidify, notifications for value changes are called.
@@ -35,7 +35,7 @@ two different Properties.
 @param afterProperty - must be instrumented for PhET-iO
 @param afterPhase
 
-#### unregisterOrderDependenciesForProperty( property : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;IntentionalAny&gt;</span> ) {: #unregisterOrderDependenciesForProperty data-toc-label='unregisterOrderDependenciesForProperty' }
+#### unregisterOrderDependenciesForProperty( property : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span> ) {: #unregisterOrderDependenciesForProperty data-toc-label='unregisterOrderDependenciesForProperty' }
 
 Unregisters all order dependencies for the given Property
 {ReadOnlyProperty} property - must be instrumented for PhET-iO

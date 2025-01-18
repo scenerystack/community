@@ -62,7 +62,7 @@ import type { ActiveSVGGradient } from 'scenerystack/scenery';
 ```
 
 
-WithoutNull&lt;[SVGGradient](../scenery/SVGGradient.md), "svgBlock" | "gradient"&gt;
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[SVGGradient](../scenery/SVGGradient.md), "svgBlock" | "gradient"&gt;
 
 
 

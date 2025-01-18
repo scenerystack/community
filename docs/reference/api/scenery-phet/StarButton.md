@@ -30,7 +30,7 @@ import type { StarButtonOptions } from 'scenerystack/scenery-phet';
 ```
 
 
-StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

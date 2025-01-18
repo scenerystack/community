@@ -41,11 +41,11 @@ import type { ReadingBlockOptions } from 'scenerystack/scenery';
 
 - **readingBlockTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockDisabledTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- **readingBlockNameResponse**?: VoicingResponse
-- **readingBlockHintResponse**?: VoicingResponse
-- **readingBlockResponsePatternCollection**?: ResponsePatternCollection
+- **readingBlockNameResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
+- **readingBlockHintResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
+- **readingBlockResponsePatternCollection**?: [ResponsePatternCollection](../utterance-queue/ResponsePatternCollection.md)
 - **readingBlockActiveHighlight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Shape](../kite/Shape.md) | [Node](../scenery/Node.md)
-- &amp; StrictOmit&lt;[VoicingOptions](../scenery/Voicing.md#VoicingOptions), UnsupportedVoicingOptions&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[VoicingOptions](../scenery/Voicing.md#VoicingOptions), UnsupportedVoicingOptions&gt;
 
 
 
@@ -61,7 +61,7 @@ import type { TReadingBlock } from 'scenerystack/scenery';
 - **readingBlockActiveHighlightChangedEmitter**: [TEmitter](../axon/TEmitter.md)
 - **readingBlockTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockDisabledTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- **readingBlockResponsePatternCollection**: ResponsePatternCollection
+- **readingBlockResponsePatternCollection**: [ResponsePatternCollection](../utterance-queue/ResponsePatternCollection.md)
 - **readingBlockActiveHighlight**: [Highlight](../scenery/HighlightOverlay.md#Highlight)
 - &amp; [TVoicing](../scenery/Voicing.md#TVoicing)&lt;SuperType&gt;
 

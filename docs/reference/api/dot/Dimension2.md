@@ -95,7 +95,7 @@ import type { Dimension2StateObject } from 'scenerystack/dot';
 ```
 
 
-StateObject&lt;typeof STATE_SCHEMA&gt;
+[StateObject](../tandem/StateSchema.md#StateObject)&lt;typeof STATE_SCHEMA&gt;
 
 
 

@@ -842,13 +842,13 @@ See https://github.com/phetsims/a11y-research/issues/156 for more information.
 Return true if this Node is a PhET-iO archetype or it is a Node descendant of a PhET-iO archetype.
 See https://github.com/phetsims/joist/issues/817
 
-#### alertDescriptionUtterance( utterance : <span style="font-weight: 400;">TAlertable</span> ) {: #alertDescriptionUtterance data-toc-label='alertDescriptionUtterance' }
+#### alertDescriptionUtterance( utterance : <span style="font-weight: 400;">[TAlertable](../utterance-queue/Utterance.md#TAlertable)</span> ) {: #alertDescriptionUtterance data-toc-label='alertDescriptionUtterance' }
 
 Alert on all interactive description utteranceQueues located on each connected Display. See
 Node.getConnectedDisplays. Note that if your Node is not connected to a Display, this function will have
 no effect.
 
-#### forEachUtteranceQueue( callback : <span style="font-weight: 400;">( queue: UtteranceQueue ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #forEachUtteranceQueue data-toc-label='forEachUtteranceQueue' }
+#### forEachUtteranceQueue( callback : <span style="font-weight: 400;">( queue: [UtteranceQueue](../utterance-queue/UtteranceQueue.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #forEachUtteranceQueue data-toc-label='forEachUtteranceQueue' }
 
 Apply a callback on each utteranceQueue that this Node has a connection to (via Display). Note that only
 accessible Displays have utteranceQueues that this function will interface with.
@@ -1051,7 +1051,7 @@ import type { RemoveParallelDOMOptions } from 'scenerystack/scenery';
 ```
 
 
-StrictOmit&lt;T, keyof ParallelDOMSelfOptions&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;T, keyof ParallelDOMSelfOptions&gt;
 
 
 
@@ -1067,7 +1067,7 @@ import type { TrimParallelDOMOptions } from 'scenerystack/scenery';
 ```
 
 
-[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; PickOptional&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "focusable" | "pdomVisible"&gt;
+[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "focusable" | "pdomVisible"&gt;
 
 
 

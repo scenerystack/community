@@ -34,7 +34,7 @@ import type { ScoreDisplayLabeledNumberOptions } from 'scenerystack/vegas';
 - **font**?: [Font](../scenery/Font.md)
 - **textFill**?: [TColor](../scenery/TColor.md)
 - **scoreDecimalPlaces**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
 
 
 

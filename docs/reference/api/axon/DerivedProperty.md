@@ -19,11 +19,11 @@ import { DerivedProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new DerivedProperty( dependencies : <span style="font-weight: 400;">RP1&lt;T1&gt;</span>, derivation : <span style="font-weight: 400;">( ...params: [ T1 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;</span> ) {: #DerivedProperty-constructor data-toc-label='new DerivedProperty' }
+#### new DerivedProperty( dependencies : <span style="font-weight: 400;">[RP1](../axon/Multilink.md#RP1)&lt;T1&gt;</span>, derivation : <span style="font-weight: 400;">( ...params: [ T1 ] ) =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;</span> ) {: #DerivedProperty-constructor data-toc-label='new DerivedProperty' }
 
 ### Instance Methods
 
-#### hasDependency( dependency : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;IntentionalAny&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasDependency data-toc-label='hasDependency' }
+#### hasDependency( dependency : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasDependency data-toc-label='hasDependency' }
 
 Determines whether this DerivedProperty has a specific dependency.
 
@@ -63,19 +63,19 @@ Creates a derived boolean Property whose value is true iff firstProperty's value
 
 Creates a derived boolean Property whose value is true iff firstProperty's value is not equal to a constant value.
 
-#### and( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #and data-toc-label='and' }
+#### and( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #and data-toc-label='and' }
 
 Creates a derived boolean Property whose value is true iff every input Property value is true.
 
-#### or( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #or data-toc-label='or' }
+#### or( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #or data-toc-label='or' }
 
 Creates a derived boolean Property whose value is true iff any input Property value is true.
 
-#### multiply( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #multiply data-toc-label='multiply' }
+#### multiply( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #multiply data-toc-label='multiply' }
 
 Creates a derived number Property whose value is the result of multiplying all (number) dependencies together.
 
-#### add( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #add data-toc-label='add' }
+#### add( properties : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;[]</span>, options? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #add data-toc-label='add' }
 
 Creates a derived number Property whose value is the result of adding all (number) dependencies together.
 
@@ -145,7 +145,7 @@ import type { DerivedPropertyOptions } from 'scenerystack/axon';
 
 - **phetioLinkDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  When true, if this DerivedProperty is PhET-iO instrument, add a LinkedElement for each PhET-iO instrumented dependency.
-- &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;
+- &amp; [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;
 
 
 

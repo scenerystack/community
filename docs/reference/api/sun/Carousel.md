@@ -138,8 +138,8 @@ import type { CarouselOptions } from 'scenerystack/sun';
 - **separatorOptions**?: [SeparatorOptions](../scenery/Separator.md#SeparatorOptions)
 - **animationEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  animation, scrolling between pages
-- **animationOptions**?: StrictOmit&lt;[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "to" | "setValue" | "getValue"&gt;
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- **animationOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "to" | "setValue" | "getValue"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

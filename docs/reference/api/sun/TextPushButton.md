@@ -34,7 +34,7 @@ import type { TextPushButtonOptions } from 'scenerystack/sun';
 - **textFill**?: [TPaint](../scenery/TPaint.md)
 - **maxTextWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **textNodeOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

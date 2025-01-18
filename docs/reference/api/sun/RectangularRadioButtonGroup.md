@@ -16,7 +16,7 @@ import { RectangularRadioButtonGroup } from 'scenerystack/sun';
 ```
 ### Constructor
 
-#### new RectangularRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">RectangularRadioButtonGroupItem&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonGroupOptions](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonGroupOptions)</span> ) {: #RectangularRadioButtonGroup-constructor data-toc-label='new RectangularRadioButtonGroup' }
+#### new RectangularRadioButtonGroup( property : <span style="font-weight: 400;">[PhetioProperty](../axon/PhetioProperty.md)&lt;T&gt;</span>, items : <span style="font-weight: 400;">[RectangularRadioButtonGroupItem](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonGroupItem)&lt;T&gt;[]</span>, providedOptions? : <span style="font-weight: 400;">[RectangularRadioButtonGroupOptions](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonGroupOptions)</span> ) {: #RectangularRadioButtonGroup-constructor data-toc-label='new RectangularRadioButtonGroup' }
 
 ### Instance Methods
 
@@ -31,6 +31,25 @@ under other layers, so use caution for coordinate transformations.
 
 
 
+## Type RectangularRadioButtonGroupItem {: #RectangularRadioButtonGroupItem }
+
+
+Describes one radio button
+
+```js
+import type { RectangularRadioButtonGroupItem } from 'scenerystack/sun';
+```
+
+
+- **value**: T
+- **label**?: [Node](../scenery/Node.md)
+- **phetioDocumentation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **options**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions), "tandem"&gt;
+- &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
+
+
+
+
 ## Type RectangularRadioButtonGroupOptions {: #RectangularRadioButtonGroupOptions }
 
 
@@ -39,10 +58,10 @@ import type { RectangularRadioButtonGroupOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayers**?: TSoundPlayer[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundPlayers**?: [TSoundPlayer](../tambo/TSoundPlayer.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Sound generation for the radio buttons.
   null means to use the defaults. Otherwise, there must be one for each button.
-- **labelAlign**?: RectangularRadioButtonLabelAlign
+- **labelAlign**?: [RectangularRadioButtonLabelAlign](../sun/RectangularRadioButtonGroup.md#RectangularRadioButtonLabelAlign)
 <br>  Determines where the optional label appears, relative to the button
 - **labelSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Spacing between the optional label and the button
@@ -52,9 +71,23 @@ import type { RectangularRadioButtonGroupOptions } from 'scenerystack/sun';
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **radioButtonOptions**?: StrictOmit&lt;[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions), "soundPlayer" | "touchAreaXDilation" | "touchAreaYDilation" | "mouseAreaXDilation" | "mouseAreaYDilation"&gt;
-- &amp; StrictOmit&lt;TrimmedParentOptions, "children"&gt;
+- **radioButtonOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularRadioButtonOptions](../sun/RectangularRadioButton.md#RectangularRadioButtonOptions), "soundPlayer" | "touchAreaXDilation" | "touchAreaYDilation" | "mouseAreaXDilation" | "mouseAreaYDilation"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;TrimmedParentOptions, "children"&gt;
 
+
+
+
+## Type RectangularRadioButtonLabelAlign {: #RectangularRadioButtonLabelAlign }
+
+
+Where the optional label appears, relative to the radio button
+
+```js
+import type { RectangularRadioButtonLabelAlign } from 'scenerystack/sun';
+```
+
+
+"top" | "bottom" | "left" | "right"
 
 
 

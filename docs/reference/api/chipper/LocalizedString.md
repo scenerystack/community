@@ -105,6 +105,34 @@ Partial&lt;Record&lt;[Locale](../joist/localeProperty.md#Locale), TranslationStr
 
 
 
+## Type StringMap {: #StringMap }
+
+
+Has a nested structure (with strings as leaves) for locales.
+
+```js
+import type { StringMap } from 'scenerystack/chipper';
+```
+
+
+Partial&lt;Record&lt;[Locale](../joist/localeProperty.md#Locale), [StringMapEntry](../chipper/LocalizedString.md#StringMapEntry)&gt;&gt;
+
+
+
+## Type StringMapEntry {: #StringMapEntry }
+
+
+A nested structure with strings as leaves.
+
+```js
+import type { StringMapEntry } from 'scenerystack/chipper';
+```
+
+
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | {  }
+
+
+
 ## Type StringsStateStateObject {: #StringsStateStateObject }
 
 
@@ -115,7 +143,7 @@ import type { StringsStateStateObject } from 'scenerystack/chipper';
 ```
 
 
-- **data**: Record&lt;PhetioID, [LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)&gt;
+- **data**: Record&lt;[PhetioID](../tandem/phet-io-types.md#PhetioID), [LocalizedStringStateDelta](../chipper/LocalizedString.md#LocalizedStringStateDelta)&gt;
 
 
 

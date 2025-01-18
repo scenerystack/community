@@ -188,7 +188,7 @@ import type { GridBoxOptions } from 'scenerystack/scenery';
   NOTE: This will only lay out children with valid bounds, and if excludeInvisibleChildrenFromBounds is true then it
   will ALSO be constrained to only visible children. It won't leave gaps for children that don't meet these
   constraints.
-- &amp; StrictOmit&lt;[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions), GridConstraintExcludedOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[GridConstraintOptions](../scenery/GridConstraint.md#GridConstraintOptions), GridConstraintExcludedOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
 
 
 

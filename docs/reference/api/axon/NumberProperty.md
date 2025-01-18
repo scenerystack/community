@@ -59,9 +59,9 @@ import type { NumberPropertyOptions } from 'scenerystack/axon';
 
 - **numberType**?: NumberType
 - **range**?: [Range](../dot/Range.md) | [Property](../axon/Property.md)&lt;[Range](../dot/Range.md)&gt;
-- **rangePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Range](../dot/Range.md)&gt;
+- **rangePropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;[Range](../dot/Range.md)&gt;
 <br>  Passed to this.rangeProperty if NumberProperty creates it. Ignored if a Property is provided via options.range.
-- &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "phetioValueType" | "valueType"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;, "phetioValueType" | "valueType"&gt;
 
 
 
@@ -76,7 +76,7 @@ import type { NumberPropertyState } from 'scenerystack/axon';
 
 - **numberType**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **range**: [RangeStateObject](../dot/Range.md#RangeStateObject)
-- **rangePhetioID**: PhetioID | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **rangePhetioID**: [PhetioID](../tandem/phet-io-types.md#PhetioID) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - &amp; [ReadOnlyPropertyState](../axon/ReadOnlyProperty.md#ReadOnlyPropertyState)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 
 

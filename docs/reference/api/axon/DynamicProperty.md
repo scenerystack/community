@@ -172,17 +172,17 @@ import type { DynamicPropertyOptions } from 'scenerystack/axon';
 <br>  If valuePropertyProperty.value === null, this dynamicProperty will act instead like
   derive( valuePropertyProperty.value ) === new Property( defaultValue ). Note that if a custom map function is
   provided, it will be applied to this defaultValue to determine our Property's value.
-- **derive**?: ( ( outerValue: OuterValueType ) =&gt; [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt; ) | KeysMatching&lt;OuterValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt;&gt;
+- **derive**?: ( ( outerValue: OuterValueType ) =&gt; [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt; ) | [KeysMatching](../phet-core/KeysMatching.md)&lt;OuterValueType, [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;InnerValueType&gt;&gt;
 <br>  Maps a non-null valuePropertyProperty.value into the Property to be used. See top-level documentation for usage.
   If it's a string, it will grab that named property out (e.g. it's like passing u =&gt; u[ derive ])
   NOTE: This accepts TReadOnlyProperty, but if you have bidirectional:true it must be a full TProperty.
   This is not currently type checked.
   NOTE there are constraints using derive: 'string' when using parametric type parameters. See https://github.com/phetsims/projectile-data-lab/issues/10
-- **map**?: ( ( innerValue: InnerValueType ) =&gt; ThisValueType ) | KeysMatching&lt;InnerValueType, ThisValueType&gt;
+- **map**?: ( ( innerValue: InnerValueType ) =&gt; ThisValueType ) | [KeysMatching](../phet-core/KeysMatching.md)&lt;InnerValueType, ThisValueType&gt;
 <br>  Maps our input Property value to/from this Property's value. See top-level documentation for usage.
   If it's a string, it will grab that named property out (e.g. it's like passing u =&gt; u[ derive ])
-- **inverseMap**?: ( ( value: ThisValueType ) =&gt; InnerValueType ) | KeysMatching&lt;ThisValueType, InnerValueType&gt;
-- &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;ThisValueType&gt;
+- **inverseMap**?: ( ( value: ThisValueType ) =&gt; InnerValueType ) | [KeysMatching](../phet-core/KeysMatching.md)&lt;ThisValueType, InnerValueType&gt;
+- &amp; [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;ThisValueType&gt;
 
 
 

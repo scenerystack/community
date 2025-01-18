@@ -62,7 +62,7 @@ import type { ABSwitchOptions } from 'scenerystack/sun';
 - **valueBAccessibleName**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **centerOnSwitch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  if true, this.center will be at the center of the ToggleSwitch
-- &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions)&gt;, "accessibleName"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions)&gt;, "accessibleName"&gt;
 
 
 

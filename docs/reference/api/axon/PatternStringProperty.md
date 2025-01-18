@@ -114,7 +114,7 @@ import type { PatternStringPropertyOptions } from 'scenerystack/axon';
   | const valueProperty = new TinyProperty( 5 );
   | new PatternStringProperty( stringProperty, { value: valueProperty }, { formatNames: [ 'value' ] } );
   Will effectively replace {0} in the pattern to {{value}}, which will then be used as normal
-- &amp; ( KeysNotMatching&lt;Values, StringNumberOrProperty&gt; extends <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span> ? {
+- &amp; ( [KeysNotMatching](../phet-core/KeysNotMatching.md)&lt;Values, StringNumberOrProperty&gt; extends <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span> ? {
     // Maps the input <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>/numeric values (depending on the [Property](../axon/Property.md) type) to a <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> or <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>. Decimal places will be
     // applied after <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> step (if it returns a <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>).
     //

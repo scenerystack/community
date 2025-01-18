@@ -32,9 +32,9 @@ import type { RectangularToggleButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOffSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sounds to be played on toggle transitions
-- **valueOnSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)
 
 

@@ -21,10 +21,10 @@ import type { ObservableArrayOptions } from 'scenerystack/axon';
 - **length**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **elements**?: T[]
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-- **elementAddedEmitterOptions**?: StrictOmit&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "tandem" | "parameters" | "phetioReadOnly"&gt;
+- **elementAddedEmitterOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "tandem" | "parameters" | "phetioReadOnly"&gt;
 <br>  Options for the array's child elements. Omitted options are the responsibility of the array.
-- **elementRemovedEmitterOptions**?: StrictOmit&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "tandem" | "parameters" | "phetioReadOnly"&gt;
-- **lengthPropertyOptions**?: StrictOmit&lt;[NumberPropertyOptions](../axon/NumberProperty.md#NumberPropertyOptions), "tandem" | "numberType" | "phetioReadOnly"&gt;
+- **elementRemovedEmitterOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[EmitterOptions](../axon/Emitter.md#EmitterOptions), "tandem" | "parameters" | "phetioReadOnly"&gt;
+- **lengthPropertyOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[NumberPropertyOptions](../axon/NumberProperty.md#NumberPropertyOptions), "tandem" | "numberType" | "phetioReadOnly"&gt;
 - &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
 
 

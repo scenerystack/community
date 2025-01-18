@@ -31,7 +31,7 @@ or other effects that block input (e.g. setPointerCapture). We search up the tre
 
 Raw DOM InputEvent (TouchEvent, PointerEvent, MouseEvent,...)
 
-#### activeElement : <span style="font-weight: 400;">Element | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #activeElement data-toc-label='activeElement' }
+#### activeElement : <span style="font-weight: 400;">[Element](../nitroglycerin/Element.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #activeElement data-toc-label='activeElement' }
 
 (readonly)
 

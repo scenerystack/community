@@ -25,7 +25,7 @@ import type { ExternalMarginLayoutConfigurableOptions } from 'scenerystack/scene
 ```
 
 
-WithoutNull&lt;[MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), Exclude&lt;keyof [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), Exclude&lt;keyof [MarginLayoutConfigurableOptions](../scenery/MarginLayoutConfigurable.md#MarginLayoutConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
 
 
 

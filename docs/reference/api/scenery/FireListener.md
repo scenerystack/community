@@ -97,7 +97,7 @@ import type { FireListenerOptions } from 'scenerystack/scenery';
   TODO: these options are not supported with PDOM interaction, see https://github.com/phetsims/scenery/issues/1117
 - **fireOnHoldDelay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **fireOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;ParentOptions&lt;Listener&gt;, "phetioPressActionInstrumented" | "phetioReleaseActionInstrumented"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions&lt;Listener&gt;, "phetioPressActionInstrumented" | "phetioReleaseActionInstrumented"&gt;
 
 
 

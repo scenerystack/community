@@ -80,12 +80,12 @@ import type { SliderTrackOptions } from 'scenerystack/sun';
 <br>  called before valueProperty is set
 - **enabledRangeProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Range](../dot/Range.md)&gt;
 <br>  Defaults to a constant range
-- **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundGenerator**?: [ValueChangeSoundPlayer](../tambo/ValueChangeSoundPlayer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  This is used to generate sounds when clicking in the track.  If not provided, the default sound generator
   will be created. If set to null, the slider will generate no sound.
-- **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+- **valueChangeSoundGeneratorOptions**?: [ValueChangeSoundPlayerOptions](../tambo/ValueChangeSoundPlayer.md#ValueChangeSoundPlayerOptions)
 <br>  Options for the default sound generator.  These should only be provided when using the default.
-- **voicingOnEndResponse**?: VoicingOnEndResponse
+- **voicingOnEndResponse**?: [VoicingOnEndResponse](../sun/AccessibleValueHandler.md#VoicingOnEndResponse)
 <br>  Announces the voicing response at the end of an interaction. Used by AccessibleValueHandler, see
   Slider for an example usage.
 - **leftVisualOverflow**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

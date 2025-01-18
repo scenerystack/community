@@ -32,7 +32,7 @@ import type { VerticalCheckboxGroupItem } from 'scenerystack/sun';
 
 
 - **property**: [PhetioProperty](../axon/PhetioProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
-- **options**?: StrictOmit&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "tandem"&gt;
+- **options**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "tandem"&gt;
 - &amp; [GroupItemOptions](../sun/GroupItemOptions.md)
 
 
@@ -46,10 +46,10 @@ import type { VerticalCheckboxGroupOptions } from 'scenerystack/sun';
 ```
 
 
-- **checkboxOptions**?: StrictOmit&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "tandem"&gt;
+- **checkboxOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[CheckboxOptions](../sun/Checkbox.md#CheckboxOptions), "tandem"&gt;
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[VBoxOptions](../scenery/VBox.md#VBoxOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[VBoxOptions](../scenery/VBox.md#VBoxOptions), "children"&gt;
 
 
 

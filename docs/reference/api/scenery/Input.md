@@ -250,7 +250,7 @@ import type { InputOptions } from 'scenerystack/scenery';
 ```
 
 
-PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
+[PickOptional](../phet-core/PickOptional.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

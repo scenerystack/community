@@ -48,9 +48,9 @@ import type { PlayControlButtonOptions } from 'scenerystack/scenery-phet';
 <br>  Label for the button in the PDOM when the button will set isPlayingProperty to true
 - **endPlayingLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Label for the button in the PDOM when the button will set isPlayingProperty to false
-- **valueOffSoundPlayer**?: TSoundPlayer
+- **valueOffSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound generation
-- **valueOnSoundPlayer**?: TSoundPlayer
+- **valueOnSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [BooleanRoundToggleButtonOptions](../sun/BooleanRoundToggleButton.md#BooleanRoundToggleButtonOptions)
 
 

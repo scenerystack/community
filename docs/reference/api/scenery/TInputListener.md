@@ -114,7 +114,7 @@ import type { SupportedEventTypes } from 'scenerystack/scenery';
 ```
 
 
-keyof StrictOmit&lt;[TInputListener](../scenery/TInputListener.md), 'interrupt' | 'cursor' | 'listener' | 'createPanTargetBounds'&gt;
+keyof [StrictOmit](../phet-core/StrictOmit.md)&lt;[TInputListener](../scenery/TInputListener.md), 'interrupt' | 'cursor' | 'listener' | 'createPanTargetBounds'&gt;
 
 
 

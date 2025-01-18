@@ -35,7 +35,7 @@ import type { VBoxOptions } from 'scenerystack/scenery';
 ```
 
 
-StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "orientation"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "orientation"&gt;
 
 
 

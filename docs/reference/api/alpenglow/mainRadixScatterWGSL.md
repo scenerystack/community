@@ -23,7 +23,7 @@ import type { mainRadixScatterWGSLOptions } from 'scenerystack/alpenglow';
 - **earlyLoad**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **lengthExpression**: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 <br>  TODO: get option pass-through
-- **loadMultipleOptions**?: StrictOmit&lt;[loadMultipleWGSLOptions](../alpenglow/loadMultipleWGSL.md#loadMultipleWGSLOptions)&lt;T&gt;, "loadExpression" | "loadStatements" | "storeStatements" | "type" | "workgroupSize" | "grainSize" | "lengthExpression" | "outOfRangeValue" | "inputOrder" | "inputAccessOrder"&gt;
+- **loadMultipleOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[loadMultipleWGSLOptions](../alpenglow/loadMultipleWGSL.md#loadMultipleWGSLOptions)&lt;T&gt;, "loadExpression" | "loadStatements" | "storeStatements" | "type" | "workgroupSize" | "grainSize" | "lengthExpression" | "outOfRangeValue" | "inputOrder" | "inputAccessOrder"&gt;
 <br>  e.g. factorOutSubexpressions
 - &amp; [RakedSizable](../alpenglow/WGSLUtils.md#RakedSizable)
 

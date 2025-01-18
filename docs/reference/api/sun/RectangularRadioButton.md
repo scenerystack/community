@@ -69,10 +69,10 @@ import type { RectangularRadioButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Sound generation - If set to null a default will be used that is based on this button's position within the radio
   button group.  Can be set to nullSoundPlayer to turn off all sound generation.
-- &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)&gt;, "enabledProperty" | "enabled"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)&gt;, "enabledProperty" | "enabled"&gt;
 
 
 

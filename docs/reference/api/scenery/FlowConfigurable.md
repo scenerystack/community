@@ -30,7 +30,7 @@ import type { ExternalFlowConfigurableOptions } from 'scenerystack/scenery';
 ```
 
 
-WithoutNull&lt;[FlowConfigurableOptions](../scenery/FlowConfigurable.md#FlowConfigurableOptions), Exclude&lt;keyof [FlowConfigurableOptions](../scenery/FlowConfigurable.md#FlowConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[FlowConfigurableOptions](../scenery/FlowConfigurable.md#FlowConfigurableOptions), Exclude&lt;keyof [FlowConfigurableOptions](../scenery/FlowConfigurable.md#FlowConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
 
 
 

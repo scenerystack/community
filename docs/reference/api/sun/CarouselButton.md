@@ -33,7 +33,7 @@ import type { CarouselButtonOptions } from 'scenerystack/sun';
 - **arrowPathOptions**?: [PathOptions](../scenery/Path.md#PathOptions)
 - **arrowDirection**?: ArrowDirection
 - **arrowSize**?: [Dimension2](../dot/Dimension2.md)
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "leftTopCornerRadius" | "rightTopCornerRadius" | "leftBottomCornerRadius" | "rightBottomCornerRadius" | "touchAreaXShift" | "touchAreaYShift" | "mouseAreaXShift" | "mouseAreaYShift"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "leftTopCornerRadius" | "rightTopCornerRadius" | "leftBottomCornerRadius" | "rightBottomCornerRadius" | "touchAreaXShift" | "touchAreaYShift" | "mouseAreaXShift" | "mouseAreaYShift"&gt;
 
 
 

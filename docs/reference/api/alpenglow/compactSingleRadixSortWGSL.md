@@ -20,7 +20,7 @@ import type { compactSingleRadixSortWGSLOptions } from 'scenerystack/alpenglow';
 <br>  number of bits in the key
 - **getBitsAtIndex**: ( value: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), bitIndex: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32)
 <br>  get the bits at the given index
-- &amp; StrictOmit&lt;[nBitCompactSingleSortWGSLOptions](../alpenglow/nBitCompactSingleSortWGSL.md#nBitCompactSingleSortWGSLOptions)&lt;T&gt;, "getBits"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[nBitCompactSingleSortWGSLOptions](../alpenglow/nBitCompactSingleSortWGSL.md#nBitCompactSingleSortWGSLOptions)&lt;T&gt;, "getBits"&gt;
 
 
 

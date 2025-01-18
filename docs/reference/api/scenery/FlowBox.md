@@ -101,7 +101,7 @@ import type { FlowBoxOptions } from 'scenerystack/scenery';
 <br>  Controls whether the FlowBox will re-trigger layout automatically after the "first" layout during construction.
   The FlowBox will layout once after processing the options object, but if resize:false, then after that manual
   layout calls will need to be done (with updateLayout())
-- &amp; StrictOmit&lt;[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions), ExcludeFlowConstraintOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions), ExcludeFlowConstraintOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
 
 
 

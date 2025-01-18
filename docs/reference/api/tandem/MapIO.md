@@ -9,6 +9,16 @@ NOTE: This has not been reviewed, tested or used in production code yet.
 @author Sam Reid (PhET Interactive Simulations)
 @author Jesse Greenberg (PhET Interactive Simulations)
 
+## Type MapStateObject {: #MapStateObject }
+
+
+```js
+import type { MapStateObject } from 'scenerystack/tandem';
+```
+
+
+Array&lt;[ KState, VState ]&gt;
+
 
 
 ## Source Code

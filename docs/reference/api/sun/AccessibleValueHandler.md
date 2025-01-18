@@ -109,16 +109,80 @@ import type { AccessibleValueHandlerOptions } from 'scenerystack/sun';
   aiting for this alert after an interaction. This should be altered depending on how quickly you expect the
   value to change. We want to give enough time for VO to read aria-valuetext but don't want to have too much
   silence before the alert is spoken.
-- **pdomDependencies**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;IntentionalAny&gt;[]
+- **pdomDependencies**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;[]
 <br>  List the dependencies this Node's PDOM descriptions have. This should not include the valueProperty, but
   should list any Properties whose change should trigger a description update for this Node.
 - **tagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Only provide tagName to AccessibleValueHandler to remove it from the PDOM, otherwise, AccessibleValueHandler
   sets its own tagName.
-- **voicingOnEndResponseOptions**?: VoicingOnEndResponseOptions
+- **voicingOnEndResponseOptions**?: [VoicingOnEndResponseOptions](../sun/AccessibleValueHandler.md#VoicingOnEndResponseOptions)
 <br>  Customizations for the voicingOnEndResponse function, which is used to voice content at the end
   of an interaction.
 - &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions)
+
+
+
+
+## Type TAccessibleValueHandler {: #TAccessibleValueHandler }
+
+
+```js
+import type { TAccessibleValueHandler } from 'scenerystack/sun';
+```
+
+
+- **startInput**: [SceneryListenerFunction](../scenery/TInputListener.md#SceneryListenerFunction)
+- **onInput**: OnInputFunction
+- **endInput**: ( event: [SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **constrainValue**: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
+- **panTargetNode**: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **roundToStepSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomMapPDOMValue**: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
+- **pdomMapValue**: ( ( newValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, previousValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
+- **pdomRepeatEqualValueText**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **pdomCreateAriaValueText**: CreateTextFunction
+- **pdomCreateContextResponseAlert**: CreateTextFunction | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **contextResponsePerValueChangeDelay**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **contextResponseMaxDelay**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **voicingOnEndResponseOptions**: [VoicingOnEndResponseOptions](../sun/AccessibleValueHandler.md#VoicingOnEndResponseOptions)
+- **pdomDependencies**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;[]
+- **keyboardStep**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **shiftKeyboardStep**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **pageKeyboardStep**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **ariaOrientation**: [Orientation](../phet-core/Orientation.md)
+- &amp; [TVoicing](../scenery/Voicing.md#TVoicing)
+
+
+
+
+## Type VoicingOnEndResponse {: #VoicingOnEndResponse }
+
+
+Function signature for voicingOnEndResponse.
+
+```js
+import type { VoicingOnEndResponse } from 'scenerystack/sun';
+```
+
+
+( valueOnStart: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, providedOptions?: [VoicingOnEndResponseOptions](../sun/AccessibleValueHandler.md#VoicingOnEndResponseOptions) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
+
+
+## Type VoicingOnEndResponseOptions {: #VoicingOnEndResponseOptions }
+
+
+```js
+import type { VoicingOnEndResponseOptions } from 'scenerystack/sun';
+```
+
+
+- **onlyOnValueChange**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Should the Voicing response be spoken if the interaction does not change the value?
+- **withNameResponse**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Should the Voicing response include the name response?
+- **withObjectResponse**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Should the Voicing response include the object response?
 
 
 

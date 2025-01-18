@@ -44,7 +44,7 @@ import type { PageControlOptions } from 'scenerystack/sun';
 - **pageFill**?: [TPaint](../scenery/TPaint.md)
 <br>  dots representing all pages except the current page
 - **pageStroke**?: [TPaint](../scenery/TPaint.md)
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

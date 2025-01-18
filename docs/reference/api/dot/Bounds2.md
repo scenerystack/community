@@ -746,10 +746,10 @@ import type { Bounds2StateObject } from 'scenerystack/dot';
 ```
 
 
-- **minX**: InfiniteNumberStateObject
-- **minY**: InfiniteNumberStateObject
-- **maxX**: InfiniteNumberStateObject
-- **maxY**: InfiniteNumberStateObject
+- **minX**: [InfiniteNumberStateObject](../tandem/InfiniteNumberIO.md#InfiniteNumberStateObject)
+- **minY**: [InfiniteNumberStateObject](../tandem/InfiniteNumberIO.md#InfiniteNumberStateObject)
+- **maxX**: [InfiniteNumberStateObject](../tandem/InfiniteNumberIO.md#InfiniteNumberStateObject)
+- **maxY**: [InfiniteNumberStateObject](../tandem/InfiniteNumberIO.md#InfiniteNumberStateObject)
 
 
 

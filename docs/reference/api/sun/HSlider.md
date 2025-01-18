@@ -31,7 +31,7 @@ import type { HSliderOptions } from 'scenerystack/sun';
 ```
 
 
-StrictOmit&lt;[SliderOptions](../sun/Slider.md#SliderOptions), "orientation"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[SliderOptions](../sun/Slider.md#SliderOptions), "orientation"&gt;
 
 
 

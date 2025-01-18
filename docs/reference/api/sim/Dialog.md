@@ -66,15 +66,15 @@ import type { DialogOptions } from 'scenerystack/sim';
 - **closeButtonLastInPDOM**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  By default, the close button is placed first in the PDOMOrder (and thus the focus order). Set this to true
   if you want the close button to be the last element in the focus order for the Dialog.
-- **openedSoundPlayer**?: TSoundPlayer
+- **openedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound generation
-- **closedSoundPlayer**?: TSoundPlayer
+- **closedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - **sim**?: [Sim](../sim/Sim.md)
 - **showCallback**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Called after the dialog is shown, see https://github.com/phetsims/joist/issues/478
 - **hideCallback**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Called after the dialog is hidden, see https://github.com/phetsims/joist/issues/478
-- &amp; StrictOmit&lt;TrimmedParentOptions, "xMargin" | "yMargin"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;TrimmedParentOptions, "xMargin" | "yMargin"&gt;
 
 
 

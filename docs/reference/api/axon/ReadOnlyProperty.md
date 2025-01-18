@@ -18,7 +18,7 @@ import { ReadOnlyProperty } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new ReadOnlyProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;</span> ) {: #ReadOnlyProperty-constructor data-toc-label='new ReadOnlyProperty' }
+#### new ReadOnlyProperty( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;</span> ) {: #ReadOnlyProperty-constructor data-toc-label='new ReadOnlyProperty' }
 
 ### Instance Methods
 
@@ -84,7 +84,7 @@ once other Properties have also taken their deferred values.
 @returns - function to notify listeners after calling setDeferred(false),
          - null if isDeferred is true, or if the value is unchanged since calling setDeferred(true)
 
-#### addPhetioStateDependencies( dependencies : <span style="font-weight: 400;">Array&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;IntentionalAny&gt;&gt;</span> ) {: #addPhetioStateDependencies data-toc-label='addPhetioStateDependencies' }
+#### addPhetioStateDependencies( dependencies : <span style="font-weight: 400;">Array&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;&gt;</span> ) {: #addPhetioStateDependencies data-toc-label='addPhetioStateDependencies' }
 
 This function registers an order dependency between this Property and another. Basically this says that when
 setting PhET-iO state, each dependency must take its final value before this Property fires its notifications.
@@ -111,7 +111,7 @@ Removes a listener. If listener is not registered, this is a no-op.
 
 Removes all listeners. If no listeners are registered, this is a no-op.
 
-#### linkAttribute( object : <span style="font-weight: 400;">IntentionalAny</span>, attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">( value: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> {: #linkAttribute data-toc-label='linkAttribute' }
+#### linkAttribute( object : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span>, attributeName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">( value: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> {: #linkAttribute data-toc-label='linkAttribute' }
 
 Links an object's named attribute to this property.  Returns a handle so it can be removed using Property.unlink();
 Example: modelVisibleProperty.linkAttribute(view,'visible');
@@ -172,7 +172,7 @@ Support treating ourselves as an autoselectable entity for the "strings" selecti
 
 ### Instance Properties
 
-#### units : <span style="font-weight: 400;">Units | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #units data-toc-label='units' }
+#### units : <span style="font-weight: 400;">[Units](../axon/units.md#Units) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #units data-toc-label='units' }
 
 (readonly)
 
@@ -238,17 +238,17 @@ import type { LinkOptions } from 'scenerystack/axon';
 
 
 
-## Type ReadOnlyPropertyOptions {: #ReadOnlyPropertyOptions }
+## Type PropertyOptions {: #PropertyOptions }
 
 
 Options that can be passed in
 
 ```js
-import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
+import type { PropertyOptions } from 'scenerystack/axon';
 ```
 
 
-- **units**?: Units | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **units**?: [Units](../axon/units.md#Units) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  units for the value, see units.js. Should prefer abbreviated units, see https://github.com/phetsims/phet-io/issues/530
 - **reentrant**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Whether reentrant calls to 'set' are allowed.
@@ -263,7 +263,7 @@ import type { ReadOnlyPropertyOptions } from 'scenerystack/axon';
   subtypes can implement their own, more specific IOType.
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If specified as true, this flag will ensure that listener order never changes (like via ?listenerOrder=random)
-- &amp; Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;ParentOptions&lt;T&gt;, "phetioType"&gt;
+- &amp; Pick&lt;[TinyEmitterOptions](../axon/TinyEmitter.md#TinyEmitterOptions), "reentrantNotificationStrategy"&gt; &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions&lt;T&gt;, "phetioType"&gt;
 
 
 

@@ -38,7 +38,7 @@ import type { ShadedSphereNodeOptions } from 'scenerystack/scenery-phet';
 - **highlightDiameterRatio**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **highlightXOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **highlightYOffset**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[CircleOptions](../scenery/Circle.md#CircleOptions), "fill"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[CircleOptions](../scenery/Circle.md#CircleOptions), "fill"&gt;
 
 
 

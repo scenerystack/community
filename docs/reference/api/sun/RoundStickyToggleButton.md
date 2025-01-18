@@ -32,7 +32,7 @@ import type { RoundStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
 
 

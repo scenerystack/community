@@ -253,7 +253,7 @@ import type { RectangleOptions } from 'scenerystack/scenery';
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerXRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerYRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;ParentOptions, "shape" | "shapeProperty"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "shape" | "shapeProperty"&gt;
 
 
 

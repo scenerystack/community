@@ -27,7 +27,7 @@ import type { ExternalGridConfigurableOptions } from 'scenerystack/scenery';
 ```
 
 
-WithoutNull&lt;[GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), Exclude&lt;keyof [GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), Exclude&lt;keyof [GridConfigurableOptions](../scenery/GridConfigurable.md#GridConfigurableOptions), "minContentWidth" | "minContentHeight" | "maxContentWidth" | "maxContentHeight"&gt;&gt;
 
 
 

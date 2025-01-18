@@ -134,7 +134,7 @@ technology. If this Display is not accessible, returns null.
 
 Has this Display enabled accessibility features like PDOM creation and support.
 
-#### isElementUnderPDOM( element : <span style="font-weight: 400;">Element</span>, allowRoot : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isElementUnderPDOM data-toc-label='isElementUnderPDOM' }
+#### isElementUnderPDOM( element : <span style="font-weight: 400;">[Element](../nitroglycerin/Element.md)</span>, allowRoot : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isElementUnderPDOM data-toc-label='isElementUnderPDOM' }
 
 Returns true if the element is in the PDOM. That is only possible if the display is accessible.
 @param element
@@ -296,7 +296,7 @@ TODO: this dispose function is not complete. https://github.com/phetsims/scenery
 
 The (integral, &gt; 0) dimensions of the Display's DOM element (only updates the DOM element on updateDisplay())
 
-#### descriptionUtteranceQueue : <span style="font-weight: 400;">UtteranceQueue</span> {: #descriptionUtteranceQueue data-toc-label='descriptionUtteranceQueue' }
+#### descriptionUtteranceQueue : <span style="font-weight: 400;">[UtteranceQueue](../utterance-queue/UtteranceQueue.md)</span> {: #descriptionUtteranceQueue data-toc-label='descriptionUtteranceQueue' }
 
 data structure for managing aria-live alerts the this Display instance
 

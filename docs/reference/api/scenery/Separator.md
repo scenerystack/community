@@ -33,7 +33,7 @@ import type { SeparatorOptions } from 'scenerystack/scenery';
 ```
 
 
-StrictOmit&lt;[LineOptions](../scenery/Line.md#LineOptions), "tandem"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[LineOptions](../scenery/Line.md#LineOptions), "tandem"&gt;
 
 
 

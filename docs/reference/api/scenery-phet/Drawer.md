@@ -85,8 +85,8 @@ import type { DrawerOptions } from 'scenerystack/scenery-phet';
 - **animationEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  animation
 - **animationDuration**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **stepEmitter**?: TReadOnlyEmitter&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children" | "clipArea"&gt;
+- **stepEmitter**?: [TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children" | "clipArea"&gt;
 
 
 

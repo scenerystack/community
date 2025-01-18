@@ -32,7 +32,7 @@ import type { ExpandCollapseButtonOptions } from 'scenerystack/sun';
 
 
 - **sideLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[BooleanRectangularToggleButtonOptions](../sun/BooleanRectangularToggleButton.md#BooleanRectangularToggleButtonOptions), "cornerRadius" | "xMargin" | "yMargin" | "buttonAppearanceStrategy"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[BooleanRectangularToggleButtonOptions](../sun/BooleanRectangularToggleButton.md#BooleanRectangularToggleButtonOptions), "cornerRadius" | "xMargin" | "yMargin" | "buttonAppearanceStrategy"&gt;
 
 
 

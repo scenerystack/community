@@ -20,6 +20,16 @@ Use the ?regionAndCulture query parameter to override the default, for example ?
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 @author Chris Malley (PixelZoom, Inc.)
 
+## Type RegionAndCulture {: #RegionAndCulture }
+
+
+```js
+import type { RegionAndCulture } from 'scenerystack/joist';
+```
+
+
+"usa" | "africa" | "africaModest" | "asia" | "latinAmerica" | "oceania" | "random"
+
 
 
 ## Source Code

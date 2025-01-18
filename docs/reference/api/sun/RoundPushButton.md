@@ -47,7 +47,7 @@ import type { RoundPushButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
 
 

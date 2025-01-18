@@ -29,7 +29,7 @@ Emit to notify listeners
 
 Disposes an Emitter. All listeners are removed.
 
-#### addListener( listener : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span>, options? : <span style="font-weight: 400;">DisposerOptions</span> ) {: #addListener data-toc-label='addListener' }
+#### addListener( listener : <span style="font-weight: 400;">[TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt;</span>, options? : <span style="font-weight: 400;">[DisposerOptions](../axon/Disposable.md#DisposerOptions)</span> ) {: #addListener data-toc-label='addListener' }
 
 Adds a listener which will be called during emit.
 
@@ -91,7 +91,7 @@ import type { EmitterOptions } from 'scenerystack/axon';
 ```
 
 
-Pick&lt;TinyEmitterOptions, "reentrantNotificationStrategy"&gt; &amp; StrictOmit&lt;PhetioDataHandlerOptions, "phetioOuterType"&gt;
+Pick&lt;[TinyEmitterOptions](../axon/TinyEmitter.md#TinyEmitterOptions), "reentrantNotificationStrategy"&gt; &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PhetioDataHandlerOptions](../tandem/PhetioDataHandler.md#PhetioDataHandlerOptions), "phetioOuterType"&gt;
 
 
 

@@ -289,7 +289,7 @@ import type { TextOptions } from 'scenerystack/scenery';
 - **fontStretch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **fontStyle**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 - **fontSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **stringPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+- **stringPropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 - &amp; [PaintableOptions](../scenery/Paintable.md#PaintableOptions) &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 
 

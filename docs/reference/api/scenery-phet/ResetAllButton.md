@@ -44,7 +44,7 @@ import type { ResetAllButtonOptions } from 'scenerystack/scenery-phet';
 - **interruptScreenViewInput**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  When reset all is called, search for all ancestor Nodes that are JOIST/ScreenView and call
   Node.interruptSubtreeInput() on each. See https://github.com/phetsims/scenery-phet/issues/861
-- &amp; StrictOmit&lt;[ResetButtonOptions](../scenery-phet/ResetButton.md#ResetButtonOptions), "xMargin" | "yMargin"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[ResetButtonOptions](../scenery-phet/ResetButton.md#ResetButtonOptions), "xMargin" | "yMargin"&gt;
 
 
 

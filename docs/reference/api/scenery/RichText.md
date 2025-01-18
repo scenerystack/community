@@ -294,14 +294,14 @@ Sets the leading (spacing between lines)
 
 Returns the leading (spacing between lines)
 
-#### setLineWrap( lineWrap : <span style="font-weight: 400;">RequiredOption&lt;SelfOptions, 'lineWrap'&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setLineWrap data-toc-label='setLineWrap' }
+#### setLineWrap( lineWrap : <span style="font-weight: 400;">[RequiredOption](../phet-core/RequiredOption.md)&lt;SelfOptions, 'lineWrap'&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setLineWrap data-toc-label='setLineWrap' }
 
 Sets the line wrap width for the text (or null if none is desired). Lines longer than this length will wrap
 automatically to the next line.
 
 @param lineWrap - If it's a number, it should be greater than 0.
 
-#### getLineWrap() : <span style="font-weight: 400;">RequiredOption&lt;SelfOptions, 'lineWrap'&gt;</span> {: #getLineWrap data-toc-label='getLineWrap' }
+#### getLineWrap() : <span style="font-weight: 400;">[RequiredOption](../phet-core/RequiredOption.md)&lt;SelfOptions, 'lineWrap'&gt;</span> {: #getLineWrap data-toc-label='getLineWrap' }
 
 Returns the line wrap width.
 
@@ -539,7 +539,7 @@ import type { RichTextOptions } from 'scenerystack/scenery';
   to determine the line wrap.
 - **stringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Sets forwarding of the stringProperty, see setStringProperty() for more documentation
-- **stringPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+- **stringPropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 - **string**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Sets the string to be displayed by this Node
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)

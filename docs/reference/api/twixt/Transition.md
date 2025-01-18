@@ -112,7 +112,20 @@ import type { DissolveTransitionOptions } from 'scenerystack/twixt';
 ```
 
 
-[PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; &amp; DissolveTransitionSelfOptions
+[PartialTransitionOptions](../twixt/Transition.md#PartialTransitionOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; &amp; [DissolveTransitionSelfOptions](../twixt/Transition.md#DissolveTransitionSelfOptions)
+
+
+
+## Type DissolveTransitionSelfOptions {: #DissolveTransitionSelfOptions }
+
+
+```js
+import type { DissolveTransitionSelfOptions } from 'scenerystack/twixt';
+```
+
+
+- **gamma**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
 
 
 
@@ -124,7 +137,7 @@ import type { PartialTransitionOptions } from 'scenerystack/twixt';
 ```
 
 
-StrictOmit&lt;SelfOptions&lt;[ T ]&gt;, "fromTargets" | "toTargets" | "resetNode"&gt; &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [ T ], [ [Node](../scenery/Node.md) ]&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;SelfOptions&lt;[ T ]&gt;, "fromTargets" | "toTargets" | "resetNode"&gt; &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [ T ], [ [Node](../scenery/Node.md) ]&gt;
 
 
 
@@ -148,14 +161,14 @@ import type { TransitionOptions } from 'scenerystack/twixt';
 ```
 
 
-- **fromTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
+- **fromTargets**: { [K in keyof TargetTypes]: [AnimationTargetOptions](../twixt/AnimationTarget.md#AnimationTargetOptions)&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
 <br>  A list of partial configurations that will individually be passed to the targets for an Animation (and thus to
   AnimationTarget). They will be combined with `object: node` and options.targetOptions to create the Animation.
   See Animation's targets parameter for more information
-- **toTargets**: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
+- **toTargets**: { [K in keyof TargetTypes]: [AnimationTargetOptions](../twixt/AnimationTarget.md#AnimationTargetOptions)&lt;TargetTypes[K], [Node](../scenery/Node.md)&gt; }
 - **resetNode**: ( node: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
 <br>  resets the animated parameter(s) to their default values.
-- **targetOptions**?: AnimationTargetOptions&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [Node](../scenery/Node.md)&gt;
+- **targetOptions**?: [AnimationTargetOptions](../twixt/AnimationTarget.md#AnimationTargetOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, [Node](../scenery/Node.md)&gt;
 - &amp; [AnimationOptions](../twixt/Animation.md#AnimationOptions)&lt;SelfType, SelfObjectType, TargetTypes, TargetObjectTypes&gt;
 
 

@@ -35,7 +35,7 @@ import type { FlowCellOptions } from 'scenerystack/scenery';
 - **isSeparator**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Allows marking a cell as a "separator", such that multiple adjacent separators (and those at the start/end) get
   collapsed (all but the first are not included in layout AND made invisible)
-- &amp; StrictOmit&lt;[ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions), "orientation"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[ExternalFlowConfigurableOptions](../scenery/FlowConfigurable.md#ExternalFlowConfigurableOptions), "orientation"&gt;
 
 
 

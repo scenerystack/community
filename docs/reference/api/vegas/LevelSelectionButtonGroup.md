@@ -25,7 +25,7 @@ import { LevelSelectionButtonGroup } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400;">LevelSelectionButtonGroupItem[]</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonGroupOptions](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupOptions)</span> ) {: #LevelSelectionButtonGroup-constructor data-toc-label='new LevelSelectionButtonGroup' }
+#### new LevelSelectionButtonGroup( items : <span style="font-weight: 400;">[LevelSelectionButtonGroupItem](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupItem)[]</span>, providedOptions? : <span style="font-weight: 400;">[LevelSelectionButtonGroupOptions](../vegas/LevelSelectionButtonGroup.md#LevelSelectionButtonGroupOptions)</span> ) {: #LevelSelectionButtonGroup-constructor data-toc-label='new LevelSelectionButtonGroup' }
 
 ### Instance Methods
 
@@ -38,6 +38,29 @@ for example, when the 'Back' or 'Start Over' button is pressed in a game.
 
 
 
+## Type LevelSelectionButtonGroupItem {: #LevelSelectionButtonGroupItem }
+
+
+Describes one LevelSelectionButton
+
+```js
+import type { LevelSelectionButtonGroupItem } from 'scenerystack/vegas';
+```
+
+
+- **icon**: [Node](../scenery/Node.md)
+<br>  The icon displayed on the button
+- **scoreProperty**: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+<br>  The score displayed on the button
+- **tandemName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  Name used when creating the button's tandem, defaults to `level${N}Button`
+- **options**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "tandem" | "buttonHeight" | "buttonWidth"&gt;
+<br>  Options for the button. These will override LevelSelectionButtonGroupOptions.levelSelectionButtonOptions.
+  Setting tandem is the responsibility of the group, so it is omitted here.
+
+
+
+
 ## Type LevelSelectionButtonGroupOptions {: #LevelSelectionButtonGroupOptions }
 
 
@@ -46,10 +69,10 @@ import type { LevelSelectionButtonGroupOptions } from 'scenerystack/vegas';
 ```
 
 
-- **levelSelectionButtonOptions**?: StrictOmit&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "tandem" | "buttonHeight" | "buttonWidth"&gt;
+- **levelSelectionButtonOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[LevelSelectionButtonOptions](../vegas/LevelSelectionButton.md#LevelSelectionButtonOptions), "tandem" | "buttonHeight" | "buttonWidth"&gt;
 <br>  Options for all LevelSelectionButton instances in the group.
   These can be overridden for specific button(s) via LevelSelectionButtonGroupItem.options.
-- **flowBoxOptions**?: StrictOmit&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "children"&gt;
+- **flowBoxOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[FlowBoxOptions](../scenery/FlowBox.md#FlowBoxOptions), "children"&gt;
 <br>  Options for the default layout, which is a FlowBox. Ignored if createLayoutNode is provided.
 - **createLayoutNode**?: ( buttons: [LevelSelectionButton](../vegas/LevelSelectionButton.md)[] ) =&gt; [LayoutNode](../scenery/LayoutNode.md)&lt;[NodeLayoutConstraint](../scenery/NodeLayoutConstraint.md)&gt;
 <br>  Creates the Node that handles layout of the buttons.
@@ -60,7 +83,7 @@ import type { LevelSelectionButtonGroupOptions } from 'scenerystack/vegas';
   See getGameLevelsSchema.ts and example use in FMWQueryParameters.
 - **groupButtonHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **groupButtonWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt; &amp; PickRequired&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tandem"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt; &amp; [PickRequired](../phet-core/PickRequired.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tandem"&gt;
 
 
 

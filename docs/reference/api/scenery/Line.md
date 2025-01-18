@@ -148,7 +148,7 @@ import type { LineOptions } from 'scenerystack/scenery';
 - **y1**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **x2**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **y2**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
 
 
 

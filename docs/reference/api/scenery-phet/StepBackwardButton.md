@@ -30,7 +30,7 @@ import type { StepBackwardButtonOptions } from 'scenerystack/scenery-phet';
 ```
 
 
-StrictOmit&lt;[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions), "direction"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[StepButtonOptions](../scenery-phet/StepButton.md#StepButtonOptions), "direction"&gt;
 
 
 

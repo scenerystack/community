@@ -16,7 +16,7 @@ import { Property } from 'scenerystack/axon';
 ```
 ### Constructor
 
-#### new Property( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;</span> ) {: #Property-constructor data-toc-label='new Property' }
+#### new Property( value : <span style="font-weight: 400;">T</span>, providedOptions? : <span style="font-weight: 400;">[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;</span> ) {: #Property-constructor data-toc-label='new Property' }
 
 ### Instance Methods
 

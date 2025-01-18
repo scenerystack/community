@@ -97,7 +97,7 @@ import type { PaintColorPropertyOptions } from 'scenerystack/scenery';
 - **luminanceFactor**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  0 applies no change. Positive numbers brighten the color up to 1 (white). Negative numbers darken
   the color up to -1 (black). See setLuminanceFactor() for more information.
-- &amp; [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;
+- &amp; [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;[Color](../scenery/Color.md)&gt;
 
 
 

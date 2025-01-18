@@ -33,7 +33,7 @@ import type { MagnifyingGlassNodeOptions } from 'scenerystack/scenery-phet';
 - **glassFill**?: [TColor](../scenery/TColor.md)
 - **glassStroke**?: [TColor](../scenery/TColor.md)
 - **icon**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

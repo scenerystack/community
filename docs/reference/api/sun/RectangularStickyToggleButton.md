@@ -32,7 +32,7 @@ import type { RectangularStickyToggleButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions)
 
 

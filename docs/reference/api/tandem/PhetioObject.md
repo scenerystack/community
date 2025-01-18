@@ -12,6 +12,23 @@ unexpectedly.
 @author Sam Reid (PhET Interactive Simulations)
 @author Michael Kauzmann (PhET Interactive Simulations)
 
+## Type PhetioObjectMetadataInput {: #PhetioObjectMetadataInput }
+
+
+A type that is used for the structural typing when gathering metadata. We just need a "PhetioObject-like" entity
+to pull the API metadata from. Thus, this is the "input" to logic that would pull the metadata keys into an object
+for the PhetioAPI.
+eslint-disable-next-line phet/phet-io-object-options-should-not-pick-from-phet-io-object
+
+```js
+import type { PhetioObjectMetadataInput } from 'scenerystack/tandem';
+```
+
+
+Pick&lt;[PhetioObject](../tandem/PhetioObject.md), PhetioObjectMetadataKeys&gt;
+
+
+
 ## Type PhetioObjectOptions {: #PhetioObjectOptions }
 
 
@@ -31,7 +48,7 @@ import type { PhetioObjectOptions } from 'scenerystack/tandem';
   If string[] is provided, the tandem name must have a suffix that matches one of the strings in the array.
   null means that there is no constraint on tandem name. The first character is not case-sensitive, to support
   uses like 'thermometerNode' versus 'upperThermometerNode'.
-- &amp; StrictOmit&lt;Partial&lt;PhetioElementMetadata&gt;, "phetioTypeName" | "phetioArchetypePhetioID" | "phetioIsArchetype" | "phetioEventType"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;Partial&lt;[PhetioElementMetadata](../tandem/phet-io-types.md#PhetioElementMetadata)&gt;, "phetioTypeName" | "phetioArchetypePhetioID" | "phetioIsArchetype" | "phetioEventType"&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 
 

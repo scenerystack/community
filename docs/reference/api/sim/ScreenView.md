@@ -42,24 +42,24 @@ creates a consistent experience for screen reader accessibility.
 
 Override to make sure that setting children doesn't blow away Nodes set by ScreenView.
 
-#### setScreenSummaryContent( node : <span style="font-weight: 400;">ScreenSummaryContent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setScreenSummaryContent data-toc-label='setScreenSummaryContent' }
+#### setScreenSummaryContent( node : <span style="font-weight: 400;">[ScreenSummaryContent](../sim/ScreenSummaryContent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setScreenSummaryContent data-toc-label='setScreenSummaryContent' }
 
 Set the screen summary Node for the PDOM of this Screen View. Prefer passing in a screen summary Node via
 constructor options, but this method can be used directly when necessary.
 
-#### getVoicingOverviewContent() : <span style="font-weight: 400;">SpeakableResolvedResponse</span> {: #getVoicingOverviewContent data-toc-label='getVoicingOverviewContent' }
+#### getVoicingOverviewContent() : <span style="font-weight: 400;">[SpeakableResolvedResponse](../utterance-queue/ResponsePacket.md#SpeakableResolvedResponse)</span> {: #getVoicingOverviewContent data-toc-label='getVoicingOverviewContent' }
 
 Create the alert content for this ScreenView when the Voicing feature is enabled and the "Overview" button
 is pressed.
 The default uses content from the ScreenSummaryContent. You can override this function if you require different behavior.
 
-#### getVoicingDetailsContent() : <span style="font-weight: 400;">SpeakableResolvedResponse</span> {: #getVoicingDetailsContent data-toc-label='getVoicingDetailsContent' }
+#### getVoicingDetailsContent() : <span style="font-weight: 400;">[SpeakableResolvedResponse](../utterance-queue/ResponsePacket.md#SpeakableResolvedResponse)</span> {: #getVoicingDetailsContent data-toc-label='getVoicingDetailsContent' }
 
 Create the alert content for this ScreenView when the Voicing feature is enabled and the "Details" button is
 pressed.
 The default uses content from the ScreenSummaryContent. You can override this function if you require different behavior.
 
-#### getVoicingHintContent() : <span style="font-weight: 400;">SpeakableResolvedResponse</span> {: #getVoicingHintContent data-toc-label='getVoicingHintContent' }
+#### getVoicingHintContent() : <span style="font-weight: 400;">[SpeakableResolvedResponse](../utterance-queue/ResponsePacket.md#SpeakableResolvedResponse)</span> {: #getVoicingHintContent data-toc-label='getVoicingHintContent' }
 
 Create the alert content for this ScreenView when the Voicing feature is enabled and the "Hint" button is pressed.
 The default uses content from the ScreenSummaryContent. You can override this function if you require different behavior.
@@ -88,11 +88,11 @@ Noops for consistent API
 The visible bounds of the ScreenView in ScreenView coordinates.  This includes top/bottom or left/right margins
 depending on the aspect ratio of the screen. Clients should not set this value
 
-#### pdomPlayAreaNode : <span style="font-weight: 400;">PlayAreaNode</span> {: #pdomPlayAreaNode data-toc-label='pdomPlayAreaNode' }
+#### pdomPlayAreaNode : <span style="font-weight: 400;">[PlayAreaNode](../scenery-phet/PlayAreaNode.md)</span> {: #pdomPlayAreaNode data-toc-label='pdomPlayAreaNode' }
 
 (protected, readonly)
 
-#### pdomControlAreaNode : <span style="font-weight: 400;">ControlAreaNode</span> {: #pdomControlAreaNode data-toc-label='pdomControlAreaNode' }
+#### pdomControlAreaNode : <span style="font-weight: 400;">[ControlAreaNode](../scenery-phet/ControlAreaNode.md)</span> {: #pdomControlAreaNode data-toc-label='pdomControlAreaNode' }
 
 (protected, readonly)
 
@@ -122,7 +122,7 @@ import type { ScreenViewOptions } from 'scenerystack/sim';
 
 
 - **layoutBounds**?: [Bounds2](../dot/Bounds2.md)
-- **screenSummaryContent**?: ScreenSummaryContent | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **screenSummaryContent**?: [ScreenSummaryContent](../sim/ScreenSummaryContent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **includePDOMNodes**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)
 

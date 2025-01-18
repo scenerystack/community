@@ -135,12 +135,12 @@ import type { SliderOptions } from 'scenerystack/sun';
   of using the passed in Property. This option was created to support passing DynamicProperty or "wrapping"
   Property that are "implementation  details" to the PhET-iO API, and still support having a LinkedElement that
   points to the underlying model Property.
-- **soundGenerator**?: ValueChangeSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundGenerator**?: [ValueChangeSoundPlayer](../tambo/ValueChangeSoundPlayer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  This is used to generate sounds as the slider is moved by the user.  If not provided, the default sound generator
   will be created. If set to null, the slider will generate no sound.
-- **valueChangeSoundGeneratorOptions**?: ValueChangeSoundPlayerOptions
+- **valueChangeSoundGeneratorOptions**?: [ValueChangeSoundPlayerOptions](../tambo/ValueChangeSoundPlayer.md#ValueChangeSoundPlayerOptions)
 <br>  Options for the default sound generator.  These should only be provided when using the default.
-- &amp; [SliderTickOptions](../sun/SliderTick.md#SliderTickOptions) &amp; StrictOmit&lt;ParentOptions, RequiredParentOptionsSuppliedBySlider&gt; &amp; PickOptional&lt;ParentOptions, "enabledRangeProperty"&gt;
+- &amp; [SliderTickOptions](../sun/SliderTick.md#SliderTickOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, RequiredParentOptionsSuppliedBySlider&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParentOptions, "enabledRangeProperty"&gt;
 
 
 

@@ -38,7 +38,7 @@ import type { ReadingBlockUtteranceOptions } from 'scenerystack/scenery';
 ```
 
 
-UtteranceOptions
+[UtteranceOptions](../utterance-queue/Utterance.md#UtteranceOptions)
 
 
 

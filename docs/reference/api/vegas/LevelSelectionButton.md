@@ -57,7 +57,7 @@ import type { LevelSelectionButtonOptions } from 'scenerystack/vegas';
 - **soundPlayerIndex**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Configures the soundPlayer for a specific game level. Note that this assumes zero-based indexing for game level,
   which is often not the case. This option is ignored if RectangularPushButtonOptions.soundPlayer is provided.
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

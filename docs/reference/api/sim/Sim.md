@@ -21,11 +21,11 @@ import { Sim } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new Sim( simNameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, allSimScreens : <span style="font-weight: 400;">AnyScreen[]</span>, providedOptions? : <span style="font-weight: 400;">[SimOptions](../sim/Sim.md#SimOptions)</span> ) {: #Sim-constructor data-toc-label='new Sim' }
+#### new Sim( simNameProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, allSimScreens : <span style="font-weight: 400;">[AnyScreen](../sim/Screen.md#AnyScreen)[]</span>, providedOptions? : <span style="font-weight: 400;">[SimOptions](../sim/Sim.md#SimOptions)</span> ) {: #Sim-constructor data-toc-label='new Sim' }
 
 ### Instance Methods
 
-#### showPopup( popup : <span style="font-weight: 400;">PopupableNode</span>, isModal : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #showPopup data-toc-label='showPopup' }
+#### showPopup( popup : <span style="font-weight: 400;">[PopupableNode](../sim/Popupable.md#PopupableNode)</span>, isModal : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #showPopup data-toc-label='showPopup' }
 
 Adds a popup in the global coordinate frame. If the popup is model, it displays a semi-transparent black input
 barrier behind it. A modal popup prevent the user from interacting with the reset of the application until the
@@ -33,7 +33,7 @@ popup is hidden. Use hidePopup() to hide the popup.
 @param popup - the popup, must implemented node.hide(), called by hidePopup
 @param isModal - whether popup is modal
 
-#### hidePopup( popup : <span style="font-weight: 400;">PopupableNode</span>, isModal : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #hidePopup data-toc-label='hidePopup' }
+#### hidePopup( popup : <span style="font-weight: 400;">[PopupableNode](../sim/Popupable.md#PopupableNode)</span>, isModal : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #hidePopup data-toc-label='hidePopup' }
 
 Hides a popup that was previously displayed with showPopup()
 @param popup
@@ -86,7 +86,7 @@ Get helpful information for replicating the bug when an assertion occurs.
 
 Stores the effective self dimensions that the simulation will be taking up
 
-#### homeScreen : <span style="font-weight: 400;">HomeScreen | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #homeScreen data-toc-label='homeScreen' }
+#### homeScreen : <span style="font-weight: 400;">[HomeScreen](../sim/HomeScreen.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #homeScreen data-toc-label='homeScreen' }
 
 (readonly)
 
@@ -112,13 +112,13 @@ Steps the simulation. This Action is implemented so it can be automatically
 played back for PhET-iO record/playback.  Listen to this Action if you have an action that happens during the
 simulation step.
 
-#### simScreens : <span style="font-weight: 400;">AnyScreen[]</span> {: #simScreens data-toc-label='simScreens' }
+#### simScreens : <span style="font-weight: 400;">[AnyScreen](../sim/Screen.md#AnyScreen)[]</span> {: #simScreens data-toc-label='simScreens' }
 
 (readonly)
 
 the ordered list of sim-specific screens that appear in this runtime of the sim
 
-#### screens : <span style="font-weight: 400;">AnyScreen[]</span> {: #screens data-toc-label='screens' }
+#### screens : <span style="font-weight: 400;">[AnyScreen](../sim/Screen.md#AnyScreen)[]</span> {: #screens data-toc-label='screens' }
 
 (readonly)
 
@@ -130,11 +130,11 @@ all screens that appear in the runtime of this sim, with the homeScreen first if
 
 the displayed name in the sim. This depends on what screens are shown this runtime (effected by query parameters).
 
-#### selectedScreenProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;AnyScreen&gt;</span> {: #selectedScreenProperty data-toc-label='selectedScreenProperty' }
+#### selectedScreenProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;[AnyScreen](../sim/Screen.md#AnyScreen)&gt;</span> {: #selectedScreenProperty data-toc-label='selectedScreenProperty' }
 
 (readonly)
 
-#### activeSimScreensProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;AnyScreen[]&gt;</span> {: #activeSimScreensProperty data-toc-label='activeSimScreensProperty' }
+#### activeSimScreensProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[AnyScreen](../sim/Screen.md#AnyScreen)[]&gt;</span> {: #activeSimScreensProperty data-toc-label='activeSimScreensProperty' }
 
 #### activeProperty : <span style="font-weight: 400;">[BooleanProperty](../axon/BooleanProperty.md)</span> {: #activeProperty data-toc-label='activeProperty' }
 
@@ -149,7 +149,7 @@ Set to false for when the sim will be paused.
 
 indicates whether the browser tab containing the simulation is currently visible
 
-#### lookAndFeel : <span style="font-weight: 400;">LookAndFeel</span> {: #lookAndFeel data-toc-label='lookAndFeel' }
+#### lookAndFeel : <span style="font-weight: 400;">[LookAndFeel](../joist/LookAndFeel.md)</span> {: #lookAndFeel data-toc-label='lookAndFeel' }
 
 (readonly)
 
@@ -169,11 +169,11 @@ number of animation frames that have occurred
 
 Make our locale available
 
-#### display : <span style="font-weight: 400;">SimDisplay</span> {: #display data-toc-label='display' }
+#### display : <span style="font-weight: 400;">[SimDisplay](../sim/SimDisplay.md)</span> {: #display data-toc-label='display' }
 
 (readonly)
 
-#### preferencesModel : <span style="font-weight: 400;">PreferencesModel</span> {: #preferencesModel data-toc-label='preferencesModel' }
+#### preferencesModel : <span style="font-weight: 400;">[PreferencesModel](../sim/PreferencesModel.md)</span> {: #preferencesModel data-toc-label='preferencesModel' }
 
 (readonly)
 
@@ -193,7 +193,7 @@ TODO: How should we handle the popup for navigation? Can we set this to private?
 
 root node for the Display
 
-#### credits : <span style="font-weight: 400;">CreditsData</span> {: #credits data-toc-label='credits' }
+#### credits : <span style="font-weight: 400;">[CreditsData](../joist/CreditsNode.md#CreditsData)</span> {: #credits data-toc-label='credits' }
 
 (readonly)
 
@@ -207,10 +207,10 @@ import type { SimOptions } from 'scenerystack/sim';
 ```
 
 
-- **credits**?: CreditsData
+- **credits**?: [CreditsData](../joist/CreditsNode.md#CreditsData)
 - **homeScreenWarningNode**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Node](../scenery/Node.md)
 <br>  a {Node} placed onto the home screen (if available)
-- **preferencesModel**?: PreferencesModel | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **preferencesModel**?: [PreferencesModel](../sim/PreferencesModel.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  The PreferencesModel defines the available features for the simulation that are controllable
   through the Preferences Dialog. Will not be null! This is a workaround to prevent creating a "default" PreferencesModel
 - **webgl**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -220,7 +220,7 @@ import type { SimOptions } from 'scenerystack/sim';
   ScreenView will be a child. This is useful for performance reasons, e.g. when using WebGL or wish to reduce memory
   costs. Setting this to true MAY increase the amount of time needed to switch screens.
   See https://github.com/phetsims/faradays-electromagnetic-lab/issues/153
-- &amp; PickOptional&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "phetioDesigned"&gt;
+- &amp; [PickOptional](../phet-core/PickOptional.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "phetioDesigned"&gt;
 
 
 

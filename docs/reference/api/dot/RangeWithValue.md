@@ -39,7 +39,7 @@ Setter for min and max
 
 Converts the attributes of this range to a string
 
-#### equals( object : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
+#### equals( object : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
 Determines if this RangeWithValue is equal to some object.
 

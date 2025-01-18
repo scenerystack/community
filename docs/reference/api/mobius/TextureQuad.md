@@ -27,7 +27,7 @@ Releases references
 
 ### Instance Properties
 
-#### disposeEmitter : <span style="font-weight: 400;">TReadOnlyEmitter</span> {: #disposeEmitter data-toc-label='disposeEmitter' }
+#### disposeEmitter : <span style="font-weight: 400;">[TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)</span> {: #disposeEmitter data-toc-label='disposeEmitter' }
 
 
 

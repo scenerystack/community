@@ -520,7 +520,7 @@ Returns whether a child should be included for layout (if this Node is a layout 
 
 Calls the callback on nodes recursively in a depth-first manner.
 
-#### addInputListener( listener : <span style="font-weight: 400;">[TInputListener](../scenery/TInputListener.md)</span>, options? : <span style="font-weight: 400;">DisposerOptions</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #addInputListener data-toc-label='addInputListener' }
+#### addInputListener( listener : <span style="font-weight: 400;">[TInputListener](../scenery/TInputListener.md)</span>, options? : <span style="font-weight: 400;">[DisposerOptions](../axon/Disposable.md#DisposerOptions)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #addInputListener data-toc-label='addInputListener' }
 
 Adds an input listener.
 
@@ -2088,15 +2088,15 @@ import type { NodeOptions } from 'scenerystack/scenery';
 - **touchArea**?: [Shape](../kite/Shape.md) | [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **clipArea**?: [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **transformBounds**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-- **visiblePropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- **visiblePropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 <br>  This option is used to create the instrumented, default PhET-iO visibleProperty. These options should not
   be provided if a `visibleProperty` was provided to this Node, though if they are, they will just be ignored.
   This grace is to support default options across the component hierarchy melding with usages providing a visibleProperty.
   This option is a bit buried because it can only be used when the Node is being instrumented, which is when
   the default, instrumented visibleProperty is conditionally created. We don't want to store these on the Node,
   and thus they aren't support through `mutate()`.
-- **enabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
-- **inputEnabledPropertyOptions**?: [PropertyOptions](../axon/Property.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- **enabledPropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
+- **inputEnabledPropertyOptions**?: [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 - &amp; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions) &amp; [NodeTransformOptions](../scenery/Node.md#NodeTransformOptions)
 
 

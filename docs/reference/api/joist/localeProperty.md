@@ -25,6 +25,41 @@ import type { Locale } from 'scenerystack/joist';
 
 
 
+## Class LocaleProperty {: #LocaleProperty }
+
+
+```js
+import { LocaleProperty } from 'scenerystack/joist';
+```
+### Constructor
+
+#### new LocaleProperty( value : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span>, providedOptions? : <span style="font-weight: 400;">LocalePropertyOptions</span> ) {: #LocaleProperty-LocaleProperty-constructor data-toc-label='new LocaleProperty-LocaleProperty' }
+
+### Instance Methods
+
+#### unguardedSet( value : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span> ) {: #LocaleProperty-unguardedSet data-toc-label='LocaleProperty-unguardedSet' }
+
+(protected)
+
+Override to provide grace and support for the full definition of allowed locales (aligned with the query parameter
+schema). For example three letter values, and case insensitivity. See checkAndRemapLocale() for details. NOTE that
+this will assert if the locale doesn't match the right format.
+
+#### toStateObject() : <span style="font-weight: 400;">[ReadOnlyPropertyState](../axon/ReadOnlyProperty.md#ReadOnlyPropertyState)&lt;StateType&gt;</span> {: #LocaleProperty-toStateObject data-toc-label='LocaleProperty-toStateObject' }
+
+(protected)
+
+This improves the PhET-iO Studio interface, by giving available values, without triggering validation if you want
+to use the more general locale schema (three digit/case-insensitive/etc).
+
+### Instance Properties
+
+#### availableRuntimeLocales : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)[]</span> {: #LocaleProperty-availableRuntimeLocales data-toc-label='LocaleProperty-availableRuntimeLocales' }
+
+(readonly)
+
+
+
 ## Source Code
 
 See the source for [localeProperty.ts](https://github.com/phetsims/joist/blob/main/js/i18n/localeProperty.ts) in the [joist](https://github.com/phetsims/joist) repository.

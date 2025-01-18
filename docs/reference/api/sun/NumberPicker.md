@@ -78,11 +78,11 @@ import type { NumberPickerOptions } from 'scenerystack/sun';
 <br>  Determines when the decrement arrow is enabled.
 - **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Opacity used to indicate disabled, [0,1] exclusive
-- **valueChangedSoundPlayer**?: TSoundPlayer
+- **valueChangedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  Sound generators for when the NumberPicker's value changes, and when it hits range extremities.
   Use nullSoundPlayer to disable.
-- **boundarySoundPlayer**?: TSoundPlayer
-- &amp; StrictOmit&lt;ParentOptions, "valueProperty" | "enabledRangeProperty" | "pdomTimerDelay" | "pdomTimerInterval"&gt;
+- **boundarySoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "valueProperty" | "enabledRangeProperty" | "pdomTimerDelay" | "pdomTimerInterval"&gt;
 
 
 

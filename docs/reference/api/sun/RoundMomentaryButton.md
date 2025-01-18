@@ -34,8 +34,8 @@ import type { RoundMomentaryButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **valueOffSoundPlayer**?: TSoundPlayer
-- **valueOnSoundPlayer**?: TSoundPlayer
+- **valueOffSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- **valueOnSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RoundButtonOptions](../sun/RoundButton.md#RoundButtonOptions)
 
 

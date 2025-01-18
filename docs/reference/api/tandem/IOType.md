@@ -19,7 +19,7 @@ import { IOType } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new IOType( typeName : <span style="font-weight: 400;">IOTypeName</span>, providedOptions : <span style="font-weight: 400;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #IOType-constructor data-toc-label='new IOType' }
+#### new IOType( typeName : <span style="font-weight: 400;">[IOTypeName](../tandem/phet-io-types.md#IOTypeName)</span>, providedOptions : <span style="font-weight: 400;">IOTypeOptions&lt;T, StateType, SelfStateType&gt;</span> ) {: #IOType-constructor data-toc-label='new IOType' }
 
 ### Instance Methods
 
@@ -35,7 +35,7 @@ import { IOType } from 'scenerystack/tandem';
 
 Returns true if this IOType is a subtype of the passed-in type (or if they are the same).
 
-#### getAllMetadataDefaults() : <span style="font-weight: 400;">Partial&lt;PhetioElementMetadata&gt;</span> {: #getAllMetadataDefaults data-toc-label='getAllMetadataDefaults' }
+#### getAllMetadataDefaults() : <span style="font-weight: 400;">Partial&lt;[PhetioElementMetadata](../tandem/phet-io-types.md#PhetioElementMetadata)&gt;</span> {: #getAllMetadataDefaults data-toc-label='getAllMetadataDefaults' }
 
 Return all the metadata defaults (for the entire IOType hierarchy)
 
@@ -43,7 +43,7 @@ Return all the metadata defaults (for the entire IOType hierarchy)
 
 Return all the data defaults (for the entire IOType hierarchy)
 
-#### getAllAPIStateKeys() : <span style="font-weight: 400;">APIStateKeys</span> {: #getAllAPIStateKeys data-toc-label='getAllAPIStateKeys' }
+#### getAllAPIStateKeys() : <span style="font-weight: 400;">[APIStateKeys](../tandem/StateSchema.md#APIStateKeys)</span> {: #getAllAPIStateKeys data-toc-label='getAllAPIStateKeys' }
 
 Return all the apiStateKeys (for the entire IOType hierarchy) in one array.
 
@@ -65,9 +65,9 @@ include non-tracked values of PointIO, if there are any).
 
 Assert if the provided stateObject is not valid to this IOType's stateSchema
 
-#### toString() : <span style="font-weight: 400;">IOTypeName</span> {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;">[IOTypeName](../tandem/phet-io-types.md#IOTypeName)</span> {: #toString data-toc-label='toString' }
 
-#### getAPI() : <span style="font-weight: 400;">PhetioType</span> {: #getAPI data-toc-label='getAPI' }
+#### getAPI() : <span style="font-weight: 400;">[PhetioType](../tandem/phet-io-types.md#PhetioType)</span> {: #getAPI data-toc-label='getAPI' }
 
 Return an object that indicates the API type, including documentation, methods &amp; signatures, supertypes, etc.
 The object is intended for serialization via JSON.stringify().
@@ -86,7 +86,7 @@ See documentation in options type declaration
 
 (readonly)
 
-#### methods : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, IOTypeMethod&gt;</span> {: #methods data-toc-label='methods' }
+#### methods : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [IOTypeMethod](../tandem/IOType.md#IOTypeMethod)&gt;</span> {: #methods data-toc-label='methods' }
 
 (readonly)
 
@@ -94,7 +94,7 @@ See documentation in options type declaration
 
 (readonly)
 
-#### metadataDefaults : <span style="font-weight: 400;">Partial&lt;PhetioElementMetadata&gt;</span> {: #metadataDefaults data-toc-label='metadataDefaults' }
+#### metadataDefaults : <span style="font-weight: 400;">Partial&lt;[PhetioElementMetadata](../tandem/phet-io-types.md#PhetioElementMetadata)&gt;</span> {: #metadataDefaults data-toc-label='metadataDefaults' }
 
 (readonly)
 
@@ -136,7 +136,7 @@ TODO: instead of unknown this is the second parameter type for PhetioDynamicElem
 
 (readonly)
 
-#### stateSchema : <span style="font-weight: 400;">StateSchema&lt;T, SelfStateType&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #stateSchema data-toc-label='stateSchema' }
+#### stateSchema : <span style="font-weight: 400;">[StateSchema](../tandem/StateSchema.md)&lt;T, SelfStateType&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #stateSchema data-toc-label='stateSchema' }
 
 (readonly)
 
@@ -147,6 +147,27 @@ The StateSchema (type) that the option is made into. The option is more flexible
 #### ObjectIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ObjectIO data-toc-label='ObjectIO' }
 
 The base IOType for the entire hierarchy.
+
+
+
+## Type IOTypeMethod {: #IOTypeMethod }
+
+
+```js
+import type { IOTypeMethod } from 'scenerystack/tandem';
+```
+
+
+- **returnType**: [IOType](../tandem/IOType.md)
+- **parameterTypes**: [IOType](../tandem/IOType.md)[]
+- **implementation**: ( ...args: [IntentionalAny](../phet-core/IntentionalAny.md)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>
+<br>  the function to execute when this method is called. This function's parameters will be based on `parameterTypes`,
+  and should return the type specified by `returnType`
+- **documentation**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **invocableForReadOnlyElements**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  by default, all methods are invocable for all elements. However, for some read-only elements, certain methods
+  should not be invocable. In that case, they are marked as invocableForReadOnlyElements: false.
+
 
 
 

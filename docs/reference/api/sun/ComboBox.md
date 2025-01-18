@@ -101,7 +101,7 @@ import type { ComboBoxItem } from 'scenerystack/sun';
 
 - **value**: T
 <br>  the value associated with the item
-- **soundPlayer**?: TSoundPlayer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Sound that will be played when this item is selected.  If set to `null` a default sound will be used that is based
   on this item's position in the combo box list.  A value of `nullSoundPlayer` can be used to disable.
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -124,7 +124,7 @@ import type { ComboBoxItemNoNode } from 'scenerystack/sun';
 ```
 
 
-StrictOmit&lt;[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;, "createNode"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[ComboBoxItem](../sun/ComboBox.md#ComboBoxItem)&lt;T&gt;, "createNode"&gt;
 
 
 
@@ -175,10 +175,10 @@ import type { ComboBoxOptions } from 'scenerystack/sun';
 <br>  list
 - **listStroke**?: [TPaint](../scenery/TPaint.md)
 - **listLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **openedSoundPlayer**?: TSoundPlayer
+- **openedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  Sound generators for when combo box is opened and for when it is closed with no change (closing
   *with* a change is handled elsewhere).
-- **closedNoChangeSoundPlayer**?: TSoundPlayer
+- **closedNoChangeSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - **buttonLabelTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 <br>  pdom
   The tag name for the label of the ComboBox. The AccessibleNameBehavior forwards the name to the ComboBoxButton,
@@ -191,9 +191,9 @@ import type { ComboBoxOptions } from 'scenerystack/sun';
   be filled in.
 - **comboBoxVoicingContextResponse**?: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  most context responses are dynamic to the current state of the sim, so lazily create them when needed.
-- **comboBoxVoicingHintResponse**?: SpeakableResolvedResponse | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **comboBoxVoicingHintResponse**?: [SpeakableResolvedResponse](../utterance-queue/ResponsePacket.md#SpeakableResolvedResponse) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  string for the voicing response
-- &amp; StrictOmit&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;, "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;ParentOptions&gt;, "children"&gt;
 
 
 

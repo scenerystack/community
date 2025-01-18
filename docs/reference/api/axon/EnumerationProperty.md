@@ -33,7 +33,7 @@ import type { EnumerationPropertyOptions } from 'scenerystack/axon';
 - **enumeration**?: [Enumeration](../phet-core/Enumeration.md)&lt;T&gt;
 <br>  By default, this will be taken from the initial value, but if subtyping enumerations, you must provide this
   manually to make sure it is set to the correct, subtype value, see https://github.com/phetsims/phet-core/issues/102
-- &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;T&gt;, "phetioValueType"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;, "phetioValueType"&gt;
 
 
 

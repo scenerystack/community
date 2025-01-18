@@ -34,7 +34,7 @@ import type { ScoreDisplayLabeledStarsOptions } from 'scenerystack/vegas';
 - **font**?: [Font](../scenery/Font.md)
 - **textFill**?: [TColor](../scenery/TColor.md)
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; [ScoreDisplayStarsOptions](../vegas/ScoreDisplayStars.md#ScoreDisplayStarsOptions) &amp; StrictOmit&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
+- &amp; [ScoreDisplayStarsOptions](../vegas/ScoreDisplayStars.md#ScoreDisplayStarsOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[HBoxOptions](../scenery/HBox.md#HBoxOptions), "children"&gt;
 
 
 

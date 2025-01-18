@@ -59,7 +59,7 @@ import type { SpinningIndicatorNodeOptions } from 'scenerystack/scenery-phet';
 <br>  The active "mostly visible" color at the lead.
 - **inactiveColor**?: [Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 <br>  The inactive "mostly invisible" color at the tail.
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

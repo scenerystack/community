@@ -52,7 +52,7 @@ import type { ComboBoxListItemNodeOptions } from 'scenerystack/sun';
 - **highlightCornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  corner radius for the highlight
 - **comboBoxVoicingNameResponsePattern**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
-- &amp; StrictOmit&lt;ParentOptions, "children" | "innerContent"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "children" | "innerContent"&gt;
 
 
 

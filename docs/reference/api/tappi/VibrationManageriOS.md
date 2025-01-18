@@ -33,11 +33,11 @@ Start a timed vibration for the provided time in seconds.
 
 Start a vibration that will continue forever.
 
-#### vibrateContinuous( providedOptions? : <span style="font-weight: 400;">VibrateOptions</span> ) {: #vibrateContinuous data-toc-label='vibrateContinuous' }
+#### vibrateContinuous( providedOptions? : <span style="font-weight: 400;">[VibrateOptions](../tappi/VibrationManageriOS.md#VibrateOptions)</span> ) {: #vibrateContinuous data-toc-label='vibrateContinuous' }
 
 Request a continuous vibration with provided parameters. This should replace all other functions in the future.
 
-#### vibrateTransient( providedOptions? : <span style="font-weight: 400;">VibrateOptions</span> ) {: #vibrateTransient data-toc-label='vibrateTransient' }
+#### vibrateTransient( providedOptions? : <span style="font-weight: 400;">[VibrateOptions](../tappi/VibrationManageriOS.md#VibrateOptions)</span> ) {: #vibrateTransient data-toc-label='vibrateTransient' }
 
 Request a transient vibration. A transient vibration is a single pulse at a particular time without any duration.
 It is used typically for basic UI components to indicate successful activation or change. Use vibrateContinuous for
@@ -93,6 +93,27 @@ Saves the provided data string to the containing Swift app. Data string is gener
 #### debug( debugString : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #debug data-toc-label='debug' }
 
 Send a debug message to the containing app that will be printed in the debugging tools.
+
+
+
+## Type VibrateOptions {: #VibrateOptions }
+
+
+```js
+import type { VibrateOptions } from 'scenerystack/tappi';
+```
+
+
+- **pattern**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+<br>  A pattern for the vibration, alternating values in seconds where even indices are time when the motor is "on" and
+  odd indices have the motor off. The pattern will repeat for options.duration or forever if that option is null
+- **sharpness**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **intensity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **frequency**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  TODO: add support for frequency
+- **duration**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  duration indicates that this vibration will proceed forever
+
 
 
 

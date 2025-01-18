@@ -195,7 +195,7 @@ import type { KeyboardDragListenerOptions } from 'scenerystack/scenery';
 - **moveOnHoldInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Time interval at which the object will change position while the arrow key is held down, in ms. This must be larger
   than 0 to prevent dragging that is based on how often animation-frame steps occur.
-- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem" | "phetioReadOnly"&gt; &amp; PickOptional&lt;ParentOptions, "focus" | "blur"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
+- &amp; [AllDragListenerOptions](../scenery/AllDragListenerOptions.md)&lt;Listener, [KeyboardDragListenerDOMEvent](../scenery/KeyboardDragListener.md#KeyboardDragListenerDOMEvent)&gt; &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem" | "phetioReadOnly"&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParentOptions, "focus" | "blur"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 
 

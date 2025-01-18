@@ -4,7 +4,7 @@
 
 /* eslint-disable */
 /* @formatter:off */
-Auto-generated from modulify, DO NOT manually modify.
+Auto-generated from scenerystack build
 
 
 

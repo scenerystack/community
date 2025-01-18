@@ -47,7 +47,7 @@ import type { FocusableHeadingNodeOptions } from 'scenerystack/scenery';
 
 - **headingLevel**?: HeadingLevelNumber
 <br>  The heading level for this focusable heading in the PDOM, 1-6 according to DOM spec.
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tagName" | "focusHighlight"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tagName" | "focusHighlight"&gt;
 
 
 

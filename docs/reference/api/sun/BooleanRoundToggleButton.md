@@ -30,7 +30,7 @@ import type { BooleanRoundToggleButtonOptions } from 'scenerystack/sun';
 ```
 
 
-StrictOmit&lt;[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions), "content"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[RoundToggleButtonOptions](../sun/RoundToggleButton.md#RoundToggleButtonOptions), "content"&gt;
 
 
 

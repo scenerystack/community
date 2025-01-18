@@ -30,7 +30,7 @@ Returns the correct platform dependent key string for "Alt". "Alt" on Windows, "
 
 -------------------------------------------------------------------------------------------------
 Static factory methods for specific text strings. For brevity, these methods have the same names
-as their string keys. For example SceneryPhetStrings.key.esc is rendered by the esc method.
+as their string keys. For example string_scenery_phet_key_esc_StringProperty is rendered by the esc method.
 -------------------------------------------------------------------------------------------------
 Note that this will render "Alt" OR "Options", depending on platform. If there is a description of this icon
 in the PDOM please use getAltKeyString().

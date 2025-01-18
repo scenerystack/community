@@ -86,7 +86,7 @@ import type { CircleOptions } from 'scenerystack/scenery';
 
 
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions) &amp; StrictOmit&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
+- &amp; [VoicingOptions](../scenery/Voicing.md#VoicingOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PathOptions](../scenery/Path.md#PathOptions), "shape" | "shapeProperty"&gt;
 
 
 

@@ -64,21 +64,21 @@ import type { CheckboxOptions } from 'scenerystack/sun';
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **checkedSoundPlayer**?: TSoundPlayer
+- **checkedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sounds
-- **uncheckedSoundPlayer**?: TSoundPlayer
-- **checkedContextResponse**?: TAlertable
+- **uncheckedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- **checkedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 <br>  Utterances to be spoken with a screen reader after the checkbox is pressed. Also used for the voicingContextResponse.
-- **uncheckedContextResponse**?: TAlertable
+- **uncheckedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 - **voiceNameResponseOnSelection**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  By default voice the name response on checkbox change (with the context response), but optionally turn it off here.
-- **voicingCheckedObjectResponse**?: TAlertable
+- **voicingCheckedObjectResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 <br>  Output describing the state of the Checkbox after it is pressed using the Voicing feature. Like "Checked" or
   "Locked". Not usually needed, default is null.
-- **voicingUncheckedObjectResponse**?: TAlertable
+- **voicingUncheckedObjectResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 - **phetioDisplayOnlyPropertyInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  whether the displayOnlyProperty for this checkbox is instrumented for PhET-iO
-- &amp; StrictOmit&lt;ParentOptions, "children" | "mouseArea" | "touchArea" | "tagName"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "children" | "mouseArea" | "touchArea" | "tagName"&gt;
 
 
 

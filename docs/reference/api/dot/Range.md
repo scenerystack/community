@@ -133,11 +133,11 @@ Multiply the min and max by the provided value, immutable
 
 Multiply the min and max by the provided value, mutable
 
-#### equals( object : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
+#### equals( object : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
 Determines if this Range is equal to some object.
 
-#### equalsEpsilon( object : <span style="font-weight: 400;">IntentionalAny</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsEpsilon data-toc-label='equalsEpsilon' }
+#### equalsEpsilon( object : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span>, epsilon : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsEpsilon data-toc-label='equalsEpsilon' }
 
 Determines if this Range is approximately equal to some object.
 
@@ -184,7 +184,7 @@ import type { RangeStateObject } from 'scenerystack/dot';
 ```
 
 
-StateObject&lt;typeof STATE_SCHEMA&gt;
+[StateObject](../tandem/StateSchema.md#StateObject)&lt;typeof STATE_SCHEMA&gt;
 
 
 

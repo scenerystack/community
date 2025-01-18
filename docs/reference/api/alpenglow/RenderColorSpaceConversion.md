@@ -28,7 +28,7 @@ import { RenderColorSpaceConversion } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### inverse : <span style="font-weight: 400;">Constructor&lt;[RenderColorSpaceConversion](../alpenglow/RenderColorSpaceConversion.md)&gt;</span> {: #inverse data-toc-label='inverse' }
+#### inverse : <span style="font-weight: 400;">[Constructor](../phet-core/Constructor.md)&lt;[RenderColorSpaceConversion](../alpenglow/RenderColorSpaceConversion.md)&gt;</span> {: #inverse data-toc-label='inverse' }
 
 ### Static Methods
 

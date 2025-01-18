@@ -37,7 +37,7 @@ import type { ScreenIconOptions } from 'scenerystack/sim';
 - **maxIconHeightProportion**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **fill**?: [TColor](../scenery/TColor.md)
 - **stroke**?: [TColor](../scenery/TColor.md)
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

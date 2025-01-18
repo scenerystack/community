@@ -35,7 +35,7 @@ import type { StepButtonOptions } from 'scenerystack/scenery-phet';
 - **radius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **direction**?: Direction
 - **iconFill**?: [TPaint](../scenery/TPaint.md)
-- &amp; StrictOmit&lt;[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions), "content" | "xContentOffset" | "xMargin" | "yMargin"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RoundPushButtonOptions](../sun/RoundPushButton.md#RoundPushButtonOptions), "content" | "xContentOffset" | "xMargin" | "yMargin"&gt;
 
 
 

@@ -30,7 +30,7 @@ import { Pool } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Pool( type : <span style="font-weight: 400;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400;">[PossiblyRequiredParameterSpread](../phet-core/Pool.md#PossiblyRequiredParameterSpread)&lt;[PoolableOptions](../phet-core/Pool.md#PoolableOptions)&lt;T&gt;&gt;</span> ) {: #Pool-constructor data-toc-label='new Pool' }
+#### new Pool( type : <span style="font-weight: 400;">T</span>, ...providedOptionsSpread : <span style="font-weight: 400;">[PossiblyRequiredParameterSpread](../phet-core/Pool.md#PossiblyRequiredParameterSpread)&lt;[PoolOptions](../phet-core/Pool.md#PoolOptions)&lt;T&gt;&gt;</span> ) {: #Pool-constructor data-toc-label='new Pool' }
 
 ### Instance Methods
 
@@ -49,18 +49,18 @@ being created (if the pool is empty), or it may use the constructor to mutate an
 
 
 
-## Type PoolableOptions {: #PoolableOptions }
+## Type PoolOptions {: #PoolOptions }
 
 
 ```js
-import type { PoolableOptions } from 'scenerystack/phet-core';
+import type { PoolOptions } from 'scenerystack/phet-core';
 ```
 
 
 - **defaultArguments**?: ConstructorParameters&lt;T&gt;
 <br>  If an object needs to be created without a direct call (say, to fill the pool initially), these are the arguments
   that will be passed into the constructor
-- **initialize**?: PoolableInitializer&lt;T&gt;
+- **initialize**?: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt;
 <br>  The function to call on the objects to reinitialize them (that is either the constructor, or acts like the
   constructor). NOTE: This should return the object itself!
 - **maxSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -71,9 +71,9 @@ import type { PoolableOptions } from 'scenerystack/phet-core';
 - **useDefaultConstruction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If true, when constructing the default arguments will always be used (and then initialized with the initializer)
   instead of just providing the arguments straight to the constructor.
-- &amp; ( InstanceType&lt;T&gt; extends { initialize: PoolableInitializer&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
+- &amp; ( InstanceType&lt;T&gt; extends { initialize: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
   // Require initialize if our type doesn't have a compatible initialize method.
-  initialize: PoolableInitializer&lt;T&gt;;
+  initialize: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt;;
 } )
 
 

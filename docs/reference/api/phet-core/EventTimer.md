@@ -100,6 +100,54 @@ firing).
 
 
 
+## Class ConstantEventModel {: #ConstantEventModel }
+
+
+```js
+import { ConstantEventModel } from 'scenerystack/phet-core';
+```
+### Constructor
+
+#### new ConstantEventModel( rate : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #ConstantEventModel-ConstantEventModel-constructor data-toc-label='new ConstantEventModel-ConstantEventModel' }
+
+### Instance Methods
+
+#### getPeriodBeforeNextEvent() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #ConstantEventModel-getPeriodBeforeNextEvent data-toc-label='ConstantEventModel-getPeriodBeforeNextEvent' }
+
+
+
+## Class PoissonEventModel {: #PoissonEventModel }
+
+
+```js
+import { PoissonEventModel } from 'scenerystack/phet-core';
+```
+### Constructor
+
+#### new PoissonEventModel( rate : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, pseudoRandomNumberSource : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #PoissonEventModel-PoissonEventModel-constructor data-toc-label='new PoissonEventModel-PoissonEventModel' }
+
+### Instance Methods
+
+#### getPeriodBeforeNextEvent() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #PoissonEventModel-getPeriodBeforeNextEvent data-toc-label='PoissonEventModel-getPeriodBeforeNextEvent' }
+
+
+
+## Class UniformEventModel {: #UniformEventModel }
+
+
+```js
+import { UniformEventModel } from 'scenerystack/phet-core';
+```
+### Constructor
+
+#### new UniformEventModel( rate : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, pseudoRandomNumberSource : <span style="font-weight: 400;">() =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #UniformEventModel-UniformEventModel-constructor data-toc-label='new UniformEventModel-UniformEventModel' }
+
+### Instance Methods
+
+#### getPeriodBeforeNextEvent() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #UniformEventModel-getPeriodBeforeNextEvent data-toc-label='UniformEventModel-getPeriodBeforeNextEvent' }
+
+
+
 ## Source Code
 
 See the source for [EventTimer.ts](https://github.com/phetsims/phet-core/blob/main/js/EventTimer.ts) in the [phet-core](https://github.com/phetsims/phet-core) repository.

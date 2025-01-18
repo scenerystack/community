@@ -49,7 +49,7 @@ Returns the Property holding the current maximum height of the grouped content.
 
 #### getMaxSizeProperty( orientation : <span style="font-weight: 400;">[Orientation](../phet-core/Orientation.md)</span> ) : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxSizeProperty data-toc-label='getMaxSizeProperty' }
 
-#### createBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">StrictOmit&lt;[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions), 'group'&gt;</span> ) : <span style="font-weight: 400;">[AlignBox](../scenery/AlignBox.md)</span> {: #createBox data-toc-label='createBox' }
+#### createBox( content : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options? : <span style="font-weight: 400;">[StrictOmit](../phet-core/StrictOmit.md)&lt;[AlignBoxOptions](../scenery/AlignBox.md#AlignBoxOptions), 'group'&gt;</span> ) : <span style="font-weight: 400;">[AlignBox](../scenery/AlignBox.md)</span> {: #createBox data-toc-label='createBox' }
 
 Creates an alignment box with the given content and options.
 

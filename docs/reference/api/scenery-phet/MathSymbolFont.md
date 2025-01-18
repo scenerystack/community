@@ -49,7 +49,7 @@ import type { MathSymbolFontOptions } from 'scenerystack/scenery-phet';
 ```
 
 
-StrictOmit&lt;[FontOptions](../scenery/Font.md#FontOptions), "family"&gt;
+[StrictOmit](../phet-core/StrictOmit.md)&lt;[FontOptions](../scenery/Font.md#FontOptions), "family"&gt;
 
 
 

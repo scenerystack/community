@@ -41,7 +41,7 @@ import type { DefaultSliderTrackOptions } from 'scenerystack/sun';
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 - **lineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; [SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions) &amp; PickRequired&lt;[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions), "size" | "enabledRangeProperty"&gt;
+- &amp; [SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions) &amp; [PickRequired](../phet-core/PickRequired.md)&lt;[SliderTrackOptions](../sun/SliderTrack.md#SliderTrackOptions), "size" | "enabledRangeProperty"&gt;
 
 
 

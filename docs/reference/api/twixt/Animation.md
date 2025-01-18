@@ -124,7 +124,7 @@ import type { AnimationOptions } from 'scenerystack/twixt';
 ```
 
 
-- **targets**?: { [K in keyof TargetTypes]: AnimationTargetOptions&lt;TargetTypes[K], TargetObjectTypes[K]&gt; } | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **targets**?: { [K in keyof TargetTypes]: [AnimationTargetOptions](../twixt/AnimationTarget.md#AnimationTargetOptions)&lt;TargetTypes[K], TargetObjectTypes[K]&gt; } | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Can be provided instead of setValue/property/object, and it contains an array of config-style objects that allows
   animating multiple different things at the same time. See AnimationTarget for details about all of the supported
   config.
@@ -136,14 +136,14 @@ import type { AnimationOptions } from 'scenerystack/twixt';
 - **delay**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  The amount of time (in seconds) between when the animation is "started" and when the actual animation of the value
   begins. Negative delays are not supported.
-- **stepEmitter**?: TReadOnlyEmitter&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **stepEmitter**?: [TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  One of the following config:
   The Emitter (which provides a dt {number} value on emit) which drives the animation, or null if the client
   will drive the animation by calling `step(dt)` manually.  Defaults to the joist Timer which runs automatically
   as part of the Sim time step.
   TODO #3: {ScreenView} - animates only when the ScreenView is the active one.
   TODO #3: {Node} - animates only when the node's trail is visible on a Display
-- &amp; AnimationTargetOptions&lt;SelfType, SelfObjectType&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
+- &amp; [AnimationTargetOptions](../twixt/AnimationTarget.md#AnimationTargetOptions)&lt;SelfType, SelfObjectType&gt; &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 
 

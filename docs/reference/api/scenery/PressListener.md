@@ -248,7 +248,7 @@ import type { PressedPressListener } from 'scenerystack/scenery';
 ```
 
 
-WithoutNull&lt;[PressListener](../scenery/PressListener.md), "pointer" | "pressedTrail"&gt;
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[PressListener](../scenery/PressListener.md), "pointer" | "pressedTrail"&gt;
 
 
 

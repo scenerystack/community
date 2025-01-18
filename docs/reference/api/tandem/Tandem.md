@@ -56,7 +56,7 @@ For example:
 
 Fire a callback on all descendants of this Tandem
 
-#### getArchetypalPhetioID() : <span style="font-weight: 400;">PhetioID</span> {: #getArchetypalPhetioID data-toc-label='getArchetypalPhetioID' }
+#### getArchetypalPhetioID() : <span style="font-weight: 400;">[PhetioID](../tandem/phet-io-types.md#PhetioID)</span> {: #getArchetypalPhetioID data-toc-label='getArchetypalPhetioID' }
 
 For API validation, each PhetioObject has a corresponding archetype PhetioObject for comparison. Non-dynamic
 PhetioObjects have the trivial case where its archetypal phetioID is the same as its phetioID.
@@ -74,7 +74,7 @@ have unique identifiers.
 
 #### equals( tandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
-#### createTandemFromPhetioID( phetioID : <span style="font-weight: 400;">PhetioID</span> ) : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span> {: #createTandemFromPhetioID data-toc-label='createTandemFromPhetioID' }
+#### createTandemFromPhetioID( phetioID : <span style="font-weight: 400;">[PhetioID](../tandem/phet-io-types.md#PhetioID)</span> ) : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span> {: #createTandemFromPhetioID data-toc-label='createTandemFromPhetioID' }
 
 ### Instance Properties
 
@@ -89,7 +89,7 @@ Treat as readonly.  Only marked as writable so it can be eliminated on dispose
 the last part of the tandem (after the last .), used e.g., in Joist for creating button
 names dynamically based on screen names
 
-#### phetioID : <span style="font-weight: 400;">PhetioID</span> {: #phetioID data-toc-label='phetioID' }
+#### phetioID : <span style="font-weight: 400;">[PhetioID](../tandem/phet-io-types.md#PhetioID)</span> {: #phetioID data-toc-label='phetioID' }
 
 (readonly)
 

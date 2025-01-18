@@ -18,7 +18,7 @@ import type { TReadOnlyProperty } from 'scenerystack/axon';
 
 
 - **get**: () =&gt; T
-- **valueComparisonStrategy**: ValueComparisonStrategy&lt;T&gt;
+- **valueComparisonStrategy**: [ValueComparisonStrategy](../axon/Validation.md#ValueComparisonStrategy)&lt;T&gt;
 - **isDisposed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 
 

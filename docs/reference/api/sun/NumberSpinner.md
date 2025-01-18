@@ -38,7 +38,7 @@ import type { NumberSpinnerOptions } from 'scenerystack/sun';
 - **arrowButtonFill**?: [TColor](../scenery/TColor.md)
 - **arrowButtonStroke**?: [TColor](../scenery/TColor.md)
 - **arrowButtonLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **arrowsSoundPlayer**?: TSoundPlayer
+- **arrowsSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - **incrementFunction**?: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
 <br>  Function called when the increment button is pressed. Defaults to adding options.deltaValue.
 - **decrementFunction**?: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
@@ -54,7 +54,7 @@ import type { NumberSpinnerOptions } from 'scenerystack/sun';
 - **touchAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- &amp; StrictOmit&lt;ParentOptions, "children" | "valueProperty" | "enabledRangeProperty" | "keyboardStep" | "shiftKeyboardStep" | "pageKeyboardStep" | "onInput"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "children" | "valueProperty" | "enabledRangeProperty" | "keyboardStep" | "shiftKeyboardStep" | "pageKeyboardStep" | "onInput"&gt;
 
 
 

@@ -6,6 +6,17 @@ PhET-iO Type for LinkedElement
 
 @author Sam Reid (PhET Interactive Simulations)
 
+## Type LinkedElementState {: #LinkedElementState }
+
+
+```js
+import type { LinkedElementState } from 'scenerystack/tandem';
+```
+
+
+- **elementID**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+
+
 
 
 ## Source Code

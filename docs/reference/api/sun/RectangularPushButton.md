@@ -46,7 +46,7 @@ import type { RectangularPushButtonOptions } from 'scenerystack/sun';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 - &amp; [RectangularButtonOptions](../sun/RectangularButton.md#RectangularButtonOptions) &amp; [PushButtonModelOptions](../sun/PushButtonModel.md#PushButtonModelOptions)
 
 

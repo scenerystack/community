@@ -34,7 +34,7 @@ import type { CloseButtonOptions } from 'scenerystack/scenery-phet';
 
 - **iconLength**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **pathOptions**?: [PathOptions](../scenery/Path.md#PathOptions)
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

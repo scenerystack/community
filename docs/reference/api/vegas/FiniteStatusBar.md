@@ -58,7 +58,7 @@ import type { FiniteStatusBarOptions } from 'scenerystack/vegas';
 - **challengeTextOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
 - **barFill**?: [TColor](../scenery/TColor.md)
 - **barStroke**?: [TColor](../scenery/TColor.md)
-- &amp; StrictOmit&lt;[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions), "children" | "barHeight"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[StatusBarOptions](../scenery-phet/StatusBar.md#StatusBarOptions), "children" | "barHeight"&gt;
 
 
 

@@ -14,7 +14,7 @@ import { BufferSlotSlice } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new BufferSlotSlice( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;IntentionalAny&gt;</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #BufferSlotSlice-constructor data-toc-label='new BufferSlotSlice' }
+#### new BufferSlotSlice( bufferSlot : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #BufferSlotSlice-constructor data-toc-label='new BufferSlotSlice' }
 
 ### Instance Methods
 

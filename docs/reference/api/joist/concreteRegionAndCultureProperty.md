@@ -8,6 +8,18 @@ Like regionAndCultureProperty, but excludes the "random" option, since it doesn'
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 @author Chris Malley (PixelZoom, Inc.)
 
+## Type ConcreteRegionAndCulture {: #ConcreteRegionAndCulture }
+
+
+The complete set of RegionAndCulture values, minus 'random'.
+
+```js
+import type { ConcreteRegionAndCulture } from 'scenerystack/joist';
+```
+
+
+Exclude&lt;[RegionAndCulture](../joist/regionAndCultureProperty.md#RegionAndCulture), "random"&gt;
+
 
 
 ## Source Code

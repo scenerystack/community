@@ -24,7 +24,7 @@ import { RenderFromNode } from 'scenerystack/alpenglow';
 
 #### premultipliedSRGBToColor( premultiplied : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> {: #premultipliedSRGBToColor data-toc-label='premultipliedSRGBToColor' }
 
-#### colorFrom( ...args : <span style="font-weight: 400;">ConstructorParameters&lt;ConstructorOf&lt;[Color](../scenery/Color.md)&gt;&gt;</span> ) : <span style="font-weight: 400;">[RenderColor](../alpenglow/RenderColor.md)</span> {: #colorFrom data-toc-label='colorFrom' }
+#### colorFrom( ...args : <span style="font-weight: 400;">ConstructorParameters&lt;[ConstructorOf](../phet-core/ConstructorOf.md)&lt;[Color](../scenery/Color.md)&gt;&gt;</span> ) : <span style="font-weight: 400;">[RenderColor](../alpenglow/RenderColor.md)</span> {: #colorFrom data-toc-label='colorFrom' }
 
 
 

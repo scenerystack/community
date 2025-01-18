@@ -33,7 +33,7 @@ import { Enumeration } from 'scenerystack/phet-core';
 ```
 ### Constructor
 
-#### new Enumeration( Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationOptions](../phet-core/Enumeration.md#EnumerationOptions)&lt;T&gt;</span> ) {: #Enumeration-constructor data-toc-label='new Enumeration' }
+#### new Enumeration( Enumeration : <span style="font-weight: 400;">[Constructor](../phet-core/Constructor.md)&lt;T&gt;</span>, providedOptions? : <span style="font-weight: 400;">[EnumerationOptions](../phet-core/Enumeration.md#EnumerationOptions)&lt;T&gt;</span> ) {: #Enumeration-constructor data-toc-label='new Enumeration' }
 
 ### Instance Methods
 
@@ -53,7 +53,7 @@ import { Enumeration } from 'scenerystack/phet-core';
 
 (readonly)
 
-#### Enumeration : <span style="font-weight: 400;">Constructor&lt;T&gt; &amp; Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, T&gt;</span> {: #Enumeration data-toc-label='Enumeration' }
+#### Enumeration : <span style="font-weight: 400;">[Constructor](../phet-core/Constructor.md)&lt;T&gt; &amp; Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, T&gt;</span> {: #Enumeration data-toc-label='Enumeration' }
 
 (readonly)
 
@@ -72,7 +72,7 @@ import type { EnumerationOptions } from 'scenerystack/phet-core';
 
 
 - **phetioDocumentation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
-- **instanceType**?: Constructor&lt;T&gt;
+- **instanceType**?: [Constructor](../phet-core/Constructor.md)&lt;T&gt;
 
 
 

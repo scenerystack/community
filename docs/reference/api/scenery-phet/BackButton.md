@@ -33,8 +33,8 @@ import type { BackButtonOptions } from 'scenerystack/scenery-phet';
 ```
 
 
-- **soundPlayer**?: TSoundPlayer
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content"&gt;
 
 
 

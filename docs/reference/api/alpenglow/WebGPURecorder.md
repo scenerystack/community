@@ -82,9 +82,9 @@ import { WebGPURecorder } from 'scenerystack/alpenglow';
 
 ### Static Methods
 
-#### getNamePrefix( obj : <span style="font-weight: 400;">IntentionalAny</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getNamePrefix data-toc-label='getNamePrefix' }
+#### getNamePrefix( obj : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getNamePrefix data-toc-label='getNamePrefix' }
 
-#### createNameMap( objects : <span style="font-weight: 400;">IntentionalAny[]</span> ) : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #createNameMap data-toc-label='createNameMap' }
+#### createNameMap( objects : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> ) : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #createNameMap data-toc-label='createNameMap' }
 
 #### arrayBufferLikeString( data : <span style="font-weight: 400;">ArrayLike&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | ArrayBufferLike</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #arrayBufferLikeString data-toc-label='arrayBufferLikeString' }
 
@@ -92,7 +92,7 @@ TODO: consider how we're handling this
 
 #### objectToString( level : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, map : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #objectToString data-toc-label='objectToString' }
 
-#### rawValue( level : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, value : <span style="font-weight: 400;">IntentionalAny</span>, nameMap? : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, objectOverrides? : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, ( value: IntentionalAny ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> {: #rawValue data-toc-label='rawValue' }
+#### rawValue( level : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, value : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span>, nameMap? : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, objectOverrides? : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, ( value: [IntentionalAny](../phet-core/IntentionalAny.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> {: #rawValue data-toc-label='rawValue' }
 
 #### bitfieldToString( bitfield : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, nameMap : <span style="font-weight: 400;">Map&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #bitfieldToString data-toc-label='bitfieldToString' }
 
@@ -106,13 +106,13 @@ import { WebGPUCommand } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new WebGPUCommand( result : <span style="font-weight: 400;">IntentionalAny | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dependencies : <span style="font-weight: 400;">IntentionalAny[]</span> ) {: #WebGPUCommand-WebGPUCommand-constructor data-toc-label='new WebGPUCommand-WebGPUCommand' }
+#### new WebGPUCommand( result : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, dependencies : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> ) {: #WebGPUCommand-WebGPUCommand-constructor data-toc-label='new WebGPUCommand-WebGPUCommand' }
 
 ### Instance Methods
 
-#### toJS( nameMap : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommand-toJS data-toc-label='WebGPUCommand-toJS' }
+#### toJS( nameMap : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommand-toJS data-toc-label='WebGPUCommand-toJS' }
 
-#### getDeclaration( nameMap : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommand-getDeclaration data-toc-label='WebGPUCommand-getDeclaration' }
+#### getDeclaration( nameMap : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommand-getDeclaration data-toc-label='WebGPUCommand-getDeclaration' }
 
 (protected)
 
@@ -132,17 +132,17 @@ import { WebGPUCommandList } from 'scenerystack/alpenglow';
 
 #### push( command : <span style="font-weight: 400;">[WebGPUCommand](../alpenglow/WebGPURecorder.md#WebGPUCommand)</span> ) {: #WebGPUCommandList-push data-toc-label='WebGPUCommandList-push' }
 
-#### getDeclaredObjects() : <span style="font-weight: 400;">IntentionalAny[]</span> {: #WebGPUCommandList-getDeclaredObjects data-toc-label='WebGPUCommandList-getDeclaredObjects' }
+#### getDeclaredObjects() : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> {: #WebGPUCommandList-getDeclaredObjects data-toc-label='WebGPUCommandList-getDeclaredObjects' }
 
-#### getUnboundObjects( declaredObjects : <span style="font-weight: 400;">IntentionalAny[]</span> ) : <span style="font-weight: 400;">IntentionalAny[]</span> {: #WebGPUCommandList-getUnboundObjects data-toc-label='WebGPUCommandList-getUnboundObjects' }
+#### getUnboundObjects( declaredObjects : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> ) : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> {: #WebGPUCommandList-getUnboundObjects data-toc-label='WebGPUCommandList-getUnboundObjects' }
 
-#### getObjects() : <span style="font-weight: 400;">IntentionalAny[]</span> {: #WebGPUCommandList-getObjects data-toc-label='WebGPUCommandList-getObjects' }
+#### getObjects() : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)[]</span> {: #WebGPUCommandList-getObjects data-toc-label='WebGPUCommandList-getObjects' }
 
-#### getNameMap() : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #WebGPUCommandList-getNameMap data-toc-label='WebGPUCommandList-getNameMap' }
+#### getNameMap() : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #WebGPUCommandList-getNameMap data-toc-label='WebGPUCommandList-getNameMap' }
 
-#### toJS( nameMap : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommandList-toJS data-toc-label='WebGPUCommandList-toJS' }
+#### toJS( nameMap : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommandList-toJS data-toc-label='WebGPUCommandList-toJS' }
 
-#### toJSClosure( nameMap : <span style="font-weight: 400;">Map&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommandList-toJSClosure data-toc-label='WebGPUCommandList-toJSClosure' }
+#### toJSClosure( nameMap : <span style="font-weight: 400;">Map&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, level ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #WebGPUCommandList-toJSClosure data-toc-label='WebGPUCommandList-toJSClosure' }
 
 
 

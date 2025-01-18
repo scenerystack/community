@@ -16,7 +16,7 @@ import type { TEmitter } from 'scenerystack/axon';
 ```
 
 
-TReadOnlyEmitter&lt;T&gt; &amp; { emit: ( ...args: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; dispose: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> }
+[TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)&lt;T&gt; &amp; { emit: ( ...args: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; dispose: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> }
 
 
 
@@ -42,7 +42,25 @@ import type { TEmitterParameter } from 'scenerystack/axon';
 ```
 
 
-Exclude&lt;IntentionalAny, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span>&gt;
+Exclude&lt;[IntentionalAny](../phet-core/IntentionalAny.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">never</span>&gt;
+
+
+
+## Type TReadOnlyEmitter {: #TReadOnlyEmitter }
+
+
+A "read only" version of an emitter. You can listen to it, but cannot control it
+
+```js
+import type { TReadOnlyEmitter } from 'scenerystack/axon';
+```
+
+
+- **addListener**: ( listener: [TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **hasListener**: ( listener: [TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **removeListener**: ( listener: [TEmitterListener](../axon/TEmitter.md#TEmitterListener)&lt;T&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+- **removeAllListeners**: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>
+
 
 
 

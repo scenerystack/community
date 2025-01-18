@@ -121,7 +121,7 @@ import type { ScreenOptions } from 'scenerystack/sim';
 <br>  Help text that will be added to the Home screen button and navigation bar button for this screen.
   This is often a full but short sentence with a period at the end of it. This is also used as the
   hint response for these buttons with the Voicing feature.
-- &amp; StrictOmit&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandemNameSuffix"&gt; &amp; PickRequired&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandemNameSuffix"&gt; &amp; [PickRequired](../phet-core/PickRequired.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

@@ -61,7 +61,7 @@ import type { AquaRadioButtonOptions } from 'scenerystack/sun';
 <br>  horizontal space between the button and the labelNode
 - **stroke**?: [TPaint](../scenery/TPaint.md)
 <br>  color used to stroke the outer edge of the button
-- **soundPlayer**?: TSoundPlayer
+- **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound generator, usually overridden when creating a group of these
 - **touchAreaXDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  pointer areas

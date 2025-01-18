@@ -55,7 +55,7 @@ import type { ArrowButtonOptions } from 'scenerystack/sun';
 <br>  each arrow will have the same shape and styling
 - **arrowSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  spacing for each arrow such that they overlap slightly
-- &amp; StrictOmit&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "listener"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RectangularPushButtonOptions](../sun/RectangularPushButton.md#RectangularPushButtonOptions), "content" | "listener"&gt;
 
 
 

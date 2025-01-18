@@ -122,7 +122,7 @@ import type { TransitionNodeOptions } from 'scenerystack/twixt';
   Performance issues were initially noted in
   https://github.com/phetsims/equality-explorer/issues/75. Additional notes in
   https://github.com/phetsims/twixt/issues/17.
-- &amp; StrictOmit&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "children"&gt;
 
 
 

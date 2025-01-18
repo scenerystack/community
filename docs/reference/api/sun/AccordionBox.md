@@ -105,18 +105,18 @@ import type { AccordionBoxOptions } from 'scenerystack/sun';
 - **contentXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **contentYSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **titleBarOptions**?: [RectangleOptions](../scenery/Rectangle.md#RectangleOptions)
-- **expandedSoundPlayer**?: TSoundPlayer
+- **expandedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound players for expand and collapse
-- **collapsedSoundPlayer**?: TSoundPlayer
-- **expandedContextResponse**?: TAlertable
+- **collapsedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
+- **expandedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
 <br>  pdom/voicing - responses to be spoke (Both PDOM and Voicing) when the AccordionBox is expanded or collapsed
-- **collapsedContextResponse**?: TAlertable
-- **voicingNameResponse**?: VoicingResponse
+- **collapsedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
+- **voicingNameResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
 <br>  voicing - These are defined here in AccordionBox (duplicated from Voicing) so that they can be passed to the
   expandCollapse button, which handles voicing for AccordionBox, without AccordionBox mixing Voicing itself.
-- **voicingObjectResponse**?: VoicingResponse
-- **voicingContextResponse**?: VoicingResponse
-- **voicingHintResponse**?: VoicingResponse
+- **voicingObjectResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
+- **voicingContextResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
+- **voicingHintResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
 - **headingTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 <br>  pdom
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)

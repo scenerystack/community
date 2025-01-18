@@ -37,7 +37,7 @@ import type { Vector2PropertyOptions } from 'scenerystack/dot';
 
 
 - **validBounds**?: [Bounds2](../dot/Bounds2.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- &amp; StrictOmit&lt;[PropertyOptions](../axon/Property.md#PropertyOptions)&lt;[Vector2](../dot/Vector2.md)&gt;, "phetioValueType" | "valueType"&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;[Vector2](../dot/Vector2.md)&gt;, "phetioValueType" | "valueType"&gt;
 
 
 
