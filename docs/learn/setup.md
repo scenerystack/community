@@ -21,4 +21,7 @@ doesn’t enforce runtime type checks, making JavaScript usage more challenging.
 
 ## Development Environment
 
-SceneryStack works well with most popular IDEs. Visual Studio Code (VSCode) is a great option for its excellent TypeScript support and ease of use. Many SceneryStack maintainers also use WebStorm, which offers advanced features like intelligent code navigation and debugging. Either choice will work, so feel free to use the IDE you’re most comfortable with!
+SceneryStack works well with most popular IDEs. Visual Studio Code (VSCode) is a great option for its excellent
+TypeScript support and ease of use. Many SceneryStack maintainers also use WebStorm, which offers advanced features like
+intelligent code navigation and debugging. Either choice will work, so feel free to use the IDE you’re most comfortable
+with!

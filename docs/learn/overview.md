@@ -1,9 +1,5 @@
 # Overview
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in January 2025.
-
 Welcome to SceneryStack! This page will give you a brief overview of the SceneryStack library and its features.
 
 ## What is SceneryStack?
@@ -109,11 +105,13 @@ A number of other view modules are available for more specialized tasks:
 - **Vegas**: For games made in the [PhET](https://phet.colorado.edu)-like style.
 - **Alpenglow**: For creating high-performance WebGPU graphics (under development).
 
-## Debugging
+See the [Scenery Basics] guide for more information on how to use Scenery.
 
-NOTE/TODO: this will likely only be possible for debug builds of Scenery, OR we need a good way to strip out assertions.
+## Production and Development
 
-It is possible to enable SceneryStack's internal assertions with the following:
+SceneryStack has a few differences between production and development builds
+
+Development builds can have assertions enabled, which can help catch bugs early. These can be enabled with the following:
 
 ```js
 import { enableAssert } from 'scenerystack/assert';
@@ -122,6 +120,24 @@ enableAssert();
 ```
 
 Note that SceneryStack is built with TypeScript in mind, so most runtime type checks were removed in favor of compile-time checks.
+
+## Imports
+
+SceneryStack allows two styles of imports. The default way is broken up mostly by SceneryStack's internal modules,
+and reduces the file-size of code for bundlers without more advanced tree shaking:
+
+```js
+// The `Display` is in the `scenery` module.
+import { Display } from 'scenerystack/scenery';
+```
+
+However, it is also possible to import all non-simulation imports from the `scenerystack` module:
+
+```js
+import { Display } from 'scenerystack';
+```
+
+This works well for bundlers that fully support tree shaking (e.g. Webpack, Vite, Parcel).
 
 ## Documentation
 

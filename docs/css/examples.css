@@ -19,7 +19,7 @@
   border: 1px solid red;
 }
 
-.sandbox-example * {
+.sandbox-example .CodeMirror * {
   font-family: "Noto Sans Mono", SFMono-Regular, Consolas, Menlo, monospace;
   font-size: 14px;
 }
