@@ -4,8 +4,9 @@
     This section and others in Getting Started with SceneryStack are under heavy revisement
     and will be updated in January 2025.
 
+<img src="/assets/demo-sim.png" style="max-width: 60%; height: auto; display: block; margin: 0 auto;" alt="Screenshot of the Magnet screen of the Demo Simulation" />
+
 TODO: remove the PhET-specific bits
-TODO: screenshots
 
 ??? note "Prerequisites"
     Before setting up your development environment, ensure the following tools are installed:
