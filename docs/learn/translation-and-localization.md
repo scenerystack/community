@@ -1,3 +1,5 @@
+--8<-- "api-reference-snippets.md"
+
 # Translation and Localization
 
 !!! warning "Under Construction"
@@ -141,9 +143,21 @@ const stringProperty2 = new PatternMessageProperty( MessageProperties.complexPat
 
 ## RTL and Bidirectional Language Support
 
-TODO
+[Text] and [RichText] both support directional embedded marks (e.g. `\u202A` for LTR and `\u202B` for RTL, with `\u202C` to POP).
+For example, `"\u202AHello, world!\u202C"` will force the text to be LTR, while `"\u202BHello, world!\u202C"` will force the text to be RTL.
+
+[RichText] also supports `<span dir="rtl">` and `<span dir="ltr">` tags.
+
+[HBox] supports the `forward` property, that can be toggled to false to reverse items for layout. This can be automated
+to automatically reverse the layout by using [localeProperty]:
+
+```ts
+new HBox( {
+  forwardProperty: localeProperty,
+  // ...
+} );
+```
 
 ## Region and Culture
 
 TODO
-
