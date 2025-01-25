@@ -158,6 +158,7 @@ nav:
       - Emitters and Properties: learn/emitters-and-properties.md
       - Vectors and Matrices: learn/vectors-and-matrices.md
       - Shapes: learn/shapes.md
+      - Translation and Localization: learn/translation-and-localization.md
       - Best Practices: learn/best-practices.md
       - Modifying SceneryStack: learn/modifying-scenerystack.md
     - Tutorials:
