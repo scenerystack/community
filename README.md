@@ -47,7 +47,7 @@ To edit (and optionally deploy) to the documentation website from a local machin
 - Create a new virtual environment
   - e.g., `python -m venv ss_env`
 - From the `../community`, install module requirements using `pip install -r requirements.txt`.
-- run `mkdocs serve` to locally host the directory and preview changes in real-time in your browser (command will provide a local server link to open).
+- run `mkdocs serve` to locally host the directory and preview changes in real-time in your browser (command will provide a local server link to open). `mkdocs serve --dirtyreload` will run much faster, but will only update changed pages (which can break some plugins).
 - Commit and push changes to `docs` branch
   - `git add .`
   - `git commit -m "your commit message"`
