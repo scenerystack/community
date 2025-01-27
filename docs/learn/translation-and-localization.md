@@ -2,10 +2,6 @@
 
 # Translation and Localization
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in January 2025.
-
 ## Overview
 
 For handling translation, SceneryStack uses a combination of string Properties and message Properties (see the guide on
@@ -160,4 +156,5 @@ new HBox( {
 
 ## Region and Culture
 
-TODO
+There is also a global [regionAndCultureProperty] that can be used to control the displayed region and culture.
+This supports creating [LocalizedImageProperty] instances which can switch between different images based on the region.
