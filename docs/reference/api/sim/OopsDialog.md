@@ -3,7 +3,7 @@
 ## Overview
 
 OopsDialog is displayed when some limitation of the simulation is encountered.
-So named because the messages typically begin with 'Oops!', so that's how people referred to it.
+So named because the message typically begins with 'Oops!', so that's how people referred to it.
 See https://github.com/phetsims/equality-explorer/issues/48
 
 @author Chris Malley (PixelZoom, Inc.)
@@ -39,9 +39,11 @@ import type { OopsDialogOptions } from 'scenerystack/sim';
 
 
 - **iconNode**?: [Node](../scenery/Node.md)
-<br>  Optional icon that will be placed to the right of the image.
+<br>  Icon that will be placed to the right of the image.
   If not provided, then a PhET Girl image is used.
   If provided, the caller is responsible for all aspects of the icon, including scale.
+- **iconPosition**?: "left" | "right"
+<br>  Position of optional icon, relative to message text.
 - **richTextOptions**?: [RichTextOptions](../scenery/RichText.md#RichTextOptions)
 <br>  Passed to RichText node that displays messageString
 - &amp; [DialogOptions](../sim/Dialog.md#DialogOptions)

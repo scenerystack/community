@@ -50,7 +50,7 @@ Randomly select a random integer between min and max (inclusive).
 @param max - must be an integer
 @returns an integer between min and max, inclusive
 
-#### sample( array : <span style="font-weight: 400;">T[]</span> ) : <span style="font-weight: 400;">T</span> {: #sample data-toc-label='sample' }
+#### sample( array : <span style="font-weight: 400;">readonly T[]</span> ) : <span style="font-weight: 400;">T</span> {: #sample data-toc-label='sample' }
 
 Randomly select one element from the given array.
 @param array - from which one element will be selected, must have at least one element

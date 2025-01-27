@@ -108,15 +108,18 @@ import type { AccordionBoxOptions } from 'scenerystack/sun';
 - **expandedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
 <br>  sound players for expand and collapse
 - **collapsedSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
-- **expandedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
-<br>  pdom/voicing - responses to be spoke (Both PDOM and Voicing) when the AccordionBox is expanded or collapsed
-- **collapsedContextResponse**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
-- **voicingNameResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
-<br>  voicing - These are defined here in AccordionBox (duplicated from Voicing) so that they can be passed to the
-  expandCollapse button, which handles voicing for AccordionBox, without AccordionBox mixing Voicing itself.
-- **voicingObjectResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
-- **voicingContextResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
-- **voicingHintResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
+- **contextResponseExpanded**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
+<br>  pdom/voicing - responses to be spoke (both PDOM and Voicing) when the AccordionBox is expanded or collapsed
+- **contextResponseCollapsed**?: [TAlertable](../utterance-queue/Utterance.md#TAlertable)
+- **helpTextExpanded**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  pdom - AccordionBoxes usually don't have helpText. If they do, the content is usually only available
+  when collapsed. There is one option for each state.
+- **helpTextCollapsed**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **voicingHintResponseExpanded**?: [ResolvedResponse](../utterance-queue/ResponsePacket.md#ResolvedResponse)
+<br>  voicing - AccordionBoxes usually don't have helpText, so default values for voicing are not
+  set from helpText. Usually, the hint response is removed when the accordion box is expanded.
+  There is one option for each state.
+- **voicingHintResponseCollapsed**?: [ResolvedResponse](../utterance-queue/ResponsePacket.md#ResolvedResponse)
 - **headingTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 <br>  pdom
 - &amp; [NodeOptions](../scenery/Node.md#NodeOptions)

@@ -27,6 +27,8 @@ import { FlowConstraint } from 'scenerystack/scenery';
 
 #### removeCell( cell : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)</span> ) {: #removeCell data-toc-label='removeCell' }
 
+#### getCellQuantity() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getCellQuantity data-toc-label='getCellQuantity' }
+
 #### reorderCells( cells : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)[]</span>, minChangeIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxChangeIndex : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #reorderCells data-toc-label='reorderCells' }
 
 #### dispose() {: #dispose data-toc-label='dispose' }

@@ -15,6 +15,7 @@ FlowBox-only options:
   - justifyLines (see https://phetsims.github.io/scenery/doc/layout#FlowBox-justifyLines)
   - wrap (see https://phetsims.github.io/scenery/doc/layout#FlowBox-wrap)
   - layoutOrigin (see https://phetsims.github.io/scenery/doc/layout#layoutOrigin)
+  - forward (see https://phetsims.github.io/scenery/doc/layout#FlowBox-forward)
 
 FlowBox and layoutOptions options (can be set either in the FlowBox itself, or within its child nodes' layoutOptions):
   - align (see https://phetsims.github.io/scenery/doc/layout#FlowBox-align)
@@ -54,6 +55,31 @@ import { FlowBox } from 'scenerystack/scenery';
 Called when a child is inserted.
 
 #### getCell( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;">[FlowCell](../scenery/FlowCell.md)</span> {: #getCell data-toc-label='getCell' }
+
+#### setForwardProperty( newTarget : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setForwardProperty data-toc-label='setForwardProperty' }
+
+Sets what Property our forwardProperty is backed by
+
+#### getForwardProperty() : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #getForwardProperty data-toc-label='getForwardProperty' }
+
+Get this Node's forwardProperty. Note! This is not the reciprocal of setForwardProperty. Node.prototype._forwardProperty
+is a TinyForwardingProperty, and is set up to listen to changes from the forwardProperty provided by
+setForwardProperty(), but the underlying reference does not change. This means the following:
+    * const myNode = new Node();
+const forwardProperty = new Property( false );
+myNode.setForwardProperty( forwardProperty )
+=&gt; myNode.getForwardProperty() !== forwardProperty (!!!!!!)
+
+Please use this with caution. See setForwardProperty() for more information.
+
+#### setForward( forward : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setForward data-toc-label='setForward' }
+
+Sets whether the nodes in this FlowBox are ordered in a forward order.
+If false, the nodes will appear reversed in the layout.
+
+#### isForward() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isForward data-toc-label='isForward' }
+
+Returns whether this Node is forward.
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
@@ -101,6 +127,12 @@ import type { FlowBoxOptions } from 'scenerystack/scenery';
 <br>  Controls whether the FlowBox will re-trigger layout automatically after the "first" layout during construction.
   The FlowBox will layout once after processing the options object, but if resize:false, then after that manual
   layout calls will need to be done (with updateLayout())
+- **forward**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, the nodes in this FlowBox will be ordered in a forward order.
+  If false, the nodes will appear reversed in order.
+- **forwardProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  Like forward, but allows specifying a boolean Property to forward the order
+  Notably, for HBoxes this is useful to pass in localeProperty.
 - &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[FlowConstraintOptions](../scenery/FlowConstraint.md#FlowConstraintOptions), ExcludeFlowConstraintOptions&gt; &amp; [LayoutNodeOptions](../scenery/LayoutNode.md#LayoutNodeOptions)
 
 

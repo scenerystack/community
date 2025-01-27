@@ -711,6 +711,12 @@ Get whether or not the pdom input is 'checked'.
 
 Get an array containing all pdom attributes that have been added to this Node's primary sibling.
 
+#### setPDOMAttributes( attributes : <span style="font-weight: 400;">PDOMAttribute[]</span> ) {: #setPDOMAttributes data-toc-label='setPDOMAttributes' }
+
+Sets all of the attributes for this Node's accessible content at once. See setPDOMAttribute for more information.
+
+Clears the old list of attributes before setting to this attribute list.
+
 #### setPDOMAttribute( attribute : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, value : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, providedOptions? : <span style="font-weight: 400;">SetPDOMAttributeOptions</span> ) {: #setPDOMAttribute data-toc-label='setPDOMAttribute' }
 
 Set a particular attribute or property for this Node's primary sibling, generally to provide extra semantic information for
@@ -996,6 +1002,7 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **pdomVisibleProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **pdomVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **pdomOrder**?: ( [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> )[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pdomAttributes**?: PDOMAttribute[]
 - **ariaLabelledbyAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]
 - **ariaDescribedbyAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]
 - **activeDescendantAssociations**?: [Association](../scenery/ParallelDOM.md#Association)[]

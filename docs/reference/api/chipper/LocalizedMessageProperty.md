@@ -18,17 +18,11 @@ import { LocalizedMessageProperty } from 'scenerystack/chipper';
 ```
 ### Constructor
 
-#### new LocalizedMessageProperty( bundleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[FluentBundle](../chipper/FluentLibrary.md#FluentBundle) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span>, derivation : <span style="font-weight: 400;">( bundle: [FluentBundle](../chipper/FluentLibrary.md#FluentBundle) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; [FluentPattern](../chipper/FluentLibrary.md#FluentPattern) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #LocalizedMessageProperty-constructor data-toc-label='new LocalizedMessageProperty' }
+#### new LocalizedMessageProperty( bundleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[FluentBundle](../chipper/FluentLibrary.md#FluentBundle)&gt;</span>, derivation : <span style="font-weight: 400;">( bundle: [FluentBundle](../chipper/FluentLibrary.md#FluentBundle) ) =&gt; [FluentPattern](../chipper/FluentLibrary.md#FluentPattern)</span> ) {: #LocalizedMessageProperty-constructor data-toc-label='new LocalizedMessageProperty' }
 
 ### Instance Methods
 
 
-
-### Instance Properties
-
-#### bundleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[FluentBundle](../chipper/FluentLibrary.md#FluentBundle) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #bundleProperty data-toc-label='bundleProperty' }
-
-(readonly)
 
 
 

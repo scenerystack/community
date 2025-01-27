@@ -26,7 +26,9 @@ code.
 
 #### verifyFluentFile( fluentFileString : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #verifyFluentFile data-toc-label='verifyFluentFile' }
 
-Verify syntax in the fluent file. Right now, it just checks for undefined terms.
+Verify syntax in the fluent file. Right now it checks for:
+  - Message keys should use camelCase instead of dashes.
+  - All terms used in the file should be defined.
 
 
 

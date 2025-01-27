@@ -190,7 +190,6 @@ nav:
         - add_i64_i64WGSL: reference/api/alpenglow/add_i64_i64WGSL.md
         - add_u32_u32_to_u64WGSL: reference/api/alpenglow/add_u32_u32_to_u64WGSL.md
         - add_u64_u64WGSL: reference/api/alpenglow/add_u64_u64WGSL.md
-        - alpenglow: reference/api/alpenglow/alpenglow.md
         - BigIntVector2: reference/api/alpenglow/BigIntVector2.md
         - BigRational: reference/api/alpenglow/BigRational.md
         - BigRationalVector2: reference/api/alpenglow/BigRationalVector2.md
@@ -499,7 +498,6 @@ nav:
         - ZERO_u64WGSL: reference/api/alpenglow/ZERO_u64WGSL.md
       - axon:
         - animationFrameTimer: reference/api/axon/animationFrameTimer.md
-        - axon: reference/api/axon/axon.md
         - BooleanProperty: reference/api/axon/BooleanProperty.md
         - CallbackTimer: reference/api/axon/CallbackTimer.md
         - createObservableArray: reference/api/axon/createObservableArray.md
@@ -548,7 +546,6 @@ nav:
         - AreaPlot: reference/api/bamboo/AreaPlot.md
         - AxisArrowNode: reference/api/bamboo/AxisArrowNode.md
         - AxisLine: reference/api/bamboo/AxisLine.md
-        - bamboo: reference/api/bamboo/bamboo.md
         - BambooStrings: reference/api/bamboo/BambooStrings.md
         - BarPlot: reference/api/bamboo/BarPlot.md
         - CanvasGridLineSet: reference/api/bamboo/CanvasGridLineSet.md
@@ -567,11 +564,9 @@ nav:
         - TickMarkSet: reference/api/bamboo/TickMarkSet.md
         - UpDownArrowPlot: reference/api/bamboo/UpDownArrowPlot.md
       - brand:
-        - brand: reference/api/brand/brand.md
         - getLinks: reference/api/brand/getLinks.md
         - TBrand: reference/api/brand/TBrand.md
       - chipper:
-        - chipper: reference/api/chipper/chipper.md
         - FluentLibrary: reference/api/chipper/FluentLibrary.md
         - FluentUtils: reference/api/chipper/FluentUtils.md
         - getFluentModule: reference/api/chipper/getFluentModule.md
@@ -595,7 +590,6 @@ nav:
         - DelaunayTriangulation: reference/api/dot/DelaunayTriangulation.md
         - Dimension2: reference/api/dot/Dimension2.md
         - Dimension3: reference/api/dot/Dimension3.md
-        - dot: reference/api/dot/dot.md
         - dotRandom: reference/api/dot/dotRandom.md
         - findRoot: reference/api/dot/findRoot.md
         - LinearFunction: reference/api/dot/LinearFunction.md
@@ -641,7 +635,6 @@ nav:
         - HighlightNode: reference/api/joist/HighlightNode.md
         - HomeButton: reference/api/joist/HomeButton.md
         - isLeftToRightProperty: reference/api/joist/isLeftToRightProperty.md
-        - joist: reference/api/joist/joist.md
         - JoistButton: reference/api/joist/JoistButton.md
         - JoistStrings: reference/api/joist/JoistStrings.md
         - KebabMenuIcon: reference/api/joist/KebabMenuIcon.md
@@ -681,7 +674,6 @@ nav:
         - Graph: reference/api/kite/Graph.md
         - HalfEdge: reference/api/kite/HalfEdge.md
         - intersectConicMatrices: reference/api/kite/intersectConicMatrices.md
-        - kite: reference/api/kite/kite.md
         - KiteLine: reference/api/kite/KiteLine.md
         - LineStyles: reference/api/kite/LineStyles.md
         - Loop: reference/api/kite/Loop.md
@@ -698,7 +690,6 @@ nav:
         - Vertex: reference/api/kite/Vertex.md
         - VertexSegmentTree: reference/api/kite/VertexSegmentTree.md
       - mobius:
-        - mobius: reference/api/mobius/mobius.md
         - MobiusQueryParameters: reference/api/mobius/MobiusQueryParameters.md
         - MobiusStrings: reference/api/mobius/MobiusStrings.md
         - NodeTexture: reference/api/mobius/NodeTexture.md
@@ -741,7 +732,6 @@ nav:
         - N2Node: reference/api/nitroglycerin/N2Node.md
         - N2ONode: reference/api/nitroglycerin/N2ONode.md
         - NH3Node: reference/api/nitroglycerin/NH3Node.md
-        - nitroglycerin: reference/api/nitroglycerin/nitroglycerin.md
         - NitroglycerinStrings: reference/api/nitroglycerin/NitroglycerinStrings.md
         - NO2Node: reference/api/nitroglycerin/NO2Node.md
         - NONode: reference/api/nitroglycerin/NONode.md
@@ -813,7 +803,6 @@ nav:
         - OrientationPair: reference/api/phet-core/OrientationPair.md
         - pairs: reference/api/phet-core/pairs.md
         - partition: reference/api/phet-core/partition.md
-        - phetCore: reference/api/phet-core/phetCore.md
         - PhysicalConstants: reference/api/phet-core/PhysicalConstants.md
         - PickOptional: reference/api/phet-core/PickOptional.md
         - PickRequired: reference/api/phet-core/PickRequired.md
@@ -837,7 +826,6 @@ nav:
         - Bucket: reference/api/phetcommon/Bucket.md
         - Fraction: reference/api/phetcommon/Fraction.md
         - ModelViewTransform2: reference/api/phetcommon/ModelViewTransform2.md
-        - phetcommon: reference/api/phetcommon/phetcommon.md
         - SphereBucket: reference/api/phetcommon/SphereBucket.md
         - StringUtils: reference/api/phetcommon/StringUtils.md
       - query-string-machine:
@@ -925,6 +913,7 @@ nav:
         - GridConfigurable: reference/api/scenery/GridConfigurable.md
         - GridConstraint: reference/api/scenery/GridConstraint.md
         - GridLine: reference/api/scenery/GridLine.md
+        - GroupFocusListener: reference/api/scenery/GroupFocusListener.md
         - GroupHighlightFromNode: reference/api/scenery/GroupHighlightFromNode.md
         - GroupHighlightPath: reference/api/scenery/GroupHighlightPath.md
         - HandleDownListener: reference/api/scenery/HandleDownListener.md
@@ -1128,6 +1117,7 @@ nav:
         - xlinkns: reference/api/scenery/xlinkns.md
       - scenery-phet:
         - AbstractKeyAccumulator: reference/api/scenery-phet/AbstractKeyAccumulator.md
+        - AccessibleDraggableOptions: reference/api/scenery-phet/AccessibleDraggableOptions.md
         - Alerter: reference/api/scenery-phet/Alerter.md
         - ArrowKeyNode: reference/api/scenery-phet/ArrowKeyNode.md
         - ArrowNode: reference/api/scenery-phet/ArrowNode.md
@@ -1290,7 +1280,6 @@ nav:
         - ReturnButton: reference/api/scenery-phet/ReturnButton.md
         - ReturnIcon: reference/api/scenery-phet/ReturnIcon.md
         - RulerNode: reference/api/scenery-phet/RulerNode.md
-        - sceneryPhet: reference/api/scenery-phet/sceneryPhet.md
         - SceneryPhetColors: reference/api/scenery-phet/SceneryPhetColors.md
         - SceneryPhetConstants: reference/api/scenery-phet/SceneryPhetConstants.md
         - sceneryPhetQueryParameters: reference/api/scenery-phet/sceneryPhetQueryParameters.md
@@ -1524,7 +1513,6 @@ nav:
         - SliderTrack: reference/api/sun/SliderTrack.md
         - StickyToggleButtonInteractionStateProperty: reference/api/sun/StickyToggleButtonInteractionStateProperty.md
         - StickyToggleButtonModel: reference/api/sun/StickyToggleButtonModel.md
-        - sun: reference/api/sun/sun.md
         - SunConstants: reference/api/sun/SunConstants.md
         - sunQueryParameters: reference/api/sun/sunQueryParameters.md
         - SunStrings: reference/api/sun/SunStrings.md
@@ -1616,7 +1604,6 @@ nav:
         - stringsLoopMiddleCOscilloscope_mp3: reference/api/tambo/stringsLoopMiddleCOscilloscope_mp3.md
         - switchToLeft_mp3: reference/api/tambo/switchToLeft_mp3.md
         - switchToRight_mp3: reference/api/tambo/switchToRight_mp3.md
-        - tambo: reference/api/tambo/tambo.md
         - TamboStrings: reference/api/tambo/TamboStrings.md
         - thunder_mp3: reference/api/tambo/thunder_mp3.md
         - TSoundPlayer: reference/api/tambo/TSoundPlayer.md
@@ -1670,13 +1657,11 @@ nav:
         - StringUnionIO: reference/api/tandem/StringUnionIO.md
         - Tandem: reference/api/tandem/Tandem.md
         - TandemConstants: reference/api/tandem/TandemConstants.md
-        - tandemNamespace: reference/api/tandem/tandemNamespace.md
         - TPhetioStateEngine: reference/api/tandem/TPhetioStateEngine.md
         - ValueIO: reference/api/tandem/ValueIO.md
         - VoidIO: reference/api/tandem/VoidIO.md
       - tappi:
         - ContinuousPatternVibrationController: reference/api/tappi/ContinuousPatternVibrationController.md
-        - tappi: reference/api/tappi/tappi.md
         - TappiStrings: reference/api/tappi/TappiStrings.md
         - VibrationIndicator: reference/api/tappi/VibrationIndicator.md
         - vibrationManager: reference/api/tappi/vibrationManager.md
@@ -1692,7 +1677,6 @@ nav:
         - Easing: reference/api/twixt/Easing.md
         - Transition: reference/api/twixt/Transition.md
         - TransitionNode: reference/api/twixt/TransitionNode.md
-        - twixt: reference/api/twixt/twixt.md
         - TwixtStrings: reference/api/twixt/TwixtStrings.md
       - utterance-queue:
         - ActivationUtterance: reference/api/utterance-queue/ActivationUtterance.md
@@ -1705,7 +1689,6 @@ nav:
         - SpeechSynthesisParentPolyfill: reference/api/utterance-queue/SpeechSynthesisParentPolyfill.md
         - Utterance: reference/api/utterance-queue/Utterance.md
         - UtteranceQueue: reference/api/utterance-queue/UtteranceQueue.md
-        - utteranceQueueNamespace: reference/api/utterance-queue/utteranceQueueNamespace.md
         - UtteranceQueueTestUtils: reference/api/utterance-queue/UtteranceQueueTestUtils.md
         - UtteranceWrapper: reference/api/utterance-queue/UtteranceWrapper.md
         - ValueChangeUtterance: reference/api/utterance-queue/ValueChangeUtterance.md
@@ -1731,7 +1714,6 @@ nav:
         - ScoreDisplayNumberAndStar: reference/api/vegas/ScoreDisplayNumberAndStar.md
         - ScoreDisplayStars: reference/api/vegas/ScoreDisplayStars.md
         - trumpet_mp3: reference/api/vegas/trumpet_mp3.md
-        - vegas: reference/api/vegas/vegas.md
         - vegasQueryParameters: reference/api/vegas/vegasQueryParameters.md
         - VegasStrings: reference/api/vegas/VegasStrings.md
 ### AUTO-GENERATE ABOVE
