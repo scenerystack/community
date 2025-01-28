@@ -330,7 +330,8 @@ position nodes based on their bounds:
 If these options are used declaratively, they will be applied after any other options that will affect the bounds of the
 node (e.g. a [Node] will be first scaled or rotated, and only THEN positioned based on the bounds).
 
-TODO: example for these
+<div id="positional-coordinates-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/positional-coordinates-example.js"></script>
 
 ### Layout
 
@@ -342,26 +343,30 @@ create more complex layouts:
 [HBox] positions content similarly to a horizontal flexbox in CSS, where the content is laid out in a row (or rows), and the
 content can be aligned to the top, center, or bottom of the row.
 
-TODO: example
+<div id="hbox-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/hbox-example.js"></script>
 
 #### VBox
 
 [VBox] positions content similarly to a vertical flexbox in CSS, where the content is laid out in a column (or columns), and the
 content can be aligned to the left, center, or right of the column.
 
-TODO: example
+<div id="vbox-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/vbox-example.js"></script>
 
 #### GridBox
 
 [GridBox] positions content in a grid, where the content is laid out in rows and columns.
 
-TODO: example
+<div id="gridbox-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/gridbox-example.js"></script>
 
 #### AlignBox
 
 [AlignBox] allows positioning a [Node] within a rectangle, with margins and/or alignment.
 
-TODO: example
+<div id="alignbox-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/alignbox-example.js"></script>
 
 #### ManualConstraint
 

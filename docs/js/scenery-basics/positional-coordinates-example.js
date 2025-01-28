@@ -1,0 +1,33 @@
+import { createSandbox } from "/js/createSandbox.js";
+
+createSandbox( "positional-coordinates-example", ( scene, stepEmitter, display ) => {
+  const box = ( () => {
+    /*START*/
+    const rectangle = new Rectangle( 0, 0, 100, 100, { fill: 'red' } );
+
+    const content = new Node( {
+      children: [
+        rectangle,
+        // Position a circle to the left of the rectangle (top aligned)
+        new Circle( 20, {
+          right: rectangle.left,
+          top: rectangle.top,
+          fill: 'green'
+        } ),
+        // Mark the left-center of the rectangle
+        new Circle( 5, {
+          center: rectangle.leftCenter,
+          fill: 'black'
+        } ),
+        // Mark the right-top of the rectangle
+        new Circle( 5, {
+          center: rectangle.rightTop,
+          fill: 'black'
+        } ),
+      ]
+    } );
+    /*END*/
+    return content;
+  } )();
+  scene.addChild( box );
+} );
