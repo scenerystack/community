@@ -7,7 +7,7 @@ hide:
 # SceneryStack
 
 <figure markdown>
-[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/setup.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/overview.md){ .md-button .md-button--primary }
 ---
 </figure>
 
@@ -17,10 +17,8 @@ SceneryStack is an open-source TypeScript framework designed to create powerful,
 
 [**Learn about SceneryStack Capabilities**](#scenerystack-capabilities)
 
-<figure markdown>
-  ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">PhET Interactive Simulation</a> created using SceneryStack</figcaption>
-</figure>
+<iframe src="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html" height="400" width="800" style="border:none;" title="Friction Simulation - made with SceneryStack"></iframe>
+_[Interactive Physics Simulation with Inclusive Features](https://phet.colorado.edu/sims/html/friction/latest/friction_all.html) by @phetsims using SceneryStack_
 
 ---
 
@@ -44,7 +42,7 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 
 <figure markdown>
   ![Interactive in action with SceneryStack](assets/centerandvariabilitykeyboard.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard capable interactive simulation</a> created using SceneryStack</figcaption>
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard-friendly interactive simulation</a> created using SceneryStack</figcaption>
 </figure>
 ---
 
@@ -61,7 +59,7 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 <iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Cathedral - made with SceneryStack"></iframe>
 
-_[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jessegreenberg using SceneryStack - Try it here in the browser!_
+_[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jessegreenberg using SceneryStack_
 
 ---
 
@@ -76,9 +74,10 @@ Want to learn more about the Accessibility and Inclusive Design features of Scen
 
 ---
 
-![Interactive in action with SceneryStack](assets/cck-bulb.gif)
-
-_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) created by PhET using SceneryStack_
+<figure markdown>
+  ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Enery Skate Park</a>, created using SceneryStack</figcaption>
+</figure>
 
 ---
 
@@ -108,4 +107,10 @@ We welcome contributions from the community! Whether you're a seasoned developer
 | **Charts and Graphs**: Support using the `Bamboo` library. | |
 | **Declarative APIs**: Optimize performance and quality adjustments. | |
 
-SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.
+**SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.**
+
+---
+
+![Interactive in action with SceneryStack](assets/cck-bulb.gif)
+
+_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) created by PhET using SceneryStack_

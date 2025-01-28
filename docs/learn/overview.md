@@ -24,14 +24,14 @@ For a full list of features and capabilities, check out all of the [features](fe
 
 SceneryStack can be used in three primary ways:
 
-1. **Simulations**  
+1. [**Simulations**](#simulations)  
    Create interactive, PhET-style simulations with SceneryStack managing rendering, input, and layout for dynamic,
    educational content.
 
-2. **Applications**  
+2. [**Applications**](#applications)  
    Build full-screen web applications where SceneryStack handles the UI, input, and rendering as the core framework.
 
-3. **Standalone Library**  
+3. [**Standalone Library**](#standalone-library)  
    Integrate Scenery displays or use specific features (e.g., rendering, modeling, or input) in existing projects
    without relying on SceneryStack as the primary framework.
 
@@ -90,7 +90,7 @@ SceneryStack primary uses the **Scenery** module for rendering and user input. S
 (similar to the DOM) built on Scenery `Node`s. Scenery `Display`s take a root `Node` and render it to the screen.
 
 While it is common to use one Scenery `Display` to cover all or most of the screen (for a Scenery Application, or like
-[PhET imulations](https://phet.colorado.edu) do), it is also possible to use multiple `Display`s and place them into
+[PhET Simulations](https://phet.colorado.edu) do), it is also possible to use multiple `Display`s and place them into
 the DOM in traditional ways (e.g. interactive figures).
 
 The primary view modules are:
