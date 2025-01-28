@@ -18,7 +18,7 @@ experiences. It provides:
   keyboard navigation), and dynamic spoken content through Web Speech.
 - **Comprehensive UI components**, offering a wide selection of pre-built, customizable elements to efficiently build user interfaces.
 
-For a full list of features and capabilities, check out all of the [features](features.md).
+For a full list of features and capabilities, check out all of the [features](./features.md).
 
 ## Ways to Use SceneryStack
 
@@ -62,7 +62,7 @@ To get started or learn more about including SceneryStack as a library, see the 
 
 ## SceneryStack Architecture
 
-SceneryStack is built for a **model-view architecture** that separates the data (model) from the presentation (view).
+SceneryStack is built for a **model-view architecture** that separates the data (model) from the presentation (view). Learn more about the Model-View-Controller (MVC) pattern in the [Best Practices](./best-practices.md) guide.
 
 Internally, SceneryStack is divided into a number of modules that handle different aspects of the framework. This
 higher-level organization shows up in the typical form of imports. For example, to import a Scenery `Display`, you would
