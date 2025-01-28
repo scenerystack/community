@@ -171,9 +171,6 @@ nav:
       - Application Showcase: learn/examples/application-showcase.md
 #    - Overview:
 #      - Install: learn/setup_old.md
-#      - Create a New Project: learn/templates/projecta_rasa.md
-#      - Make a Simulation: learn/templates/simula_rasa.md
-#      - Add SceneryStack to a Project: learn/templates/subprojecta_rasa.md
 #    - Guides:
 #      - Web Overview: learn/web/web_overview.md
 #      - Coding Conventions: info_sync/coding_conventions.md
@@ -1721,8 +1718,6 @@ nav:
     - Software Design Patterns: info-sync/software-design-patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - Libraries: reference/scenerystack_list.md
-#    - Library APIs:
-#      - Alpenglow: https://phetsims.github.io/alpenglow/
   - Community:
     - Join Us: community/join.md
     - Community Guidelines: CODE_OF_CONDUCT.md
