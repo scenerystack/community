@@ -1,7 +1,7 @@
 # Project information
 site_name: SceneryStack
 site_url: https://scenerystack.org/
-site_author: PhET Interactive Simulations
+site_author: SceneryStack
 site_description: >-
   The TypeScript webstack for creating inclusive, multimodal web interactives.
 

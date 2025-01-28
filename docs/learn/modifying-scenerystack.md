@@ -32,8 +32,8 @@ npx scenerystack checkout 0.0.14
 Source files will exist under `$REPO/js/` for each repository. You can make modifications to any of these
 files, and they will be picked up when you build SceneryStack.
 
-The corresponding GitHub repositories for each module can be found under the `phetsims` organization, e.g.
-[Scenery](https://github.com/phetsims/scenery).
+**The corresponding GitHub repositories for each module can be found under the `phetsims` organization, e.g.
+[Scenery](https://github.com/phetsims/scenery).**
 
 ## Building SceneryStack
 
