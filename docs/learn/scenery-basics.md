@@ -78,6 +78,9 @@ or by using `mutate()`:
 When using the declarative options syntax, the parameters are executed in an order such that anything that affects
 the size of the node will be applied before anything that depends on the position of the node (e.g. `center`).
 
+Note that these approaches (declarative, or imperative setters) should function for all properties of the basic
+Scenery node types (e.g. [Text] `font`, [Path] `fill`, etc.)
+
 ## Children
 
 Nodes can have children, which are other nodes that are positioned relative to their parent. The order of the children
@@ -99,30 +102,49 @@ and the ability to `removeChild()` or `insertChild()` exists for when you need t
 
 ## Paths
 
-Shapes are displayed with the [Path] subtype of [Node]. They are created from [Shape] objects, which represent
-the 2d shapes that can be rendered. The API is very similar to the 
+Shapes are displayed with the [Path] subtype of [Node]. There are a number of flexible [Path] subtypes for common shapes:
+[Rectangle], [Circle], and [Line]. All [Path] types (along with anything [Paintable], like [Text]) can take fills, strokes, and
+other parameters that control their appearance.
+
+<div id="path-basic-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/path-basic-example.js"></script>
+
+It is also possible to create custom shapes with the [Shape] object. The API is very similar to the 
 [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) API, where
-the path commands are used to define the [Shape], and the `fill`, `stroke`, and `lineWidth` properties are used to
-style the [Path].
+the path commands are used to define the [Shape]:
 
-TODO: example
+<div id="path-shape-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/path-shape-example.js"></script>
 
-**Note**: The `fill` and `stroke` properties are examples of [Paintable] properties, which are also shared by [Text] nodes.
+[Path] objects can also be created with a SVG path string (see [documentation for the SVG path syntax](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d)):
 
-[Path] objects can also be created with a SVG path string (see [documentation for the SVG path syntax](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d):
+<div id="path-svg-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/path-svg-example.js"></script>
 
-TODO: example
+To learn more about [Shape] objects, see the [Shape Guide](./shapes.md).
 
 ## Text
 
-Text is displayed with the [Text] subtype of [Node]. The text can be styled with the `font`, `fill`, and `stroke`.
+### Basic Text
+
+Basic text is displayed with the [Text] subtype of [Node]. The text can be styled with the `font`, `fill`, and `stroke`.
+
+<div id="text-basic-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/text-basic-example.js"></script>
 
 [Text] nodes take in either a `string` or a `TReadOnlyProperty<string>` object (a [Property], [ReadOnlyProperty], or [TinyProperty] with a string value).
-They will dynamically update their displayed text when the Property changes.
+They will dynamically update their displayed text when the Property changes, to support dynamic and translated content:
 
-TODO: example
+<div id="text-property-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/text-property-example.js"></script>
 
 **Note**: Text is positioned so that the origin of the node is at the left baseline of the text.
+
+### Rich Text
+
+TODO: docs and examples
+
+-- include separators
 
 ## Images
 
