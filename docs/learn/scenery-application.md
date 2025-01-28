@@ -4,10 +4,6 @@
 
 # Scenery Application
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in January 2025.
-
 ## Overview
 
 This page covers creating a new Scenery-based web application with SceneryStack.
@@ -43,3 +39,64 @@ take up the full window size. In addition, it will have a [Node] named `rootNode
 content will be added.
 
 Please see the [Scenery Basics](./scenery-basics.md) guide for more information on how to use Scenery.
+
+## Content
+
+In the template, it fills in some example content:
+
+```ts
+// A rectangle that will rotate (center at the origin)
+const rotatingRectangle = new Rectangle( -150, -20, 300, 40, {
+  fill: '#ccc',
+} );
+const contentText = new Text( 'Content goes here', {
+  font: '24px sans-serif',
+} );
+
+// Assign the children to the root node (text on top)
+rootNode.children = [ rotatingRectangle, contentText ];
+```
+
+This can be replaced with arbitrary Scenery nodes (the children of the `rootNode` can be any Scenery nodes).
+
+## Layout
+
+It also sets up some simple layout logic:
+
+```ts
+// Center the text and the rectangle dynamically
+layoutBoundsProperty.link( bounds => {
+  contentText.center = bounds.center;
+  rotatingRectangle.translation = bounds.center;
+} );
+```
+
+Layout can also be done with [HBox], [VBox], [GridBox], and [ManualConstraint]. See the
+[Scenery Layout](./scenery-layout.md) guide for more information.
+
+## Animation Loop
+
+The template sets up a simple animation loop:
+
+```ts
+// Frame step logic (dt is in seconds)
+display.updateOnRequestAnimationFrame( dt => {
+  if ( resizePending ) {
+    resize();
+  }
+
+  // Rotate the rectangle
+  rotatingRectangle.rotation += 2 * dt;
+} );
+```
+
+It will lazily update the size of the [Display], and rotate the rectangle at a rate of 2 radians per second.
+
+While most SceneryStack logic is handled based on event listeners, for many times of animations, it is more efficient to
+use the `updateOnRequestAnimationFrame` method (to run things every frame).
+
+## More Information
+
+See the [Scenery Basics](./scenery-basics.md) guide for more information on how to use Scenery. The
+[Creating an Interactive Figure](./tutorials/creating-an-interactive-figure.md) tutorial is a good next step to learn
+from.
