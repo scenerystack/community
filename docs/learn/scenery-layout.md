@@ -6,12 +6,12 @@
 
 ## Introduction {: #introduction }
 
-Here we will cover the layout system in [Scenery](https://phetsims.github.io/scenery/).
+Here we will cover the layout system in Scenery.
 
 ### Bounds {: #bounds }
 
 The layout system in Scenery is based on the concept of `bounds`. Each *paintable* Node (that displays something, like
-`Text` or `Path`) will define its own `selfBounds` (as a `Bounds2` object that stores a left/top/right/bottom).
+[Text] or [Path]) will define its own `selfBounds` (as a `Bounds2` object that stores a left/top/right/bottom).
 
 The `localBounds` of a Node is the combination of the `selfBounds` along with the `bounds` of each of the child Nodes.
 This defines the size of the Node within its *local coordinate frame*.
@@ -27,7 +27,7 @@ Most getters for things like `width` / `height` will return the value of the `bo
 ### Layout Containers {: #layout-containers }
 
 Some Nodes are called *layout containers* if they will control the position and size of child content. Some, like
-`HBox` / `VBox` / `GridBox` (discussed below), will be responsible for all of their children. Some, like `Panel`, will
+[HBox] / [VBox] / [GridBox] (discussed below), will be responsible for all of their children. Some, like [Panel], will
 only control one child (its main content). Layout containers will also usually control the *preferred* bounds of their
 children, if they are sizable (discussed later).
 
@@ -39,10 +39,10 @@ is usually best to write code where this is not needed.
 
 The most important Scenery layout containers are discussed below:
 
-- `FlowBox`, with its `HBox` / `VBox` shortcuts, acts similarly to a CSS flexbox container.
-- `GridBox` acts similarly to CSS grid.
-- `ManualConstraint` allows writing imperative-style connections between Nodes with different parents.
-- `AlignBox` allows positioning a Node within a rectangle, with margins/alignment.
+- [FlowBox], with its [HBox] / [VBox] shortcuts, acts similarly to a CSS flexbox container.
+- [GridBox] acts similarly to CSS grid.
+- [ManualConstraint] allows writing imperative-style connections between Nodes with different parents.
+- [AlignBox] allows positioning a Node within a rectangle, with margins/alignment.
 
 ### Sizable Components {: #sizable-components }
 
@@ -51,7 +51,7 @@ AccordionBox, Panel, Slider, Checkbox) are *sizable*: they can be adjusted to di
 are equal to or larger than their *minimum* sizes. When the preferred size is set, the Node is responsible for adjusting
 its own layout so that it takes up that size.
 
-Sizable nodes will either mix in `WidthSizable`, `HeightSizable`, or `Sizable` (indicating that both width and height
+Sizable nodes will either mix in [WidthSizable], [HeightSizable], or [Sizable] (indicating that both width and height
 can be adjusted). This provides preferred and minimum sizes in BOTH local and parent coordinate frames (e.g.,
 `preferredWidth` / `localPreferredWidth`). These separate coordinate frame versions will be kept in sync (and are backed
 by Properties).
@@ -92,13 +92,10 @@ positioning information for the child.
 
 It is recommended to view assorted PhET simulations and libraries for examples to see how layout is used in practice.
 
-There are a [number of examples](../../phet-lib/doc/layout-exemplars.html) that show layout in action with
-assorted [sun](https://github.com/phetsims/sun) components.
+TODO: fix layout exemplar link
 
-If you're using a built version of Scenery, you'll need to add the relevant namespaces to objects. Almost everything
-here will need a `scenery.` prefix, e.g., `new phet.scenery.Node()` instead of `new Node()`. The built version of
-Scenery will include `scenery`, `kite` (for Shape), `dot` (for Vector2), `axon` (for Properties), and `phetCore`. The
-code examples here can use either the prefixed versions or non-prefixed.
+There are a [number of examples](../../phet-lib/doc/layout-exemplars.html) that show layout in action with
+assorted [UI Components](./ui-components.md).
 
 All of the code examples here are editable. You can change the code and see the results immediately.
 
@@ -111,12 +108,12 @@ optionally wrap content to the next row/column when there is no more room (e.g.,
 
 ### orientation {: #FlowBox-orientation }
 
-For horizontal line-based layout, use `HBox`:
+For horizontal line-based layout, use [HBox]:
 
 <div id="HBox-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-layout/HBox-example.js"></script>
 
-For vertical line-based layout, use `VBox`:
+For vertical line-based layout, use [VBox]:
 
 <div id="VBox-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-layout/VBox-example.js"></script>
@@ -126,7 +123,7 @@ each Node in a line is positioned. The *secondary* axis is the opposite one, alo
 example, for an HBox, its primary axis is horizontal, and its secondary axis is vertical (so its elements will be
 positioned with increasing x values, and its `align` will control the y values).
 
-For cases where the orientation needs to be determined programmatically, use `FlowBox`:
+For cases where the orientation needs to be determined programmatically, use [FlowBox]:
 
 <div id="orientation-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-layout/orientation-example.js"></script>

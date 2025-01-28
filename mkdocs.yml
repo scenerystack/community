@@ -160,6 +160,7 @@ nav:
       - Translation and Localization: learn/translation-and-localization.md
       - Best Practices: learn/best-practices.md
       - Modifying SceneryStack: learn/modifying-scenerystack.md
+      - UI Components: learn/ui-components.md
     - Tutorials:
       - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
       - Three.js Integration: learn/tutorials/threejs-integration.md
