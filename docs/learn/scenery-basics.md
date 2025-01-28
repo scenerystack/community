@@ -260,7 +260,8 @@ act like it was applied last.
 The children and content of a [Node] will be positioned in the node's *local* coordinate frame. This means that the
 origin of the node is at $(0,0)$, and the x-axis points to the right and the y-axis points down.
 
-Local coordinate frames **ignore** the transformation of the given node.
+Local coordinate frames **ignore** the transformation of the given node. When you are adding children to a node, you
+are **placing the children into the parent node's local coordinate frame**.
 
 #### Parent Coordinate Frame
 
