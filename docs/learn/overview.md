@@ -1,3 +1,7 @@
+--8<-- "api-reference-snippets.md"
+
+<link rel="stylesheet" href="/css/examples.css">
+
 # Overview
 
 Welcome to SceneryStack! This page will give you a brief overview of the SceneryStack library and its features.

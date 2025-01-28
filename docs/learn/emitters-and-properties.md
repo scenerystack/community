@@ -1,3 +1,7 @@
+--8<-- "api-reference-snippets.md"
+
+<link rel="stylesheet" href="/css/examples.css">
+
 # Emitters and Properties
 
 !!! warning "Under Construction"

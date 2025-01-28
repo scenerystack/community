@@ -1,8 +1,14 @@
+--8<-- "api-reference-snippets.md"
+
+<link rel="stylesheet" href="/css/examples.css">
+
 # Simulation
 
 !!! warning "Under Construction"
     This section and others in Getting Started with SceneryStack are under heavy revisement
     and will be updated in January 2025.
+
+If you're looking to create a STEM-focused, interactive simulation then you're in the right place.
 
 ??? note "Prerequisites"
     Before setting up your development environment, ensure the following tools are installed:
@@ -10,8 +16,6 @@
     1. **Command Line Interface:** Use Terminal (macOS/Linux) or Command Prompt (Windows).
     2. **Git:** Download from [git-scm.com](https://git-scm.com/downloads) or install via Xcode command-line tools on macOS/Linux.
     3. **Node.js and npm:** Install the latest version from [Node.js](https://nodejs.org/).
-
-If you're looking to create a STEM-focused, interactive simulation then you're in the right place.
 
 ## Setting Expectations
 

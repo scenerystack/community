@@ -1,3 +1,7 @@
+--8<-- "api-reference-snippets.md"
+
+<link rel="stylesheet" href="/css/examples.css">
+
 # Creating an Interactive Figure
 
 !!! warning "Under Construction"

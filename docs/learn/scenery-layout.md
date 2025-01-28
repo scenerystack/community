@@ -1,3 +1,5 @@
+--8<-- "api-reference-snippets.md"
+
 <link rel="stylesheet" href="/css/examples.css">
 
 # Scenery Layout
