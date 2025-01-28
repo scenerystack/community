@@ -27,13 +27,13 @@
 .md-typeset h2 {
   font-size: 1.8rem;
   /* Adjust as needed */
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .md-typeset h3 {
   font-size: 1.5rem;
   /* Adjust as needed */
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .md-typeset h4 {
