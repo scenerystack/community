@@ -40,20 +40,29 @@ export const createSandbox = ( id, func, providedOptions ) => {
 
   const options = merge( {
     jsBefore: jsBefore,
-    jsAfter: jsAfter
+    jsAfter: jsAfter,
+    showDisplay: true,
+    showCode: true,
+    showErrors: true
   }, providedOptions );
 
   const parentElement = document.getElementById( id );
 
   const displayContainerElement = document.createElement( 'div' );
-  parentElement.appendChild( displayContainerElement );
+  if ( options.showDisplay ) {
+    parentElement.appendChild( displayContainerElement );
+  }
 
   const codeContainerElement = document.createElement( 'div' );
-  parentElement.appendChild( codeContainerElement );
+  if ( options.showCode ) {
+    parentElement.appendChild( codeContainerElement );
+  }
 
   const errorsContainerElement = document.createElement( 'div' );
-  parentElement.appendChild( errorsContainerElement );
   errorsContainerElement.classList.add( 'errors' );
+  if ( options.showErrors ) {
+    parentElement.appendChild( errorsContainerElement );
+  }
 
   const codeMirror = CodeMirror( codeContainerElement, { // eslint-disable-line no-undef
     lineNumbers: true,
@@ -110,7 +119,7 @@ export const createSandbox = ( id, func, providedOptions ) => {
 
     const padding = 2;
     if ( scene.bounds.isValid() ) {
-      const width = codeContainerElement.offsetWidth;
+      const width = codeContainerElement.offsetWidth || parentElement.offsetWidth;
       scene.centerX = width / 2;
       scene.top = padding;
       display.width = width;

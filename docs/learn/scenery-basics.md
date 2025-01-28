@@ -142,26 +142,39 @@ They will dynamically update their displayed text when the Property changes, to 
 
 ### Rich Text
 
-TODO: docs and examples
+[RichText] is capable of displaying a subset of HTML-like content:
 
--- include separators
+<div id="richtext-basic-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/richtext-basic-example.js"></script>
+
+It is also possible to embed arbitrary Scenery nodes in a [RichText]:
+
+<div id="richtext-embed-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/richtext-embed-example.js"></script>
+
+See the [RichText] documentation for more information on all supported options and tags.
 
 ## Images
 
 Images can be displayed (with the upper-left corner at the origin of the node) with the [Image] subtype of [Node].
 
+<div id="image-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/image-example.js"></script>
+
 The source of images can be either a URL, a [CanvasHTMLElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas),
 an [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement), or a special type to support
 [mipmaps](https://en.wikipedia.org/wiki/Mipmap).
 
-TODO: example
+Note that images will not have immediately-correct bounds unless they have already been loaded. It is possible to provide
+an `initialWidth` or `initialHeight` to the [Image] constructor to provide bounds before the image is loaded.
 
 ## DOM Elements
 
 DOM elements can be added, and will be transformed with CSS transforms to be in the expected place (their origin will be
 at the top-left corner of the element).
 
-TODO: see demo in tour of scenery
+<div id="dom-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/dom-example.js"></script>
 
 **Note**: `allowInput: true` is required if you want to interact with the DOM element.
 
@@ -171,39 +184,47 @@ Each [Node] has a transformation associated with it that can be used to position
 [affine transformation](https://en.wikipedia.org/wiki/Affine_transformation) can be represented by a 3x3 matrix, and
 allows for translation, rotation, scaling, and shearing.
 
-Common ways to adjust the positions of a node include:
+For the examples below, keep in mind that the origin of the node (the point $(0,0)$) is at the top-left corner
+of the rectangles.
+
+Common ways to adjust (or read) the positions of a node include:
 
 ### Translation
 
 The `translation` property of a node is a [Vector2] that represents the position of the node in the parent's coordinate
 frame. For example, to move a node 100 units to the right and 50 units down:
 
-TODO: example here
+<div id="translation-vector2-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/translation-vector2-example.js"></script>
 
 The translation can be broken up into x and y components, that can be accessed and modified individually:
 
-TODO: example here
+<div id="translation-xy-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/translation-xy-example.js"></script>
 
 ### Rotation
 
 The `rotation` property of a node is a number that represents the rotation of the node in radians. For example, to rotate
-a node 90 degrees:
+a node $\pi/6$ radians:
 
-TODO: example here
+<div id="rotation-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/rotation-example.js"></script>
 
 ### Scaling
 
 The `scale` property of a node is a [Vector2] that represents the scaling of the node in the x and y directions.
 Usually, the x and y components are the same, and thus can be adjusted with a single number:
 
-TODO: example here
+<div id="scale-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/scale-example.js"></script>
 
 ### Matrix
 
 If you need to apply a more complex transformation, you can use the `matrix` property of a node. This property is a
 [Matrix3] that represents the full transformation of the node. For example, to apply a rotation and translation:
 
-TODO: example here, matching the below with theta and x/y.
+<div id="matrix-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/matrix-example.js"></script>
 
 Corresponding to:
 
@@ -214,6 +235,8 @@ M_{out} = \begin{bmatrix}
 0 & 0 & 1
 \end{bmatrix} * M_{in}
 $$
+
+For most purposes, this is not needed (for example, the `rotation` and `translation` properties can be applied to the same object).
 
 ### Order of Transformations
 
@@ -237,21 +260,26 @@ act like it was applied last.
 The children and content of a [Node] will be positioned in the node's *local* coordinate frame. This means that the
 origin of the node is at $(0,0)$, and the x-axis points to the right and the y-axis points down.
 
+Local coordinate frames **ignore** the transformation of the given node.
+
 #### Parent Coordinate Frame
 
 Nodes can also have a transform that will manipulate the position of the displayed content. When this transform is
 applied to content in the local coordinate frame, the result is the position of the content in the node's *parent*
 coordinate frame.
 
+Parent coordinate frames **take the transformation** of the given node into account.
+
 #### Example
 
 For example, a [Rectangle] with a left/top of $(0,0)$ and a width/height of $(100,50)$ will have its content
 dislayed $x$ values of $0$ to $100$ and $y$ values of $0$ to $50$ within the *local* coordinate frame.
 
-If the [Rectangle] has a scale of $2$ applied (doubling the size), then the size of the rectangle in the parent
-coordinate frame is $(200,100)$.
+If the [Rectangle] has a scale of $2$ applied (doubling the size) and is rotated, each point in the rectangle will have
+different coordinates in the *parent* coordinate frame (except for the origin).
 
-TODO: add visuals for this!! (before and after Rectangle)
+<div id="coordinate-frame-diagram" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/coordinate-frame-diagram.js"></script>
 
 #### Global Coordinate Frame
 

@@ -1,0 +1,21 @@
+import { createSandbox } from "/js/createSandbox.js";
+
+createSandbox( "richtext-embed-example", ( scene, stepEmitter, display ) => {
+  const box = ( () => {
+    /*START*/
+    const string = 'Nodes like <node id="circle" align="center"/> and even <node id="otherText"/> can be embedded in RichText.';
+    const content = new RichText( string, {
+      font: '20px Arial',
+      nodes: {
+        circle: new Circle( 10, { fill: 'red' } ),
+        otherText: new Text( 'other text', {
+          fill: 'blue',
+          font: '26px Arial'
+        } )
+      }
+    } );
+    /*END*/
+    return content;
+  } )();
+  scene.addChild( box );
+} );

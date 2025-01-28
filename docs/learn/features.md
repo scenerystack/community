@@ -69,6 +69,10 @@ TODO: DOM element demo from tour-of-scenery
 
 TODO: sprites demo
 
+### Mimapping for Images
+
+TODO: demo (with image that benefits from mipmapping, and likely Canvas renderer)
+
 ### Declarative and Imperative APIs
 
 TODO: describe approaches to handling
