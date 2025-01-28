@@ -10,12 +10,13 @@
 
 TODO: this is out of date, needs updating. Lots of stuff about Scenes.
 
-## Adding Input Handling to a Display
+## Adding Interaction to a Display
 
 `Displays` do not have event listeners attached by default. To initialize the event system (that will attach and set up
 listeners), call `display.initializeEvents()`.
 
-`Displays` also do not update automatically (for performance reasons). To create a rendering loop, you can call:
+Additionally, a [Display] does not update automatically. Use `display.updateDisplay()` when needed, or create a rendering
+loop with `display.updateOnRequestAnimationFrame()`:
 
 ```js
 display.updateOnRequestAnimationFrame( elapsedTimeInSeconds => {
@@ -23,6 +24,8 @@ display.updateOnRequestAnimationFrame( elapsedTimeInSeconds => {
   // Put your update logic here.
 } );
 ```
+
+TODO: move the below documentation
 
 Accessibility-related input listeners require a timer to work with assistive devices and to keep track of the state of
 the keyboard. In order for accessibility input to work correctly, call `axon.timer.emit( timeElapsedInSeconds )` prior

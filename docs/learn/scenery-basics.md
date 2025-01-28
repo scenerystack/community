@@ -308,7 +308,7 @@ TODO: example
 
 #### AlignBox
 
-[AlignBox] allows positioning a Node within a rectangle, with margins and/or alignment.
+[AlignBox] allows positioning a [Node] within a rectangle, with margins and/or alignment.
 
 TODO: example
 
@@ -322,7 +322,67 @@ See the [Scenery Layout](./scenery-layout.md) guide for more information on how 
 
 ## Displays
 
-## Animation
+The [Display] takes a [Node] and renders it (and all of its descendants) to the screen. The [Display] will efficiently
+update the view so only changed elements are redrawn, maintaining a high level of performance.
+
+A [Display] can have a background color, which can be fully or partially transparent.
+
+### Creating a Display
+
+A [Display] can either be created with a pre-existing block-level element, or it can create its own element (which can
+be placed in the DOM).
+
+#### With a Pre-Existing Element
+
+Pass an element to the `container` option of [Display]'s constructor:
+
+TODO: example
+
+Scenery by default will apply CSS styles to the container. Typically it is best to have a containing block (element
+with `position: relative/absolute/fixed`) around a [Display] to ensure that the [Display] is positioned correctly.
+
+#### Creating a New Element
+
+A [Display] will by default create its own element. This can be accessed with `display.domElement`, and can be added to
+the DOM:
+
+TODO: example
+
+### Updating the Display
+
+The [Display] will not automatically update when content inside of it changes. Either manually call `updateDisplay()`
+on it, or create a render loop with `updateOnRequestAnimationFrame()`. See more below for animation and user interactivity.
+
+### Sizing the Display
+
+The [Display] will have the same size as the container element that it is placed in. **Note**: Currently if the element
+changes size the [Display] will not update size.
+
+The [Display] can be manually sized with the `width` and `height` (and those can be mutated in the future):
+
+TODO: example
+
+It also has a method `resizeOnWindowResize()` which can be used to automatically resize the [Display] when the window
+resizes.
+
+If the [Display] will take up the entire window, it is recommended to use `assumeFullWindow: true` when constructing
+the [Display]. This can improve behavior for some input handling.
+
+## Updates and Animation
+
+Changes over time are usually done with an event loop. These can either be created by using `updateOnRequestAnimationFrame()`,
+or by manually listening to animation frames from the browser with [requestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame).
+
+When using `updateOnRequestAnimationFrame()`, a difference in time (delta-T, or `dt`) will be passed to the update function.
+This can be used to create smooth animations that are independent of the frame rate:
+
+TODO: animation example
+
+The [Animation] type (and *twixt* module in general) are very helpful for creating simple animations:
+
+TODO: twixt demo
+
+For more complex animations, it is recommended to rely on positioning/manipulating nodes based on `dt`.
 
 ## User Interactivity
 
@@ -331,6 +391,8 @@ See the [Scenery Layout](./scenery-layout.md) guide for more information on how 
 (mouse/touch area)
 (cursor)
 (pickable? inputEnabled?)
+
+If the [Display] is not taking up the full window, it is recommended to pass `listenToOnlyElement: true` to the [Display].
 
 ## Accessibility
 
