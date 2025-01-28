@@ -8,6 +8,8 @@
     This section and others in Getting Started with SceneryStack are under heavy revisement
     and will be updated in January 2025.
 
+TODO: link to guides and examples
+
 ## Inclusive Design and Accessibility
 
 ### Screen Reader Support
