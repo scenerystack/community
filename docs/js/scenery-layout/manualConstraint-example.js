@@ -26,7 +26,7 @@ createSandbox( 'manualConstraint-example', ( scene, stepEmitter, display ) => {
       new Node( { x: 50, y: 50, children: [ child1 ] } ),
       new Node( { scale: 2, y: 20, children: [ child2 ] } ),
       new Node( {
-        matrix: phet.dot.Matrix3.rowMajor(
+        matrix: Matrix3.rowMajor(
           0.5, 0, 0,
           0, 1, 0,
           0, 0, 1 ), children: [ child3 ]
