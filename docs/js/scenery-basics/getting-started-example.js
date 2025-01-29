@@ -29,12 +29,20 @@ createSandbox( "getting-started-example-appendix", ( scene, stepEmitter, display
       backgroundColor: '#fff'
     } );
 
-    // Add our text
+    // Add some text
     scene.addChild( new Text( 'Hello World', {
       fill: 'black', // any CSS color will work
       centerX: 200, // the center of our text's bounds is at x = 200
       centerY: 50, // the center of our text's bounds is at y = 50
       font: '25px sans-serif' // any CSS 'font' declaration will work
+    } ) );
+
+    // Add an image
+    scene.addChild( new Image( '/assets/scenerystack-round.png', {
+      scale: 0.1, // scales the image down to 10% of its original size
+      rotation: Math.PI / 6, // rotates the image by 30 degrees
+      left: 10, // the left edge of the image is at x = 10
+      centerY: 50 // the center of the image's bounds is at y = 50
     } ) );
 
     // Paint any changes (in this case, our text).

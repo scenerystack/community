@@ -10,22 +10,13 @@
 
 ## Overview
 
-Scenery is a library that allows developers to build and render 2D views using a declarative structure, bridging the gap
-between abstract view models and low-level rendering in the browser.
+Scenery **helps you build 2D graphics and interfaces** using a declarative structure.
 
-Scenery organizes all of your visual elements into a hierarchy of nodes (often called a “scene graph”) that makes it
-easier to manage layout and interaction. Each node is responsible for its own transformations and styling, enabling you
-to reposition, rotate, or adjust the appearance of specific parts of your UI without affecting unrelated elements.
+Scenery is built on a *scene graph*: the visual elements in your UI are organized into a hierarchy of nodes, similar to
+the DOM.
 
-One of the strengths of Scenery is its flexibility in rendering: depending on your configuration, it can create and
-update elements in the DOM via SVG, Canvas, or WebGL. Moreover, it can mix and match these technologies within the same
-scene, meaning certain portions might leverage high-fidelity vector graphics in SVG while others use fast raster
-operations in Canvas or advanced 3D capabilities in WebGL.
-
-When you finalize your UI structure, the Scenery [Display] efficiently updates the view so only changed elements are
-redrawn. This helps maintain a high level of performance while keeping your application’s codebase both modular and easy
-to reason about. In essence, Scenery’s declarative approach streamlines the process of building rich, interactive 2D
-interfaces.
+Scenery's [Display] is responsible for efficiently rendering updates to the scene graph to the screen. It can seamlessly 
+mix SVG, Canvas, and WebGL rendering behind-the-scenes to provide the best performance and quality for your application.
 
 ## Getting Started
 
@@ -33,13 +24,15 @@ interfaces.
     This guide assumes you have already read the [Setup](./setup.md) guide and have a SceneryStack project set up.
 
 To get started with Scenery, you need to create a [Display] and a [Node] to render. Here’s a simple example that creates
-a [Display] and renders a red rectangle:
+a [Display] and renders a line of text with a logo:
 
 First, create a block-level element (like a div) that has declared dimensions:
 
 ```html
 <div id="getting-started-example" style="width: 400px; height: 100px;"></div>
 ```
+
+Then the following code will create a [Display] and render a [Text] and an [Image] inside:
 
 <div id="getting-started-example" class="sandbox-example" style="width: 400px; height: 100px; margin: 0 auto; border: 1px solid black;"></div>
 <div id="getting-started-example-appendix" class="sandbox-example"></div>
@@ -59,27 +52,20 @@ The code above places the [Text] so that its center is at (200, 50) in the [Disp
 Nodes are the fundamental building blocks of Scenery. They represent visual elements in your scene. Each node can have
 children, which are other nodes that are positioned relative to their parent.
 
-Scenery often uses a declarative syntax to create nodes, but also supports mutation of nodes for performance. For example,
-you can create a [Rectangle] node with a specific size and color:
+SceneryStack often uses a declarative syntax to create nodes. For example, you can create a [TextPushButton] node with a
+specific font and color:
 
-<div id="declarative-rectangle-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/declarative-rectangle-example.js"></script>
+<div id="declarative-pushbutton-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/declarative-pushbutton-example.js"></script>
 
-Or you can create a [Rectangle] node and then modify its properties either directly:
+All of the primitive Scenery nodes also support an imperative syntax for all of their parameters for maximizing
+performance:
 
 <div id="mutation-rectangle-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-basics/mutation-rectangle-example.js"></script>
 
-or by using `mutate()`:
-
-<div id="mutate-rectangle-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/mutate-rectangle-example.js"></script>
-
 When using the declarative options syntax, the parameters are executed in an order such that anything that affects
 the size of the node will be applied before anything that depends on the position of the node (e.g. `center`).
-
-Note that these approaches (declarative, or imperative setters) should function for all properties of the basic
-Scenery node types (e.g. [Text] `font`, [Path] `fill`, etc.)
 
 ## Children
 
