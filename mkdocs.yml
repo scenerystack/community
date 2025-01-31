@@ -1731,9 +1731,9 @@ nav:
       - Roadmap: community/roadmap.md
   - About: 
     - Project Mission: about/about.md
-    - FAQ: about/faqs.md
     - Branding: about/branding.md
     - Licensing: about/licensing.md
+  - FAQ: about/faqs.md
 
 
 

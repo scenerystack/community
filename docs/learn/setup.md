@@ -9,7 +9,7 @@
 Before working with SceneryStack, ensure you have the following tools installed:
 
 1. **Command Line Interface**  
-   Use Terminal (macOS/Linux) or Command Prompt (Windows) to interact with the system.
+   Use Terminal (macOS/Linux), Command Prompt (Windows), or your preferred CLI.
 
 2. **Git**  
    Git is required to check out the PhET code from GitHub. You can download it from [git-scm.com](https://git-scm.com/downloads).  

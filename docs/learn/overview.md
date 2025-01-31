@@ -151,3 +151,24 @@ However, sometimes the best documentation for each library is available in the c
 you'll find well-documented code with inline comments and annotations that explain how things work. We encourage you to
 explore the code as it can provide the most accurate and up-to-date information. If you have any questions or need
 further assistance, please head over to the [Discussions or chat platforms](../community/join.md).
+
+## I don't know JavaScript/TypeScript development, how can I get started?
+
+Welcome to the wonderful world of interactive web development! There are many ways to get started and many resources on the internet to support you.
+
+You will want to pick up a basic understanding of HTML web development and a good understanding of JavaScript before getting started with SceneryStack.
+
+The internet is full of resources to help you on your journey and a quick search will turn up many. Consider resources like [freecodecamp.com](https://www.freecodecamp.org/), which has also begun providing [courses in Spanish](https://www.freecodecamp.org/news/javascript-course-in-spanish/). Take a look at the bottom of the page for other tips and resources!
+
+As soon as you can, start tinkering with SceneryStack and building projects to become familiar with the framework and begin your goal project!
+
+!!! question "Do I have to use TypeScript or can I use JavaScript only?"
+    Using TypeScript is recommended if possible. At this time, most of SceneryStack is written in [TypeScript](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/#:~:text=cheat%20sheet%20PDF-,What%20is%20TypeScript%3F,-TypeScript%20is%20a) (TS), while some are still written in JavaScript (JS), with future updates to the libraries converting JS to TS. The API doesn’t enforce runtime type checks, making JavaScript usage more challenging.
+
+!!! tip "A few extra tips to get started"
+
+    1. A good place to start with JavaScript is [*Eloquent JavaScript*](https://eloquentjavascript.net/) -- if you are not familiar with the language it has many quirks. It would be worth your time to go through as much of this resource as possible, but certainly the first 11 chapters or so.
+       1. Other helpful resources are: [*Effective JavaScript* by Dave Herman](http://effectivejs.com/) (Chapters 1-3) and [Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/).
+    2. SceneryStack libraries are heavily based on MVC (model view controller) patterns, so probably a good idea to familiarize yourself with this general idea. See [Software Design Patterns](../info_sync/software_design_patterns.md#model-view-controller-mvc) for more.
+    3. Familiarize yourself with version control, specifically [Git](https://www.freecodecamp.org/news/gitting-things-done-book/).
+    4. As mentioned above, we have also switched to using TypeScript (with over 70% of SceneryStack code now converted) - so you might want to look at the power of that language, which works with JavaScript but has a lot of advantages. Some developers ordered and read this book *Effective TypeScript* ([amazon link](https://www.amazon.com/Effective-TypeScript-Specific-Ways-Improve-dp-1492053740/dp/1492053740/)).
