@@ -5,7 +5,7 @@
 Manages hotkeys based on two sources:
 
 1. Global hotkeys (from globalHotkeyRegistry)
-2. Hotkeys from the current focus trail (FocusManager.pdomFocusProperty, all hotkeys on all input listeners of
+2. Hotkeys from the current focus trail (pdomFocusProperty, all hotkeys on all input listeners of
    nodes in the trail)
 
 Manages key press state using EnglishKey from globalKeyStateTracker.

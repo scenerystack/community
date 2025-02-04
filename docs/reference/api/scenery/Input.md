@@ -223,17 +223,6 @@ like https://github.com/phetsims/balloons-and-static-electricity/issues/406.
 
 #### currentSceneryEvent : <span style="font-weight: 400;">[SceneryEvent](../scenery/SceneryEvent.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #currentSceneryEvent data-toc-label='currentSceneryEvent' }
 
-### Static Methods
-
-#### serializeDomEvent( domEvent : <span style="font-weight: 400;">Event</span> ) : <span style="font-weight: 400;">SerializedDOMEvent</span> {: #serializeDomEvent data-toc-label='serializeDomEvent' }
-
-Saves the main information we care about from a DOM `Event` into a JSON-like structure. To support
-polymorphism, all supported DOM event keys that scenery uses will always be included in this serialization. If
-the particular Event interface for the instance being serialized doesn't have a certain property, then it will be
-set as `null`. See domEventPropertiesToSerialize for the full list of supported Event properties.
-
-@returns - see domEventPropertiesToSerialize for list keys that are serialized
-
 ### Static Properties
 
 #### InputIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #InputIO data-toc-label='InputIO' }

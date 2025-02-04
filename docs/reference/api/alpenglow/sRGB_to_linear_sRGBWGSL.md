@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts sRGB to linear sRGB color space.
 
+See RenderColor.sRGBToLinear for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

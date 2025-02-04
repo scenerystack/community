@@ -106,11 +106,6 @@ browser state.
 @param event - The focusin/focusout event that triggered this update.
 @param focus - True for focusin event, false for focusout event.
 
-#### getPDOMFocusedNode() : <span style="font-weight: 400;">[Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getPDOMFocusedNode data-toc-label='getPDOMFocusedNode' }
-
-Get the Node that currently has DOM focus, the leaf-most Node of the Focus Trail. Null if no
-Node has focus.
-
 #### attachToWindow() {: #attachToWindow data-toc-label='attachToWindow' }
 
 Updates the _windowHasFocusProperty when the self receives/loses focus. When the self has focus
@@ -124,15 +119,6 @@ This will be called by scenery for you when you use Display.initializeEvents().
 Detach all self focus/blur listeners from FocusManager watching for when the self loses focus.
 
 ### Static Properties
-
-#### pdomFocusProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)</span> {: #pdomFocusProperty data-toc-label='pdomFocusProperty' }
-
-(readonly)
-
-Display has an axon `Property to indicate which component is focused (or null if no
-scenery Node has focus). By passing the tandem and phetioTye, PhET-iO is able to interoperate (save, restore,
-control, observe what is currently focused). See FocusManager.pdomFocus for setting the focus. Don't set the value
-of this Property directly.
 
 #### windowHasFocusProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #windowHasFocusProperty data-toc-label='windowHasFocusProperty' }
 

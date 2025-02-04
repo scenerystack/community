@@ -655,6 +655,14 @@ Returns the xor of an array of shapes.
 
 Returns a new Shape constructed by appending a list of segments together.
 
+#### fromGraph( graph : <span style="font-weight: 400;">[Graph](../kite/Shape.md#Graph)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #fromGraph data-toc-label='fromGraph' }
+
+Returns a Shape that creates a subpath for each filled face (with the desired holes).
+
+Generally should be called on a graph created with createFilledSubGraph().
+
+#### fromSegment( segment : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #fromSegment data-toc-label='fromSegment' }
+
 ### Static Properties
 
 #### rect {: #rect data-toc-label='rect' }
@@ -679,6 +687,236 @@ import type { CornerRadiiOptions } from 'scenerystack/kite';
 
 
 
+## Class Graph {: #Graph }
+
+
+A multigraph whose edges are segments.
+
+Supports general shape simplification, overlap/intersection removal and computation. General output would include
+Shapes (from CAG - Constructive Area Geometry) and triangulations.
+
+See Graph.binaryResult for the general procedure for CAG.
+
+TODO: Use https://github.com/mauriciosantos/Buckets-JS for priority queue, implement simple sweep line https://github.com/phetsims/kite/issues/76
+      with "enters" and "leaves" entries in the queue. When edge removed, remove "leave" from queue.
+      and add any replacement edges. Applies to overlap and intersection handling.
+      NOTE: This should impact performance a lot, as we are currently over-scanning and re-scanning a lot.
+      Intersection is currently (by far?) the performance bottleneck.
+TODO: Collapse non-Line adjacent edges together. Similar logic to overlap for each segment time, hopefully can
+      factor this out.
+TODO: Properly handle sorting edges around a vertex when two edges have the same tangent out. We'll need to use
+      curvature, or do tricks to follow both curves by an 'epsilon' and sort based on that.
+TODO: Consider separating out epsilon values (may be a general Kite thing rather than just ops)
+TODO: Loop-Blinn output and constrained Delaunay triangulation
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+```js
+import { Graph } from 'scenerystack/kite';
+```
+### Constructor
+
+#### new Graph() {: #Graph-Graph-constructor data-toc-label='new Graph-Graph' }
+
+### Instance Methods
+
+#### serialize() : <span style="font-weight: 400;">[SerializedGraph](../kite/Shape.md#SerializedGraph)</span> {: #Graph-serialize data-toc-label='Graph-serialize' }
+
+Returns an object form that can be turned back into a segment with the corresponding deserialize method.
+
+#### addShape( shapeId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, options? : <span style="font-weight: 400;">[GraphAddOptions](../kite/Shape.md#GraphAddOptions)</span> ) {: #Graph-addShape data-toc-label='Graph-addShape' }
+
+Adds a Shape (with a given ID for CAG purposes) to the graph.
+
+@param shapeId - The ID which should be shared for all paths/shapes that should be combined with
+                 respect to the winding number of faces. For CAG, independent shapes should be given
+                 different IDs (so they have separate winding numbers recorded).
+
+#### addSubpath( shapeId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, subpath : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)</span>, providedOptions? : <span style="font-weight: 400;">[GraphAddOptions](../kite/Shape.md#GraphAddOptions)</span> ) {: #Graph-addSubpath data-toc-label='Graph-addSubpath' }
+
+Adds a subpath of a Shape (with a given ID for CAG purposes) to the graph.
+
+@param shapeId - See addShape() documentation
+
+#### computeSimplifiedFaces() {: #Graph-computeSimplifiedFaces data-toc-label='Graph-computeSimplifiedFaces' }
+
+Simplifies edges/vertices, computes boundaries and faces (with the winding map).
+
+#### computeFaceInclusion( windingMapFilter : <span style="font-weight: 400;">( windingMap: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) {: #Graph-computeFaceInclusion data-toc-label='Graph-computeFaceInclusion' }
+
+Sets whether each face should be filled or unfilled based on a filter function.
+
+The windingMapFilter will be called on each face's winding map, and will use the return value as whether the face
+is filled or not.
+
+The winding map is an {Object} associated with each face that has a key for every shapeId that was used in
+addShape/addSubpath, and the value for those keys is the winding number of the face given all paths with the
+shapeId.
+
+For example, imagine you added two shapeIds (0 and 1), and the iteration is on a face that is included in
+one loop specified with shapeId:0 (inside a counter-clockwise curve), and is outside of any segments specified
+by the second loop (shapeId:1). Then the winding map will be:
+{
+  0: 1 // shapeId:0 has a winding number of 1 for this face (generally filled)
+  1: 0 // shapeId:1 has a winding number of 0 for this face (generally not filled)
+}
+
+Generally, winding map filters can be broken down into two steps:
+1. Given the winding number for each shapeId, compute whether that loop was originally filled. Normally, this is
+   done with a non-zero rule (any winding number is filled, except zero). SVG also provides an even-odd rule
+   (odd numbers are filled, even numbers are unfilled).
+2. Given booleans for each shapeId from step 1, compute CAG operations based on boolean formulas. Say you wanted
+   to take the union of shapeIds 0 and 1, then remove anything in shapeId 2. Given the booleans above, this can
+   be directly computed as (filled0 || filled1) &amp;&amp; !filled2.
+
+#### createFilledSubGraph() : <span style="font-weight: 400;">[Graph](../kite/Shape.md#Graph)</span> {: #Graph-createFilledSubGraph data-toc-label='Graph-createFilledSubGraph' }
+
+Create a new Graph object based only on edges in this graph that separate a "filled" face from an "unfilled"
+face.
+
+This is a convenient way to "collapse" adjacent filled and unfilled faces together, and compute the curves and
+holes properly, given a filled "normal" graph.
+
+#### facesToShape() : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-facesToShape data-toc-label='Graph-facesToShape' }
+
+Returns a Shape that creates a subpath for each filled face (with the desired holes).
+
+Generally should be called on a graph created with createFilledSubGraph().
+
+#### dispose() {: #Graph-dispose data-toc-label='Graph-dispose' }
+
+Releases owned objects to their pools, and clears references that may have been picked up from external sources.
+
+#### computeBoundaryTree() {: #Graph-computeBoundaryTree data-toc-label='Graph-computeBoundaryTree' }
+
+Given the inner and outer boundaries, it computes a tree representation to determine what boundaries are
+holes of what other boundaries, then sets up face holes with the result.
+
+This information is stored in the childBoundaries array of Boundary, and is then read out to set up faces.
+
+### Instance Properties
+
+#### vertices : <span style="font-weight: 400;">[Vertex](../kite/Vertex.md)[]</span> {: #Graph-vertices data-toc-label='Graph-vertices' }
+
+#### edges : <span style="font-weight: 400;">[Edge](../kite/Edge.md)[]</span> {: #Graph-edges data-toc-label='Graph-edges' }
+
+#### innerBoundaries : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)[]</span> {: #Graph-innerBoundaries data-toc-label='Graph-innerBoundaries' }
+
+#### outerBoundaries : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)[]</span> {: #Graph-outerBoundaries data-toc-label='Graph-outerBoundaries' }
+
+#### boundaries : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)[]</span> {: #Graph-boundaries data-toc-label='Graph-boundaries' }
+
+#### shapeIds : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> {: #Graph-shapeIds data-toc-label='Graph-shapeIds' }
+
+#### loops : <span style="font-weight: 400;">[Loop](../kite/Loop.md)[]</span> {: #Graph-loops data-toc-label='Graph-loops' }
+
+#### unboundedFace : <span style="font-weight: 400;">[Face](../kite/Face.md)</span> {: #Graph-unboundedFace data-toc-label='Graph-unboundedFace' }
+
+#### faces : <span style="font-weight: 400;">[Face](../kite/Face.md)[]</span> {: #Graph-faces data-toc-label='Graph-faces' }
+
+### Static Methods
+
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedGraph](../kite/Shape.md#SerializedGraph)</span> ) : <span style="font-weight: 400;">[Graph](../kite/Shape.md#Graph)</span> {: #Graph-deserialize data-toc-label='Graph-deserialize' }
+
+Recreate a Graph based on serialized state from serialize()
+
+#### isInternal( point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, segment : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, distanceThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, tThreshold : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #Graph-isInternal data-toc-label='Graph-isInternal' }
+
+#### BINARY_NONZERO_UNION( windingMap : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #Graph-BINARY_NONZERO_UNION data-toc-label='Graph-BINARY_NONZERO_UNION' }
+
+"Union" binary winding map filter for use with Graph.binaryResult.
+
+This combines both shapes together so that a point is in the resulting shape if it was in either of the input
+shapes.
+
+@param windingMap - See computeFaceInclusion for more details
+
+#### BINARY_NONZERO_INTERSECTION( windingMap : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #Graph-BINARY_NONZERO_INTERSECTION data-toc-label='Graph-BINARY_NONZERO_INTERSECTION' }
+
+"Intersection" binary winding map filter for use with Graph.binaryResult.
+
+This combines both shapes together so that a point is in the resulting shape if it was in both of the input
+shapes.
+
+@param windingMap - See computeFaceInclusion for more details
+
+#### BINARY_NONZERO_DIFFERENCE( windingMap : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #Graph-BINARY_NONZERO_DIFFERENCE data-toc-label='Graph-BINARY_NONZERO_DIFFERENCE' }
+
+"Difference" binary winding map filter for use with Graph.binaryResult.
+
+This combines both shapes together so that a point is in the resulting shape if it was in the first shape AND
+was NOT in the second shape.
+
+@param windingMap - See computeFaceInclusion for more details
+
+#### BINARY_NONZERO_XOR( windingMap : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #Graph-BINARY_NONZERO_XOR data-toc-label='Graph-BINARY_NONZERO_XOR' }
+
+"XOR" binary winding map filter for use with Graph.binaryResult.
+
+This combines both shapes together so that a point is in the resulting shape if it is only in exactly one of the
+input shapes. It's like the union minus intersection.
+
+@param windingMap - See computeFaceInclusion for more details
+
+#### binaryResult( shapeA : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, shapeB : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, windingMapFilter : <span style="font-weight: 400;">( windingMap: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-binaryResult data-toc-label='Graph-binaryResult' }
+
+Returns the resulting Shape obtained by combining the two shapes given with the filter.
+
+#### unionNonZero( shapes : <span style="font-weight: 400;">[Shape](../kite/Shape.md)[]</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-unionNonZero data-toc-label='Graph-unionNonZero' }
+
+Returns the union of an array of shapes.
+
+#### intersectionNonZero( shapes : <span style="font-weight: 400;">[Shape](../kite/Shape.md)[]</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-intersectionNonZero data-toc-label='Graph-intersectionNonZero' }
+
+Returns the intersection of an array of shapes.
+
+#### xorNonZero( shapes : <span style="font-weight: 400;">[Shape](../kite/Shape.md)[]</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-xorNonZero data-toc-label='Graph-xorNonZero' }
+
+Returns the xor of an array of shapes.
+
+TODO: reduce code duplication? https://github.com/phetsims/kite/issues/76
+
+#### simplifyNonZero( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-simplifyNonZero data-toc-label='Graph-simplifyNonZero' }
+
+Returns a simplified Shape obtained from running it through the simplification steps with non-zero output.
+
+#### clipShape( clipAreaShape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span>, providedOptions? : <span style="font-weight: 400;">[GraphClipOptions](../kite/Shape.md#GraphClipOptions)</span> ) : <span style="font-weight: 400;">[Shape](../kite/Shape.md)</span> {: #Graph-clipShape data-toc-label='Graph-clipShape' }
+
+Returns a clipped version of `shape` that contains only the parts that are within the area defined by
+`clipAreaShape`
+
+
+
+## Type GraphAddOptions {: #GraphAddOptions }
+
+
+```js
+import type { GraphAddOptions } from 'scenerystack/kite';
+```
+
+
+- **ensureClosed**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
+## Type GraphClipOptions {: #GraphClipOptions }
+
+
+```js
+import type { GraphClipOptions } from 'scenerystack/kite';
+```
+
+
+- **includeExterior**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Respectively whether segments should be in the returned shape if they are in the exterior of the
+  clipAreaShape (outside), on the boundary, or in the interior.
+- **includeBoundary**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **includeInterior**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
 ## Type NonlinearTransformedOptions {: #NonlinearTransformedOptions }
 
 
@@ -690,6 +928,28 @@ import type { NonlinearTransformedOptions } from 'scenerystack/kite';
 - **includeCurvature**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  whether to include a default curveEpsilon (usually off by default)
 - &amp; [PiecewiseLinearOptions](../kite/Segment.md#PiecewiseLinearOptions)
+
+
+
+
+## Type SerializedGraph {: #SerializedGraph }
+
+
+```js
+import type { SerializedGraph } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Graph](../kite/Shape.md#Graph)"
+- **vertices**: [SerializedVertex](../kite/Vertex.md#SerializedVertex)[]
+- **edges**: [SerializedEdge](../kite/Edge.md#SerializedEdge)[]
+- **boundaries**: [SerializedBoundary](../kite/Boundary.md#SerializedBoundary)[]
+- **innerBoundaries**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **outerBoundaries**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **shapeIds**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **loops**: [SerializedLoop](../kite/Loop.md#SerializedLoop)[]
+- **unboundedFace**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **faces**: [SerializedFace](../kite/Face.md#SerializedFace)[]
 
 
 
@@ -706,7 +966,7 @@ import type { SerializedShape } from 'scenerystack/kite';
 
 
 - **type**: "[Shape](../kite/Shape.md)"
-- **subpaths**: SerializedSubpath[]
+- **subpaths**: [SerializedSubpath](../kite/Subpath.md#SerializedSubpath)[]
 
 
 

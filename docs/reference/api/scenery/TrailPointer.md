@@ -24,7 +24,7 @@ import { TrailPointer } from 'scenerystack/scenery';
 
 ### Instance Methods
 
-#### isActive() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> is ActiveTrailPointer</span> {: #isActive data-toc-label='isActive' }
+#### isActive() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> is [ActiveTrailPointer](../scenery/TrailPointer.md#ActiveTrailPointer)</span> {: #isActive data-toc-label='isActive' }
 
 #### copy() : <span style="font-weight: 400;">[TrailPointer](../scenery/TrailPointer.md)</span> {: #copy data-toc-label='copy' }
 
@@ -73,7 +73,7 @@ Moves this pointer backwards one step in the nested order
 Treats the pointer as render-ordered (includes the start pointer 'before' if applicable, excludes the end pointer
 'before' if applicable
 
-#### eachTrailBetween( other : <span style="font-weight: 400;">[TrailPointer](../scenery/TrailPointer.md)</span>, callback : <span style="font-weight: 400;">TrailCallback</span> ) {: #eachTrailBetween data-toc-label='eachTrailBetween' }
+#### eachTrailBetween( other : <span style="font-weight: 400;">[TrailPointer](../scenery/TrailPointer.md)</span>, callback : <span style="font-weight: 400;">[TrailCallback](../scenery/Trail.md#TrailCallback)</span> ) {: #eachTrailBetween data-toc-label='eachTrailBetween' }
 
 Treats the pointer as render-ordered (includes the start pointer 'before' if applicable, excludes the end pointer
 'before' if applicable
@@ -104,6 +104,30 @@ Returns a string form of this object
 #### compareNested( trailA : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, isBeforeA : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, trailB : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, isBeforeB : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compareNested data-toc-label='compareNested' }
 
 Same as new TrailPointer( trailA, isBeforeA ).compareNested( new TrailPointer( trailB, isBeforeB ) )
+
+#### eachTrailUnder( trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, callback : <span style="font-weight: 400;">[TrailCallback](../scenery/Trail.md#TrailCallback)</span> ) {: #eachTrailUnder data-toc-label='eachTrailUnder' }
+
+Calls callback( trail ) for this trail, and each descendant trail. If callback returns true, subtree will be skipped
+
+#### eachPaintedTrailBetween( a : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, b : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, callback : <span style="font-weight: 400;">( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, excludeEndTrails : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #eachPaintedTrailBetween data-toc-label='eachPaintedTrailBetween' }
+
+Like eachTrailBetween, but only fires for painted trails. If callback returns true, subtree will be skipped
+
+#### eachTrailBetween( a : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, b : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, callback : <span style="font-weight: 400;">( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, excludeEndTrails : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #eachTrailBetween data-toc-label='eachTrailBetween' }
+
+Global way of iterating across trails. when callback returns true, subtree will be skipped
+
+
+
+## Type ActiveTrailPointer {: #ActiveTrailPointer }
+
+
+```js
+import type { ActiveTrailPointer } from 'scenerystack/scenery';
+```
+
+
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[TrailPointer](../scenery/TrailPointer.md), "trail"&gt;
 
 
 

@@ -6,6 +6,36 @@ Represents a face with a main (positive-oriented) boundary and zero or more (neg
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type FaceHoleLog {: #FaceHoleLog }
+
+
+```js
+import type { FaceHoleLog } from 'scenerystack/alpenglow';
+```
+
+
+- **entries**: [FaceHoleLogEntry](../alpenglow/RationalFace.md#FaceHoleLogEntry)[]
+
+
+
+
+## Type FaceHoleLogEntry {: #FaceHoleLogEntry }
+
+
+```js
+import type { FaceHoleLogEntry } from 'scenerystack/alpenglow';
+```
+
+
+- **outerBoundary**: [RationalBoundary](../alpenglow/RationalBoundary.md)
+- **maxIntersectionX**?: [BigRational](../alpenglow/BigRational.md)
+- **maxIntersectionEdge**?: [RationalHalfEdge](../alpenglow/RationalHalfEdge.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **maxIntersectionIsVertex**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **connectedFace**?: [RationalFace](../alpenglow/RationalFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
+
+
+
 ## Class RationalFace {: #RationalFace }
 
 
@@ -56,7 +86,7 @@ Returns the fully exterior boundaries (should be singular in the rendering case,
 rectangle, HOWEVER can be multiples otherwise)
 NOTE: mutates faces order
 
-#### computeFaceHoles( integerBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, outerBoundaries : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)[]</span>, faces : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md)[]</span>, faceHoleLog : <span style="font-weight: 400;">FaceHoleLog | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)</span> {: #computeFaceHoles data-toc-label='computeFaceHoles' }
+#### computeFaceHoles( integerBounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span>, outerBoundaries : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)[]</span>, faces : <span style="font-weight: 400;">[RationalFace](../alpenglow/RationalFace.md)[]</span>, faceHoleLog : <span style="font-weight: 400;">[FaceHoleLog](../alpenglow/RationalFace.md#FaceHoleLog) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">[RationalBoundary](../alpenglow/RationalBoundary.md)</span> {: #computeFaceHoles data-toc-label='computeFaceHoles' }
 
 Returns the fully exterior boundary (should be singular, since we added the exterior rectangle)
 TODO: DOUBTS on the correctness of this, the filtering of boundaries seems sketchy. Probably not as high-performance

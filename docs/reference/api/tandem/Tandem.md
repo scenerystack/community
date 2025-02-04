@@ -174,6 +174,10 @@ If PhET-iO is enabled in this runtime.
 
 If PhET-iO is running with validation enabled.
 
+#### apiValidationEnabled {: #apiValidationEnabled data-toc-label='apiValidationEnabled' }
+
+If phetioAPIValidation is enabled, this is mostly just readonly, except some internal logic for phet-io startup and qunit testing
+
 #### METADATA_KEY {: #METADATA_KEY data-toc-label='METADATA_KEY' }
 
 (readonly)

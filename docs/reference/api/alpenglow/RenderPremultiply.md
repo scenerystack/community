@@ -6,26 +6,6 @@ RenderProgram to premultiply the input color
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderPremultiply {: #RenderPremultiply }
-
-
-```js
-import { RenderPremultiply } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderPremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderPremultiply-constructor data-toc-label='new RenderPremultiply' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderPremultiply](../alpenglow/RenderPremultiply.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-
-
 ## Class RenderInstructionPremultiply {: #RenderInstructionPremultiply }
 
 
@@ -49,6 +29,26 @@ import { RenderInstructionPremultiply } from 'scenerystack/alpenglow';
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionPremultiply](../alpenglow/RenderPremultiply.md#RenderInstructionPremultiply)</span> {: #RenderInstructionPremultiply-INSTANCE data-toc-label='RenderInstructionPremultiply-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderPremultiply {: #RenderPremultiply }
+
+
+```js
+import { RenderPremultiply } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderPremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderPremultiply-constructor data-toc-label='new RenderPremultiply' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderPremultiply](../alpenglow/RenderPremultiply.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 

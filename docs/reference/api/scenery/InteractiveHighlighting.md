@@ -29,7 +29,7 @@ import type { InteractiveHighlightingOptions } from 'scenerystack/scenery';
 ```
 
 
-- **interactiveHighlight**?: [Highlight](../scenery/HighlightOverlay.md#Highlight)
+- **interactiveHighlight**?: [Highlight](../scenery/Highlight.md)
 - **interactiveHighlightLayerable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **interactiveHighlightEnabled**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 

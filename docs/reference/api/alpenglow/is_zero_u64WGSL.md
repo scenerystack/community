@@ -2,7 +2,9 @@
 
 ## Overview
 
+Checks whether a u64 is zero
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

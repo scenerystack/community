@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts a linear sRGB color to the linear Display-P3 color space
 
+See RenderColor.linearToLinearDisplayP3 for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

@@ -2,7 +2,9 @@
 
 ## Overview
 
+Converts an i32 to an i64.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

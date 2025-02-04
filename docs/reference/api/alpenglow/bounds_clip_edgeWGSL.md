@@ -2,7 +2,9 @@
 
 ## Overview
 
+Bounds-clips a specific edge, returning a certain number of edges that are within the bounds.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

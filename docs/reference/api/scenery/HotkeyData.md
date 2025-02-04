@@ -15,7 +15,7 @@ import { HotkeyData } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HotkeyData( providedOptions : <span style="font-weight: 400;">HotkeyDataOptions</span> ) {: #HotkeyData-constructor data-toc-label='new HotkeyData' }
+#### new HotkeyData( providedOptions : <span style="font-weight: 400;">[HotkeyDataOptions](../scenery/HotkeyData.md#HotkeyDataOptions)</span> ) {: #HotkeyData-constructor data-toc-label='new HotkeyData' }
 
 ### Instance Methods
 
@@ -61,6 +61,29 @@ multiple HotkeyData for a single KeyboardListener.
 #### anyHaveKeyStroke( hotkeyDataArray : <span style="font-weight: 400;">[HotkeyData](../scenery/HotkeyData.md)[]</span>, keyStroke : <span style="font-weight: 400;">[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #anyHaveKeyStroke data-toc-label='anyHaveKeyStroke' }
 
 Returns true if any of the HotkeyData in the array have the given keyStroke.
+
+
+
+## Type HotkeyDataOptions {: #HotkeyDataOptions }
+
+
+```js
+import type { HotkeyDataOptions } from 'scenerystack/scenery';
+```
+
+
+- **keyStringProperties**: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[OneKeyStroke](../scenery/KeyDescriptor.md#OneKeyStroke)&gt;[]
+<br>  The list of keystrokes that will trigger the hotkey. Wrapping in a Property allows for i18n in the future.
+- **keyboardHelpDialogLabelStringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The visual label for this Hotkey in the Keyboard Help dialog. This will also be used as the label in
+  generated documentation, unless binderName is provided.
+- **keyboardHelpDialogPDOMLabelStringProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  The PDOM label and description for this Hotkey in the Keyboard Help dialog.
+- **repoName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+<br>  Data for binder (generated documentation).
+- **global**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **binderName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+
 
 
 

@@ -194,7 +194,9 @@ import type { NumberControlOptions } from 'scenerystack/scenery-phet';
 - **sliderOptions**?: [NumberControlSliderOptions](../scenery-phet/NumberControl.md#NumberControlSliderOptions)
 - **arrowButtonOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[ArrowButtonOptions](../sun/ArrowButton.md#ArrowButtonOptions), "fireOnDown"&gt; &amp; { enabledEpsilon?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; leftStart?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; leftEnd?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; rightStart?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>; rightEnd?: ( over: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> }
 <br>  fireOnDown is buggy, so omit it, see https://github.com/phetsims/scenery-phet/issues/825
-- **titleNodeOptions**?: [TextOptions](../scenery/Text.md#TextOptions)
+- **useRichText**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **titleNodeOptions**?: [TextOptions](../scenery/Text.md#TextOptions) | [RichTextOptions](../scenery/RichText.md#RichTextOptions)
+<br>  options passed to Text or RichText (depending on the value of options.useRichText) that displays the value
 - **enabledRangeProperty**?: [SliderOptions](../sun/Slider.md#SliderOptions)[ 'enabledRangeProperty' ]
 <br>  If provided, this will be provided to the slider and arrow buttons in order to
   constrain the range of actual values to within this range.

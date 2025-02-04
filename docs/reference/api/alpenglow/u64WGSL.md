@@ -2,7 +2,11 @@
 
 ## Overview
 
+Alias for u64, which is not yet supported in WGSL.
 
+Unsigned integer, v.x being the lower 32 bits and v.y being the upper 32 bits.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

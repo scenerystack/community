@@ -82,8 +82,6 @@ TODO: check examples, tests
 
 #### setSat( c : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span>, s : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #setSat data-toc-label='setSat' }
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderBlendCompose](../alpenglow/RenderBlendCompose.md#SerializedRenderBlendCompose)</span> ) : <span style="font-weight: 400;">[RenderBlendCompose](../alpenglow/RenderBlendCompose.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Class RenderBlendComposeLogic {: #RenderBlendComposeLogic }

@@ -2,7 +2,9 @@
 
 ## Overview
 
+Adds two i64s together, returning an i64.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

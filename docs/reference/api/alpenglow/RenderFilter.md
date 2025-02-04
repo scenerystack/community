@@ -49,8 +49,6 @@ import { RenderFilter } from 'scenerystack/alpenglow';
 
 #### applyFilter( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, colorMatrix : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span>, colorTranslation : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #applyFilter data-toc-label='applyFilter' }
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderFilter](../alpenglow/RenderFilter.md#SerializedRenderFilter)</span> ) : <span style="font-weight: 400;">[RenderFilter](../alpenglow/RenderFilter.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Class RenderFilterLogic {: #RenderFilterLogic }

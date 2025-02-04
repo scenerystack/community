@@ -2,7 +2,9 @@
 
 ## Overview
 
+Converts unpremultiplied color to premultiplied color.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

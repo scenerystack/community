@@ -2,12 +2,14 @@
 
 ## Overview
 
-Like Vector2, but with BigInts
 
-@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 ## Class BigIntVector2 {: #BigIntVector2 }
 
+
+Like Vector2, but with BigInts
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 ```js
 import { BigIntVector2 } from 'scenerystack/alpenglow';

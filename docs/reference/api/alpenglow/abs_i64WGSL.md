@@ -2,7 +2,9 @@
 
 ## Overview
 
+Absolute value of an i64 (yes, it will probably just be an u64 after)
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

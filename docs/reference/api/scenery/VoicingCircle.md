@@ -22,6 +22,18 @@ import { VoicingCircle } from 'scenerystack/scenery';
 
 
 
+## Type VoicingCircleOptions {: #VoicingCircleOptions }
+
+
+```js
+import type { VoicingCircleOptions } from 'scenerystack/scenery';
+```
+
+
+[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [CircleOptions](../scenery/Circle.md#CircleOptions)
+
+
+
 ## Source Code
 
 See the source for [VoicingCircle.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/VoicingCircle.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts an oklab color to the linear sRGB color space.
 
+See RenderColor.oklabToLinear for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

@@ -18,7 +18,7 @@ import { SVGGradientStop } from 'scenerystack/scenery';
 
 ### Instance Methods
 
-#### isActiveSVGGradientStop() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> is ActiveSVGGradientStop</span> {: #isActiveSVGGradientStop data-toc-label='isActiveSVGGradientStop' }
+#### isActiveSVGGradientStop() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span> is [ActiveSVGGradientStop](../scenery/SVGGradientStop.md#ActiveSVGGradientStop)</span> {: #isActiveSVGGradientStop data-toc-label='isActiveSVGGradientStop' }
 
 #### initialize( svgGradient : <span style="font-weight: 400;">[ActiveSVGGradient](../scenery/SVGGradient.md#ActiveSVGGradient)</span>, ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, color : <span style="font-weight: 400;">[TColor](../scenery/TColor.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #initialize data-toc-label='initialize' }
 
@@ -51,6 +51,18 @@ transient
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
 (readonly)
+
+
+
+## Type ActiveSVGGradientStop {: #ActiveSVGGradientStop }
+
+
+```js
+import type { ActiveSVGGradientStop } from 'scenerystack/scenery';
+```
+
+
+[WithoutNull](../phet-core/WithoutNull.md)&lt;[SVGGradientStop](../scenery/SVGGradientStop.md), "svgGradient"&gt;
 
 
 

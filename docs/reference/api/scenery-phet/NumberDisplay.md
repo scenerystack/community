@@ -91,7 +91,7 @@ import type { NumberDisplayOptions } from 'scenerystack/scenery-phet';
   the height of the text (as if there was no maxWidth) will be used for layout and the background.
   See https://github.com/phetsims/density/issues/34.
 - **textOptions**?: [TextOptions](../scenery/Text.md#TextOptions) | [RichTextOptions](../scenery/RichText.md#RichTextOptions)
-<br>  // options passed to Text or RichText (depending on the value of options.useRichText) that displays the value
+<br>  options passed to Text or RichText (depending on the value of options.useRichText) that displays the value
 - **xMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **yMargin**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

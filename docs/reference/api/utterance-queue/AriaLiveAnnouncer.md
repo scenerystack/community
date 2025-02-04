@@ -25,6 +25,7 @@ see https://github.com/phetsims/chipper/issues/472.
 
 @author Jesse Greenberg
 @author John Blanco
+eslint-disable-next-line phet/bad-sim-text
 
 ## Class AriaLiveAnnouncer {: #AriaLiveAnnouncer }
 

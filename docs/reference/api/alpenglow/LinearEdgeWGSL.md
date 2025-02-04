@@ -2,7 +2,9 @@
 
 ## Overview
 
+WGSL form for a LinearEdge, with a start and end point.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

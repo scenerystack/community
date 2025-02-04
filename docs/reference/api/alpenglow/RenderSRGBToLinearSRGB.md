@@ -6,26 +6,6 @@ RenderProgram to convert sRGB =&gt; linear sRGB
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderSRGBToLinearSRGB {: #RenderSRGBToLinearSRGB }
-
-
-```js
-import { RenderSRGBToLinearSRGB } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderSRGBToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderSRGBToLinearSRGB-constructor data-toc-label='new RenderSRGBToLinearSRGB' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderSRGBToLinearSRGB](../alpenglow/RenderSRGBToLinearSRGB.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-
-
 ## Class RenderInstructionSRGBToLinearSRGB {: #RenderInstructionSRGBToLinearSRGB }
 
 
@@ -49,6 +29,26 @@ import { RenderInstructionSRGBToLinearSRGB } from 'scenerystack/alpenglow';
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionSRGBToLinearSRGB](../alpenglow/RenderSRGBToLinearSRGB.md#RenderInstructionSRGBToLinearSRGB)</span> {: #RenderInstructionSRGBToLinearSRGB-INSTANCE data-toc-label='RenderInstructionSRGBToLinearSRGB-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderSRGBToLinearSRGB {: #RenderSRGBToLinearSRGB }
+
+
+```js
+import { RenderSRGBToLinearSRGB } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderSRGBToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderSRGBToLinearSRGB-constructor data-toc-label='new RenderSRGBToLinearSRGB' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderSRGBToLinearSRGB](../alpenglow/RenderSRGBToLinearSRGB.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 

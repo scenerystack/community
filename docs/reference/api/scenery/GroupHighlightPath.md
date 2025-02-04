@@ -16,11 +16,23 @@ import { GroupHighlightPath } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new GroupHighlightPath( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">GroupHighlightPathOptions</span> ) {: #GroupHighlightPath-constructor data-toc-label='new GroupHighlightPath' }
+#### new GroupHighlightPath( shape : <span style="font-weight: 400;">[Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[GroupHighlightPathOptions](../scenery/GroupHighlightPath.md#GroupHighlightPathOptions)</span> ) {: #GroupHighlightPath-constructor data-toc-label='new GroupHighlightPath' }
 
 ### Instance Methods
 
 
+
+
+
+## Type GroupHighlightPathOptions {: #GroupHighlightPathOptions }
+
+
+```js
+import type { GroupHighlightPathOptions } from 'scenerystack/scenery';
+```
+
+
+[HighlightPathOptions](../scenery/HighlightPath.md#HighlightPathOptions)
 
 
 

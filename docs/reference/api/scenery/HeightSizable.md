@@ -8,22 +8,6 @@ layout container, and the component should adjust its size so that it takes up t
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Type HeightSizableNode {: #HeightSizableNode }
-
-
-Some typescript gymnastics to provide a user-defined type guard that treats something as HeightSizable.
-We need to define an unused function with a concrete type, so that we can extract the return type of the function
-and provide a type for a Node that extends this type.
-
-```js
-import type { HeightSizableNode } from 'scenerystack/scenery';
-```
-
-
-[Node](../scenery/Node.md) &amp; [THeightSizable](../scenery/HeightSizable.md#THeightSizable)
-
-
-
 ## Type HeightSizableOptions {: #HeightSizableOptions }
 
 

@@ -2,14 +2,12 @@
 
 ## Overview
 
-
-
-## Class ColorProperty {: #ColorProperty }
-
-
 Convenience type for creating Property.&lt;Color&gt;
 
 @author Sam Reid (PhET Interactive Simulations)
+
+## Class ColorProperty {: #ColorProperty }
+
 
 ```js
 import { ColorProperty } from 'scenerystack/scenery';

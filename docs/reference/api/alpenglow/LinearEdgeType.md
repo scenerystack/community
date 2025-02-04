@@ -2,7 +2,11 @@
 
 ## Overview
 
+ConcreteType for a LinearEdge
 
+TODO auto create?
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

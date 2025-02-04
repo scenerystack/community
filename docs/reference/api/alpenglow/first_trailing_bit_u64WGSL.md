@@ -2,7 +2,11 @@
 
 ## Overview
 
+Returns the position of the first trailing bit (least significant bit) in a u64.
 
+NOTE: ASSUMES NONZERO
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

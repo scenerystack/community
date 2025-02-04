@@ -46,10 +46,6 @@ import { RenderBarycentricBlend } from 'scenerystack/alpenglow';
 
 (readonly)
 
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderBarycentricBlend](../alpenglow/RenderBarycentricBlend.md#SerializedRenderBarycentricBlend)</span> ) : <span style="font-weight: 400;">[RenderBarycentricBlend](../alpenglow/RenderBarycentricBlend.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Class RenderBarycentricBlendLogic {: #RenderBarycentricBlendLogic }

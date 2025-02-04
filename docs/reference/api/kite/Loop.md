@@ -22,48 +22,54 @@ import { Loop } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### initialize( shapeId, closed ) {: #initialize data-toc-label='initialize' }
-
-Similar to a usual constructor, but is set up so it can be called multiple times (with dispose() in-between) to
-support pooling.
-@private
-
-@param {number} shapeId
-@param {boolean} closed
-@returns {Loop} - This reference for chaining
-
-#### serialize() {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedLoop](../kite/Loop.md#SerializedLoop)</span> {: #serialize data-toc-label='serialize' }
 
 Returns an object form that can be turned back into a segment with the corresponding deserialize method.
-@public
-
-@returns {Object}
-
-#### toSubpath() {: #toSubpath data-toc-label='toSubpath' }
-
-Returns a Subpath equivalent to this loop.
-@public
-
-@returns {Subpath}
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
 Removes references (so it can allow other objects to be GC'ed or pooled), and frees itself to the pool so it
 can be reused.
-@public
 
 #### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
-@public
+### Instance Properties
+
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
+
+(readonly)
+
+#### shapeId {: #shapeId data-toc-label='shapeId' }
+
+Set in initialize
+
+#### closed {: #closed data-toc-label='closed' }
+
+#### halfEdges : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)[]</span> {: #halfEdges data-toc-label='halfEdges' }
 
 ### Static Properties
 
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
-@public
+
+
+## Type SerializedLoop {: #SerializedLoop }
+
+
+```js
+import type { SerializedLoop } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Loop](../kite/Loop.md)"
+- **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **shapeId**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **closed**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **halfEdges**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+
 
 
 
 ## Source Code
 
-See the source for [Loop.js](https://github.com/phetsims/kite/blob/main/js/ops/Loop.js) in the [kite](https://github.com/phetsims/kite) repository.
+See the source for [Loop.ts](https://github.com/phetsims/kite/blob/main/js/ops/Loop.ts) in the [kite](https://github.com/phetsims/kite) repository.

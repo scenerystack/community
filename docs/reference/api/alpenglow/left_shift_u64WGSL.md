@@ -2,7 +2,9 @@
 
 ## Overview
 
+Left-shifts a u64 by a u32.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

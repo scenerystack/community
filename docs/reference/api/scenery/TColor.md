@@ -2,15 +2,13 @@
 
 ## Overview
 
-
-
-## Type TColor {: #TColor }
-
-
 Type representing a ColorDef
 Please see Color.toColor() for a way to transform these colors.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Type TColor {: #TColor }
+
 
 ```js
 import type { TColor } from 'scenerystack/scenery';

@@ -21,7 +21,7 @@ import { PropertyStateHandler } from 'scenerystack/axon';
 
 ### Instance Methods
 
-#### initialize( phetioStateEngine : <span style="font-weight: 400;">[TPhetioStateEngine](../tandem/TPhetioStateEngine.md)</span> ) {: #initialize data-toc-label='initialize' }
+#### initialize( phetioStateEngine : <span style="font-weight: 400;">[TPhetioStateEngine](../tandem/TPhetioStateEngine.md)</span>, ReadOnlyPropertyConstructor : <span style="font-weight: 400;">typeof [ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> ) {: #initialize data-toc-label='initialize' }
 
 #### registerPhetioOrderDependency( beforeProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span>, beforePhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span>, afterProperty : <span style="font-weight: 400;">[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span>, afterPhase : <span style="font-weight: 400;">[PropertyStatePhase](../axon/PropertyStatePhase.md)</span> ) {: #registerPhetioOrderDependency data-toc-label='registerPhetioOrderDependency' }
 

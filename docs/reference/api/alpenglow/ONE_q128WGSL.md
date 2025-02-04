@@ -2,7 +2,9 @@
 
 ## Overview
 
+Zero constant for q128
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

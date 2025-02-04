@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts i64 numerator and denominator to a rational q128.
 
+Basically, we just ensure the denominator is positive (negating both if it is negative).
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

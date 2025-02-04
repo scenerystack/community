@@ -41,8 +41,6 @@ splitting into each possible non-zero-area combination.
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderDepthSort](../alpenglow/RenderDepthSort.md#SerializedRenderDepthSort)</span> ) : <span style="font-weight: 400;">[RenderDepthSort](../alpenglow/RenderDepthSort.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 #### getProjectionMatrix( near : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, far : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Matrix4](../dot/Matrix4.md)</span> {: #getProjectionMatrix data-toc-label='getProjectionMatrix' }
 
 

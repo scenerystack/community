@@ -22,7 +22,7 @@ import { RenderRadialBlend } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderRadialBlend( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, radius0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radius1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlend.md#RenderRadialBlendAccuracy)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span> ) {: #RenderRadialBlend-constructor data-toc-label='new RenderRadialBlend' }
+#### new RenderRadialBlend( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, radius0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radius1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlendAccuracy.md)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderRadialBlendLogic](../alpenglow/RenderRadialBlendLogic.md)</span> ) {: #RenderRadialBlend-constructor data-toc-label='new RenderRadialBlend' }
 
 ### Instance Methods
 
@@ -48,35 +48,7 @@ import { RenderRadialBlend } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### logic : <span style="font-weight: 400;">[RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span> {: #logic data-toc-label='logic' }
-
-(readonly)
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderRadialBlend](../alpenglow/RenderRadialBlend.md#SerializedRenderRadialBlend)</span> ) : <span style="font-weight: 400;">[RenderRadialBlend](../alpenglow/RenderRadialBlend.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderRadialBlendLogic {: #RenderRadialBlendLogic }
-
-
-```js
-import { RenderRadialBlendLogic } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderRadialBlendLogic( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, radius0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radius1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlend.md#RenderRadialBlendAccuracy)</span> ) {: #RenderRadialBlendLogic-RenderRadialBlendLogic-constructor data-toc-label='new RenderRadialBlendLogic-RenderRadialBlendLogic' }
-
-### Instance Methods
-
-#### equals( other : <span style="font-weight: 400;">[RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderRadialBlendLogic-equals data-toc-label='RenderRadialBlendLogic-equals' }
-
-#### computeLinearValue( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderRadialBlendLogic-computeLinearValue data-toc-label='RenderRadialBlendLogic-computeLinearValue' }
-
-### Instance Properties
-
-#### inverseTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> {: #RenderRadialBlendLogic-inverseTransform data-toc-label='RenderRadialBlendLogic-inverseTransform' }
+#### logic : <span style="font-weight: 400;">[RenderRadialBlendLogic](../alpenglow/RenderRadialBlendLogic.md)</span> {: #logic data-toc-label='logic' }
 
 (readonly)
 
@@ -94,7 +66,7 @@ import type { SerializedRenderRadialBlend } from 'scenerystack/alpenglow';
 - **transform**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **radius0**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **radius1**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **accuracy**: [RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlend.md#RenderRadialBlendAccuracy)
+- **accuracy**: [RenderRadialBlendAccuracy](../alpenglow/RenderRadialBlendAccuracy.md)
 - **zero**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 - **one**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 

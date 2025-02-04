@@ -6,6 +6,32 @@ RenderProgram for normalizing the result of another RenderProgram
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Class RenderInstructionNormalize {: #RenderInstructionNormalize }
+
+
+```js
+import { RenderInstructionNormalize } from 'scenerystack/alpenglow';
+```
+### Instance Methods
+
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionNormalize-toString data-toc-label='RenderInstructionNormalize-toString' }
+
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionNormalize-equals data-toc-label='RenderInstructionNormalize-equals' }
+
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionNormalize-execute data-toc-label='RenderInstructionNormalize-execute' }
+
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionNormalize-writeBinary data-toc-label='RenderInstructionNormalize-writeBinary' }
+
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionNormalize-getBinaryLength data-toc-label='RenderInstructionNormalize-getBinaryLength' }
+
+### Static Properties
+
+#### INSTANCE : <span style="font-weight: 400;">[RenderInstructionNormalize](../alpenglow/RenderNormalize.md#RenderInstructionNormalize)</span> {: #RenderInstructionNormalize-INSTANCE data-toc-label='RenderInstructionNormalize-INSTANCE' }
+
+(readonly)
+
+
+
 ## Class RenderNormalize {: #RenderNormalize }
 
 
@@ -31,36 +57,6 @@ import { RenderNormalize } from 'scenerystack/alpenglow';
 #### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 #### serialize() : <span style="font-weight: 400;">[SerializedRenderNormalize](../alpenglow/RenderNormalize.md#SerializedRenderNormalize)</span> {: #serialize data-toc-label='serialize' }
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderNormalize](../alpenglow/RenderNormalize.md#SerializedRenderNormalize)</span> ) : <span style="font-weight: 400;">[RenderNormalize](../alpenglow/RenderNormalize.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderInstructionNormalize {: #RenderInstructionNormalize }
-
-
-```js
-import { RenderInstructionNormalize } from 'scenerystack/alpenglow';
-```
-### Instance Methods
-
-#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionNormalize-toString data-toc-label='RenderInstructionNormalize-toString' }
-
-#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionNormalize-equals data-toc-label='RenderInstructionNormalize-equals' }
-
-#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionNormalize-execute data-toc-label='RenderInstructionNormalize-execute' }
-
-#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionNormalize-writeBinary data-toc-label='RenderInstructionNormalize-writeBinary' }
-
-#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionNormalize-getBinaryLength data-toc-label='RenderInstructionNormalize-getBinaryLength' }
-
-### Static Properties
-
-#### INSTANCE : <span style="font-weight: 400;">[RenderInstructionNormalize](../alpenglow/RenderNormalize.md#RenderInstructionNormalize)</span> {: #RenderInstructionNormalize-INSTANCE data-toc-label='RenderInstructionNormalize-INSTANCE' }
-
-(readonly)
 
 
 

@@ -17,136 +17,83 @@ import { RendererSummary } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new RendererSummary( node ) {: #RendererSummary-constructor data-toc-label='new RendererSummary' }
+#### new RendererSummary( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #RendererSummary-constructor data-toc-label='new RendererSummary' }
 
 ### Instance Methods
 
-#### summaryChange( oldBitmask, newBitmask ) {: #summaryChange data-toc-label='summaryChange' }
+#### summaryChange( oldBitmask : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, newBitmask : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #summaryChange data-toc-label='summaryChange' }
 
 Use a bitmask of all 1s to represent 'does not exist' since we count zeros
-@public
-
-@param {number} oldBitmask
-@param {number} newBitmask
 
 #### selfChange() {: #selfChange data-toc-label='selfChange' }
 
-@public
+#### isSubtreeFullyCompatible( renderer : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSubtreeFullyCompatible data-toc-label='isSubtreeFullyCompatible' }
 
-#### computeBitmask() {: #computeBitmask data-toc-label='computeBitmask' }
-
-@private
-
-@returns {number}
-
-#### isSubtreeFullyCompatible( renderer ) {: #isSubtreeFullyCompatible data-toc-label='isSubtreeFullyCompatible' }
-
-@public
 Is the renderer compatible with every single painted node under this subtree?
 (Can this entire sub-tree be rendered with just this renderer)
 
-@param {number} renderer - Single bit preferred. If multiple bits set, requires ALL painted nodes are compatible
-                           with ALL of the bits.
+@param renderer - Single bit preferred. If multiple bits set, requires ALL painted nodes are compatible
+                  with ALL of the bits.
 
-#### isSubtreeContainingCompatible( renderer ) {: #isSubtreeContainingCompatible data-toc-label='isSubtreeContainingCompatible' }
+#### isSubtreeContainingCompatible( renderer : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSubtreeContainingCompatible data-toc-label='isSubtreeContainingCompatible' }
 
-@public
 Is the renderer compatible with at least one painted node under this subtree?
 
-@param {number} renderer - Single bit preferred. If multiple bits set, will return if a single painted node is
-                           compatible with at least one of the bits.
+@param renderer - Single bit preferred. If multiple bits set, will return if a single painted node is
+                  compatible with at least one of the bits.
 
-#### isSingleCanvasSupported() {: #isSingleCanvasSupported data-toc-label='isSingleCanvasSupported' }
+#### isSingleCanvasSupported() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSingleCanvasSupported data-toc-label='isSingleCanvasSupported' }
 
-@public
+#### isSingleSVGSupported() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSingleSVGSupported data-toc-label='isSingleSVGSupported' }
 
-@returns {boolean}
+#### isNotPainted() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isNotPainted data-toc-label='isNotPainted' }
 
-#### isSingleSVGSupported() {: #isSingleSVGSupported data-toc-label='isSingleSVGSupported' }
+#### hasNoPDOM() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasNoPDOM data-toc-label='hasNoPDOM' }
 
-@public
+#### areBoundsValid() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #areBoundsValid data-toc-label='areBoundsValid' }
 
-@returns {boolean}
-
-#### isNotPainted() {: #isNotPainted data-toc-label='isNotPainted' }
-
-@public
-
-@returns {boolean}
-
-#### hasNoPDOM() {: #hasNoPDOM data-toc-label='hasNoPDOM' }
-
-@public
-
-@returns {boolean}
-
-#### areBoundsValid() {: #areBoundsValid data-toc-label='areBoundsValid' }
-
-@public
-
-@returns {boolean}
-
-#### isSubtreeRenderedExclusivelySVG( preferredRenderers ) {: #isSubtreeRenderedExclusivelySVG data-toc-label='isSubtreeRenderedExclusivelySVG' }
+#### isSubtreeRenderedExclusivelySVG( preferredRenderers : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSubtreeRenderedExclusivelySVG data-toc-label='isSubtreeRenderedExclusivelySVG' }
 
 Given a bitmask representing a list of ordered preferred renderers, we check to see if all of our nodes can be
 displayed in a single SVG block, AND that given the preferred renderers, that it will actually happen in our
 rendering process.
-@public
 
-@param {number} preferredRenderers
-@returns {boolean}
-
-#### isSubtreeRenderedExclusivelyCanvas( preferredRenderers ) {: #isSubtreeRenderedExclusivelyCanvas data-toc-label='isSubtreeRenderedExclusivelyCanvas' }
+#### isSubtreeRenderedExclusivelyCanvas( preferredRenderers : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isSubtreeRenderedExclusivelyCanvas data-toc-label='isSubtreeRenderedExclusivelyCanvas' }
 
 Given a bitmask representing a list of ordered preferred renderers, we check to see if all of our nodes can be
 displayed in a single Canvas block, AND that given the preferred renderers, that it will actually happen in our
 rendering process.
-@public
-
-@param {number} preferredRenderers
-@returns {boolean}
 
 #### audit() {: #audit data-toc-label='audit' }
 
 For debugging purposes
-@public
 
-#### toString() {: #toString data-toc-label='toString' }
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Returns a string form of this object
-@public
-
-@returns {string}
 
 ### Static Methods
 
-#### summaryBitmaskForNodeSelf( node ) {: #summaryBitmaskForNodeSelf data-toc-label='summaryBitmaskForNodeSelf' }
+#### summaryBitmaskForNodeSelf( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #summaryBitmaskForNodeSelf data-toc-label='summaryBitmaskForNodeSelf' }
 
 Determines which of the summary bits can be set for a specific Node (ignoring children/ancestors).
 For instance, for bitmaskSingleSVG, we only don't include the flag if THIS node prevents its usage
 (even though child nodes may prevent it in the renderer summary itself).
-@public
 
-@param {Node} node
-
-#### bitToString( bit ) {: #bitToString data-toc-label='bitToString' }
+#### bitToString( bit : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #bitToString data-toc-label='bitToString' }
 
 For debugging purposes
-@public
 
-@param {number} bit
-@returns {string}
-
-#### bitmaskToString( bitmask ) {: #bitmaskToString data-toc-label='bitmaskToString' }
+#### bitmaskToString( bitmask : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #bitmaskToString data-toc-label='bitmaskToString' }
 
 For debugging purposes
-@public
 
-@param {number} bitmask
-@returns {string}
+### Static Properties
+
+#### bitmaskAll {: #bitmaskAll data-toc-label='bitmaskAll' }
 
 
 
 ## Source Code
 
-See the source for [RendererSummary.js](https://github.com/phetsims/scenery/blob/main/js/util/RendererSummary.js) in the [scenery](https://github.com/phetsims/scenery) repository.
+See the source for [RendererSummary.ts](https://github.com/phetsims/scenery/blob/main/js/util/RendererSummary.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

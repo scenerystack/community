@@ -95,7 +95,7 @@ vector.
 
 #### roundedSymmetric() : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #roundedSymmetric data-toc-label='roundedSymmetric' }
 
-Returns a copy of this vector with each component rounded by Utils.roundSymmetric.
+Returns a copy of this vector with each component rounded by roundSymmetric.
 
 This is the immutable form of the function roundSymmetric(). This will return a new vector, and will not modify
 this vector.
@@ -201,10 +201,6 @@ The average (midpoint) between this vector and another vector.
 #### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Debugging string for the vector.
-
-#### toVector3() : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #toVector3 data-toc-label='toVector3' }
-
-Converts this to a 3-dimensional vector, discarding the w-component.
 
 #### setXYZW( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #setXYZW data-toc-label='setXYZW' }
 
@@ -328,10 +324,14 @@ returning this vector itself.
 
 #### roundSymmetric() : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #roundSymmetric data-toc-label='roundSymmetric' }
 
-Rounds each component of this vector with Utils.roundSymmetric.
+Rounds each component of this vector with roundSymmetric.
 
 This is the mutable form of the function roundedSymmetric(). This will mutate (change) this vector, in addition
 to returning the vector itself.
+
+#### toStateObject() : <span style="font-weight: 400;">[Vector4StateObject](../dot/Vector4.md#Vector4StateObject)</span> {: #toStateObject data-toc-label='toStateObject' }
+
+Returns a duck-typed object meant for use with tandem/phet-io serialization.
 
 #### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
@@ -357,6 +357,16 @@ The W coordinate of the vector.
 
 #### dimension : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #dimension data-toc-label='dimension' }
 
+### Static Methods
+
+#### fromStateObject( stateObject : <span style="font-weight: 400;">[Vector4StateObject](../dot/Vector4.md#Vector4StateObject)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #fromStateObject data-toc-label='fromStateObject' }
+
+Constructs a Vector3 from a duck-typed object, for use with tandem/phet-io deserialization.
+
+#### from( vector4Like : <span style="font-weight: 400;">PartialVector4State</span>, defaultW ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #from data-toc-label='from' }
+
+Constructs a Vector4 from any object as best as it can, if a component of the v4 is not provided, it will default to 0 (except w).
+
 ### Static Properties
 
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
@@ -372,6 +382,22 @@ The W coordinate of the vector.
 #### Z_UNIT : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #Z_UNIT data-toc-label='Z_UNIT' }
 
 #### W_UNIT : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #W_UNIT data-toc-label='W_UNIT' }
+
+
+
+## Type Vector4StateObject {: #Vector4StateObject }
+
+
+```js
+import type { Vector4StateObject } from 'scenerystack/dot';
+```
+
+
+- **x**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **y**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **z**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **w**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
 
 
 

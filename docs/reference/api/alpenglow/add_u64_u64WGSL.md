@@ -2,7 +2,9 @@
 
 ## Overview
 
+Adds two u64s together, returning a u64.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

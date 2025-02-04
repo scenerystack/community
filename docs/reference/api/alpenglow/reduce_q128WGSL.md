@@ -2,7 +2,9 @@
 
 ## Overview
 
+Reduces a q128 (rational) to its simplest form.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

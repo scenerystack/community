@@ -18,7 +18,7 @@ import { KeyStateTracker } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new KeyStateTracker( options? : <span style="font-weight: 400;">KeyStateTrackerOptions</span> ) {: #KeyStateTracker-constructor data-toc-label='new KeyStateTracker' }
+#### new KeyStateTracker( options? : <span style="font-weight: 400;">[KeyStateTrackerOptions](../scenery/KeyStateTracker.md#KeyStateTrackerOptions)</span> ) {: #KeyStateTracker-constructor data-toc-label='new KeyStateTracker' }
 
 ### Instance Methods
 
@@ -152,6 +152,18 @@ the KeyStateTracker state is captured for PhET-iO.
 
 Action which updates the state of the KeyStateTracker on key release. This is wrapped in an Action so that state
 is captured for PhET-iO.
+
+
+
+## Type KeyStateTrackerOptions {: #KeyStateTrackerOptions }
+
+
+```js
+import type { KeyStateTrackerOptions } from 'scenerystack/scenery';
+```
+
+
+[PickOptional](../phet-core/PickOptional.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
 
 

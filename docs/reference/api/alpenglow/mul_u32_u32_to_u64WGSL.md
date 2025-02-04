@@ -2,7 +2,11 @@
 
 ## Overview
 
+Multiplies two u32s together, returning a u64.
 
+TODO: karatsuba multiplication
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

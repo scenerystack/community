@@ -478,7 +478,7 @@ virtual cursor. This is one way to set a DOM Element's Accessible Name.
 
 Get the value of the aria-label attribute for this Node's primary sibling.
 
-#### setFocusHighlight( focusHighlight : <span style="font-weight: 400;">[Highlight](../scenery/HighlightOverlay.md#Highlight)</span> ) {: #setFocusHighlight data-toc-label='setFocusHighlight' }
+#### setFocusHighlight( focusHighlight : <span style="font-weight: 400;">[Highlight](../scenery/Highlight.md)</span> ) {: #setFocusHighlight data-toc-label='setFocusHighlight' }
 
 Set the focus highlight for this Node. By default, the focus highlight will be a pink rectangle that
 surrounds the Node's local bounds.  If focus highlight is set to 'invisible', the Node will not have
@@ -486,7 +486,7 @@ any highlighting when it receives focus.
 
 Use the local coordinate frame when drawing a custom highlight for this Node.
 
-#### getFocusHighlight() : <span style="font-weight: 400;">[Highlight](../scenery/HighlightOverlay.md#Highlight)</span> {: #getFocusHighlight data-toc-label='getFocusHighlight' }
+#### getFocusHighlight() : <span style="font-weight: 400;">[Highlight](../scenery/Highlight.md)</span> {: #getFocusHighlight data-toc-label='getFocusHighlight' }
 
 Get the focus highlight for this Node.
 
@@ -996,7 +996,7 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **descriptionTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **descriptionContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **appendDescription**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-- **focusHighlight**?: [Highlight](../scenery/HighlightOverlay.md#Highlight)
+- **focusHighlight**?: [Highlight](../scenery/Highlight.md)
 - **focusHighlightLayerable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **groupFocusHighlight**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **pdomVisibleProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>

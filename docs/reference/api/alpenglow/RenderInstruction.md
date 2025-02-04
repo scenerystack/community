@@ -40,16 +40,6 @@ Appends the binary form of the list of instructions to the encoder.
 NOTE: The binary form will always have an exit instruction included at the end, so multiple instruction streams
 can be written into the same buffer (and noted with offsets).
 
-#### binaryToInstructions( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> {: #binaryToInstructions data-toc-label='binaryToInstructions' }
-
-Reads the binary from from the encoder (at a specific dword offset), and returns the list of instructions.
-
-NOTE: No final "exit" is generated, since our executor for objects won't need it.
-
-#### binaryToInstruction( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span> {: #binaryToInstruction data-toc-label='binaryToInstruction' }
-
-Extracts a single instruction from the binary format at a given (32bit dword) offset.
-
 #### instructionsEquals( a : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span>, b : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #instructionsEquals data-toc-label='instructionsEquals' }
 
 Returns whether two instruction lists are equivalent (allowing for equivalent location instructions).
@@ -202,6 +192,32 @@ variable length(!)
 (readonly)
 
 Something we can pass in shader options.
+
+
+
+## Class RenderInstructionExit {: #RenderInstructionExit }
+
+
+```js
+import { RenderInstructionExit } from 'scenerystack/alpenglow';
+```
+### Instance Methods
+
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionExit-toString data-toc-label='RenderInstructionExit-toString' }
+
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionExit-equals data-toc-label='RenderInstructionExit-equals' }
+
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionExit-execute data-toc-label='RenderInstructionExit-execute' }
+
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionExit-writeBinary data-toc-label='RenderInstructionExit-writeBinary' }
+
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionExit-getBinaryLength data-toc-label='RenderInstructionExit-getBinaryLength' }
+
+### Static Properties
+
+#### INSTANCE : <span style="font-weight: 400;">[RenderInstructionExit](../alpenglow/RenderInstruction.md#RenderInstructionExit)</span> {: #RenderInstructionExit-INSTANCE data-toc-label='RenderInstructionExit-INSTANCE' }
+
+(readonly)
 
 
 

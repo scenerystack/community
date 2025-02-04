@@ -2,7 +2,9 @@
 
 ## Overview
 
+Floating-point extension for RenderExtend.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

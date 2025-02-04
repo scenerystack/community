@@ -203,18 +203,6 @@ The average (midpoint) between this vector and another vector.
 
 Debugging string for the vector.
 
-#### toVector2() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #toVector2 data-toc-label='toVector2' }
-
-Converts this to a 2-dimensional vector, discarding the z-component.
-
-#### toVector4() : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #toVector4 data-toc-label='toVector4' }
-
-Converts this to a 4-dimensional vector, with the w-component equal to 1 (useful for homogeneous coordinates).
-
-#### toVector4Zero() : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #toVector4Zero data-toc-label='toVector4Zero' }
-
-Converts this to a 4-dimensional vector, with the w-component equal to 0
-
 #### setXYZ( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #setXYZ data-toc-label='setXYZ' }
 
 Sets all of the components of this vector, returning this.
@@ -337,7 +325,7 @@ returning this vector itself.
 
 #### roundSymmetric() : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #roundSymmetric data-toc-label='roundSymmetric' }
 
-Rounds each component of this vector with Utils.roundSymmetric.
+Rounds each component of this vector with roundSymmetric.
 
 This is the mutable form of the function roundedSymmetric(). This will mutate (change) this vector, in addition
 to returning the vector itself.
@@ -384,6 +372,10 @@ Spherical linear interpolation between two unit vectors.
 #### fromStateObject( stateObject : <span style="font-weight: 400;">[Vector3StateObject](../dot/Vector3.md#Vector3StateObject)</span> ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #fromStateObject data-toc-label='fromStateObject' }
 
 Constructs a Vector3 from a duck-typed object, for use with tandem/phet-io deserialization.
+
+#### from( vector3Like : <span style="font-weight: 400;">PartialVector3State</span> ) : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #from data-toc-label='from' }
+
+Constructs a Vector3 from any object as best as it can, if a component of the v3 is not provided, it will default to 0.
 
 ### Static Properties
 

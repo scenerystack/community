@@ -6,6 +6,34 @@ RenderProgram for a phong 3d reflection model
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Class RenderInstructionPhong {: #RenderInstructionPhong }
+
+
+```js
+import { RenderInstructionPhong } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderInstructionPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numLights : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-RenderInstructionPhong-constructor data-toc-label='new RenderInstructionPhong-RenderInstructionPhong' }
+
+### Instance Methods
+
+#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionPhong-toString data-toc-label='RenderInstructionPhong-toString' }
+
+#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionPhong-equals data-toc-label='RenderInstructionPhong-equals' }
+
+#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionPhong-execute data-toc-label='RenderInstructionPhong-execute' }
+
+#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-writeBinary data-toc-label='RenderInstructionPhong-writeBinary' }
+
+#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionPhong-getBinaryLength data-toc-label='RenderInstructionPhong-getBinaryLength' }
+
+### Static Methods
+
+#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionPhong](../alpenglow/RenderPhong.md#RenderInstructionPhong)</span> {: #RenderInstructionPhong-fromBinary data-toc-label='RenderInstructionPhong-fromBinary' }
+
+
+
 ## Class RenderPhong {: #RenderPhong }
 
 
@@ -37,38 +65,6 @@ import { RenderPhong } from 'scenerystack/alpenglow';
 #### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 #### serialize() : <span style="font-weight: 400;">[SerializedRenderPhong](../alpenglow/RenderPhong.md#SerializedRenderPhong)</span> {: #serialize data-toc-label='serialize' }
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderPhong](../alpenglow/RenderPhong.md#SerializedRenderPhong)</span> ) : <span style="font-weight: 400;">[RenderPhong](../alpenglow/RenderPhong.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderInstructionPhong {: #RenderInstructionPhong }
-
-
-```js
-import { RenderInstructionPhong } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderInstructionPhong( alpha : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, numLights : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-RenderInstructionPhong-constructor data-toc-label='new RenderInstructionPhong-RenderInstructionPhong' }
-
-### Instance Methods
-
-#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionPhong-toString data-toc-label='RenderInstructionPhong-toString' }
-
-#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionPhong-equals data-toc-label='RenderInstructionPhong-equals' }
-
-#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionPhong-execute data-toc-label='RenderInstructionPhong-execute' }
-
-#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionPhong-writeBinary data-toc-label='RenderInstructionPhong-writeBinary' }
-
-#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionPhong-getBinaryLength data-toc-label='RenderInstructionPhong-getBinaryLength' }
-
-### Static Methods
-
-#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionPhong](../alpenglow/RenderPhong.md#RenderInstructionPhong)</span> {: #RenderInstructionPhong-fromBinary data-toc-label='RenderInstructionPhong-fromBinary' }
 
 
 

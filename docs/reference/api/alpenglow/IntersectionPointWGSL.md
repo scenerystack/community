@@ -2,7 +2,14 @@
 
 ## Overview
 
+Struct for rational intersection points.
 
+t0: The parametric t value for the first curve
+t1: The parametric t value for the second curve
+px: The x-coordinate of the intersection point
+py: The y-coordinate of the intersection point
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

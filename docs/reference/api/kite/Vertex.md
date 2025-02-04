@@ -16,57 +16,83 @@ import { Vertex } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### initialize( point ) {: #initialize data-toc-label='initialize' }
-
-Similar to a usual constructor, but is set up so it can be called multiple times (with dispose() in-between) to
-support pooling.
-@private
-
-@param {Vector2} point
-@returns {Vertex} - This reference for chaining
-
-#### serialize() {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedVertex](../kite/Vertex.md#SerializedVertex)</span> {: #serialize data-toc-label='serialize' }
 
 Returns an object form that can be turned back into a segment with the corresponding deserialize method.
-@public
-
-@returns {Object}
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
 Removes references (so it can allow other objects to be GC'ed or pooled), and frees itself to the pool so it
 can be reused.
-@public
 
 #### sortEdges() {: #sortEdges data-toc-label='sortEdges' }
 
 Sorts the edges in increasing angle order.
-@public
 
 #### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
-@public
+### Instance Properties
+
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
+
+(readonly)
+
+#### point : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #point data-toc-label='point' }
+
+NOTE: created in initialize. Certain things may be null when disposed (in pool)
+
+#### incidentHalfEdges : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)[]</span> {: #incidentHalfEdges data-toc-label='incidentHalfEdges' }
+
+Records the half-edge that points to (ends at) this vertex.
+
+#### visited {: #visited data-toc-label='visited' }
+
+Used for depth-first search
+
+#### visitIndex {: #visitIndex data-toc-label='visitIndex' }
+
+Visit index for bridge detection (more efficient to have inline here)
+
+#### lowIndex {: #lowIndex data-toc-label='lowIndex' }
+
+Low index for bridge detection (more efficient to have inline here)
+
+#### data : <span style="font-weight: 400;">[IntentionalAny](../phet-core/IntentionalAny.md)</span> {: #data data-toc-label='data' }
+
+Available for arbitrary client usage. -- Keep JSONable
 
 ### Static Methods
 
-#### edgeComparison( halfEdgeA, halfEdgeB ) {: #edgeComparison data-toc-label='edgeComparison' }
+#### edgeComparison( halfEdgeA : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)</span>, halfEdgeB : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #edgeComparison data-toc-label='edgeComparison' }
 
 Compare two edges for sortEdges. Should have executed that first, as it relies on information looked up in that
 process.
-@public
-
-@param {Edge} halfEdgeA
-@param {Edge} halfEdgeB
-@returns {number}
 
 ### Static Properties
 
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
-@public
+
+
+## Type SerializedVertex {: #SerializedVertex }
+
+
+```js
+import type { SerializedVertex } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Vertex](../kite/Vertex.md)"
+- **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **point**: [Vector2StateObject](../dot/Vector2.md#Vector2StateObject)
+- **incidentHalfEdges**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **visited**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **visitIndex**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **lowIndex**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+
 
 
 
 ## Source Code
 
-See the source for [Vertex.js](https://github.com/phetsims/kite/blob/main/js/ops/Vertex.js) in the [kite](https://github.com/phetsims/kite) repository.
+See the source for [Vertex.ts](https://github.com/phetsims/kite/blob/main/js/ops/Vertex.ts) in the [kite](https://github.com/phetsims/kite) repository.

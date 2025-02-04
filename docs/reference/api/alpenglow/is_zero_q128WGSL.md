@@ -2,7 +2,9 @@
 
 ## Overview
 
+Checks whether a q128 (rational) is zero
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

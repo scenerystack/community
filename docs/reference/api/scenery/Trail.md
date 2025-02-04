@@ -189,10 +189,6 @@ In the order of self-rendering
 
 Like next(), but keeps moving back until the trail goes to a node with isPainted() === true
 
-#### eachTrailUnder( callback : <span style="font-weight: 400;">TrailCallback</span> ) {: #eachTrailUnder data-toc-label='eachTrailUnder' }
-
-Calls callback( trail ) for this trail, and each descendant trail. If callback returns true, subtree will be skipped
-
 #### compare( other : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compare data-toc-label='compare' }
 
 Standard Java-style compare. -1 means this trail is before (under) the other trail, 0 means equal, and 1 means this trail is
@@ -260,14 +256,6 @@ nodes[i].children[ indices[i] ] === nodes[i+1]
 
 ### Static Methods
 
-#### eachPaintedTrailBetween( a : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, b : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, callback : <span style="font-weight: 400;">( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, excludeEndTrails : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #eachPaintedTrailBetween data-toc-label='eachPaintedTrailBetween' }
-
-Like eachTrailBetween, but only fires for painted trails. If callback returns true, subtree will be skipped
-
-#### eachTrailBetween( a : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, b : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, callback : <span style="font-weight: 400;">( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, excludeEndTrails : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> ) {: #eachTrailBetween data-toc-label='eachTrailBetween' }
-
-Global way of iterating across trails. when callback returns true, subtree will be skipped
-
 #### branchIndex( a : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, b : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #branchIndex data-toc-label='branchIndex' }
 
 The index at which the two trails diverge. If a.length === b.length === branchIndex, the trails are identical
@@ -318,13 +306,17 @@ spannedSubtrees( c, n ) -&gt; subtree( a ); NOTE: if b is painted, that wouldn't
 spannedSubtrees( h, l ) -&gt; subtree( h ); subtree( i ); subtree( j ); self( l );
 spannedSubtrees( c, i ) -&gt; [b,f] --- wait, include e self?
 
-#### fromUniqueId( rootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, uniqueId : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> {: #fromUniqueId data-toc-label='fromUniqueId' }
 
-Re-create a trail to a root node from an existing Trail id. The rootNode must have the same Id as the first
-Node id of uniqueId.
 
-@param rootNode - the root of the trail being created
-@param uniqueId - integers separated by ID_SEPARATOR, see getUniqueId
+## Type TrailCallback {: #TrailCallback }
+
+
+```js
+import type { TrailCallback } from 'scenerystack/scenery';
+```
+
+
+( ( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> ) | ( ( trail: [Trail](../scenery/Trail.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )
 
 
 

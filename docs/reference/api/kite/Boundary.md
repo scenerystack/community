@@ -15,73 +15,48 @@ import { Boundary } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### initialize( halfEdges ) {: #initialize data-toc-label='initialize' }
-
-Similar to a usual constructor, but is set up so it can be called multiple times (with dispose() in-between) to
-support pooling.
-@private
-
-@param {Array.&lt;HalfEdge&gt;} halfEdges
-@returns {Boundary} - This reference for chaining
-
-#### serialize() {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedBoundary](../kite/Boundary.md#SerializedBoundary)</span> {: #serialize data-toc-label='serialize' }
 
 Returns an object form that can be turned back into a segment with the corresponding deserialize method.
-@public
-
-@returns {Object}
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
 Removes references (so it can allow other objects to be GC'ed or pooled), and frees itself to the pool so it
 can be reused.
-@public
 
-#### isInner() {: #isInner data-toc-label='isInner' }
+#### isInner() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isInner data-toc-label='isInner' }
 
 Returns whether this boundary is essentially "counter-clockwise" (in the non-reversed coordinate system) with
 positive signed area, or "clockwise" with negative signed area.
-@public
 
 Boundaries are treated as "inner" boundaries when they are counter-clockwise, as the path followed will generally
 follow the inside of a face (given how the "next" edge of a vertex is computed).
 
-@returns {number}
-
-#### computeSignedArea() {: #computeSignedArea data-toc-label='computeSignedArea' }
+#### computeSignedArea() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #computeSignedArea data-toc-label='computeSignedArea' }
 
 Returns the signed area of this boundary, given its half edges.
-@public
 
 Each half-edge has its own contribution to the signed area, which are summed together.
 
-@returns {number}
-
-#### computeBounds() {: #computeBounds data-toc-label='computeBounds' }
+#### computeBounds() : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #computeBounds data-toc-label='computeBounds' }
 
 Returns the bounds of the boundary (the union of each of the boundary's segments' bounds).
-@public
 
-@returns {Bounds2}
-
-#### computeExtremePoint( transform ) {: #computeExtremePoint data-toc-label='computeExtremePoint' }
+#### computeExtremePoint( transform : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md)</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #computeExtremePoint data-toc-label='computeExtremePoint' }
 
 Returns a point on the boundary which, when the shape (and point) are transformed with the given transform, would
 be a point with the minimal y value.
-@public
 
 Will only return one point, even if there are multiple points that have the same minimal y values for the
 boundary. The point may be at the end of one of the edges/segments (at a vertex), but also may somewhere in the
 middle of an edge/segment.
 
-@param {Transform3} transform - Transform used because we want the inverse also.
-@returns {Vector2}
+@param transform - Transform used because we want the inverse also.
 
-#### computeExtremeRay( transform ) {: #computeExtremeRay data-toc-label='computeExtremeRay' }
+#### computeExtremeRay( transform : <span style="font-weight: 400;">[Transform3](../dot/Transform3.md)</span> ) : <span style="font-weight: 400;">[Ray2](../dot/Ray2.md)</span> {: #computeExtremeRay data-toc-label='computeExtremeRay' }
 
 Returns a ray (position and direction) pointing away from our boundary at an "extreme" point, so that the ray
 will be guaranteed not to intersect this boundary.
-@public
 
 The ray's position will be slightly offset from the boundary, so that it will not technically intersect the
 boundary where the extreme point lies. The extreme point will be chosen such that it would have the smallest
@@ -92,36 +67,50 @@ in the negative-y direction (e.g. a vector of (0,-1)). This should guarantee it 
 boundary, and will be consistent in direction with other extreme rays (needed for its use case with the
 boundary graph).
 
-@param {Transform3} transform
-@returns {Ray2}
-
-#### hasHalfEdge( halfEdge ) {: #hasHalfEdge data-toc-label='hasHalfEdge' }
+#### hasHalfEdge( halfEdge : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasHalfEdge data-toc-label='hasHalfEdge' }
 
 Returns whether this boundary includes the specified half-edge.
-@public
-
-@param {HalfEdge} halfEdge
-@returns {boolean}
-
-#### toSubpath() {: #toSubpath data-toc-label='toSubpath' }
-
-Converts this boundary to a Subpath, so that we can construct things like Shape objects from it.
-@public
-
-@returns {Subpath}
 
 #### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
-@public
+### Instance Properties
+
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
+
+(readonly)
+
+#### halfEdges : <span style="font-weight: 400;">[HalfEdge](../kite/HalfEdge.md)[]</span> {: #halfEdges data-toc-label='halfEdges' }
+
+#### signedArea {: #signedArea data-toc-label='signedArea' }
+
+#### bounds : <span style="font-weight: 400;">[Bounds2](../dot/Bounds2.md)</span> {: #bounds data-toc-label='bounds' }
+
+#### childBoundaries : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)[]</span> {: #childBoundaries data-toc-label='childBoundaries' }
 
 ### Static Properties
 
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
-@public
+
+
+## Type SerializedBoundary {: #SerializedBoundary }
+
+
+```js
+import type { SerializedBoundary } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Boundary](../kite/Boundary.md)"
+- **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **halfEdges**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **signedArea**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **bounds**: [Bounds2StateObject](../dot/Bounds2.md#Bounds2StateObject)
+- **childBoundaries**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+
 
 
 
 ## Source Code
 
-See the source for [Boundary.js](https://github.com/phetsims/kite/blob/main/js/ops/Boundary.js) in the [kite](https://github.com/phetsims/kite) repository.
+See the source for [Boundary.ts](https://github.com/phetsims/kite/blob/main/js/ops/Boundary.ts) in the [kite](https://github.com/phetsims/kite) repository.

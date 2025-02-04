@@ -2,7 +2,11 @@
 
 ## Overview
 
+Multiplies two u64s together, returning a u64 (the low 64 bits of the result)
 
+TODO: karatsuba?
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

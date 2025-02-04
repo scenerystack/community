@@ -2,7 +2,9 @@
 
 ## Overview
 
+Converts an i64 to a rational q128 (whole number).
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

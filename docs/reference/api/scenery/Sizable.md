@@ -7,19 +7,6 @@ but with added features that allow convenience of working with both dimensions a
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Type SizableNode {: #SizableNode }
-
-
-```js
-import type { SizableNode } from 'scenerystack/scenery';
-```
-
-
-- &amp; [Node](../scenery/Node.md) &amp; [TWidthSizable](../scenery/WidthSizable.md#TWidthSizable) &amp; [THeightSizable](../scenery/HeightSizable.md#THeightSizable)
-
-
-
-
 ## Type SizableOptions {: #SizableOptions }
 
 
@@ -52,6 +39,18 @@ import type { SizableOptions } from 'scenerystack/scenery';
   it's recommended to set some sort of preferred size (so that it won't go to 0)
 - &amp; [WidthSizableOptions](../scenery/WidthSizable.md#WidthSizableOptions) &amp; [HeightSizableOptions](../scenery/HeightSizable.md#HeightSizableOptions)
 
+
+
+
+## Type TSizable {: #TSizable }
+
+
+```js
+import type { TSizable } from 'scenerystack/scenery';
+```
+
+
+[TWidthSizable](../scenery/WidthSizable.md#TWidthSizable) &amp; [THeightSizable](../scenery/HeightSizable.md#THeightSizable) &amp; {  }
 
 
 

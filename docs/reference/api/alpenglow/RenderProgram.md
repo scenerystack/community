@@ -6,6 +6,20 @@ Represents an abstract rendering program, that may be location-varying
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type RenderEvaluator {: #RenderEvaluator }
+
+
+Output should be chained (the `output` parameter should be returned, for convenience)
+
+```js
+import type { RenderEvaluator } from 'scenerystack/alpenglow';
+```
+
+
+( context: [RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md), output: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)
+
+
+
 ## Class RenderProgram {: #RenderProgram }
 
 
@@ -14,7 +28,7 @@ import { RenderProgram } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderProgram( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span>, isFullyTransparent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isFullyOpaque : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsFace, needsArea, needsCentroid ) {: #RenderProgram-constructor data-toc-label='new RenderProgram' }
+#### new RenderProgram( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span>, isFullyTransparent : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, isFullyOpaque : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, needsFace, needsArea, needsCentroid, isPathBoolean ) {: #RenderProgram-constructor data-toc-label='new RenderProgram' }
 
 ### Instance Methods
 
@@ -76,8 +90,6 @@ TODO: add early exit!
 
 #### getNeeds() : <span style="font-weight: 400;">[RenderProgramNeeds](../alpenglow/RenderProgramNeeds.md)</span> {: #getNeeds data-toc-label='getNeeds' }
 
-#### colorConverted( fromSpace : <span style="font-weight: 400;">[RenderColorSpace](../alpenglow/RenderColorSpace.md)</span>, toSpace : <span style="font-weight: 400;">[RenderColorSpace](../alpenglow/RenderColorSpace.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #colorConverted data-toc-label='colorConverted' }
-
 #### toRecursiveString( indent ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toRecursiveString data-toc-label='toRecursiveString' }
 
 #### getExtraDebugString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getExtraDebugString data-toc-label='getExtraDebugString' }
@@ -136,8 +148,6 @@ Whether this subtree contains a RenderPathBoolean
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 #### ensureFace( face : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, minX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, minY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, maxY : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[ClippableFace](../alpenglow/ClippableFace.md)</span> {: #ensureFace data-toc-label='ensureFace' }
 
 TODO: Prefer RenderEvaluationContext.getFace()
@@ -154,20 +164,6 @@ TODO: Prefer RenderEvaluationContext.getFace()
 #### simplify {: #simplify data-toc-label='simplify' }
 
 Global flag for controlling whether simplification happens. Useful for debugging.
-
-
-
-## Type RenderEvaluator {: #RenderEvaluator }
-
-
-Output should be chained (the `output` parameter should be returned, for convenience)
-
-```js
-import type { RenderEvaluator } from 'scenerystack/alpenglow';
-```
-
-
-( context: [RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md), output: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)
 
 
 

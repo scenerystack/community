@@ -2,7 +2,12 @@
 
 ## Overview
 
+Checks whether two rational numbers are equal (by using cross-multiplication).
 
+IMPORTANT NOTE: this only works if we have the bits to spare (where numerator * denominator does NOT overflow)
+to avoid reduction. Reduction would also work.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

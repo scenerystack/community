@@ -40,10 +40,6 @@ import { RenderAlpha } from 'scenerystack/alpenglow';
 
 #### serialize() : <span style="font-weight: 400;">[SerializedRenderAlpha](../alpenglow/RenderAlpha.md#SerializedRenderAlpha)</span> {: #serialize data-toc-label='serialize' }
 
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderAlpha](../alpenglow/RenderAlpha.md#SerializedRenderAlpha)</span> ) : <span style="font-weight: 400;">[RenderAlpha](../alpenglow/RenderAlpha.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Type SerializedRenderAlpha {: #SerializedRenderAlpha }

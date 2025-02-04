@@ -39,22 +39,6 @@ import type { TWidthSizable } from 'scenerystack/scenery';
 
 
 
-## Type WidthSizableNode {: #WidthSizableNode }
-
-
-Some typescript gymnastics to provide a user-defined type guard that treats something as widthSizable
-We need to define an unused function with a concrete type, so that we can extract the return type of the function
-and provide a type for a Node that extends this type.
-
-```js
-import type { WidthSizableNode } from 'scenerystack/scenery';
-```
-
-
-[Node](../scenery/Node.md) &amp; [TWidthSizable](../scenery/WidthSizable.md#TWidthSizable)
-
-
-
 ## Type WidthSizableOptions {: #WidthSizableOptions }
 
 

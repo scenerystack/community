@@ -6,6 +6,18 @@ WebGPU commands should be run through here, so we can record them for later play
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type PreferredCanvasFormat {: #PreferredCanvasFormat }
+
+
+```js
+import type { PreferredCanvasFormat } from 'scenerystack/alpenglow';
+```
+
+
+"bgra8unorm" | "rgba8unorm"
+
+
+
 ## Class WebGPUAPI {: #WebGPUAPI }
 
 
@@ -98,18 +110,6 @@ TODO: consider adding the other approach to dynamic offsets?
 ### Instance Properties
 
 #### recorder : <span style="font-weight: 400;">[WebGPURecorder](../alpenglow/WebGPURecorder.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #recorder data-toc-label='recorder' }
-
-
-
-## Type PreferredCanvasFormat {: #PreferredCanvasFormat }
-
-
-```js
-import type { PreferredCanvasFormat } from 'scenerystack/alpenglow';
-```
-
-
-"bgra8unorm" | "rgba8unorm"
 
 
 

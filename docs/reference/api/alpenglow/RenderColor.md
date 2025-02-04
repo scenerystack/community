@@ -80,10 +80,130 @@ TODO: consistent "linear" naming? (means linear SRGB here)
 
 #### oklchToLinearDisplayP3( oklch : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #oklchToLinearDisplayP3 data-toc-label='oklchToLinearDisplayP3' }
 
-#### convert( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, fromSpace : <span style="font-weight: 400;">[RenderColorSpace](../alpenglow/RenderColorSpace.md)</span>, toSpace : <span style="font-weight: 400;">[RenderColorSpace](../alpenglow/RenderColorSpace.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #convert data-toc-label='convert' }
-
 #### isColorInRange( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isColorInRange data-toc-label='isColorInRange' }
 
+public static convert( color: Vector4, fromSpace: RenderColorSpace, toSpace: RenderColorSpace ): Vector4 {
+  if ( fromSpace === toSpace ) {
+    return color;
+  }
+
+  if ( assert ) {
+    // If we add more, add in the conversions here
+    const spaces = [
+      RenderColorSpace.XYZ,
+      RenderColorSpace.xyY,
+      RenderColorSpace.sRGB,
+      RenderColorSpace.premultipliedSRGB,
+      RenderColorSpace.linearSRGB,
+      RenderColorSpace.premultipliedLinearSRGB,
+      RenderColorSpace.displayP3,
+      RenderColorSpace.premultipliedDisplayP3,
+      RenderColorSpace.linearDisplayP3,
+      RenderColorSpace.premultipliedLinearDisplayP3,
+      RenderColorSpace.oklab,
+      RenderColorSpace.premultipliedOklab
+    ];
+
+    assert( spaces.includes( fromSpace ) );
+    assert( spaces.includes( toSpace ) );
+  }
+
+  if ( fromSpace.name === toSpace.name ) {
+    if ( fromSpace.isLinear === toSpace.isLinear ) {
+      // Just a premultiply change!
+      return fromSpace.isPremultiplied ? RenderColor.unpremultiply( color ) : RenderColor.premultiply( color );
+    }
+    else {
+      // We're different in linearity!
+      if ( fromSpace.isPremultiplied ) {
+        color = RenderColor.unpremultiply( color );
+      }
+      if ( fromSpace.name === 'srgb' || fromSpace.name === 'display-p3' ) {
+        // sRGB transfer function
+        color = fromSpace.isLinear ? RenderColor.linearToSRGB( color ) : RenderColor.sRGBToLinear( color );
+      }
+      if ( toSpace.isPremultiplied ) {
+        color = RenderColor.premultiply( color );
+      }
+      return color;
+    }
+  }
+  else {
+    // essentially, we'll convert to linear sRGB and back
+
+    if ( fromSpace.isPremultiplied ) {
+      color = RenderColor.unpremultiply( color );
+    }
+
+    if ( fromSpace === RenderColorSpace.xyY ) {
+      color = color.y === 0 ? new Vector4( 0, 0, 0, color.w ) : new Vector4(
+        // TODO: separate out into a function
+        color.x * color.z / color.y,
+        color.z,
+        ( 1 - color.x - color.y ) * color.z / color.y,
+        color.w
+      );
+    }
+    if ( fromSpace === RenderColorSpace.xyY || fromSpace === RenderColorSpace.XYZ ) {
+      color = RenderColor.multiplyMatrixTimesColor( RenderColor.XYZTosRGBMatrix, color );
+    }
+    if (
+      fromSpace === RenderColorSpace.sRGB ||
+      fromSpace === RenderColorSpace.premultipliedSRGB ||
+      fromSpace === RenderColorSpace.displayP3 ||
+      fromSpace === RenderColorSpace.premultipliedDisplayP3
+    ) {
+      color = RenderColor.sRGBToLinear( color );
+    }
+    if ( fromSpace === RenderColorSpace.displayP3 || fromSpace === RenderColorSpace.premultipliedDisplayP3 ) {
+      color = RenderColor.linearDisplayP3ToLinear( color );
+    }
+    if ( fromSpace === RenderColorSpace.oklab || fromSpace === RenderColorSpace.premultipliedOklab ) {
+      color = RenderColor.oklabToLinear( color );
+    }
+
+    // Now reverse the process, but for the other color space
+    if ( toSpace === RenderColorSpace.oklab || toSpace === RenderColorSpace.premultipliedOklab ) {
+      color = RenderColor.linearToOklab( color );
+    }
+    if ( toSpace === RenderColorSpace.displayP3 || toSpace === RenderColorSpace.premultipliedDisplayP3 ) {
+      color = RenderColor.linearToLinearDisplayP3( color );
+    }
+    if (
+      toSpace === RenderColorSpace.sRGB ||
+      toSpace === RenderColorSpace.premultipliedSRGB ||
+      toSpace === RenderColorSpace.displayP3 ||
+      toSpace === RenderColorSpace.premultipliedDisplayP3
+    ) {
+      color = RenderColor.linearToSRGB( color );
+    }
+    if ( toSpace === RenderColorSpace.xyY || toSpace === RenderColorSpace.XYZ ) {
+      color = RenderColor.multiplyMatrixTimesColor( RenderColor.sRGBToXYZMatrix, color );
+    }
+    if ( toSpace === RenderColorSpace.xyY ) {
+      color = ( color.x + color.y + color.z === 0 ) ? new Vector4(
+        // TODO: white point change to the other functions, I think we have some of this duplicated.
+        // TODO: separate out into a function
+        // using white point for D65
+        sRGBWhiteChromaticity.x,
+        sRGBWhiteChromaticity.y,
+        0,
+        color.w
+      ) : new Vector4(
+        color.x / ( color.x + color.y + color.z ),
+        color.y / ( color.x + color.y + color.z ),
+        color.y,
+        color.w
+      );
+    }
+
+    if ( toSpace.isPremultiplied ) {
+      color = RenderColor.premultiply( color );
+    }
+
+    return color;
+  }
+}
 ONLY remaps the r,g,b parts, not alpha
 
 #### gamutMapColor( color : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, toOklab : <span style="font-weight: 400;">( c: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span>, fromOklab : <span style="font-weight: 400;">( c: [Vector4](../dot/Vector4.md) ) =&gt; [Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #gamutMapColor data-toc-label='gamutMapColor' }
@@ -129,8 +249,6 @@ OUTPUTS unpremultiplied Display P3, with a valid alpha value
 #### canvasSupportsDisplayP3() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #canvasSupportsDisplayP3 data-toc-label='canvasSupportsDisplayP3' }
 
 #### ratioBlend( zeroColor : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, oneColor : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, ratio : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #ratioBlend data-toc-label='ratioBlend' }
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderColor](../alpenglow/RenderColor.md#SerializedRenderColor)</span> ) : <span style="font-weight: 400;">[RenderColor](../alpenglow/RenderColor.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 ### Static Properties
 

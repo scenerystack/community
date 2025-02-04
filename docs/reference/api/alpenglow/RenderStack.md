@@ -10,40 +10,6 @@ list is drawn "on top" of all of the previous ones.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderStack {: #RenderStack }
-
-
-```js
-import { RenderStack } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderStack( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) {: #RenderStack-constructor data-toc-label='new RenderStack' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderStack](../alpenglow/RenderStack.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
-
-(protected)
-
-#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-#### serialize() : <span style="font-weight: 400;">[SerializedRenderStack](../alpenglow/RenderStack.md#SerializedRenderStack)</span> {: #serialize data-toc-label='serialize' }
-
-### Static Methods
-
-#### combine( a : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, b : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #combine data-toc-label='combine' }
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderStack](../alpenglow/RenderStack.md#SerializedRenderStack)</span> ) : <span style="font-weight: 400;">[RenderStack](../alpenglow/RenderStack.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
 ## Class RenderInstructionOpaqueJump {: #RenderInstructionOpaqueJump }
 
 
@@ -103,6 +69,38 @@ import { RenderInstructionStackBlend } from 'scenerystack/alpenglow';
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionStackBlend](../alpenglow/RenderStack.md#RenderInstructionStackBlend)</span> {: #RenderInstructionStackBlend-INSTANCE data-toc-label='RenderInstructionStackBlend-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderStack {: #RenderStack }
+
+
+```js
+import { RenderStack } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderStack( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) {: #RenderStack-constructor data-toc-label='new RenderStack' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderStack](../alpenglow/RenderStack.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
+
+(protected)
+
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderStack](../alpenglow/RenderStack.md#SerializedRenderStack)</span> {: #serialize data-toc-label='serialize' }
+
+### Static Methods
+
+#### combine( a : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span>, b : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #combine data-toc-label='combine' }
 
 
 

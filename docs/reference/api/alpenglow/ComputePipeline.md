@@ -22,8 +22,6 @@ This will be available by the time it can be accessed publicly
 
 ### Static Methods
 
-#### getLogBarrierWGSL( pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getLogBarrierWGSL data-toc-label='getLogBarrierWGSL' }
-
 #### withContextAsync( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, wgsl : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;">Promise&lt;[ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span> {: #withContextAsync data-toc-label='withContextAsync' }
 
 NOTE: Create the non-async version if we ever REALLY want it.

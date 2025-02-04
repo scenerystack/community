@@ -2,7 +2,9 @@
 
 ## Overview
 
+Returns a LineSegmentIntersection struct containing information about the intersection point(s).
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

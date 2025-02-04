@@ -2,7 +2,9 @@
 
 ## Overview
 
+Fast approximate cube root, see https://www.shadertoy.com/view/wts3RX
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

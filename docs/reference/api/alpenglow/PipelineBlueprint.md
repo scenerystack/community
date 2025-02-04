@@ -18,8 +18,6 @@ import { PipelineBlueprint } from 'scenerystack/alpenglow';
 
 ### Instance Methods
 
-#### toComputePipeline( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, pipelineLayout : <span style="font-weight: 400;">[PipelineLayout](../alpenglow/PipelineLayout.md)</span> ) : <span style="font-weight: 400;">Promise&lt;[ComputePipeline](../alpenglow/ComputePipeline.md)&gt;</span> {: #toComputePipeline data-toc-label='toComputePipeline' }
-
 #### add( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, declarations : <span style="font-weight: 400;">[WGSLModuleDeclarations](../alpenglow/WGSLString.md#WGSLModuleDeclarations)</span> ) {: #add data-toc-label='add' }
 
 #### addSlot( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, slot : <span style="font-weight: 400;">[ResourceSlot](../alpenglow/ResourceSlot.md)</span>, bindingType : <span style="font-weight: 400;">[BindingType](../alpenglow/BindingType.md)</span> ) {: #addSlot data-toc-label='addSlot' }
@@ -41,15 +39,6 @@ import { PipelineBlueprint } from 'scenerystack/alpenglow';
 #### log : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #log data-toc-label='log' }
 
 (readonly)
-
-### Static Properties
-
-#### LOG_BUFFER_SLOT : <span style="font-weight: 400;">[BufferSlot](../alpenglow/BufferSlot.md)</span> {: #LOG_BUFFER_SLOT data-toc-label='LOG_BUFFER_SLOT' }
-
-(readonly)
-
-TODO: oh no, we need to put the atomic in here(!)
-TODO: Or actually, just an ability to put structs of arbitrary types in ConcreteTypes
 
 
 

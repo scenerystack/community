@@ -14,7 +14,7 @@ import { RenderRadialGradient } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderRadialGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, startRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span>, logic? : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> ) {: #RenderRadialGradient-constructor data-toc-label='new RenderRadialGradient' }
+#### new RenderRadialGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, startRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradientAccuracy.md)</span>, logic? : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradientLogic.md)</span> ) {: #RenderRadialGradient-constructor data-toc-label='new RenderRadialGradient' }
 
 ### Instance Methods
 
@@ -34,7 +34,7 @@ import { RenderRadialGradient } from 'scenerystack/alpenglow';
 
 (protected)
 
-#### getLogic() : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> {: #getLogic data-toc-label='getLogic' }
+#### getLogic() : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradientLogic.md)</span> {: #getLogic data-toc-label='getLogic' }
 
 #### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
 
@@ -43,32 +43,6 @@ import { RenderRadialGradient } from 'scenerystack/alpenglow';
 #### split( face : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)</span> ) : <span style="font-weight: 400;">[RenderableFace](../alpenglow/RenderableFace.md)[]</span> {: #split data-toc-label='split' }
 
 #### serialize() : <span style="font-weight: 400;">[SerializedRenderRadialGradient](../alpenglow/RenderRadialGradient.md#SerializedRenderRadialGradient)</span> {: #serialize data-toc-label='serialize' }
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderRadialGradient](../alpenglow/RenderRadialGradient.md#SerializedRenderRadialGradient)</span> ) : <span style="font-weight: 400;">[RenderRadialGradient](../alpenglow/RenderRadialGradient.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderRadialGradientLogic {: #RenderRadialGradientLogic }
-
-
-```js
-import { RenderRadialGradientLogic } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderRadialGradientLogic( conicTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, focalX : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, radius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, kind : <span style="font-weight: 400;">[RadialGradientType](../alpenglow/RenderRadialGradient.md#RadialGradientType)</span>, isSwapped : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span> ) {: #RenderRadialGradientLogic-RenderRadialGradientLogic-constructor data-toc-label='new RenderRadialGradientLogic-RenderRadialGradientLogic' }
-
-### Instance Methods
-
-#### equals( other : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderRadialGradientLogic-equals data-toc-label='RenderRadialGradientLogic-equals' }
-
-#### computeLinearValue( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderRadialGradientLogic-computeLinearValue data-toc-label='RenderRadialGradientLogic-computeLinearValue' }
-
-### Static Methods
-
-#### from( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, startRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endRadius : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)</span> ) : <span style="font-weight: 400;">[RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span> {: #RenderRadialGradientLogic-from data-toc-label='RenderRadialGradientLogic-from' }
 
 
 
@@ -88,7 +62,7 @@ import type { SerializedRenderRadialGradient } from 'scenerystack/alpenglow';
 - **endRadius**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **stops**: [SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)[]
 - **extend**: [RenderExtend](../alpenglow/RenderExtend.md)
-- **accuracy**: [RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradient.md#RenderRadialGradientAccuracy)
+- **accuracy**: [RenderRadialGradientAccuracy](../alpenglow/RenderRadialGradientAccuracy.md)
 
 
 

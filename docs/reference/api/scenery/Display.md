@@ -232,10 +232,6 @@ Triggers a loss of context for all WebGL blocks.
 
 NOTE: Should generally only be used for debugging.
 
-#### inspect() {: #inspect data-toc-label='inspect' }
-
-Makes this Display available for inspection.
-
 #### getDebugHTML() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getDebugHTML data-toc-label='getDebugHTML' }
 
 Returns an HTML fragment that includes a large amount of debugging information, including a view of the
@@ -325,6 +321,10 @@ Adds an input listener to be fired for ANY Display
 
 Removes an input listener that was previously added with Display.addInputListener.
 
+#### hasInputListener( listener : <span style="font-weight: 400;">[TInputListener](../scenery/TInputListener.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasInputListener data-toc-label='hasInputListener' }
+
+Returns whether this input listener is currently listening to this Display.
+
 #### interruptInput() {: #interruptInput data-toc-label='interruptInput' }
 
 Interrupts all input listeners that are attached to all Displays.
@@ -334,18 +334,6 @@ Interrupts all input listeners that are attached to all Displays.
 #### INTERRUPT_OTHER_POINTERS {: #INTERRUPT_OTHER_POINTERS data-toc-label='INTERRUPT_OTHER_POINTERS' }
 
 (readonly)
-
-#### userGestureEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #userGestureEmitter data-toc-label='userGestureEmitter' }
-
-Fires when we detect an input event that would be considered a "user gesture" by Chrome, so
-that we can trigger browser actions that are only allowed as a result.
-See https://github.com/phetsims/scenery/issues/802 and https://github.com/phetsims/vibe/issues/32 for more
-information.
-
-#### inputListeners : <span style="font-weight: 400;">[TInputListener](../scenery/TInputListener.md)[]</span> {: #inputListeners data-toc-label='inputListeners' }
-
-Listeners that will be called for every event on ANY Display, see
-https://github.com/phetsims/scenery/issues/1149. Do not directly modify this!
 
 
 

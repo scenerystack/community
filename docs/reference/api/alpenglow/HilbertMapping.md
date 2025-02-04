@@ -2,9 +2,127 @@
 
 ## Overview
 
-Utilities for Hilbert space-filling curve mapping
 
-@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Class Hilbert2 {: #Hilbert2 }
+
+
+```js
+import { Hilbert2 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new Hilbert2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert2-Hilbert2-constructor data-toc-label='new Hilbert2-Hilbert2' }
+
+### Instance Methods
+
+#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert2-set data-toc-label='Hilbert2-set' }
+
+#### apply() {: #Hilbert2-apply data-toc-label='Hilbert2-apply' }
+
+### Instance Properties
+
+#### n {: #Hilbert2-n data-toc-label='Hilbert2-n' }
+
+#### i {: #Hilbert2-i data-toc-label='Hilbert2-i' }
+
+
+
+## Class Hilbert3 {: #Hilbert3 }
+
+
+```js
+import { Hilbert3 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new Hilbert3( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert3-Hilbert3-constructor data-toc-label='new Hilbert3-Hilbert3' }
+
+### Instance Methods
+
+#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert3-set data-toc-label='Hilbert3-set' }
+
+#### apply() {: #Hilbert3-apply data-toc-label='Hilbert3-apply' }
+
+### Instance Properties
+
+#### n {: #Hilbert3-n data-toc-label='Hilbert3-n' }
+
+#### i {: #Hilbert3-i data-toc-label='Hilbert3-i' }
+
+
+
+## Class Hilbert4 {: #Hilbert4 }
+
+
+```js
+import { Hilbert4 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new Hilbert4( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert4-Hilbert4-constructor data-toc-label='new Hilbert4-Hilbert4' }
+
+### Instance Methods
+
+#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert4-set data-toc-label='Hilbert4-set' }
+
+#### apply() {: #Hilbert4-apply data-toc-label='Hilbert4-apply' }
+
+### Instance Properties
+
+#### n {: #Hilbert4-n data-toc-label='Hilbert4-n' }
+
+#### i {: #Hilbert4-i data-toc-label='Hilbert4-i' }
+
+
+
+## Class Hilbert5 {: #Hilbert5 }
+
+
+```js
+import { Hilbert5 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new Hilbert5( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert5-Hilbert5-constructor data-toc-label='new Hilbert5-Hilbert5' }
+
+### Instance Methods
+
+#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert5-set data-toc-label='Hilbert5-set' }
+
+#### apply() {: #Hilbert5-apply data-toc-label='Hilbert5-apply' }
+
+### Instance Properties
+
+#### n {: #Hilbert5-n data-toc-label='Hilbert5-n' }
+
+#### i {: #Hilbert5-i data-toc-label='Hilbert5-i' }
+
+
+
+## Class Hilbert6 {: #Hilbert6 }
+
+
+```js
+import { Hilbert6 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new Hilbert6( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, u : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert6-Hilbert6-constructor data-toc-label='new Hilbert6-Hilbert6' }
+
+### Instance Methods
+
+#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, u : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert6-set data-toc-label='Hilbert6-set' }
+
+#### apply() {: #Hilbert6-apply data-toc-label='Hilbert6-apply' }
+
+### Instance Properties
+
+#### n {: #Hilbert6-n data-toc-label='Hilbert6-n' }
+
+#### i {: #Hilbert6-i data-toc-label='Hilbert6-i' }
+
+
 
 ## Class HilbertMapping {: #HilbertMapping }
 
@@ -59,30 +177,6 @@ import { HilbertMapping } from 'scenerystack/alpenglow';
 #### getHilbert5Compare( x0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, x1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, iterLimit ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getHilbert5Compare data-toc-label='getHilbert5Compare' }
 
 #### getHilbert6Compare( x0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, u0 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, x1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, z1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, w1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, v1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, u1 : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, iterLimit ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getHilbert6Compare data-toc-label='getHilbert6Compare' }
-
-
-
-## Class Hilbert2 {: #Hilbert2 }
-
-
-```js
-import { Hilbert2 } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new Hilbert2( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #Hilbert2-Hilbert2-constructor data-toc-label='new Hilbert2-Hilbert2' }
-
-### Instance Methods
-
-#### set( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #Hilbert2-set data-toc-label='Hilbert2-set' }
-
-#### apply() {: #Hilbert2-apply data-toc-label='Hilbert2-apply' }
-
-### Instance Properties
-
-#### n {: #Hilbert2-n data-toc-label='Hilbert2-n' }
-
-#### i {: #Hilbert2-i data-toc-label='Hilbert2-i' }
 
 
 

@@ -183,6 +183,20 @@ toStateObject in Input
 
 
 
+## Type ActivePointer {: #ActivePointer }
+
+
+```js
+import type { ActivePointer } from 'scenerystack/scenery';
+```
+
+
+- **point**: [Vector2](../dot/Vector2.md)
+- &amp; [Pointer](../scenery/Pointer.md)
+
+
+
+
 ## Class Intent {: #Intent }
 
 

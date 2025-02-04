@@ -9,6 +9,18 @@ See ParallelExecutor for more high-level documentation.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
+## Type BaseWorkgroupValues {: #BaseWorkgroupValues }
+
+
+```js
+import type { BaseWorkgroupValues } from 'scenerystack/alpenglow';
+```
+
+
+Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [ParallelWorkgroupArray](../alpenglow/ParallelWorkgroupArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
+
+
+
 ## Class ParallelContext {: #ParallelContext }
 
 
@@ -59,18 +71,6 @@ To be called from within the kernel execution function
 #### workgroupValues : <span style="font-weight: 400;">WorkgroupValues</span> {: #workgroupValues data-toc-label='workgroupValues' }
 
 (readonly)
-
-
-
-## Type BaseWorkgroupValues {: #BaseWorkgroupValues }
-
-
-```js
-import type { BaseWorkgroupValues } from 'scenerystack/alpenglow';
-```
-
-
-Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, [ParallelWorkgroupArray](../alpenglow/ParallelWorkgroupArray.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;
 
 
 

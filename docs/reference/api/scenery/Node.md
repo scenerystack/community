@@ -1541,7 +1541,7 @@ Renders this Node to a Canvas, then calls the callback with the data URI from it
 
 Calls the callback with an HTMLImageElement that contains this Node's subtree's visual form.
 Will always be asynchronous.
-@deprecated - Use node.rasterized() for creating a rasterized copy, or generally it's best to get the data
+@deprecated - Use rasterized() for creating a rasterized copy, or generally it's best to get the data
               URL instead directly.
 
 @param callback - callback( image {HTMLImageElement}, x, y ) is called
@@ -1549,61 +1549,6 @@ Will always be asynchronous.
 @param [y] - The Y offset for where the upper-left of the content drawn into the Canvas
 @param [width] - The width of the Canvas output
 @param [height] - The height of the Canvas output
-
-#### toImageNodeAsynchronous( callback : <span style="font-weight: 400;">( image: [Node](../scenery/Node.md) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span>, x? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #toImageNodeAsynchronous data-toc-label='toImageNodeAsynchronous' }
-
-Calls the callback with an Image Node that contains this Node's subtree's visual form. This is always
-asynchronous, but the resulting image Node can be used with any back-end (Canvas/WebGL/SVG/etc.)
-@deprecated - Use node.rasterized() instead (should avoid the asynchronous-ness)
-
-@param callback - callback( imageNode {Image} ) is called
-@param [x] - The X offset for where the upper-left of the content drawn into the Canvas
-@param [y] - The Y offset for where the upper-left of the content drawn into the Canvas
-@param [width] - The width of the Canvas output
-@param [height] - The height of the Canvas output
-
-#### toCanvasNodeSynchronous( x? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #toCanvasNodeSynchronous data-toc-label='toCanvasNodeSynchronous' }
-
-Creates a Node containing an Image Node that contains this Node's subtree's visual form. This is always
-synchronous, but the resulting image Node can ONLY used with Canvas/WebGL (NOT SVG).
-@deprecated - Use node.rasterized() instead, should be mostly equivalent if useCanvas:true is provided.
-
-@param [x] - The X offset for where the upper-left of the content drawn into the Canvas
-@param [y] - The Y offset for where the upper-left of the content drawn into the Canvas
-@param [width] - The width of the Canvas output
-@param [height] - The height of the Canvas output
-
-#### toDataURLImageSynchronous( x? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Image](../scenery/Image.md)</span> {: #toDataURLImageSynchronous data-toc-label='toDataURLImageSynchronous' }
-
-Returns an Image that renders this Node. This is always synchronous, and sets initialWidth/initialHeight so that
-we have the bounds immediately.  Use this method if you need to reduce the number of parent Nodes.
-
-NOTE: the resultant Image should be positioned using its bounds rather than (x,y).  To create a Node that can be
-positioned like any other node, please use toDataURLNodeSynchronous.
-@deprecated - Use node.rasterized() instead, should be mostly equivalent if wrap:false is provided.
-
-@param [x] - The X offset for where the upper-left of the content drawn into the Canvas
-@param [y] - The Y offset for where the upper-left of the content drawn into the Canvas
-@param [width] - The width of the Canvas output
-@param [height] - The height of the Canvas output
-
-#### toDataURLNodeSynchronous( x? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, width? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #toDataURLNodeSynchronous data-toc-label='toDataURLNodeSynchronous' }
-
-Returns a Node that contains this Node's subtree's visual form. This is always synchronous, and sets
-initialWidth/initialHeight so that we have the bounds immediately.  An extra wrapper Node is provided
-so that transforms can be done independently.  Use this method if you need to be able to transform the node
-the same way as if it had not been rasterized.
-@deprecated - Use node.rasterized() instead, should be mostly equivalent
-
-@param [x] - The X offset for where the upper-left of the content drawn into the Canvas
-@param [y] - The Y offset for where the upper-left of the content drawn into the Canvas
-@param [width] - The width of the Canvas output
-@param [height] - The height of the Canvas output
-
-#### rasterized( providedOptions? : <span style="font-weight: 400;">RasterizedOptions</span> ) : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span> {: #rasterized data-toc-label='rasterized' }
-
-Returns a Node (backed by a scenery Image) that is a rasterized version of this node. See options, by default the
-image is wrapped with a container Node.
 
 #### wasVisuallyDisplayed( display? : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #wasVisuallyDisplayed data-toc-label='wasVisuallyDisplayed' }
 
@@ -1803,10 +1748,6 @@ information.
 
 Returns whether this Node is voicingVisible. When true Utterances for this Node can be announced with the
 Voicing feature, see Voicing.ts for more information.
-
-#### inspect() {: #inspect data-toc-label='inspect' }
-
-Makes this Node's subtree available for inspection.
 
 #### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 

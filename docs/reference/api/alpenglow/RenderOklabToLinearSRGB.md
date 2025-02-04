@@ -6,26 +6,6 @@ RenderProgram to convert Oklab =&gt; linear sRGB
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderOklabToLinearSRGB {: #RenderOklabToLinearSRGB }
-
-
-```js
-import { RenderOklabToLinearSRGB } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderOklabToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderOklabToLinearSRGB-constructor data-toc-label='new RenderOklabToLinearSRGB' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderOklabToLinearSRGB](../alpenglow/RenderOklabToLinearSRGB.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-
-
 ## Class RenderInstructionOklabToLinearSRGB {: #RenderInstructionOklabToLinearSRGB }
 
 
@@ -49,6 +29,26 @@ import { RenderInstructionOklabToLinearSRGB } from 'scenerystack/alpenglow';
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionOklabToLinearSRGB](../alpenglow/RenderOklabToLinearSRGB.md#RenderInstructionOklabToLinearSRGB)</span> {: #RenderInstructionOklabToLinearSRGB-INSTANCE data-toc-label='RenderInstructionOklabToLinearSRGB-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderOklabToLinearSRGB {: #RenderOklabToLinearSRGB }
+
+
+```js
+import { RenderOklabToLinearSRGB } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderOklabToLinearSRGB( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderOklabToLinearSRGB-constructor data-toc-label='new RenderOklabToLinearSRGB' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderOklabToLinearSRGB](../alpenglow/RenderOklabToLinearSRGB.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 

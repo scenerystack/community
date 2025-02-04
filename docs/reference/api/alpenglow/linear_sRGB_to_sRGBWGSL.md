@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts a linear sRGB color to sRGB color space. This applies the gamma correction.
 
+See RenderColor.linearToSRGB for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

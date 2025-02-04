@@ -18,7 +18,7 @@ new ManualConstraint( ancestorNode, [ firstNode, secondNode ], ( firstProxy, sec
 Notably in the callback, it uses LayoutProxy (which has the positional getters/setters of an object, and handles
 coordinate transforms).
 
-See https://phetsims.github.io/scenery/doc/layout#ManualConstraint for details
+See https://scenerystack.org/learn/scenery-layout/#ManualConstraint for details
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 

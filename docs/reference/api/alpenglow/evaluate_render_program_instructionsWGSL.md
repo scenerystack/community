@@ -2,6 +2,22 @@
 
 ## Overview
 
+Executes a RenderProgram in WGSL.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
+
+## Type evaluate_render_program_instructionsWGSLOptions {: #evaluate_render_program_instructionsWGSLOptions }
+
+
+```js
+import type { evaluate_render_program_instructionsWGSLOptions } from 'scenerystack/alpenglow';
+```
+
+
+- **getRenderProgramInstruction**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+- **getLinearEdge**: ( index: [WGSLExpressionU32](../alpenglow/WGSLString.md#WGSLExpressionU32) ) =&gt; [WGSLExpression](../alpenglow/WGSLString.md#WGSLExpression)
+- **stackSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **instructionStackSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 
 

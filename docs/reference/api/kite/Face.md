@@ -19,58 +19,73 @@ import { Face } from 'scenerystack/kite';
 ```
 ### Instance Methods
 
-#### initialize( boundary ) {: #initialize data-toc-label='initialize' }
-
-Similar to a usual constructor, but is set up so it can be called multiple times (with dispose() in-between) to
-support pooling.
-@private
-
-@param {Boundary} boundary
-@returns {Face} - This reference for chaining
-
-#### serialize() {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedFace](../kite/Face.md#SerializedFace)</span> {: #serialize data-toc-label='serialize' }
 
 Returns an object form that can be turned back into a segment with the corresponding deserialize method.
-@public
-
-@returns {Object}
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
 Removes references (so it can allow other objects to be GC'ed or pooled), and frees itself to the pool so it
 can be reused.
-@public
 
-#### addBoundaryFaceReferences( boundary ) {: #addBoundaryFaceReferences data-toc-label='addBoundaryFaceReferences' }
+#### addBoundaryFaceReferences( boundary : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)</span> ) {: #addBoundaryFaceReferences data-toc-label='addBoundaryFaceReferences' }
 
 Marks all half-edges on the boundary as belonging to this face.
-@public
 
-@param {Boundary} boundary
-
-#### recursivelyAddHoles( outerBoundary ) {: #recursivelyAddHoles data-toc-label='recursivelyAddHoles' }
+#### recursivelyAddHoles( outerBoundary : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)</span> ) {: #recursivelyAddHoles data-toc-label='recursivelyAddHoles' }
 
 Processes the boundary-graph for a given outer boundary, and turns it into holes for this face.
-@public
 
 In the graph, every outer boundary in each connected component will be holes for the single inner boundary
 (which will be, in this case, our face's boundary). Since it's a tree, we can walk the tree recursively to add
 all necessary holes.
 
-@param {Boundary} outerBoundary
-
 #### freeToPool() {: #freeToPool data-toc-label='freeToPool' }
 
-@public
+### Instance Properties
+
+#### id : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #id data-toc-label='id' }
+
+(readonly)
+
+#### boundary : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #boundary data-toc-label='boundary' }
+
+"inner" types, null when disposed (in pool), OR null if the face is unbounded
+
+#### holes : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)[]</span> {: #holes data-toc-label='holes' }
+
+"outer" types
+
+#### windingMap : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #windingMap data-toc-label='windingMap' }
+
+If non-null, it's a map from shapeId {number} =&gt; winding {number}
+
+#### filled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #filled data-toc-label='filled' }
 
 ### Static Properties
 
 #### pool : <span style="font-weight: 400;">[Pool](../phet-core/Pool.md)</span> {: #pool data-toc-label='pool' }
 
-@public
+
+
+## Type SerializedFace {: #SerializedFace }
+
+
+```js
+import type { SerializedFace } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Face](../kite/Face.md)"
+- **id**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+- **boundary**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **holes**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
+- **windingMap**: Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **filled**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+
 
 
 
 ## Source Code
 
-See the source for [Face.js](https://github.com/phetsims/kite/blob/main/js/ops/Face.js) in the [kite](https://github.com/phetsims/kite) repository.
+See the source for [Face.ts](https://github.com/phetsims/kite/blob/main/js/ops/Face.ts) in the [kite](https://github.com/phetsims/kite) repository.

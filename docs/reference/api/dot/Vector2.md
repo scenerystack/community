@@ -108,7 +108,7 @@ vector.
 
 #### roundedSymmetric() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #roundedSymmetric data-toc-label='roundedSymmetric' }
 
-Returns a copy of this vector with each component rounded by Utils.roundSymmetric.
+Returns a copy of this vector with each component rounded by roundSymmetric.
 
 This is the immutable form of the function roundSymmetric(). This will return a new vector, and will not modify
 this vector.
@@ -251,10 +251,6 @@ The average (midpoint) between this vector and another vector.
 
 Debugging string for the vector.
 
-#### toVector3() : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #toVector3 data-toc-label='toVector3' }
-
-Converts this to a 3-dimensional vector, with the z-component equal to 0.
-
 #### setXY( x : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, y : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #setXY data-toc-label='setXY' }
 
 Sets all of the components of this vector, returning this.
@@ -369,7 +365,7 @@ returning this vector itself.
 
 #### roundSymmetric() : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #roundSymmetric data-toc-label='roundSymmetric' }
 
-Rounds each component of this vector with Utils.roundSymmetric.
+Rounds each component of this vector with roundSymmetric.
 
 This is the mutable form of the function roundedSymmetric(). This will mutate (change) this vector, in addition
 to returning the vector itself.
@@ -431,7 +427,9 @@ $$
 
 Constructs a Vector2 from a duck-typed object, for use with tandem/phet-io deserialization.
 
-@param stateObject - see stateSchema for schema
+#### from( vector2Like : <span style="font-weight: 400;">PartialVector2State</span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #from data-toc-label='from' }
+
+Constructs a Vector2 from any object as best as it can, if a component of the v2 is not provided, it will default to 0.
 
 #### getAngleBetweenVectors( startVector : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, endVector : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getAngleBetweenVectors data-toc-label='getAngleBetweenVectors' }
 

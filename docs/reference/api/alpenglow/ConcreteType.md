@@ -6,32 +6,6 @@ Represents a data type that can be serialized/deserialized to/from a binary form
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Type ConcreteType {: #ConcreteType }
-
-
-```js
-import type { ConcreteType } from 'scenerystack/alpenglow';
-```
-
-
-- **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
-- **bytesPerElement**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-<br>  TODO: deduplicate with wgslSize/wgslAlign. This is the size of the ENTIRE type, drop the "element" bit
-- **outOfRangeElement**?: T
-- **equals**: ( a: T, b: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  TS
-- **equalsWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionBool](../alpenglow/WGSLString.md#WGSLExpressionBool)
-<br>  WGSL
-- **valueType**: [WGSLType](../alpenglow/WGSLString.md#WGSLType)
-<br>  WGSL representation
-  TODO: consider rename to valueTypeWGSL?
-- **wgslAlign**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-<br>  See https://www.w3.org/TR/WGSL/#alignment-and-size
-- **wgslSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-
-
-
-
 ## Type BinaryOp {: #BinaryOp }
 
 
@@ -103,6 +77,32 @@ import type { ConcreteArrayType } from 'scenerystack/alpenglow';
 ```
 
 
+[ConcreteType](../alpenglow/ConcreteType.md)&lt;T[]&gt; &amp; { elementType: [ConcreteType](../alpenglow/ConcreteType.md)&lt;T&gt;; length: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }
+
+
+
+## Type ConcreteType {: #ConcreteType }
+
+
+```js
+import type { ConcreteType } from 'scenerystack/alpenglow';
+```
+
+
+- **name**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
+- **bytesPerElement**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  TODO: deduplicate with wgslSize/wgslAlign. This is the size of the ENTIRE type, drop the "element" bit
+- **outOfRangeElement**?: T
+- **equals**: ( a: T, b: T ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  TS
+- **equalsWGSL**: ( a: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT), b: [WGSLExpressionT](../alpenglow/WGSLString.md#WGSLExpressionT) ) =&gt; [WGSLExpressionBool](../alpenglow/WGSLString.md#WGSLExpressionBool)
+<br>  WGSL
+- **valueType**: [WGSLType](../alpenglow/WGSLString.md#WGSLType)
+<br>  WGSL representation
+  TODO: consider rename to valueTypeWGSL?
+- **wgslAlign**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  See https://www.w3.org/TR/WGSL/#alignment-and-size
+- **wgslSize**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 
 

@@ -30,7 +30,7 @@ Should be callable repeatedly (TODO test)
 
 #### execute( executor : <span style="font-weight: 400;">[Executor](../alpenglow/Executor.md)</span>, data : <span style="font-weight: 400;">In</span>, options? : <span style="font-weight: 400;">[ProcedureExecuteOptions](../alpenglow/Procedure.md#ProcedureExecuteOptions)</span> ) : <span style="font-weight: 400;">Promise&lt;Out&gt;</span> {: #execute data-toc-label='execute' }
 
-#### standaloneExecute( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, data : <span style="font-weight: 400;">In</span>, options? : <span style="font-weight: 400;">ProcedureStandaloneExecuteOptions</span> ) : <span style="font-weight: 400;">Promise&lt;Out&gt;</span> {: #standaloneExecute data-toc-label='standaloneExecute' }
+#### standaloneExecute( deviceContext : <span style="font-weight: 400;">[DeviceContext](../alpenglow/DeviceContext.md)</span>, data : <span style="font-weight: 400;">In</span>, options? : <span style="font-weight: 400;">[ProcedureStandaloneExecuteOptions](../alpenglow/Procedure.md#ProcedureStandaloneExecuteOptions)</span> ) : <span style="font-weight: 400;">Promise&lt;Out&gt;</span> {: #standaloneExecute data-toc-label='standaloneExecute' }
 
 #### getLogBuffer() : <span style="font-weight: 400;">GPUBuffer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getLogBuffer data-toc-label='getLogBuffer' }
 
@@ -47,6 +47,20 @@ import type { ProcedureExecuteOptions } from 'scenerystack/alpenglow';
 
 
 - **separateComputePasses**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
+
+
+
+## Type ProcedureStandaloneExecuteOptions {: #ProcedureStandaloneExecuteOptions }
+
+
+```js
+import type { ProcedureStandaloneExecuteOptions } from 'scenerystack/alpenglow';
+```
+
+
+- **procedureExecuteOptions**?: [ProcedureExecuteOptions](../alpenglow/Procedure.md#ProcedureExecuteOptions)
+- **executorOptions**?: [ExecutorOptions](../alpenglow/Executor.md#ExecutorOptions)
 
 
 

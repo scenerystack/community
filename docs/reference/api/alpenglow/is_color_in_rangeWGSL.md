@@ -2,7 +2,9 @@
 
 ## Overview
 
+Returns whether a color is in the standard (0-1) range for every color channel.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

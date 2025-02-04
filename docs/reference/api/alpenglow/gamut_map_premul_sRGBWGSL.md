@@ -2,7 +2,11 @@
 
 ## Overview
 
+Converts premultiplied sRGB =&gt; sRGB, while ensuring the color is within the sRGB gamut.
 
+See RenderColor.gamutMapPremultipliedSRGB for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

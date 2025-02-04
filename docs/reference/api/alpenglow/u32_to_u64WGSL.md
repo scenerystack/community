@@ -2,7 +2,9 @@
 
 ## Overview
 
+Converts a u32 to a u64.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

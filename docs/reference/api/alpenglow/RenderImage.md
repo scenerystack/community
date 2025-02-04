@@ -91,8 +91,6 @@ pad:     0,  0,  0,  0,  0,  0, 0, 1, 2, 3, 3, 3, 3, 3, 3, 3
 repeat:  2,  3,  0,  1,  2,  3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1
 reflect: 2,  3,  3,  2,  1,  0, 0, 1, 2, 3, 3, 2, 1, 0, 0, 1
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderImage](../alpenglow/RenderImage.md#SerializedRenderImage)</span> ) : <span style="font-weight: 400;">[RenderImage](../alpenglow/RenderImage.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 #### serializeRenderImageable( imageable : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span> ) : <span style="font-weight: 400;">[SerializedRenderImageable](../alpenglow/RenderImageable.md#SerializedRenderImageable)</span> {: #serializeRenderImageable data-toc-label='serializeRenderImageable' }
 
 #### deserializeRenderImageable( obj : <span style="font-weight: 400;">[SerializedRenderImageable](../alpenglow/RenderImageable.md#SerializedRenderImageable)</span> ) : <span style="font-weight: 400;">[RenderImageable](../alpenglow/RenderImageable.md)</span> {: #deserializeRenderImageable data-toc-label='deserializeRenderImageable' }

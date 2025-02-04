@@ -46,10 +46,6 @@ TODO: extract code for the barycentric blends? duplicated
 
 (readonly)
 
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderBarycentricPerspectiveBlend](../alpenglow/RenderBarycentricPerspectiveBlend.md#SerializedRenderBarycentricPerspectiveBlend)</span> ) : <span style="font-weight: 400;">[RenderBarycentricPerspectiveBlend](../alpenglow/RenderBarycentricPerspectiveBlend.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Class RenderBarycentricPerspectiveBlendLogic {: #RenderBarycentricPerspectiveBlendLogic }

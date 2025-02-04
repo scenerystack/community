@@ -2,7 +2,13 @@
 
 ## Overview
 
+Returns a comparison of two i64s:
 
+-1 if a &lt; b
+0 if a == b
+1 if a &gt; b
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

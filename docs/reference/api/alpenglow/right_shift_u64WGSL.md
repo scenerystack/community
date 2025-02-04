@@ -2,7 +2,11 @@
 
 ## Overview
 
+Right-shifts a u64 by a u32.
 
+TODO: signed right shift?
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

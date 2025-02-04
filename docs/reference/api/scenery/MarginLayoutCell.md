@@ -46,6 +46,18 @@ import type { MarginLayout } from 'scenerystack/scenery';
 
 
 
+## Type MarginLayoutConstraint {: #MarginLayoutConstraint }
+
+
+```js
+import type { MarginLayoutConstraint } from 'scenerystack/scenery';
+```
+
+
+[NodeLayoutConstraint](../scenery/NodeLayoutConstraint.md) &amp; [MarginLayout](../scenery/MarginLayoutCell.md#MarginLayout)
+
+
+
 ## Source Code
 
 See the source for [MarginLayoutCell.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutCell.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

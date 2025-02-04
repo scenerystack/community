@@ -330,12 +330,6 @@ accessibility (like &lt;a&gt;, &lt;span&gt;, etc.), and adding in tags we do wan
 Transforms a given string with HTML markup into a string suitable for screen readers.
 Preserves basic styling tags while removing non-accessible markup.
 
-#### contentToString( content : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, isLTR? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #contentToString data-toc-label='contentToString' }
-
-Takes the element.content from himalaya, unescapes HTML entities, and applies the proper directional tags.
-
-See https://github.com/phetsims/scenery-phet/issues/315
-
 ### Static Properties
 
 #### STRING_PROPERTY_TANDEM_NAME {: #STRING_PROPERTY_TANDEM_NAME data-toc-label='STRING_PROPERTY_TANDEM_NAME' }

@@ -48,8 +48,6 @@ import { RenderPathBoolean } from 'scenerystack/alpenglow';
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderPathBoolean](../alpenglow/RenderPathBoolean.md#SerializedRenderPathBoolean)</span> ) : <span style="font-weight: 400;">[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 #### fromInside( path : <span style="font-weight: 400;">[RenderPath](../alpenglow/RenderPath.md)</span>, inside : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) : <span style="font-weight: 400;">[RenderPathBoolean](../alpenglow/RenderPathBoolean.md)</span> {: #fromInside data-toc-label='fromInside' }
 
 

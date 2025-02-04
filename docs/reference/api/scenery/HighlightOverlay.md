@@ -17,7 +17,7 @@ import { HighlightOverlay } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new HighlightOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, focusRootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[HighlightOverlayOptions](../scenery/HighlightOverlay.md#HighlightOverlayOptions)</span> ) {: #HighlightOverlay-constructor data-toc-label='new HighlightOverlay' }
+#### new HighlightOverlay( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, focusRootNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, DisplayType : <span style="font-weight: 400;">typeof [Display](../scenery/Display.md)</span>, providedOptions? : <span style="font-weight: 400;">[HighlightOverlayOptions](../scenery/HighlightOverlay.md#HighlightOverlayOptions)</span> ) {: #HighlightOverlay-constructor data-toc-label='new HighlightOverlay' }
 
 ### Instance Methods
 
@@ -79,24 +79,6 @@ Set the outer color of all group focus highlight.
 #### getOuterGroupHighlightColor() : <span style="font-weight: 400;">[TPaint](../scenery/TPaint.md)</span> {: #getOuterGroupHighlightColor data-toc-label='getOuterGroupHighlightColor' }
 
 Get the outer color of all group focus highlights.
-
-
-
-## Type Highlight {: #Highlight }
-
-
-Highlights displayed by the overlay support these types. Highlight behavior works like the following:
-- If value is null, the highlight will use default stylings of HighlightPath and surround the Node with focus.
-- If value is a Shape the Shape is set to a HighlightPath with default stylings in the global coordinate frame.
-- If you provide a Node it is your responsibility to position it in the global coordinate frame.
-- If the value is 'invisible' no highlight will be displayed at all.
-
-```js
-import type { Highlight } from 'scenerystack/scenery';
-```
-
-
-[Node](../scenery/Node.md) | [Shape](../kite/Shape.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | "invisible"
 
 
 

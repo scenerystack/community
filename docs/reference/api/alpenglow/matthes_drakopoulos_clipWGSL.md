@@ -2,7 +2,10 @@
 
 ## Overview
 
+From "Another Simple but Faster Method for 2D Line Clipping" (2019)
+by Dimitrios Matthes and Vasileios Drakopoulos
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

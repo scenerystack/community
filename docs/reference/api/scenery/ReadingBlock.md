@@ -62,7 +62,7 @@ import type { TReadingBlock } from 'scenerystack/scenery';
 - **readingBlockTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockDisabledTagName**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **readingBlockResponsePatternCollection**: [ResponsePatternCollection](../utterance-queue/ResponsePatternCollection.md)
-- **readingBlockActiveHighlight**: [Highlight](../scenery/HighlightOverlay.md#Highlight)
+- **readingBlockActiveHighlight**: [Highlight](../scenery/Highlight.md)
 - &amp; [TVoicing](../scenery/Voicing.md#TVoicing)&lt;SuperType&gt;
 
 

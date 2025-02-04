@@ -6,20 +6,6 @@ Supports "console logging" from shaders. See log.wgsl.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class ConsoleLogger {: #ConsoleLogger }
-
-
-```js
-import { ConsoleLogger } from 'scenerystack/alpenglow';
-```
-### Static Methods
-
-#### register( info : <span style="font-weight: 400;">[StrictOmit](../phet-core/StrictOmit.md)&lt;[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)&lt;T&gt;, 'id'&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #register data-toc-label='register' }
-
-#### analyze( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[ConsoleLoggedShader](../alpenglow/ConsoleLogger.md#ConsoleLoggedShader)[]</span> {: #analyze data-toc-label='analyze' }
-
-
-
 ## Class ConsoleLoggedEntry {: #ConsoleLoggedEntry }
 
 
@@ -123,6 +109,20 @@ import { ConsoleLoggedThread } from 'scenerystack/alpenglow';
 #### entries : <span style="font-weight: 400;">[ConsoleLoggedEntry](../alpenglow/ConsoleLogger.md#ConsoleLoggedEntry)[]</span> {: #ConsoleLoggedThread-entries data-toc-label='ConsoleLoggedThread-entries' }
 
 (readonly)
+
+
+
+## Class ConsoleLogger {: #ConsoleLogger }
+
+
+```js
+import { ConsoleLogger } from 'scenerystack/alpenglow';
+```
+### Static Methods
+
+#### register( info : <span style="font-weight: 400;">[StrictOmit](../phet-core/StrictOmit.md)&lt;[ConsoleLogInfo](../alpenglow/ConsoleLogger.md#ConsoleLogInfo)&lt;T&gt;, 'id'&gt;</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #register data-toc-label='register' }
+
+#### analyze( arrayBuffer : <span style="font-weight: 400;">ArrayBuffer</span> ) : <span style="font-weight: 400;">[ConsoleLoggedShader](../alpenglow/ConsoleLogger.md#ConsoleLoggedShader)[]</span> {: #analyze data-toc-label='analyze' }
 
 
 

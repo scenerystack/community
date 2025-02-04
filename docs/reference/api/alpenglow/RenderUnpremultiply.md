@@ -6,26 +6,6 @@ RenderProgram to unpremultiply the input color
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderUnpremultiply {: #RenderUnpremultiply }
-
-
-```js
-import { RenderUnpremultiply } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderUnpremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderUnpremultiply-constructor data-toc-label='new RenderUnpremultiply' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderUnpremultiply](../alpenglow/RenderUnpremultiply.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-
-
 ## Class RenderInstructionUnpremultiply {: #RenderInstructionUnpremultiply }
 
 
@@ -49,6 +29,26 @@ import { RenderInstructionUnpremultiply } from 'scenerystack/alpenglow';
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionUnpremultiply](../alpenglow/RenderUnpremultiply.md#RenderInstructionUnpremultiply)</span> {: #RenderInstructionUnpremultiply-INSTANCE data-toc-label='RenderInstructionUnpremultiply-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderUnpremultiply {: #RenderUnpremultiply }
+
+
+```js
+import { RenderUnpremultiply } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderUnpremultiply( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderUnpremultiply-constructor data-toc-label='new RenderUnpremultiply' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderUnpremultiply](../alpenglow/RenderUnpremultiply.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 

@@ -6,18 +6,6 @@ Represents a string of WGSL code (which may have dependencies which it can add t
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class WGSLString {: #WGSLString }
-
-
-```js
-import { WGSLString } from 'scenerystack/alpenglow';
-```
-### Instance Methods
-
-#### withBlueprint( blueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #withBlueprint data-toc-label='withBlueprint' }
-
-
-
 ## Type WGSLBinaryExpression {: #WGSLBinaryExpression }
 
 
@@ -189,6 +177,18 @@ import type { WGSLStatements } from 'scenerystack/alpenglow';
 
 
 [WGSLString](../alpenglow/WGSLString.md)
+
+
+
+## Class WGSLString {: #WGSLString }
+
+
+```js
+import { WGSLString } from 'scenerystack/alpenglow';
+```
+### Instance Methods
+
+#### withBlueprint( blueprint : <span style="font-weight: 400;">[PipelineBlueprint](../alpenglow/PipelineBlueprint.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #withBlueprint data-toc-label='withBlueprint' }
 
 
 

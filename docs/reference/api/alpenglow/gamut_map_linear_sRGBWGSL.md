@@ -2,7 +2,17 @@
 
 ## Overview
 
+Maps a linear sRGB color to a color that is within the sRGB gamut, using oklab for measuring perceptual distance.
 
+Relative colorimetric mapping. We could add more of a perceptual intent, but this is a good start.
+
+NOTE: If changing this, also likely should change gamut_map_linear_displayP3
+
+Modeled after https://drafts.csswg.org/css-color-4/#binsearch
+
+See RenderColor.gamutMapLinearSRGB for more information.
+
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

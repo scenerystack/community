@@ -73,12 +73,16 @@ Renders this Node only (its self) into the Canvas wrapper, in its local coordina
 (readonly)
 
 Return code from painter.paint() when nothing was painted to the WebGL context.
+NOTE: these constants are duplicated in WebGLNodeDrawable to reduce circular references
+      If changing, please change them there also!
 
 #### PAINTED_SOMETHING {: #PAINTED_SOMETHING data-toc-label='PAINTED_SOMETHING' }
 
 (readonly)
 
 Return code from painter.paint() when something was painted to the WebGL context.
+NOTE: these constants are duplicated in WebGLNodeDrawable to reduce circular references
+      If changing, please change them there also!
 
 
 

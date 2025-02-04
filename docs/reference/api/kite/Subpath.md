@@ -140,7 +140,7 @@ Returns a copy of this subpath with the dash "holes" removed (has many subpaths 
 @param distanceEpsilon - controls level of subdivision by attempting to ensure a maximum (squared) deviation from the curve
 @param curveEpsilon - controls level of subdivision by attempting to ensure a maximum curvature change between segments
 
-#### serialize() : <span style="font-weight: 400;">SerializedSubpath</span> {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">[SerializedSubpath](../kite/Subpath.md#SerializedSubpath)</span> {: #serialize data-toc-label='serialize' }
 
 Returns an object form that can be turned back into a segment with the corresponding deserialize method.
 
@@ -158,9 +158,29 @@ Returns an object form that can be turned back into a segment with the correspon
 
 ### Static Methods
 
-#### deserialize( obj : <span style="font-weight: 400;">SerializedSubpath</span> ) : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)</span> {: #deserialize data-toc-label='deserialize' }
+#### fromBoundary( boundary : <span style="font-weight: 400;">[Boundary](../kite/Boundary.md)</span> ) : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)</span> {: #fromBoundary data-toc-label='fromBoundary' }
+
+#### fromLoop( loop : <span style="font-weight: 400;">[Loop](../kite/Loop.md)</span> ) : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)</span> {: #fromLoop data-toc-label='fromLoop' }
+
+#### deserialize( obj : <span style="font-weight: 400;">[SerializedSubpath](../kite/Subpath.md#SerializedSubpath)</span> ) : <span style="font-weight: 400;">[Subpath](../kite/Subpath.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 Returns a Subpath from the serialized representation.
+
+
+
+## Type SerializedSubpath {: #SerializedSubpath }
+
+
+```js
+import type { SerializedSubpath } from 'scenerystack/kite';
+```
+
+
+- **type**: "[Subpath](../kite/Subpath.md)"
+- **segments**: [SerializedSegment](../kite/Segment.md#SerializedSegment)[]
+- **points**: { x: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>; y: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> }[]
+- **closed**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+
 
 
 

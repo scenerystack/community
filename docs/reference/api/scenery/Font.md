@@ -47,7 +47,7 @@ https://www.w3.org/TR/css-fonts-3/#propdef-font contains detailed information on
 
 Returns this font's style. See the constructor for more details on valid values.
 
-#### getVariant() : <span style="font-weight: 400;">FontVariant</span> {: #getVariant data-toc-label='getVariant' }
+#### getVariant() : <span style="font-weight: 400;">[FontVariant](../scenery/Font.md#FontVariant)</span> {: #getVariant data-toc-label='getVariant' }
 
 Returns this font's variant. See the constructor for more details on valid values.
 
@@ -104,7 +104,7 @@ Converts a generic size to a specific CSS pixel string, assuming 'px' for number
 
 #### isFontStyle( style : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">style is [FontStyle](../scenery/Font.md#FontStyle)</span> {: #isFontStyle data-toc-label='isFontStyle' }
 
-#### isFontVariant( variant : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">variant is FontVariant</span> {: #isFontVariant data-toc-label='isFontVariant' }
+#### isFontVariant( variant : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">variant is [FontVariant](../scenery/Font.md#FontVariant)</span> {: #isFontVariant data-toc-label='isFontVariant' }
 
 #### isFontWeight( weight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">weight is [FontWeight](../scenery/Font.md#FontWeight)</span> {: #isFontWeight data-toc-label='isFontWeight' }
 
@@ -140,7 +140,7 @@ import type { FontOptions } from 'scenerystack/scenery';
 
 
 - **style**?: [FontStyle](../scenery/Font.md#FontStyle)
-- **variant**?: FontVariant
+- **variant**?: [FontVariant](../scenery/Font.md#FontVariant)
 - **weight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | [FontWeight](../scenery/Font.md#FontWeight)
 - **stretch**?: [FontStretch](../scenery/Font.md#FontStretch)
 - **size**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
@@ -172,6 +172,18 @@ import type { FontStyle } from 'scenerystack/scenery';
 
 
 "normal" | "italic" | "oblique"
+
+
+
+## Type FontVariant {: #FontVariant }
+
+
+```js
+import type { FontVariant } from 'scenerystack/scenery';
+```
+
+
+"normal" | "small-caps"
 
 
 

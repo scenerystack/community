@@ -14,78 +14,6 @@ is split into each linear segment.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderLinearBlend {: #RenderLinearBlend }
-
-
-```js
-import { RenderLinearBlend } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderLinearBlend( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic)</span> ) {: #RenderLinearBlend-constructor data-toc-label='new RenderLinearBlend' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### transformed( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #transformed data-toc-label='transformed' }
-
-#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
-
-(protected)
-
-#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
-
-(protected)
-
-#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-#### serialize() : <span style="font-weight: 400;">[SerializedRenderLinearBlend](../alpenglow/RenderLinearBlend.md#SerializedRenderLinearBlend)</span> {: #serialize data-toc-label='serialize' }
-
-### Instance Properties
-
-#### logic : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic)</span> {: #logic data-toc-label='logic' }
-
-(readonly)
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderLinearBlend](../alpenglow/RenderLinearBlend.md#SerializedRenderLinearBlend)</span> ) : <span style="font-weight: 400;">[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderInstructionComputeBlendRatio {: #RenderInstructionComputeBlendRatio }
-
-
-```js
-import { RenderInstructionComputeBlendRatio } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderInstructionComputeBlendRatio( logic : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic) | [RenderRadialBlendLogic](../alpenglow/RenderRadialBlend.md#RenderRadialBlendLogic)</span>, zeroLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, oneLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeBlendRatio-RenderInstructionComputeBlendRatio-constructor data-toc-label='new RenderInstructionComputeBlendRatio-RenderInstructionComputeBlendRatio' }
-
-### Instance Methods
-
-#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionComputeBlendRatio-toString data-toc-label='RenderInstructionComputeBlendRatio-toString' }
-
-#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionComputeBlendRatio-equals data-toc-label='RenderInstructionComputeBlendRatio-equals' }
-
-#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionComputeBlendRatio-execute data-toc-label='RenderInstructionComputeBlendRatio-execute' }
-
-#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionComputeBlendRatio-writeBinary data-toc-label='RenderInstructionComputeBlendRatio-writeBinary' }
-
-#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionComputeBlendRatio-getBinaryLength data-toc-label='RenderInstructionComputeBlendRatio-getBinaryLength' }
-
-### Static Methods
-
-#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionComputeBlendRatio](../alpenglow/RenderLinearBlend.md#RenderInstructionComputeBlendRatio)</span> {: #RenderInstructionComputeBlendRatio-fromBinary data-toc-label='RenderInstructionComputeBlendRatio-fromBinary' }
-
-
-
 ## Class RenderInstructionLinearBlend {: #RenderInstructionLinearBlend }
 
 
@@ -117,21 +45,43 @@ import { RenderInstructionLinearBlend } from 'scenerystack/alpenglow';
 
 
 
-## Class RenderLinearBlendLogic {: #RenderLinearBlendLogic }
+## Class RenderLinearBlend {: #RenderLinearBlend }
 
 
 ```js
-import { RenderLinearBlendLogic } from 'scenerystack/alpenglow';
+import { RenderLinearBlend } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearBlendLogic( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)</span> ) {: #RenderLinearBlendLogic-RenderLinearBlendLogic-constructor data-toc-label='new RenderLinearBlendLogic-RenderLinearBlendLogic' }
+#### new RenderLinearBlend( scaledNormal : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, accuracy : <span style="font-weight: 400;">[RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlendAccuracy.md)</span>, zero : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, one : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span>, logic? : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlendLogic.md)</span> ) {: #RenderLinearBlend-constructor data-toc-label='new RenderLinearBlend' }
 
 ### Instance Methods
 
-#### equals( other : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlend.md#RenderLinearBlendLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderLinearBlendLogic-equals data-toc-label='RenderLinearBlendLogic-equals' }
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
 
-#### computeLinearValue( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderLinearBlendLogic-computeLinearValue data-toc-label='RenderLinearBlendLogic-computeLinearValue' }
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### transformed( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> {: #transformed data-toc-label='transformed' }
+
+#### equalsTyped( other : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equalsTyped data-toc-label='equalsTyped' }
+
+(protected)
+
+#### getSimplified( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getSimplified data-toc-label='getSimplified' }
+
+(protected)
+
+#### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
+
+#### serialize() : <span style="font-weight: 400;">[SerializedRenderLinearBlend](../alpenglow/RenderLinearBlend.md#SerializedRenderLinearBlend)</span> {: #serialize data-toc-label='serialize' }
+
+### Instance Properties
+
+#### logic : <span style="font-weight: 400;">[RenderLinearBlendLogic](../alpenglow/RenderLinearBlendLogic.md)</span> {: #logic data-toc-label='logic' }
+
+(readonly)
 
 
 
@@ -146,7 +96,7 @@ import type { SerializedRenderLinearBlend } from 'scenerystack/alpenglow';
 - **type**: "[RenderLinearBlend](../alpenglow/RenderLinearBlend.md)"
 - **scaledNormal**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **offset**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **accuracy**: [RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlend.md#RenderLinearBlendAccuracy)
+- **accuracy**: [RenderLinearBlendAccuracy](../alpenglow/RenderLinearBlendAccuracy.md)
 - **zero**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 - **one**: [SerializedRenderProgram](../alpenglow/RenderProgram.md#SerializedRenderProgram)
 

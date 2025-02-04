@@ -2,7 +2,9 @@
 
 ## Overview
 
+Checks whether an i64 is negative
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

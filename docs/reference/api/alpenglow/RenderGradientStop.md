@@ -26,8 +26,6 @@ import { RenderGradientStop } from 'scenerystack/alpenglow';
 
 #### evaluate( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, t : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector4](../dot/Vector4.md)</span> {: #evaluate data-toc-label='evaluate' }
 
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)</span> ) : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)</span> {: #deserialize data-toc-label='deserialize' }
-
 
 
 ## Type SerializedRenderGradientStop {: #SerializedRenderGradientStop }

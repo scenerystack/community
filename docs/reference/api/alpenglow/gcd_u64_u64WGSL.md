@@ -2,7 +2,9 @@
 
 ## Overview
 
+Binary GCD of two u64s.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

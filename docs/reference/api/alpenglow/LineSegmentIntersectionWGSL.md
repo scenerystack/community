@@ -2,7 +2,9 @@
 
 ## Overview
 
+Struct for an intersection between two line segments. Two points needed, in case of partial overlap.
 
+@author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
 
 

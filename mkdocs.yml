@@ -191,8 +191,11 @@ nav:
         - BigIntVector2: reference/api/alpenglow/BigIntVector2.md
         - BigRational: reference/api/alpenglow/BigRational.md
         - BigRationalVector2: reference/api/alpenglow/BigRationalVector2.md
-        - BinaryClipping: reference/api/alpenglow/BinaryClipping.md
         - binaryExpressionStatementWGSL: reference/api/alpenglow/binaryExpressionStatementWGSL.md
+        - binaryToRenderInstruction: reference/api/alpenglow/binaryToRenderInstruction.md
+        - binaryToRenderInstructionComputeBlendRatio: reference/api/alpenglow/binaryToRenderInstructionComputeBlendRatio.md
+        - binaryToRenderInstructionComputeGradientRatio: reference/api/alpenglow/binaryToRenderInstructionComputeGradientRatio.md
+        - binaryToRenderInstructions: reference/api/alpenglow/binaryToRenderInstructions.md
         - BindGroup: reference/api/alpenglow/BindGroup.md
         - BindGroupLayout: reference/api/alpenglow/BindGroupLayout.md
         - Binding: reference/api/alpenglow/Binding.md
@@ -219,7 +222,6 @@ nav:
         - cbrtWGSL: reference/api/alpenglow/cbrtWGSL.md
         - ceilDivideConstantDivisorWGSL: reference/api/alpenglow/ceilDivideConstantDivisorWGSL.md
         - ceilDivideWGSL: reference/api/alpenglow/ceilDivideWGSL.md
-        - CircularClipping: reference/api/alpenglow/CircularClipping.md
         - ClippableFace: reference/api/alpenglow/ClippableFace.md
         - ClipSimplifier: reference/api/alpenglow/ClipSimplifier.md
         - cmp_i64_i64WGSL: reference/api/alpenglow/cmp_i64_i64WGSL.md
@@ -236,14 +238,18 @@ nav:
         - ConcreteType: reference/api/alpenglow/ConcreteType.md
         - conditionalIfWGSL: reference/api/alpenglow/conditionalIfWGSL.md
         - ConsoleLogger: reference/api/alpenglow/ConsoleLogger.md
+        - convertColorSace: reference/api/alpenglow/convertColorSace.md
         - decimal: reference/api/alpenglow/decimal.md
+        - deserializeRenderProgram: reference/api/alpenglow/deserializeRenderProgram.md
         - DeviceContext: reference/api/alpenglow/DeviceContext.md
         - DirectModule: reference/api/alpenglow/DirectModule.md
+        - displayP3ToLinearSRGB: reference/api/alpenglow/displayP3ToLinearSRGB.md
+        - displayP3ToOklab: reference/api/alpenglow/displayP3ToOklab.md
+        - displayP3ToSRGB: reference/api/alpenglow/displayP3ToSRGB.md
         - div_u64_u64WGSL: reference/api/alpenglow/div_u64_u64WGSL.md
-        - EdgedClippedFace: reference/api/alpenglow/EdgedClippedFace.md
-        - EdgedFace: reference/api/alpenglow/EdgedFace.md
         - equals_cross_mul_q128WGSL: reference/api/alpenglow/equals_cross_mul_q128WGSL.md
         - evaluate_render_program_instructionsWGSL: reference/api/alpenglow/evaluate_render_program_instructionsWGSL.md
+        - exampleTestEdges: reference/api/alpenglow/exampleTestEdges.md
         - ExecutionContext: reference/api/alpenglow/ExecutionContext.md
         - Executor: reference/api/alpenglow/Executor.md
         - extend_f32WGSL: reference/api/alpenglow/extend_f32WGSL.md
@@ -262,7 +268,9 @@ nav:
         - gcd_u64_u64WGSL: reference/api/alpenglow/gcd_u64_u64WGSL.md
         - getConvergentIndexWGSL: reference/api/alpenglow/getConvergentIndexWGSL.md
         - getCorankWGSL: reference/api/alpenglow/getCorankWGSL.md
+        - getLogBarrierWGSL: reference/api/alpenglow/getLogBarrierWGSL.md
         - GPUProfiling: reference/api/alpenglow/GPUProfiling.md
+        - GRADIENT_BEFORE_RATIO_COUNT_BITS: reference/api/alpenglow/GRADIENT_BEFORE_RATIO_COUNT_BITS.md
         - GridClipping: reference/api/alpenglow/GridClipping.md
         - HilbertMapping: reference/api/alpenglow/HilbertMapping.md
         - HistogramModule: reference/api/alpenglow/HistogramModule.md
@@ -290,12 +298,14 @@ nav:
         - LinearEdge: reference/api/alpenglow/LinearEdge.md
         - LinearEdgeType: reference/api/alpenglow/LinearEdgeType.md
         - LinearEdgeWGSL: reference/api/alpenglow/LinearEdgeWGSL.md
+        - linearSRGBToDisplayP3: reference/api/alpenglow/linearSRGBToDisplayP3.md
         - LineClipping: reference/api/alpenglow/LineClipping.md
         - LineIntersector: reference/api/alpenglow/LineIntersector.md
         - LineSegmentIntersectionWGSL: reference/api/alpenglow/LineSegmentIntersectionWGSL.md
         - LineSplitter: reference/api/alpenglow/LineSplitter.md
         - loadMultipleWGSL: reference/api/alpenglow/loadMultipleWGSL.md
         - loadReducedWGSL: reference/api/alpenglow/loadReducedWGSL.md
+        - logBufferSlot: reference/api/alpenglow/logBufferSlot.md
         - logRakedWGSL: reference/api/alpenglow/logRakedWGSL.md
         - logStringWGSL: reference/api/alpenglow/logStringWGSL.md
         - logValueWGSL: reference/api/alpenglow/logValueWGSL.md
@@ -338,6 +348,8 @@ nav:
         - nBitCompactSingleSortWGSL: reference/api/alpenglow/nBitCompactSingleSortWGSL.md
         - negate_i64WGSL: reference/api/alpenglow/negate_i64WGSL.md
         - oklab_to_linear_sRGBWGSL: reference/api/alpenglow/oklab_to_linear_sRGBWGSL.md
+        - oklabToDisplayP3: reference/api/alpenglow/oklabToDisplayP3.md
+        - oklabToSRGB: reference/api/alpenglow/oklabToSRGB.md
         - ONE_q128WGSL: reference/api/alpenglow/ONE_q128WGSL.md
         - ONE_u64WGSL: reference/api/alpenglow/ONE_u64WGSL.md
         - OutputRaster: reference/api/alpenglow/OutputRaster.md
@@ -363,13 +375,23 @@ nav:
         - PipelineBlueprint: reference/api/alpenglow/PipelineBlueprint.md
         - PipelineLayout: reference/api/alpenglow/PipelineLayout.md
         - PolygonalBoolean: reference/api/alpenglow/PolygonalBoolean.md
-        - PolygonalFace: reference/api/alpenglow/PolygonalFace.md
         - PolygonBilinear: reference/api/alpenglow/PolygonBilinear.md
         - PolygonFilterType: reference/api/alpenglow/PolygonFilterType.md
         - PolygonMitchellNetravali: reference/api/alpenglow/PolygonMitchellNetravali.md
+        - premulDisplayP3ToPremulLinearSRGB: reference/api/alpenglow/premulDisplayP3ToPremulLinearSRGB.md
+        - premulDisplayP3ToPremulOklab: reference/api/alpenglow/premulDisplayP3ToPremulOklab.md
+        - premulDisplayP3ToPremulSRGB: reference/api/alpenglow/premulDisplayP3ToPremulSRGB.md
+        - premulLinearSRGBToPremulDisplayP3: reference/api/alpenglow/premulLinearSRGBToPremulDisplayP3.md
+        - premulLinearSRGBToPremulSRGB: reference/api/alpenglow/premulLinearSRGBToPremulSRGB.md
+        - premulOklabToPremulDisplayP3: reference/api/alpenglow/premulOklabToPremulDisplayP3.md
+        - premulOklabToPremulSRGB: reference/api/alpenglow/premulOklabToPremulSRGB.md
+        - premulSRGBToPremulDisplayP3: reference/api/alpenglow/premulSRGBToPremulDisplayP3.md
+        - premulSRGBToPremulLinearSRGB: reference/api/alpenglow/premulSRGBToPremulLinearSRGB.md
+        - premulSRGBToPremulOklab: reference/api/alpenglow/premulSRGBToPremulOklab.md
         - premultiplyWGSL: reference/api/alpenglow/premultiplyWGSL.md
         - Procedure: reference/api/alpenglow/Procedure.md
         - q128WGSL: reference/api/alpenglow/q128WGSL.md
+        - RadialGradientType: reference/api/alpenglow/RadialGradientType.md
         - radixHistogramWGSL: reference/api/alpenglow/radixHistogramWGSL.md
         - RadixSortModule: reference/api/alpenglow/RadixSortModule.md
         - RasterChunk: reference/api/alpenglow/RasterChunk.md
@@ -415,10 +437,16 @@ nav:
         - RenderImage: reference/api/alpenglow/RenderImage.md
         - RenderImageable: reference/api/alpenglow/RenderImageable.md
         - RenderInstruction: reference/api/alpenglow/RenderInstruction.md
+        - RenderInstructionComputeBlendRatio: reference/api/alpenglow/RenderInstructionComputeBlendRatio.md
+        - RenderInstructionComputeGradientRatio: reference/api/alpenglow/RenderInstructionComputeGradientRatio.md
         - RenderLight: reference/api/alpenglow/RenderLight.md
         - RenderLinearBlend: reference/api/alpenglow/RenderLinearBlend.md
+        - RenderLinearBlendAccuracy: reference/api/alpenglow/RenderLinearBlendAccuracy.md
+        - RenderLinearBlendLogic: reference/api/alpenglow/RenderLinearBlendLogic.md
         - RenderLinearDisplayP3ToLinearSRGB: reference/api/alpenglow/RenderLinearDisplayP3ToLinearSRGB.md
         - RenderLinearGradient: reference/api/alpenglow/RenderLinearGradient.md
+        - RenderLinearGradientAccuracy: reference/api/alpenglow/RenderLinearGradientAccuracy.md
+        - RenderLinearGradientLogic: reference/api/alpenglow/RenderLinearGradientLogic.md
         - RenderLinearRange: reference/api/alpenglow/RenderLinearRange.md
         - RenderLinearSRGBToLinearDisplayP3: reference/api/alpenglow/RenderLinearSRGBToLinearDisplayP3.md
         - RenderLinearSRGBToOklab: reference/api/alpenglow/RenderLinearSRGBToOklab.md
@@ -435,7 +463,11 @@ nav:
         - RenderProgram: reference/api/alpenglow/RenderProgram.md
         - RenderProgramNeeds: reference/api/alpenglow/RenderProgramNeeds.md
         - RenderRadialBlend: reference/api/alpenglow/RenderRadialBlend.md
+        - RenderRadialBlendAccuracy: reference/api/alpenglow/RenderRadialBlendAccuracy.md
+        - RenderRadialBlendLogic: reference/api/alpenglow/RenderRadialBlendLogic.md
         - RenderRadialGradient: reference/api/alpenglow/RenderRadialGradient.md
+        - RenderRadialGradientAccuracy: reference/api/alpenglow/RenderRadialGradientAccuracy.md
+        - RenderRadialGradientLogic: reference/api/alpenglow/RenderRadialGradientLogic.md
         - RenderResampleType: reference/api/alpenglow/RenderResampleType.md
         - RenderSRGBToLinearSRGB: reference/api/alpenglow/RenderSRGBToLinearSRGB.md
         - RenderStack: reference/api/alpenglow/RenderStack.md
@@ -452,9 +484,12 @@ nav:
         - scanWGSL: reference/api/alpenglow/scanWGSL.md
         - ShaderTestUtils: reference/api/alpenglow/ShaderTestUtils.md
         - sRGB_to_linear_sRGBWGSL: reference/api/alpenglow/sRGB_to_linear_sRGBWGSL.md
+        - sRGBToDisplayP3: reference/api/alpenglow/sRGBToDisplayP3.md
+        - sRGBToOklab: reference/api/alpenglow/sRGBToOklab.md
         - StorageTextureBindingType: reference/api/alpenglow/StorageTextureBindingType.md
         - StripeClipping: reference/api/alpenglow/StripeClipping.md
         - subtract_i64_i64WGSL: reference/api/alpenglow/subtract_i64_i64WGSL.md
+        - testPolygonalFace: reference/api/alpenglow/testPolygonalFace.md
         - TextureBindingType: reference/api/alpenglow/TextureBindingType.md
         - TextureViewResource: reference/api/alpenglow/TextureViewResource.md
         - TextureViewSlot: reference/api/alpenglow/TextureViewSlot.md
@@ -562,6 +597,7 @@ nav:
         - TickMarkSet: reference/api/bamboo/TickMarkSet.md
         - UpDownArrowPlot: reference/api/bamboo/UpDownArrowPlot.md
       - brand:
+        - brand: reference/api/brand/brand.md
         - getLinks: reference/api/brand/getLinks.md
         - TBrand: reference/api/brand/TBrand.md
       - chipper:
@@ -573,6 +609,7 @@ nav:
         - LocalizedMessageProperty: reference/api/chipper/LocalizedMessageProperty.md
         - LocalizedString: reference/api/chipper/LocalizedString.md
         - LocalizedStringProperty: reference/api/chipper/LocalizedStringProperty.md
+        - localizedStrings: reference/api/chipper/localizedStrings.md
         - MipmapElement: reference/api/chipper/MipmapElement.md
         - PatternMessageProperty: reference/api/chipper/PatternMessageProperty.md
         - phetioCompareAPIs: reference/api/chipper/phetioCompareAPIs.md
@@ -580,6 +617,7 @@ nav:
         - BinPacker: reference/api/dot/BinPacker.md
         - Bounds2: reference/api/dot/Bounds2.md
         - Bounds3: reference/api/dot/Bounds3.md
+        - clamp: reference/api/dot/clamp.md
         - Combination: reference/api/dot/Combination.md
         - CompletePiecewiseLinearFunction: reference/api/dot/CompletePiecewiseLinearFunction.md
         - Complex: reference/api/dot/Complex.md
@@ -607,6 +645,7 @@ nav:
         - Ray2: reference/api/dot/Ray2.md
         - Ray3: reference/api/dot/Ray3.md
         - DotRectangle: reference/api/dot/DotRectangle.md
+        - roundSymmetric: reference/api/dot/roundSymmetric.md
         - RunningAverage: reference/api/dot/RunningAverage.md
         - Sphere3: reference/api/dot/Sphere3.md
         - Stats: reference/api/dot/Stats.md
@@ -661,22 +700,16 @@ nav:
         - updateCheck: reference/api/joist/updateCheck.md
         - UpdateState: reference/api/joist/UpdateState.md
       - kite:
-        - Arc: reference/api/kite/Arc.md
         - Boundary: reference/api/kite/Boundary.md
         - BoundsIntersection: reference/api/kite/BoundsIntersection.md
-        - Cubic: reference/api/kite/Cubic.md
         - Edge: reference/api/kite/Edge.md
         - EdgeSegmentTree: reference/api/kite/EdgeSegmentTree.md
-        - EllipticalArc: reference/api/kite/EllipticalArc.md
         - Face: reference/api/kite/Face.md
-        - Graph: reference/api/kite/Graph.md
         - HalfEdge: reference/api/kite/HalfEdge.md
         - intersectConicMatrices: reference/api/kite/intersectConicMatrices.md
-        - KiteLine: reference/api/kite/KiteLine.md
         - LineStyles: reference/api/kite/LineStyles.md
         - Loop: reference/api/kite/Loop.md
         - Overlap: reference/api/kite/Overlap.md
-        - Quadratic: reference/api/kite/Quadratic.md
         - RayIntersection: reference/api/kite/RayIntersection.md
         - Segment: reference/api/kite/Segment.md
         - SegmentIntersection: reference/api/kite/SegmentIntersection.md
@@ -865,10 +898,12 @@ nav:
         - Contrast: reference/api/scenery/Contrast.md
         - CountMap: reference/api/scenery/CountMap.md
         - Cursor: reference/api/scenery/Cursor.md
+        - DebugContext: reference/api/scenery/DebugContext.md
         - DelayedMutate: reference/api/scenery/DelayedMutate.md
         - Display: reference/api/scenery/Display.md
         - DisplayedProperty: reference/api/scenery/DisplayedProperty.md
         - DisplayedTrailsProperty: reference/api/scenery/DisplayedTrailsProperty.md
+        - DisplayGlobals: reference/api/scenery/DisplayGlobals.md
         - DOM: reference/api/scenery/DOM.md
         - DOMBlock: reference/api/scenery/DOMBlock.md
         - DOMDrawable: reference/api/scenery/DOMDrawable.md
@@ -881,8 +916,10 @@ nav:
         - EnglishStringToCodeMap: reference/api/scenery/EnglishStringToCodeMap.md
         - EventContext: reference/api/scenery/EventContext.md
         - EventIO: reference/api/scenery/EventIO.md
+        - eventSerialization: reference/api/scenery/eventSerialization.md
         - Features: reference/api/scenery/Features.md
         - Filter: reference/api/scenery/Filter.md
+        - findStringProperty: reference/api/scenery/findStringProperty.md
         - FireListener: reference/api/scenery/FireListener.md
         - Fittability: reference/api/scenery/Fittability.md
         - FittedBlock: reference/api/scenery/FittedBlock.md
@@ -900,6 +937,7 @@ nav:
         - FullScreen: reference/api/scenery/FullScreen.md
         - GaussianBlur: reference/api/scenery/GaussianBlur.md
         - getLineBreakRanges: reference/api/scenery/getLineBreakRanges.md
+        - getMSPointerType: reference/api/scenery/getMSPointerType.md
         - globalHotkeyRegistry: reference/api/scenery/globalHotkeyRegistry.md
         - globalKeyStateTracker: reference/api/scenery/globalKeyStateTracker.md
         - Gradient: reference/api/scenery/Gradient.md
@@ -914,9 +952,11 @@ nav:
         - GroupFocusListener: reference/api/scenery/GroupFocusListener.md
         - GroupHighlightFromNode: reference/api/scenery/GroupHighlightFromNode.md
         - GroupHighlightPath: reference/api/scenery/GroupHighlightPath.md
+        - guessVisualTrail: reference/api/scenery/guessVisualTrail.md
         - HandleDownListener: reference/api/scenery/HandleDownListener.md
         - HBox: reference/api/scenery/HBox.md
         - HeightSizable: reference/api/scenery/HeightSizable.md
+        - Highlight: reference/api/scenery/Highlight.md
         - HighlightFromNode: reference/api/scenery/HighlightFromNode.md
         - HighlightOverlay: reference/api/scenery/HighlightOverlay.md
         - HighlightPath: reference/api/scenery/HighlightPath.md
@@ -942,6 +982,7 @@ nav:
         - InteractiveHighlighting: reference/api/scenery/InteractiveHighlighting.md
         - InteractiveHighlightingNode: reference/api/scenery/InteractiveHighlightingNode.md
         - Invert: reference/api/scenery/Invert.md
+        - isInteractiveHighlighting: reference/api/scenery/isInteractiveHighlighting.md
         - KeyboardDragListener: reference/api/scenery/KeyboardDragListener.md
         - KeyboardFuzzer: reference/api/scenery/KeyboardFuzzer.md
         - KeyboardListener: reference/api/scenery/KeyboardListener.md
@@ -958,6 +999,7 @@ nav:
         - LayoutOrientation: reference/api/scenery/LayoutOrientation.md
         - LayoutProxy: reference/api/scenery/LayoutProxy.md
         - LayoutProxyProperty: reference/api/scenery/LayoutProxyProperty.md
+        - LayoutTestUtils: reference/api/scenery/LayoutTestUtils.md
         - Leaf: reference/api/scenery/Leaf.md
         - Line: reference/api/scenery/Line.md
         - LinearGradient: reference/api/scenery/LinearGradient.md
@@ -965,6 +1007,7 @@ nav:
         - LineStatefulDrawable: reference/api/scenery/LineStatefulDrawable.md
         - LineStatelessDrawable: reference/api/scenery/LineStatelessDrawable.md
         - LineSVGDrawable: reference/api/scenery/LineSVGDrawable.md
+        - ListenerTestUtils: reference/api/scenery/ListenerTestUtils.md
         - ManualConstraint: reference/api/scenery/ManualConstraint.md
         - MarginLayoutCell: reference/api/scenery/MarginLayoutCell.md
         - MarginLayoutConfigurable: reference/api/scenery/MarginLayoutConfigurable.md
@@ -993,14 +1036,22 @@ nav:
         - PathStatefulDrawable: reference/api/scenery/PathStatefulDrawable.md
         - PathSVGDrawable: reference/api/scenery/PathSVGDrawable.md
         - Pattern: reference/api/scenery/Pattern.md
+        - PDOM_UNIQUE_ID_SEPARATOR: reference/api/scenery/PDOM_UNIQUE_ID_SEPARATOR.md
         - PDOMDisplaysInfo: reference/api/scenery/PDOMDisplaysInfo.md
+        - pdomFocusProperty: reference/api/scenery/pdomFocusProperty.md
         - PDOMFuzzer: reference/api/scenery/PDOMFuzzer.md
         - PDOMInstance: reference/api/scenery/PDOMInstance.md
         - PDOMPeer: reference/api/scenery/PDOMPeer.md
         - PDOMPointer: reference/api/scenery/PDOMPointer.md
         - PDOMSiblingStyle: reference/api/scenery/PDOMSiblingStyle.md
         - PDOMTree: reference/api/scenery/PDOMTree.md
+        - PDOMUniqueIdStrategy: reference/api/scenery/PDOMUniqueIdStrategy.md
+        - pdomUniqueIdToTrail: reference/api/scenery/pdomUniqueIdToTrail.md
         - PDOMUtils: reference/api/scenery/PDOMUtils.md
+        - PEER_CONTAINER_PARENT: reference/api/scenery/PEER_CONTAINER_PARENT.md
+        - PEER_DESCRIPTION_SIBLING: reference/api/scenery/PEER_DESCRIPTION_SIBLING.md
+        - PEER_LABEL_SIBLING: reference/api/scenery/PEER_LABEL_SIBLING.md
+        - PEER_PRIMARY_SIBLING: reference/api/scenery/PEER_PRIMARY_SIBLING.md
         - Pen: reference/api/scenery/Pen.md
         - Picker: reference/api/scenery/Picker.md
         - Plane: reference/api/scenery/Plane.md
@@ -1010,6 +1061,7 @@ nav:
         - PressListener: reference/api/scenery/PressListener.md
         - ProfileColorProperty: reference/api/scenery/ProfileColorProperty.md
         - RadialGradient: reference/api/scenery/RadialGradient.md
+        - rasterized: reference/api/scenery/rasterized.md
         - Reader: reference/api/scenery/Reader.md
         - ReadingBlock: reference/api/scenery/ReadingBlock.md
         - ReadingBlockHighlight: reference/api/scenery/ReadingBlockHighlight.md
@@ -1028,18 +1080,21 @@ nav:
         - RichDragListener: reference/api/scenery/RichDragListener.md
         - RichText: reference/api/scenery/RichText.md
         - RichTextCleanable: reference/api/scenery/RichTextCleanable.md
+        - richTextContentToString: reference/api/scenery/richTextContentToString.md
         - RichTextElement: reference/api/scenery/RichTextElement.md
         - RichTextLeaf: reference/api/scenery/RichTextLeaf.md
         - RichTextLink: reference/api/scenery/RichTextLink.md
         - RichTextNode: reference/api/scenery/RichTextNode.md
         - RichTextUtils: reference/api/scenery/RichTextUtils.md
         - RichTextVerticalSpacer: reference/api/scenery/RichTextVerticalSpacer.md
+        - SafariWorkaroundOverlay: reference/api/scenery/SafariWorkaroundOverlay.md
         - Saturate: reference/api/scenery/Saturate.md
         - SceneImage: reference/api/scenery/SceneImage.md
         - scenery: reference/api/scenery/scenery.md
         - SceneryConstants: reference/api/scenery/SceneryConstants.md
         - sceneryDeserialize: reference/api/scenery/sceneryDeserialize.md
         - SceneryEvent: reference/api/scenery/SceneryEvent.md
+        - SceneryQueryParameters: reference/api/scenery/SceneryQueryParameters.md
         - scenerySerialize: reference/api/scenery/scenerySerialize.md
         - SceneryStyle: reference/api/scenery/SceneryStyle.md
         - SelfDrawable: reference/api/scenery/SelfDrawable.md
@@ -1050,6 +1105,7 @@ nav:
         - SharedCanvasCacheDrawable: reference/api/scenery/SharedCanvasCacheDrawable.md
         - SimpleDragHandler: reference/api/scenery/SimpleDragHandler.md
         - Sizable: reference/api/scenery/Sizable.md
+        - sizableTypeChecks: reference/api/scenery/sizableTypeChecks.md
         - Spacer: reference/api/scenery/Spacer.md
         - Sprite: reference/api/scenery/Sprite.md
         - SpriteImage: reference/api/scenery/SpriteImage.md
@@ -1089,12 +1145,14 @@ nav:
         - TPaintableDrawable: reference/api/scenery/TPaintableDrawable.md
         - TPathDrawable: reference/api/scenery/TPathDrawable.md
         - Trail: reference/api/scenery/Trail.md
+        - trailFromUniqueId: reference/api/scenery/trailFromUniqueId.md
         - TrailPointer: reference/api/scenery/TrailPointer.md
         - TrailsBetweenProperty: reference/api/scenery/TrailsBetweenProperty.md
         - TrailVisibilityTracker: reference/api/scenery/TrailVisibilityTracker.md
         - TransformTracker: reference/api/scenery/TransformTracker.md
         - TRectangleDrawable: reference/api/scenery/TRectangleDrawable.md
         - TTextDrawable: reference/api/scenery/TTextDrawable.md
+        - UNIQUE_ID_STRATEGY: reference/api/scenery/UNIQUE_ID_STRATEGY.md
         - Utils: reference/api/scenery/Utils.md
         - VBox: reference/api/scenery/VBox.md
         - Voicing: reference/api/scenery/Voicing.md

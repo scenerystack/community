@@ -14,7 +14,7 @@ import { RenderLinearGradient } from 'scenerystack/alpenglow';
 ```
 ### Constructor
 
-#### new RenderLinearGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span>, logic? : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> ) {: #RenderLinearGradient-constructor data-toc-label='new RenderLinearGradient' }
+#### new RenderLinearGradient( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, stops : <span style="font-weight: 400;">[RenderGradientStop](../alpenglow/RenderGradientStop.md)[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradientAccuracy.md)</span>, logic? : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradientLogic.md)</span> ) {: #RenderLinearGradient-constructor data-toc-label='new RenderLinearGradient' }
 
 ### Instance Methods
 
@@ -44,69 +44,9 @@ import { RenderLinearGradient } from 'scenerystack/alpenglow';
 
 ### Instance Properties
 
-#### logic : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> {: #logic data-toc-label='logic' }
+#### logic : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradientLogic.md)</span> {: #logic data-toc-label='logic' }
 
 (readonly)
-
-### Static Methods
-
-#### deserialize( obj : <span style="font-weight: 400;">[SerializedRenderLinearGradient](../alpenglow/RenderLinearGradient.md#SerializedRenderLinearGradient)</span> ) : <span style="font-weight: 400;">[RenderLinearGradient](../alpenglow/RenderLinearGradient.md)</span> {: #deserialize data-toc-label='deserialize' }
-
-
-
-## Class RenderInstructionComputeGradientRatio {: #RenderInstructionComputeGradientRatio }
-
-
-```js
-import { RenderInstructionComputeGradientRatio } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderInstructionComputeGradientRatio( logic : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic) | [RenderRadialGradientLogic](../alpenglow/RenderRadialGradient.md#RenderRadialGradientLogic)</span>, stopLocations : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)[]</span>, blendLocation : <span style="font-weight: 400;">[RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) {: #RenderInstructionComputeGradientRatio-RenderInstructionComputeGradientRatio-constructor data-toc-label='new RenderInstructionComputeGradientRatio-RenderInstructionComputeGradientRatio' }
-
-### Instance Methods
-
-#### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #RenderInstructionComputeGradientRatio-toString data-toc-label='RenderInstructionComputeGradientRatio-toString' }
-
-#### equals( other : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)</span>, areLocationsEqual : <span style="font-weight: 400;">( a: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation), b: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderInstructionComputeGradientRatio-equals data-toc-label='RenderInstructionComputeGradientRatio-equals' }
-
-#### execute( stack : <span style="font-weight: 400;">[RenderExecutionStack](../alpenglow/RenderExecutionStack.md)</span>, context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span>, executor : <span style="font-weight: 400;">[RenderExecutor](../alpenglow/RenderExecutor.md)</span> ) {: #RenderInstructionComputeGradientRatio-execute data-toc-label='RenderInstructionComputeGradientRatio-execute' }
-
-#### writeBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, getOffset : <span style="font-weight: 400;">( location: [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation) ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #RenderInstructionComputeGradientRatio-writeBinary data-toc-label='RenderInstructionComputeGradientRatio-writeBinary' }
-
-#### getBinaryLength() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderInstructionComputeGradientRatio-getBinaryLength data-toc-label='RenderInstructionComputeGradientRatio-getBinaryLength' }
-
-### Static Methods
-
-#### fromBinary( encoder : <span style="font-weight: 400;">[ByteEncoder](../alpenglow/ByteEncoder.md)</span>, offset : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, getLocation : <span style="font-weight: 400;">( offset: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; [RenderInstructionLocation](../alpenglow/RenderInstruction.md#RenderInstructionLocation)</span> ) : <span style="font-weight: 400;">[RenderInstructionComputeGradientRatio](../alpenglow/RenderLinearGradient.md#RenderInstructionComputeGradientRatio)</span> {: #RenderInstructionComputeGradientRatio-fromBinary data-toc-label='RenderInstructionComputeGradientRatio-fromBinary' }
-
-### Static Properties
-
-#### GRADIENT_BEFORE_RATIO_COUNT_BITS {: #RenderInstructionComputeGradientRatio-GRADIENT_BEFORE_RATIO_COUNT_BITS data-toc-label='RenderInstructionComputeGradientRatio-GRADIENT_BEFORE_RATIO_COUNT_BITS' }
-
-(readonly)
-
-
-
-## Class RenderLinearGradientLogic {: #RenderLinearGradientLogic }
-
-
-```js
-import { RenderLinearGradientLogic } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderLinearGradientLogic( inverseTransform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, gradDelta : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span> ) {: #RenderLinearGradientLogic-RenderLinearGradientLogic-constructor data-toc-label='new RenderLinearGradientLogic-RenderLinearGradientLogic' }
-
-### Instance Methods
-
-#### equals( other : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #RenderLinearGradientLogic-equals data-toc-label='RenderLinearGradientLogic-equals' }
-
-#### computeLinearValue( context : <span style="font-weight: 400;">[RenderEvaluationContext](../alpenglow/RenderEvaluationContext.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #RenderLinearGradientLogic-computeLinearValue data-toc-label='RenderLinearGradientLogic-computeLinearValue' }
-
-### Static Methods
-
-#### from( transform : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span>, start : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, end : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span>, ratios : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span>, extend : <span style="font-weight: 400;">[RenderExtend](../alpenglow/RenderExtend.md)</span>, accuracy : <span style="font-weight: 400;">[RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)</span> ) : <span style="font-weight: 400;">[RenderLinearGradientLogic](../alpenglow/RenderLinearGradient.md#RenderLinearGradientLogic)</span> {: #RenderLinearGradientLogic-from data-toc-label='RenderLinearGradientLogic-from' }
 
 
 
@@ -124,7 +64,7 @@ import type { SerializedRenderLinearGradient } from 'scenerystack/alpenglow';
 - **end**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]
 - **stops**: [SerializedRenderGradientStop](../alpenglow/RenderGradientStop.md#SerializedRenderGradientStop)[]
 - **extend**: [RenderExtend](../alpenglow/RenderExtend.md)
-- **accuracy**: [RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradient.md#RenderLinearGradientAccuracy)
+- **accuracy**: [RenderLinearGradientAccuracy](../alpenglow/RenderLinearGradientAccuracy.md)
 
 
 

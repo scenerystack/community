@@ -6,26 +6,6 @@ RenderProgram to convert linear sRGB =&gt; linear Display P3
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 
-## Class RenderLinearSRGBToLinearDisplayP3 {: #RenderLinearSRGBToLinearDisplayP3 }
-
-
-```js
-import { RenderLinearSRGBToLinearDisplayP3 } from 'scenerystack/alpenglow';
-```
-### Constructor
-
-#### new RenderLinearSRGBToLinearDisplayP3( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLinearSRGBToLinearDisplayP3-constructor data-toc-label='new RenderLinearSRGBToLinearDisplayP3' }
-
-### Instance Methods
-
-#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
-
-#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderLinearSRGBToLinearDisplayP3](../alpenglow/RenderLinearSRGBToLinearDisplayP3.md)</span> {: #withChildren data-toc-label='withChildren' }
-
-#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
-
-
-
 ## Class RenderInstructionLinearSRGBToLinearDisplayP3 {: #RenderInstructionLinearSRGBToLinearDisplayP3 }
 
 
@@ -49,6 +29,26 @@ import { RenderInstructionLinearSRGBToLinearDisplayP3 } from 'scenerystack/alpen
 #### INSTANCE : <span style="font-weight: 400;">[RenderInstructionLinearSRGBToLinearDisplayP3](../alpenglow/RenderLinearSRGBToLinearDisplayP3.md#RenderInstructionLinearSRGBToLinearDisplayP3)</span> {: #RenderInstructionLinearSRGBToLinearDisplayP3-INSTANCE data-toc-label='RenderInstructionLinearSRGBToLinearDisplayP3-INSTANCE' }
 
 (readonly)
+
+
+
+## Class RenderLinearSRGBToLinearDisplayP3 {: #RenderLinearSRGBToLinearDisplayP3 }
+
+
+```js
+import { RenderLinearSRGBToLinearDisplayP3 } from 'scenerystack/alpenglow';
+```
+### Constructor
+
+#### new RenderLinearSRGBToLinearDisplayP3( program : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)</span> ) {: #RenderLinearSRGBToLinearDisplayP3-constructor data-toc-label='new RenderLinearSRGBToLinearDisplayP3' }
+
+### Instance Methods
+
+#### getName() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #getName data-toc-label='getName' }
+
+#### withChildren( children : <span style="font-weight: 400;">[RenderProgram](../alpenglow/RenderProgram.md)[]</span> ) : <span style="font-weight: 400;">[RenderLinearSRGBToLinearDisplayP3](../alpenglow/RenderLinearSRGBToLinearDisplayP3.md)</span> {: #withChildren data-toc-label='withChildren' }
+
+#### writeInstructions( instructions : <span style="font-weight: 400;">[RenderInstruction](../alpenglow/RenderInstruction.md)[]</span> ) {: #writeInstructions data-toc-label='writeInstructions' }
 
 
 
