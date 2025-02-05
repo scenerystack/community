@@ -17,12 +17,12 @@ createSandbox( "positional-coordinates-example", ( scene, stepEmitter, display )
         // Mark the left-center of the rectangle
         new Circle( 5, {
           center: rectangle.leftCenter,
-          fill: 'black'
+          fill: foregroundColor
         } ),
         // Mark the right-top of the rectangle
         new Circle( 5, {
           center: rectangle.rightTop,
-          fill: 'black'
+          fill: foregroundColor
         } ),
       ]
     } );

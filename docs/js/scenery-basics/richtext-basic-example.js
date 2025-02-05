@@ -5,7 +5,7 @@ createSandbox( "richtext-basic-example", ( scene, stepEmitter, display ) => {
     /*START*/
     const string = 'H<sub>2</sub>O for <u><b>Lauren</b> Ipsum</u>';
     const content = new RichText( string, {
-      fill: 'purple',
+      fill: foregroundColor,
       font: '20px Arial'
     } );
     /*END*/

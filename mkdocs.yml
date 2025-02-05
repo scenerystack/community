@@ -60,7 +60,6 @@ theme:
     # - toc.integrate
   favicon: assets/scenerystack-round.png
   logo: assets/scenerystack-round.png
-  name: material
   palette:
     # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"

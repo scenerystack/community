@@ -5,6 +5,7 @@ createSandbox( "richtext-embed-example", ( scene, stepEmitter, display ) => {
     /*START*/
     const string = 'Nodes like <node id="circle" align="center"/> and even <node id="otherText"/> can be embedded in RichText.';
     const content = new RichText( string, {
+      fill: foregroundColor,
       font: '20px Arial',
       nodes: {
         circle: new Circle( 10, { fill: 'red' } ),

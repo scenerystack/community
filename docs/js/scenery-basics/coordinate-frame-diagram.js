@@ -16,16 +16,16 @@ createSandbox( "coordinate-frame-diagram", ( scene, stepEmitter, display ) => {
               } ),
               new GridNode( new Property( ModelViewTransform2.createIdentity() ), 10, Vector2.ZERO, 50, {
                 clipArea: Shape.rect( -padding, -padding, 100 + padding * 2, 50 + padding * 2 ),
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 0.5,
                 opacity: 0.5
               } ),
               new Line( -padding, 0, 100 + padding, 0, {
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 2
               } ),
               new Line( 0, -padding, 0, 50 + padding, {
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 2
               } ),
             ]
@@ -39,24 +39,30 @@ createSandbox( "coordinate-frame-diagram", ( scene, stepEmitter, display ) => {
               } ),
               new GridNode( new Property( ModelViewTransform2.createIdentity() ), 10, Vector2.ZERO, 50, {
                 clipArea: Shape.rect( -padding * 2, -padding * 2, 2 * ( 100 + padding * 2 ), 2 * ( 70 + padding * 2 ) ),
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 0.5,
                 opacity: 0.5
               } ),
               new Line( -padding * 2, 0, 2 * ( 100 + padding ), 0, {
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 2
               } ),
               new Line( 0, -padding * 2, 0, 2 * ( 70 + padding ), {
-                stroke: 'black',
+                stroke: foregroundColor,
                 lineWidth: 2
               } ),
             ]
           } )
         ],
         [
-          new Text( 'Local Frame', { font: 'bold 20px sans-serif' } ),
-          new Text( 'Parent Frame', { font: 'bold 20px sans-serif' } )
+          new Text( 'Local Frame', {
+            font: 'bold 20px sans-serif',
+            fill: foregroundColor
+          } ),
+          new Text( 'Parent Frame', {
+            font: 'bold 20px sans-serif',
+            fill: foregroundColor
+          } )
         ]
       ]
     } );

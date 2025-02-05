@@ -13,7 +13,7 @@ createSandbox( "path-shape-example", ( scene, stepEmitter, display ) => {
 
     const content = new Path( shape, {
       fill: 'red',
-      stroke: 'black',
+      stroke: foregroundColor,
       lineWidth: 2
     } );
     /*END*/

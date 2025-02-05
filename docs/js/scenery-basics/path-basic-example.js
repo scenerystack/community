@@ -12,7 +12,7 @@ createSandbox( "path-basic-example", ( scene, stepEmitter, display ) => {
           fill: 'red',
 
           // stroke color is applied on top, on the border of the shape
-          stroke: 'black',
+          stroke: foregroundColor,
 
           // the width of the stroke can be controlled
           lineWidth: 3
