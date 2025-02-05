@@ -29,6 +29,10 @@ code.
 Verify syntax in the fluent file. Right now it checks for:
   - Message keys should use camelCase instead of dashes.
   - All terms used in the file should be defined.
+  - All selectors must have a default case.
+  - Terms are not allowed to use placeables because terms used in placeables cannot take forwarded variables.
+     - This is PhET specific and was added because it an easy programming mistake to assume that terms with
+     placeables can be used like messages. This can be relaxed if needed in the future.
 
 
 
