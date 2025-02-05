@@ -159,22 +159,24 @@ export const createSandbox = ( id, func, providedOptions ) => {
 
   const stepEmitter = new TinyEmitter();
 
-  display.updateOnRequestAnimationFrame( dt => {
-    stepEmitter.emit( dt );
+  if ( options.showDisplay ) {
+    display.updateOnRequestAnimationFrame( dt => {
+      stepEmitter.emit( dt );
 
-    const padding = 2;
-    if ( scene.bounds.isValid() ) {
-      const width = codeContainerElement.offsetWidth || parentElement.offsetWidth;
-      scene.centerX = width / 2;
-      scene.top = padding;
-      display.width = width;
-      display.height = Math.ceil( scene.bottom ) + padding;
-    }
-    displayContainerElement.style.height = `${Math.ceil( display.height )}px`;
-  } );
-  display.initializeEvents();
+      const padding = 2;
+      if ( scene.bounds.isValid() ) {
+        const width = codeContainerElement.offsetWidth || parentElement.offsetWidth;
+        scene.centerX = width / 2;
+        scene.top = padding;
+        display.width = width;
+        display.height = Math.ceil( scene.bottom ) + padding;
+      }
+      displayContainerElement.style.height = `${Math.ceil( display.height )}px`;
+    } );
+    display.initializeEvents();
 
-  displayContainerElement.appendChild( display._domElement );
+    displayContainerElement.appendChild( display._domElement );
+  }
 
   const run = async () => {
     const oldChildren = scene.children;

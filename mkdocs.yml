@@ -157,6 +157,7 @@ nav:
       - Vectors and Matrices: learn/vectors-and-matrices.md
       - Shapes: learn/shapes.md
       - Translation and Localization: learn/translation-and-localization.md
+      - Animation: learn/animation.md
       - Best Practices: learn/best-practices.md
       - Modifying SceneryStack: learn/modifying-scenerystack.md
       - UI Components: learn/ui-components.md
