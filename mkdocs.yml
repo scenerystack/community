@@ -60,7 +60,6 @@ theme:
     # - toc.integrate
   favicon: assets/scenerystack-round.png
   logo: assets/scenerystack-round.png
-  name: material
   palette:
     # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
@@ -158,6 +157,7 @@ nav:
       - Vectors and Matrices: learn/vectors-and-matrices.md
       - Shapes: learn/shapes.md
       - Translation and Localization: learn/translation-and-localization.md
+      - Animation: learn/animation.md
       - Best Practices: learn/best-practices.md
       - Modifying SceneryStack: learn/modifying-scenerystack.md
       - UI Components: learn/ui-components.md

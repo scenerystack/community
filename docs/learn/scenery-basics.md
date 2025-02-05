@@ -358,7 +358,8 @@ content can be aligned to the left, center, or right of the column.
 
 [ManualConstraint] allows for continuously applying imperative-style layout constraints between two or more nodes.
 
-TODO: example
+<div id="manualconstraint-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/manualconstraint-example.js"></script>
 
 See the [Scenery Layout](./scenery-layout.md) guide for more information on how to use these layout primitives.
 
@@ -378,7 +379,8 @@ be placed in the DOM).
 
 Pass an element to the `container` option of [Display]'s constructor:
 
-TODO: example
+<div id="display-preexisting-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/display-preexisting-example.js"></script>
 
 Scenery by default will apply CSS styles to the container. Typically it is best to have a containing block (element
 with `position: relative/absolute/fixed`) around a [Display] to ensure that the [Display] is positioned correctly.
@@ -388,7 +390,8 @@ with `position: relative/absolute/fixed`) around a [Display] to ensure that the 
 A [Display] will by default create its own element. This can be accessed with `display.domElement`, and can be added to
 the DOM:
 
-TODO: example
+<div id="display-create-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/display-create-example.js"></script>
 
 ### Updating the Display
 
@@ -402,7 +405,8 @@ changes size the [Display] will not update size.
 
 The [Display] can be manually sized with the `width` and `height` (and those can be mutated in the future):
 
-TODO: example
+<div id="display-size-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/display-size-example.js"></script>
 
 It also has a method `resizeOnWindowResize()` which can be used to automatically resize the [Display] when the window
 resizes.
@@ -418,25 +422,73 @@ or by manually listening to animation frames from the browser with [requestAnima
 When using `updateOnRequestAnimationFrame()`, a difference in time (delta-T, or `dt`) will be passed to the update function.
 This can be used to create smooth animations that are independent of the frame rate:
 
-TODO: animation example
+<div id="animation-basic-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/animation-basic-example.js"></script>
 
 The [Animation] type (and *twixt* module in general) are very helpful for creating simple animations:
 
-TODO: twixt demo
+<div id="animation-twixt-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/animation-twixt-example.js"></script>
 
 For more complex animations, it is recommended to rely on positioning/manipulating nodes based on `dt`.
 
+For more on twixt animations, see the [Animation Guide](./animation.md).
+
 ## User Interactivity
 
-(input event system)
-(common input listeners)
-(mouse/touch area)
-(cursor)
-(pickable? inputEnabled?)
+Scenery has an event dispatch system, somewhat similar to how DOM events work. This can be turned on with
+`display.initializeEvents()`. The [Display] will then listen for mouse, touch and pen events, and dispatch them to the
+appropriate nodes:
+
+<div id="interaction-basic-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/interaction-basic-example.js"></script>
+
+Scenery has an event system that supports low-level event handling:
+
+<div id="interaction-low-level-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/interaction-low-level-example.js"></script>
+
+and high-level event handling:
+
+<div id="interaction-high-level-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/interaction-high-level-example.js"></script>
+
+For common interactions, it is recommended to use [DragListener] (for drags) or [FireListener] (for button-like interactions),
+or the more general [PressListener].
 
 If the [Display] is not taking up the full window, it is recommended to pass `listenToOnlyElement: true` to the [Display].
 
+Additionally, the [Scenery Input](./scenery-input.md) guide has more information on Scenery's low-level input handling.
+
+### Mouse/Touch Areas
+
+By default, nodes will respond to events when the mouse/touch (known as a *pointer*) is over the node. This can be adjusted
+so that buttons or other nodes will respond to presses over a different region.
+
+This is most useful when dealing with touch interfaces, where it can be best to expand the touchAreas of nodes to make
+them easier to interact with.
+
+TODO: mouseArea/touchArea example
+
+### Cursors
+
+The cursor that is displayed when the mouse is over a node can be adjusted with the `cursor` property of a node:
+
+TODO: cursor example
+
+### Pickability
+
+By default, placing an input listener on a node will make ALL of its contents receive and forward events. Sometimes
+it is helpful to have some contents of a node be "invisible" to interaction. This can be done with the `pickable` property:
+
+TODO: pickable example
+
+If you want to disable input handling on a node entirely, but still want it to block events from passing through it
+(as if it was invisible), `inputEnabled` can be used instead.
+
 ## Accessibility
+
+TODO: Accessibility (work with JG on this)
 
 ## Instances
 
@@ -444,8 +496,22 @@ TODO: DAG
 
 ## Node Properties
 
-Visibility
-Opacity
-Clip area
-Filters
-Renderer
+### Visibility
+
+TODO
+
+### Opacity
+
+TODO
+
+### Clip Area
+
+TODO
+
+### Filters
+
+TODO
+
+### Renderer
+
+TODO

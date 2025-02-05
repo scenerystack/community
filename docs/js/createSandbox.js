@@ -9,12 +9,54 @@
  */
 
 import { extractFunctionJS } from './extractFunctionJS.js';
-import { Display, merge, Node, TinyEmitter } from '/lib/scenerystack.esm.min.js';
+import { BooleanProperty, DerivedProperty, Display, merge, Node, TinyEmitter } from '/lib/scenerystack.esm.min.js';
 import '/lib/codemirror-5.52.2.min.js';
 import '/lib/codemirror-5.52.2.javascript.min.js';
 import { colors } from './colors.js';
 import { createLabeledBox } from './createLabeledBox.js';
 import { ResizableNode } from './ResizableNode.js';
+
+const isDarkModeProperty = new BooleanProperty( false );
+self.isDarkModeProperty = isDarkModeProperty;
+{
+  const onThemeChange = callback => {
+    function getCurrentTheme() {
+      return document.body.getAttribute( 'data-md-color-scheme' );
+    }
+
+    let lastTheme = getCurrentTheme();
+
+    const observer = new MutationObserver( () => {
+      const newTheme = getCurrentTheme();
+      if ( newTheme && newTheme !== lastTheme ) {
+        lastTheme = newTheme;
+        callback( newTheme );
+      }
+    } );
+
+    observer.observe( document.body, {
+      attributes: true,
+      attributeFilter: [ 'data-md-color-scheme' ]
+    } );
+
+    callback( lastTheme );
+
+    return () => observer.disconnect();
+  }
+
+  // Example usage:
+  onThemeChange(theme => {
+    isDarkModeProperty.value = theme === 'slate';
+  } );
+}
+
+// TODO: Better link these to the theme
+const foregroundColor = new DerivedProperty( [ isDarkModeProperty ], isDark => {
+  return isDark ? 'rgb(226, 228, 233)' : '#000';
+} );
+const backgroundColor = new DerivedProperty( [ isDarkModeProperty ], isDark => {
+  return isDark ? 'rgb(30, 33, 41)' : '#fff';
+} );
 
 const scenerystackImportsPromise = import( '/lib/scenerystack.esm.min.js' );
 
@@ -32,6 +74,9 @@ scenerystackImportsPromise.then( actualImports => {
   self.scenerystackImports.colors = colors;
   self.scenerystackImports.createLabeledBox = createLabeledBox;
   self.scenerystackImports.ResizableNode = ResizableNode;
+  self.scenerystackImports.isDarkModeProperty = isDarkModeProperty;
+  self.scenerystackImports.foregroundColor = foregroundColor;
+  self.scenerystackImports.backgroundColor = backgroundColor;
 } );
 
 export const createSandbox = ( id, func, providedOptions ) => {
@@ -114,22 +159,24 @@ export const createSandbox = ( id, func, providedOptions ) => {
 
   const stepEmitter = new TinyEmitter();
 
-  display.updateOnRequestAnimationFrame( dt => {
-    stepEmitter.emit( dt );
+  if ( options.showDisplay ) {
+    display.updateOnRequestAnimationFrame( dt => {
+      stepEmitter.emit( dt );
 
-    const padding = 2;
-    if ( scene.bounds.isValid() ) {
-      const width = codeContainerElement.offsetWidth || parentElement.offsetWidth;
-      scene.centerX = width / 2;
-      scene.top = padding;
-      display.width = width;
-      display.height = Math.ceil( scene.bottom ) + padding;
-    }
-    displayContainerElement.style.height = `${Math.ceil( display.height )}px`;
-  } );
-  display.initializeEvents();
+      const padding = 2;
+      if ( scene.bounds.isValid() ) {
+        const width = codeContainerElement.offsetWidth || parentElement.offsetWidth;
+        scene.centerX = width / 2;
+        scene.top = padding;
+        display.width = width;
+        display.height = Math.ceil( scene.bottom ) + padding;
+      }
+      displayContainerElement.style.height = `${Math.ceil( display.height )}px`;
+    } );
+    display.initializeEvents();
 
-  displayContainerElement.appendChild( display._domElement );
+    displayContainerElement.appendChild( display._domElement );
+  }
 
   const run = async () => {
     const oldChildren = scene.children;

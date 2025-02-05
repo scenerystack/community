@@ -5,7 +5,7 @@ createSandbox( "text-property-example", ( scene, stepEmitter, display ) => {
     /*START*/
     const property = new StringProperty( 'Initial Text' );
     const content = new Text( property, {
-      fill: 'purple',
+      fill: foregroundColor,
 
       // font properties can be specified independently
       fontFamily: 'serif',

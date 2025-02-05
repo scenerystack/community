@@ -1,0 +1,11 @@
+--8<-- "api-reference-snippets.md"
+
+<link rel="stylesheet" href="/css/examples.css">
+
+# Animation
+
+!!! warning "Under Construction"
+    This section and others in Getting Started with SceneryStack are under heavy revisement
+    and will be updated in January 2025.
+
+TODO: write summary of twixt APIs
