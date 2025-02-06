@@ -42,7 +42,7 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 
 <figure markdown>
   ![Interactive in action with SceneryStack](assets/centerandvariabilitykeyboard.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard-friendly interactive simulation</a> created using SceneryStack</figcaption>
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard-friendly interactive simulation</a> created by @phetsims using SceneryStack</figcaption>
 </figure>
 ---
 
@@ -76,7 +76,7 @@ Want to learn more about the Accessibility and Inclusive Design features of Scen
 
 <figure markdown>
   ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Enery Skate Park</a>, created using SceneryStack</figcaption>
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Energy Skate Park</a>, dynamic and game-like simulation created by @phetsims using SceneryStack</figcaption>
 </figure>
 
 ---
@@ -111,6 +111,7 @@ We welcome contributions from the community! Whether you're a seasoned developer
 
 ---
 
-![Interactive in action with SceneryStack](assets/cck-bulb.gif)
-
-_[Interactive simulation](https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc) created by PhET using SceneryStack_
+<figure markdown>
+  ![Interactive in action with SceneryStack](assets/cck-bulb.gif)
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc">Circuit Construction Kit</a>, circuit sandbox simulation created by @phetsims using SceneryStack</figcaption>
+</figure>

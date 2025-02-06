@@ -173,8 +173,8 @@ nav:
 #      - Install: learn/setup_old.md
 #    - Guides:
 #      - Web Overview: learn/web/web_overview.md
-#      - Coding Conventions: info_sync/coding_conventions.md
-#      - PhET TypeScript Conventions: info_sync/typescript_conventions.md
+#      - Coding Conventions: info-sync/coding_conventions.md
+#      - PhET TypeScript Conventions: info-sync/typescript_conventions.md
   - Reference:
     - Supported Browsers: reference/supported-browsers.md
     - API:
@@ -1782,11 +1782,10 @@ nav:
     - Sustainability Plan: community/sustainability_plan.md
     - Contribute:
       - Contribution Guide: CONTRIBUTING.md
-      - Code Contribution: community/code-contribution.md
       - Contributor License Agreement: community/CLA.md
-      - Setting Up Development Environment: learn/dev/dev_environment.md
-      - SceneryStack Versioning: learn/dev/versioning.md
+      - SceneryStack Versioning: learn/versioning.md
       - Roadmap: community/roadmap.md
+    - Google Summer of Code: community/gsoc2025.md
   - About: 
     - Project Mission: about/about.md
     - Branding: about/branding.md

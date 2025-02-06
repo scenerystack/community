@@ -13,11 +13,11 @@ The following resources are intended for use when implementing accessibility and
 
 <div class="grid cards" markdown>
 
-- [Dynamic String Layout](../info_sync/dynamic_string_layout_quickstart.md)
-- [Interactive Highlights](../info_sync/interactive_highlights_quickstart_guide.md)
-- [Interactive Description for Screen Readers](../info_sync/interactive_description_technical_guide.md)
-- [Accessible Preferences Guidelines](../info_sync/accessible_preferences_quickstart_guide.md)
-- [Alternative Input](../info_sync/alternative_input_quickstart_guide.md)
+- [Dynamic String Layout](../info-sync/dynamic-string-layout-quickstart.md)
+- [Interactive Highlights](../info-sync/interactive-highlights-quickstart-guide.md)
+- [Interactive Description for Screen Readers](../info-sync/interactive-description-technical-guide.md)
+- [Accessible Preferences Guidelines](../info-sync/accessible-preferences-quickstart-guide.md)
+- [Alternative Input](../info-sync/alternative-input-quickstart-guide.md)
 
 </div>
 
