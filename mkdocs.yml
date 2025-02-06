@@ -1769,6 +1769,7 @@ nav:
     - Software Design Patterns: info-sync/software-design-patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - Libraries: reference/scenerystack_list.md
+    - Scenery Implementation Notes: reference/scenery-implementation-notes.md
   - Community:
     - Join Us: community/join.md
     - Community Guidelines: CODE_OF_CONDUCT.md
