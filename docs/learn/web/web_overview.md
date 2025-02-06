@@ -28,7 +28,7 @@ Check out the links below to get familiar with Scenery and some examples using S
 
     Core Scenery concepts
 
-- [Scenery Layout](https://phetsims.github.io/scenery/doc/layout)
+- [Scenery Layout](https://scenerystack.org/learn/scenery-layout/)
 
     ---
 
