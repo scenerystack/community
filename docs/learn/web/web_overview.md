@@ -22,13 +22,13 @@ Check out the links below to get familiar with Scenery and some examples using S
 
 <div class="grid cards" markdown>
 
-- [Tour of Scenery](https://phetsims.github.io/scenery/doc/a-tour-of-scenery.html)
+- [Scenery Basics](https://scenerystack.org/learn/scenery-basics/)
 
     ---
 
     Core Scenery concepts
 
-- [Scenery Layout](https://phetsims.github.io/scenery/doc/layout)
+- [Scenery Layout](https://scenerystack.org/learn/scenery-layout/)
 
     ---
 

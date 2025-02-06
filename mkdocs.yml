@@ -697,7 +697,6 @@ nav:
         - screenSelectionHomeV3_mp3: reference/api/joist/screenSelectionHomeV3_mp3.md
         - TemporalCounter: reference/api/joist/TemporalCounter.md
         - TModel: reference/api/joist/TModel.md
-        - updateCheck: reference/api/joist/updateCheck.md
         - UpdateState: reference/api/joist/UpdateState.md
       - kite:
         - Boundary: reference/api/kite/Boundary.md
@@ -1097,6 +1096,7 @@ nav:
         - SceneryQueryParameters: reference/api/scenery/SceneryQueryParameters.md
         - scenerySerialize: reference/api/scenery/scenerySerialize.md
         - SceneryStyle: reference/api/scenery/SceneryStyle.md
+        - scratches: reference/api/scenery/scratches.md
         - SelfDrawable: reference/api/scenery/SelfDrawable.md
         - Separator: reference/api/scenery/Separator.md
         - Sepia: reference/api/scenery/Sepia.md
@@ -1485,6 +1485,7 @@ nav:
         - switchingScreenSelectorIcons003_mp3: reference/api/sim/switchingScreenSelectorIcons003_mp3.md
         - ThirdPartySupport: reference/api/sim/ThirdPartySupport.md
         - Toolbar: reference/api/sim/Toolbar.md
+        - updateCheck: reference/api/sim/updateCheck.md
         - UpdateDialog: reference/api/sim/UpdateDialog.md
         - UpdateNodes: reference/api/sim/UpdateNodes.md
         - VisualPreferencesPanel: reference/api/sim/VisualPreferencesPanel.md
@@ -1597,7 +1598,6 @@ nav:
         - audioContextStateChangeMonitor: reference/api/tambo/audioContextStateChangeMonitor.md
         - base64SoundToByteArray: reference/api/tambo/base64SoundToByteArray.md
         - BinMapper: reference/api/tambo/BinMapper.md
-        - birdCall_mp3: reference/api/tambo/birdCall_mp3.md
         - boundaryReached_mp3: reference/api/tambo/boundaryReached_mp3.md
         - brightMarimba_mp3: reference/api/tambo/brightMarimba_mp3.md
         - brightMarimbaShort_mp3: reference/api/tambo/brightMarimbaShort_mp3.md
@@ -1607,7 +1607,6 @@ nav:
         - click_mp3: reference/api/tambo/click_mp3.md
         - CompositeSoundClip: reference/api/tambo/CompositeSoundClip.md
         - ContinuousPropertySoundClip: reference/api/tambo/ContinuousPropertySoundClip.md
-        - cricketsLoop_mp3: reference/api/tambo/cricketsLoop_mp3.md
         - CrossFadeSoundClip: reference/api/tambo/CrossFadeSoundClip.md
         - DiscreteSoundGenerator: reference/api/tambo/DiscreteSoundGenerator.md
         - emptyApartmentBedroom06Resampled_mp3: reference/api/tambo/emptyApartmentBedroom06Resampled_mp3.md
@@ -1619,7 +1618,6 @@ nav:
         - grab_mp3: reference/api/tambo/grab_mp3.md
         - hollowThud_mp3: reference/api/tambo/hollowThud_mp3.md
         - lightning_png: reference/api/tambo/lightning_png.md
-        - loonCall_mp3: reference/api/tambo/loonCall_mp3.md
         - MultiClip: reference/api/tambo/MultiClip.md
         - multiSelectionSoundPlayerFactory: reference/api/tambo/multiSelectionSoundPlayerFactory.md
         - NoiseGenerator: reference/api/tambo/NoiseGenerator.md
@@ -1634,7 +1632,6 @@ nav:
         - radioButtonV2_mp3: reference/api/tambo/radioButtonV2_mp3.md
         - release_mp3: reference/api/tambo/release_mp3.md
         - resetAll_mp3: reference/api/tambo/resetAll_mp3.md
-        - rhodesChord_mp3: reference/api/tambo/rhodesChord_mp3.md
         - saturatedSineLoop220Hz_mp3: reference/api/tambo/saturatedSineLoop220Hz_mp3.md
         - selectionArpeggio001_mp3: reference/api/tambo/selectionArpeggio001_mp3.md
         - selectionArpeggio002_mp3: reference/api/tambo/selectionArpeggio002_mp3.md
@@ -1657,17 +1654,13 @@ nav:
         - SoundUtils: reference/api/tambo/SoundUtils.md
         - stepBack_mp3: reference/api/tambo/stepBack_mp3.md
         - stepForward_mp3: reference/api/tambo/stepForward_mp3.md
-        - stringsLoopMiddleCOscilloscope_mp3: reference/api/tambo/stringsLoopMiddleCOscilloscope_mp3.md
         - switchToLeft_mp3: reference/api/tambo/switchToLeft_mp3.md
         - switchToRight_mp3: reference/api/tambo/switchToRight_mp3.md
         - TamboStrings: reference/api/tambo/TamboStrings.md
-        - thunder_mp3: reference/api/tambo/thunder_mp3.md
         - TSoundPlayer: reference/api/tambo/TSoundPlayer.md
         - ValueChangeSoundPlayer: reference/api/tambo/ValueChangeSoundPlayer.md
         - wallContact_mp3: reference/api/tambo/wallContact_mp3.md
         - WaveGenerator: reference/api/tambo/WaveGenerator.md
-        - windsLoopC3Oscilloscope_mp3: reference/api/tambo/windsLoopC3Oscilloscope_mp3.md
-        - windsLoopMiddleCOscilloscope_mp3: reference/api/tambo/windsLoopMiddleCOscilloscope_mp3.md
         - WrappedAudioBuffer: reference/api/tambo/WrappedAudioBuffer.md
       - tandem:
         - ArrayIO: reference/api/tandem/ArrayIO.md
@@ -1776,6 +1769,7 @@ nav:
     - Software Design Patterns: info-sync/software-design-patterns.md
     - Accessibility Resources: accessibility/a11y_guides.md
     - Libraries: reference/scenerystack_list.md
+    - Scenery Implementation Notes: reference/scenery-implementation-notes.md
   - Community:
     - Join Us: community/join.md
     - Community Guidelines: CODE_OF_CONDUCT.md

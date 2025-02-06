@@ -506,7 +506,6 @@
 [screenSelectionHomeV3_mp3]: /reference/api/joist/screenSelectionHomeV3_mp3/
 [TemporalCounter]: /reference/api/joist/TemporalCounter/
 [TModel]: /reference/api/joist/TModel/
-[updateCheck]: /reference/api/joist/updateCheck/
 [UpdateState]: /reference/api/joist/UpdateState/
 [Boundary]: /reference/api/kite/Boundary/
 [BoundsIntersection]: /reference/api/kite/BoundsIntersection/
@@ -898,6 +897,7 @@
 [SceneryQueryParameters]: /reference/api/scenery/SceneryQueryParameters/
 [scenerySerialize]: /reference/api/scenery/scenerySerialize/
 [SceneryStyle]: /reference/api/scenery/SceneryStyle/
+[scratches]: /reference/api/scenery/scratches/
 [SelfDrawable]: /reference/api/scenery/SelfDrawable/
 [Separator]: /reference/api/scenery/Separator/
 [Sepia]: /reference/api/scenery/Sepia/
@@ -1284,6 +1284,7 @@
 [switchingScreenSelectorIcons003_mp3]: /reference/api/sim/switchingScreenSelectorIcons003_mp3/
 [ThirdPartySupport]: /reference/api/sim/ThirdPartySupport/
 [Toolbar]: /reference/api/sim/Toolbar/
+[updateCheck]: /reference/api/sim/updateCheck/
 [UpdateDialog]: /reference/api/sim/UpdateDialog/
 [UpdateNodes]: /reference/api/sim/UpdateNodes/
 [VisualPreferencesPanel]: /reference/api/sim/VisualPreferencesPanel/
@@ -1393,7 +1394,6 @@
 [audioContextStateChangeMonitor]: /reference/api/tambo/audioContextStateChangeMonitor/
 [base64SoundToByteArray]: /reference/api/tambo/base64SoundToByteArray/
 [BinMapper]: /reference/api/tambo/BinMapper/
-[birdCall_mp3]: /reference/api/tambo/birdCall_mp3/
 [boundaryReached_mp3]: /reference/api/tambo/boundaryReached_mp3/
 [brightMarimba_mp3]: /reference/api/tambo/brightMarimba_mp3/
 [brightMarimbaShort_mp3]: /reference/api/tambo/brightMarimbaShort_mp3/
@@ -1403,7 +1403,6 @@
 [click_mp3]: /reference/api/tambo/click_mp3/
 [CompositeSoundClip]: /reference/api/tambo/CompositeSoundClip/
 [ContinuousPropertySoundClip]: /reference/api/tambo/ContinuousPropertySoundClip/
-[cricketsLoop_mp3]: /reference/api/tambo/cricketsLoop_mp3/
 [CrossFadeSoundClip]: /reference/api/tambo/CrossFadeSoundClip/
 [DiscreteSoundGenerator]: /reference/api/tambo/DiscreteSoundGenerator/
 [emptyApartmentBedroom06Resampled_mp3]: /reference/api/tambo/emptyApartmentBedroom06Resampled_mp3/
@@ -1415,7 +1414,6 @@
 [grab_mp3]: /reference/api/tambo/grab_mp3/
 [hollowThud_mp3]: /reference/api/tambo/hollowThud_mp3/
 [lightning_png]: /reference/api/tambo/lightning_png/
-[loonCall_mp3]: /reference/api/tambo/loonCall_mp3/
 [MultiClip]: /reference/api/tambo/MultiClip/
 [multiSelectionSoundPlayerFactory]: /reference/api/tambo/multiSelectionSoundPlayerFactory/
 [NoiseGenerator]: /reference/api/tambo/NoiseGenerator/
@@ -1430,7 +1428,6 @@
 [radioButtonV2_mp3]: /reference/api/tambo/radioButtonV2_mp3/
 [release_mp3]: /reference/api/tambo/release_mp3/
 [resetAll_mp3]: /reference/api/tambo/resetAll_mp3/
-[rhodesChord_mp3]: /reference/api/tambo/rhodesChord_mp3/
 [saturatedSineLoop220Hz_mp3]: /reference/api/tambo/saturatedSineLoop220Hz_mp3/
 [selectionArpeggio001_mp3]: /reference/api/tambo/selectionArpeggio001_mp3/
 [selectionArpeggio002_mp3]: /reference/api/tambo/selectionArpeggio002_mp3/
@@ -1453,17 +1450,13 @@
 [SoundUtils]: /reference/api/tambo/SoundUtils/
 [stepBack_mp3]: /reference/api/tambo/stepBack_mp3/
 [stepForward_mp3]: /reference/api/tambo/stepForward_mp3/
-[stringsLoopMiddleCOscilloscope_mp3]: /reference/api/tambo/stringsLoopMiddleCOscilloscope_mp3/
 [switchToLeft_mp3]: /reference/api/tambo/switchToLeft_mp3/
 [switchToRight_mp3]: /reference/api/tambo/switchToRight_mp3/
 [TamboStrings]: /reference/api/tambo/TamboStrings/
-[thunder_mp3]: /reference/api/tambo/thunder_mp3/
 [TSoundPlayer]: /reference/api/tambo/TSoundPlayer/
 [ValueChangeSoundPlayer]: /reference/api/tambo/ValueChangeSoundPlayer/
 [wallContact_mp3]: /reference/api/tambo/wallContact_mp3/
 [WaveGenerator]: /reference/api/tambo/WaveGenerator/
-[windsLoopC3Oscilloscope_mp3]: /reference/api/tambo/windsLoopC3Oscilloscope_mp3/
-[windsLoopMiddleCOscilloscope_mp3]: /reference/api/tambo/windsLoopMiddleCOscilloscope_mp3/
 [WrappedAudioBuffer]: /reference/api/tambo/WrappedAudioBuffer/
 [ArrayIO]: /reference/api/tandem/ArrayIO/
 [BooleanIO]: /reference/api/tandem/BooleanIO/
