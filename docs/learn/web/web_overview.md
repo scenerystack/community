@@ -22,7 +22,7 @@ Check out the links below to get familiar with Scenery and some examples using S
 
 <div class="grid cards" markdown>
 
-- [Tour of Scenery](https://phetsims.github.io/scenery/doc/a-tour-of-scenery.html)
+- [Scenery Basics](https://scenerystack.org/learn/scenery-basics/)
 
     ---
 
