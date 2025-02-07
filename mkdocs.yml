@@ -1777,7 +1777,7 @@ nav:
     - Contribute:
       - Contribution Guide: CONTRIBUTING.md
       - Contributor License Agreement: community/CLA.md
-      - SceneryStack Versioning: learn/versioning.md
+      - SceneryStack Versioning: community/versioning.md
       - Roadmap: community/roadmap.md
     - Google Summer of Code: community/gsoc2025.md
   - About: 
