@@ -2,6 +2,8 @@
 
 <link rel="stylesheet" href="/css/examples.css">
 
+TODO: link over from https://phet.colorado.edu/en/inclusive-design/features for all of the features videos.
+
 # Features
 
 !!! warning "Under Construction"
@@ -39,6 +41,10 @@ TODO: describe how Scenery handles color profiles and high-DPI displays
 ### Interactive Highlights
 
 TODO: describe how Scenery handles interactive highlights
+
+### Keyboard-Based Dragging
+
+TODO: KeyboardDragListener example
 
 ## Create Applications with Ease
 

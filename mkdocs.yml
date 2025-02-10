@@ -162,6 +162,7 @@ nav:
       - Modifying SceneryStack: learn/modifying-scenerystack.md
       - UI Components: learn/ui-components.md
     - Tutorials:
+      - Accessible Interaction: learn/tutorials/accessible-interaction.md
       - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
       - Three.js Integration: learn/tutorials/threejs-integration.md
     - Examples:
@@ -169,6 +170,7 @@ nav:
       - Scenery Layout: learn/examples/scenery-layout.md
       - Simulation Showcase: learn/examples/simulation-showcase.md
       - Application Showcase: learn/examples/application-showcase.md
+      - Accessibility Examples: learn/examples/accessibility-examples.md
 #    - Overview:
 #      - Install: learn/setup_old.md
 #    - Guides:
