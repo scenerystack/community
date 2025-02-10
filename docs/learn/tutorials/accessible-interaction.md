@@ -21,6 +21,8 @@ TODOs:
     (show pdom output HTML)
     (iframe -- for headers?)
 
+    EFAC BikerNode / Biker --- also remove the spokes from the front wheel for the frame, and animate that
+
     Component (accessibleName/helpText, maybe object responses)
     Headings
     Dynamic state description + context responses
