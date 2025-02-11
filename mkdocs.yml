@@ -164,13 +164,13 @@ nav:
     - Tutorials:
       - Accessible Interaction: learn/tutorials/accessible-interaction.md
       - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
-      - Three.js Integration: learn/tutorials/threejs-integration.md
     - Examples:
       - Demo Simulation: learn/examples/demo-simulation.md
       - Scenery Layout: learn/examples/scenery-layout.md
       - Simulation Showcase: learn/examples/simulation-showcase.md
       - Application Showcase: learn/examples/application-showcase.md
       - Accessibility Examples: learn/examples/accessibility-examples.md
+      - Three.js Integration: learn/examples/threejs-integration.md
 #    - Overview:
 #      - Install: learn/setup_old.md
 #    - Guides:
