@@ -33,10 +33,6 @@ please use judiciously, see https://github.com/phetsims/scenery-phet/issues/442
 
 ### Static Properties
 
-#### DEFAULT_BASE_COLOR {: #DEFAULT_BASE_COLOR data-toc-label='DEFAULT_BASE_COLOR' }
-
-(readonly)
-
 #### SET_TO_ZERO_HOTKEY_DATA : <span style="font-weight: 400;">[HotkeyData](../scenery/HotkeyData.md)</span> {: #SET_TO_ZERO_HOTKEY_DATA data-toc-label='SET_TO_ZERO_HOTKEY_DATA' }
 
 (readonly)

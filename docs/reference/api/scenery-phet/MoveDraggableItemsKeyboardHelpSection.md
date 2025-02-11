@@ -14,7 +14,7 @@ import { MoveDraggableItemsKeyboardHelpSection } from 'scenerystack/scenery-phet
 ```
 ### Constructor
 
-#### new MoveDraggableItemsKeyboardHelpSection() {: #MoveDraggableItemsKeyboardHelpSection-constructor data-toc-label='new MoveDraggableItemsKeyboardHelpSection' }
+#### new MoveDraggableItemsKeyboardHelpSection( providedOptions? : <span style="font-weight: 400;">MoveDraggableItemsKeyboardHelpSectionOptions</span> ) {: #MoveDraggableItemsKeyboardHelpSection-constructor data-toc-label='new MoveDraggableItemsKeyboardHelpSection' }
 
 ### Instance Methods
 

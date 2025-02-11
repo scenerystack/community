@@ -861,7 +861,7 @@
 [PressListener]: /reference/api/scenery/PressListener/
 [ProfileColorProperty]: /reference/api/scenery/ProfileColorProperty/
 [RadialGradient]: /reference/api/scenery/RadialGradient/
-[rasterized]: /reference/api/scenery/rasterized/
+[rasterizeNode]: /reference/api/scenery/rasterizeNode/
 [Reader]: /reference/api/scenery/Reader/
 [ReadingBlock]: /reference/api/scenery/ReadingBlock/
 [ReadingBlockHighlight]: /reference/api/scenery/ReadingBlockHighlight/

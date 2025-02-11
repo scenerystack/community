@@ -82,11 +82,11 @@ import type { AccessibleValueHandlerOptions } from 'scenerystack/sun';
 <br>  If true, the aria-valuetext will be spoken every value change, even if the aria-valuetext doesn't
   actually change. By default, screen readers won't speak aria-valuetext if it remains the same for
   multiple values.
-- **pdomCreateAriaValueText**?: CreateTextFunction
+- **pdomCreateAriaValueText**?: CreateTextFunction&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
 <br>  aria-valuetext creation function, called when the valueProperty changes.
   This string is read by AT every time the slider value changes. This is often called the "object response"
   for this interaction.
-- **pdomCreateContextResponseAlert**?: CreateTextFunction | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pdomCreateContextResponseAlert**?: CreateTextFunction&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Create content for an alert that will be sent to the utteranceQueue when the user finishes interacting
   with the input. Is not generated every change, but on every "drag" interaction, this is called with
   endInput. With a keyboard, this will be called even with no value change (on the key up event ending the
@@ -140,8 +140,8 @@ import type { TAccessibleValueHandler } from 'scenerystack/sun';
 - **pdomMapPDOMValue**: ( ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
 - **pdomMapValue**: ( ( newValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, previousValue: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> )
 - **pdomRepeatEqualValueText**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-- **pdomCreateAriaValueText**: CreateTextFunction
-- **pdomCreateContextResponseAlert**: CreateTextFunction | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **pdomCreateAriaValueText**: CreateTextFunction&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;
+- **pdomCreateContextResponseAlert**: CreateTextFunction&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **contextResponsePerValueChangeDelay**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **contextResponseMaxDelay**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **voicingOnEndResponseOptions**: [VoicingOnEndResponseOptions](../sun/AccessibleValueHandler.md#VoicingOnEndResponseOptions)

@@ -131,6 +131,8 @@ the sim or outside, but also in cases where we have NOT received an up/end.
 See https://github.com/phetsims/scenery/issues/1186 for more information. We'll want to interrupt the pointer
 on this case regardless,
 
+#### hasPointerCaptured() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasPointerCaptured data-toc-label='hasPointerCaptured' }
+
 #### dispose() {: #dispose data-toc-label='dispose' }
 
 Releases references so it can be garbage collected.

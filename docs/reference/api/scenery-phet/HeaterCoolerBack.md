@@ -34,6 +34,10 @@ Specifically, this returns the left center of the stove opening.
 
 Scale factor that determines the height of the heater opening. Can be made an optional parameter if necessary.
 
+#### DEFAULT_BASE_COLOR {: #DEFAULT_BASE_COLOR data-toc-label='DEFAULT_BASE_COLOR' }
+
+(readonly)
+
 
 
 ## Type HeaterCoolerBackOptions {: #HeaterCoolerBackOptions }

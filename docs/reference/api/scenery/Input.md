@@ -166,7 +166,7 @@ import { Input } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Input( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, attachToWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, batchDOMEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, assumeFullWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, passiveEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, providedOptions? : <span style="font-weight: 400;">[InputOptions](../scenery/Input.md#InputOptions)</span> ) {: #Input-constructor data-toc-label='new Input' }
+#### new Input( display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, attachToWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, batchDOMEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, assumeFullWindow : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, passiveEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, preventMultitouch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, interruptMultitouch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span>, providedOptions? : <span style="font-weight: 400;">[InputOptions](../scenery/Input.md#InputOptions)</span> ) {: #Input-constructor data-toc-label='new Input' }
 
 ### Instance Methods
 
@@ -199,6 +199,14 @@ If excludePointer is provided, it will NOT be interrupted along with the others
 (readonly)
 
 #### passiveEvents : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #passiveEvents data-toc-label='passiveEvents' }
+
+(readonly)
+
+#### preventMultitouch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #preventMultitouch data-toc-label='preventMultitouch' }
+
+(readonly)
+
+#### interruptMultitouch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #interruptMultitouch data-toc-label='interruptMultitouch' }
 
 (readonly)
 

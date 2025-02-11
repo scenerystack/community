@@ -414,6 +414,14 @@ import type { DisplayOptions } from 'scenerystack/scenery';
 - **allowBackingScaleAntialiasing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Whether, if no WebGL antialiasing is detected, the backing scale can be increased to provide some
   antialiasing benefit. See https://github.com/phetsims/scenery/issues/859.
+- **preventMultitouch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Turns off multitouch at the Display level (so that multiple pointers will not
+  be active), see https://github.com/phetsims/scenery/issues/1684.
+  This will mainly prevent multiple touch-level pointers, but mouse + touch
+  or multiple mice will still be possible.
+- **interruptMultitouch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, and a second touch is detected, it will interrupt the first (active)
+  touch. See https://github.com/phetsims/scenery/issues/1684.
 - **container**?: HTMLElement
 <br>  An HTMLElement used to contain the contents of the Display
 - &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;

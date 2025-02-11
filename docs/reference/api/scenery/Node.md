@@ -1541,7 +1541,7 @@ Renders this Node to a Canvas, then calls the callback with the data URI from it
 
 Calls the callback with an HTMLImageElement that contains this Node's subtree's visual form.
 Will always be asynchronous.
-@deprecated - Use rasterized() for creating a rasterized copy, or generally it's best to get the data
+@deprecated - Use rasterizeNode() for creating a rasterized copy, or generally it's best to get the data
               URL instead directly.
 
 @param callback - callback( image {HTMLImageElement}, x, y ) is called

@@ -36,7 +36,7 @@ import type { FineCoarseSpinnerOptions } from 'scenerystack/scenery-phet';
 - **deltaCoarse**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **spacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowsSoundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md)
-- **numberDisplayOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions), "tandem"&gt;
+- **numberDisplayOptions**?: [NumberDisplayOptions](../scenery-phet/NumberDisplay.md#NumberDisplayOptions)
 - **arrowButtonOptions**?: [StrictOmit](../phet-core/StrictOmit.md)&lt;[ArrowButtonOptions](../sun/ArrowButton.md#ArrowButtonOptions), "numberOfArrows" | "tandem" | "focusable" | "soundPlayer"&gt;
 - &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;ParentOptions, "children" | "valueProperty" | "enabledRangeProperty" | "keyboardStep" | "shiftKeyboardStep" | "pageKeyboardStep" | "onInput"&gt;
 

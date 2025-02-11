@@ -1062,7 +1062,7 @@ nav:
         - PressListener: reference/api/scenery/PressListener.md
         - ProfileColorProperty: reference/api/scenery/ProfileColorProperty.md
         - RadialGradient: reference/api/scenery/RadialGradient.md
-        - rasterized: reference/api/scenery/rasterized.md
+        - rasterizeNode: reference/api/scenery/rasterizeNode.md
         - Reader: reference/api/scenery/Reader.md
         - ReadingBlock: reference/api/scenery/ReadingBlock.md
         - ReadingBlockHighlight: reference/api/scenery/ReadingBlockHighlight.md

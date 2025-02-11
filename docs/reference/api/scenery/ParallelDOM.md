@@ -1074,7 +1074,7 @@ import type { TrimParallelDOMOptions } from 'scenerystack/scenery';
 ```
 
 
-[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "focusable" | "pdomVisible"&gt;
+[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "accessibleParagraph" | "focusable" | "pdomVisible"&gt;
 
 
 

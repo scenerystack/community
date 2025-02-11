@@ -1,4 +1,4 @@
-# rasterized
+# rasterizeNode
 
 ## Overview
 
@@ -42,7 +42,7 @@ import type { RasterizedOptions } from 'scenerystack/scenery';
   performance if svg/dom renderers do not need to be used.
   Defaults to false
 - **nodeOptions**?: [NodeOptions](../scenery/Node.md#NodeOptions)
-<br>  Options to be passed to the Node that is returned by the rasterized call, this could be the direct Image or a
+<br>  Options to be passed to the Node that is returned by the rasterizeNode call, this could be the direct Image or a
   wrapped Node, depending on the value of options.wrap. In general it is best to use this option, and only provide
   imageOptions for specific requirements. These options will override any imageOptions if wrap:false. Defaults to \
   the empty object.
@@ -56,4 +56,4 @@ import type { RasterizedOptions } from 'scenerystack/scenery';
 
 ## Source Code
 
-See the source for [rasterized.ts](https://github.com/phetsims/scenery/blob/main/js/util/rasterized.ts) in the [scenery](https://github.com/phetsims/scenery) repository.
+See the source for [rasterizeNode.ts](https://github.com/phetsims/scenery/blob/main/js/util/rasterizeNode.ts) in the [scenery](https://github.com/phetsims/scenery) repository.
