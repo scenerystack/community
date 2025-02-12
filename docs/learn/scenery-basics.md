@@ -468,13 +468,18 @@ so that buttons or other nodes will respond to presses over a different region.
 This is most useful when dealing with touch interfaces, where it can be best to expand the touchAreas of nodes to make
 them easier to interact with.
 
-TODO: mouseArea/touchArea example
+<div id="pointer-areas-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/pointer-areas-example.js"></script>
 
 ### Cursors
 
-The cursor that is displayed when the mouse is over a node can be adjusted with the `cursor` property of a node:
+The cursor that is displayed when the mouse is over a node can be adjusted with the `cursor` property of a node (try
+hovering over the examples here with a mouse):
 
-TODO: cursor example
+<div id="cursors-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/cursors-example.js"></script>
+
+See [MDN's cursor reference](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) for all of the possible cursor values.
 
 ### Pickability
 
