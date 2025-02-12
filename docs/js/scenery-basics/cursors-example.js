@@ -15,12 +15,13 @@ createSandbox( "cursors-example", ( scene, stepEmitter, display ) => {
       preferredWidth: 500,
       children: cursors.map( cursor => new Panel( new Text( cursor.includes( 'url' ) ? 'url(png)' : cursor, {
         font: '16px sans-serif',
-        opacity: 0.5,
         fill: foregroundColor,
       } ), {
         xMargin: 10,
         yMargin: 10,
-        stroke: '#888',
+        opacity: 0.5,
+        stroke: foregroundColor,
+        fill: backgroundColor,
         cursor: cursor
       } ) )
     } );

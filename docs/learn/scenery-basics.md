@@ -484,12 +484,19 @@ See [MDN's cursor reference](https://developer.mozilla.org/en-US/docs/Web/CSS/cu
 ### Pickability
 
 By default, placing an input listener on a node will make ALL of its contents receive and forward events. Sometimes
-it is helpful to have some contents of a node be "invisible" to interaction. This can be done with the `pickable` property:
+it is helpful to have some contents of a node be "invisible" to interaction. This can be done by setting `pickable` to false:
 
-TODO: pickable example
+<div id="pickable-false-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/pickable-false-example.js"></script>
 
 If you want to disable input handling on a node entirely, but still want it to block events from passing through it
 (as if it was invisible), `inputEnabled` can be used instead.
+
+Additionally, `pickable` can also be explicitly set to true to force a [Node] that has no input listeners to block input
+from things behind it:
+
+<div id="pickable-true-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/pickable-true-example.js"></script>
 
 ## Accessibility
 
