@@ -12,8 +12,11 @@ import { extractFunctionJS } from './extractFunctionJS.js';
 import { BooleanProperty, DerivedProperty, Display, merge, Node, TinyEmitter } from '/lib/scenerystack.esm.min.js';
 import '/lib/codemirror-5.52.2.min.js';
 import '/lib/codemirror-5.52.2.javascript.min.js';
+import '/lib/codemirror-5.52.2.xml.min.js';
+import '/lib/codemirror-5.52.2.htmlmixed.min.js';
 import { colors } from './colors.js';
 import { createLabeledBox } from './createLabeledBox.js';
+import { getPDOMHTMLProperty } from './getPDOMHTMLProperty.js';
 import { ResizableNode } from './ResizableNode.js';
 
 const isDarkModeProperty = new BooleanProperty( false );
@@ -88,7 +91,8 @@ export const createSandbox = ( id, func, providedOptions ) => {
     jsAfter: jsAfter,
     showDisplay: true,
     showCode: true,
-    showErrors: true
+    showErrors: true,
+    showPDOM: false
   }, providedOptions );
 
   const parentElement = document.getElementById( id );
@@ -96,6 +100,11 @@ export const createSandbox = ( id, func, providedOptions ) => {
   const displayContainerElement = document.createElement( 'div' );
   if ( options.showDisplay ) {
     parentElement.appendChild( displayContainerElement );
+  }
+
+  const pdomContainerElement = document.createElement( 'div' );
+  if ( options.showPDOM ) {
+    parentElement.appendChild( pdomContainerElement );
   }
 
   const codeContainerElement = document.createElement( 'div' );
@@ -132,6 +141,32 @@ export const createSandbox = ( id, func, providedOptions ) => {
     passiveEvents: true
   } );
   display.domElement.style.position = 'relative';
+
+  if ( options.showPDOM ) {
+    const pdomHTMLProperty = getPDOMHTMLProperty( display );
+
+    const label = document.createElement( 'label' );
+    label.htmlFor = `pdom-${id}`;
+    label.textContent = 'Simplified Parallel DOM HTML:';
+    pdomContainerElement.appendChild( label );
+
+    const div = document.createElement( 'div' );
+    pdomContainerElement.appendChild( div );
+
+    const pdomCodeMirror = CodeMirror( div, { // eslint-disable-line no-undef
+      lineNumbers: true,
+      tabSize: 2,
+      value: pdomHTMLProperty.value,
+      mode: 'htmlmixed',
+      theme: 'monokai',
+      lineWrapping: true,
+      readOnly: true
+    } );
+
+    pdomHTMLProperty.link( html => {
+      pdomCodeMirror.setValue( html );
+    } );
+  }
 
   const isDescendant = function( parent, child ) {
     let node = child;
