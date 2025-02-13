@@ -528,7 +528,26 @@ The [Scenery Accessibility](./scenery-accessibility.md) guide has more informati
 
 ## Instances
 
-TODO: DAG
+Scenery doesn't restrict the nodes to a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)), but instead allows
+nodes to have multiple parents in a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG).
+This prevents loops, but allows a single node to be displayed in multiple places:
+
+<div id="dag-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/dag-example.js"></script>
+
+Note that the node has multiple parents that each have a different transform applied to them. It is not valid to have
+a parent node with multiple copies of the same child node (they would be identical).
+
+The input system will differentiate between which instance of a [Node] is being interated with by using a [Trail]
+(storing the unique path to the root node). This can also be used to recover which instance is being interacted with.
+
+## Sprites
+
+Scenery can also display a large number of sprites (static images) very efficiently. This is done either with WebGL
+or Canvas. Each can have its own transform and opacity:
+
+<div id="sprites-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/sprites-example.js"></script>
 
 ## Node Properties
 
