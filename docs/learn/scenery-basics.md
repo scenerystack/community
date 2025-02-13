@@ -518,6 +518,12 @@ dynamic by nature, and can be updated with the current state:
 <div id="a11y-siblings-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-basics/a11y-siblings-example.js"></script>
 
+It is also possible to trigger alerts via [ARIA live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)
+to users when specific events happen (here we will make alerts visible at the bottom of your screen):
+
+<div id="a11y-alerts-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/a11y-alerts-example.js"></script>
+
 The [Scenery Accessibility](./scenery-accessibility.md) guide has more information on how to use Scenery's accessibility features.
 
 ## Instances
