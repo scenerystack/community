@@ -577,7 +577,10 @@ area will not be shown:
 
 ### Filters
 
-TODO
+A [Node] can have one or more filters applied to it, that affect the color of the content or apply another effect:
+
+<div id="filters-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/filters-example.js"></script>
 
 ### Renderer
 
