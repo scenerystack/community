@@ -6,10 +6,6 @@
 
 # Scenery Basics
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in February 2025.
-
 ## Overview
 
 Scenery **helps you build 2D graphics and interfaces** using a declarative structure.
@@ -584,4 +580,8 @@ A [Node] can have one or more filters applied to it, that affect the color of th
 
 ### Renderer
 
-TODO
+Scenery can render many types of nodes across different rendering backends. In addition, it can seamlessly combine
+the rendering of different types of nodes (e.g. SVG and WebGL) in the same scene graph:
+
+<div id="renderer-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/renderer-example.js"></script>
