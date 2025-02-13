@@ -511,8 +511,12 @@ Most UI components have lower-level details already provided, and they should be
 <div id="a11y-basics-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-basics/a11y-basics-example.js"></script>
 
+Scenery also provides access to the lower-level DOM manipulation, scaffolding each [Node] such that it can have separate
+DOM elements for itself, a label, its description, and for the surrounding container. In addition, the content is
+dynamic by nature, and can be updated with the current state:
 
-
+<div id="a11y-siblings-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/a11y-siblings-example.js"></script>
 
 The [Scenery Accessibility](./scenery-accessibility.md) guide has more information on how to use Scenery's accessibility features.
 
