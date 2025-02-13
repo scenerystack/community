@@ -9,7 +9,7 @@
 For handling translation, SceneryStack uses a combination of string Properties and message Properties (see the guide on
 [Emitters and Properties](./emitters-and-properties.md)). String Properties can be directly passed to Scenery `Text`
 nodes. The Properties will automatically switch values based on the
-global [localeProperty](https://scenerystack.org/reference/api/joist/localeProperty/), and for simulations there will
+global [localeProperty], and for simulations there will
 be an interface to manipulate the current locale.
 
 String Properties are used for simpler translation strings, while message Properties are used for more complex strings,
@@ -77,11 +77,11 @@ StringProperties.screen.magnetsStringProperty;
 const titleNode = new Text( StringProperties.titleStringProperty );
 ```
 
-These can also be used in conjunction with [`DerivedProperty`](https://scenerystack.org/reference/api/axon/DerivedProperty/)
-or [`PatternStringProperty`](https://scenerystack.org/reference/api/axon/PatternStringProperty/) to manipulate strings, or to
+These can also be used in conjunction with [DerivedProperty]
+or [`PatternStringProperty`] to manipulate strings, or to
 fill in basic patterns.
 
-[`PatternStringProperty`](https://scenerystack.org/reference/api/axon/PatternStringProperty/) is useful for filling in
+[`PatternStringProperty`] is useful for filling in
 simple patterns. For example, given a string that is similar to `"Hello, {name}"`, you can replace `{name}` with a
 string Property or string that contains the name:
 

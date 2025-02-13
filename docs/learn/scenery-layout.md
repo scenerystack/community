@@ -94,7 +94,7 @@ It is recommended to view assorted PhET simulations and libraries for examples t
 
 TODO: fix layout exemplar link
 
-There are a [number of examples](../../phet-lib/doc/layout-exemplars.html) that show layout in action with
+There are a [number of examples](./examples/scenery-layout.md) that show layout in action with
 assorted [UI Components](./ui-components.md).
 
 All of the code examples here are editable. You can change the code and see the results immediately.
