@@ -26,8 +26,7 @@ createSandbox( "animation-twixt-example", ( scene, stepEmitter, display ) => {
           to: Math.PI * 2
         }
       ],
-      duration: 1, // 1 second
-      stepEmitter: stepEmitter
+      duration: 1 // 1 second
     } );
 
     // Animates the square back to the left
@@ -37,8 +36,7 @@ createSandbox( "animation-twixt-example", ( scene, stepEmitter, display ) => {
       to: -100,
       // ease in only (default is cubic in-out)
       easing: Easing.QUADRATIC_IN,
-      duration: 0.5, // do this over a faster time period
-      stepEmitter: stepEmitter
+      duration: 0.5 // do this over a faster time period
     } );
 
     // alternate between the two animations
