@@ -43,7 +43,7 @@ createSandbox( "sprites-example", ( scene, stepEmitter, display ) => {
           Math.random() * 2 * Math.PI
         );
 
-        instance.velocity = Vector2.createPolar( 1, Math.random() * 2 * Math.PI );
+        instance.velocity = Vector2.createPolar( 0.5 + 1.5 * Math.random(), Math.random() * 2 * Math.PI );
         return instance;
       } );
 

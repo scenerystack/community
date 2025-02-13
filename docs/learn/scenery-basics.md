@@ -553,15 +553,27 @@ or Canvas. Each can have its own transform and opacity:
 
 ### Visibility
 
-TODO
+Setting a node's `visible` property to `false` will make it not render (and not receive input events). In addition,
+layout containers by default will not allocate space for invisible nodes:
+
+<div id="visible-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/visible-example.js"></script>
 
 ### Opacity
 
-TODO
+Opacity will control how transparent a [Node] will appear. It can range from 0 (completely transparent) to 1 (completely
+opaque):
+
+<div id="opacity-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/opacity-example.js"></script>
 
 ### Clip Area
 
-TODO
+A clip area can restrict the shape of the visible content of a [Node] (and its descendants). Content outside the clip
+area will not be shown:
+
+<div id="clip-area-example" class="sandbox-example"></div>
+<script type="module" async src="/js/scenery-basics/clip-area-example.js"></script>
 
 ### Filters
 
