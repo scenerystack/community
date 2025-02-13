@@ -13,12 +13,12 @@ createSandbox( "a11y-basics-example", ( scene, stepEmitter, display ) => {
           checkboxColor: foregroundColor,
           checkboxColorBackground: backgroundColor,
           accessibleName: 'Wear Hat',
-          helpText: 'Check this box to wear a hat'
+          accessibleHelpText: 'Check this box to wear a hat'
         } ),
         new TextPushButton( 'Go Outside', {
           font: '20px sans-serif',
           accessibleName: 'Go Outside',
-          helpText: 'Click this button to go outside'
+          accessibleHelpText: 'Click this button to go outside'
         } )
       ]
     } );

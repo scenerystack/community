@@ -15,11 +15,11 @@ import { TextureQuad } from 'scenerystack/mobius';
 ```
 ### Constructor
 
-#### new TextureQuad( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, materialOptions? : <span style="font-weight: 400;">THREE.MaterialParameters</span> ) {: #TextureQuad-constructor data-toc-label='new TextureQuad' }
+#### new TextureQuad( texture : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, materialOptions? : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).MaterialParameters</span> ) {: #TextureQuad-constructor data-toc-label='new TextureQuad' }
 
 ### Instance Methods
 
-#### updateTexture( texture : <span style="font-weight: 400;">THREE.Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #updateTexture data-toc-label='updateTexture' }
+#### updateTexture( texture : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).Texture</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #updateTexture data-toc-label='updateTexture' }
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 

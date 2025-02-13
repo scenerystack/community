@@ -251,28 +251,29 @@ Get the tag name of the DOM element representing this Node for accessibility.
 @experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
                 Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
 
-#### setHelpText( helpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setHelpText data-toc-label='setHelpText' }
+#### setAccessibleHelpText( accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleHelpText data-toc-label='setAccessibleHelpText' }
 
-Sets the help text for this Node. Help text usually provides additional information that describes what a Node
-is or how to interact with it. It will be read by a screen reader when discovered by the virtual cursor.
+Sets the accessible help text for this Node. Help text usually provides additional information that describes
+what a Node is or how to interact with it. It will be read by a screen reader when discovered by the virtual
+cursor.
 
-Part of the higher level API, the helpTextBehavior function will set the appropriate options on this Node
-to create the desired help text. See the documentation for setHelpTextBehavior() for more information.
+Part of the higher level API, the accessibleHelpTextBehavior function will set the appropriate options on this Node
+to create the desired help text. See the documentation for setAccessibleHelpTextBehavior() for more information.
 
-#### getHelpText() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getHelpText data-toc-label='getHelpText' }
+#### getAccessibleHelpText() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAccessibleHelpText data-toc-label='getAccessibleHelpText' }
 
 Get the help text for this Node.
 
-#### setHelpTextBehavior( helpTextBehavior : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> ) {: #setHelpTextBehavior data-toc-label='setHelpTextBehavior' }
+#### setAccessibleHelpTextBehavior( accessibleHelpTextBehavior : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> ) {: #setAccessibleHelpTextBehavior data-toc-label='setAccessibleHelpTextBehavior' }
 
-helpTextBehavior is a function that will set the appropriate options on this Node to get the desired help text.
+accessibleHelpTextBehavior is a function that will set the appropriate options on this Node to get the desired help text.
 
 The default value does the best it can to create the help text based on the values for other ParallelDOM options.
 Usually, this is a paragraph element that comes after the Node's primary sibling in the PDOM. If you need to
 customize this behavior, you can provide your own function to meet your requirements. If you provide your own
 function, it is up to you to make sure that the help text is properly being set and is discoverable by AT.
 
-#### getHelpTextBehavior() : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> {: #getHelpTextBehavior data-toc-label='getHelpTextBehavior' }
+#### getAccessibleHelpTextBehavior() : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> {: #getAccessibleHelpTextBehavior data-toc-label='getAccessibleHelpTextBehavior' }
 
 Get the help text of the interactive element.
 
@@ -921,13 +922,13 @@ but the high level API should be available for the entire component.
 
 #### forwardHelpText( node : <span style="font-weight: 400;">[ParallelDOM](../scenery/ParallelDOM.md)</span>, otherNode : <span style="font-weight: 400;">[ParallelDOM](../scenery/ParallelDOM.md)</span> ) {: #forwardHelpText data-toc-label='forwardHelpText' }
 
-A behavior function for help text so that when helpText is set on the provided 'node', it will be forwarded `otherNode`.
+A behavior function for help text so that when accessibleHelpText is set on the provided 'node', it will be forwarded `otherNode`.
 This is useful when a component is composed of other Nodes that implement the accessibility, but the high level API
 should be available for the entire component.
 
-#### HELP_TEXT_BEFORE_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, helpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_BEFORE_CONTENT data-toc-label='HELP_TEXT_BEFORE_CONTENT' }
+#### HELP_TEXT_BEFORE_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_BEFORE_CONTENT data-toc-label='HELP_TEXT_BEFORE_CONTENT' }
 
-#### HELP_TEXT_AFTER_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, helpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_AFTER_CONTENT data-toc-label='HELP_TEXT_AFTER_CONTENT' }
+#### HELP_TEXT_AFTER_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_AFTER_CONTENT data-toc-label='HELP_TEXT_AFTER_CONTENT' }
 
 
 
@@ -974,11 +975,11 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Higher Level API Functions
 - **accessibleParagraph**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- **helpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleHelpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **pdomHeading**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleNameBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
 <br>  Lower Level API Functions
-- **helpTextBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **accessibleHelpTextBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
 - **pdomHeadingBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
 - **containerTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **containerAriaRole**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -1074,7 +1075,7 @@ import type { TrimParallelDOMOptions } from 'scenerystack/scenery';
 ```
 
 
-[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParallelDOMSelfOptions, "accessibleName" | "helpText" | "accessibleParagraph" | "focusable" | "pdomVisible"&gt;
+[RemoveParallelDOMOptions](../scenery/ParallelDOM.md#RemoveParallelDOMOptions)&lt;T&gt; &amp; [PickOptional](../phet-core/PickOptional.md)&lt;ParallelDOMSelfOptions, "accessibleName" | "accessibleHelpText" | "accessibleParagraph" | "focusable" | "pdomVisible"&gt;
 
 
 

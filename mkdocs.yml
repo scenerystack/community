@@ -629,7 +629,9 @@ nav:
         - DelaunayTriangulation: reference/api/dot/DelaunayTriangulation.md
         - Dimension2: reference/api/dot/Dimension2.md
         - Dimension3: reference/api/dot/Dimension3.md
+        - distanceXY: reference/api/dot/distanceXY.md
         - dotRandom: reference/api/dot/dotRandom.md
+        - factorial: reference/api/dot/factorial.md
         - findRoot: reference/api/dot/findRoot.md
         - LinearFunction: reference/api/dot/LinearFunction.md
         - LUDecompositionDecimal: reference/api/dot/LUDecompositionDecimal.md
@@ -728,6 +730,7 @@ nav:
         - NodeTexture: reference/api/mobius/NodeTexture.md
         - Quad: reference/api/mobius/Quad.md
         - TextureQuad: reference/api/mobius/TextureQuad.md
+        - THREE: reference/api/mobius/THREE.md
         - ThreeInstrumentable: reference/api/mobius/ThreeInstrumentable.md
         - ThreeIsometricNode: reference/api/mobius/ThreeIsometricNode.md
         - ThreeNode: reference/api/mobius/ThreeNode.md
@@ -962,6 +965,7 @@ nav:
         - HighlightFromNode: reference/api/scenery/HighlightFromNode.md
         - HighlightOverlay: reference/api/scenery/HighlightOverlay.md
         - HighlightPath: reference/api/scenery/HighlightPath.md
+        - HighlightVisibilityController: reference/api/scenery/HighlightVisibilityController.md
         - HitAreaOverlay: reference/api/scenery/HitAreaOverlay.md
         - Hotkey: reference/api/scenery/Hotkey.md
         - HotkeyData: reference/api/scenery/HotkeyData.md
@@ -1435,7 +1439,6 @@ nav:
         - getAngledIcon: reference/api/sim/getAngledIcon.md
         - Heartbeat: reference/api/sim/Heartbeat.md
         - Helper: reference/api/sim/Helper.md
-        - HighlightVisibilityController: reference/api/sim/HighlightVisibilityController.md
         - HomeScreen: reference/api/sim/HomeScreen.md
         - HomeScreenButton: reference/api/sim/HomeScreenButton.md
         - HomeScreenKeyboardHelpContent: reference/api/sim/HomeScreenKeyboardHelpContent.md

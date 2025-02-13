@@ -437,7 +437,9 @@
 [DelaunayTriangulation]: /reference/api/dot/DelaunayTriangulation/
 [Dimension2]: /reference/api/dot/Dimension2/
 [Dimension3]: /reference/api/dot/Dimension3/
+[distanceXY]: /reference/api/dot/distanceXY/
 [dotRandom]: /reference/api/dot/dotRandom/
+[factorial]: /reference/api/dot/factorial/
 [findRoot]: /reference/api/dot/findRoot/
 [LinearFunction]: /reference/api/dot/LinearFunction/
 [LUDecompositionDecimal]: /reference/api/dot/LUDecompositionDecimal/
@@ -532,6 +534,7 @@
 [NodeTexture]: /reference/api/mobius/NodeTexture/
 [Quad]: /reference/api/mobius/Quad/
 [TextureQuad]: /reference/api/mobius/TextureQuad/
+[THREE]: /reference/api/mobius/THREE/
 [ThreeInstrumentable]: /reference/api/mobius/ThreeInstrumentable/
 [ThreeIsometricNode]: /reference/api/mobius/ThreeIsometricNode/
 [ThreeNode]: /reference/api/mobius/ThreeNode/
@@ -760,6 +763,7 @@
 [HighlightFromNode]: /reference/api/scenery/HighlightFromNode/
 [HighlightOverlay]: /reference/api/scenery/HighlightOverlay/
 [HighlightPath]: /reference/api/scenery/HighlightPath/
+[HighlightVisibilityController]: /reference/api/scenery/HighlightVisibilityController/
 [HitAreaOverlay]: /reference/api/scenery/HitAreaOverlay/
 [Hotkey]: /reference/api/scenery/Hotkey/
 [HotkeyData]: /reference/api/scenery/HotkeyData/
@@ -1231,7 +1235,6 @@
 [getAngledIcon]: /reference/api/sim/getAngledIcon/
 [Heartbeat]: /reference/api/sim/Heartbeat/
 [Helper]: /reference/api/sim/Helper/
-[HighlightVisibilityController]: /reference/api/sim/HighlightVisibilityController/
 [HomeScreen]: /reference/api/sim/HomeScreen/
 [HomeScreenButton]: /reference/api/sim/HomeScreenButton/
 [HomeScreenKeyboardHelpContent]: /reference/api/sim/HomeScreenKeyboardHelpContent/

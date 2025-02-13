@@ -40,7 +40,7 @@ Given a screen point, returns a 3D ray representing the camera's position and di
 
 #### layout( width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #layout data-toc-label='layout' }
 
-#### render( target : <span style="font-weight: 400;">THREE.WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> ) {: #render data-toc-label='render' }
+#### render( target : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> ) {: #render data-toc-label='render' }
 
 Renders the simulation to a specific rendering target
 

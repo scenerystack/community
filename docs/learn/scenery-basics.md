@@ -502,7 +502,7 @@ Scenery supports a variety of accessibility features, but chief among them is it
 creates a *parallel DOM* structure of DOM elements that is invisible, but can be read by assistive technology.
 
 Most UI components have lower-level details already provided, and they should be given an `accessibleName` and ideally
-`helpText`:
+`accessibleHelpText`:
 
 <div id="a11y-basics-example" class="sandbox-example"></div>
 <script type="module" async src="/js/scenery-basics/a11y-basics-example.js"></script>

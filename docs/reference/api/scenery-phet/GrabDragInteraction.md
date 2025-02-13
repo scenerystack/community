@@ -56,7 +56,7 @@ changes. For example see Friction.
 
 Options that can be forwarded to the target Node when the state changes. Fields that are set by the implementation
 of GrabDragInteraction are omitted.
-type StateOptions = StrictOmit&lt;ParallelDOMOptions, 'descriptionContent' | 'helpText' | 'descriptionTagName' | 'accessibleName' | 'innerContent' | 'ariaLabel'&gt;;
+type StateOptions = StrictOmit&lt;ParallelDOMOptions, 'descriptionContent' | 'accessibleHelpText' | 'descriptionTagName' | 'accessibleName' | 'innerContent' | 'ariaLabel'&gt;;
 
 ```js
 import { GrabDragInteraction } from 'scenerystack/scenery-phet';

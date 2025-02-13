@@ -42,7 +42,7 @@ import type { OffScaleIndicatorNodeOptions } from 'scenerystack/scenery-phet';
 <br>  Options forwarded to the RichText label.
 - **panelOptions**?: [PanelOptions](../sun/Panel.md#PanelOptions)
 <br>  Options forwarded to the Panel.
-- &amp; [ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[NodeOptions](../scenery/Node.md#NodeOptions)&gt;, "accessibleName" | "helpText"&gt;
+- &amp; [ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TrimParallelDOMOptions](../scenery/ParallelDOM.md#TrimParallelDOMOptions)&lt;[NodeOptions](../scenery/Node.md#NodeOptions)&gt;, "accessibleName" | "accessibleHelpText"&gt;
 
 
 

@@ -25,11 +25,11 @@ Projects a 3d point in the global coordinate frame to one within the 2d global c
 
 #### layout() {: #layout data-toc-label='layout' }
 
-#### render( target : <span style="font-weight: 400;">THREE.WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span> ) {: #render data-toc-label='render' }
+#### render( target? : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).WebGLRenderTarget</span> ) {: #render data-toc-label='render' }
 
 Renders the simulation to a specific rendering target
 
-@param target - undefined for the default target
+@param [target] - undefined for the default target
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 

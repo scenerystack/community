@@ -59,7 +59,7 @@ import type { SimDisplayOptions } from 'scenerystack/sim';
 - **webgl**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **rootRenderer**?: [RendererType](../scenery/Node.md#RendererType)
 - **preferencesModel**: [PreferencesModel](../sim/PreferencesModel.md)
-- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[DisplayOptions](../scenery/Display.md#DisplayOptions), "supportsInteractiveHighlights"&gt;
+- &amp; [DisplayOptions](../scenery/Display.md#DisplayOptions)
 
 
 

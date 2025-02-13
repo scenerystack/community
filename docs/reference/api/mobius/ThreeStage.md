@@ -44,7 +44,7 @@ Adjusts the camera's view offsets so that it displays the camera's main output w
 This is a generalization of the isometric FOV computation, as it also supports other combinations such as properly
 handling pan/zoom. See https://github.com/phetsims/density/issues/50
 
-#### render( target : <span style="font-weight: 400;">THREE.WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span>, autoClear ) {: #render data-toc-label='render' }
+#### render( target : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).WebGLRenderTarget | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">undefined</span></span>, autoClear ) {: #render data-toc-label='render' }
 
 Renders the simulation to a specific rendering target
 
@@ -66,15 +66,15 @@ Scale applied to interaction that isn't directly tied to screen coordinates (rot
 
 #### canvasHeight : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #canvasHeight data-toc-label='canvasHeight' }
 
-#### threeScene : <span style="font-weight: 400;">THREE.Scene</span> {: #threeScene data-toc-label='threeScene' }
+#### threeScene : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).Scene</span> {: #threeScene data-toc-label='threeScene' }
 
 (readonly)
 
-#### threeCamera : <span style="font-weight: 400;">THREE.PerspectiveCamera</span> {: #threeCamera data-toc-label='threeCamera' }
+#### threeCamera : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).PerspectiveCamera</span> {: #threeCamera data-toc-label='threeCamera' }
 
 (readonly)
 
-#### threeRenderer : <span style="font-weight: 400;">THREE.WebGLRenderer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #threeRenderer data-toc-label='threeRenderer' }
+#### threeRenderer : <span style="font-weight: 400;">[THREE](../mobius/THREE.md).WebGLRenderer | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #threeRenderer data-toc-label='threeRenderer' }
 
 #### dimensionsChangedEmitter : <span style="font-weight: 400;">[TEmitter](../axon/TEmitter.md)</span> {: #dimensionsChangedEmitter data-toc-label='dimensionsChangedEmitter' }
 
@@ -113,7 +113,7 @@ import type { ThreeStageOptions } from 'scenerystack/mobius';
 - **backgroundColorProperty**?: [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[Color](../scenery/Color.md)&gt;
 - **cameraPosition**?: [Vector3](../dot/Vector3.md)
 <br>  The initial camera position
-- **threeRendererOptions**?: THREE.WebGLRendererParameters
+- **threeRendererOptions**?: [THREE](../mobius/THREE.md).WebGLRendererParameters
 - **threeRendererPixelRatio**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 
 

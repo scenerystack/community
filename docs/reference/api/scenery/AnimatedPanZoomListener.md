@@ -16,7 +16,7 @@ import { AnimatedPanZoomListener } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new AnimatedPanZoomListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[PanZoomListenerOptions](../scenery/PanZoomListener.md#PanZoomListenerOptions)</span> ) {: #AnimatedPanZoomListener-constructor data-toc-label='new AnimatedPanZoomListener' }
+#### new AnimatedPanZoomListener( targetNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions? : <span style="font-weight: 400;">[AnimatedPanZoomListenerOptions](../scenery/AnimatedPanZoomListener.md#AnimatedPanZoomListenerOptions)</span> ) {: #AnimatedPanZoomListener-constructor data-toc-label='new AnimatedPanZoomListener' }
 
 ### Instance Methods
 
@@ -116,6 +116,24 @@ in progress animation.
 
 True when the listener is actively panning or zooming to the destination position and scale. Updated in the
 animation frame.
+
+
+
+## Type AnimatedPanZoomListenerOptions {: #AnimatedPanZoomListenerOptions }
+
+
+```js
+import type { AnimatedPanZoomListenerOptions } from 'scenerystack/scenery';
+```
+
+
+- **stepEmitter**?: [TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  One of the following config:
+  The Emitter (which provides a dt {number} value on emit) which drives the animation, or null if the client
+  will drive the animation by calling `step(dt)` manually.  Defaults to the axon stepTimer which runs automatically
+  as part of the Sim time step.
+- &amp; [PanZoomListenerOptions](../scenery/PanZoomListener.md#PanZoomListenerOptions)
+
 
 
 

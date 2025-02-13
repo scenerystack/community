@@ -116,6 +116,12 @@ Will be applied to the root DOM element on updateDisplay(), and no sooner.
 
 #### getBackgroundColor() : <span style="font-weight: 400;">[Color](../scenery/Color.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getBackgroundColor data-toc-label='getBackgroundColor' }
 
+#### setInteractiveHighlightsEnabled( interactiveHighlightsEnabled : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setInteractiveHighlightsEnabled data-toc-label='setInteractiveHighlightsEnabled' }
+
+See interactiveHighlightsEnabled option for Display. Mutates the current value.
+
+#### getInteractiveHighlightsEnabled() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #getInteractiveHighlightsEnabled data-toc-label='getInteractiveHighlightsEnabled' }
+
 #### addOverlay( overlay : <span style="font-weight: 400;">[TOverlay](../scenery/TOverlay.md)</span> ) {: #addOverlay data-toc-label='addOverlay' }
 
 Adds an overlay to the Display. Each overlay should have a .domElement (the DOM element that will be used for
@@ -375,10 +381,10 @@ import type { DisplayOptions } from 'scenerystack/scenery';
   Makes it possible to disable WebGL for ease of testing on non-WebGL platforms, see #289
 - **accessibility**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Enables accessibility features
-- **supportsInteractiveHighlights**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  {boolean} - Enables Interactive Highlights in the HighlightOverlay. These are highlights that surround
-  interactive components when using mouse or touch which improves low vision access.
 - **interactive**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  Controls the enabled state of interactive highlights. When true, highlights will surround Nodes that are
+  composed with InteractiveHighlighting. Only relevant if the Display has accessibility enabled.
+- **interactiveHighlightsEnabledProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 <br>  Whether mouse/touch/keyboard inputs are enabled (if input has been added).
 - **listenToOnlyElement**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If true, input event listeners will be attached to the Display's DOM element instead of the self.

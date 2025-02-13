@@ -139,7 +139,7 @@ import type { AnimationOptions } from 'scenerystack/twixt';
 - **stepEmitter**?: [TReadOnlyEmitter](../axon/TEmitter.md#TReadOnlyEmitter)&lt;[ <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ]&gt; | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  One of the following config:
   The Emitter (which provides a dt {number} value on emit) which drives the animation, or null if the client
-  will drive the animation by calling `step(dt)` manually.  Defaults to the joist Timer which runs automatically
+  will drive the animation by calling `step(dt)` manually.  Defaults to the axon stepTimer which runs automatically
   as part of the Sim time step.
   TODO #3: {ScreenView} - animates only when the ScreenView is the active one.
   TODO #3: {Node} - animates only when the node's trail is visible on a Display
