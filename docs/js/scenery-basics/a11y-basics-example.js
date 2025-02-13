@@ -6,7 +6,12 @@ createSandbox( "a11y-basics-example", ( scene, stepEmitter, display ) => {
     const content = new HBox( {
       spacing: 10,
       children: [
-        new Checkbox( new BooleanProperty( true ), new Text( 'Wear Hat', { font: '20px sans-serif' } ), {
+        new Checkbox( new BooleanProperty( true ), new Text( 'Wear Hat', {
+          font: '20px sans-serif',
+          fill: foregroundColor
+        } ), {
+          checkboxColor: foregroundColor,
+          checkboxColorBackground: backgroundColor,
           accessibleName: 'Wear Hat',
           helpText: 'Check this box to wear a hat'
         } ),
