@@ -57,9 +57,11 @@ The dot-product (Euclidean inner product) between this vector and another vector
 #### getAngle() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getAngle data-toc-label='getAngle' }
 
 The angle $\theta$ of this vector, such that this vector is equal to
+
 $$
 u = \begin{bmatrix} r\cos\theta \\ r\sin\theta \end{bmatrix}
 $$
+
 for the magnitude $r \ge 0$ of the vector, with $\theta\in(-\pi,\pi]$
 
 #### angleBetween( v : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #angleBetween data-toc-label='angleBetween' }
@@ -98,6 +100,7 @@ will not modify this vector.
 #### crossScalar( v : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #crossScalar data-toc-label='crossScalar' }
 
 The scalar value of the z-component of the equivalent 3-dimensional cross product:
+
 $$
 f( u, v ) = \left( \begin{bmatrix} u_x \\ u_y \\ 0 \end{bmatrix} \times \begin{bmatrix} v_x \\ v_y \\ 0 \end{bmatrix} \right)_z = u_x v_y - u_y v_x
 $$
@@ -423,6 +426,7 @@ Take a component-based mean of all vectors provided.
 #### createPolar( magnitude : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, angle : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Vector2](../dot/Vector2.md)</span> {: #createPolar data-toc-label='createPolar' }
 
 Returns a Vector2 with the specified magnitude $r$ and angle $\theta$ (in radians), with the formula:
+
 $$
 f( r, \theta ) = \begin{bmatrix} r\cos\theta \\ r\sin\theta \end{bmatrix}
 $$
