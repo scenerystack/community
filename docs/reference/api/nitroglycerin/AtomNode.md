@@ -1,5 +1,9 @@
 # AtomNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/AtomNode.ts](https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/AtomNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Atoms look like shaded spheres.

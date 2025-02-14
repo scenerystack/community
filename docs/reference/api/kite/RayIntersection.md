@@ -1,5 +1,9 @@
 # RayIntersection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/util/RayIntersection.ts](https://github.com/phetsims/kite/blob/main/js/util/RayIntersection.ts) for the most up-to-date information.
+
 ## Overview
 
 An intersection between a ray and a segment.

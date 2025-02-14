@@ -1,5 +1,9 @@
 # KeyboardHelpDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/KeyboardHelpDialog.ts](https://github.com/phetsims/joist/blob/main/js/KeyboardHelpDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows a Dialog with content describing keyboard interactions. Opened via a button in the navigation bar.

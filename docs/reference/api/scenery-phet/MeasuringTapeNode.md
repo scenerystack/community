@@ -1,5 +1,9 @@
 # MeasuringTapeNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/MeasuringTapeNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/MeasuringTapeNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A scenery node that is used to represent a draggable Measuring Tape. It contains a tip and a base that can be dragged

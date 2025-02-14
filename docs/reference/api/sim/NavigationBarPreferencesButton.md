@@ -1,5 +1,9 @@
 # NavigationBarPreferencesButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/NavigationBarPreferencesButton.ts](https://github.com/phetsims/joist/blob/main/js/preferences/NavigationBarPreferencesButton.ts) for the most up-to-date information.
+
 ## Overview
 
 Button in the NavigationBar that opens the PreferencesDialog.

@@ -1,5 +1,9 @@
 # VisualPreferencesPanel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/VisualPreferencesPanel.ts](https://github.com/phetsims/joist/blob/main/js/preferences/VisualPreferencesPanel.ts) for the most up-to-date information.
+
 ## Overview
 
 A panel for the PreferencesDialog with controls for visual preferences. Includes features such as

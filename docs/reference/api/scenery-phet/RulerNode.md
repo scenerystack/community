@@ -1,5 +1,9 @@
 # RulerNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/RulerNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/RulerNode.ts) for the most up-to-date information.
+
 ## Overview
 
 RulerNode is the visual representation of a ruler.

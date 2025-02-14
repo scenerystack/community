@@ -1,5 +1,9 @@
 # MoveToTrashLegendButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/buttons/MoveToTrashLegendButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/MoveToTrashLegendButton.ts) for the most up-to-date information.
+
 ## Overview
 
 When a MoveToTrashLegendButton appears in a legend or as part of a bar chart label, typically it is smaller,

@@ -1,5 +1,9 @@
 # launchCounter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/launchCounter.ts](https://github.com/phetsims/joist/blob/main/js/launchCounter.ts) for the most up-to-date information.
+
 ## Overview
 
 Utility for counting the launches of a simulation, which is helpful when counting crashes during

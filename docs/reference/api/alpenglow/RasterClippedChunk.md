@@ -1,5 +1,9 @@
 # RasterClippedChunk
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterClippedChunk.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterClippedChunk.ts) for the most up-to-date information.
+
 ## Overview
 
 A clipped part of a RasterChunk, which will get filled with data during reduction.

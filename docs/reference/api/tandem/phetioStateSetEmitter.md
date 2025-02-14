@@ -1,5 +1,9 @@
 # phetioStateSetEmitter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/phetioStateSetEmitter.ts](https://github.com/phetsims/tandem/blob/main/js/phetioStateSetEmitter.ts) for the most up-to-date information.
+
 ## Overview
 
 emits the state after each time the PhetioStateEngine has set all that it can for the

@@ -1,5 +1,9 @@
 # ButtonNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/ButtonNode.ts](https://github.com/phetsims/sun/blob/main/js/buttons/ButtonNode.ts) for the most up-to-date information.
+
 ## Overview
 
 ButtonNode is the base class for the sun button hierarchy.

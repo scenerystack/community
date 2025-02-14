@@ -1,5 +1,9 @@
 # SoundLevelEnum
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/SoundLevelEnum.ts](https://github.com/phetsims/tambo/blob/main/js/SoundLevelEnum.ts) for the most up-to-date information.
+
 ## Overview
 
 This enum is used to describe whether a sound is part of the "basic" sounds or the "extra" sounds.

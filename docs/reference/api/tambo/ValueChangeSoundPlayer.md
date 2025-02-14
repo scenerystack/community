@@ -1,5 +1,9 @@
 # ValueChangeSoundPlayer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/ValueChangeSoundPlayer.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/ValueChangeSoundPlayer.ts) for the most up-to-date information.
+
 ## Overview
 
 ValueChangeSoundPlayer plays sounds based on changes to a numerical value.  It was initially created for supporting

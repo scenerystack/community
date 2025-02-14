@@ -1,5 +1,9 @@
 # DisplayClickToDismissListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/DisplayClickToDismissListener.ts](https://github.com/phetsims/joist/blob/main/js/DisplayClickToDismissListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A listener that can be added to a Display to (typically) dismiss a UI component after we receive a press.

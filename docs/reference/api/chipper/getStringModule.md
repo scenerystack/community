@@ -1,5 +1,9 @@
 # getStringModule
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser/getStringModule.ts](https://github.com/phetsims/chipper/blob/main/js/browser/getStringModule.ts) for the most up-to-date information.
+
 ## Overview
 
 Given a requirejsNamespace, we filter out strings from phet.chipper.strings that start with it, and construct an

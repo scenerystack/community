@@ -1,5 +1,9 @@
 # BorderAlertsDescriber
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/BorderAlertsDescriber.js](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/BorderAlertsDescriber.js) for the most up-to-date information.
+
 ## Overview
 
 BorderAlertsDescriber is "sub-describer" used in MovementAlerter to manage its border alerts. Border alerts will

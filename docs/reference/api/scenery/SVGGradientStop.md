@@ -1,5 +1,9 @@
 # SVGGradientStop
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/SVGGradientStop.ts](https://github.com/phetsims/scenery/blob/main/js/display/SVGGradientStop.ts) for the most up-to-date information.
+
 ## Overview
 
 Handles creation of an SVG stop element, and handles keeping it updated based on property/color changes.

@@ -1,5 +1,9 @@
 # IntersectionPoint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/IntersectionPoint.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/IntersectionPoint.ts) for the most up-to-date information.
+
 ## Overview
 
 Intersection of two line segments, with t0 and t1 representing the interpolation values for the two segments.

@@ -1,5 +1,9 @@
 # ImageCanvasDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/drawables/ImageCanvasDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/drawables/ImageCanvasDrawable.js) for the most up-to-date information.
+
 ## Overview
 
 Canvas drawable for Image nodes.

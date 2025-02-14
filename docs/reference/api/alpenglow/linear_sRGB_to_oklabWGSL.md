@@ -1,5 +1,9 @@
 # linear_sRGB_to_oklabWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/color/linear_sRGB_to_oklabWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/color/linear_sRGB_to_oklabWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Converts a linear sRGB color to the oklab color space.

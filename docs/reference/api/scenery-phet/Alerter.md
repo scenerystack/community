@@ -1,5 +1,9 @@
 # Alerter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/Alerter.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/Alerter.ts) for the most up-to-date information.
+
 ## Overview
 
 Generic base class responsible for interfacing between a Node to alert description.

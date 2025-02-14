@@ -1,5 +1,9 @@
 # BarrierRectangle
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/BarrierRectangle.ts](https://github.com/phetsims/scenery-phet/blob/main/js/BarrierRectangle.ts) for the most up-to-date information.
+
 ## Overview
 
 Semi-transparent black barrier used to block input events when a dialog (or other popup) is present, and fade out

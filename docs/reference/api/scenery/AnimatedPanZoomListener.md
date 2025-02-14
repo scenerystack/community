@@ -1,5 +1,9 @@
 # AnimatedPanZoomListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/AnimatedPanZoomListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/AnimatedPanZoomListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A PanZoomListener that supports additional forms of input for pan and zoom, including trackpad gestures, mouse

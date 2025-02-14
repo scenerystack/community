@@ -1,5 +1,9 @@
 # ComboBoxDisplay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ComboBoxDisplay.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ComboBoxDisplay.ts) for the most up-to-date information.
+
 ## Overview
 
 ComboBoxDisplay is the lovechild of a ComboBox and a NumberDisplay. It allows the user to choose one of N dynamic

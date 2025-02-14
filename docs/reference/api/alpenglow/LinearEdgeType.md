@@ -1,5 +1,9 @@
 # LinearEdgeType
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/cag/LinearEdgeType.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/cag/LinearEdgeType.ts) for the most up-to-date information.
+
 ## Overview
 
 ConcreteType for a LinearEdge

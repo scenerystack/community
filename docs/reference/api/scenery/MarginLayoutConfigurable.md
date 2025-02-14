@@ -1,5 +1,9 @@
 # MarginLayoutConfigurable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutConfigurable.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutConfigurable.ts) for the most up-to-date information.
+
 ## Overview
 
 This combines the margin-cell related options common to FlowConfigurable and GridConfigurable

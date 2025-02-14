@@ -1,5 +1,9 @@
 # VBox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VBox.ts) for the most up-to-date information.
+
 ## Overview
 
 VBox is a convenience specialization of FlowBox with vertical orientation.

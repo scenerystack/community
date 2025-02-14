@@ -1,5 +1,9 @@
 # HomeScreen
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/HomeScreen.ts](https://github.com/phetsims/joist/blob/main/js/HomeScreen.ts) for the most up-to-date information.
+
 ## Overview
 
 Screen for the home screen, which shows icons for selecting the sim content screens.

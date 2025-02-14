@@ -1,5 +1,9 @@
 # GridNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/GridNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GridNode.ts) for the most up-to-date information.
+
 ## Overview
 
 When enabled, shows a grid across the play area that helps the user to make quantitative comparisons

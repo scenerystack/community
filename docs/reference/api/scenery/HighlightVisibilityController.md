@@ -1,5 +1,9 @@
 # HighlightVisibilityController
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightVisibilityController.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightVisibilityController.ts) for the most up-to-date information.
+
 ## Overview
 
 A listener that manages the visibility of different highlights when switching between mouse/touch and alternative

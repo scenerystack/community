@@ -1,5 +1,9 @@
 # soundManager
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/soundManager.ts](https://github.com/phetsims/tambo/blob/main/js/soundManager.ts) for the most up-to-date information.
+
 ## Overview
 
 A singleton object that registers sound generators, connects them to the audio output, and provides a number of

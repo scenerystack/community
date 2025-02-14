@@ -1,5 +1,9 @@
 # PropertyStatePhase
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/PropertyStatePhase.ts](https://github.com/phetsims/axon/blob/main/js/PropertyStatePhase.ts) for the most up-to-date information.
+
 ## Overview
 
 Describes the phases that a Property can go through in its value setting and notification lifecycle.

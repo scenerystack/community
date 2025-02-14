@@ -1,5 +1,9 @@
 # VibrationTestEventRecorder
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestEventRecorder.js](https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestEventRecorder.js) for the most up-to-date information.
+
 ## Overview
 
 A collection of VibrationTestEvents. Has functions that prepare the data to be sent to

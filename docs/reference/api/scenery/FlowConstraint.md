@@ -1,5 +1,9 @@
 # FlowConstraint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/FlowConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/FlowConstraint.ts) for the most up-to-date information.
+
 ## Overview
 
 Main flow-layout logic. Usually used indirectly through FlowBox, but can also be used directly (say, if nodes don't

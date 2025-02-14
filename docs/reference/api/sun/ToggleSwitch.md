@@ -1,5 +1,9 @@
 # ToggleSwitch
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/ToggleSwitch.ts](https://github.com/phetsims/sun/blob/main/js/ToggleSwitch.ts) for the most up-to-date information.
+
 ## Overview
 
 ToggleSwitch is a switch for toggling between 2 values, similar to iOS' UISwitch, used in iOS `'Settings' app.

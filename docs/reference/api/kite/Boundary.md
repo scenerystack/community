@@ -1,5 +1,9 @@
 # Boundary
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/Boundary.ts](https://github.com/phetsims/kite/blob/main/js/ops/Boundary.ts) for the most up-to-date information.
+
 ## Overview
 
 A boundary is a loop of directed half-edges that always follow in the tightest counter-clockwise direction around

@@ -1,5 +1,9 @@
 # FaceWithPointsNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/FaceWithPointsNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/FaceWithPointsNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A face that either smiles or frowns.  When the face is smiling, it displays points awarded next to it.

@@ -1,5 +1,9 @@
 # ArrowNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ArrowNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ArrowNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A single- or double-headed arrow. This is a convenience class, most of the work is done in ArrowShape.

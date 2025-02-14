@@ -1,5 +1,9 @@
 # Announcer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/utterance-queue/blob/main/js/Announcer.ts](https://github.com/phetsims/utterance-queue/blob/main/js/Announcer.ts) for the most up-to-date information.
+
 ## Overview
 
 Abstract base class for the type that wires into an UtteranceQueue to announce Utterances.

@@ -29,7 +29,6 @@ extra_css:
 extra_javascript:
   - js/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  - js/importmap.js
 
 # Configuration
 theme:
@@ -154,12 +153,12 @@ nav:
       - Scenery Layout: learn/scenery-layout.md
       - Scenery Input: learn/scenery-input.md
       - Scenery Accessibility: learn/scenery-accessibility.md
-      - Emitters and Properties: learn/emitters-and-properties.md
-      - Vectors and Matrices: learn/vectors-and-matrices.md
-      - Shapes: learn/shapes.md
+#      - Emitters and Properties: learn/emitters-and-properties.md
+#      - Vectors and Matrices: learn/vectors-and-matrices.md
+#      - Shapes: learn/shapes.md
       - Translation and Localization: learn/translation-and-localization.md
-      - Animation: learn/animation.md
-      - Best Practices: learn/best-practices.md
+#      - Animation: learn/animation.md
+#      - Best Practices: learn/best-practices.md
       - Modifying SceneryStack: learn/modifying-scenerystack.md
       - UI Components: learn/ui-components.md
     - Tutorials:
@@ -170,14 +169,8 @@ nav:
       - Scenery Layout: learn/examples/scenery-layout.md
       - Simulation Showcase: learn/examples/simulation-showcase.md
       - Application Showcase: learn/examples/application-showcase.md
-      - Accessibility Examples: learn/examples/accessibility-examples.md
+#      - Accessibility Examples: learn/examples/accessibility-examples.md
       - Three.js Integration: learn/examples/threejs-integration.md
-#    - Overview:
-#      - Install: learn/setup_old.md
-#    - Guides:
-#      - Web Overview: learn/web/web_overview.md
-#      - Coding Conventions: info-sync/coding_conventions.md
-#      - PhET TypeScript Conventions: info-sync/typescript_conventions.md
   - Reference:
     - Supported Browsers: reference/supported-browsers.md
     - API:
@@ -544,7 +537,6 @@ nav:
         - Emitter: reference/api/axon/Emitter.md
         - EnabledComponent: reference/api/axon/EnabledComponent.md
         - EnabledProperty: reference/api/axon/EnabledProperty.md
-        - EnumerationDeprecatedProperty: reference/api/axon/EnumerationDeprecatedProperty.md
         - EnumerationProperty: reference/api/axon/EnumerationProperty.md
         - GatedBooleanProperty: reference/api/axon/GatedBooleanProperty.md
         - MappedProperty: reference/api/axon/MappedProperty.md
@@ -617,49 +609,82 @@ nav:
         - PatternMessageProperty: reference/api/chipper/PatternMessageProperty.md
         - phetioCompareAPIs: reference/api/chipper/phetioCompareAPIs.md
       - dot:
+        - arePointsCollinear: reference/api/dot/arePointsCollinear.md
         - BinPacker: reference/api/dot/BinPacker.md
         - Bounds2: reference/api/dot/Bounds2.md
         - Bounds3: reference/api/dot/Bounds3.md
+        - boxMullerTransform: reference/api/dot/boxMullerTransform.md
+        - centroidOfPolygon: reference/api/dot/centroidOfPolygon.md
+        - circleCenterFromPoints: reference/api/dot/circleCenterFromPoints.md
         - clamp: reference/api/dot/clamp.md
         - Combination: reference/api/dot/Combination.md
         - CompletePiecewiseLinearFunction: reference/api/dot/CompletePiecewiseLinearFunction.md
         - Complex: reference/api/dot/Complex.md
         - ConvexHull2: reference/api/dot/ConvexHull2.md
+        - cosh: reference/api/dot/cosh.md
+        - cubeRoot: reference/api/dot/cubeRoot.md
         - DampedHarmonic: reference/api/dot/DampedHarmonic.md
         - DelaunayTriangulation: reference/api/dot/DelaunayTriangulation.md
         - Dimension2: reference/api/dot/Dimension2.md
         - Dimension3: reference/api/dot/Dimension3.md
         - distanceXY: reference/api/dot/distanceXY.md
+        - distToSegment: reference/api/dot/distToSegment.md
+        - distToSegmentSquared: reference/api/dot/distToSegmentSquared.md
         - dotRandom: reference/api/dot/dotRandom.md
+        - equalsEpsilon: reference/api/dot/equalsEpsilon.md
         - factorial: reference/api/dot/factorial.md
         - findRoot: reference/api/dot/findRoot.md
+        - gcd: reference/api/dot/gcd.md
+        - lcm: reference/api/dot/lcm.md
+        - linear: reference/api/dot/linear.md
         - LinearFunction: reference/api/dot/LinearFunction.md
+        - lineLineIntersection: reference/api/dot/lineLineIntersection.md
+        - lineSegmentIntersection: reference/api/dot/lineSegmentIntersection.md
+        - log10: reference/api/dot/log10.md
         - LUDecompositionDecimal: reference/api/dot/LUDecompositionDecimal.md
         - Matrix: reference/api/dot/Matrix.md
         - Matrix3: reference/api/dot/Matrix3.md
         - Matrix4: reference/api/dot/Matrix4.md
         - MatrixOps3: reference/api/dot/MatrixOps3.md
+        - mod: reference/api/dot/mod.md
+        - moduloBetweenDown: reference/api/dot/moduloBetweenDown.md
+        - moduloBetweenUp: reference/api/dot/moduloBetweenUp.md
+        - numberOfDecimalPlaces: reference/api/dot/numberOfDecimalPlaces.md
         - OpenRange: reference/api/dot/OpenRange.md
         - Permutation: reference/api/dot/Permutation.md
         - PiecewiseLinearFunction: reference/api/dot/PiecewiseLinearFunction.md
         - Plane3: reference/api/dot/Plane3.md
+        - pointInCircleFromPoints: reference/api/dot/pointInCircleFromPoints.md
         - Quaternion: reference/api/dot/Quaternion.md
         - Random: reference/api/dot/Random.md
         - Range: reference/api/dot/Range.md
+        - rangeExclusive: reference/api/dot/rangeExclusive.md
+        - rangeInclusive: reference/api/dot/rangeInclusive.md
         - RangeWithValue: reference/api/dot/RangeWithValue.md
         - Ray2: reference/api/dot/Ray2.md
         - Ray3: reference/api/dot/Ray3.md
         - DotRectangle: reference/api/dot/DotRectangle.md
         - roundSymmetric: reference/api/dot/roundSymmetric.md
+        - roundToInterval: reference/api/dot/roundToInterval.md
         - RunningAverage: reference/api/dot/RunningAverage.md
+        - sinh: reference/api/dot/sinh.md
+        - solveCubicRootsReal: reference/api/dot/solveCubicRootsReal.md
+        - solveLinearRootsReal: reference/api/dot/solveLinearRootsReal.md
+        - solveQuadraticRootsReal: reference/api/dot/solveQuadraticRootsReal.md
         - Sphere3: reference/api/dot/Sphere3.md
+        - sphereRayIntersection: reference/api/dot/sphereRayIntersection.md
         - Stats: reference/api/dot/Stats.md
+        - toDegrees: reference/api/dot/toDegrees.md
+        - toFixed: reference/api/dot/toFixed.md
+        - toFixedNumber: reference/api/dot/toFixedNumber.md
+        - toRadians: reference/api/dot/toRadians.md
         - toSVGNumber: reference/api/dot/toSVGNumber.md
         - Transform1: reference/api/dot/Transform1.md
         - Transform3: reference/api/dot/Transform3.md
         - Transform4: reference/api/dot/Transform4.md
+        - triangleArea: reference/api/dot/triangleArea.md
+        - triangleAreaSigned: reference/api/dot/triangleAreaSigned.md
         - UnivariatePolynomial: reference/api/dot/UnivariatePolynomial.md
-        - DotUtils: reference/api/dot/DotUtils.md
         - Vector2: reference/api/dot/Vector2.md
         - Vector2Property: reference/api/dot/Vector2Property.md
         - Vector3: reference/api/dot/Vector3.md
@@ -805,7 +830,6 @@ nav:
         - dimensionForEach: reference/api/phet-core/dimensionForEach.md
         - dimensionMap: reference/api/phet-core/dimensionMap.md
         - Enumeration: reference/api/phet-core/Enumeration.md
-        - EnumerationDeprecated: reference/api/phet-core/EnumerationDeprecated.md
         - EnumerationMap: reference/api/phet-core/EnumerationMap.md
         - EnumerationValue: reference/api/phet-core/EnumerationValue.md
         - escapeHTML: reference/api/phet-core/escapeHTML.md
@@ -844,7 +868,6 @@ nav:
         - PickRequired: reference/api/phet-core/PickRequired.md
         - platform: reference/api/phet-core/platform.md
         - Pool: reference/api/phet-core/Pool.md
-        - Poolable: reference/api/phet-core/Poolable.md
         - ReadonlyKeys: reference/api/phet-core/ReadonlyKeys.md
         - required: reference/api/phet-core/required.md
         - RequiredKeys: reference/api/phet-core/RequiredKeys.md
@@ -882,7 +905,6 @@ nav:
         - Block: reference/api/scenery/Block.md
         - Brightness: reference/api/scenery/Brightness.md
         - BrowserEvents: reference/api/scenery/BrowserEvents.md
-        - ButtonListener: reference/api/scenery/ButtonListener.md
         - CanvasBlock: reference/api/scenery/CanvasBlock.md
         - CanvasContextWrapper: reference/api/scenery/CanvasContextWrapper.md
         - CanvasNode: reference/api/scenery/CanvasNode.md
@@ -913,7 +935,6 @@ nav:
         - DOMBlock: reference/api/scenery/DOMBlock.md
         - DOMDrawable: reference/api/scenery/DOMDrawable.md
         - DOMSelfDrawable: reference/api/scenery/DOMSelfDrawable.md
-        - DownUpListener: reference/api/scenery/DownUpListener.md
         - DragListener: reference/api/scenery/DragListener.md
         - Drawable: reference/api/scenery/Drawable.md
         - DropShadow: reference/api/scenery/DropShadow.md
@@ -1005,7 +1026,6 @@ nav:
         - LayoutOrientation: reference/api/scenery/LayoutOrientation.md
         - LayoutProxy: reference/api/scenery/LayoutProxy.md
         - LayoutProxyProperty: reference/api/scenery/LayoutProxyProperty.md
-        - LayoutTestUtils: reference/api/scenery/LayoutTestUtils.md
         - Leaf: reference/api/scenery/Leaf.md
         - Line: reference/api/scenery/Line.md
         - LinearGradient: reference/api/scenery/LinearGradient.md
@@ -1110,7 +1130,6 @@ nav:
         - ShaderProgram: reference/api/scenery/ShaderProgram.md
         - ShapeBasedOverlay: reference/api/scenery/ShapeBasedOverlay.md
         - SharedCanvasCacheDrawable: reference/api/scenery/SharedCanvasCacheDrawable.md
-        - SimpleDragHandler: reference/api/scenery/SimpleDragHandler.md
         - Sizable: reference/api/scenery/Sizable.md
         - sizableTypeChecks: reference/api/scenery/sizableTypeChecks.md
         - Spacer: reference/api/scenery/Spacer.md
@@ -1300,13 +1319,10 @@ nav:
         - MovementAlerter: reference/api/scenery-phet/MovementAlerter.md
         - MoveToTrashButton: reference/api/scenery-phet/MoveToTrashButton.md
         - MoveToTrashLegendButton: reference/api/scenery-phet/MoveToTrashLegendButton.md
-        - NextPreviousNavigationNode: reference/api/scenery-phet/NextPreviousNavigationNode.md
         - NumberAccumulator: reference/api/scenery-phet/NumberAccumulator.md
         - NumberControl: reference/api/scenery-phet/NumberControl.md
         - NumberDisplay: reference/api/scenery-phet/NumberDisplay.md
-        - NumberEntryControl: reference/api/scenery-phet/NumberEntryControl.md
         - NumberKeyNode: reference/api/scenery-phet/NumberKeyNode.md
-        - NumberKeypad: reference/api/scenery-phet/NumberKeypad.md
         - OffScaleIndicatorNode: reference/api/scenery-phet/OffScaleIndicatorNode.md
         - OutsideBackgroundNode: reference/api/scenery-phet/OutsideBackgroundNode.md
         - PaperAirplaneNode: reference/api/scenery-phet/PaperAirplaneNode.md
@@ -1384,7 +1400,6 @@ nav:
         - speaker_R8_png: reference/api/scenery-phet/speaker_R8_png.md
         - speaker_R9_png: reference/api/scenery-phet/speaker_R9_png.md
         - SpectrumNode: reference/api/scenery-phet/SpectrumNode.md
-        - SpectrumSlider: reference/api/scenery-phet/SpectrumSlider.md
         - SpectrumSliderThumb: reference/api/scenery-phet/SpectrumSliderThumb.md
         - SpectrumSliderTrack: reference/api/scenery-phet/SpectrumSliderTrack.md
         - SpinnerControlsKeyboardHelpSection: reference/api/scenery-phet/SpinnerControlsKeyboardHelpSection.md
@@ -1419,7 +1434,6 @@ nav:
         - VisibleColor: reference/api/scenery-phet/VisibleColor.md
         - WASDCueNode: reference/api/scenery-phet/WASDCueNode.md
         - WavelengthNumberControl: reference/api/scenery-phet/WavelengthNumberControl.md
-        - WavelengthSlider: reference/api/scenery-phet/WavelengthSlider.md
         - WavelengthSpectrumNode: reference/api/scenery-phet/WavelengthSpectrumNode.md
         - WireNode: reference/api/scenery-phet/WireNode.md
         - XNode: reference/api/scenery-phet/XNode.md
@@ -1720,7 +1734,6 @@ nav:
         - TappiStrings: reference/api/tappi/TappiStrings.md
         - VibrationIndicator: reference/api/tappi/VibrationIndicator.md
         - vibrationManager: reference/api/tappi/vibrationManager.md
-        - VibrationManageriOS: reference/api/tappi/VibrationManageriOS.md
         - VibrationPatterns: reference/api/tappi/VibrationPatterns.md
         - VibrationTestEvent: reference/api/tappi/VibrationTestEvent.md
         - VibrationTestEventRecorder: reference/api/tappi/VibrationTestEventRecorder.md

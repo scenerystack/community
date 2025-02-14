@@ -1,5 +1,9 @@
 # PlusMinusZoomButtonGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/PlusMinusZoomButtonGroup.ts](https://github.com/phetsims/scenery-phet/blob/main/js/PlusMinusZoomButtonGroup.ts) for the most up-to-date information.
+
 ## Overview
 
 A ZoomButtonGroup that shows a "+" and "-" sign for the button icons.

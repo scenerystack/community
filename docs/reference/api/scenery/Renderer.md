@@ -1,5 +1,9 @@
 # Renderer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/Renderer.js](https://github.com/phetsims/scenery/blob/main/js/display/Renderer.js) for the most up-to-date information.
+
 ## Overview
 
 An enumeration of different back-end technologies used for rendering. It also essentially represents the API that

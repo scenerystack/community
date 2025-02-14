@@ -1,5 +1,9 @@
 # TButtonAppearanceStrategy
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/TButtonAppearanceStrategy.ts](https://github.com/phetsims/sun/blob/main/js/buttons/TButtonAppearanceStrategy.ts) for the most up-to-date information.
+
 ## Overview
 
 Type to annotate the constructor signature of ButtonAppearanceStrategy

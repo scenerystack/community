@@ -1,5 +1,9 @@
 # CountMap
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/CountMap.js](https://github.com/phetsims/scenery/blob/main/js/util/CountMap.js) for the most up-to-date information.
+
 ## Overview
 
 Data structure that handles creating/destroying related objects that need to exist when something's count is &gt;=1

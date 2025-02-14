@@ -1,5 +1,9 @@
 # Heartbeat
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/Heartbeat.ts](https://github.com/phetsims/joist/blob/main/js/Heartbeat.ts) for the most up-to-date information.
+
 ## Overview
 
 For preventing Safari from going to sleep - added to the self.display.domElement instead of the body to prevent a VoiceOver bug

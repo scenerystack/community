@@ -1,5 +1,9 @@
 # WGSLString
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/WGSLString.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/WGSLString.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a string of WGSL code (which may have dependencies which it can add to a blueprint).

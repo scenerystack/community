@@ -1,5 +1,9 @@
 # PolygonMitchellNetravali
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/raster/PolygonMitchellNetravali.ts](https://github.com/phetsims/alpenglow/blob/main/js/raster/PolygonMitchellNetravali.ts) for the most up-to-date information.
+
 ## Overview
 
 Mitchell-Netravali filter (B=1/3, C=1/3 ) contribution given a polygon

@@ -1,5 +1,9 @@
 # LayoutConstraint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/LayoutConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/LayoutConstraint.ts) for the most up-to-date information.
+
 ## Overview
 
 Abstract supertype for layout constraints. Provides a lot of assistance to layout handling, including adding/removing

@@ -1,5 +1,9 @@
 # SunUtil
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/SunUtil.ts](https://github.com/phetsims/sun/blob/main/js/SunUtil.ts) for the most up-to-date information.
+
 ## Overview
 
 Utility functions for sun.

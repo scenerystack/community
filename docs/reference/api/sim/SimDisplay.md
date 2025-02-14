@@ -1,5 +1,9 @@
 # SimDisplay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/SimDisplay.ts](https://github.com/phetsims/joist/blob/main/js/SimDisplay.ts) for the most up-to-date information.
+
 ## Overview
 
 Wrap the Display class in sim-specific logic. This includes fuzzing support, browser workarounds that have come up

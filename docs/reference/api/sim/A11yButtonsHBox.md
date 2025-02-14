@@ -1,5 +1,9 @@
 # A11yButtonsHBox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/A11yButtonsHBox.ts](https://github.com/phetsims/joist/blob/main/js/A11yButtonsHBox.ts) for the most up-to-date information.
+
 ## Overview
 
 Creates an HBox that can have the sound toggle button, a11y button, or be empty

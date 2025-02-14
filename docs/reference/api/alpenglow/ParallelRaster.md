@@ -1,5 +1,9 @@
 # ParallelRaster
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRaster.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRaster.ts) for the most up-to-date information.
+
 ## Overview
 
 Rasterization prototype for WebGPU, but using the parallel (debuggable) API.

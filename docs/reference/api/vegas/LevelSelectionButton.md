@@ -1,5 +1,9 @@
 # LevelSelectionButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/LevelSelectionButton.ts](https://github.com/phetsims/vegas/blob/main/js/LevelSelectionButton.ts) for the most up-to-date information.
+
 ## Overview
 
 LevelSelectionButton is a push button for selecting a game level. It is typically created by LevelSelectionButtonGroup.

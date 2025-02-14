@@ -1,5 +1,9 @@
 # phetioAPIValidation
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/phetioAPIValidation.ts](https://github.com/phetsims/tandem/blob/main/js/phetioAPIValidation.ts) for the most up-to-date information.
+
 ## Overview
 
 This singleton is responsible for ensuring that the PhET-iO API is correct through the lifetime of the simulation.

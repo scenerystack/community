@@ -1,5 +1,9 @@
 # PhetioGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/PhetioGroup.ts](https://github.com/phetsims/tandem/blob/main/js/PhetioGroup.ts) for the most up-to-date information.
+
 ## Overview
 
 Provides a placeholder in the static API for where dynamic elements may be created.  Checks that elements of the group

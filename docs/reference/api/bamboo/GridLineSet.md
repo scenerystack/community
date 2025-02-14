@@ -1,5 +1,9 @@
 # GridLineSet
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/GridLineSet.ts](https://github.com/phetsims/bamboo/blob/main/js/GridLineSet.ts) for the most up-to-date information.
+
 ## Overview
 
 Draws a set of lines within a graph.  For example, the minor horizontal lines.  Back-computes the model

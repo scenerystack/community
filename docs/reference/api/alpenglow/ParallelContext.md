@@ -1,5 +1,9 @@
 # ParallelContext
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelContext.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelContext.ts) for the most up-to-date information.
+
 ## Overview
 
 Contains all the data/methods needed by a kernel to run in parallel. Passed to the kernel execution function, so that

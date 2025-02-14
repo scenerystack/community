@@ -1,5 +1,9 @@
 # RasterChunkReducePair
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReducePair.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReducePair.ts) for the most up-to-date information.
+
 ## Overview
 
 Like RasterChunkReduceQuad, but for the initial case where our left/right values are the same, and we can do a

@@ -1,5 +1,9 @@
 # DelayedMutate
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/DelayedMutate.ts](https://github.com/phetsims/scenery/blob/main/js/util/DelayedMutate.ts) for the most up-to-date information.
+
 ## Overview
 
 A mixin that delays the mutation of a certain set of mutation keys until AFTER the super() call has fully finished.

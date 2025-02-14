@@ -1,5 +1,9 @@
 # PhetioObject
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/PhetioObject.ts](https://github.com/phetsims/tandem/blob/main/js/PhetioObject.ts) for the most up-to-date information.
+
 ## Overview
 
 Base type that provides PhET-iO features. An instrumented PhetioObject is referred to on the wrapper side/design side

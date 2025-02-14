@@ -1,5 +1,9 @@
 # logGlobal
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/logGlobal.ts](https://github.com/phetsims/phet-core/blob/main/js/logGlobal.ts) for the most up-to-date information.
+
 ## Overview
 
 Logs a global variable by converting it to JSON, then writing to phet.log. If the global is undefined,

@@ -1,5 +1,9 @@
 # ParametricSpringNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ParametricSpringNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ParametricSpringNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Spring described by a parametric equation. This implementation is a variation of the cycloid equation.

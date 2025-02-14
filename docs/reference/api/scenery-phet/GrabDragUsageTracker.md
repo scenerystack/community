@@ -1,5 +1,9 @@
 # GrabDragUsageTracker
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragUsageTracker.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragUsageTracker.ts) for the most up-to-date information.
+
 ## Overview
 
 The model of the grab drag cueing logic. This is a separate model in part so that different interaction instances

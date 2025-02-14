@@ -1,5 +1,9 @@
 # Transform4
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Transform4.js](https://github.com/phetsims/dot/blob/main/js/Transform4.js) for the most up-to-date information.
+
 ## Overview
 
 Forward and inverse transforms with 4x4 matrices, allowing flexibility including affine and perspective transformations.

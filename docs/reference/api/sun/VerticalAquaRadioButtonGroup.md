@@ -1,5 +1,9 @@
 # VerticalAquaRadioButtonGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/VerticalAquaRadioButtonGroup.ts](https://github.com/phetsims/sun/blob/main/js/VerticalAquaRadioButtonGroup.ts) for the most up-to-date information.
+
 ## Overview
 
 VerticalAquaRadioButtonGroup is a convenience class for creating a vertical AquaRadioButtonGroup.

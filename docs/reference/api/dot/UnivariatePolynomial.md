@@ -1,5 +1,9 @@
 # UnivariatePolynomial
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/UnivariatePolynomial.ts](https://github.com/phetsims/dot/blob/main/js/UnivariatePolynomial.ts) for the most up-to-date information.
+
 ## Overview
 
 Handles a univariate polynomial (a polynomial with one variable), like 2x^2 + 6x + 4.

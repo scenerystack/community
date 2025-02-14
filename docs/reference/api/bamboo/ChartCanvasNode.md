@@ -1,5 +1,9 @@
 # ChartCanvasNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/ChartCanvasNode.ts](https://github.com/phetsims/bamboo/blob/main/js/ChartCanvasNode.ts) for the most up-to-date information.
+
 ## Overview
 
 ChartCanvasNode renders to a canvas. It is usually preferable to use the other scenery Node-based

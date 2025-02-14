@@ -1,5 +1,9 @@
 # AxisArrowNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/AxisArrowNode.ts](https://github.com/phetsims/bamboo/blob/main/js/AxisArrowNode.ts) for the most up-to-date information.
+
 ## Overview
 
 AxisArrowNode shows an axis with arrows at one or both ends. An axis is typically bolder than any grid line (if any),

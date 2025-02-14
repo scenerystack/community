@@ -1,5 +1,9 @@
 # TEmitter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/TEmitter.ts](https://github.com/phetsims/axon/blob/main/js/TEmitter.ts) for the most up-to-date information.
+
 ## Overview
 
 Event &amp; listener abstraction for a single "event" type. Unified interface for usage across the concrete implementations:

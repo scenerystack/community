@@ -1,5 +1,9 @@
 # Transform3
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Transform3.js](https://github.com/phetsims/dot/blob/main/js/Transform3.js) for the most up-to-date information.
+
 ## Overview
 
 Forward and inverse transforms with 3x3 matrices. Methods starting with 'transform' will apply the transform from our

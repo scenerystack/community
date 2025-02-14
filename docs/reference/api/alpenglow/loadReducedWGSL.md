@@ -1,5 +1,9 @@
 # loadReducedWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/loadReducedWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/loadReducedWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Loads data (usually from main memory) with multiple values per thread, but reduces them into a single value per

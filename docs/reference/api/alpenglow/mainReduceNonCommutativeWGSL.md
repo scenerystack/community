@@ -1,5 +1,9 @@
 # mainReduceNonCommutativeWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/mainReduceNonCommutativeWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/mainReduceNonCommutativeWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 A specialized raked reduce for when our input is non-commutative AND stored in a blocked (not striped) order.

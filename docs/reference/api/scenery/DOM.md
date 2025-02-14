@@ -1,5 +1,9 @@
 # DOM
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/DOM.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/DOM.ts) for the most up-to-date information.
+
 ## Overview
 
 Displays a DOM element directly in a node, so that it can be positioned/transformed properly, and bounds are handled properly in Scenery.

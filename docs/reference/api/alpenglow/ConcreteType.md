@@ -1,5 +1,9 @@
 # ConcreteType
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/ConcreteType.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/ConcreteType.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a data type that can be serialized/deserialized to/from a binary form, both in TypeScript and in WGSL.

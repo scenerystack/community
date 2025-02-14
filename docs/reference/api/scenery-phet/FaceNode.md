@@ -1,5 +1,9 @@
 # FaceNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/FaceNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/FaceNode.ts) for the most up-to-date information.
+
 ## Overview
 
 FaceNode is a face that can smile or frown.  This is generally used for indicating success or failure.

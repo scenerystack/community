@@ -1,5 +1,9 @@
 # InteractiveHighlighting
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/InteractiveHighlighting.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/InteractiveHighlighting.ts) for the most up-to-date information.
+
 ## Overview
 
 A trait for Node that mixes functionality to support visual highlights that appear on hover with a pointer.

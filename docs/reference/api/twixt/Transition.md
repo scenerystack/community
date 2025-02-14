@@ -1,5 +1,9 @@
 # Transition
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/twixt/blob/main/js/Transition.ts](https://github.com/phetsims/twixt/blob/main/js/Transition.ts) for the most up-to-date information.
+
 ## Overview
 
 An animation that will animate one object (usually a Node) out, and another in.

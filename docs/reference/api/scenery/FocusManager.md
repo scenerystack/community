@@ -1,5 +1,9 @@
 # FocusManager
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/FocusManager.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/FocusManager.ts) for the most up-to-date information.
+
 ## Overview
 
 Manages the Properties which signify and control where various forms of focus are. A Focus

@@ -1,5 +1,9 @@
 # AriaLiveAnnouncer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/utterance-queue/blob/main/js/AriaLiveAnnouncer.ts](https://github.com/phetsims/utterance-queue/blob/main/js/AriaLiveAnnouncer.ts) for the most up-to-date information.
+
 ## Overview
 
 A static object used to send aria-live updates to a screen reader. These are alerts that are independent of user

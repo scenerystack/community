@@ -1,5 +1,9 @@
 # Bucket
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phetcommon/blob/main/js/model/Bucket.ts](https://github.com/phetsims/phetcommon/blob/main/js/model/Bucket.ts) for the most up-to-date information.
+
 ## Overview
 
 Class that defines the shape and common functionality for a 'bucket', which is a container into which some sort of

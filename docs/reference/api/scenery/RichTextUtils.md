@@ -1,5 +1,9 @@
 # RichTextUtils
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextUtils.ts](https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextUtils.ts) for the most up-to-date information.
+
 ## Overview
 
 Utilities and globals to support RichText

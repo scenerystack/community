@@ -1,5 +1,9 @@
 # GradientRectangle
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/GradientRectangle.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GradientRectangle.ts) for the most up-to-date information.
+
 ## Overview
 
 Mostly like a normal Rectangle (Node), but instead of a hard transition from "in" to "out", it has a defined region

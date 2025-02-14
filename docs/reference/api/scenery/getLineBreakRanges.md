@@ -1,5 +1,9 @@
 # getLineBreakRanges
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/getLineBreakRanges.ts](https://github.com/phetsims/scenery/blob/main/js/util/getLineBreakRanges.ts) for the most up-to-date information.
+
 ## Overview
 
 Returns where possible line breaks can exist in a given string, according to the

@@ -1,5 +1,9 @@
 # interleave
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/interleave.ts](https://github.com/phetsims/phet-core/blob/main/js/interleave.ts) for the most up-to-date information.
+
 ## Overview
 
 Returns a copy of an array, with generated elements interleaved (inserted in-between) every element. For example, if

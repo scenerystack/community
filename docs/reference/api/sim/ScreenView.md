@@ -1,5 +1,9 @@
 # ScreenView
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/ScreenView.ts](https://github.com/phetsims/joist/blob/main/js/ScreenView.ts) for the most up-to-date information.
+
 ## Overview
 
 The view portion of a Screen, specifies the layout strategy for the visual view.

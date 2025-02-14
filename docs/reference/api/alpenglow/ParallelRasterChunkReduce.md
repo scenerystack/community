@@ -1,5 +1,9 @@
 # ParallelRasterChunkReduce
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterChunkReduce.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterChunkReduce.ts) for the most up-to-date information.
+
 ## Overview
 
 We continue the segmented reduction started in ParallelRasterInitialClip, also applying things to RasterClippedChunks,

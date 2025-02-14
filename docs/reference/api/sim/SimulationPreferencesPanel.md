@@ -1,5 +1,9 @@
 # SimulationPreferencesPanel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/SimulationPreferencesPanel.ts](https://github.com/phetsims/joist/blob/main/js/preferences/SimulationPreferencesPanel.ts) for the most up-to-date information.
+
 ## Overview
 
 The content for the "Simulation" tab in the PreferencesDialog. Contains controls for any simulation-specific

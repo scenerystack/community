@@ -1,5 +1,9 @@
 # RectangleCanvasDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/drawables/RectangleCanvasDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/drawables/RectangleCanvasDrawable.js) for the most up-to-date information.
+
 ## Overview
 
 Canvas drawable for Rectangle nodes.

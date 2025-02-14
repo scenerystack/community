@@ -1,5 +1,9 @@
 # DerivedProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/DerivedProperty.ts](https://github.com/phetsims/axon/blob/main/js/DerivedProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A DerivedProperty is computed based on other Properties.  This implementation inherits from Property to (a) simplify

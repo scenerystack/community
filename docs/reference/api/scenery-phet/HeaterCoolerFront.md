@@ -1,5 +1,9 @@
 # HeaterCoolerFront
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerFront.ts](https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerFront.ts) for the most up-to-date information.
+
 ## Overview
 
 Front of the HeaterCoolerNode.  It is independent from the HeaterCoolerBack so that one can easily layer objects

@@ -1,5 +1,9 @@
 # SVGRadialGradient
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/SVGRadialGradient.ts](https://github.com/phetsims/scenery/blob/main/js/display/SVGRadialGradient.ts) for the most up-to-date information.
+
 ## Overview
 
 Controller that creates and keeps an SVG radial gradient up-to-date with a Scenery RadialGradient

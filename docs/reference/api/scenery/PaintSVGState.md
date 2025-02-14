@@ -1,5 +1,9 @@
 # PaintSVGState
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/PaintSVGState.js](https://github.com/phetsims/scenery/blob/main/js/display/PaintSVGState.js) for the most up-to-date information.
+
 ## Overview
 
 Handles SVG &lt;defs&gt; and fill/stroke style for SVG elements (by composition, not a trait or for inheritance).

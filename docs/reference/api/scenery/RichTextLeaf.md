@@ -1,5 +1,9 @@
 # RichTextLeaf
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextLeaf.ts](https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextLeaf.ts) for the most up-to-date information.
+
 ## Overview
 
 A leaf (text) element in the RichText, which will display a snippet of Text.

@@ -1,5 +1,9 @@
 # KeyboardDragListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardDragListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardDragListener.ts) for the most up-to-date information.
+
 ## Overview
 
 An input listener for keyboard-based drag interactions, allowing objects to be moved using the arrow keys or

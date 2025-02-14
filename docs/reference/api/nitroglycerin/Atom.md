@@ -1,5 +1,9 @@
 # Atom
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/nitroglycerin/blob/main/js/Atom.ts](https://github.com/phetsims/nitroglycerin/blob/main/js/Atom.ts) for the most up-to-date information.
+
 ## Overview
 
 Object for actual element properties (symbol, radius, etc.)

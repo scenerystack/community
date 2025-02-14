@@ -1,5 +1,9 @@
 # TwoPassCoarseRenderableFace
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/rasterize-two-pass/TwoPassCoarseRenderableFace.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/rasterize-two-pass/TwoPassCoarseRenderableFace.ts) for the most up-to-date information.
+
 ## Overview
 
 

@@ -1,5 +1,9 @@
 # TimestampLogger
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/TimestampLogger.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/compute/TimestampLogger.ts) for the most up-to-date information.
+
 ## Overview
 
 Assists in logging out timestamps for WebGPU profiling.

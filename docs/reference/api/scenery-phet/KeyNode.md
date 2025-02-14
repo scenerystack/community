@@ -1,5 +1,9 @@
 # KeyNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/KeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/KeyNode.ts) for the most up-to-date information.
+
 ## Overview
 
 KeyNode looks like a keyboard key. It has a shadow rectangle under the key icon, with a slight offset so that it

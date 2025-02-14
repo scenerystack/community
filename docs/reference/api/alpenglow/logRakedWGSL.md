@@ -1,5 +1,9 @@
 # logRakedWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/logRakedWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/logRakedWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Specialized logging TODO doc, TODO factor out common parts

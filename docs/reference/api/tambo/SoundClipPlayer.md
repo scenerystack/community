@@ -1,5 +1,9 @@
 # SoundClipPlayer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClipPlayer.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClipPlayer.ts) for the most up-to-date information.
+
 ## Overview
 
 SoundClipPlayer is a limited and automatically registered sound clip.  It is intended to be used for sounds that

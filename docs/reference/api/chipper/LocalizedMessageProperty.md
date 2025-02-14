@@ -1,5 +1,9 @@
 # LocalizedMessageProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser/LocalizedMessageProperty.ts](https://github.com/phetsims/chipper/blob/main/js/browser/LocalizedMessageProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property for the Fluent module that will recompute the value when the FluentBundle

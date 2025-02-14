@@ -1,5 +1,9 @@
 # FittedBlock
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/FittedBlock.js](https://github.com/phetsims/scenery/blob/main/js/display/FittedBlock.js) for the most up-to-date information.
+
 ## Overview
 
 A Block that needs to be fitted to either the screen bounds or other local bounds. This potentially reduces memory

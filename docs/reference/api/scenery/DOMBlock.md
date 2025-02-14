@@ -1,5 +1,9 @@
 # DOMBlock
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/DOMBlock.js](https://github.com/phetsims/scenery/blob/main/js/display/DOMBlock.js) for the most up-to-date information.
+
 ## Overview
 
 DOM Drawable wrapper for another DOM Drawable. Used so that we can have our own independent siblings, generally as part

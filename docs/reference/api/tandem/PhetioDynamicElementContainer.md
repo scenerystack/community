@@ -1,5 +1,9 @@
 # PhetioDynamicElementContainer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/PhetioDynamicElementContainer.ts](https://github.com/phetsims/tandem/blob/main/js/PhetioDynamicElementContainer.ts) for the most up-to-date information.
+
 ## Overview
 
 Supertype for containers that hold dynamic elements that are PhET-iO instrumented. This type handles common

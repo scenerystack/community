@@ -1,5 +1,9 @@
 # AquaRadioButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/AquaRadioButton.ts](https://github.com/phetsims/sun/blob/main/js/AquaRadioButton.ts) for the most up-to-date information.
+
 ## Overview
 
 AquaRadioButton is a radio button whose look is similar to macOS' Aqua theme. The button is circular and

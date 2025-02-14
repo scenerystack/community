@@ -1,5 +1,9 @@
 # SceneryEvent
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/SceneryEvent.ts](https://github.com/phetsims/scenery/blob/main/js/input/SceneryEvent.ts) for the most up-to-date information.
+
 ## Overview
 
 A Scenery event is an abstraction over incoming user DOM events.

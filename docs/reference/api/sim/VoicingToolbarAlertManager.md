@@ -1,5 +1,9 @@
 # VoicingToolbarAlertManager
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/toolbar/VoicingToolbarAlertManager.ts](https://github.com/phetsims/joist/blob/main/js/toolbar/VoicingToolbarAlertManager.ts) for the most up-to-date information.
+
 ## Overview
 
 Abstract class that creates alert content for the VoicingToolbarItem. Buttons in that item will call these

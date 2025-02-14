@@ -1,5 +1,9 @@
 # PreferencesStorage
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesStorage.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesStorage.ts) for the most up-to-date information.
+
 ## Overview
 
 Singleton that can save and load a Property's value to localStorage, and keep it in sync for the next runtime.

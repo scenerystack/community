@@ -1,5 +1,9 @@
 # Separator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/nodes/Separator.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/Separator.ts) for the most up-to-date information.
+
 ## Overview
 
 Base type for a line-divider (when put in a layout container, it will be hidden if it is before/after all visible

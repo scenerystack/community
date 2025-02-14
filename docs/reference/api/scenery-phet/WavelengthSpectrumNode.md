@@ -1,5 +1,9 @@
 # WavelengthSpectrumNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/WavelengthSpectrumNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/WavelengthSpectrumNode.ts) for the most up-to-date information.
+
 ## Overview
 
 WavelengthSpectrumNode displays a rectangle of the visible spectrum.

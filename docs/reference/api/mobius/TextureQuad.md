@@ -1,5 +1,9 @@
 # TextureQuad
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/TextureQuad.ts](https://github.com/phetsims/mobius/blob/main/js/TextureQuad.ts) for the most up-to-date information.
+
 ## Overview
 
 Creates a quad for a given texture with a specific width and height, in the 3d space

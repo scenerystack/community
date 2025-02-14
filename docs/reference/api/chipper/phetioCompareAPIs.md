@@ -1,5 +1,9 @@
 # phetioCompareAPIs
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser-and-node/phetioCompareAPIs.ts](https://github.com/phetsims/chipper/blob/main/js/browser-and-node/phetioCompareAPIs.ts) for the most up-to-date information.
+
 ## Overview
 
 Compare PhET-iO APIs for two versions of the same sim. This function treats the first API as the "ground truth"

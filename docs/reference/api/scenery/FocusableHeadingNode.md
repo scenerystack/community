@@ -1,5 +1,9 @@
 # FocusableHeadingNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/FocusableHeadingNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/FocusableHeadingNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A Node represented by a heading in the parallel dom that can receive focus. Typically

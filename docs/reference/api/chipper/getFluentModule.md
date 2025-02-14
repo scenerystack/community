@@ -1,5 +1,9 @@
 # getFluentModule
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser/getFluentModule.ts](https://github.com/phetsims/chipper/blob/main/js/browser/getFluentModule.ts) for the most up-to-date information.
+
 ## Overview
 
 Constructs the modules needed to use Fluent.js messages in a PhET simulation. Fluent has the following concepts:

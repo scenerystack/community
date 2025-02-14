@@ -1,5 +1,9 @@
 # NavigationBarAudioToggleButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/NavigationBarAudioToggleButton.ts](https://github.com/phetsims/joist/blob/main/js/NavigationBarAudioToggleButton.ts) for the most up-to-date information.
+
 ## Overview
 
 NavigationBarAudioToggleButton is a button for controlling whether audio is enabled or disabled that is designed to

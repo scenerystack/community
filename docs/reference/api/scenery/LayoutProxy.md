@@ -1,5 +1,9 @@
 # LayoutProxy
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/LayoutProxy.ts](https://github.com/phetsims/scenery/blob/main/js/layout/LayoutProxy.ts) for the most up-to-date information.
+
 ## Overview
 
 A stand-in for the layout-based fields of a Node, but where everything is done in the coordinate frame of the

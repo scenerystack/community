@@ -1,5 +1,9 @@
 # DynamicStringTest
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/DynamicStringTest.ts](https://github.com/phetsims/joist/blob/main/js/DynamicStringTest.ts) for the most up-to-date information.
+
 ## Overview
 
 DynamicStringTest is a handler for KeyboardEvents. It's used for testing dynamic layout in sims that may not yet

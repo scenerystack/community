@@ -1,5 +1,9 @@
 # Vector2
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Vector2.ts](https://github.com/phetsims/dot/blob/main/js/Vector2.ts) for the most up-to-date information.
+
 ## Overview
 
 Basic 2-dimensional vector, represented as (x,y).  Values can be numeric, or NaN or infinite.

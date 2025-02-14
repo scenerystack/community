@@ -1,5 +1,9 @@
 # ParallelDOM
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/ParallelDOM.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/ParallelDOM.ts) for the most up-to-date information.
+
 ## Overview
 
 A superclass for Node, adding accessibility by defining content for the Parallel DOM. Please note that Node and

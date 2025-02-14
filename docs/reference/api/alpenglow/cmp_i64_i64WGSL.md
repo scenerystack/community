@@ -1,5 +1,9 @@
 # cmp_i64_i64WGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/math/cmp_i64_i64WGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/math/cmp_i64_i64WGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Returns a comparison of two i64s:

@@ -1,5 +1,9 @@
 # VibrationIndicator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tappi/blob/main/js/view/VibrationIndicator.js](https://github.com/phetsims/tappi/blob/main/js/view/VibrationIndicator.js) for the most up-to-date information.
+
 ## Overview
 
 A way to visualize haptic feedback. This is an icon that looks like a phone with zig zag lines around it to

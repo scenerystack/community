@@ -1,5 +1,9 @@
 # BooleanToggleNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/BooleanToggleNode.ts](https://github.com/phetsims/sun/blob/main/js/BooleanToggleNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows one node if the property is true or another node if the property is false. Used to indicate boolean state.

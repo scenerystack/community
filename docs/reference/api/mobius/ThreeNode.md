@@ -1,5 +1,9 @@
 # ThreeNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/ThreeNode.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows three.js content within a rectangle, displayed to be inside of a rectangle in arbitrary places in the scene

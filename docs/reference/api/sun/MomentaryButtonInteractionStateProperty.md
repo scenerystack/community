@@ -1,5 +1,9 @@
 # MomentaryButtonInteractionStateProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/MomentaryButtonInteractionStateProperty.ts](https://github.com/phetsims/sun/blob/main/js/buttons/MomentaryButtonInteractionStateProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A DerivedProperty that maps MomentaryButtonModel states to the states needed by the button view.

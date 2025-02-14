@@ -1,5 +1,9 @@
 # RegionAndCultureComboBox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/RegionAndCultureComboBox.ts](https://github.com/phetsims/joist/blob/main/js/preferences/RegionAndCultureComboBox.ts) for the most up-to-date information.
+
 ## Overview
 
 RegionAndCultureComboBox is the combo box used to set 'Region and Culture' in Preferences &gt; Localization.

@@ -1,5 +1,9 @@
 # Sprite
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/Sprite.ts](https://github.com/phetsims/scenery/blob/main/js/util/Sprite.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a single sprite for the Sprites node, whose image can change over time (if it gets regenerated, etc.).

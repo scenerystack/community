@@ -1,5 +1,9 @@
 # HeaterCoolerBack
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerBack.ts](https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerBack.ts) for the most up-to-date information.
+
 ## Overview
 
 Representation of the back of a HeaterCoolerNode.  It is independent from the front of the HeaterCoolerNode so that

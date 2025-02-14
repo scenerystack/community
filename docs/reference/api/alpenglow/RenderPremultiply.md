@@ -1,5 +1,9 @@
 # RenderPremultiply
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPremultiply.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPremultiply.ts) for the most up-to-date information.
+
 ## Overview
 
 RenderProgram to premultiply the input color

@@ -1,5 +1,9 @@
 # ProfileColorProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/ProfileColorProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/ProfileColorProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 ProfileColorProperty is a ColorProperty that changes its value based on the value of colorProfileProperty.

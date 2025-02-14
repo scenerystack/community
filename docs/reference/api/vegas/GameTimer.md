@@ -1,5 +1,9 @@
 # GameTimer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/GameTimer.ts](https://github.com/phetsims/vegas/blob/main/js/GameTimer.ts) for the most up-to-date information.
+
 ## Overview
 
 Game timer, keeps track of the elapsed time in the game using "wall clock" time. The frame rate of this clock is

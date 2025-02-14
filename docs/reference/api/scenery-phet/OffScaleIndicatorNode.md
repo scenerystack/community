@@ -1,5 +1,9 @@
 # OffScaleIndicatorNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/OffScaleIndicatorNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/OffScaleIndicatorNode.ts) for the most up-to-date information.
+
 ## Overview
 
 An indicator that shows when something is off scale - usually in the context of a plot.

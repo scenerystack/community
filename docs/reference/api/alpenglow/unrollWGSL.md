@@ -1,5 +1,9 @@
 # unrollWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/unrollWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/unrollWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 A template that unrolls a simple loop over a range of numbers.

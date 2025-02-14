@@ -1,5 +1,9 @@
 # SliderThumb
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/SliderThumb.ts](https://github.com/phetsims/sun/blob/main/js/SliderThumb.ts) for the most up-to-date information.
+
 ## Overview
 
 A default slider thumb, currently intended for use only in HSlider. It's a rectangle with a vertical white line down

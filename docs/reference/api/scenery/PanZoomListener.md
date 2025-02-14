@@ -1,5 +1,9 @@
 # PanZoomListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/PanZoomListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/PanZoomListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A MultiListener that is designed to pan and zoom a target Node, where you can provide limiting and

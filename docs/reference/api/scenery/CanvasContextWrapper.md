@@ -1,5 +1,9 @@
 # CanvasContextWrapper
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/CanvasContextWrapper.js](https://github.com/phetsims/scenery/blob/main/js/util/CanvasContextWrapper.js) for the most up-to-date information.
+
 ## Overview
 
 Wraps the context and contains a reference to the canvas, so that we can absorb unnecessary state changes,

@@ -1,5 +1,9 @@
 # PointerAreaOverlay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/overlays/PointerAreaOverlay.ts](https://github.com/phetsims/scenery/blob/main/js/overlays/PointerAreaOverlay.ts) for the most up-to-date information.
+
 ## Overview
 
 Displays mouse and touch areas when they are customized. Expensive to display!

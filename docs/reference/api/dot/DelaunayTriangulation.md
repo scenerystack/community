@@ -1,5 +1,9 @@
 # DelaunayTriangulation
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/DelaunayTriangulation.js](https://github.com/phetsims/dot/blob/main/js/DelaunayTriangulation.js) for the most up-to-date information.
+
 ## Overview
 
 Handles constrained Delaunay triangulation based on "Sweep-line algorithm for constrained Delaunay triangulation"

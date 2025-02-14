@@ -1,5 +1,9 @@
 # CrossFadeSoundClip
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/CrossFadeSoundClip.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/CrossFadeSoundClip.ts) for the most up-to-date information.
+
 ## Overview
 
 CrossFadeSoundClip is a sound generator that combines two sound clips and allows the user to set the relative mix -

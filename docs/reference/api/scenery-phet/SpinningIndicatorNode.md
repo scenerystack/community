@@ -1,5 +1,9 @@
 # SpinningIndicatorNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/SpinningIndicatorNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SpinningIndicatorNode.ts) for the most up-to-date information.
+
 ## Overview
 
 SpinningIndicatorNode is a spinning progress indicator, used to indicate operation is in progress (but with no

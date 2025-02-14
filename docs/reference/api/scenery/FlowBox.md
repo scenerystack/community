@@ -1,5 +1,9 @@
 # FlowBox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/nodes/FlowBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/FlowBox.ts) for the most up-to-date information.
+
 ## Overview
 
 A vertical/horizontal flow-based layout container.

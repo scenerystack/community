@@ -1,5 +1,9 @@
 # Transform1
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Transform1.js](https://github.com/phetsims/dot/blob/main/js/Transform1.js) for the most up-to-date information.
+
 ## Overview
 
 One dimensional (scalar) transforms, which are invertible. Unlike Transform3 and Transform4, Transform1

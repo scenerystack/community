@@ -1,5 +1,9 @@
 # TPhetioStateEngine
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/TPhetioStateEngine.ts](https://github.com/phetsims/tandem/blob/main/js/TPhetioStateEngine.ts) for the most up-to-date information.
+
 ## Overview
 
 The PhetioStateEngine is defined in the phet-io/ repo, so is not available to developers that cannot clone that repo.

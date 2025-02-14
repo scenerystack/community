@@ -1,5 +1,9 @@
 # Screen
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/Screen.ts](https://github.com/phetsims/joist/blob/main/js/Screen.ts) for the most up-to-date information.
+
 ## Overview
 
 A Screen is the largest chunk of a simulation. (Java sims used the term Module, but that term

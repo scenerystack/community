@@ -1,5 +1,9 @@
 # Multilink
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/Multilink.ts](https://github.com/phetsims/axon/blob/main/js/Multilink.ts) for the most up-to-date information.
+
 ## Overview
 
 Multilink is used to link to multiple properties.  It is very similar to a DerivedProperty, but has no value and

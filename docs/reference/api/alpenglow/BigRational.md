@@ -1,5 +1,9 @@
 # BigRational
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/BigRational.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/BigRational.ts) for the most up-to-date information.
+
 ## Overview
 
 Contains an import-style snippet of shader code, with dependencies on other snippets.

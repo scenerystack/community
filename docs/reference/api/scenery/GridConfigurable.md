@@ -1,5 +1,9 @@
 # GridConfigurable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridConfigurable.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridConfigurable.ts) for the most up-to-date information.
+
 ## Overview
 
 Mixin for storing options that can affect each cell.

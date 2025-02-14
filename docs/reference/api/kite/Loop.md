@@ -1,5 +1,9 @@
 # Loop
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/Loop.ts](https://github.com/phetsims/kite/blob/main/js/ops/Loop.ts) for the most up-to-date information.
+
 ## Overview
 
 A directed set of half-edges determined by how the original shapes/subpaths were directionally. This is distinct from

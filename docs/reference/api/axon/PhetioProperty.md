@@ -1,5 +1,9 @@
 # PhetioProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/PhetioProperty.ts](https://github.com/phetsims/axon/blob/main/js/PhetioProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 @author Michael Kauzmann (PhET Interactive Simulations)

@@ -1,5 +1,9 @@
 # Edge
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/Edge.ts](https://github.com/phetsims/kite/blob/main/js/ops/Edge.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a segment in the graph (connects to vertices on both ends)

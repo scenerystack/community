@@ -1,5 +1,9 @@
 # RectangularRadioButtonGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/RectangularRadioButtonGroup.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularRadioButtonGroup.ts) for the most up-to-date information.
+
 ## Overview
 
 RectangularRadioButtonGroup is a group of rectangular radio buttons, in either horizontal or vertical orientation.

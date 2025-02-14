@@ -1,5 +1,9 @@
 # CompositeSoundClip
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/CompositeSoundClip.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/CompositeSoundClip.ts) for the most up-to-date information.
+
 ## Overview
 
 A sound generator that is composed of multiple SoundClips that are all started and stopped at the same time.

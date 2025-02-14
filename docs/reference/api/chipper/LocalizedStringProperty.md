@@ -1,5 +1,9 @@
 # LocalizedStringProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser/LocalizedStringProperty.ts](https://github.com/phetsims/chipper/blob/main/js/browser/LocalizedStringProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 The main Property for a translated string (subtyped so we can get the stringKey, or other things in the future).

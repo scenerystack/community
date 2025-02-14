@@ -1,5 +1,9 @@
 # VisibleColor
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/VisibleColor.ts](https://github.com/phetsims/scenery-phet/blob/main/js/VisibleColor.ts) for the most up-to-date information.
+
 ## Overview
 
 Provides a 2-way mapping between wavelength and Color.

@@ -1,5 +1,9 @@
 # BackboneDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/BackboneDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/BackboneDrawable.js) for the most up-to-date information.
+
 ## Overview
 
 A DOM drawable (div element) that contains child blocks (and is placed in the main DOM tree when visible). It should

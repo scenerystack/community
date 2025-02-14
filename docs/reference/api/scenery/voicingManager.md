@@ -1,5 +1,9 @@
 # voicingManager
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/voicingManager.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/voicingManager.ts) for the most up-to-date information.
+
 ## Overview
 
 Uses the Web Speech API to produce speech from the browser. This is a prototype, DO NOT USE IN PRODUCTION CODE.

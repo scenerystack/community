@@ -1,5 +1,9 @@
 # VibrationTestEvent
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestEvent.js](https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestEvent.js) for the most up-to-date information.
+
 ## Overview
 
 A collection of data related to user input, for the purposes of the Vibration project. While

@@ -1,5 +1,9 @@
 # RichTextLink
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextLink.ts](https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextLink.ts) for the most up-to-date information.
+
 ## Overview
 
 A link node in RichText - NOTE: This is NOT embedded for layout. Instead, link content will be added as children to this node,

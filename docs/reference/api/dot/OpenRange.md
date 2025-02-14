@@ -1,5 +1,9 @@
 # OpenRange
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/OpenRange.js](https://github.com/phetsims/dot/blob/main/js/OpenRange.js) for the most up-to-date information.
+
 ## Overview
 
 A numeric range that handles open and half open intervals. Defaults to an open interval.

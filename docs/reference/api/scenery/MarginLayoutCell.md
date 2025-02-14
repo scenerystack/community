@@ -1,5 +1,9 @@
 # MarginLayoutCell
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutCell.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/MarginLayoutCell.ts) for the most up-to-date information.
+
 ## Overview
 
 A LayoutCell that has margins, and can be positioned and sized relative to those. Used for Flow/Grid layouts

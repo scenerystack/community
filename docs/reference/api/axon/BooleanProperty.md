@@ -1,5 +1,9 @@
 # BooleanProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/BooleanProperty.ts](https://github.com/phetsims/axon/blob/main/js/BooleanProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 Property whose value must be true or false. Truthy/falsy values are invalid.

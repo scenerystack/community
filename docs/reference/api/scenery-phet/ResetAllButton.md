@@ -1,5 +1,9 @@
 # ResetAllButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/buttons/ResetAllButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/ResetAllButton.ts) for the most up-to-date information.
+
 ## Overview
 
 Reset All button, typically used to reset everything ('reset all') on a Screen.

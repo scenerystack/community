@@ -1,5 +1,9 @@
 # Pointer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/Pointer.ts](https://github.com/phetsims/scenery/blob/main/js/input/Pointer.ts) for the most up-to-date information.
+
 ## Overview
 
 A pointer is an abstraction that includes a mouse and touch points (and possibly keys). The mouse is a single

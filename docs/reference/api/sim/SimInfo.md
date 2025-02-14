@@ -1,5 +1,9 @@
 # SimInfo
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/SimInfo.ts](https://github.com/phetsims/joist/blob/main/js/SimInfo.ts) for the most up-to-date information.
+
 ## Overview
 
 Return an object of data about the simulation and the browser

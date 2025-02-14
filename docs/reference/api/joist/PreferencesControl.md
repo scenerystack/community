@@ -1,5 +1,9 @@
 # PreferencesControl
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesControl.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesControl.ts) for the most up-to-date information.
+
 ## Overview
 
 A ToggleSwitch decorated with a visual label and description with layout for each. To be used in the

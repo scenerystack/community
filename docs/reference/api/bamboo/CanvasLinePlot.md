@@ -1,5 +1,9 @@
 # CanvasLinePlot
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/CanvasLinePlot.ts](https://github.com/phetsims/bamboo/blob/main/js/CanvasLinePlot.ts) for the most up-to-date information.
+
 ## Overview
 
 CanvasLinePlot renders a {Array.&lt;Vector2|null&gt;} dataSet on a canvas that is managed by a ChartCanvasNode.

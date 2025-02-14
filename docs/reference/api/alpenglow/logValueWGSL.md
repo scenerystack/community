@@ -1,5 +1,9 @@
 # logValueWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/logValueWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/logValueWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Provides the ability to log a single value out

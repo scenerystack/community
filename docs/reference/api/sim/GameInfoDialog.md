@@ -1,5 +1,9 @@
 # GameInfoDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/GameInfoDialog.ts](https://github.com/phetsims/vegas/blob/main/js/GameInfoDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 GameInfoDialog shows descriptions for the levels of a game.  Each description is on a separate line.

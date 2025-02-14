@@ -1,5 +1,9 @@
 # Subpath
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/util/Subpath.ts](https://github.com/phetsims/kite/blob/main/js/util/Subpath.ts) for the most up-to-date information.
+
 ## Overview
 
 A Canvas-style stateful (mutable) subpath, which tracks segments in addition to the points.

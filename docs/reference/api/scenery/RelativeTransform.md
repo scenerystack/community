@@ -1,5 +1,9 @@
 # RelativeTransform
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/RelativeTransform.js](https://github.com/phetsims/scenery/blob/main/js/display/RelativeTransform.js) for the most up-to-date information.
+
 ## Overview
 
 RelativeTransform is a component of an Instance. It is responsible for tracking changes to "relative" transforms, and

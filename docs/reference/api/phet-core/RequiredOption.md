@@ -1,5 +1,9 @@
 # RequiredOption
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/types/RequiredOption.ts](https://github.com/phetsims/phet-core/blob/main/js/types/RequiredOption.ts) for the most up-to-date information.
+
 ## Overview
 
 Allows grabbing *the type* of a required option out of a type. For example if we have

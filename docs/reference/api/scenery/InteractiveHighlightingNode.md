@@ -1,5 +1,9 @@
 # InteractiveHighlightingNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/InteractiveHighlightingNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/InteractiveHighlightingNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A convenience superclass for a Node composed with InteractiveHighlighting. Helpful when using this superclass is

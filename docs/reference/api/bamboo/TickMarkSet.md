@@ -1,5 +1,9 @@
 # TickMarkSet
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/TickMarkSet.ts](https://github.com/phetsims/bamboo/blob/main/js/TickMarkSet.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows tick marks within or next to a chart.

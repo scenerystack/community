@@ -1,5 +1,9 @@
 # ParallelRasterEdgeIndexPatch
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterEdgeIndexPatch.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterEdgeIndexPatch.ts) for the most up-to-date information.
+
 ## Overview
 
 Updates the edges with the correct chunk indices (clippedChunk =&gt; outputChunk) and first/last flags.

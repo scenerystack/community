@@ -1,5 +1,9 @@
 # SpriteInstance
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/SpriteInstance.ts](https://github.com/phetsims/scenery/blob/main/js/util/SpriteInstance.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a single instance on the screen of a given Sprite object. It can have its own transformation matrix, and

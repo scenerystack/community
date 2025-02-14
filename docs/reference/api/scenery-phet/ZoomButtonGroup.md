@@ -1,5 +1,9 @@
 # ZoomButtonGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ZoomButtonGroup.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ZoomButtonGroup.ts) for the most up-to-date information.
+
 ## Overview
 
 ZoomButtonGroup is the base class for a pair of buttons used to zoom 'in' and 'out'.

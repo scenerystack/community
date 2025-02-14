@@ -1,5 +1,9 @@
 # SpanNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/SpanNode.ts](https://github.com/phetsims/bamboo/blob/main/js/SpanNode.ts) for the most up-to-date information.
+
 ## Overview
 
 SpanNode shows a double-headed arrow pointing to parallel bars, and a text label. It is shown under a chart to

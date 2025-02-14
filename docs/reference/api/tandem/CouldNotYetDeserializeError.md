@@ -1,5 +1,9 @@
 # CouldNotYetDeserializeError
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/CouldNotYetDeserializeError.ts](https://github.com/phetsims/tandem/blob/main/js/CouldNotYetDeserializeError.ts) for the most up-to-date information.
+
 ## Overview
 
 Error to be thrown if a failure occurs downstream of setting state because another state setting operation needs

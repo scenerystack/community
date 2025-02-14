@@ -1,5 +1,9 @@
 # ColorDef
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/ColorDef.ts](https://github.com/phetsims/scenery/blob/main/js/util/ColorDef.ts) for the most up-to-date information.
+
 ## Overview
 
 "definition" type for generalized color paints (anything that can be given to a fill/stroke that represents just a

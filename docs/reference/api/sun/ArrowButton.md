@@ -1,5 +1,9 @@
 # ArrowButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/ArrowButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/ArrowButton.ts) for the most up-to-date information.
+
 ## Overview
 
 Button with one or more arrows that point up, down, left or right.

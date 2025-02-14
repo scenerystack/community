@@ -1,5 +1,9 @@
 # MatrixOps3
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/MatrixOps3.js](https://github.com/phetsims/dot/blob/main/js/MatrixOps3.js) for the most up-to-date information.
+
 ## Overview
 
 Fast 3x3 matrix computations at the lower level, including an SVD implementation that is fully stable.

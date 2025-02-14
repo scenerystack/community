@@ -1,5 +1,9 @@
 # ContextLossFailureDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ContextLossFailureDialog.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ContextLossFailureDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 Failure message displayed when a WebGL context loss is experienced and we can't recover. Offers a button to reload

@@ -1,5 +1,9 @@
 # HBox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/nodes/HBox.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/HBox.ts) for the most up-to-date information.
+
 ## Overview
 
 HBox is a convenience specialization of FlowBox with horizontal orientation.

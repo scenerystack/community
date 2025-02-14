@@ -1,5 +1,9 @@
 # SVGGroup
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/SVGGroup.js](https://github.com/phetsims/scenery/blob/main/js/display/SVGGroup.js) for the most up-to-date information.
+
 ## Overview
 
 Poolable wrapper for SVG &lt;group&gt; elements. We store state and add listeners directly to the corresponding Node,

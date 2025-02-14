@@ -1,5 +1,9 @@
 # WindowTouch
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/WindowTouch.ts](https://github.com/phetsims/scenery/blob/main/js/input/WindowTouch.ts) for the most up-to-date information.
+
 ## Overview
 
 

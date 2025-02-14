@@ -1,5 +1,9 @@
 # HeaterCoolerNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/HeaterCoolerNode.ts) for the most up-to-date information.
+
 ## Overview
 
 This is the graphical representation of a stove that can be used to heat or cool things.  The HeaterCoolerNode is

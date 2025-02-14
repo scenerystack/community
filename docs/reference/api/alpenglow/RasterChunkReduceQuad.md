@@ -1,5 +1,9 @@
 # RasterChunkReduceQuad
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReduceQuad.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReduceQuad.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents an "applied interval" of reduce data, for both the min and max binary clips.

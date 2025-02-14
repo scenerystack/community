@@ -1,5 +1,9 @@
 # WrappedAudioBuffer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/WrappedAudioBuffer.ts](https://github.com/phetsims/tambo/blob/main/js/WrappedAudioBuffer.ts) for the most up-to-date information.
+
 ## Overview
 
 WrappedAudioBuffer is an object that contains a Web Audio AudioBuffer and a TinyProperty that indicates whether the

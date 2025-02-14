@@ -1,5 +1,9 @@
 # ScientificNotationNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ScientificNotationNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ScientificNotationNode.ts) for the most up-to-date information.
+
 ## Overview
 
 ScientificNotationNode displays a number in scientific notation, M x 10^E, where:

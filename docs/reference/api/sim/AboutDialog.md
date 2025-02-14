@@ -1,5 +1,9 @@
 # AboutDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/AboutDialog.ts](https://github.com/phetsims/joist/blob/main/js/AboutDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 AboutDialog displays information about the simulation -- its title, version number, credits, etc.

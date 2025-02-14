@@ -1,5 +1,9 @@
 # LayoutLine
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/LayoutLine.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/LayoutLine.ts) for the most up-to-date information.
+
 ## Overview
 
 An internal representation of a row/column for grid/flow handling in constraints (set up for pooling)

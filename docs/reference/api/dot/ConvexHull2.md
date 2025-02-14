@@ -1,5 +1,9 @@
 # ConvexHull2
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/ConvexHull2.ts](https://github.com/phetsims/dot/blob/main/js/ConvexHull2.ts) for the most up-to-date information.
+
 ## Overview
 
 Construction of 2D convex hulls from a list of points.

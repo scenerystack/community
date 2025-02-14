@@ -1,5 +1,9 @@
 # StickyToggleButtonModel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/StickyToggleButtonModel.ts](https://github.com/phetsims/sun/blob/main/js/buttons/StickyToggleButtonModel.ts) for the most up-to-date information.
+
 ## Overview
 
 Model for a toggle button that sticks when pushed down and pops up when pushed a second time. Unlike other general

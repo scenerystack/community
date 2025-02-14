@@ -1,5 +1,9 @@
 # ScreenIcon
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/ScreenIcon.ts](https://github.com/phetsims/joist/blob/main/js/ScreenIcon.ts) for the most up-to-date information.
+
 ## Overview
 
 ScreenIcon is an icon that is suitable for one of the screen-selection buttons on the home screen or navigation bar.

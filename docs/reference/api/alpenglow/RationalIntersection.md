@@ -1,5 +1,9 @@
 # RationalIntersection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/RationalIntersection.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/RationalIntersection.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a point of an intersection (with rational t and point) along a segment.

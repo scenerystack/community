@@ -1,5 +1,9 @@
 # PreferencesTabs
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesTabs.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesTabs.ts) for the most up-to-date information.
+
 ## Overview
 
 The tabs for the PreferencesDialog. Activating a tab will select a PreferencesTabPanel to be displayed to the user.

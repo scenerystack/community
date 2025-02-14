@@ -1,5 +1,9 @@
 # Pattern
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/Pattern.ts](https://github.com/phetsims/scenery/blob/main/js/util/Pattern.ts) for the most up-to-date information.
+
 ## Overview
 
 A pattern that will deliver a fill or stroke that will repeat an image in both directions (x and y).

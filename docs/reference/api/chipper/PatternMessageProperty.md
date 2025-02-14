@@ -1,5 +1,9 @@
 # PatternMessageProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser/PatternMessageProperty.ts](https://github.com/phetsims/chipper/blob/main/js/browser/PatternMessageProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property whose value is a message from a Fluent bundle with arguments. Each argument can be a Property,

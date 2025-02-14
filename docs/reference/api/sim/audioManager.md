@@ -1,5 +1,9 @@
 # audioManager
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/audioManager.ts](https://github.com/phetsims/joist/blob/main/js/audioManager.ts) for the most up-to-date information.
+
 ## Overview
 
 A manager that controls whether all audio is enabled and whether each auditory feature is enabled. Has flags that

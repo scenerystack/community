@@ -1,5 +1,9 @@
 # ThreeUtils
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/ThreeUtils.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeUtils.ts) for the most up-to-date information.
+
 ## Overview
 
 Base view for all "show a single molecule in the center" screens

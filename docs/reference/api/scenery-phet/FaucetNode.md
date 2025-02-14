@@ -1,5 +1,9 @@
 # FaucetNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/FaucetNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/FaucetNode.ts) for the most up-to-date information.
+
 ## Overview
 
 FaucetNode is a faucet with a pinball machine 'shooter' that behaves like a slider.

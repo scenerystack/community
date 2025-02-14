@@ -1,5 +1,9 @@
 # DebugContext
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/debug/DebugContext.js](https://github.com/phetsims/scenery/blob/main/js/debug/DebugContext.js) for the most up-to-date information.
+
 ## Overview
 
 A debugging version of the CanvasRenderingContext2D that will output all commands issued,

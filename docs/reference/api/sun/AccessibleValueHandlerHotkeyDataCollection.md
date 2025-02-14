@@ -1,5 +1,9 @@
 # AccessibleValueHandlerHotkeyDataCollection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/accessibility/AccessibleValueHandlerHotkeyDataCollection.ts](https://github.com/phetsims/sun/blob/main/js/accessibility/AccessibleValueHandlerHotkeyDataCollection.ts) for the most up-to-date information.
+
 ## Overview
 
 The HotkeyData used for AccessibleValueHandler and its subclasses. This would ideally be inside of

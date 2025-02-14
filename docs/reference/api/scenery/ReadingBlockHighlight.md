@@ -1,5 +1,9 @@
 # ReadingBlockHighlight
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/ReadingBlockHighlight.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/ReadingBlockHighlight.ts) for the most up-to-date information.
+
 ## Overview
 
 A focus highlight for the voicing prototype. Has a unique color to indicate that focus is not around something

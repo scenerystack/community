@@ -1,5 +1,9 @@
 # GroupHighlightFromNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/GroupHighlightFromNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/GroupHighlightFromNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A HighlightPath subtype that is based around a Node, with styling that makes it look like a group focus

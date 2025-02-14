@@ -1,5 +1,9 @@
 # TrailsBetweenProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/TrailsBetweenProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/TrailsBetweenProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property that will synchronously contain all Trails between two nodes (in a root-leaf direction).

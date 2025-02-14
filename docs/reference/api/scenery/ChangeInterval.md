@@ -1,5 +1,9 @@
 # ChangeInterval
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/ChangeInterval.js](https://github.com/phetsims/scenery/blob/main/js/display/ChangeInterval.js) for the most up-to-date information.
+
 ## Overview
 
 An interval (implicit consecutive sequence of drawables) that has a recorded change in-between the two ends.

@@ -1,5 +1,9 @@
 # Vector2Property
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Vector2Property.ts](https://github.com/phetsims/dot/blob/main/js/Vector2Property.ts) for the most up-to-date information.
+
 ## Overview
 
 Property whose value must be a Vector2.

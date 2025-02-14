@@ -1,5 +1,9 @@
 # TextKeyNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/TextKeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/TextKeyNode.ts) for the most up-to-date information.
+
 ## Overview
 
 TextKeyNode is a KeyNode with a text icon. It has layout, spacing, and defaults for KeyNode that are suited for text.

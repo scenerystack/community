@@ -1,5 +1,9 @@
 # PressListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/PressListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/PressListener.ts) for the most up-to-date information.
+
 ## Overview
 
 Listens to presses (down events), attaching a listener to the pointer when one occurs, so that a release (up/cancel

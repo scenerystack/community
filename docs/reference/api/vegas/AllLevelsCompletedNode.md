@@ -1,5 +1,9 @@
 # AllLevelsCompletedNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/AllLevelsCompletedNode.ts](https://github.com/phetsims/vegas/blob/main/js/AllLevelsCompletedNode.ts) for the most up-to-date information.
+
 ## Overview
 
 AllLevelsCompletedNode is a pseudo-dialog shown when all game levels have been completed.

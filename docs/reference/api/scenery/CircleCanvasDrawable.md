@@ -1,5 +1,9 @@
 # CircleCanvasDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/drawables/CircleCanvasDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/drawables/CircleCanvasDrawable.js) for the most up-to-date information.
+
 ## Overview
 
 Canvas drawable for Circle nodes.

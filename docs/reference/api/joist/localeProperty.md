@@ -1,5 +1,9 @@
 # localeProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/i18n/localeProperty.ts](https://github.com/phetsims/joist/blob/main/js/i18n/localeProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A universal locale Property that is accessible independently of the running Sim instance.

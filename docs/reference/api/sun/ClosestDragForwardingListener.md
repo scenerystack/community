@@ -1,5 +1,9 @@
 # ClosestDragForwardingListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/ClosestDragForwardingListener.ts](https://github.com/phetsims/sun/blob/main/js/ClosestDragForwardingListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A Scenery input listener that is able to find the closest in a list of items to a "down" event and trigger an action

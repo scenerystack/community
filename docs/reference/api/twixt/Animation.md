@@ -1,5 +1,9 @@
 # Animation
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/twixt/blob/main/js/Animation.ts](https://github.com/phetsims/twixt/blob/main/js/Animation.ts) for the most up-to-date information.
+
 ## Overview
 
 An easing-based controllable animation.

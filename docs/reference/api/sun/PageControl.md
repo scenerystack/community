@@ -1,5 +1,9 @@
 # PageControl
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/PageControl.ts](https://github.com/phetsims/sun/blob/main/js/PageControl.ts) for the most up-to-date information.
+
 ## Overview
 
 An iOS-style page control. See the 'Navigation' section of the iOS Human Interface Guidelines.

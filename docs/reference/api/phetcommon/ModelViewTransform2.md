@@ -1,5 +1,9 @@
 # ModelViewTransform2
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phetcommon/blob/main/js/view/ModelViewTransform2.ts](https://github.com/phetsims/phetcommon/blob/main/js/view/ModelViewTransform2.ts) for the most up-to-date information.
+
 ## Overview
 
 Transform between model and view coordinate frames, and provides convenience methods beyond phet.dot.Transform3

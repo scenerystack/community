@@ -1,5 +1,9 @@
 # PDOMDisplaysInfo
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMDisplaysInfo.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMDisplaysInfo.ts) for the most up-to-date information.
+
 ## Overview
 
 Per-node information required to track what PDOM Displays our Node is visible under. A PDOM display is a Display that

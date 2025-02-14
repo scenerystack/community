@@ -1,5 +1,9 @@
 # LinePlot
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/LinePlot.ts](https://github.com/phetsims/bamboo/blob/main/js/LinePlot.ts) for the most up-to-date information.
+
 ## Overview
 
 LinePlot renders a {Array.&lt;Vector2|null&gt;} dataSet by connecting the points with line segments.

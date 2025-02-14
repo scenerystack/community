@@ -1,5 +1,9 @@
 # RasterChunkReduceData
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReduceData.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/RasterChunkReduceData.ts) for the most up-to-date information.
+
 ## Overview
 
 (Partial) data for a single clipped chunk, which is reduced and then when complete (isFirstEdge &amp;&amp; isLastEdge) is

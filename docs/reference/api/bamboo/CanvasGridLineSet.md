@@ -1,5 +1,9 @@
 # CanvasGridLineSet
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/CanvasGridLineSet.ts](https://github.com/phetsims/bamboo/blob/main/js/CanvasGridLineSet.ts) for the most up-to-date information.
+
 ## Overview
 
 Copy/paste of GridLineSet that renders to canvas.  Note, these 2 files should be maintained together,

@@ -1,5 +1,9 @@
 # AmplitudeModulator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/AmplitudeModulator.ts](https://github.com/phetsims/tambo/blob/main/js/AmplitudeModulator.ts) for the most up-to-date information.
+
 ## Overview
 
 AmplitudeModulator instances can be used to create low-frequency amplitude oscillation effects on a loop, oscillator,

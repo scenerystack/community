@@ -1,5 +1,9 @@
 # PhetButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/PhetButton.ts](https://github.com/phetsims/joist/blob/main/js/PhetButton.ts) for the most up-to-date information.
+
 ## Overview
 
 The button that pops up the PhET menu, which appears in the bottom right of the home screen and on the right side

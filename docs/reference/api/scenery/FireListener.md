@@ -1,5 +1,9 @@
 # FireListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/FireListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/FireListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A listener for common button usage, providing the fire() method/callback and helpful properties. NOTE that it doesn't

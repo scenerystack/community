@@ -1,5 +1,9 @@
 # Drawer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/Drawer.ts](https://github.com/phetsims/scenery-phet/blob/main/js/Drawer.ts) for the most up-to-date information.
+
 ## Overview
 
 A drawer that opens/closes to show/hide its contents.

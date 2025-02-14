@@ -1,5 +1,9 @@
 # RichTextElement
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextElement.ts](https://github.com/phetsims/scenery/blob/main/js/util/rich-text/RichTextElement.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents an element in the RichText hierarchy that has child content (renders nothing on its own, but has its own

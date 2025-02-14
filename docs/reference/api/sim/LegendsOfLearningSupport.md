@@ -1,5 +1,9 @@
 # LegendsOfLearningSupport
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/thirdPartySupport/LegendsOfLearningSupport.ts](https://github.com/phetsims/joist/blob/main/js/thirdPartySupport/LegendsOfLearningSupport.ts) for the most up-to-date information.
+
 ## Overview
 
 Support for Legends of Learning platform. Sends init message after sim is constructed and supports pause/resume.

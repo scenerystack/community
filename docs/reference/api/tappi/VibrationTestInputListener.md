@@ -1,5 +1,9 @@
 # VibrationTestInputListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestInputListener.js](https://github.com/phetsims/tappi/blob/main/js/tracking/VibrationTestInputListener.js) for the most up-to-date information.
+
 ## Overview
 
 @author Jesse Greenberg

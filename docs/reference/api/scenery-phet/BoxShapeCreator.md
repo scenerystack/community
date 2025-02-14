@@ -1,5 +1,9 @@
 # BoxShapeCreator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/BoxShapeCreator.js](https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/BoxShapeCreator.js) for the most up-to-date information.
+
 ## Overview
 
 Creates 2D projections of shapes that are related to the 3D boxes.

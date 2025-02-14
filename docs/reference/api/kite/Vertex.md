@@ -1,5 +1,9 @@
 # Vertex
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/Vertex.ts](https://github.com/phetsims/kite/blob/main/js/ops/Vertex.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a point in space that connects to edges. It stores the edges that are connected (directionally as

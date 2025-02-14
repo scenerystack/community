@@ -1,5 +1,9 @@
 # multiSelectionSoundPlayerFactory
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/multiSelectionSoundPlayerFactory.ts](https://github.com/phetsims/tambo/blob/main/js/multiSelectionSoundPlayerFactory.ts) for the most up-to-date information.
+
 ## Overview
 
 The multiSelectionSoundPlayerFactory singleton is used to create a set of sound players that are similar to one

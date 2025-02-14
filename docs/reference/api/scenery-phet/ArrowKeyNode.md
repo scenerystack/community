@@ -1,5 +1,9 @@
 # ArrowKeyNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/ArrowKeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/ArrowKeyNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Node that looks like an arrow key on the keyboard.  Default is a rounded triangle centered in a square key.

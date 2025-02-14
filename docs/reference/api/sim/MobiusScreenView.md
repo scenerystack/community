@@ -1,5 +1,9 @@
 # MobiusScreenView
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/MobiusScreenView.ts](https://github.com/phetsims/mobius/blob/main/js/MobiusScreenView.ts) for the most up-to-date information.
+
 ## Overview
 
 MobiusScreenView extends PhET's ScreenView to include functionality specific to 3D model-to-view and view-to-model

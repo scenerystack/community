@@ -1,5 +1,9 @@
 # ShaderTestUtils
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/tests/ShaderTestUtils.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/tests/ShaderTestUtils.ts) for the most up-to-date information.
+
 ## Overview
 
 Utilities for testing shaders

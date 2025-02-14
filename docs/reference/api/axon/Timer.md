@@ -1,5 +1,9 @@
 # Timer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/Timer.ts](https://github.com/phetsims/axon/blob/main/js/Timer.ts) for the most up-to-date information.
+
 ## Overview
 
 Timer so that other modules can run timing related code through the simulation's requestAnimationFrame. Use its

@@ -1,5 +1,9 @@
 # UtteranceQueue
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/utterance-queue/blob/main/js/UtteranceQueue.ts](https://github.com/phetsims/utterance-queue/blob/main/js/UtteranceQueue.ts) for the most up-to-date information.
+
 ## Overview
 
 Manages a queue of Utterances that are read in order by assistive technology (AT). This queue typically reads

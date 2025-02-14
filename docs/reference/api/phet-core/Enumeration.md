@@ -1,5 +1,9 @@
 # Enumeration
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/Enumeration.ts](https://github.com/phetsims/phet-core/blob/main/js/Enumeration.ts) for the most up-to-date information.
+
 ## Overview
 
 This implementation auto-detects the enumeration values by Object.keys and instanceof. Every property that has a

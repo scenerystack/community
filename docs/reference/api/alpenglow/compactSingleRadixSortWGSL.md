@@ -1,5 +1,9 @@
 # compactSingleRadixSortWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/compactSingleRadixSortWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/compactSingleRadixSortWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Performs a full radix-sort of an array in workgroup memory (which can be of length workgroupSize * grainSize),

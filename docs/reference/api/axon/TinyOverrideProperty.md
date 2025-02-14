@@ -1,5 +1,9 @@
 # TinyOverrideProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/TinyOverrideProperty.ts](https://github.com/phetsims/axon/blob/main/js/TinyOverrideProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A TinyProperty that will take the value of a target Property until it is set to a value. When that happens, it will

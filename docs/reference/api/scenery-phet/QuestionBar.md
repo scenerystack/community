@@ -1,5 +1,9 @@
 # QuestionBar
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/QuestionBar.ts](https://github.com/phetsims/scenery-phet/blob/main/js/QuestionBar.ts) for the most up-to-date information.
+
 ## Overview
 
 In every screen, the question bar at the top provides a framing question and context.

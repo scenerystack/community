@@ -1,5 +1,9 @@
 # SoundClip
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClip.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClip.ts) for the most up-to-date information.
+
 ## Overview
 
 A sound generator that plays pre-recorded sounds, either as a one-shot or as a loop.

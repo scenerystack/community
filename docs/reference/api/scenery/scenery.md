@@ -1,5 +1,9 @@
 # scenery
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/scenery.js](https://github.com/phetsims/scenery/blob/main/js/scenery.js) for the most up-to-date information.
+
 ## Overview
 
 The main 'scenery' namespace object for the exported (built) API. Used internally in some places where there are

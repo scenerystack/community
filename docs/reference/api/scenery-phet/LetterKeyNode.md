@@ -1,5 +1,9 @@
 # LetterKeyNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/LetterKeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/LetterKeyNode.ts) for the most up-to-date information.
+
 ## Overview
 
 LetterKeyNode is a TextKeyNode with layout and spacing defaults that look best for a single letter. A letter key is

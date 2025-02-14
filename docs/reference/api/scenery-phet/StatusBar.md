@@ -1,5 +1,9 @@
 # StatusBar
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/StatusBar.ts](https://github.com/phetsims/scenery-phet/blob/main/js/StatusBar.ts) for the most up-to-date information.
+
 ## Overview
 
 StatusBar is the base class for the status bar that appears at the top of games. It sizes itself to match the bounds

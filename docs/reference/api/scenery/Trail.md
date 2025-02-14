@@ -1,5 +1,9 @@
 # Trail
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/Trail.ts](https://github.com/phetsims/scenery/blob/main/js/util/Trail.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a trail (path in the graph) from a 'root' node down to a descendant node.

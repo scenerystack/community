@@ -1,5 +1,9 @@
 # Utterance
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/utterance-queue/blob/main/js/Utterance.ts](https://github.com/phetsims/utterance-queue/blob/main/js/Utterance.ts) for the most up-to-date information.
+
 ## Overview
 
 An utterance to be handed off to the AlertQueue, which manages the order of accessibility alerts

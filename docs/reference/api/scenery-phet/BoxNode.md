@@ -1,5 +1,9 @@
 # BoxNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/BoxNode.js](https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/BoxNode.js) for the most up-to-date information.
+
 ## Overview
 
 Pseudo-3D representation of a box, using parallelograms.  Only the three visible faces are shown: top, front,

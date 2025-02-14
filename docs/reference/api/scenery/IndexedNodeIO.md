@@ -1,5 +1,9 @@
 # IndexedNodeIO
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/IndexedNodeIO.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/IndexedNodeIO.ts) for the most up-to-date information.
+
 ## Overview
 
 IOType for Nodes that can save their own index (if phetioState: true).  Can be used to customize z-order

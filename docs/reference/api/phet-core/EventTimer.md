@@ -1,5 +1,9 @@
 # EventTimer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/EventTimer.ts](https://github.com/phetsims/phet-core/blob/main/js/EventTimer.ts) for the most up-to-date information.
+
 ## Overview
 
 Abstraction for timed-event series that helps with variable frame-rates. Useful for things that need to happen at a

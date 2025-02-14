@@ -1,5 +1,9 @@
 # DefaultSliderTrack
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/DefaultSliderTrack.ts](https://github.com/phetsims/sun/blob/main/js/DefaultSliderTrack.ts) for the most up-to-date information.
+
 ## Overview
 
 DefaultSliderTrack is composed of two rectangles, one for the enabled section of the track and one for the disabled

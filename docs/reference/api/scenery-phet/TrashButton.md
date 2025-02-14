@@ -1,5 +1,9 @@
 # TrashButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/buttons/TrashButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/TrashButton.ts) for the most up-to-date information.
+
 ## Overview
 
 TrashButton is a rectangular push button with PhET's standard 'trash' icon.

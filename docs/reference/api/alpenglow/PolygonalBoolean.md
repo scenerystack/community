@@ -1,5 +1,9 @@
 # PolygonalBoolean
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/PolygonalBoolean.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/PolygonalBoolean.ts) for the most up-to-date information.
+
 ## Overview
 
 Allows computing boolean operations on polygons (e.g. union, intersection, difference/complement)

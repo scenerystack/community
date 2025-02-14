@@ -1,5 +1,9 @@
 # UnitConversionProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/UnitConversionProperty.ts](https://github.com/phetsims/axon/blob/main/js/UnitConversionProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A MappedProperty specialized for unit conversion. Just provide multiplicative factor to convert between the units,

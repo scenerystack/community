@@ -1,5 +1,9 @@
 # Quad
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/Quad.ts](https://github.com/phetsims/mobius/blob/main/js/Quad.ts) for the most up-to-date information.
+
 ## Overview
 
 Creates a position/normal/uv mapped quad based on vertices in a high-performance way.

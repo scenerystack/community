@@ -1,5 +1,9 @@
 # MatrixBetweenProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/MatrixBetweenProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/MatrixBetweenProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property that, if there is a unique path from one Node to another (A =&gt; root =&gt; B, or A =&gt; B, or B =&gt; A), will

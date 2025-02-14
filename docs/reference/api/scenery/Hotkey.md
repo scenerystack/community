@@ -1,5 +1,9 @@
 # Hotkey
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/Hotkey.ts](https://github.com/phetsims/scenery/blob/main/js/input/Hotkey.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a single hotkey (keyboard shortcut) that can be either:

@@ -1,5 +1,9 @@
 # HighlightFromNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightFromNode.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/HighlightFromNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A HighlightPath subtype that is based around a Node. The focusHighlight is constructed based on the bounds of

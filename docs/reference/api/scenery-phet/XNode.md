@@ -1,5 +1,9 @@
 # XNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/XNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/XNode.ts) for the most up-to-date information.
+
 ## Overview
 
 XNode is a specialized view for displaying a 'x'. It is used throughout the sim to indicate the center of mass

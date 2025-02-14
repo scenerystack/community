@@ -1,5 +1,9 @@
 # RewardDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/RewardDialog.ts](https://github.com/phetsims/vegas/blob/main/js/RewardDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 A dialog that the client displays when the user gets a specific number of stars.

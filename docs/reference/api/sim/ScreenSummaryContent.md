@@ -1,5 +1,9 @@
 # ScreenSummaryContent
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/ScreenSummaryContent.ts](https://github.com/phetsims/joist/blob/main/js/ScreenSummaryContent.ts) for the most up-to-date information.
+
 ## Overview
 
 Content for the accessible screen summary and Voicing Toolbar for a ScreenView.

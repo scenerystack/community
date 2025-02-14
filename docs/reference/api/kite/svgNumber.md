@@ -1,5 +1,9 @@
 # svgNumber
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/util/svgNumber.ts](https://github.com/phetsims/kite/blob/main/js/util/svgNumber.ts) for the most up-to-date information.
+
 ## Overview
 
 Since SVG doesn't support parsing scientific notation (e.g. 7e5), we need to output fixed decimal-point strings.

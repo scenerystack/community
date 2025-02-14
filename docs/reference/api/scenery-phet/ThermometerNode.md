@@ -1,5 +1,9 @@
 # ThermometerNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ThermometerNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ThermometerNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Thermometer node, see https://github.com/phetsims/scenery-phet/issues/43

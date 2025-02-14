@@ -1,5 +1,9 @@
 # NumberAccumulator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keypad/NumberAccumulator.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/NumberAccumulator.ts) for the most up-to-date information.
+
 ## Overview
 
 A key accumulator that collects user input for integer and floating point values, intended for use in conjunction

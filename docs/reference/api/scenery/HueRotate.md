@@ -1,5 +1,9 @@
 # HueRotate
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/filters/HueRotate.ts](https://github.com/phetsims/scenery/blob/main/js/filters/HueRotate.ts) for the most up-to-date information.
+
 ## Overview
 
 HueRotate filter

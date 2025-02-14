@@ -1,5 +1,9 @@
 # PolygonBilinear
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/raster/PolygonBilinear.ts](https://github.com/phetsims/alpenglow/blob/main/js/raster/PolygonBilinear.ts) for the most up-to-date information.
+
 ## Overview
 
 Utilities for the bilinear/tent filter for polygons

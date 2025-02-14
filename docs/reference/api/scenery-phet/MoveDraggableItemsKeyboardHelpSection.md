@@ -1,5 +1,9 @@
 # MoveDraggableItemsKeyboardHelpSection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/MoveDraggableItemsKeyboardHelpSection.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/MoveDraggableItemsKeyboardHelpSection.ts) for the most up-to-date information.
+
 ## Overview
 
 MoveDraggableItemsKeyboardHelpSection is the keyboard-help section that describes how to move items in 2D.

@@ -1,5 +1,9 @@
 # RenderColorSpace
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderColorSpace.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderColorSpace.ts) for the most up-to-date information.
+
 ## Overview
 
 Enumeration of color spaces we'll want to convert from/to

@@ -1,5 +1,9 @@
 # Reader
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/reader/Reader.js](https://github.com/phetsims/scenery/blob/main/js/accessibility/reader/Reader.js) for the most up-to-date information.
+
 ## Overview
 
 A reader of text content for accessibility.  This takes a Cursor reads its output.  This prototype

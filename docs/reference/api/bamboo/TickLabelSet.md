@@ -1,5 +1,9 @@
 # TickLabelSet
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/TickLabelSet.ts](https://github.com/phetsims/bamboo/blob/main/js/TickLabelSet.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows a set of tick labels within or next to a chart.

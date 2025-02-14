@@ -1,5 +1,9 @@
 # HeatCoolControlsKeyboardHelpSection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/HeatCoolControlsKeyboardHelpSection.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/HeatCoolControlsKeyboardHelpSection.ts) for the most up-to-date information.
+
 ## Overview
 
 The keyboard help section that describes how to interact with a HeaterCoolerNode.

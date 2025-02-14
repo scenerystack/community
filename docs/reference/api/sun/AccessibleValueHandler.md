@@ -1,5 +1,9 @@
 # AccessibleValueHandler
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/accessibility/AccessibleValueHandler.ts](https://github.com/phetsims/sun/blob/main/js/accessibility/AccessibleValueHandler.ts) for the most up-to-date information.
+
 ## Overview
 
 A trait for subtypes of Node. Meant for Nodes with a value that "run" on a NumberProperty and handles formatting,

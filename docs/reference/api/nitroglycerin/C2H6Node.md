@@ -1,5 +1,9 @@
 # C2H6Node
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/C2H6Node.ts](https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/C2H6Node.ts) for the most up-to-date information.
+
 ## Overview
 
 C2H6 Molecule

@@ -1,5 +1,9 @@
 # SceneImage
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/SceneImage.js](https://github.com/phetsims/scenery/blob/main/js/util/SceneImage.js) for the most up-to-date information.
+
 ## Overview
 
 An HTMLImageElement that is backed by a scene. Call update() on this SceneImage to update the image from the scene.

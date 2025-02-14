@@ -1,5 +1,9 @@
 # SpectrumNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/SpectrumNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SpectrumNode.ts) for the most up-to-date information.
+
 ## Overview
 
 SpectrumNode displays a color spectrum for a range of values. By default, it maps values in the range [0,1] to

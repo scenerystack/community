@@ -1,5 +1,9 @@
 # EventIO
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/EventIO.js](https://github.com/phetsims/scenery/blob/main/js/input/EventIO.js) for the most up-to-date information.
+
 ## Overview
 
 IOType for a self.Event. Since this needs to support any data from any subtype of self.Event, we supply NullableIO

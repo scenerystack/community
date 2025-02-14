@@ -1,5 +1,9 @@
 # Profiler
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/Profiler.ts](https://github.com/phetsims/joist/blob/main/js/Profiler.ts) for the most up-to-date information.
+
 ## Overview
 
 This minimalistic profiler is meant to help understand the time spent in running a PhET simulation.

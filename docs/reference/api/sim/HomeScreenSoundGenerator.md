@@ -1,5 +1,9 @@
 # HomeScreenSoundGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/HomeScreenSoundGenerator.ts](https://github.com/phetsims/joist/blob/main/js/HomeScreenSoundGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 HomeScreenSoundGenerator is responsible for generating sounds that are associated with the home screen, such as the

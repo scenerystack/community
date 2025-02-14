@@ -1,5 +1,9 @@
 # updateCheck
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/updateCheck.ts](https://github.com/phetsims/joist/blob/main/js/updateCheck.ts) for the most up-to-date information.
+
 ## Overview
 
 A singleton type/object for handling checking whether our simulation is up-to-date, or whether there is an

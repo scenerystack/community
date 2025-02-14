@@ -1,5 +1,9 @@
 # DisplayedTrailsProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/DisplayedTrailsProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/DisplayedTrailsProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property that will contain a list of Trails where the root of the trail is a root Node of a Display, and the leaf

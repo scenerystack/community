@@ -1,5 +1,9 @@
 # Toolbar
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/toolbar/Toolbar.ts](https://github.com/phetsims/joist/blob/main/js/toolbar/Toolbar.ts) for the most up-to-date information.
+
 ## Overview
 
 The Toolbar along the left edge of the screen with controls related to the sim or active screen. Currently, it

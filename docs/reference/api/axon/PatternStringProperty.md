@@ -1,5 +1,9 @@
 # PatternStringProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/PatternStringProperty.ts](https://github.com/phetsims/axon/blob/main/js/PatternStringProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A DerivedProperty that applies a string pattern (like StringUtils.fillIn). It has options for mapping values,

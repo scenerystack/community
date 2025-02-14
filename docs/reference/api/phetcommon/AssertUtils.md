@@ -1,5 +1,9 @@
 # AssertUtils
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phetcommon/blob/main/js/AssertUtils.js](https://github.com/phetsims/phetcommon/blob/main/js/AssertUtils.js) for the most up-to-date information.
+
 ## Overview
 
 AssertUtils is a collection of utility functions for common assertions. Many of these assertions are related to

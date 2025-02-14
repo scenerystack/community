@@ -1,5 +1,9 @@
 # GroupFocusListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/GroupFocusListener.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/GroupFocusListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A listener that helps track focus for groups of Nodes. Properties allow you to observe when focus enters a group or

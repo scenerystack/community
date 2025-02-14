@@ -1,5 +1,9 @@
 # PushButtonInteractionStateProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/PushButtonInteractionStateProperty.ts](https://github.com/phetsims/sun/blob/main/js/buttons/PushButtonInteractionStateProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A DerivedProperty that maps PushButtonModel states to the states needed by the button view.

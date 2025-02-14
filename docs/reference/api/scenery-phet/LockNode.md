@@ -1,5 +1,9 @@
 # LockNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/LockNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/LockNode.ts) for the most up-to-date information.
+
 ## Overview
 
 LockNode shows a padlock that is either open or closed, depending on the state of a boolean Property.

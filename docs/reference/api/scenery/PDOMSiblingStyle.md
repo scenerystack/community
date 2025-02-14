@@ -1,5 +1,9 @@
 # PDOMSiblingStyle
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMSiblingStyle.js](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMSiblingStyle.js) for the most up-to-date information.
+
 ## Overview
 
 Static CSS style for elements of the PDOM (siblings of PDOMPeer). Adds the styling directly to SceneryStyle,

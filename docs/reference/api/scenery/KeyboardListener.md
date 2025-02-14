@@ -1,5 +1,9 @@
 # KeyboardListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/KeyboardListener.ts) for the most up-to-date information.
+
 ## Overview
 
 A listener for general keyboard input. Specify the keys with a `keys` option in a readable format that looks like

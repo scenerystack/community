@@ -1,5 +1,9 @@
 # CompletePiecewiseLinearFunction
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/CompletePiecewiseLinearFunction.ts](https://github.com/phetsims/dot/blob/main/js/CompletePiecewiseLinearFunction.ts) for the most up-to-date information.
+
 ## Overview
 
 Describes a 1d complete (fully defined for any number) function, where values are extrapolated given the final end

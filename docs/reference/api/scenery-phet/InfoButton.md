@@ -1,5 +1,9 @@
 # InfoButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/buttons/InfoButton.ts](https://github.com/phetsims/scenery-phet/blob/main/js/buttons/InfoButton.ts) for the most up-to-date information.
+
 ## Overview
 
 Standard PhET button for 'info', uses the international symbol for 'information'.

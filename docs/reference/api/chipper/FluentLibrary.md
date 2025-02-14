@@ -1,5 +1,9 @@
 # FluentLibrary
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/chipper/blob/main/js/browser-and-node/FluentLibrary.ts](https://github.com/phetsims/chipper/blob/main/js/browser-and-node/FluentLibrary.ts) for the most up-to-date information.
+
 ## Overview
 
 /* eslint-disable phet/default-export-class-should-register-namespace */

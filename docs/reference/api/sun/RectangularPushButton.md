@@ -1,5 +1,9 @@
 # RectangularPushButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/RectangularPushButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularPushButton.ts) for the most up-to-date information.
+
 ## Overview
 
 RectangularPushButton is a rectangular push button, used to initiate some action.

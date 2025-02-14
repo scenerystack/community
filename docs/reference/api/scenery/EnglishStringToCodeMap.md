@@ -1,5 +1,9 @@
 # EnglishStringToCodeMap
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/EnglishStringToCodeMap.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/EnglishStringToCodeMap.ts) for the most up-to-date information.
+
 ## Overview
 
 Maps the english key you want to use to the associated KeyboardEvent.codes for usage in listeners.

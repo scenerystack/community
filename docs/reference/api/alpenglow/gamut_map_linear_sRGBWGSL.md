@@ -1,5 +1,9 @@
 # gamut_map_linear_sRGBWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/color/gamut_map_linear_sRGBWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/color/gamut_map_linear_sRGBWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Maps a linear sRGB color to a color that is within the sRGB gamut, using oklab for measuring perceptual distance.

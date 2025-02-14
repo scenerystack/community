@@ -1,5 +1,9 @@
 # SliderControlsKeyboardHelpSection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/SliderControlsKeyboardHelpSection.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/SliderControlsKeyboardHelpSection.ts) for the most up-to-date information.
+
 ## Overview
 
 Content for a KeyboardHelpDialog that describes how to use sliders.

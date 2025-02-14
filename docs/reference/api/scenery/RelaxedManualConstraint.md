@@ -1,5 +1,9 @@
 # RelaxedManualConstraint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/RelaxedManualConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/RelaxedManualConstraint.ts) for the most up-to-date information.
+
 ## Overview
 
 Like ManualConstraint, but permits layout when not all the nodes are connected (null will be passed through).

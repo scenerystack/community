@@ -1,5 +1,9 @@
 # CanvasPainter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/CanvasPainter.ts](https://github.com/phetsims/bamboo/blob/main/js/CanvasPainter.ts) for the most up-to-date information.
+
 ## Overview
 
 CanvasPainter is the abstract base class for bamboo components that use the Canvas API. Typically this would

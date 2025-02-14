@@ -1,5 +1,9 @@
 # SpriteSheet
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/SpriteSheet.ts](https://github.com/phetsims/scenery/blob/main/js/util/SpriteSheet.ts) for the most up-to-date information.
+
 ## Overview
 
 A single Canvas/texture with multiple different images (sprites) drawn internally. During rendering, this texture

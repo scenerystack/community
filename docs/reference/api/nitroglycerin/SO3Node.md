@@ -1,5 +1,9 @@
 # SO3Node
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/SO3Node.ts](https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/SO3Node.ts) for the most up-to-date information.
+
 ## Overview
 
 SO3 Molecule

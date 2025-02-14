@@ -1,5 +1,9 @@
 # Voicing
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/Voicing.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/Voicing.ts) for the most up-to-date information.
+
 ## Overview
 
 A trait for Node that supports the Voicing feature, under accessibility. Allows you to define responses for the Node

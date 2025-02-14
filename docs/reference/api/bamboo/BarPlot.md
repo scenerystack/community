@@ -1,5 +1,9 @@
 # BarPlot
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/BarPlot.ts](https://github.com/phetsims/bamboo/blob/main/js/BarPlot.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows bars for numerical data (where the x-value of the bar is a number). Does not support categorical data.

@@ -1,5 +1,9 @@
 # BatchedDOMEvent
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/input/BatchedDOMEvent.ts](https://github.com/phetsims/scenery/blob/main/js/input/BatchedDOMEvent.ts) for the most up-to-date information.
+
 ## Overview
 
 Pooled structure to record batched events efficiently. How it calls the callback is based on the type

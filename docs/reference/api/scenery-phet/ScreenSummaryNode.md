@@ -1,5 +1,9 @@
 # ScreenSummaryNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/nodes/ScreenSummaryNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/nodes/ScreenSummaryNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A node that creates a summary of the screen in the PDOM. This type prevents duplicated code because

@@ -1,5 +1,9 @@
 # HitAreaOverlay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/overlays/HitAreaOverlay.ts](https://github.com/phetsims/scenery/blob/main/js/overlays/HitAreaOverlay.ts) for the most up-to-date information.
+
 ## Overview
 
 Displays the "hittable" mouse/touch regions for items with input listeners.

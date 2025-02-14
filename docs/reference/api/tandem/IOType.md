@@ -1,5 +1,9 @@
 # IOType
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/types/IOType.ts](https://github.com/phetsims/tandem/blob/main/js/types/IOType.ts) for the most up-to-date information.
+
 ## Overview
 
 IOTypes form a synthetic type system used to describe PhET-iO Elements. A PhET-iO Element is an instrumented PhetioObject

@@ -1,5 +1,9 @@
 # GameAudioPlayer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/GameAudioPlayer.ts](https://github.com/phetsims/vegas/blob/main/js/GameAudioPlayer.ts) for the most up-to-date information.
+
 ## Overview
 
 audio player for the various sounds that are commonly used in PhET games

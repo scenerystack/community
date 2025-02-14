@@ -1,5 +1,9 @@
 # GridLine
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridLine.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridLine.ts) for the most up-to-date information.
+
 ## Overview
 
 A poolable internal representation of a row/column for grid handling in GridConstraint

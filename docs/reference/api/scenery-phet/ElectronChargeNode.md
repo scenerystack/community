@@ -1,5 +1,9 @@
 # ElectronChargeNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/ElectronChargeNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/ElectronChargeNode.ts) for the most up-to-date information.
+
 ## Overview
 
 ElectronChargeNode renders a shaded 2d electron with a "-" sign in the middle.

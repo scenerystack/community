@@ -1,5 +1,9 @@
 # LocalizedImageProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/i18n/LocalizedImageProperty.ts](https://github.com/phetsims/joist/blob/main/js/i18n/LocalizedImageProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property whose value will change with the "region and culture", and will take a value that can be used with Images.

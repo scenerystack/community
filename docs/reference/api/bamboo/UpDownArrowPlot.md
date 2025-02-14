@@ -1,5 +1,9 @@
 # UpDownArrowPlot
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/UpDownArrowPlot.ts](https://github.com/phetsims/bamboo/blob/main/js/UpDownArrowPlot.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows a plot with arrows for numerical data (where the x-value of the bar is a number).

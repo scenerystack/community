@@ -1,5 +1,9 @@
 # FiniteStatusBar
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/vegas/blob/main/js/FiniteStatusBar.ts](https://github.com/phetsims/vegas/blob/main/js/FiniteStatusBar.ts) for the most up-to-date information.
+
 ## Overview
 
 FiniteStatusBar is the status bar for games that have a finite number of challenges per level.

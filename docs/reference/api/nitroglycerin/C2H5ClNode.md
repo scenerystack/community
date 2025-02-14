@@ -1,5 +1,9 @@
 # C2H5ClNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/C2H5ClNode.ts](https://github.com/phetsims/nitroglycerin/blob/main/js/nodes/C2H5ClNode.ts) for the most up-to-date information.
+
 ## Overview
 
 C2H5Cl Molecule

@@ -1,5 +1,9 @@
 # BoundsIntersection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/BoundsIntersection.ts](https://github.com/phetsims/kite/blob/main/js/ops/BoundsIntersection.ts) for the most up-to-date information.
+
 ## Overview
 
 A region of two segments that intersects (contains static functions for segment intersection).

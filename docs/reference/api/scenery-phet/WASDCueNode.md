@@ -1,5 +1,9 @@
 # WASDCueNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/nodes/WASDCueNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/nodes/WASDCueNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A node that provides an interaction cue for dragging (originally for the balloon in Balloons and Static Electricity).

@@ -1,5 +1,9 @@
 # PDOMUniqueIdStrategy
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMUniqueIdStrategy.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMUniqueIdStrategy.ts) for the most up-to-date information.
+
 ## Overview
 
 PDOMInstances support two different styles of unique IDs, each with their

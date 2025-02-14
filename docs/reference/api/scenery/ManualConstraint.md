@@ -1,5 +1,9 @@
 # ManualConstraint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/ManualConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/ManualConstraint.ts) for the most up-to-date information.
+
 ## Overview
 
 ManualConstraint exists for cases where imperative-based positioning code (e.g. `node.left = otherNode.right + 5`)

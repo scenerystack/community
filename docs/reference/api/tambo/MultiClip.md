@@ -1,5 +1,9 @@
 # MultiClip
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/MultiClip.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/MultiClip.ts) for the most up-to-date information.
+
 ## Overview
 
 MultiClip is a sound generator that plays one-shot sounds from a set of pre-recorded files that are provided upon

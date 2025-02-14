@@ -1,5 +1,9 @@
 # OverviewPreferencesPanel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/OverviewPreferencesPanel.ts](https://github.com/phetsims/joist/blob/main/js/preferences/OverviewPreferencesPanel.ts) for the most up-to-date information.
+
 ## Overview
 
 The content for the "Overview" panel of the Preferences dialog. It includes an introduction blurb

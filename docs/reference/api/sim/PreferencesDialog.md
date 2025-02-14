@@ -1,5 +1,9 @@
 # PreferencesDialog
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesDialog.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesDialog.ts) for the most up-to-date information.
+
 ## Overview
 
 Dialog with preferences to enable or disable various features for the simulation. Groups of preferences are

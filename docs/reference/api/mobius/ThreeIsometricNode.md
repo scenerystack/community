@@ -1,5 +1,9 @@
 # ThreeIsometricNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/mobius/blob/main/js/ThreeIsometricNode.ts](https://github.com/phetsims/mobius/blob/main/js/ThreeIsometricNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows three.js content with isometric scaling that takes up the entire viewport in a high-performance way.

@@ -1,5 +1,9 @@
 # RenderPathBoolean
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPathBoolean.ts](https://github.com/phetsims/alpenglow/blob/main/js/render-program/RenderPathBoolean.ts) for the most up-to-date information.
+
 ## Overview
 
 RenderPathBoolean will display one RenderProgram "inside" the path, and another RenderProgram "outside" the path.

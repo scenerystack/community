@@ -1,5 +1,9 @@
 # GrabDragInteraction
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragInteraction.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragInteraction.ts) for the most up-to-date information.
+
 ## Overview
 
 The main interaction for grabbing and dragging an object through the PDOM and assistive technology. It works by

@@ -1,5 +1,9 @@
 # optionize
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/optionize.ts](https://github.com/phetsims/phet-core/blob/main/js/optionize.ts) for the most up-to-date information.
+
 ## Overview
 
 Optionize is a TypeScript layer built on PHET_CORE/merge. Its goal is to satisfy type safety within PhET's "options"

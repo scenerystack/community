@@ -1,5 +1,9 @@
 # RichText
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/RichText.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/RichText.ts) for the most up-to-date information.
+
 ## Overview
 
 Displays rich text by interpreting the input text as HTML, supporting a limited set of tags that prevent any

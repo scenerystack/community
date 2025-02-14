@@ -1,5 +1,9 @@
 # scanComprehensiveWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/scanComprehensiveWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/scanComprehensiveWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 All of the needed logic for a raked workgroup scan (including the logic to load and store the data).

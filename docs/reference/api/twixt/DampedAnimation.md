@@ -1,5 +1,9 @@
 # DampedAnimation
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/twixt/blob/main/js/DampedAnimation.ts](https://github.com/phetsims/twixt/blob/main/js/DampedAnimation.ts) for the most up-to-date information.
+
 ## Overview
 
 WARNING: PROTOTYPE, see https://github.com/phetsims/twixt/issues/3 before using!

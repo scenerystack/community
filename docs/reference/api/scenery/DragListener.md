@@ -1,5 +1,9 @@
 # DragListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/listeners/DragListener.ts](https://github.com/phetsims/scenery/blob/main/js/listeners/DragListener.ts) for the most up-to-date information.
+
 ## Overview
 
 PressListener subtype customized for handling most drag-related listener needs.

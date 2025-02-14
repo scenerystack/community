@@ -1,5 +1,9 @@
 # BoundsClipping
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/clip/BoundsClipping.ts](https://github.com/phetsims/alpenglow/blob/main/js/clip/BoundsClipping.ts) for the most up-to-date information.
+
 ## Overview
 
 Clipping arbitrary (degenerate, non-convex, self-intersecting, etc.) polygons to within an axis-aligned bounding box

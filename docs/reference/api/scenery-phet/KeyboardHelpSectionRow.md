@@ -1,5 +1,9 @@
 # KeyboardHelpSectionRow
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/KeyboardHelpSectionRow.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/KeyboardHelpSectionRow.ts) for the most up-to-date information.
+
 ## Overview
 
 A row of KeyboardHelpSection, containing the label, icon, and text. Many of the static functions of

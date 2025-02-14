@@ -1,5 +1,9 @@
 # ProjectorModeToggleSwitch
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/ProjectorModeToggleSwitch.ts](https://github.com/phetsims/joist/blob/main/js/preferences/ProjectorModeToggleSwitch.ts) for the most up-to-date information.
+
 ## Overview
 
 A toggle switch for "Projector Mode". Changes the color scheme for better contrast on projectors. The sim must have

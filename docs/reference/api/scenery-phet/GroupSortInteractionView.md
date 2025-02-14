@@ -1,5 +1,9 @@
 # GroupSortInteractionView
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/group-sort/view/GroupSortInteractionView.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/group-sort/view/GroupSortInteractionView.ts) for the most up-to-date information.
+
 ## Overview
 
 This doc assumes you have read the doc in GroupSelectModel. Read that first as it explains the "group select

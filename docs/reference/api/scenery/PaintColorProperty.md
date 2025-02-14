@@ -1,5 +1,9 @@
 # PaintColorProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/PaintColorProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/PaintColorProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A Property that will always hold a `Color` object representing the current value of a given paint (and can be set to

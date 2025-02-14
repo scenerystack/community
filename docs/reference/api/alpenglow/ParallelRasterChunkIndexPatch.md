@@ -1,5 +1,9 @@
 # ParallelRasterChunkIndexPatch
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterChunkIndexPatch.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterChunkIndexPatch.ts) for the most up-to-date information.
+
 ## Overview
 
 Updates the reducible/complete chunks with proper destination edge indices (so the chunk references the range of

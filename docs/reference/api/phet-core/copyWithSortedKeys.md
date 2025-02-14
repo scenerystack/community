@@ -1,5 +1,9 @@
 # copyWithSortedKeys
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/copyWithSortedKeys.ts](https://github.com/phetsims/phet-core/blob/main/js/copyWithSortedKeys.ts) for the most up-to-date information.
+
 ## Overview
 
 Preload file that sorts the keys in an object intended for JSON, using the strategy defined in

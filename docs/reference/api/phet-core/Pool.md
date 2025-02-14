@@ -1,5 +1,9 @@
 # Pool
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/Pool.ts](https://github.com/phetsims/phet-core/blob/main/js/Pool.ts) for the most up-to-date information.
+
 ## Overview
 
 PROTOTYPE version for better support
@@ -60,7 +64,7 @@ import type { PoolOptions } from 'scenerystack/phet-core';
 - **defaultArguments**?: ConstructorParameters&lt;T&gt;
 <br>  If an object needs to be created without a direct call (say, to fill the pool initially), these are the arguments
   that will be passed into the constructor
-- **initialize**?: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt;
+- **initialize**?: PoolableInitializer&lt;T&gt;
 <br>  The function to call on the objects to reinitialize them (that is either the constructor, or acts like the
   constructor). NOTE: This should return the object itself!
 - **maxSize**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
@@ -71,9 +75,9 @@ import type { PoolOptions } from 'scenerystack/phet-core';
 - **useDefaultConstruction**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If true, when constructing the default arguments will always be used (and then initialized with the initializer)
   instead of just providing the arguments straight to the constructor.
-- &amp; ( InstanceType&lt;T&gt; extends { initialize: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
+- &amp; ( InstanceType&lt;T&gt; extends { initialize: PoolableInitializer&lt;T&gt; } ? <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span> : {
   // Require initialize if our type doesn't have a compatible initialize method.
-  initialize: [PoolableInitializer](../phet-core/Poolable.md#PoolableInitializer)&lt;T&gt;;
+  initialize: PoolableInitializer&lt;T&gt;;
 } )
 
 

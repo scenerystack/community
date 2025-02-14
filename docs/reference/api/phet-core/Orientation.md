@@ -1,5 +1,9 @@
 # Orientation
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/Orientation.ts](https://github.com/phetsims/phet-core/blob/main/js/Orientation.ts) for the most up-to-date information.
+
 ## Overview
 
 Either horizontal or vertical, with helper values.  Moved from Area Model Common on Nov 7, 2019

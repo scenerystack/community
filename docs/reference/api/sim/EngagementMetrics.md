@@ -1,5 +1,9 @@
 # EngagementMetrics
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/EngagementMetrics.ts](https://github.com/phetsims/joist/blob/main/js/EngagementMetrics.ts) for the most up-to-date information.
+
 ## Overview
 
 Monitors the engagement as it relates to time spent on each screen of a sim. Mainly this is to provide this information

@@ -1,5 +1,9 @@
 # StringUnionProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/StringUnionProperty.ts](https://github.com/phetsims/axon/blob/main/js/StringUnionProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 In TypeScript, it is common to use a string literal union as an enumeration.  This type automatically specifies

@@ -1,5 +1,9 @@
 # DiscreteSoundGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/DiscreteSoundGenerator.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/DiscreteSoundGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 DiscreteSoundGenerator produces sounds based on the value of a number property.  It monitors the property value and

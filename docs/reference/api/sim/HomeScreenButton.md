@@ -1,5 +1,9 @@
 # HomeScreenButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/HomeScreenButton.ts](https://github.com/phetsims/joist/blob/main/js/HomeScreenButton.ts) for the most up-to-date information.
+
 ## Overview
 
 A HomeScreenButton is displayed on the HomeScreen for choosing a screen. The button can be in a selected or

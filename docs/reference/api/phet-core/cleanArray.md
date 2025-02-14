@@ -1,5 +1,9 @@
 # cleanArray
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/cleanArray.ts](https://github.com/phetsims/phet-core/blob/main/js/cleanArray.ts) for the most up-to-date information.
+
 ## Overview
 
 If given an Array, removes all of its elements and returns it. Otherwise, if given a falsy value

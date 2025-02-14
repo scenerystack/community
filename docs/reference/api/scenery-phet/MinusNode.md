@@ -1,5 +1,9 @@
 # MinusNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/MinusNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/MinusNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Minus sign, created using phet.scenery.Rectangle because scenery.Text("-") looks awful on Windows and cannot be accurately

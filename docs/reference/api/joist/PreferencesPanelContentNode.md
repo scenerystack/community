@@ -1,5 +1,9 @@
 # PreferencesPanelContentNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesPanelContentNode.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesPanelContentNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Parent class for layout and styling of content nodes that can be passed through to

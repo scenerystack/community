@@ -1,5 +1,9 @@
 # getLinks
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/brand/blob/main/js/getLinks.ts](https://github.com/phetsims/brand/blob/main/js/getLinks.ts) for the most up-to-date information.
+
 ## Overview
 
 Links for the AboutDialog, used in phet brand and phet-io brand since they are the same for both.

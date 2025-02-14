@@ -1,5 +1,9 @@
 # PDOMPeer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMPeer.js](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMPeer.js) for the most up-to-date information.
+
 ## Overview
 
 An accessible peer controls the appearance of an accessible Node's instance in the parallel DOM. A PDOMPeer can

@@ -1,5 +1,9 @@
 # VSeparator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VSeparator.ts](https://github.com/phetsims/scenery/blob/main/js/layout/nodes/VSeparator.ts) for the most up-to-date information.
+
 ## Overview
 
 A vertical line for separating items in a horizontal layout container.

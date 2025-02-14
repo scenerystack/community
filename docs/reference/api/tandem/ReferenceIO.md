@@ -1,5 +1,9 @@
 # ReferenceIO
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/types/ReferenceIO.ts](https://github.com/phetsims/tandem/blob/main/js/types/ReferenceIO.ts) for the most up-to-date information.
+
 ## Overview
 
 ReferenceIO uses reference identity for toStateObject/fromStateObject

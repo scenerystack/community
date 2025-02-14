@@ -1,5 +1,9 @@
 # BoundedSubpath
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/BoundedSubpath.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/BoundedSubpath.ts) for the most up-to-date information.
+
 ## Overview
 
 A single loop of a RenderPath, with computed bounds.

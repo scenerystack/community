@@ -1,5 +1,9 @@
 # PDOMSectionNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/PDOMSectionNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/PDOMSectionNode.ts) for the most up-to-date information.
+
 ## Overview
 
 A container type for content in the PDOM for screen reader accessibility. The container is a Node

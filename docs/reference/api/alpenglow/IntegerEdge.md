@@ -1,5 +1,9 @@
 # IntegerEdge
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/IntegerEdge.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/IntegerEdge.ts) for the most up-to-date information.
+
 ## Overview
 
 A line-segment edge with integer coordinates, as part of the rendering

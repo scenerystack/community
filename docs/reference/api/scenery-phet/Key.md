@@ -1,5 +1,9 @@
 # Key
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Key.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Key.ts) for the most up-to-date information.
+
 ## Overview
 
 key object, intended for use in the PhET common-code keypad

@@ -1,5 +1,9 @@
 # ColorProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/ColorProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/ColorProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 Convenience type for creating Property.&lt;Color&gt;

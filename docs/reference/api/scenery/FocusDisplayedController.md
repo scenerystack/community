@@ -1,5 +1,9 @@
 # FocusDisplayedController
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/FocusDisplayedController.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/FocusDisplayedController.ts) for the most up-to-date information.
+
 ## Overview
 
 Responsible for setting the provided focusProperty to null when the Focused node either

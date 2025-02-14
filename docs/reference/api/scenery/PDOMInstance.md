@@ -1,5 +1,9 @@
 # PDOMInstance
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMInstance.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/pdom/PDOMInstance.ts) for the most up-to-date information.
+
 ## Overview
 
 An instance that is synchronously created, for handling accessibility needs.

@@ -1,5 +1,9 @@
 # SliderDefaultSoundGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/SliderDefaultSoundGenerator.ts](https://github.com/phetsims/sun/blob/main/js/SliderDefaultSoundGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 The default sound used for Slider if options.soundGenerator is not set.

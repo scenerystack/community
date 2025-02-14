@@ -1,5 +1,9 @@
 # GrabDragModel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragModel.ts](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/grab-drag/GrabDragModel.ts) for the most up-to-date information.
+
 ## Overview
 
 The model of the grab drag interaction. This has the current interaction state, and the cueing state.

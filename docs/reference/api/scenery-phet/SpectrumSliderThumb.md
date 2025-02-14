@@ -1,5 +1,9 @@
 # SpectrumSliderThumb
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/SpectrumSliderThumb.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SpectrumSliderThumb.ts) for the most up-to-date information.
+
 ## Overview
 
 SpectrumSliderThumb has (a) a thin cursor that lies on the track and (b) a teardrop-shaped handle that drops

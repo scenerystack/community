@@ -1,5 +1,9 @@
 # GaugeNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/GaugeNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GaugeNode.ts) for the most up-to-date information.
+
 ## Overview
 
 GaugeNode is a circular gauge that depicts some dynamic value.

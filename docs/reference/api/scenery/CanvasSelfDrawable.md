@@ -1,5 +1,9 @@
 # CanvasSelfDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/CanvasSelfDrawable.js](https://github.com/phetsims/scenery/blob/main/js/display/CanvasSelfDrawable.js) for the most up-to-date information.
+
 ## Overview
 
 TODO docs https://github.com/phetsims/scenery/issues/1581

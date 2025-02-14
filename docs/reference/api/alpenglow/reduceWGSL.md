@@ -1,5 +1,9 @@
 # reduceWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/reduceWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/reduceWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 A template that performs a reduce operation on a single workgroup. The value will be valid at local_id.x === 0.

@@ -1,5 +1,9 @@
 # PointerOverlay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/overlays/PointerOverlay.ts](https://github.com/phetsims/scenery/blob/main/js/overlays/PointerOverlay.ts) for the most up-to-date information.
+
 ## Overview
 
 The PointerOverlay shows pointer locations in the scene.  This is useful when recording a session for interviews or when a teacher is broadcasting

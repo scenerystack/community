@@ -1,5 +1,9 @@
 # TrailPointer
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/TrailPointer.ts](https://github.com/phetsims/scenery/blob/main/js/util/TrailPointer.ts) for the most up-to-date information.
+
 ## Overview
 
 Points to a specific node (with a trail), and whether it is conceptually before or after the node.

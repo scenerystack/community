@@ -1,5 +1,9 @@
 # Image
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/Image.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Image.ts) for the most up-to-date information.
+
 ## Overview
 
 A node that displays a single image either from an actual HTMLImageElement, a URL, a Canvas element, or a mipmap

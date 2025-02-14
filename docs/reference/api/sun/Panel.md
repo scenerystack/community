@@ -1,5 +1,9 @@
 # Panel
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/Panel.ts](https://github.com/phetsims/sun/blob/main/js/Panel.ts) for the most up-to-date information.
+
 ## Overview
 
 Control panel around a content node.

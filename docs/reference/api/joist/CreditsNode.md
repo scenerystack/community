@@ -1,5 +1,9 @@
 # CreditsNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/CreditsNode.ts](https://github.com/phetsims/joist/blob/main/js/CreditsNode.ts) for the most up-to-date information.
+
 ## Overview
 
 CreditsNode displays the credits section in the About dialog.

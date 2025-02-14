@@ -1,5 +1,9 @@
 # PreferencesType
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesType.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesType.ts) for the most up-to-date information.
+
 ## Overview
 
 Enumeration for the types of Preferences that can appear in the Preferences Dialog.

@@ -1,5 +1,9 @@
 # colorProfileProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/colorProfileProperty.js](https://github.com/phetsims/scenery/blob/main/js/util/colorProfileProperty.js) for the most up-to-date information.
+
 ## Overview
 
 Singleton Property&lt;string&gt; which chooses between the available color profiles of a simulation, such as 'default',

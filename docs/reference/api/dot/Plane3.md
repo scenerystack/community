@@ -1,5 +1,9 @@
 # Plane3
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Plane3.ts](https://github.com/phetsims/dot/blob/main/js/Plane3.ts) for the most up-to-date information.
+
 ## Overview
 
 A mathematical plane in 3 dimensions determined by a normal vector to the plane and the distance to the closest

@@ -1,5 +1,9 @@
 # DisplayedProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/DisplayedProperty.ts](https://github.com/phetsims/scenery/blob/main/js/util/DisplayedProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 A property that is true when the node appears on the given display. See DisplayedTrailsProperty for additional options

@@ -1,5 +1,9 @@
 # PitchedPopGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/PitchedPopGenerator.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/PitchedPopGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 sound generator that produces a popping sound with controllable pitch

@@ -1,5 +1,9 @@
 # HalfEdge
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/HalfEdge.ts](https://github.com/phetsims/kite/blob/main/js/ops/HalfEdge.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents a single direction/side of an Edge. There are two half-edges for each edge, representing each direction.

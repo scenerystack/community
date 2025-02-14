@@ -1,5 +1,9 @@
 # ScatterPlot
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/ScatterPlot.ts](https://github.com/phetsims/bamboo/blob/main/js/ScatterPlot.ts) for the most up-to-date information.
+
 ## Overview
 
 Renders a dataset of Vector2[] using circles.

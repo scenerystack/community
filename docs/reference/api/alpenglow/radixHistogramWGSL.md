@@ -1,5 +1,9 @@
 # radixHistogramWGSL
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/radixHistogramWGSL.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/wgsl/gpu/radixHistogramWGSL.ts) for the most up-to-date information.
+
 ## Overview
 
 Calculates a histogram for a section, then writes the histogram out in a striped manner ready for a prefix sum.

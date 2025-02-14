@@ -1,5 +1,9 @@
 # BooleanRectangularStickyToggleButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/BooleanRectangularStickyToggleButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/BooleanRectangularStickyToggleButton.ts) for the most up-to-date information.
+
 ## Overview
 
 A rectangular toggle button that switches the value of a boolean Property.  It sticks in the down position when

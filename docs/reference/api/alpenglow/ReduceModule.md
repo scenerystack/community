@@ -1,5 +1,9 @@
 # ReduceModule
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/ReduceModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/ReduceModule.ts) for the most up-to-date information.
+
 ## Overview
 
 A full reduction, with the method of reduction chosen based on the type and configuration.

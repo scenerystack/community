@@ -1,5 +1,9 @@
 # SoundClipChord
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClipChord.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/SoundClipChord.ts) for the most up-to-date information.
+
 ## Overview
 
 SoundClipChord plays a chord built from the given sound.

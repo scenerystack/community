@@ -1,5 +1,9 @@
 # NumberDisplay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/NumberDisplay.ts](https://github.com/phetsims/scenery-phet/blob/main/js/NumberDisplay.ts) for the most up-to-date information.
+
 ## Overview
 
 Displays a Property of type {number} in a background rectangle.

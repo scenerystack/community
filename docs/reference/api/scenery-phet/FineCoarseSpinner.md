@@ -1,5 +1,9 @@
 # FineCoarseSpinner
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/FineCoarseSpinner.ts](https://github.com/phetsims/scenery-phet/blob/main/js/FineCoarseSpinner.ts) for the most up-to-date information.
+
 ## Overview
 
 A type of spinner UI component that supports 'fine' and 'coarse' changes to a numeric value.

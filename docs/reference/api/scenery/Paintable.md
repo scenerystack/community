@@ -1,5 +1,9 @@
 # Paintable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/Paintable.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/Paintable.ts) for the most up-to-date information.
+
 ## Overview
 
 Trait for Nodes that support a standard fill and/or stroke (e.g. Text, Path and Path subtypes).

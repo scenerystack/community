@@ -1,5 +1,9 @@
 # Focus
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/Focus.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/Focus.ts) for the most up-to-date information.
+
 ## Overview
 
 A scenery-internal type for tracking what currently has focus in Display. If a focused Node is shared between

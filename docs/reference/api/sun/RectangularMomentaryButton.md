@@ -1,5 +1,9 @@
 # RectangularMomentaryButton
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/buttons/RectangularMomentaryButton.ts](https://github.com/phetsims/sun/blob/main/js/buttons/RectangularMomentaryButton.ts) for the most up-to-date information.
+
 ## Overview
 
 RectangularMomentaryButton is a rectangular momentary button that toggles a Property between 2 values.

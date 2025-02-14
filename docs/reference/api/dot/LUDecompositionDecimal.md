@@ -1,5 +1,9 @@
 # LUDecompositionDecimal
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/LUDecompositionDecimal.js](https://github.com/phetsims/dot/blob/main/js/LUDecompositionDecimal.js) for the most up-to-date information.
+
 ## Overview
 
 Arbitrary-precision LU Decomposition using decimal.js and copy-pasted from LUDecomposition.

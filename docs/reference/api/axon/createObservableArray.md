@@ -1,5 +1,9 @@
 # createObservableArray
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/createObservableArray.ts](https://github.com/phetsims/axon/blob/main/js/createObservableArray.ts) for the most up-to-date information.
+
 ## Overview
 
 createObservableArray conforms to the Proxy interface, which is polluted with `any` types.  Therefore we disable

@@ -1,5 +1,9 @@
 # MappedProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/MappedProperty.ts](https://github.com/phetsims/axon/blob/main/js/MappedProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 Similar to DerivedProperty, but restricted to one Property and provides value-mapped and bidirectional support.

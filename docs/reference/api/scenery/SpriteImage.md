@@ -1,5 +1,9 @@
 # SpriteImage
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/SpriteImage.ts](https://github.com/phetsims/scenery/blob/main/js/util/SpriteImage.ts) for the most up-to-date information.
+
 ## Overview
 
 Represents an image with a specific center "offset". Considered immutable (with an immutable image, the Canvas if

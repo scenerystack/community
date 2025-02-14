@@ -1,5 +1,9 @@
 # ValueChangeUtterance
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/utterance-queue/blob/main/js/ValueChangeUtterance.ts](https://github.com/phetsims/utterance-queue/blob/main/js/ValueChangeUtterance.ts) for the most up-to-date information.
+
 ## Overview
 
 An utterance that should generally be used for announcing a change in value after interacting with a slider

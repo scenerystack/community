@@ -1,5 +1,9 @@
 # GrabReleaseKeyboardHelpSection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/GrabReleaseKeyboardHelpSection.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/help/GrabReleaseKeyboardHelpSection.ts) for the most up-to-date information.
+
 ## Overview
 
 Help section for explaining how to use a keyboard to interact with the grab/release interaction.

@@ -1,5 +1,9 @@
 # ContinuousPatternVibrationController
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tappi/blob/main/js/ContinuousPatternVibrationController.ts](https://github.com/phetsims/tappi/blob/main/js/ContinuousPatternVibrationController.ts) for the most up-to-date information.
+
 ## Overview
 
 Controls and supports continuous vibration patterns and smooth transition from pattern to pattern.
@@ -26,7 +30,7 @@ import { ContinuousPatternVibrationController } from 'scenerystack/tappi';
 ```
 ### Constructor
 
-#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400;">[VibrationManageriOS](../tappi/VibrationManageriOS.md)</span>, providedOptions : <span style="font-weight: 400;">[ContinuousPatternVibrationControllerOptions](../tappi/ContinuousPatternVibrationController.md#ContinuousPatternVibrationControllerOptions)</span> ) {: #ContinuousPatternVibrationController-constructor data-toc-label='new ContinuousPatternVibrationController' }
+#### new ContinuousPatternVibrationController( vibrationManageriOS : <span style="font-weight: 400;">VibrationManageriOS</span>, providedOptions : <span style="font-weight: 400;">[ContinuousPatternVibrationControllerOptions](../tappi/ContinuousPatternVibrationController.md#ContinuousPatternVibrationControllerOptions)</span> ) {: #ContinuousPatternVibrationController-constructor data-toc-label='new ContinuousPatternVibrationController' }
 
 ### Instance Methods
 

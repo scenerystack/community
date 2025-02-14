@@ -1,5 +1,9 @@
 # MovementAlerter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/MovementAlerter.js](https://github.com/phetsims/scenery-phet/blob/main/js/accessibility/describers/MovementAlerter.js) for the most up-to-date information.
+
 ## Overview
 
 A generic alerting type that will alert positional alerts based on a positionProperty and bounds (see

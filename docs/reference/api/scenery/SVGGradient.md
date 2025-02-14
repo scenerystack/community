@@ -1,5 +1,9 @@
 # SVGGradient
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/SVGGradient.ts](https://github.com/phetsims/scenery/blob/main/js/display/SVGGradient.ts) for the most up-to-date information.
+
 ## Overview
 
 Base type for controllers that create and keep an SVG gradient element up-to-date with a Scenery gradient.

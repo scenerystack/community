@@ -1,5 +1,9 @@
 # isSettingPhetioStateProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/isSettingPhetioStateProperty.ts](https://github.com/phetsims/tandem/blob/main/js/isSettingPhetioStateProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 Property that is set to true when the PhET-iO State Engine is setting the state of a simulation. This Property

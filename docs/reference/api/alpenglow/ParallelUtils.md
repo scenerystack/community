@@ -1,5 +1,9 @@
 # ParallelUtils
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelUtils.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelUtils.ts) for the most up-to-date information.
+
 ## Overview
 
 Some utility functions for parallel kernels

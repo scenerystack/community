@@ -1,5 +1,9 @@
 # HighlightOverlay
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/overlays/HighlightOverlay.ts](https://github.com/phetsims/scenery/blob/main/js/overlays/HighlightOverlay.ts) for the most up-to-date information.
+
 ## Overview
 
 An overlay that implements highlights for a Display. This is responsible for drawing the highlights and

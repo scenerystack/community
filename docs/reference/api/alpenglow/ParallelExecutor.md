@@ -1,5 +1,9 @@
 # ParallelExecutor
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelExecutor.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/ParallelExecutor.ts) for the most up-to-date information.
+
 ## Overview
 
 Executes a kernel in parallel, using async/await to simulate the WGPU execution model.

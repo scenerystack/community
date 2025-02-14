@@ -1,5 +1,9 @@
 # DynamicTandem
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/DynamicTandem.ts](https://github.com/phetsims/tandem/blob/main/js/DynamicTandem.ts) for the most up-to-date information.
+
 ## Overview
 
 A tandem for a dynamic element that stores the name of the archetype that defines its dynamic element's schema.

@@ -1,5 +1,9 @@
 # SimVersion
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/perennial/blob/main/js/browser-and-node/SimVersion.ts](https://github.com/phetsims/perennial/blob/main/js/browser-and-node/SimVersion.ts) for the most up-to-date information.
+
 ## Overview
 
 Handles serializing and deserializing versions for simulations.

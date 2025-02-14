@@ -1,5 +1,9 @@
 # Cursor
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/reader/Cursor.js](https://github.com/phetsims/scenery/blob/main/js/accessibility/reader/Cursor.js) for the most up-to-date information.
+
 ## Overview
 
 Prototype for a cursor that implements the typical navigation strategies of a screen reader.  The output

@@ -1,5 +1,9 @@
 # Emitter
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/Emitter.ts](https://github.com/phetsims/axon/blob/main/js/Emitter.ts) for the most up-to-date information.
+
 ## Overview
 
 Event &amp; listener abstraction for a single "event" type. The type provides extra functionality beyond just notifying

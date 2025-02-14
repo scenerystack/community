@@ -1,5 +1,9 @@
 # Easing
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/twixt/blob/main/js/Easing.ts](https://github.com/phetsims/twixt/blob/main/js/Easing.ts) for the most up-to-date information.
+
 ## Overview
 
 An Easing represents a function from the range [0,1] =&gt; [0,1] where f(0)=0 and f(1)=1. It is helpful for animation,

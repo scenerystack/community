@@ -1,5 +1,9 @@
 # Random
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/Random.ts](https://github.com/phetsims/dot/blob/main/js/Random.ts) for the most up-to-date information.
+
 ## Overview
 
 Random number generator with an optional seed.  It uses seedrandom.js, a monkey patch for Math, see

@@ -1,5 +1,9 @@
 # GridCheckbox
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/GridCheckbox.ts](https://github.com/phetsims/scenery-phet/blob/main/js/GridCheckbox.ts) for the most up-to-date information.
+
 ## Overview
 
 Checkbox for showing/hiding grid lines for a graph.

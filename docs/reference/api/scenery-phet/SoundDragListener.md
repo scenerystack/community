@@ -1,5 +1,9 @@
 # SoundDragListener
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/SoundDragListener.ts](https://github.com/phetsims/scenery-phet/blob/main/js/SoundDragListener.ts) for the most up-to-date information.
+
 ## Overview
 
 SoundDragListener extends DragListener to integrate PhET-specific sounds for grab and release.

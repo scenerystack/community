@@ -1,5 +1,9 @@
 # ChartRectangle
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/bamboo/blob/main/js/ChartRectangle.ts](https://github.com/phetsims/bamboo/blob/main/js/ChartRectangle.ts) for the most up-to-date information.
+
 ## Overview
 
 Shows the background and border for a chart, and updates when the chart dimensions change.  This is also often used

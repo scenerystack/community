@@ -1,5 +1,9 @@
 # PreferencesPanelSection
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesPanelSection.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesPanelSection.ts) for the most up-to-date information.
+
 ## Overview
 
 A section of content in a PreferencesPanel of the PreferencseDialog. Handles layout for the title of the section

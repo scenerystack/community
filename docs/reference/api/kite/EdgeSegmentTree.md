@@ -1,5 +1,9 @@
 # EdgeSegmentTree
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/EdgeSegmentTree.ts](https://github.com/phetsims/kite/blob/main/js/ops/EdgeSegmentTree.ts) for the most up-to-date information.
+
 ## Overview
 
 A SegmentTree for Edges. See SegmentTree for more details

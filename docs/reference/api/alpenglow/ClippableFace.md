@@ -1,5 +1,9 @@
 # ClippableFace
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/cag/ClippableFace.ts](https://github.com/phetsims/alpenglow/blob/main/js/cag/ClippableFace.ts) for the most up-to-date information.
+
 ## Overview
 
 An interface for clippable/subdivide-able faces, with defined bounds and area.

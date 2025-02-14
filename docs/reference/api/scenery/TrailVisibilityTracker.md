@@ -1,5 +1,9 @@
 # TrailVisibilityTracker
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/TrailVisibilityTracker.js](https://github.com/phetsims/scenery/blob/main/js/util/TrailVisibilityTracker.js) for the most up-to-date information.
+
 ## Overview
 
 Broadcasts when any Node or its ancestors in a Trail change visibility, effectively

@@ -1,5 +1,9 @@
 # NumberKeyNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/NumberKeyNode.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keyboard/NumberKeyNode.ts) for the most up-to-date information.
+
 ## Overview
 
 NumberKeyNode looks like a keyboard key with a single letter. See LetterKeyNode for implementation details. This is

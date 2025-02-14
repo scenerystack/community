@@ -1,5 +1,9 @@
 # units
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/units.ts](https://github.com/phetsims/axon/blob/main/js/units.ts) for the most up-to-date information.
+
 ## Overview
 
 These are the units that can be associated with Property instances.

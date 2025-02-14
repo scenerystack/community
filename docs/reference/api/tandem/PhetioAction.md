@@ -1,5 +1,9 @@
 # PhetioAction
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/PhetioAction.ts](https://github.com/phetsims/tandem/blob/main/js/PhetioAction.ts) for the most up-to-date information.
+
 ## Overview
 
 An instrumented class that wraps a function that does "work" that needs to be interoperable with PhET-iO.

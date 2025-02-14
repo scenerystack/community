@@ -1,5 +1,9 @@
 # ParallelRasterSplitScan
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterSplitScan.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterSplitScan.ts) for the most up-to-date information.
+
 ## Overview
 
 Multiple stream compaction for chunks: distributes the relevant data from the clipped chunks to the reducible and

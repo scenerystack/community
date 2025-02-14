@@ -1,5 +1,9 @@
 # TransitionNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/twixt/blob/main/js/TransitionNode.ts](https://github.com/phetsims/twixt/blob/main/js/TransitionNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Holds content, and can transition to other content with a variety of animations. During a transition, there is always

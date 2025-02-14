@@ -1,5 +1,9 @@
 # YawPitchModelViewTransform3
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/YawPitchModelViewTransform3.js](https://github.com/phetsims/scenery-phet/blob/main/js/capacitor/YawPitchModelViewTransform3.js) for the most up-to-date information.
+
 ## Overview
 
 Provides the transforms between model and view 3D-coordinate systems. In both coordinate systems, +x is to the right,

@@ -1,5 +1,9 @@
 # OscillatorSoundGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/sound-generators/OscillatorSoundGenerator.ts](https://github.com/phetsims/tambo/blob/main/js/sound-generators/OscillatorSoundGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 OscillatorSoundGenerator is a Web Audio oscillator node wrapped in a sound generator so that it can be easily be used

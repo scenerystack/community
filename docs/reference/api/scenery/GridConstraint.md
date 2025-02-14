@@ -1,5 +1,9 @@
 # GridConstraint
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridConstraint.ts](https://github.com/phetsims/scenery/blob/main/js/layout/constraints/GridConstraint.ts) for the most up-to-date information.
+
 ## Overview
 
 Main grid-layout logic. Usually used indirectly through GridBox, but can also be used directly (say, if nodes don't

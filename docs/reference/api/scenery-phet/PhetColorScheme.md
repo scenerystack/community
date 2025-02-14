@@ -1,5 +1,9 @@
 # PhetColorScheme
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/PhetColorScheme.ts](https://github.com/phetsims/scenery-phet/blob/main/js/PhetColorScheme.ts) for the most up-to-date information.
+
 ## Overview
 
 Colors that are specific to PhET simulations.

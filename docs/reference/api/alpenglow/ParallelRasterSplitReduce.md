@@ -1,5 +1,9 @@
 # ParallelRasterSplitReduce
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterSplitReduce.ts](https://github.com/phetsims/alpenglow/blob/main/js/parallel/raster-clip/ParallelRasterSplitReduce.ts) for the most up-to-date information.
+
 ## Overview
 
 Takes the input reductions and computes the inclusive prefix sum (scan) into it, in a form that can be used for

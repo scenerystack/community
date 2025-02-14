@@ -1,5 +1,9 @@
 # VoicingRichText
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/VoicingRichText.ts](https://github.com/phetsims/scenery/blob/main/js/accessibility/voicing/nodes/VoicingRichText.ts) for the most up-to-date information.
+
 ## Overview
 
 RichText that composes ReadingBlock, adding support for Voicing and input listeners that speak content upon

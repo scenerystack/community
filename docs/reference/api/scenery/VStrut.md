@@ -1,5 +1,9 @@
 # VStrut
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/nodes/VStrut.ts](https://github.com/phetsims/scenery/blob/main/js/nodes/VStrut.ts) for the most up-to-date information.
+
 ## Overview
 
 A Node meant to just take up vertical space (usually for layout purposes).

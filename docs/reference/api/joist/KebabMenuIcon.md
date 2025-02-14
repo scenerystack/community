@@ -1,5 +1,9 @@
 # KebabMenuIcon
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/KebabMenuIcon.ts](https://github.com/phetsims/joist/blob/main/js/KebabMenuIcon.ts) for the most up-to-date information.
+
 ## Overview
 
 The "kebab" menu icon, 3 dots stacked vertically that look like a shish kebab.

@@ -1,5 +1,9 @@
 # Overlap
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/util/Overlap.ts](https://github.com/phetsims/kite/blob/main/js/util/Overlap.ts) for the most up-to-date information.
+
 ## Overview
 
 Describes a section of continuous overlap (multiple overlapping points) between two segments.

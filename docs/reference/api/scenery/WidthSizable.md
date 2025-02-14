@@ -1,5 +1,9 @@
 # WidthSizable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/layout/WidthSizable.ts](https://github.com/phetsims/scenery/blob/main/js/layout/WidthSizable.ts) for the most up-to-date information.
+
 ## Overview
 
 WidthSizable is a trait that provides a minimum and preferred width. The minimum width is set by the component,

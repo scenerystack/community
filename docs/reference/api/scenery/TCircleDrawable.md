@@ -1,5 +1,9 @@
 # TCircleDrawable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/display/drawables/TCircleDrawable.ts](https://github.com/phetsims/scenery/blob/main/js/display/drawables/TCircleDrawable.ts) for the most up-to-date information.
+
 ## Overview
 
 Interface specifically for SelfDrawables for a Circle Node.

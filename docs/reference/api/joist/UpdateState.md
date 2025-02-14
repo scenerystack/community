@@ -1,5 +1,9 @@
 # UpdateState
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/UpdateState.ts](https://github.com/phetsims/joist/blob/main/js/UpdateState.ts) for the most up-to-date information.
+
 ## Overview
 
 Enumeration for the various states that can occur during an Update check. See updateCheck.js for main usage.

@@ -1,5 +1,9 @@
 # MutableOptionsNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/sun/blob/main/js/MutableOptionsNode.js](https://github.com/phetsims/sun/blob/main/js/MutableOptionsNode.js) for the most up-to-date information.
+
 ## Overview
 
 Assists "changing" options for types of nodes where the node does not support modifying the option.

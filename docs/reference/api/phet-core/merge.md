@@ -1,5 +1,9 @@
 # merge
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/phet-core/blob/main/js/merge.ts](https://github.com/phetsims/phet-core/blob/main/js/merge.ts) for the most up-to-date information.
+
 ## Overview
 
 Like Lodash's _.merge, this will recursively merge nested options objects provided that the keys end in 'Options'

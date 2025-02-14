@@ -1,5 +1,9 @@
 # LinearFunction
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/dot/blob/main/js/LinearFunction.ts](https://github.com/phetsims/dot/blob/main/js/LinearFunction.ts) for the most up-to-date information.
+
 ## Overview
 
 Function for doing a linear mapping between two domains ('a' and 'b').

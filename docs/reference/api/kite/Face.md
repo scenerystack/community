@@ -1,5 +1,9 @@
 # Face
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/kite/blob/main/js/ops/Face.ts](https://github.com/phetsims/kite/blob/main/js/ops/Face.ts) for the most up-to-date information.
+
 ## Overview
 
 A face is usually contained by an ("inner") boundary of edges, and zero or more ("outer") boundary holes on the inside.

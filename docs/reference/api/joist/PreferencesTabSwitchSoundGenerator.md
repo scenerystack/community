@@ -1,5 +1,9 @@
 # PreferencesTabSwitchSoundGenerator
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesTabSwitchSoundGenerator.ts](https://github.com/phetsims/joist/blob/main/js/preferences/PreferencesTabSwitchSoundGenerator.ts) for the most up-to-date information.
+
 ## Overview
 
 @author John Blanco (PhET Interactive Simulations)

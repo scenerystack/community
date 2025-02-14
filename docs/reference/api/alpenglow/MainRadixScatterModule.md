@@ -1,5 +1,9 @@
 # MainRadixScatterModule
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainRadixScatterModule.ts](https://github.com/phetsims/alpenglow/blob/main/js/webgpu/modules/gpu/MainRadixScatterModule.ts) for the most up-to-date information.
+
 ## Overview
 
 Uses a scanned histogram to perform a step of the radix sort.

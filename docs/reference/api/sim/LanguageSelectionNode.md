@@ -1,5 +1,9 @@
 # LanguageSelectionNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/preferences/LanguageSelectionNode.ts](https://github.com/phetsims/joist/blob/main/js/preferences/LanguageSelectionNode.ts) for the most up-to-date information.
+
 ## Overview
 
 Class for items of a LocalePanel. Locales shown in their localized name wrapped in a Rectangle for highlighting

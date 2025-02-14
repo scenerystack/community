@@ -1,5 +1,9 @@
 # RendererSummary
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery/blob/main/js/util/RendererSummary.ts](https://github.com/phetsims/scenery/blob/main/js/util/RendererSummary.ts) for the most up-to-date information.
+
 ## Overview
 
 Contains information about what renderers (and a few other flags) are supported for an entire subtree.

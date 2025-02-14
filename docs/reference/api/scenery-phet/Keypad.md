@@ -1,5 +1,9 @@
 # Keypad
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Keypad.ts](https://github.com/phetsims/scenery-phet/blob/main/js/keypad/Keypad.ts) for the most up-to-date information.
+
 ## Overview
 
 A flexible keypad that looks somewhat like a calculator or keyboard keypad.

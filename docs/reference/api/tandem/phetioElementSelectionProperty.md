@@ -1,5 +1,9 @@
 # phetioElementSelectionProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tandem/blob/main/js/phetioElementSelectionProperty.ts](https://github.com/phetsims/tandem/blob/main/js/phetioElementSelectionProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 Property that controls the selection view of PhET-iO Elements, predominately in Studio.

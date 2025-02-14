@@ -1,5 +1,9 @@
 # Disposable
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/Disposable.ts](https://github.com/phetsims/axon/blob/main/js/Disposable.ts) for the most up-to-date information.
+
 ## Overview
 
 A base class to help with managing disposal. Creates a disposeEmitter that will be fired when disposing. This occurs

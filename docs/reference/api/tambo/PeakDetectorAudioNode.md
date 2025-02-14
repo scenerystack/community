@@ -1,5 +1,9 @@
 # PeakDetectorAudioNode
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/tambo/blob/main/js/PeakDetectorAudioNode.ts](https://github.com/phetsims/tambo/blob/main/js/PeakDetectorAudioNode.ts) for the most up-to-date information.
+
 ## Overview
 
 PeakDetectorAudioNode is a Web Audio node that can be used to detect peak audio output values in an audio signal

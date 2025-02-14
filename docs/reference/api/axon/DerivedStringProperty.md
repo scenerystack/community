@@ -1,5 +1,9 @@
 # DerivedStringProperty
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/axon/blob/main/js/DerivedStringProperty.ts](https://github.com/phetsims/axon/blob/main/js/DerivedStringProperty.ts) for the most up-to-date information.
+
 ## Overview
 
 DerivedStringProperty is typically used for strings that are derived from LocalizedStringProperty

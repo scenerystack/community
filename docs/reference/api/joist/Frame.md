@@ -1,5 +1,9 @@
 # Frame
 
+!!! warning "Under Construction"
+    This documentation is auto-generated, and is a work in progress. Please see the source code at
+    [https://github.com/phetsims/joist/blob/main/js/Frame.ts](https://github.com/phetsims/joist/blob/main/js/Frame.ts) for the most up-to-date information.
+
 ## Overview
 
 Decorative frame around the selected node
