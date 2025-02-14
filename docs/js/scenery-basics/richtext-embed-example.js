@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "richtext-embed-example", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     /*START*/
     const string = 'Nodes like <node id="circle" align="center"/> and even <node id="otherText"/> can be embedded in RichText.';

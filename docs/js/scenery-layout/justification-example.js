@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( 'justification-example', ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     const createBoxes = label => [
       new Rectangle( 0, 0, 170, 30, {

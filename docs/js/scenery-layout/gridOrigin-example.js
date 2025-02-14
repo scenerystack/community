@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( 'gridOrigin-example', ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const originSize = 50;
   const originNode = new Path( new Shape().moveTo( -originSize, 0 ).lineTo( originSize, 0 ).moveTo( 0, originSize ).lineTo( 0, -originSize ), {
     stroke: 'rgba(0,0,0,0.5)'

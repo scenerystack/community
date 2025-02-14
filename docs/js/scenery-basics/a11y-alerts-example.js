@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "a11y-alerts-example", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     /*START*/
     let count = 0;

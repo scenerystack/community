@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "interaction-high-level-example", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     /*START*/
     const background = new Rectangle( 0, 0, 400, 300, { stroke: foregroundColor } );

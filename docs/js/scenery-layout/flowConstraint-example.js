@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( 'flowConstraint-example', ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     /*START*/
     const firstChild = createLabeledBox( 'First child', '#faa', 150, 30 );

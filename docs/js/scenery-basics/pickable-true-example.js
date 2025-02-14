@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "pickable-true-example", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     const background = new Rectangle( 0, 0, 400, 300, { stroke: foregroundColor } );
     /*START*/

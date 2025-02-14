@@ -55,8 +55,7 @@ documentation.
 The primary way to implement accessibility in Scenery is by passing options to [Node]. To ensure a node appears in
 the PDOM, it needs an associated HTML element, which can be defined using the `tagName` option:
 
-<div id="accessible-tag-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/accessible-tag-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/accessible-tag-example.js"></div>
 
 ### Using `innerContent`
 
@@ -88,8 +87,7 @@ Understanding key terminology helps clarify how elements are structured within t
 Below is an example of a node using all its elements to provide the fullest semantic representation of a simulation
 component in the PDOM.
 
-<div id="siblings-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/siblings-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/siblings-example.js"></div>
 
 In this example, the rectangle's **primary sibling** is a button with an Accessible Name of **"Grab Magnet"**. It has:
 
@@ -115,8 +113,7 @@ Scenery handles this structure using [PDOMPeer], which manages and controls all 
 Consider an example where we have a box filled with circles, and we want the PDOM representation to be an unordered
 list (`<ul>`) with list items (`<li>`).
 
-<div id="graph-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/graph-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/graph-example.js"></div>
 
 In this example, Scenery automatically structures the PDOM so that the list items (`<li>`) are children of the unordered
 list (`<ul>`), aligning with the hierarchy of the scene graph.
@@ -130,8 +127,7 @@ customized.
 For example, a node can be used solely to add **text content** to the PDOM. By default, supplementary peer elements have
 predefined tag names. *(Note: As of writing, sibling tag names default to `<p>`.)*
 
-<div id="lots-of-text-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/lots-of-text-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/lots-of-text-example.js"></div>
 
 In this sense, the naming of options to control each sibling is somewhat *arbitrary*—the API is designed to be flexible,
 allowing you to choose what works best for each situation. Not every node needs all four HTML elements in its PDOM
@@ -161,8 +157,7 @@ If `tagName: 'input'` is specified, additional options allow further customizati
 
 These options provide a way to ensure form elements are both interactive and accessible.
 
-<div id="input-type-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/input-type-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/input-type-example.js"></div>
 
 The example above shows a node whose PDOM representation is a **basic checkbox**. To make it interactive, use
 `Node.addInputListener()`, which accepts an object where keys are DOM event names and values are callback functions.
@@ -473,8 +468,7 @@ For more details or to create custom patterns, see `ResponsePatternCollection.js
 The following illustrates a **basic example** of using `Voicing.ts` with a [Node].  
 Click the **Rectangle** to hear speech.
 
-<div id="voicing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/voicing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/voicing-example.js"></div>
 
 ### Controlled Responses
 
@@ -492,8 +486,7 @@ This example also demonstrates **enabling/disabling the object response globally
   <label for="object-responses">Object Responses</label>
 </div>
 
-<div id="controlled-responses-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-accessibility/controlled-responses-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-accessibility/controlled-responses-example.js"></div>
 
 ## Reading Blocks
 

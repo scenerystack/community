@@ -106,7 +106,25 @@ scenerystackImportsPromise.then( actualImports => {
   self.scenerystackImports.backgroundColor = backgroundColor;
 } );
 
-export const createSandbox = ( id, func, providedOptions ) => {
+export const createSandbox = ( divOrId, func, providedOptions ) => {
+
+  let id;
+  let parentElement;
+
+  if ( typeof divOrId === 'string' ) {
+    id = divOrId;
+    parentElement = document.getElementById( id );
+  }
+  else {
+    const idBits = divOrId.dataset.example.split( '/' );
+    id = idBits[ idBits.length - 1 ].replace( '.js', '' );
+    parentElement = divOrId;
+
+    // Don't double-initialize
+    if ( parentElement.hasChildNodes() ) {
+      return;
+    }
+  }
 
   console.log( `creating sandbox for ${id}` );
 
@@ -123,8 +141,6 @@ export const createSandbox = ( id, func, providedOptions ) => {
     showPDOM: false,
     showAriaLive: false
   }, providedOptions );
-
-  const parentElement = document.getElementById( id );
 
   const displayContainerElement = document.createElement( 'div' );
   if ( options.showDisplay ) {
@@ -315,7 +331,7 @@ export const createSandbox = ( id, func, providedOptions ) => {
   // Clean up sandbox when it is removed, see https://github.com/scenerystack/community/issues/130
   {
     const interval = setInterval( () => {
-      if ( !document.getElementById( id ) ) {
+      if ( !parentElement.isConnected ) {
         console.log(`disposing sandbox for ${id}`);
 
         disposeEmitter.emit();

@@ -8,8 +8,7 @@
 
 To include a Three.js scene with specific dimensions, [ThreeNode] can be used directly:
 
-<div id="basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/threejs-integration/basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/threejs-integration/basic-example.js"></div>
 
 It will need to have `render()` called whenever it should be updated. If the position of the scene inside the Scenery
 [Display] changes, `layout()` should be called as well, so it is safe to call both.

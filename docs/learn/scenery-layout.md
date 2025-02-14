@@ -83,8 +83,7 @@ accident remove any layout options that were set earlier OR some set by the cont
 `rows/columns/autoRows/autoColumns` will set some layout options, and using `gridBox.layoutOptions =` may wipe out the
 positioning information for the child.
 
-<div id="layoutOptionsMutate-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/layoutOptionsMutate-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/layoutOptionsMutate-example.js"></div>
 
 ### References and Documentation {: #references-and-documentation }
 
@@ -108,13 +107,11 @@ optionally wrap content to the next row/column when there is no more room (e.g.,
 
 For horizontal line-based layout, use [HBox]:
 
-<div id="HBox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/HBox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/HBox-example.js"></div>
 
 For vertical line-based layout, use [VBox]:
 
-<div id="VBox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/VBox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/VBox-example.js"></div>
 
 **NOTE**: For FlowBox, the orientation provided is typically called the *primary* axis. This is the axis along which
 each Node in a line is positioned. The *secondary* axis is the opposite one, along which each Node is aligned. For
@@ -123,36 +120,31 @@ positioned with increasing x values, and its `align` will control the y values).
 
 For cases where the orientation needs to be determined programmatically, use [FlowBox]:
 
-<div id="orientation-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/orientation-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/orientation-example.js"></div>
 
 ### Resizing {: #FlowBox-resizing }
 
 The box adjusts to changing cell sizes:
 
-<div id="dynamic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/dynamic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/dynamic-example.js"></div>
 
 <p id="FlowBox-resize">
 Resizing/layout can be disabled with `resize: false`:
 </p>
 
-<div id="locked-sizing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/locked-sizing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/locked-sizing-example.js"></div>
 
 ### Invisible children
 
 Invisible nodes are not included in layout/bounds by default:
 
-<div id="invis-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/invis-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/invis-example.js"></div>
 
 <p id="FlowBox-excludeInvisibleChildrenFromBounds">
 Invisible nodes can be forced into the layout
 </p>
 
-<div id="force-vis-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/force-vis-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/force-vis-example.js"></div>
 
 ### grow {: #FlowBox-grow }
 
@@ -160,28 +152,24 @@ Nodes with preferred sizes can be added, and the `grow` in `layoutOptions` will 
 cell. If all nodes have the same `grow`, then all nodes will receive the same share of the extra space. Otherwise, extra
 space is distributed proportionally as defined by each node's `grow` value.
 
-<div id="resizable-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/resizable-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/resizable-example.js"></div>
 
 Extra space can be allocated proportionally (a node with 4 times the `grow` value will grow 4 times as fast):
 
-<div id="grow-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grow-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grow-example.js"></div>
 
 ### cellAlign {: #FlowBox-cellAlign }
 
 When `grow` is used to expand a cell, but the content does not fill the cell, `cellAlign` can control the relative
 positioning of the content within the cell. The default is to the left/top of the cell.
 
-<div id="cellAlign-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/cellAlign-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/cellAlign-example.js"></div>
 
 ### stretch {: #FlowBox-stretch }
 
 `stretch` will have a resizable element take up the entire row/column size:
 
-<div id="stretch-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/stretch-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/stretch-example.js"></div>
 
 ### Constraining dimensions
 
@@ -189,20 +177,17 @@ positioning of the content within the cell. The default is to the left/top of th
 Maximums can be applied to constrain this growing (it won't grow past the max content dimension):
 </p>
 
-<div id="maxContentWidth-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/maxContentWidth-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/maxContentWidth-example.js"></div>
 
 <p id="FlowBox-minContent">
 Minimums can also force a certain expansion:
 </p>
 
-<div id="minContentWidth-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/minContentWidth-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/minContentWidth-example.js"></div>
 
 Minimums and maximums also apply on the secondary axis:
 
-<div id="secondaryAxisContent-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/secondaryAxisContent-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/secondaryAxisContent-example.js"></div>
 
 Content minimums and maximums can be applied to all layout cells in the FlowBox by using
 `layoutOptions: { minContentWidth: {{NUMBER}}, minContentHeight: {{NUMBER}} }`. For example, setting `minContentWidth`
@@ -217,8 +202,7 @@ all FlowBoxes.
 A good thing to note is that the content width/height can multiply the width/height of the parent container when
 wrapping occurs.
 
-<div id="dimension-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/dimension-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/dimension-example.js"></div>
 
 ### justify {: #FlowBox-justify }
 
@@ -238,22 +222,19 @@ FlowBox, so they will expand to either side of it.
   Thus the space at the start would be half that of the space between object A and B (since that space is a combined
   margin for both objects).
 
-<div id="justification-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/justification-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/justification-example.js"></div>
 
 ### wrap {: #FlowBox-wrap }
 
 `wrap` will shift content that doesn't fit the preferred size into new rows/columns (try resizing it to be less wide):
 
-<div id="wrap-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/wrap-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/wrap-example.js"></div>
 
 ### align {: #FlowBox-align }
 
 `align` controls how cells are positioned along the secondary axis:
 
-<div id="align-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/align-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/align-example.js"></div>
 
 For horizontal boxes, the values are: `'left', 'right', 'center', 'origin'`. For vertical boxes, the values are:
 `'top', 'bottom', 'center', 'origin'`.
@@ -268,55 +249,47 @@ Nodes at the same Y value (top of rectangles, center of circles, baseline of tex
 
 `justifyLines` controls how lines are positioned along the secondary axis (null will default to a stretch):
 
-<div id="justifyLines-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/justifyLines-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/justifyLines-example.js"></div>
 
 ### spacing {: #FlowBox-spacing }
 
 `spacing` controls extra space that can be added between cells:
 
-<div id="spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/spacing-example.js"></div>
 
 ### lineSpacing {: #FlowBox-lineSpacing }
 
 `lineSpacing` adds space between rows/columns, which applies when wrapped:
 
-<div id="lineSpacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/lineSpacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/lineSpacing-example.js"></div>
 
 ### Margins {: #FlowBox-margins }
 
 Margins can also be added to every cell (`margin` affects all 4 sides, `xMargin` affects left/right, `yMargin` affects
 top/bottom):
 
-<div id="margin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/margin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/margin-example.js"></div>
 
 ### Per-cell layout options
 
 Margins can also be applied to individual cells:
 
-<div id="marginCell-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/marginCell-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/marginCell-example.js"></div>
 
 Similarly, alignment can also be customized by individual cells:
 
-<div id="alignCell-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignCell-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignCell-example.js"></div>
 
 These options use the default on the container, but can be overridden by cells:
 
-<div id="override-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/override-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/override-example.js"></div>
 
 ### Separators {: #FlowBox-separators }
 
 Separators are also available for ease of use (separators at the visible start/end, and duplicates will be marked as
 `visible: false`, while all other separators will be marked as `visible: true`):
 
-<div id="separators-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/separators-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/separators-example.js"></div>
 
 Additionally, arbitrary nodes can be made to act like separators by passing `isSeparator: true` in its `layoutOptions`.
 
@@ -330,91 +303,77 @@ vertical direction and can be specified for each cell.
 
 Can be constructed with absolute coordinates (which can include gaps):
 
-<div id="absolute-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/absolute-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/absolute-example.js"></div>
 
 The **x** value indicates the column (starting at index 0), and the **y** value indicates the row (starting at index 0).
 
 **NOTE**: Skipped rows/columns will be collapsed and won't apply (except for any spacing added):
 
-<div id="skip-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/skip-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/skip-example.js"></div>
 
 ### rows {: #GridBox-rows }
 
 Grids can be constructed by specifying all the children in rows (`null` for gaps):
 
-<div id="rows-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/rows-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/rows-example.js"></div>
 
 ### columns {: #GridBox-columns }
 
 or with columns:
 
-<div id="columns-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/columns-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/columns-example.js"></div>
 
 ### autoRows/autoColumns {: #GridBox-autoLines }
 
 Additionally, if a certain number of rows/columns are desired, `autoRows` / `autoColumns` can be used to wrap and
 position the children based on this (auto-filling all spaces).
 
-<div id="autoColumns-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/autoColumns-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/autoColumns-example.js"></div>
 
-<div id="autoRows-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/autoRows-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/autoRows-example.js"></div>
 
 ### addRow/addColumn {: #GridBox-addLine }
 
 Rows and columns can also be added dynamically in a similar way (rows will be below all current content, columns will be to the right of all current content):
 
-<div id="addLines-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/addLines-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/addLines-example.js"></div>
 
 ### insertRow/insertColumn {: #GridBox-insertLine }
 
 Rows and columns can also be directly inserted by index:
 
-<div id="insertLines-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/insertLines-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/insertLines-example.js"></div>
 
 ### removeRow/removeColumn {: #GridBox-removeLine }
 
 Or removed by index:
 
-<div id="deleteLines-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/deleteLines-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/deleteLines-example.js"></div>
 
 ### line/cell getters {: #GridBox-getters }
 
 Assorted operations can get the row/column of a child Node, or get all of the Nodes contained within a specific row or column:
 
-<div id="findCell-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/findCell-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/findCell-example.js"></div>
 
-<div id="getLines-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/getLines-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/getLines-example.js"></div>
 
 ### grow {: #GridBox-grow }
 
 Grids by default don't auto-expand all rows/columns in size to the preferred size, but they can with a similar style to FlowBox, where `grow` applies to both the x and y dimensions:
 
-<div id="grow-grid-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grow-grid-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grow-grid-example.js"></div>
 
 This space can be grown in specified rows/columns only (and independently) with `xGrow` or `yGrow`:
 
-<div id="grow-2-grid-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grow-2-grid-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grow-2-grid-example.js"></div>
 
 ### stretch {: #GridBox-stretch }
 
 Use `stretch` (or `xStretch` / `yStretch`) to grow a cell dynamically with the preferred dimensions to match the
 row/column. `stretch` must be paired with a `grow` value to be activated.
 
-<div id="preferred-grid-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/preferred-grid-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/preferred-grid-example.js"></div>
 
 ### sizable {: #GridBox-sizable }
 
@@ -426,15 +385,13 @@ height will stretch to take up that of its cell.
 
 Additionally, if you do not want a child of a GridBox to grow in size at all, you can set `sizable: false` on it.
 
-<div id="gridResizable-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/gridResizable-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/gridResizable-example.js"></div>
 
 ### align {: #GridBox-align }
 
 Cells can be aligned in a similar way to FlowBox, but in both dimensions:
 
-<div id="align-grid-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/align-grid-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/align-grid-example.js"></div>
 
 ### horizontalSpan / verticalSpan {: #GridBox-layoutOptions-size }
 
@@ -456,37 +413,31 @@ However, one or both values can be increased, and thus will take up multiple row
 
 The content within these larger cells will use the rectangle that spans all of the rows and columns for layout.
 
-<div id="span-grid-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/span-grid-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/span-grid-example.js"></div>
 
 ### spacing {: #GridBox-spacing }
 
 Grids can have consistent internal spacing:
 
-<div id="grid-spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grid-spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grid-spacing-example.js"></div>
 
 Grids can have different spacing on each dimension:
 
-<div id="grid-2-spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grid-2-spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grid-2-spacing-example.js"></div>
 
 Grids can have custom arrays adjusting the spacing between every single row/column:
 
-<div id="grid-3-spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/grid-3-spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/grid-3-spacing-example.js"></div>
 
 ### Margins {: #GridBox-margins }
 
 Similar to FlowBox, grids can have margins applied to all elements:
 
-<div id="margin-1-spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/margin-1-spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/margin-1-spacing-example.js"></div>
 
 Or can have margins specified on individual elements:
 
-<div id="margin-2-spacing-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/margin-2-spacing-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/margin-2-spacing-example.js"></div>
 
 ## layoutOrigin {: #layoutOrigin }
 
@@ -495,8 +446,7 @@ There are some exceptions to this.
 
 The default behavior:
 
-<div id="defaultOrigin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/defaultOrigin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/defaultOrigin-example.js"></div>
 
 When using `align: origin`, the Y-origin of the entire FlowBox will be at the Y-origin of the first wrapped line of
 Nodes.
@@ -505,18 +455,15 @@ Nodes.
 created by `bigText`/`normalText`) is the left end of the baseline of the text (since the word "Text" doesn't have
 any [descenders](https://en.wikipedia.org/wiki/Descender), this will be at the bottom).
 
-<div id="flowOrigin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/flowOrigin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/flowOrigin-example.js"></div>
 
 When using `align: origin`, the origin of the entire GridBox will be at the origin of the first cell:
 
-<div id="gridOrigin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/gridOrigin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/gridOrigin-example.js"></div>
 
 The position of this origin can be shifted by using `layoutOrigin`.
 
-<div id="layoutOrigin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/layoutOrigin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/layoutOrigin-example.js"></div>
 
 ## AlignBox {: #AlignBox }
 
@@ -524,37 +471,31 @@ The position of this origin can be shifted by using `layoutOrigin`.
 
 AlignBox on its own will position content within a specific bounding box (its `alignBounds`):
 
-<div id="simpleAlignBox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/simpleAlignBox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/simpleAlignBox-example.js"></div>
 
 ### Alignment {: #AlignBox-alignment }
 
 Content can be aligned within this:
 
-<div id="alignBoxAlign-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignBoxAlign-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignBoxAlign-example.js"></div>
 
 ### Margins {: #AlignBox-margins }
 
 And margins can be specified on each side:
 
-<div id="alignBoxMargins-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignBoxMargins-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignBoxMargins-example.js"></div>
 
 Margins can also be used on their own (without `alignBounds` / `align`) to just create a Node with larger bounds:
 
-<div id="alignBoxOnlyMargins-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignBoxOnlyMargins-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignBoxOnlyMargins-example.js"></div>
 
 AlignBox can also be used with preferred dimensions instead of an explicit `alignBounds`:
 
-<div id="alignBoxPreferred-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignBoxPreferred-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignBoxPreferred-example.js"></div>
 
 and can be dynamically resizable (off by default because it's usually not used for that purpose in legacy code):
 
-<div id="alignBoxSizable-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignBoxSizable-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignBoxSizable-example.js"></div>
 
 ### AlignGroup {: #AlignGroup }
 
@@ -566,15 +507,13 @@ AlignGroup handles this with ease. Once you have an AlignGroup, AlignBoxes can b
 `alignGroup.createBox(content, options)`. This has the full power of the AlignBox API, however, the AlignGroup controls
 the bounds of the boxes, so that their widths and heights are all the same.
 
-<div id="alignGroup-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignGroup-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignGroup-example.js"></div>
 
 It is possible to create an AlignGroup which only matches the width OR height (not both), by constructing with
 `matchHorizontal: false` or `matchVertical: false`. In this case, each AlignBox will use its own Node's width or
 height (for the dimension that is not matched). The below example shows this with `matchHorizontal: false`.
 
-<div id="alignGroup-example2" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/alignGroup-example2.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/alignGroup-example2.js"></div>
 
 ## Constraint {: #Constraint }
 
@@ -610,8 +549,7 @@ can be created before all of the Node structure is finalized.
 
 Children are dynamically added/removed in this demo, and `child1` is constantly translated.
 
-<div id="manualConstraint-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/manualConstraint-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/manualConstraint-example.js"></div>
 
 ### FlowConstraint {: #FlowConstraint }
 
@@ -621,8 +559,7 @@ constraint used by FlowBox.
 Example of using FlowBox-like layout with disconnected Nodes that share some ancestor (with qualities similar to
 ManualConstraint):
 
-<div id="flowConstraint-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/flowConstraint-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/flowConstraint-example.js"></div>
 
 ### GridConstraint {: #GridConstraint }
 
@@ -630,5 +567,4 @@ Want to use a GridBox, but the nodes don't have the same parent? Use GridConstra
 
 Example of using GridBox-like layout with disconnected Nodes that share some ancestor (with qualities similar to ManualConstraint):
 
-<div id="gridConstraint-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout/gridConstraint-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout/gridConstraint-example.js"></div>

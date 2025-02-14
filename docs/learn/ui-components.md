@@ -16,12 +16,10 @@ TODO: could put component-specific object/context responses here
 
 The [TextPushButton] is the simplest button, that just takes a string:
 
-<div id="text-push-button-example" class="sandbox-example"></div>
-<script type="module" async src="/js/ui-components/text-push-button-example.js"></script>
+<div class="sandbox-example" data-example="/js/ui-components/text-push-button-example.js"></div>
 
 ### RectangularPushButton
 
 Arbitrary content can be placed into a [RectangularPushButton]:
 
-<div id="rectangular-push-button-example" class="sandbox-example"></div>
-<script type="module" async src="/js/ui-components/rectangular-push-button-example.js"></script>
+<div class="sandbox-example" data-example="/js/ui-components/rectangular-push-button-example.js"></div>

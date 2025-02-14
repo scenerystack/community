@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "dynamic-labels-example", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
     const line = new Line( 0, 0, 400, 0, { stroke: 'black' } );
     const leftLineEnd = new Circle( 3, { fill: 'black', centerX: line.x1, centerY: 0 } )

@@ -1,6 +1,6 @@
 import { createSandbox } from "/js/createSandbox.js";
 
-createSandbox( "getting-started-example-appendix", ( scene, stepEmitter, display ) => {
+export const initialize = div => createSandbox( div, ( scene, stepEmitter, display ) => {
   const box = ( () => {
 
     // This is a bit hacked, where we're ignoring the Display that createSandbox gives us, and creating our own

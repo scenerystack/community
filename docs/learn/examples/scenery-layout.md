@@ -17,8 +17,7 @@ To create a **vertical stack of Panels** that maintain the **same width**, set `
 - On the **parent container**, or  
 - On the **`layoutOptions`** of each `Panel` individually.
 
-<div id="aligning-panels-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/aligning-panels-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/aligning-panels-example.js"></div>
 
 ### Match Button Sizes
 
@@ -26,8 +25,7 @@ To create a **vertical stack of Panels** that maintain the **same width**, set `
 
 To ensure **buttons match the size of the largest button**, use the `align: "stretch"` option on **sizable content** (e.g., buttons).  
 
-<div id="match-button-sizes-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/match-button-sizes-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/match-button-sizes-example.js"></div>
 
 ### Wrap Content
 
@@ -35,8 +33,7 @@ Set `wrap: true` in a `FlowBox` to allow content to **wrap onto the next row or 
 
 This example demonstrates a **legend-style panel** where **label widths dynamically adjust**, causing other entries to wrap accordingly.
 
-<div id="wrap-content-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/wrap-content-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/wrap-content-example.js"></div>
 
 ### Button Alignment
 
@@ -44,8 +41,7 @@ Buttons can **maintain alignment** even as their content resizes.
 
 This example uses a `GridBox` with `stretch: true` to align buttons in the **first column**, ensuring that when one button's width changes, the second column remains **unaffected**.
 
-<div id="button-alignment-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/button-alignment-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/button-alignment-example.js"></div>
 
 ### Resizable Buttons
 
@@ -53,8 +49,7 @@ Buttons can **automatically adjust** to dynamic content width when resized.
 
 By default, buttons are **`sizable: true`**, allowing them to expand or contract based on their content.
 
-<div id="resizable-buttons-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/resizable-buttons-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/resizable-buttons-example.js"></div>
 
 ## Checkboxes
 
@@ -65,15 +60,13 @@ Checkboxes are **`WidthSizable`** and act as containers for their labels.
 For **icons**, you can pass an `HBox` to the label containing two items.  
 The **default justification** will expand items to fit the desired bounds.
 
-<div id="checkbox-icon-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/checkbox-icon-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/checkbox-icon-example.js"></div>
 
 ### Indentation
 
 Margins can be used to **indent checkboxes**.
 
-<div id="checkbox-indented-icon-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/checkbox-indented-icon-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/checkbox-indented-icon-example.js"></div>
 
 ## Transforms
 
@@ -87,22 +80,19 @@ Scale is **maintained and respected** by layout containers.
 - In these cases, the **`preferredWidth`** and **`localPreferredWidth`** of sizable nodes will **differ**, depending on the current transform.  
 - In general, **set `preferredWidth` as normal**, regardless of the applied scale.  
 
-<div id="transforms-scale-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/transforms-scale-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/transforms-scale-example.js"></div>
 
 ### Reflection
 
 Reflection is **supported** but is **rarely needed**.
 
-<div id="transforms-reflection-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/transforms-reflection-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/transforms-reflection-example.js"></div>
 
 ### Rotation
 
 Rotation is **supported**.
 
-<div id="transforms-rotation-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/transforms-rotation-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/transforms-rotation-example.js"></div>
 
 ## Flow Constraint
 
@@ -110,8 +100,7 @@ Rotation is **supported**.
 
 `FlowConstraint` allows a **parent and child** to have **disconnected positions and bounds**.
 
-<div id="disconnected-flow-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/disconnected-flow-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/disconnected-flow-example.js"></div>
 
 ### Flow Stress Test
 
@@ -119,8 +108,7 @@ A **FlowBox** containing **300 rectangles** of random sizes demonstrates **horiz
 
 This stress test shows how the layout **successfully handles various rectangle sizes** while maintaining proper alignment.
 
-<div id="flow-stress-test-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/flow-stress-test-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/flow-stress-test-example.js"></div>
 
 ## Grid Constraint
 
@@ -130,8 +118,7 @@ A **GridBox** containing **900 rectangles** of random sizes, each placed in its 
 
 This test shows how the **grid dynamically adjusts row and column sizes** to accommodate varying rectangle dimensions.
 
-<div id="grid-stress-test-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/grid-stress-test-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/grid-stress-test-example.js"></div>
 
 ## Manual Constraint
 
@@ -141,8 +128,7 @@ A **resizer animation** demonstrates how **Manual Constraint** can link the layo
 
 As the `rightText`'s **Y-coordinate changes**, the `leftText` remains **aligned** with its position.
 
-<div id="disconnected-nodes-alignment-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/disconnected-nodes-alignment-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/disconnected-nodes-alignment-example.js"></div>
 
 ### Dynamic Centering
 
@@ -157,8 +143,7 @@ To set up custom positioning:
 - **Second argument** → An **array of nodes** that should trigger or be manipulated by the constraint.  
 - **Third argument** → A **callback function** that executes whenever the bounds of the specified nodes change.
 
-<div id="dynamic-centering-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/dynamic-centering-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/dynamic-centering-example.js"></div>
 
 ### Dynamic Labels
 
@@ -169,8 +154,7 @@ To enhance clarity, a **label** must accompany the arrow, dynamically adjusting 
 
 Using **`ManualConstraint.create`**, developers can **link two separate nodes**, ensuring that when one node's **X or Y position** changes, the other **updates accordingly**.
 
-<div id="dynamic-labels-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/dynamic-labels-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/dynamic-labels-example.js"></div>
 
 ## Align Group
 
@@ -184,8 +168,7 @@ This example demonstrates how `AlignGroup` simplifies this process with minimal 
 
 💡 *Imagine each panel is located on a different screen, and observe how their widths and heights remain synchronized.*
 
-<div id="cross-screen-alignment-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/cross-screen-alignment-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/cross-screen-alignment-example.js"></div>
 
 ## Origin
 
@@ -198,8 +181,7 @@ Demonstrates the **orientation feature** for alignment in **Flow** and **Grid** 
 When **`origin`** is used for alignment:
 - All nodes are placed so that their **x = 0** or **y = 0** positions align along the same **vertical or horizontal line**.
 
-<div id="origin-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/origin-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/origin-example.js"></div>
 
 ## Separators
 
@@ -207,5 +189,4 @@ When **`origin`** is used for alignment:
 
 This example demonstrates how **separators dynamically adjust** when content is **added or removed** in a panel.
 
-<div id="disappearing-node-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-layout-examples/disappearing-node-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-layout-examples/disappearing-node-example.js"></div>

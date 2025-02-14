@@ -29,8 +29,7 @@ First, create a block-level element (like a div) that has declared dimensions:
 Then the following code will create a [Display] and render a [Text] and an [Image] inside:
 
 <div id="getting-started-example" class="sandbox-example" style="width: 400px; height: 100px; margin: 0 auto; border: 1px solid black;"></div>
-<div id="getting-started-example-appendix" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/getting-started-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/getting-started-example.js"></div>
 
 !!! note
     All the code examples on this page are editable! Feel free to try them out—editing the code will update the example 
@@ -49,14 +48,12 @@ children, which are other nodes that are positioned relative to their parent.
 SceneryStack often uses a declarative syntax to create nodes. For example, you can create a [TextPushButton] node with a
 specific font and color:
 
-<div id="declarative-pushbutton-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/declarative-pushbutton-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/declarative-pushbutton-example.js"></div>
 
 All of the primitive Scenery nodes also support an imperative syntax for all of their parameters for maximizing
 performance:
 
-<div id="mutation-rectangle-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/mutation-rectangle-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/mutation-rectangle-example.js"></div>
 
 When using the declarative options syntax, the parameters are executed in an order such that anything that affects
 the size of the node will be applied before anything that depends on the position of the node (e.g. `center`).
@@ -70,13 +67,11 @@ being drawn behind later entries (e.g., `node.children[1]`).
 In addition, any Node can have children, including ones that display their own content. In that case, the parent's content
 will be behind the child's content.
 
-<div id="children-ordering-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/children-ordering-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/children-ordering-example.js"></div>
 
 Children can also be added to a node using the `addChild()` method:
 
-<div id="add-child-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/add-child-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/add-child-example.js"></div>
 
 and the ability to `removeChild()` or `insertChild()` exists for when you need to modify the children of a node.
 
@@ -86,20 +81,17 @@ Shapes are displayed with the [Path] subtype of [Node]. There are a number of fl
 [Rectangle], [Circle], and [Line]. All [Path] types (along with anything [Paintable], like [Text]) can take fills, strokes, and
 other parameters that control their appearance.
 
-<div id="path-basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/path-basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/path-basic-example.js"></div>
 
 It is also possible to create custom shapes with the [Shape] object. The API is very similar to the 
 [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) API, where
 the path commands are used to define the [Shape]:
 
-<div id="path-shape-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/path-shape-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/path-shape-example.js"></div>
 
 [Path] objects can also be created with a SVG path string (see [documentation for the SVG path syntax](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d)):
 
-<div id="path-svg-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/path-svg-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/path-svg-example.js"></div>
 
 To learn more about [Shape] objects, see the [Shape Guide](./shapes.md).
 
@@ -109,14 +101,12 @@ To learn more about [Shape] objects, see the [Shape Guide](./shapes.md).
 
 Basic text is displayed with the [Text] subtype of [Node]. The text can be styled with the `font`, `fill`, and `stroke`.
 
-<div id="text-basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/text-basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/text-basic-example.js"></div>
 
 [Text] nodes take in either a `string` or a `TReadOnlyProperty<string>` object (a [Property], [ReadOnlyProperty], or [TinyProperty] with a string value).
 They will dynamically update their displayed text when the Property changes, to support dynamic and translated content:
 
-<div id="text-property-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/text-property-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/text-property-example.js"></div>
 
 **Note**: Text is positioned so that the origin of the node is at the left baseline of the text.
 
@@ -124,13 +114,11 @@ They will dynamically update their displayed text when the Property changes, to 
 
 [RichText] is capable of displaying a subset of HTML-like content:
 
-<div id="richtext-basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/richtext-basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/richtext-basic-example.js"></div>
 
 It is also possible to embed arbitrary Scenery nodes in a [RichText]:
 
-<div id="richtext-embed-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/richtext-embed-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/richtext-embed-example.js"></div>
 
 See the [RichText] documentation for more information on all supported options and tags.
 
@@ -138,8 +126,7 @@ See the [RichText] documentation for more information on all supported options a
 
 Images can be displayed (with the upper-left corner at the origin of the node) with the [Image] subtype of [Node].
 
-<div id="image-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/image-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/image-example.js"></div>
 
 The source of images can be either a URL, a [CanvasHTMLElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas),
 an [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement), or a special type to support
@@ -153,8 +140,7 @@ an `initialWidth` or `initialHeight` to the [Image] constructor to provide bound
 DOM elements can be added, and will be transformed with CSS transforms to be in the expected place (their origin will be
 at the top-left corner of the element).
 
-<div id="dom-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/dom-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/dom-example.js"></div>
 
 **Note**: `allowInput: true` is required if you want to interact with the DOM element.
 
@@ -174,37 +160,32 @@ Common ways to adjust (or read) the positions of a node include:
 The `translation` property of a node is a [Vector2] that represents the position of the node in the parent's coordinate
 frame. For example, to move a node 100 units to the right and 50 units down:
 
-<div id="translation-vector2-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/translation-vector2-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/translation-vector2-example.js"></div>
 
 The translation can be broken up into x and y components, that can be accessed and modified individually:
 
-<div id="translation-xy-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/translation-xy-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/translation-xy-example.js"></div>
 
 ### Rotation
 
 The `rotation` property of a node is a number that represents the rotation of the node in radians. For example, to rotate
 a node $\pi/6$ radians:
 
-<div id="rotation-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/rotation-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/rotation-example.js"></div>
 
 ### Scaling
 
 The `scale` property of a node is a [Vector2] that represents the scaling of the node in the x and y directions.
 Usually, the x and y components are the same, and thus can be adjusted with a single number:
 
-<div id="scale-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/scale-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/scale-example.js"></div>
 
 ### Matrix
 
 If you need to apply a more complex transformation, you can use the `matrix` property of a node. This property is a
 [Matrix3] that represents the full transformation of the node. For example, to apply a rotation and translation:
 
-<div id="matrix-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/matrix-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/matrix-example.js"></div>
 
 Corresponding to:
 
@@ -259,8 +240,7 @@ dislayed $x$ values of $0$ to $100$ and $y$ values of $0$ to $50$ within the *lo
 If the [Rectangle] has a scale of $2$ applied (doubling the size) and is rotated, each point in the rectangle will have
 different coordinates in the *parent* coordinate frame (except for the origin).
 
-<div id="coordinate-frame-diagram" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/coordinate-frame-diagram.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/coordinate-frame-diagram.js"></div>
 
 #### Global Coordinate Frame
 
@@ -310,8 +290,7 @@ position nodes based on their bounds:
 If these options are used declaratively, they will be applied after any other options that will affect the bounds of the
 node (e.g. a [Node] will be first scaled or rotated, and only THEN positioned based on the bounds).
 
-<div id="positional-coordinates-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/positional-coordinates-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/positional-coordinates-example.js"></div>
 
 ### Layout
 
@@ -323,37 +302,32 @@ create more complex layouts:
 [HBox] positions content similarly to a horizontal flexbox in CSS, where the content is laid out in a row (or rows), and the
 content can be aligned to the top, center, or bottom of the row.
 
-<div id="hbox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/hbox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/hbox-example.js"></div>
 
 #### VBox
 
 [VBox] positions content similarly to a vertical flexbox in CSS, where the content is laid out in a column (or columns), and the
 content can be aligned to the left, center, or right of the column.
 
-<div id="vbox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/vbox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/vbox-example.js"></div>
 
 #### GridBox
 
 [GridBox] positions content in a grid, where the content is laid out in rows and columns.
 
-<div id="gridbox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/gridbox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/gridbox-example.js"></div>
 
 #### AlignBox
 
 [AlignBox] allows positioning a [Node] within a rectangle, with margins and/or alignment.
 
-<div id="alignbox-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/alignbox-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/alignbox-example.js"></div>
 
 #### ManualConstraint
 
 [ManualConstraint] allows for continuously applying imperative-style layout constraints between two or more nodes.
 
-<div id="manualconstraint-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/manualconstraint-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/manualconstraint-example.js"></div>
 
 See the [Scenery Layout](./scenery-layout.md) guide for more information on how to use these layout primitives.
 
@@ -373,8 +347,7 @@ be placed in the DOM).
 
 Pass an element to the `container` option of [Display]'s constructor:
 
-<div id="display-preexisting-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/display-preexisting-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/display-preexisting-example.js"></div>
 
 Scenery by default will apply CSS styles to the container. Typically it is best to have a containing block (element
 with `position: relative/absolute/fixed`) around a [Display] to ensure that the [Display] is positioned correctly.
@@ -384,8 +357,7 @@ with `position: relative/absolute/fixed`) around a [Display] to ensure that the 
 A [Display] will by default create its own element. This can be accessed with `display.domElement`, and can be added to
 the DOM:
 
-<div id="display-create-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/display-create-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/display-create-example.js"></div>
 
 ### Updating the Display
 
@@ -399,8 +371,7 @@ changes size the [Display] will not update size.
 
 The [Display] can be manually sized with the `width` and `height` (and those can be mutated in the future):
 
-<div id="display-size-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/display-size-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/display-size-example.js"></div>
 
 It also has a method `resizeOnWindowResize()` which can be used to automatically resize the [Display] when the window
 resizes.
@@ -416,13 +387,11 @@ or by manually listening to animation frames from the browser with [requestAnima
 When using `updateOnRequestAnimationFrame()`, a difference in time (delta-T, or `dt`) will be passed to the update function.
 This can be used to create smooth animations that are independent of the frame rate:
 
-<div id="animation-basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/animation-basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/animation-basic-example.js"></div>
 
 The [Animation] type (and *twixt* module in general) are very helpful for creating simple animations:
 
-<div id="animation-twixt-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/animation-twixt-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/animation-twixt-example.js"></div>
 
 For more complex animations, it is recommended to rely on positioning/manipulating nodes based on `dt`.
 
@@ -434,18 +403,15 @@ Scenery has an event dispatch system, somewhat similar to how DOM events work. T
 `display.initializeEvents()`. The [Display] will then listen for mouse, touch and pen events, and dispatch them to the
 appropriate nodes:
 
-<div id="interaction-basic-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/interaction-basic-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/interaction-basic-example.js"></div>
 
 Scenery has an event system that supports low-level event handling:
 
-<div id="interaction-low-level-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/interaction-low-level-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/interaction-low-level-example.js"></div>
 
 and high-level event handling:
 
-<div id="interaction-high-level-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/interaction-high-level-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/interaction-high-level-example.js"></div>
 
 For common interactions, it is recommended to use [DragListener] (for drags) or [FireListener] (for button-like interactions),
 or the more general [PressListener].
@@ -462,16 +428,14 @@ so that buttons or other nodes will respond to presses over a different region.
 This is most useful when dealing with touch interfaces, where it can be best to expand the touchAreas of nodes to make
 them easier to interact with.
 
-<div id="pointer-areas-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/pointer-areas-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/pointer-areas-example.js"></div>
 
 ### Cursors
 
 The cursor that is displayed when the mouse is over a node can be adjusted with the `cursor` property of a node (try
 hovering over the examples here with a mouse):
 
-<div id="cursors-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/cursors-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/cursors-example.js"></div>
 
 See [MDN's cursor reference](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) for all of the possible cursor values.
 
@@ -480,8 +444,7 @@ See [MDN's cursor reference](https://developer.mozilla.org/en-US/docs/Web/CSS/cu
 By default, placing an input listener on a node will make ALL of its contents receive and forward events. Sometimes
 it is helpful to have some contents of a node be "invisible" to interaction. This can be done by setting `pickable` to false:
 
-<div id="pickable-false-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/pickable-false-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/pickable-false-example.js"></div>
 
 If you want to disable input handling on a node entirely, but still want it to block events from passing through it
 (as if it was invisible), `inputEnabled` can be used instead.
@@ -489,8 +452,7 @@ If you want to disable input handling on a node entirely, but still want it to b
 Additionally, `pickable` can also be explicitly set to true to force a [Node] that has no input listeners to block input
 from things behind it:
 
-<div id="pickable-true-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/pickable-true-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/pickable-true-example.js"></div>
 
 ## Accessibility
 
@@ -500,21 +462,18 @@ creates a *parallel DOM* structure of DOM elements that is invisible, but can be
 Most UI components have lower-level details already provided, and they should be given an `accessibleName` and ideally
 `accessibleHelpText`:
 
-<div id="a11y-basics-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/a11y-basics-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/a11y-basics-example.js"></div>
 
 Scenery also provides access to the lower-level DOM manipulation, scaffolding each [Node] such that it can have separate
 DOM elements for itself, a label, its description, and for the surrounding container. In addition, the content is
 dynamic by nature, and can be updated with the current state:
 
-<div id="a11y-siblings-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/a11y-siblings-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/a11y-siblings-example.js"></div>
 
 It is also possible to trigger alerts via [ARIA live](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)
 to users when specific events happen (here we will make alerts visible at the bottom of your screen):
 
-<div id="a11y-alerts-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/a11y-alerts-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/a11y-alerts-example.js"></div>
 
 The [Scenery Accessibility](./scenery-accessibility.md) guide has more information on how to use Scenery's accessibility features.
 
@@ -524,8 +483,7 @@ Scenery doesn't restrict the nodes to a [tree](https://en.wikipedia.org/wiki/Tre
 nodes to have multiple parents in a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG).
 This prevents loops, but allows a single node to be displayed in multiple places:
 
-<div id="dag-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/dag-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/dag-example.js"></div>
 
 Note that the node has multiple parents that each have a different transform applied to them. It is not valid to have
 a parent node with multiple copies of the same child node (they would be identical).
@@ -538,8 +496,7 @@ The input system will differentiate between which instance of a [Node] is being 
 Scenery can also display a large number of sprites (static images) very efficiently. This is done either with WebGL
 or Canvas. Each can have its own transform and opacity:
 
-<div id="sprites-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/sprites-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/sprites-example.js"></div>
 
 ## Node Properties
 
@@ -548,36 +505,31 @@ or Canvas. Each can have its own transform and opacity:
 Setting a node's `visible` property to `false` will make it not render (and not receive input events). In addition,
 layout containers by default will not allocate space for invisible nodes:
 
-<div id="visible-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/visible-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/visible-example.js"></div>
 
 ### Opacity
 
 Opacity will control how transparent a [Node] will appear. It can range from 0 (completely transparent) to 1 (completely
 opaque):
 
-<div id="opacity-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/opacity-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/opacity-example.js"></div>
 
 ### Clip Area
 
 A clip area can restrict the shape of the visible content of a [Node] (and its descendants). Content outside the clip
 area will not be shown:
 
-<div id="clip-area-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/clip-area-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/clip-area-example.js"></div>
 
 ### Filters
 
 A [Node] can have one or more filters applied to it, that affect the color of the content or apply another effect:
 
-<div id="filters-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/filters-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/filters-example.js"></div>
 
 ### Renderer
 
 Scenery can render many types of nodes across different rendering backends. In addition, it can seamlessly combine
 the rendering of different types of nodes (e.g. SVG and WebGL) in the same scene graph:
 
-<div id="renderer-example" class="sandbox-example"></div>
-<script type="module" async src="/js/scenery-basics/renderer-example.js"></script>
+<div class="sandbox-example" data-example="/js/scenery-basics/renderer-example.js"></div>

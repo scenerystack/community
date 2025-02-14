@@ -62,8 +62,7 @@ TODO: sun/scenery-phet components
 
 Scenery supports rendering with Canvas, SVG, and WebGL, even with a mix of each within the same application!
 
-<div id="renderer-example" class="sandbox-example"></div>
-<script type="module" async src="/js/features/renderer-example.js"></script>
+<div class="sandbox-example" data-example="/js/features/renderer-example.js"></div>
 
 ### Include DOM Elements
 
