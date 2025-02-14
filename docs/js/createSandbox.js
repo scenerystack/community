@@ -126,7 +126,7 @@ export const createSandbox = ( divOrId, func, providedOptions ) => {
     }
   }
 
-  console.log( `creating sandbox for ${id}` );
+  // console.log( `creating sandbox for ${id}` );
 
   const disposeEmitter = new TinyEmitter();
 
@@ -332,7 +332,7 @@ export const createSandbox = ( divOrId, func, providedOptions ) => {
   {
     const interval = setInterval( () => {
       if ( !parentElement.isConnected ) {
-        console.log(`disposing sandbox for ${id}`);
+        // console.log(`disposing sandbox for ${id}`);
 
         disposeEmitter.emit();
         display.dispose();
