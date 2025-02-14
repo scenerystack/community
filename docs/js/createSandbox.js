@@ -108,6 +108,10 @@ scenerystackImportsPromise.then( actualImports => {
 
 export const createSandbox = ( id, func, providedOptions ) => {
 
+  console.log( `creating sandbox for ${id}` );
+
+  const disposeEmitter = new TinyEmitter();
+
   const { js, jsBefore, jsAfter } = extractFunctionJS( func );
 
   const options = merge( {
@@ -174,6 +178,7 @@ export const createSandbox = ( id, func, providedOptions ) => {
 
   if ( options.showPDOM ) {
     const pdomHTMLProperty = getPDOMHTMLProperty( display );
+    disposeEmitter.addListener( () => pdomHTMLProperty.dispose() );
 
     const label = document.createElement( 'label' );
     label.htmlFor = `pdom-${id}`;
@@ -241,30 +246,6 @@ export const createSandbox = ( id, func, providedOptions ) => {
     } );
   }
 
-  const isDescendant = function( parent, child ) {
-    let node = child;
-    while ( node ) {
-      if ( node === parent ) {
-        return true;
-      }
-
-      // Traverse up to the parent
-      node = node.parentNode;
-    }
-
-    // Go up until the root but couldn't find the `parent`
-    return false;
-  };
-
-  window.addEventListener( 'keydown', event => {
-    // if shift-enter is pressed
-    if ( event.keyCode === 13 && event.shiftKey && isDescendant( document.getElementById( 'code' ), document.activeElement ) ) {
-      run();
-
-      event.preventDefault();
-    }
-  } );
-
   const stepEmitter = new TinyEmitter();
 
   if ( options.showDisplay ) {
@@ -330,4 +311,19 @@ export const createSandbox = ( id, func, providedOptions ) => {
   codeMirror.on( 'change', editor => run && run() );
 
   run();
+
+  // Clean up sandbox when it is removed, see https://github.com/scenerystack/community/issues/130
+  {
+    const interval = setInterval( () => {
+      if ( !document.getElementById( id ) ) {
+        console.log(`disposing sandbox for ${id}`);
+
+        disposeEmitter.emit();
+        display.dispose();
+        container.disposeSubtree();
+
+        clearInterval( interval );
+      }
+    }, 100 );
+  }
 };

@@ -4,7 +4,7 @@ export const getAriaLiveEmitter = display => {
   const emitter = new Emitter();
 
   display.descriptionUtteranceQueue.announcer.ariaLiveContainer.childNodes.forEach( ariaLiveElement => {
-    new MutationObserver( mutations => {
+    const observer = new MutationObserver( mutations => {
       mutations.forEach( mutation => {
         // Only display added DOM nodes. ariaLiveAnnouncer will remove the content from aria-live elements so that it
         // can't be read by the virtual cursor. This registers as a "mutation", but we don't want to display
@@ -16,11 +16,16 @@ export const getAriaLiveEmitter = display => {
           emitter.emit( alertText, isAssertive );
         }
       } );
-    } ).observe( ariaLiveElement, {
+    } );
+    observer.observe( ariaLiveElement, {
       attributes: true,
       childList: true,
       characterData: true,
       subtree: true
+    } );
+
+    emitter.getDisposeEmitter().addListener( () => {
+      observer.disconnect();
     } );
   } );
 

@@ -4,13 +4,18 @@ import { beautifyPDOM } from './beautifyPDOM.js';
 export const getPDOMHTMLProperty = display => {
   const property = new StringProperty( '' );
 
-  new MutationObserver( () => {
+  const observer = new MutationObserver( () => {
     property.value = beautifyPDOM( display.getPDOMRootElement().innerHTML );
-  } ).observe( display.getPDOMRootElement(), {
+  } );
+  observer.observe( display.getPDOMRootElement(), {
     attributes: true,
     childList: true,
     characterData: true,
     subtree: true
+  } );
+
+  property.getDisposeEmitter().addListener( () => {
+    observer.disconnect();
   } );
 
   return property;
