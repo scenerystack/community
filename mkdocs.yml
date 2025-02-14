@@ -88,8 +88,7 @@ theme:
 # Plugins
 plugins:
   # - blog
-  - search:
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - search
   - minify:
       minify_html: true
 
