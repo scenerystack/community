@@ -11,7 +11,7 @@
 ## Type IntentionalPerennialAny {: #IntentionalPerennialAny }
 
 
-eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 
 ```js
 import type { IntentionalPerennialAny } from 'scenerystack/perennial';

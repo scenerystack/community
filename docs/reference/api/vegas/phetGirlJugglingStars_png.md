@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="phetGirlJugglingStars_png">
+<script type="module">
+import { phetGirlJugglingStars_png } from '/lib/scenerystack.esm.min.js';
+
+if ( phetGirlJugglingStars_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = phetGirlJugglingStars_png.src;
+}
+else if ( Array.isArray( phetGirlJugglingStars_png ) ) {
+  document.querySelector( '#doc-image' ).src = phetGirlJugglingStars_png[ 0 ].url;
+}
+</script>
+
 
 
 

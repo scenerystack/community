@@ -6,8 +6,6 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
 Auto-generated from scenerystack build
 
 

@@ -9,7 +9,6 @@
 Exports for assert (and added controls)
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
-eslint-disable-next-line phet/bad-typescript-text
 @ts-nocheck
 
 

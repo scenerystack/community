@@ -22,7 +22,6 @@ unexpectedly.
 A type that is used for the structural typing when gathering metadata. We just need a "PhetioObject-like" entity
 to pull the API metadata from. Thus, this is the "input" to logic that would pull the metadata keys into an object
 for the PhetioAPI.
-eslint-disable-next-line phet/phet-io-object-options-should-not-pick-from-phet-io-object
 
 ```js
 import type { PhetioObjectMetadataInput } from 'scenerystack/tandem';

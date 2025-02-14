@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="measuringTape_png">
+<script type="module">
+import { measuringTape_png } from '/lib/scenerystack.esm.min.js';
+
+if ( measuringTape_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = measuringTape_png.src;
+}
+else if ( Array.isArray( measuringTape_png ) ) {
+  document.querySelector( '#doc-image' ).src = measuringTape_png[ 0 ].url;
+}
+</script>
+
 
 
 

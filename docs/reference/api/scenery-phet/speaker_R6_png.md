@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="speaker_R6_png">
+<script type="module">
+import { speaker_R6_png } from '/lib/scenerystack.esm.min.js';
+
+if ( speaker_R6_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = speaker_R6_png.src;
+}
+else if ( Array.isArray( speaker_R6_png ) ) {
+  document.querySelector( '#doc-image' ).src = speaker_R6_png[ 0 ].url;
+}
+</script>
+
 
 
 

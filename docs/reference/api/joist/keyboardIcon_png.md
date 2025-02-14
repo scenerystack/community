@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="keyboardIcon_png">
+<script type="module">
+import { keyboardIcon_png } from '/lib/scenerystack.esm.min.js';
+
+if ( keyboardIcon_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = keyboardIcon_png.src;
+}
+else if ( Array.isArray( keyboardIcon_png ) ) {
+  document.querySelector( '#doc-image' ).src = keyboardIcon_png[ 0 ].url;
+}
+</script>
+
 
 
 

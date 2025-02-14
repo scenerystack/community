@@ -41,12 +41,11 @@ Examples:
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 Include @param and @returns in the JSDoc comments for JSDoc api documentation
-/* eslint-disable phet/bad-typescript-text */
 
 ## Class SimVersion {: #SimVersion }
 
 
-eslint-disable-next-line phet/default-export-class-should-register-namespace
+
 
 ```js
 import { SimVersion } from 'scenerystack/perennial';

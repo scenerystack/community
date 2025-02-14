@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="flame_png">
+<script type="module">
+import { flame_png } from '/lib/scenerystack.esm.min.js';
+
+if ( flame_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = flame_png.src;
+}
+else if ( Array.isArray( flame_png ) ) {
+  document.querySelector( '#doc-image' ).src = flame_png[ 0 ].url;
+}
+</script>
+
 
 
 

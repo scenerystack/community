@@ -12,7 +12,6 @@ TODO: consider adding affine flag if it will help performance (a la Matrix3) htt
 TODO: get rotation angles
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
-/* eslint-disable phet/bad-sim-text */
 
 ## Class Matrix4 {: #Matrix4 }
 

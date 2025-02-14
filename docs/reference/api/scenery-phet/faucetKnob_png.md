@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="faucetKnob_png">
+<script type="module">
+import { faucetKnob_png } from '/lib/scenerystack.esm.min.js';
+
+if ( faucetKnob_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = faucetKnob_png.src;
+}
+else if ( Array.isArray( faucetKnob_png ) ) {
+  document.querySelector( '#doc-image' ).src = faucetKnob_png[ 0 ].url;
+}
+</script>
+
 
 
 

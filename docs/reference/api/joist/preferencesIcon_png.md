@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="preferencesIcon_png">
+<script type="module">
+import { preferencesIcon_png } from '/lib/scenerystack.esm.min.js';
+
+if ( preferencesIcon_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = preferencesIcon_png.src;
+}
+else if ( Array.isArray( preferencesIcon_png ) ) {
+  document.querySelector( '#doc-image' ).src = preferencesIcon_png[ 0 ].url;
+}
+</script>
+
 
 
 

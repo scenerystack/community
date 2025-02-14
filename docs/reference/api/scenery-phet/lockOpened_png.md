@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="lockOpened_png">
+<script type="module">
+import { lockOpened_png } from '/lib/scenerystack.esm.min.js';
+
+if ( lockOpened_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = lockOpened_png.src;
+}
+else if ( Array.isArray( lockOpened_png ) ) {
+  document.querySelector( '#doc-image' ).src = lockOpened_png[ 0 ].url;
+}
+</script>
+
 
 
 

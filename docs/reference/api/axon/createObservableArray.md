@@ -8,7 +8,6 @@
 
 createObservableArray conforms to the Proxy interface, which is polluted with `any` types.  Therefore we disable
 this rule for this file.
-/* eslint-disable @typescript-eslint/no-explicit-any */
 Creates an object that has the same API as an Array, but also supports notifications and PhET-iO. When an item
 is added or removed, the lengthProperty changes before elementAddedEmitter or elementRemovedEmitter emit.
 

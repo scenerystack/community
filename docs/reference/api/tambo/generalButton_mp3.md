@@ -6,8 +6,16 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+<audio controls id="doc-audio">
+<script type="module">
+import { generalButton_mp3 } from '/lib/scenerystack.esm.min.js';
+import { audioBufferToURL } from '/js/audioBufferToURL.js';
+
+generalButton_mp3.audioBufferProperty.lazyLink( async audioBuffer => {
+  document.querySelector( '#doc-audio' ).src = await audioBufferToURL( audioBuffer );
+} );
+</script>
 
 
 

@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="logoOnWhite_png">
+<script type="module">
+import { logoOnWhite_png } from '/lib/scenerystack.esm.min.js';
+
+if ( logoOnWhite_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = logoOnWhite_png.src;
+}
+else if ( Array.isArray( logoOnWhite_png ) ) {
+  document.querySelector( '#doc-image' ).src = logoOnWhite_png[ 0 ].url;
+}
+</script>
+
 
 
 

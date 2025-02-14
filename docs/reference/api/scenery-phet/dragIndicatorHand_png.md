@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="dragIndicatorHand_png">
+<script type="module">
+import { dragIndicatorHand_png } from '/lib/scenerystack.esm.min.js';
+
+if ( dragIndicatorHand_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = dragIndicatorHand_png.src;
+}
+else if ( Array.isArray( dragIndicatorHand_png ) ) {
+  document.querySelector( '#doc-image' ).src = dragIndicatorHand_png[ 0 ].url;
+}
+</script>
+
 
 
 

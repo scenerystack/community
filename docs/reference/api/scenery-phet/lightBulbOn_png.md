@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="lightBulbOn_png">
+<script type="module">
+import { lightBulbOn_png } from '/lib/scenerystack.esm.min.js';
+
+if ( lightBulbOn_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = lightBulbOn_png.src;
+}
+else if ( Array.isArray( lightBulbOn_png ) ) {
+  document.querySelector( '#doc-image' ).src = lightBulbOn_png[ 0 ].url;
+}
+</script>
+
 
 
 

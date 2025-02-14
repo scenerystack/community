@@ -16,7 +16,6 @@ names, serialization, etc.
 
 
 StateType is the whole thing, SelfStateType is just at this level
-export default class IOType&lt;T = any, SelfStateType = any, ParentStateType = EmptyParent, StateType extends SelfStateType &amp; ParentStateType = SelfStateType &amp; ParentStateType&gt; { // eslint-disable-line @typescript-eslint/no-explicit-any
 
 ```js
 import { IOType } from 'scenerystack/tandem';

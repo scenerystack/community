@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="phetGirlWaggingFinger_png">
+<script type="module">
+import { phetGirlWaggingFinger_png } from '/lib/scenerystack.esm.min.js';
+
+if ( phetGirlWaggingFinger_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = phetGirlWaggingFinger_png.src;
+}
+else if ( Array.isArray( phetGirlWaggingFinger_png ) ) {
+  document.querySelector( '#doc-image' ).src = phetGirlWaggingFinger_png[ 0 ].url;
+}
+</script>
+
 
 
 

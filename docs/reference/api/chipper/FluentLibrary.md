@@ -6,7 +6,6 @@
 
 ## Overview
 
-/* eslint-disable phet/default-export-class-should-register-namespace */
 An entry point for the Fluent library. In the browser-and-node directory, it lets Fluent be used by
 both simulation code and during the grunt modulify process. Follow tsconfig-dependencies.json to see
 how Fluent code is referenced for typescript. See the README in the sherpa/lib/fluent directory

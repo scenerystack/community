@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="eyeDropperBackground_png">
+<script type="module">
+import { eyeDropperBackground_png } from '/lib/scenerystack.esm.min.js';
+
+if ( eyeDropperBackground_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = eyeDropperBackground_png.src;
+}
+else if ( Array.isArray( eyeDropperBackground_png ) ) {
+  document.querySelector( '#doc-image' ).src = eyeDropperBackground_png[ 0 ].url;
+}
+</script>
+
 
 
 

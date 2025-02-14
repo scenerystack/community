@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="iceCubeStack_png">
+<script type="module">
+import { iceCubeStack_png } from '/lib/scenerystack.esm.min.js';
+
+if ( iceCubeStack_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = iceCubeStack_png.src;
+}
+else if ( Array.isArray( iceCubeStack_png ) ) {
+  document.querySelector( '#doc-image' ).src = iceCubeStack_png[ 0 ].url;
+}
+</script>
+
 
 
 

@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="faucetHorizontalPipe_png">
+<script type="module">
+import { faucetHorizontalPipe_png } from '/lib/scenerystack.esm.min.js';
+
+if ( faucetHorizontalPipe_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = faucetHorizontalPipe_png.src;
+}
+else if ( Array.isArray( faucetHorizontalPipe_png ) ) {
+  document.querySelector( '#doc-image' ).src = faucetHorizontalPipe_png[ 0 ].url;
+}
+</script>
+
 
 
 

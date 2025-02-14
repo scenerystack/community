@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="faucetStop_png">
+<script type="module">
+import { faucetStop_png } from '/lib/scenerystack.esm.min.js';
+
+if ( faucetStop_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = faucetStop_png.src;
+}
+else if ( Array.isArray( faucetStop_png ) ) {
+  document.querySelector( '#doc-image' ).src = faucetStop_png[ 0 ].url;
+}
+</script>
+
 
 
 

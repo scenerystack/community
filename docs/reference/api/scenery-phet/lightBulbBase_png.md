@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="lightBulbBase_png">
+<script type="module">
+import { lightBulbBase_png } from '/lib/scenerystack.esm.min.js';
+
+if ( lightBulbBase_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = lightBulbBase_png.src;
+}
+else if ( Array.isArray( lightBulbBase_png ) ) {
+  document.querySelector( '#doc-image' ).src = lightBulbBase_png[ 0 ].url;
+}
+</script>
+
 
 
 

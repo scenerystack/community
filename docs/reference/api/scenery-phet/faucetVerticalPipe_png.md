@@ -6,8 +6,20 @@
 
 ## Overview
 
-/* eslint-disable */
-/* @formatter:off */
+
+
+<img id="doc-image" alt="faucetVerticalPipe_png">
+<script type="module">
+import { faucetVerticalPipe_png } from '/lib/scenerystack.esm.min.js';
+
+if ( faucetVerticalPipe_png instanceof HTMLImageElement ) {
+  document.querySelector( '#doc-image' ).src = faucetVerticalPipe_png.src;
+}
+else if ( Array.isArray( faucetVerticalPipe_png ) ) {
+  document.querySelector( '#doc-image' ).src = faucetVerticalPipe_png[ 0 ].url;
+}
+</script>
+
 
 
 

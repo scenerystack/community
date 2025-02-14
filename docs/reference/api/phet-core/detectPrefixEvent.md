@@ -6,7 +6,6 @@
 
 ## Overview
 
-/* eslint-disable no-useless-concat */
 Scans through potential event properties on an object to detect prefixed forms, and returns the first match.
 
 E.g. currently:
