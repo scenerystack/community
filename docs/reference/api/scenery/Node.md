@@ -82,14 +82,14 @@ visibility, opacity, etc.
 ## Creating Nodes
 
 Generally, there are two types of Nodes:
-- Nodes that don't display anything, but serve as a container for other Nodes (e.g. Node itself, HBox, VBox)
-- Nodes that display content, but ALSO serve as a container (e.g. Circle, Image, Text)
+- Nodes that don't display anything, but serve as a container for other Nodes (e.g. [Node](../scenery/Node.md) itself, [HBox](../scenery/HBox.md), [VBox](../scenery/VBox.md))
+- Nodes that display content, but ALSO serve as a container (e.g. [Circle](../scenery/Circle.md), [Image](../scenery/Image.md), [Text](../scenery/Text.md))
 
 When a Node is created with the default Node constructor, e.g.:
   var node = new Node();
 then that Node will not display anything by itself.
 
-Generally subtypes of Node are used for displaying things, such as Circle, e.g.:
+Generally subtypes of Node are used for displaying things, such as [Circle](../scenery/Circle.md), e.g.:
   var circle = new Circle( 20 ); // radius of 20
 
 Almost all Nodes (with the exception of leaf-only Nodes like Spacer) can contain children.
@@ -1947,7 +1947,7 @@ A default for getLeafTrails() searches, returns whether the Node has no parents.
 
 (readonly)
 
-{Object} - A mapping of all of options that require Bounds to be applied properly. Most often these should be set through `mutate` in the end of the construcor instead of being passed through `super()`
+{Object} - A mapping of all of options that require Bounds to be applied properly. Most often these should be set through [mutate](../phet-core/mutate.md) in the end of the construcor instead of being passed through `super()`
 
 #### NodeIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #NodeIO data-toc-label='NodeIO' }
 

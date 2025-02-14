@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 TODO: link over from https://phet.colorado.edu/en/inclusive-design/features for all of the features videos.
 
 # Features

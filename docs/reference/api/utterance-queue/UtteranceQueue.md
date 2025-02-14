@@ -45,7 +45,7 @@ Add an utterance to the front of the queue to be read immediately.
 
 #### removeUtterance( utterance : <span style="font-weight: 400;">[Utterance](../utterance-queue/Utterance.md)</span> ) {: #removeUtterance data-toc-label='removeUtterance' }
 
-Remove an Utterance from the queue. This function is only able to remove `Utterance` instances, and cannot remove
+Remove an Utterance from the queue. This function is only able to remove [Utterance](../utterance-queue/Utterance.md) instances, and cannot remove
 other TAlertable types.
 
 #### hasUtterance( utterance : <span style="font-weight: 400;">[Utterance](../utterance-queue/Utterance.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #hasUtterance data-toc-label='hasUtterance' }

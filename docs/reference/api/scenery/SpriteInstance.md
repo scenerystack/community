@@ -43,7 +43,7 @@ Returns whether a given point is considered "inside" the SpriteInstance
 
 #### sprite : <span style="font-weight: 400;">[Sprite](../scenery/Sprite.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #sprite data-toc-label='sprite' }
 
-This should be set to a `Sprite` object which is the sprite that should be displayed.
+This should be set to a [Sprite](../scenery/Sprite.md) object which is the sprite that should be displayed.
 This field is expected to be set by the client whenever it needs to change.
 
 #### matrix : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> {: #matrix data-toc-label='matrix' }

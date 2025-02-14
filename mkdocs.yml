@@ -25,6 +25,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - css/examples.css
 
 extra_javascript:
   - js/mathjax.js

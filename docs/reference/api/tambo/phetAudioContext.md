@@ -6,7 +6,7 @@
 
 ## Overview
 
-`phetAudioContext` is a singleton instance of a Web Audio context that is used for all Web Audio interaction within
+[phetAudioContext](../tambo/phetAudioContext.md) is a singleton instance of a Web Audio context that is used for all Web Audio interaction within
 a sim.
 
 @author John Blanco

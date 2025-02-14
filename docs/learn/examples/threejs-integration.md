@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 # Three.js Integration
 
 !!! warning "Under Construction"

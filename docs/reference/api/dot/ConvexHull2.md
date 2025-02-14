@@ -9,31 +9,33 @@
 Construction of 2D convex hulls from a list of points.
 
 For example:
-#begin canvasExample grahamScan 256x128
-#on
-var points = _.range( 50 ).map( function() {
-  return new phet.dot.Vector2( 5 + ( 256 - 10 ) * Math.random(), 5 + ( 128 - 10 ) * Math.random() );
-} );
-var hullPoints = phet.dot.ConvexHull2.grahamScan( points, false );
-#off
-context.beginPath();
-hullPoints.forEach( function( point ) {
-  context.lineTo( point.x, point.y );
-} );
-context.closePath();
-context.fillStyle = '#eee';
-context.fill();
-context.strokeStyle = '#f00';
-context.stroke();
+<div id="sandbox-0" class="sandbox-example"></div><script type="module" async>
+import { createSandbox } from "/js/createSandbox.js";
 
-context.beginPath();
-points.forEach( function( point ) {
-  context.arc( point.x, point.y, 2, 0, Math.PI * 2, false );
-  context.closePath();
+createSandbox( "sandbox-0", ( scene, stepEmitter, display ) => {
+  const box = ( () => {
+/*START*/
+const points = [ ...Array( 50 ).keys() ].map( () => {
+  return new Vector2( 5 + ( 256 - 10 ) * Math.random(), 5 + ( 128 - 10 ) * Math.random() );
 } );
-context.fillStyle = '#00f';
-context.fill();
-#end canvasExample
+const hullPoints = ConvexHull2.grahamScan( points, false );
+/*END*/
+
+const content = new Node( {
+  children: [
+    new Path( Shape.polygon( hullPoints ), { fill: '#eee', stroke: 'f00' } ),
+    ...points.map( point => new Circle( 2, {
+      fill: '#00f',
+      translation: point
+    } ) )
+  ]
+} );
+
+    return content;
+  } )();
+  scene.addChild( box );
+}, {  } );
+</script>
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
 

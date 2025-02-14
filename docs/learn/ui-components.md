@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 # UI Components
 
 !!! warning "Under Construction"

@@ -107,7 +107,7 @@ import type { ComboBoxItem } from 'scenerystack/sun';
 <br>  the value associated with the item
 - **soundPlayer**?: [TSoundPlayer](../tambo/TSoundPlayer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  Sound that will be played when this item is selected.  If set to `null` a default sound will be used that is based
-  on this item's position in the combo box list.  A value of `nullSoundPlayer` can be used to disable.
+  on this item's position in the combo box list.  A value of [nullSoundPlayer](../tambo/nullSoundPlayer.md) can be used to disable.
 - **accessibleName**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  pdom - the label for this item's associated Node in the combo box
 - **comboBoxListItemNodeOptions**?: [ComboBoxListItemNodeOptions](../sun/ComboBoxListItemNode.md#ComboBoxListItemNodeOptions)

@@ -8,7 +8,7 @@
 
 Event &amp; listener abstraction for a single "event" type. The type provides extra functionality beyond just notifying
 listeners. It adds PhET-iO instrumentation capabilities as well as validation. For the lightest-weight, fastest
-solution with the smallest memory footprint, see `TinyEmitter`.
+solution with the smallest memory footprint, see [TinyEmitter](../axon/TinyEmitter.md).
 
 @author Sam Reid (PhET Interactive Simulations)
 @author Michael Kauzmann (PhET Interactive Simulations)

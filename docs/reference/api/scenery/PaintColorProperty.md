@@ -6,7 +6,7 @@
 
 ## Overview
 
-A Property that will always hold a `Color` object representing the current value of a given paint (and can be set to
+A Property that will always hold a [Color](../scenery/Color.md) object representing the current value of a given paint (and can be set to
 different paints).
 
 This is valuable, since:
@@ -75,7 +75,7 @@ For example, if the given paint is blue, the below factors will result in:
  0.5: light blue
    1: white
 
-With intermediate values basically "interpolated". This uses the `Color` colorUtilsBrightness method to adjust
+With intermediate values basically "interpolated". This uses the [Color](../scenery/Color.md) colorUtilsBrightness method to adjust
 the paint.
 
 #### getLuminanceFactor() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLuminanceFactor data-toc-label='getLuminanceFactor' }

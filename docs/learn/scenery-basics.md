@@ -1,9 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.15.1/beautify-html.min.js"></script>
-
 # Scenery Basics
 
 ## Overview

@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 # Simulation
 
 Here, you'll find info for starting up a STEM-focused, interactive simulation project. This guide will help you set up your development environment, create a new simulation, and provide resources to help you along the way.

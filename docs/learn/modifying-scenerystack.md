@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 # Modifying SceneryStack
 
 This page outlines the process for checking out, modifying, and building SceneryStack, as well as how to use your

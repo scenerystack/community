@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-<link rel="stylesheet" href="/css/examples.css">
-
 # Scenery Layout
 
 These examples demonstrate **common ways** of using **layout containers** in Scenery.  

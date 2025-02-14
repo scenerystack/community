@@ -56,7 +56,7 @@ specific logic.
 
 (readonly)
 
-When an Utterance to be announced provided an alert in `ResponsePacket`-form, whether or
+When an Utterance to be announced provided an alert in [ResponsePacket](../utterance-queue/ResponsePacket.md)-form, whether or
 not to listen to the current values of responseCollector Properties, or to just combine all pieces of it no matter.
 
 #### readyToAnnounce {: #readyToAnnounce data-toc-label='readyToAnnounce' }
