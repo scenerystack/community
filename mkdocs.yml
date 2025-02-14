@@ -1074,6 +1074,7 @@ nav:
         - PDOMUniqueIdStrategy: reference/api/scenery/PDOMUniqueIdStrategy.md
         - pdomUniqueIdToTrail: reference/api/scenery/pdomUniqueIdToTrail.md
         - PDOMUtils: reference/api/scenery/PDOMUtils.md
+        - PEER_ACCESSIBLE_PARAGRAPH_SIBLING: reference/api/scenery/PEER_ACCESSIBLE_PARAGRAPH_SIBLING.md
         - PEER_CONTAINER_PARENT: reference/api/scenery/PEER_CONTAINER_PARENT.md
         - PEER_DESCRIPTION_SIBLING: reference/api/scenery/PEER_DESCRIPTION_SIBLING.md
         - PEER_LABEL_SIBLING: reference/api/scenery/PEER_LABEL_SIBLING.md

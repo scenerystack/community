@@ -33,11 +33,13 @@ timer.step( 1.5 );
 
 The 0.5 above is because after 1.5 seconds of time, the event will have happened 0.5 seconds ago:
 
+<pre style="max-width: 100%; overflow-x: auto; font-size: 70%">
           step 1.5
 |------------------------&gt;|
 |                *        |          *                     *    &lt;- constant time of 1 between each event
 |                &lt;--------|
                 0.5 seconds past the event now
+</pre>
 
 Stepping for a longer time will result in more events:
 
@@ -49,6 +51,7 @@ timer.step( 6 );
 &gt; event with timeElapsed: 1.5
 &gt; event with timeElapsed: 0.5
 
+<pre style="max-width: 100%; overflow-x: auto; font-size: 70%">
       step 1.5                                  step 6                                 step 0   step 1.5
 |----------------&gt;|----------------------------------------------------------------------&gt;|----------------&gt;|
 |           *           *           *           *           *           *           *           *           *
@@ -59,6 +62,7 @@ timer.step( 6 );
 |           |           |                                  2.5          &lt;-----------------|              time
 |     callback( t ) called, etc.                                       1.5          &lt;-----|
 |
+</pre>
 
 A step with zero time will trigger no events:
 

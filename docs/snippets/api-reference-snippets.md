@@ -884,6 +884,7 @@
 [PDOMUniqueIdStrategy]: /reference/api/scenery/PDOMUniqueIdStrategy/
 [pdomUniqueIdToTrail]: /reference/api/scenery/pdomUniqueIdToTrail/
 [PDOMUtils]: /reference/api/scenery/PDOMUtils/
+[PEER_ACCESSIBLE_PARAGRAPH_SIBLING]: /reference/api/scenery/PEER_ACCESSIBLE_PARAGRAPH_SIBLING/
 [PEER_CONTAINER_PARENT]: /reference/api/scenery/PEER_CONTAINER_PARENT/
 [PEER_DESCRIPTION_SIBLING]: /reference/api/scenery/PEER_DESCRIPTION_SIBLING/
 [PEER_LABEL_SIBLING]: /reference/api/scenery/PEER_LABEL_SIBLING/

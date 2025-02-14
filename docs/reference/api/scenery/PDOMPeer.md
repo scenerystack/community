@@ -43,6 +43,15 @@ this.topLevelElements
 @param {Object} config - the computed mixin options to be applied to the peer. (select ParallelDOM mutator keys)
 @private
 
+#### getPlaceableSibling() {: #getPlaceableSibling data-toc-label='getPlaceableSibling' }
+
+Returns the sibling that can be placed in the PDOM. This is the primary sibling if it exists, otherwise the
+accessible paragraph.
+
+If other elements can be placed without the primary sibling, they could be added to this function.
+
+@public
+
 #### getPrimarySibling() {: #getPrimarySibling data-toc-label='getPrimarySibling' }
 
 Get the primary sibling element for the peer

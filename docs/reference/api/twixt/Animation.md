@@ -10,12 +10,14 @@ An easing-based controllable animation.
 
 We use some terminology to describe points and regions in time for an animation:
 
+<pre style="max-width: 100%; overflow-x: auto; font-size: 70%">
             starts                            begins                                finishes
               |             delay               |             animation                |
 time--&gt;       |           (waiting)             |     (animated values changing)       |
 ---------------------------------------------------------------------------------------------------------------------
               |------------------------------running-----------------------------------|
                                                 |-------------animating----------------|
+</pre>
 
 TODO #3: pause/cancel (and stop-&gt;cancel renaming)
 TODO #3: function for blending with angular/rotational values
