@@ -63,7 +63,7 @@ To get started or learn more about including SceneryStack as a library, see the 
 SceneryStack is built for a **model-view architecture** that separates the data (model) from the presentation (view). Learn more about the Model-View-Controller (MVC) pattern in the [Best Practices](./best-practices.md) guide.
 
 Internally, SceneryStack is divided into a number of modules that handle different aspects of the framework. This
-higher-level organization shows up in the typical form of imports. For example, to import a Scenery `Display`, you would
+higher-level organization shows up in the typical form of imports. For example, to import a Scenery [Display], you would
 use the following:
 
 ```js
@@ -76,19 +76,19 @@ SceneryStack has a flexible model architecture that helps handle highly-interact
 
 The primary model modules are:
 
-- **Axon**: Patterns for observing both events and changing data. SceneryStack APIs pervasively use the `Property` type,
+- **Axon**: Patterns for observing both events and changing data. SceneryStack APIs pervasively use the [Property] type,
   which stores data in a observable way.
 - **Phet Core**: Core utility functions and types (supporting common software patterns).
 - **Dot**: Mathematics types (e.g. vectors, matrices, transformations) for use in models and views.
-- **Kite**: Creating and manipulating 2D geometric `Shape` objects.
+- **Kite**: Creating and manipulating 2D geometric [Shape] objects.
 
 ### Views
 
 SceneryStack primary uses the **Scenery** module for rendering and user input. Scenery has a scene graph structure
-(similar to the DOM) built on Scenery `Node`s. Scenery `Display`s take a root `Node` and render it to the screen.
+(similar to the DOM) built on Scenery [Node]. Scenery [Display]s take a root [Node] and render it to the screen.
 
-While it is common to use one Scenery `Display` to cover all or most of the screen (for a Scenery Application, or like
-[PhET Simulations](https://phet.colorado.edu) do), it is also possible to use multiple `Display`s and place them into
+While it is common to use one Scenery [Display] to cover all or most of the screen (for a Scenery Application, or like
+[PhET Simulations](https://phet.colorado.edu) do), it is also possible to use multiple [Display]s and place them into
 the DOM in traditional ways (e.g. interactive figures).
 
 The primary view modules are:

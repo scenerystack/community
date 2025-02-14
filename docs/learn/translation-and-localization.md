@@ -5,7 +5,7 @@
 ## Overview
 
 For handling translation, SceneryStack uses a combination of string Properties and message Properties (see the guide on
-[Emitters and Properties](./emitters-and-properties.md)). String Properties can be directly passed to Scenery `Text`
+[Emitters and Properties](./emitters-and-properties.md)). String Properties can be directly passed to Scenery [Text]
 nodes. The Properties will automatically switch values based on the
 global [localeProperty], and for simulations there will
 be an interface to manipulate the current locale.

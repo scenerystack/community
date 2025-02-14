@@ -71,7 +71,7 @@ In a fresh directory, we will want to add the barebones files needed:
 
 ## Hello World (Full Page)
 
-For visuals, we will use Scenery's `Display` to show an abstract tree made up of Scenery `Node`s (much like the DOM).
+For visuals, we will use Scenery's [Display] to show an abstract tree made up of Scenery [Node] instances (much like the DOM).
 
 For simplicity, we will use a full-page Display (which will automatically resize to the window size).
 
@@ -89,7 +89,7 @@ import { Node } from 'scenerystack/scenery';
 const scene = new Node();
 ```
 
-and we'll want to create a `Display` to show this tree within our `div`:
+and we'll want to create a [Display] to show this tree within our `div`:
 
 ```js
 import { Display } from 'scenerystack/scenery';
@@ -110,7 +110,7 @@ const text = new Text( 'Hello World', {
 const rectangle = new Rectangle( 0, 0, 100, 30, { fill: 'red' } );
 ```
 
-Content needs to be added to the tree to be shown. Here we will use a vertical layout container (`VBox`), which center-aligns content by default:
+Content needs to be added to the tree to be shown. Here we will use a vertical layout container ([VBox]), which center-aligns content by default:
 
 ```js
 import { VBox } from 'scenerystack/scenery';
@@ -121,7 +121,7 @@ scene.addChild( new VBox( {
 } ) );
 ```
 
-`Displays` do not update automatically (to allow for more control/performance), so we need to tell it to resize when the window resizes and to update visuals on each frame:
+[Display]s do not update automatically (to allow for more control/performance), so we need to tell it to resize when the window resizes and to update visuals on each frame:
 
 ```js
 display.resizeOnWindowResize();

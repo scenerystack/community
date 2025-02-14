@@ -1,3 +1,8 @@
+[HTMLElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+[HTMLCanvasElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement
+[HTMLImageElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
+[HTMLVideoElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
+[CanvasRenderingContext2D]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 [logo_png]: /reference/api/adapted-from-phet/logo_png/
 [logoOnWhite_png]: /reference/api/adapted-from-phet/logoOnWhite_png/
 [splash_svg]: /reference/api/adapted-from-phet/splash_svg/

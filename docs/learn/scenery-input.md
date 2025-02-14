@@ -10,7 +10,7 @@ TODO: this is out of date, needs updating. Lots of stuff about Scenes.
 
 ## Adding Interaction to a Display
 
-`Displays` do not have event listeners attached by default. To initialize the event system (that will attach and set up
+[Display]s do not have event listeners attached by default. To initialize the event system (that will attach and set up
 listeners), call `display.initializeEvents()`.
 
 Additionally, a [Display] does not update automatically. Use `display.updateDisplay()` when needed, or create a rendering

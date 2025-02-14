@@ -31,18 +31,18 @@ Scenery uses HTML5 technologies (`svg`, `canvas`, `webgl`) for rendering, but th
 semantic information for assistive technologies (AT). The **Parallel DOM (PDOM)** extracts semantic data from the scene
 graph and generates a separate, structured HTML representation that is accessible to screen readers and other AT.
 
-Think of the **PDOM** as *the HTML equivalent of the graphical `Node.js` content in the display*. It remains invisible
+Think of the **PDOM** as *the HTML equivalent of the graphical [Node] content in the display*. It remains invisible
 on the screen but dynamically updates to reflect changes in the scene, ensuring accessibility support for interactive
 content. By leveraging HTML, Scenery benefits from built-in accessibility features like keyboard navigation and
 screen-reader descriptions, offloading much of the work to the browser and AT.
 
-Any Scenery `Node` can have accessible content, which will be reflected in the PDOM. However, the PDOM only includes
+Any Scenery [Node] can have accessible content, which will be reflected in the PDOM. However, the PDOM only includes
 nodes that explicitly specify accessible content.
 
 ## Scenery's Accessibility API (Powered by the PDOM)
 
-Scenery's accessibility features are enabled by creating a `Display` with the `accessibility: true` option. Most of
-these features are implemented in `ParallelDOM.js`, a trait mixed into `Node.js`, providing getters and setters for
+Scenery's accessibility features are enabled by creating a [Display] with the `accessibility: true` option. Most of
+these features are implemented in [ParallelDOM], a trait mixed into [Node], providing getters and setters for
 PDOM-related properties. Developers can configure accessibility options in `super()` or `mutate()` function calls.
 
 For more details and up-to-date API documentation, refer to
@@ -52,7 +52,7 @@ documentation.
 
 ### A Basic Example
 
-The primary way to implement accessibility in Scenery is by passing options to `Node.js`. To ensure a node appears in
+The primary way to implement accessibility in Scenery is by passing options to [Node]. To ensure a node appears in
 the PDOM, it needs an associated HTML element, which can be defined using the `tagName` option:
 
 <div id="accessible-tag-example" class="sandbox-example"></div>
@@ -78,7 +78,7 @@ specify a **primary element** with `tagName`, but it can also include:
 Understanding key terminology helps clarify how elements are structured within the PDOM:
 
 - **Sibling Elements** – The primary, label, and description elements of a node are "siblings" within the PDOM structure. These elements are not siblings of the original node but rather siblings to each other under a shared **containerParent**.
-- **PDOMPeer (Peer)** – Each node has a `PDOMPeer`, which manages the `HTMLElement`s associated with that node in the PDOM.
+- **PDOMPeer (Peer)** – Each node has a [PDOMPeer], which manages the [HTMLElement]s associated with that node in the PDOM.
 - **Primary Element** – The core element that represents the node (`tagName`).
 - **Supplementary Elements** – Additional elements such as labels and descriptions (`labelTagName` and `descriptionTagName`).
 - **Container Element** – If multiple elements exist, they can be grouped together inside a container (`containerTagName`).
@@ -100,7 +100,7 @@ In this example, the rectangle's **primary sibling** is a button with an Accessi
 
 - All supplemental HTML elements (container, description, and label) have **default tag names** in the PDOM API. If a `*Content` option is provided without specifying `*TagName`, a default tag is used. See `PDOMUtils` for the defaults.  
 - By default, **description and label elements appear before the primary sibling** in the PDOM. This behavior can be adjusted using the `appendLabel` and `appendDescription` options.  
-- Nodes without accessible content, such as the `Text` node **"North South Magnet"**, do not appear in the PDOM.  
+- Nodes without accessible content, such as the [Text] node **"North South Magnet"**, do not appear in the PDOM.  
 
 ## The Structure of the PDOM
 
@@ -108,7 +108,7 @@ By default, the **PDOM hierarchy** mirrors the scene graph hierarchy. This means
 node have accessible content, the child's accessible HTML will be **nested inside** the parent's primary sibling in the
 PDOM.
 
-Scenery handles this structure using `PDOMPeer`, which manages and controls all HTML elements associated with a node.
+Scenery handles this structure using [PDOMPeer], which manages and controls all HTML elements associated with a node.
 
 ### Leveraging the Scene Graph
 
@@ -191,7 +191,7 @@ keyboard navigation. This happens when:
 
 - The `tagName` is an inherently focusable element (e.g., `"button"`).  
 - The `focusable` option is used to make other elements focusable.  
-- A custom **focus highlight** is specified using the `focusHighlight` option, which accepts a `Node` or `Shape`.
+- A custom **focus highlight** is specified using the `focusHighlight` option, which accepts a [Node] or [Shape].
 
 ### Visibility and Focus Order
 
@@ -219,7 +219,7 @@ the [Input.js documentation](https://github.com/phetsims/scenery/blob/main/js/in
 
 ## Manipulating the PDOM
 
-Most properties of the `ParallelDOM.js` trait are mutable, allowing the PDOM to dynamically update alongside the
+Most properties of the [ParallelDOM] trait are mutable, allowing the PDOM to dynamically update alongside the
 graphical scene. Common properties include:
 
 - **`tagName`** – Set/get the tag name of the primary DOM sibling.  
@@ -276,7 +276,7 @@ Below is an overview of the different ways to set an **Accessible Name** using t
 ### Ordering
 
 To manipulate the order in the PDOM, use `Node.pdomOrder = []`. Scenery supports a fully independent tree of
-`PDOMInstance`s to order the PDOM versus the ordering based on the nodes into the `Instance` tree. Because of this, you
+[PDOMInstance]s to order the PDOM versus the ordering based on the nodes into the [Instance] tree. Because of this, you
 can use `Node.pdomOrder` to largely remap the scene graph (for rendering into the PDOM) without affecting the visually
 rendered output.
 
@@ -291,7 +291,7 @@ All interactive alerts are powered by the [
 alerts using a custom queue, see [
 `utteranceQueue.js`](https://github.com/phetsims/utterance-queue/blob/main/js/utteranceQueue.js).
 
-Each accessible display is equipped with an `UtteranceQueue` that can receive alerts. **All PhET alerts should be
+Each accessible display is equipped with an [UtteranceQueue] that can receive alerts. **All PhET alerts should be
 processed through `utteranceQueue`**—`aria-live` should not be manually added to elements in the PDOM.
 
 ### Performance Considerations
@@ -367,8 +367,8 @@ As shown in this example:
 
 ### Responses Implemented with `Voicing.ts`
 
-Voicing is implemented as a **trait** called `Voicing.ts`, which can be composed with Scenery’s `Node`.  
-This trait allows setting different responses on a `Node` and making a request to **speak one or more of them**.  
+Voicing is implemented as a **trait** called `Voicing.ts`, which can be composed with Scenery’s [Node].  
+This trait allows setting different responses on a [Node] and making a request to **speak one or more of them**.  
 The API of `Voicing.ts` is described in more detail later in this document.  
 
 ### Responses Collected with `responseCollector.js`
@@ -385,19 +385,19 @@ The following enumerates the `Voicing.ts` API.
 
 ### `voicingNameResponse`
 
-A getter/setter for the `{string|null}` name response for the `Node`.
+A getter/setter for the `{string|null}` name response for the [Node].
 
 ### `voicingObjectResponse`
 
-A getter/setter for the `{string|null}` object response for the `Node`.
+A getter/setter for the `{string|null}` object response for the [Node].
 
 ### `voicingContextResponse`
 
-A getter/setter for the `{string|null}` context response for the `Node`.
+A getter/setter for the `{string|null}` context response for the [Node].
 
 ### `voicingHintResponse`
 
-A getter/setter for the `{string|null}` hint response for the `Node`.
+A getter/setter for the `{string|null}` hint response for the [Node].
 
 ### `voicingUtterance`
 
@@ -405,7 +405,7 @@ A getter/setter for the `{Utterance|null}` used to speak Voicing content.
 
 By default, a unique `Utterance` is created and assigned when using the Voicing trait. This allows speech output to leverage the **UtteranceQueue**, ensuring that an Utterance is not announced until it has "stabilized." If multiple responses are triggered rapidly, **only the last response will be spoken**.
 
-To override this behavior, you can assign a custom `Utterance` to the `Node`.
+To override this behavior, you can assign a custom `Utterance` to the [Node].
 
 ### `voicingUtteranceQueue`
 
@@ -415,7 +415,7 @@ By default, a global singleton called `voicingUtteranceQueue.js` is used to hand
 
 ### `voicingSpeakFullResponse`
 
-A function that requests speech for **all responses** associated with the `Node`.  
+A function that requests speech for **all responses** associated with the [Node].  
 Only responses **enabled** by `responseCollector.js` will be spoken. Typically, this is called in response to user input or application state changes.
 
 ### `voicingSpeakResponse`
@@ -445,7 +445,7 @@ Only responses **enabled** by `responseCollector.js` will be spoken. Typically, 
 
 ### `voicingFocusListener`
 
-A function called whenever the `Node` that mixes `Voicing` receives focus.  
+A function called whenever the [Node] that mixes `Voicing` receives focus.  
 By default, **every response except the context response** is spoken on focus, but this behavior can be overridden if necessary.
 
 ### `voicingIgnoreVoicingManagerProperties`
@@ -470,7 +470,7 @@ For more details or to create custom patterns, see `ResponsePatternCollection.js
 
 ### Simple Example
 
-The following illustrates a **basic example** of using `Voicing.ts` with a `Node`.  
+The following illustrates a **basic example** of using `Voicing.ts` with a [Node].  
 Click the **Rectangle** to hear speech.
 
 <div id="voicing-example" class="sandbox-example"></div>
@@ -497,16 +497,16 @@ This example also demonstrates **enabling/disabling the object response globally
 
 ## Reading Blocks
 
-**Reading Blocks** are `Nodes` that use **Voicing**, but with special behavior and a common set of Voicing options.  
-They are typically used for **graphical objects that are not otherwise interactive**, but still contain Voicing content (e.g., `Text`).  
+**Reading Blocks** are [Node]s that use **Voicing**, but with special behavior and a common set of Voicing options.  
+They are typically used for **graphical objects that are not otherwise interactive**, but still contain Voicing content (e.g., [Text]).  
 
 ### Characteristics of Reading Blocks:
 - **Unique focus highlight** to indicate they can be clicked to hear Voicing content.  
 - **Added to the focus order** when Voicing is enabled.  
 - **Special highlight** appears around the content while it is being spoken.  
 
-Reading Blocks are implemented as a **trait** called `ReadingBlock.ts`, which **extends** `Voicing.ts`.  
-Since `ReadingBlock.ts` is a trait, it can be used with Scenery `Node`s.
+Reading Blocks are implemented as a **trait** called [ReadingBlock], which **extends** [Voicing].  
+Since [ReadingBlock] is a trait, it can be used with Scenery [Node]s.
 
 ## Mouse Highlighting
 
@@ -514,10 +514,10 @@ The **Voicing** feature supports **highlights that appear on mouse hover**.
 This highlights elements that **can receive input**, either because they are **naturally interactive** or because they support **Voicing content**, like **Reading Blocks**.
 
 ### Implementation:
-Mouse Highlighting is handled by the **`InteractiveHighlighting.js`** trait, which can be composed with Scenery `Node`s.
+Mouse Highlighting is handled by the **`InteractiveHighlighting.js`** trait, which can be composed with Scenery [Node]s.
 
-- `InteractiveHighlighting.js` adds an **input listener** to activate the Display’s **FocusOverlay** when a highlight should be shown.  
-- Since **`InteractiveHighlighting.js` is extended by `Voicing.ts`**, **all Nodes using Voicing automatically support Mouse Highlighting**.
+- [InteractiveHighlighting] adds an **input listener** to activate the Display’s **FocusOverlay** when a highlight should be shown.  
+- Since **[InteractiveHighlighting] is extended by [Voicing.ts]**, **all Nodes using Voicing automatically support Mouse Highlighting**.
 
 ## Other Guides
 
