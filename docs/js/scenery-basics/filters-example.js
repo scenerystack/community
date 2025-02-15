@@ -13,8 +13,6 @@ export const initialize = div => createSandbox( div, ( scene, stepEmitter, displ
       new Brightness( 0.5 ),
       new Invert(),
       new Sepia(),
-      new GaussianBlur( 5 ),
-      new DropShadow( new Vector2( 2, 5 ), 5, 'black' ),
       new ColorMatrixFilter(
         0, 0, 0, 0, 1,
         0, 2, 0, 0, -1,
