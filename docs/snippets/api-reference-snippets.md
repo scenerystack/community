@@ -747,7 +747,6 @@
 [DOMSelfDrawable]: /reference/api/scenery/DOMSelfDrawable/
 [DragListener]: /reference/api/scenery/DragListener/
 [Drawable]: /reference/api/scenery/Drawable/
-[DropShadow]: /reference/api/scenery/DropShadow/
 [EnglishStringKeyUtils]: /reference/api/scenery/EnglishStringKeyUtils/
 [EnglishStringToCodeMap]: /reference/api/scenery/EnglishStringToCodeMap/
 [EventContext]: /reference/api/scenery/EventContext/
@@ -771,7 +770,6 @@
 [FocusManager]: /reference/api/scenery/FocusManager/
 [Font]: /reference/api/scenery/Font/
 [FullScreen]: /reference/api/scenery/FullScreen/
-[GaussianBlur]: /reference/api/scenery/GaussianBlur/
 [getLineBreakRanges]: /reference/api/scenery/getLineBreakRanges/
 [getMSPointerType]: /reference/api/scenery/getMSPointerType/
 [globalHotkeyRegistry]: /reference/api/scenery/globalHotkeyRegistry/

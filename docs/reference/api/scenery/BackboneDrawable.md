@@ -130,9 +130,16 @@ Runs checks on the drawable, based on certain flags.
 
 ### Static Methods
 
-#### createDivBackbone() {: #createDivBackbone data-toc-label='createDivBackbone' }
+#### createRootDivBackbone() {: #createRootDivBackbone data-toc-label='createRootDivBackbone' }
 
 Creates a base DOM element for a backbone.
+@public
+
+@returns {HTMLDivElement}
+
+#### createDivBackbone() {: #createDivBackbone data-toc-label='createDivBackbone' }
+
+Creates a DOM element for a backbone.
 @public
 
 @returns {HTMLDivElement}

@@ -938,7 +938,6 @@ nav:
         - DOMSelfDrawable: reference/api/scenery/DOMSelfDrawable.md
         - DragListener: reference/api/scenery/DragListener.md
         - Drawable: reference/api/scenery/Drawable.md
-        - DropShadow: reference/api/scenery/DropShadow.md
         - EnglishStringKeyUtils: reference/api/scenery/EnglishStringKeyUtils.md
         - EnglishStringToCodeMap: reference/api/scenery/EnglishStringToCodeMap.md
         - EventContext: reference/api/scenery/EventContext.md
@@ -962,7 +961,6 @@ nav:
         - FocusManager: reference/api/scenery/FocusManager.md
         - Font: reference/api/scenery/Font.md
         - FullScreen: reference/api/scenery/FullScreen.md
-        - GaussianBlur: reference/api/scenery/GaussianBlur.md
         - getLineBreakRanges: reference/api/scenery/getLineBreakRanges.md
         - getMSPointerType: reference/api/scenery/getMSPointerType.md
         - globalHotkeyRegistry: reference/api/scenery/globalHotkeyRegistry.md
