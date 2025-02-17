@@ -1,6 +1,6 @@
 --8<-- "api-reference-snippets.md"
 
-# Scenery Layout
+# Scenery Layout Examples
 
 These examples demonstrate **common ways** of using **layout containers** in Scenery.  
 Before diving into these examples, it is recommended to review the [layout documentation](../scenery-layout.md).  
