@@ -23,4 +23,5 @@ TODOs:
     ... interactive highlights
 
 <iframe id="demo-1" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="demo-1-info"></div>
 <script type="module" src="/js/accessible-interaction/demo-1.js"></script>

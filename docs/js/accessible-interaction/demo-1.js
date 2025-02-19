@@ -1,66 +1,73 @@
+import { createEditor } from '../createEditor.js';
+
+const id = 'demo1';
 
 const iframe = document.querySelector( '#demo-1' );
+const container = document.querySelector( '#demo-1-info' );
 
 const initialize = () => {
   const ViewTypes = iframe.contentWindow.ViewTypes;
 
-  const AnimatedPanZoomListener = ViewTypes.AnimatedPanZoomListener;
-  const Font = ViewTypes.Font;
-  const HBox = ViewTypes.HBox;
-  const Node = ViewTypes.Node;
-  const Text = ViewTypes.Text;
-  const VBox = ViewTypes.VBox;
-  const Model = ViewTypes.Model;
-  const CyclistNode = ViewTypes.CyclistNode;
-  const Multilink = ViewTypes.Multilink;
-  const Bounds2 = ViewTypes.Bounds2;
-  const Dimension2 = ViewTypes.Dimension2;
-  const toFixed = ViewTypes.toFixed;
-  const Panel = ViewTypes.Panel;
-  const TextPushButton = ViewTypes.TextPushButton;
-  const VerticalAquaRadioButtonGroup = ViewTypes.VerticalAquaRadioButtonGroup;
-  const BackgroundNode = ViewTypes.BackgroundNode;
-  const BLUE_COLOR_SHIFT = ViewTypes.BLUE_COLOR_SHIFT;
-  const GREEN_COLOR_SHIFT = ViewTypes.GREEN_COLOR_SHIFT;
-  const RED_COLOR_SHIFT = ViewTypes.RED_COLOR_SHIFT;
-  const AccelerationSlider = ViewTypes.AccelerationSlider;
+  container.appendChild( createEditor( `export class View extends Node {
+  constructor( model, layoutBoundsProperty ) {
 
-  class View extends Node {
-    constructor( model, layoutBoundsProperty ) {
+    const cyclistNode = new CyclistNode( model.cyclist );
 
-      const cyclistNode = new CyclistNode( model.cyclist );
+    const scaledNode = new Node( {
+      children: [
+        cyclistNode
+      ]
+    } );
 
-      const scaledNode = new Node( {
-        children: [
-          cyclistNode
-        ]
-      } );
+    super( {
+      children: [
+        new BackgroundNode( model.positionProperty, layoutBoundsProperty ),
+        scaledNode
+      ]
+    } );
 
-      super( {
-        children: [
-          new BackgroundNode( model.positionProperty, layoutBoundsProperty ),
-          scaledNode
-        ]
-      } );
-
-      // Center the text and the rectangle dynamically
-      layoutBoundsProperty.link( bounds => {
-        const scale = bounds.height / 500;
-        scaledNode.setScaleMagnitude( bounds.height / 500 );
-        scaledNode.y = ( bounds.top + 3 * bounds.bottom ) / 4;
-        cyclistNode.centerX = bounds.centerX / scale;
-      } );
-    }
+    // Center the text and the rectangle dynamically
+    layoutBoundsProperty.link( bounds => {
+      const scale = bounds.height / 500;
+      scaledNode.setScaleMagnitude( bounds.height / 500 );
+      scaledNode.y = ( bounds.top + 3 * bounds.bottom ) / 4;
+      cyclistNode.centerX = bounds.centerX / scale;
+    } );
   }
+}`, async js => {
+    const ViewTypesId = `ViewTypes_${id}`;
+    self[ ViewTypesId ] = ViewTypes;
 
-  iframe.contentWindow.setViewClass( View );
-  iframe.contentWindow.interactiveHighlightsEnabledProperty.value = false;
-  // iframe.contentWindow.display.setPointerAreaDisplayVisible( true );
+    const jsBefore = '';
+    const jsAfter = '';
+
+    const imports = Object.keys( ViewTypes ).map( key => {
+      if ( js.includes( key ) || jsBefore.includes( key ) || jsAfter.includes( key ) ) {
+        return `const ${key} = ${ViewTypesId}.${key};\n`;
+      }
+    } ).join( '' );
+
+    const code = `${imports}${Math.random()};${jsBefore}\n${js}\n${jsAfter}\n`;
+
+    // Assumes it's in a function, differently from the sandbox
+    const dataURI = `data:text/javascript;base64,${btoa( code )}`;
+
+    const module = await import( dataURI );
+
+    iframe.contentWindow.setViewClass( module.View );
+    iframe.contentWindow.interactiveHighlightsEnabledProperty.value = false;
+    iframe.contentWindow.display.setPointerAreaDisplayVisible( false );
+  } ) );
+
+  // TODO: re-run the editor handling when the iframe is resized
 };
 
-const interval = setInterval( () => {
-  if ( iframe.contentWindow.ViewTypes ) {
-    clearInterval( interval );
-    initialize();
-  }
-}, 50 );
+document$.subscribe( async () => {
+  const interval = setInterval( () => {
+    if ( iframe?.contentWindow?.ViewTypes ) {
+      clearInterval( interval );
+
+      initialize();
+    }
+  }, 50 );
+} );
