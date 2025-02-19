@@ -18,6 +18,7 @@ import '/lib/codemirror-5.52.2.htmlmixed.min.js';
 import { colors } from './colors.js';
 import { createLabeledBox } from './createLabeledBox.js';
 import { getAriaLiveEmitter } from './getAriaLiveEmitter.js';
+import { getPDOMHTMLOutput } from './getPDOMHTMLOutput.js';
 import { getPDOMHTMLProperty } from './getPDOMHTMLProperty.js';
 import { ResizableNode } from './ResizableNode.js';
 
@@ -174,28 +175,7 @@ export const createSandbox = ( divOrId, func, providedOptions ) => {
     const pdomHTMLProperty = getPDOMHTMLProperty( display );
     disposeEmitter.addListener( () => pdomHTMLProperty.dispose() );
 
-    const label = document.createElement( 'label' );
-    label.htmlFor = `pdom-${id}`;
-    label.textContent = 'Simplified Parallel DOM HTML:';
-    pdomContainerElement.appendChild( label );
-
-    const div = document.createElement( 'div' );
-    div.style.margin = '0 2em';
-    pdomContainerElement.appendChild( div );
-
-    const pdomCodeMirror = CodeMirror( div, { // eslint-disable-line no-undef
-      lineNumbers: false,
-      tabSize: 2,
-      value: pdomHTMLProperty.value,
-      mode: 'htmlmixed',
-      theme: 'monokai',
-      lineWrapping: true,
-      readOnly: true
-    } );
-
-    pdomHTMLProperty.link( html => {
-      pdomCodeMirror.setValue( html );
-    } );
+    pdomContainerElement.appendChild( getPDOMHTMLOutput( pdomHTMLProperty ) );
   }
 
   if ( options.showAriaLive ) {
