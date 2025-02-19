@@ -11,8 +11,8 @@ repo_url: https://github.com/scenerystack/community
 edit_uri: edit/main/docs
 
 extra:
-  version:
-    provider: mike # for versioning plugin
+  # version:
+    # provider: mike # for versioning plugin
   annotate:
     json: [.s2]
   social:
@@ -56,12 +56,12 @@ theme:
     - navigation.top
     - navigation.tracking
     - search.highlight
-    - search.share
+    # - search.share
     - search.suggest
-    - toc.follow
+    # - toc.follow
     # - toc.integrate
-  favicon: assets/scenerystack-round.png
-  logo: assets/scenerystack-round.png
+  favicon: about/assets/png/full-color-scenerystack-mark.png
+  logo: about/assets/png/full-color-scenerystack-mark.png
   palette:
     # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
@@ -89,7 +89,8 @@ theme:
 # Plugins
 plugins:
   # - blog
-  - search
+  - search:
+      separator: '(?!\b)(?=[A-Z][a-z])|\.(?!\d)'
   - minify:
       minify_html: true
 
