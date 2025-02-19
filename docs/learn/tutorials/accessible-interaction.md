@@ -22,5 +22,5 @@ TODOs:
     ... pan and zoom (should work with almost everything)
     ... interactive highlights
 
-<iframe id="demo-1" style="height: 270px; width: 100%;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<iframe id="demo-1" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
 <script type="module" src="/js/accessible-interaction/demo-1.js"></script>
