@@ -2,23 +2,27 @@ import { createEditor } from '../createEditor.js';
 
 const id = 'demo1';
 
-const iframe = document.querySelector( '#demo-1' );
-const container = document.querySelector( '#demo-1-info' );
-
-const initialize = () => {
+const initialize = ( iframe, container ) => {
   const ViewTypes = iframe.contentWindow.ViewTypes;
 
-  container.appendChild( createEditor( `export class View extends Node {
+  container.appendChild( createEditor( `
+export class View extends Node {
+  // Provides a Model and a TReadOnlyProperty<Bounds2> that will
+  // contain the bounds of the layout area for the view.
   constructor( model, layoutBoundsProperty ) {
 
+    // Create a cyclist node
     const cyclistNode = new CyclistNode( model.cyclist );
 
+    // Place it in a scaled container
+    // (we will include the rest of the UI here also)
     const scaledNode = new Node( {
       children: [
         cyclistNode
       ]
     } );
 
+    // Initialize the view
     super( {
       children: [
         new BackgroundNode( model.positionProperty, layoutBoundsProperty ),
@@ -34,7 +38,8 @@ const initialize = () => {
       cyclistNode.centerX = bounds.centerX / scale;
     } );
   }
-}`, async js => {
+}
+`.trim(), async js => {
     const ViewTypesId = `ViewTypes_${id}`;
     self[ ViewTypesId ] = ViewTypes;
 
@@ -63,11 +68,19 @@ const initialize = () => {
 };
 
 document$.subscribe( async () => {
-  const interval = setInterval( () => {
-    if ( iframe?.contentWindow?.ViewTypes ) {
-      clearInterval( interval );
+  const iframe = document.querySelector( '#demo-1' );
 
-      initialize();
-    }
-  }, 50 );
+  if ( iframe ) {
+    console.log( 'subscribe' );
+    const interval = setInterval( () => {
+      const container = document.querySelector( '#demo-1-info' );
+
+      if ( iframe && container && iframe.contentWindow?.ViewTypes ) {
+        clearInterval( interval );
+
+        console.log( 'initialize' );
+        initialize( iframe, container );
+      }
+    }, 50 );
+  }
 } );
