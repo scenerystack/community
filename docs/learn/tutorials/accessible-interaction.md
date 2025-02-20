@@ -2,10 +2,6 @@
 
 # Accessible Interaction
 
-!!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in February 2025.
-
 This tutorial will walk through creating the view for a simple interactive web application, with a focus on accessibility.
 
 The end result will look and behave like this:
@@ -94,3 +90,63 @@ In addition, we can provide an alert to screen reader users when an action chang
 
 This page will display alerts visually, but screen readers will read them out loud.
 
+## Radio Buttons
+
+We will also add a control to switch the color of the bicycle frame. We'll use a [VerticalAquaRadioButtonGroup], which
+accepts parameters similar to the slider:
+
+<iframe id="radioButtons" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="radioButtons-info"></div>
+<script type="module" src="/js/accessible-interaction/radioButtons.js"></script>
+
+Note how the radio buttons are able to identify the `accessibleName` default from the [Text] nodes provided. Many times
+this will be possible, and it will not be necessary to provide the `accessibleName` field.
+
+## High-Level Description
+
+We can give the view some high-level structure and description by tagging the view with an `h1` element, and providing
+a description for the scene. It is always recommended to provide a description of what is available to help contextualize
+what is available.
+
+<iframe id="highLevel" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="highLevel-info"></div>
+<script type="module" src="/js/accessible-interaction/highLevel.js"></script>
+
+By placing the `descriptionNode` (which has no visual representation) first, it will be read out first by screen readers.
+
+`labelTagName` can also be used to add more structure to the controls:
+
+<iframe id="controlHeaders" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="controlHeaders-info"></div>
+<script type="module" src="/js/accessible-interaction/controlHeaders.js"></script>
+
+## Cyclist Description
+
+It is also valuable to add description to the visual elements represented in the scene. We can add a description to the
+cyclist, which will be read out by screen readers.
+
+Try playing with the cyclist, and see how the description changes:
+
+<iframe id="cyclistDescription" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="cyclistDescription-info"></div>
+<script type="module" src="/js/accessible-interaction/cyclistDescription.js"></script>
+
+## Pan and Zoom
+
+It is possible to add a listener to support pan and zoom for any [Node]. We will use [AnimatedPanZoomListener], and will
+provide it with the relevant bounds.
+
+The example below should support panning and zooming with touch (both on mobile and desktop):
+
+<iframe id="panAndZoom" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="panAndZoom-info"></div>
+<script type="module" src="/js/accessible-interaction/panAndZoom.js"></script>
+
+## Accessible Highlights
+
+By passing `interactiveHighlightsEnabledProperty: true` to the creation of the [Display], this will enable the interactive
+highlights for the view for any interaction, including mouse interation:
+
+<iframe id="accessibleHighlights" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="accessibleHighlights-info"></div>
+<script type="module" src="/js/accessible-interaction/accessibleHighlights.js"></script>

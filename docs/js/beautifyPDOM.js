@@ -14,7 +14,8 @@ export const beautifyPDOM = pdomHTML => {
     'data-focusable',
     'style',
     'id',
-    'for'
+    'for',
+    'aria-labelledby'
   ] ) {
     html = html.replace( new RegExp( ` ${ attribute }="[^"]+"`, 'g' ), '' );
   }

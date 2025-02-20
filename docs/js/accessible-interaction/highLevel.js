@@ -1,6 +1,6 @@
 import { createAccessibleDemo } from './createAccessibleDemo.js';
 
-createAccessibleDemo( 'stopButton', `
+createAccessibleDemo( 'highLevel', `
 export class View extends Node {
   // Provides a Model and a TReadOnlyProperty<Bounds2> that will
   // contain the bounds of the layout area for the view.
@@ -18,26 +18,52 @@ export class View extends Node {
       thumbTouchAreaYDilation: 7
     } );
     
-    /*START*/
     const stopButton = new TextPushButton( 'Stop', {
       font: font,
-      listener: () => model.stop(),
+      listener: () => {
+        model.stop();
+
+        stopButton.alertDescriptionUtterance( 'The cyclist has stopped' );
+      },
       accessibleName: 'Stop',
       accessibleHelpText: 'Stop all motion of the cyclist'
     } );
     
-    const controlsNode = new Panel( new VBox( {
-      spacing: 7,
+    const labelFactory = text => () => new Text( text, { font: font } );
+    const bicycleColorRadioButtonGroup = new VerticalAquaRadioButtonGroup( model.cyclist.bicycleColorShiftProperty, [
+      { value: BLUE_COLOR_SHIFT, createNode: labelFactory( 'Blue' ) },
+      { value: GREEN_COLOR_SHIFT, createNode: labelFactory( 'Green' ) },
+      { value: RED_COLOR_SHIFT, createNode: labelFactory( 'Red' ) }
+    ], {
+      accessibleName: 'Bicycle Color',
+      accessibleHelpText: 'Change the color of the bicycle',
+      touchAreaXDilation: 20
+    } );
+    
+    const controlsNode = new Panel( new HBox( {
+      spacing: 30,
+      align: 'top',
       children: [
-        new Text( 'Acceleration', { font: boldFont } ),
-        accelerationSlider,
-        stopButton
+        new VBox( {
+          spacing: 7,
+          children: [
+            new Text( 'Acceleration', { font: boldFont } ),
+            accelerationSlider,
+            stopButton
+          ]
+        } ),
+        new VBox( {
+          spacing: 7,
+          children: [
+            new Text( 'Bicycle Color', { font: boldFont } ),
+            bicycleColorRadioButtonGroup
+          ]
+        } )
       ]
     } ), {
       top: cyclistNode.bottom + 7,
       xMargin: 20
     } );
-    /*END*/
 
     const scaledNode = new Node( {
       children: [
@@ -45,13 +71,24 @@ export class View extends Node {
         controlsNode
       ]
     } );
+    
+    /*START*/
+    const descriptionNode = new Node( {
+      tagName: 'p',
+      innerContent: 'There is a cyclist on a road. You can control the acceleration of the cyclist using a slider. There is a stop button to stop the cyclist.'
+    } );
 
     super( {
+      tagName: 'div',
+      labelTagName: 'h1',
+      labelContent: 'Accessible Interaction Demo',
       children: [
+        descriptionNode,
         new BackgroundNode( model.positionProperty, layoutBoundsProperty ),
         scaledNode
       ]
     } );
+    /*END*/
 
     layoutBoundsProperty.link( bounds => {
       const scale = bounds.height / 500;

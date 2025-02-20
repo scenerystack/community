@@ -1,6 +1,6 @@
 import { createAccessibleDemo } from './createAccessibleDemo.js';
 
-createAccessibleDemo( 'stopButton', `
+createAccessibleDemo( 'radioButtons', `
 export class View extends Node {
   // Provides a Model and a TReadOnlyProperty<Bounds2> that will
   // contain the bounds of the layout area for the view.
@@ -18,20 +18,52 @@ export class View extends Node {
       thumbTouchAreaYDilation: 7
     } );
     
-    /*START*/
     const stopButton = new TextPushButton( 'Stop', {
       font: font,
-      listener: () => model.stop(),
+      listener: () => {
+        model.stop();
+
+        stopButton.alertDescriptionUtterance( 'The cyclist has stopped' );
+      },
       accessibleName: 'Stop',
       accessibleHelpText: 'Stop all motion of the cyclist'
     } );
     
-    const controlsNode = new Panel( new VBox( {
-      spacing: 7,
+    /*START*/
+    // Utility for creating labels
+    const labelFactory = text => () => new Text( text, { font: font } );
+    
+    // Listen to the color shift property, and give options for each color
+    const bicycleColorRadioButtonGroup = new VerticalAquaRadioButtonGroup( model.cyclist.bicycleColorShiftProperty, [
+      { value: BLUE_COLOR_SHIFT, createNode: labelFactory( 'Blue' ) },
+      { value: GREEN_COLOR_SHIFT, createNode: labelFactory( 'Green' ) },
+      { value: RED_COLOR_SHIFT, createNode: labelFactory( 'Red' ) }
+    ], {
+      accessibleName: 'Bicycle Color',
+      accessibleHelpText: 'Change the color of the bicycle',
+      touchAreaXDilation: 20
+    } );
+    
+    // This will be wrapped with an HBox to horizontally contain content
+    const controlsNode = new Panel( new HBox( {
+      spacing: 30,
+      align: 'top',
       children: [
-        new Text( 'Acceleration', { font: boldFont } ),
-        accelerationSlider,
-        stopButton
+        new VBox( {
+          spacing: 7,
+          children: [
+            new Text( 'Acceleration', { font: boldFont } ),
+            accelerationSlider,
+            stopButton
+          ]
+        } ),
+        new VBox( {
+          spacing: 7,
+          children: [
+            new Text( 'Bicycle Color', { font: boldFont } ),
+            bicycleColorRadioButtonGroup
+          ]
+        } )
       ]
     } ), {
       top: cyclistNode.bottom + 7,

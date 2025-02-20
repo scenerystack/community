@@ -16,6 +16,7 @@ ariaLiveDisplayContainer.style.flexDirection = 'column';
 ariaLiveDisplayContainer.style.alignItems = 'center';
 ariaLiveDisplayContainer.style.gap = '10px';
 ariaLiveDisplayContainer.style.display = 'none'; // initial
+ariaLiveDisplayContainer.style.zIndex = '9999';
 document.body.appendChild( ariaLiveDisplayContainer );
 
 const updateContainerVisibility = () => {
