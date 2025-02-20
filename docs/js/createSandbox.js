@@ -155,11 +155,6 @@ export const createSandbox = ( divOrId, func, providedOptions ) => {
     pdomContainerElement.appendChild( getPDOMHTMLOutput( pdomHTMLProperty ) );
   }
 
-  const ariaLiveContainerElement = document.createElement( 'div' );
-  if ( options.showAriaLive ) {
-    parentElement.appendChild( ariaLiveContainerElement );
-  }
-
   if ( options.showCode ) {
     parentElement.appendChild( createEditor( js, async codeMirrorCode => {
       const oldChildren = scene.children;

@@ -77,3 +77,20 @@ UI components in SceneryStack have custom fields to assist in adjusting these ar
 <iframe id="sliderTouchArea" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
 <div id="sliderTouchArea-info"></div>
 <script type="module" src="/js/accessible-interaction/sliderTouchArea.js"></script>
+
+## Stop Button
+
+We can add a "stop" button to the view, which will stop the cyclist when pressed. Note the accessible information provided:
+
+<iframe id="stopButton" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="stopButton-info"></div>
+<script type="module" src="/js/accessible-interaction/stopButton.js"></script>
+
+In addition, we can provide an alert to screen reader users when an action changes state with `alertDescriptionUtterance`:
+
+<iframe id="buttonAlert" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="buttonAlert-info"></div>
+<script type="module" src="/js/accessible-interaction/buttonAlert.js"></script>
+
+This page will display alerts visually, but screen readers will read them out loud.
+

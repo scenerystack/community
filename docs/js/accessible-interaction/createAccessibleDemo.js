@@ -1,5 +1,7 @@
+import { showAriaLive } from '../ariaLiveDisplay.js';
 import { createEditor } from '../createEditor.js';
 import { extractFunctionJS } from '../extractFunctionJS.js';
+import { getAriaLiveEmitter } from '../getAriaLiveEmitter.js';
 import { getPDOMHTMLOutput } from '../getPDOMHTMLOutput.js';
 import { getPDOMHTMLProperty } from '../getPDOMHTMLProperty.js';
 
@@ -18,6 +20,8 @@ export const createAccessibleDemo = ( id, fullJS, options ) => {
 
       container.appendChild( getPDOMHTMLOutput( pdomHTMLProperty ) );
     }
+
+    getAriaLiveEmitter( iframe.contentWindow.display ).addListener( showAriaLive );
 
     container.appendChild( createEditor( js.trim(), async js => {
       const ViewTypesId = `ViewTypes_${id}`;
@@ -48,14 +52,12 @@ export const createAccessibleDemo = ( id, fullJS, options ) => {
     const iframe = document.querySelector( `#${id}` );
 
     if ( iframe ) {
-      console.log( 'subscribe' );
       const interval = setInterval( () => {
         const container = document.querySelector( `#${id}-info` );
 
         if ( iframe && container && iframe.contentWindow?.ViewTypes ) {
           clearInterval( interval );
 
-          console.log( 'initialize' );
           initialize( iframe, container );
         }
       }, 50 );
