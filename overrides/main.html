@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
-{% block announce %} Join our <a
-    href="https://scenerystack.org/community/join/" target="_blank">Matrix/Slack</a> or check out the <a
-    href="https://github.com/orgs/scenerystack/discussions" target="_blank">GitHub Discussions</a>
+{% block announce %} Join our <a href="https://scenerystack.org/community/join/" target="_blank">Matrix/Slack</a> or
+check out the <a href="https://github.com/orgs/scenerystack/discussions" target="_blank">GitHub Discussions</a>
 {% endblock %}
 
 {% block outdated %}
-  You're not viewing the latest version.
-  <a href="{{ '../' ~ base_url }}"> 
-    <strong>Click here to go to latest.</strong>
-  </a>
+You're not viewing the latest version.
+<a href="{{ '../' ~ base_url }}">
+  <strong>Click here to go to latest.</strong>
+</a>
+{% endblock %}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="../docs/stylesheets/extra.css">
 {% endblock %}

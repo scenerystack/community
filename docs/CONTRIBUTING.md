@@ -12,13 +12,15 @@ You'll find some good general advice in resources such as this [article from Fre
 
 ### 1. Code Contributions (Bug Fixes, Features, etc.)
 
-!!! warning
+!!! warning ""
     Please note that while the documentation and npm package can be found at `scenerystack/community` and `scenerystack/scenerystack`, respectively, the latest library repositories currently exist in the `phetsims` organization (e.g., `phetsims/scenery` or `phetsims/kite`).
 
     Keep this in mind when submitting contributions and remember to check your current SceneryStack version against the latest on the `main` branches.
 
 Our ecosystem comprises various common code libraries, each housed in their respective repositories under [phetsims](https://github.com/orgs/phetsims/repositories?q=topic%3Ascenerystack+sort%3Aname-asc). Some libraries depend on others; for instance, `Sun` is built upon `Scenery` to design UI components.
 
+!!! tip inline end ""
+    Check out the [SceneryStack:Help Wanted](https://github.com/orgs/scenerystack/projects/4/views/1) board for some issues that are ready for contributions.
 👉 If you're considering making an addition or a fix that isn't already documented, initiate by opening an issue and getting community feedback.
 
 Get started with code contributions by following the [steps outlined below](#steps-for-code-contribution).
@@ -31,7 +33,7 @@ We welcome improvements to our documentation, including in the website repositor
 - Refine or correct existing documentation
 - Providing translations to existing documentation
 
-### 3. Partnerships or Finanacial Contributions
+### 3. Partnerships or Financial Contributions
 
 Got a unique idea or suggestion? Interested in partnering with SceneryStack? We're all ears!
 

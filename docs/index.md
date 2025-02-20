@@ -3,15 +3,26 @@ hide:
   - navigation
   - toc
 ---
+<style>
+  .md-typeset h1 {
+    display: none;
+  }
+
+  .md-button {
+    font-size: 1.2rem;
+  }
+</style>
 
 # SceneryStack
+
+![SceneryStack Logo](about/assets/png/full-color-scenerystack-light-logo.png)
 
 ## Create Highly Interactive Content for a Multimodal and Accessible Web
 
 [SceneryStack](./learn/overview.md) is an open-source TypeScript framework designed to create powerful, interactive, and accessible web experiences. SceneryStack offers web development libraries for building engaging simulations, educational tools, or next-generation web applications. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
 
 ??? abstract "**Learn about SceneryStack's features and capabilities**"
-    For a full list of features and capabilities, check out all of the [**FEATURES**](./features.md).
+    For a full list of features and capabilities, check out all of the [**FEATURES**](./learn/features.md).
 
     | _Rendering and Data Handling_ | _Input and Accessibility Features_ |
     |-----------------------------|----------------------------------|
@@ -31,7 +42,7 @@ hide:
     **SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.**
 
 <iframe src="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html" height="400" width="800" style="border:none;" title="Friction Simulation - made with SceneryStack"></iframe>
-_[Interactive Physics Simulation with Inclusive Features](https://phet.colorado.edu/sims/html/friction/latest/friction_all.html) by @phetsims using SceneryStack_
+<figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">Interactive Physics Simulation with Inclusive Features</a> by @phetsims using SceneryStack</figcaption>
 
 ---
 
@@ -44,10 +55,7 @@ SceneryStack is the development framework behind [PhET Interactive Simulations](
 
 ## Ready to use SceneryStack?
 
-<figure markdown>
 [GET STARTED :octicons-rocket-24:{ .rocket }](./learn/setup.md){ .md-button .md-button--primary }
----
-</figure>
 
 Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
 
@@ -63,16 +71,12 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 
 Looking to chat with others using SceneryStack, contribute to the community, or just need to ask some questions?
 
-<figure markdown>
 [Join the Community](community/join.md){ .md-button .md-button--primary }
----
-</figure>
 
 ---
 
 <iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Cathedral - made with SceneryStack"></iframe>
-
-_[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jessegreenberg using SceneryStack_
+<figcaption> <a href="https://jessegreenberg.github.io/cathedral/">Interactive Music Video</a> by @jessegreenberg using SceneryStack</figcaption>
 
 ---
 
@@ -80,10 +84,7 @@ _[Interactive Music Video](https://jessegreenberg.github.io/cathedral/) by @jess
 
 Want to learn more about the Accessibility and Inclusive Design features of SceneryStack and how to create accessible content for all users?
 
-<figure markdown>
 [:octicons-rocket-24: Learn about Accessibility and Inclusive Design](./accessibility/a11y_guides.md){ .md-button .md-button--primary }
----
-</figure>
 
 ---
 
@@ -98,10 +99,7 @@ Want to learn more about the Accessibility and Inclusive Design features of Scen
 
 We welcome contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
 
-<figure markdown>
 [Help Develop SceneryStack](./CONTRIBUTING.md){ .md-button .md-button--primary }
----
-</figure>
 
 ---
 

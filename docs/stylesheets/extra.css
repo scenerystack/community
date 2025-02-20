@@ -18,27 +18,27 @@
   animation: rocket 1000ms infinite;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 .md-typeset h1 {
   font-size: 2rem;
-  /* Adjust as needed */
   font-weight: 800;
 }
 
 .md-typeset h2 {
   font-size: 1.8rem;
-  /* Adjust as needed */
   font-weight: 600;
 }
 
 .md-typeset h3 {
   font-size: 1.5rem;
-  /* Adjust as needed */
   font-weight: 500;
 }
 
 .md-typeset h4 {
   font-size: 1rem;
-  /* Adjust as needed */
-  /* font-style: italic; */
   font-weight: 500;
 }
