@@ -16,7 +16,7 @@ export class View extends Node {
     /*END*/
     
     const controlsNode = new Panel( accelerationSlider, {
-      top: cyclistNode.bottom + 7,
+      top: cyclistNode.bottom + 50,
       xMargin: 20
     } );
 

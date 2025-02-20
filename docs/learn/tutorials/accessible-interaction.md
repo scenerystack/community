@@ -41,8 +41,11 @@ to the view, within a [Panel] (which provides a background and padding):
 
 ## Making the Slider Accessible
 
-While the slider will show up to screen readers (as a `<input type="range">`), it won't be very useful without additional
-information.
+Scenery creates a [Parallel DOM](../scenery-accessibility.md#the-parallel-dom), which is a parallel representation of the
+scene graph that can be used to provide information to screen readers.
+
+As shown above the last code example, while the slider will show up to screen readers (as a `<input type="range">`),
+it won't be very useful without additional information.
 
 UI components in SceneryStack support the `accessibleName` and `accessibleHelpText` fields, which can be used to provide
 additional information to screen readers. We'll add these to the `AccelerationSlider`:
@@ -50,3 +53,27 @@ additional information to screen readers. We'll add these to the `AccelerationSl
 <iframe id="sliderAccessibleProperties" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
 <div id="sliderAccessibleProperties-info"></div>
 <script type="module" src="/js/accessible-interaction/sliderAccessibleProperties.js"></script>
+
+Also note that the Parallel DOM will update dynamically based on the scene graph and the data it contains! The value
+of the slider will be updated in the Parallel DOM as the slider is moved.
+
+This raw value is not very useful to screen readers, so we'll want to customize this. The [HSlider] mixes in the type
+[AccessibleValueHandler] (via [AccessibleSlider]), which provides `pdomCreateAriaValueText`:
+
+<iframe id="sliderAriaValueText" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="sliderAriaValueText-info"></div>
+<script type="module" src="/js/accessible-interaction/sliderAriaValueText.js"></script>
+
+This will be much more usable for the user!
+
+There is one more improvement for the slider. Sometimes slider thumbs can be difficult, especially for touch users.
+While the slider should always be large enough by default, we can invisibly increase the area of the slider thumb for
+touch users.
+
+Mouse and touch areas can be displayed by calling `display.setPointerAreaDisplayVisible( true )` to help visualize.
+UI components in SceneryStack have custom fields to assist in adjusting these areas, and sliders have
+`thumbTouchAreaXDilation` and `thumbTouchAreaYDilation`:
+
+<iframe id="sliderTouchArea" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="sliderTouchArea-info"></div>
+<script type="module" src="/js/accessible-interaction/sliderTouchArea.js"></script>

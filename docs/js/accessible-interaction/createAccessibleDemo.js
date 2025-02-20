@@ -1,14 +1,23 @@
 import { createEditor } from '../createEditor.js';
 import { extractFunctionJS } from '../extractFunctionJS.js';
+import { getPDOMHTMLOutput } from '../getPDOMHTMLOutput.js';
+import { getPDOMHTMLProperty } from '../getPDOMHTMLProperty.js';
 
 export const createAccessibleDemo = ( id, fullJS, options ) => {
   const { js, jsBefore, jsAfter } = extractFunctionJS( fullJS );
 
+  const showPDOM = options?.showPDOM ?? true;
   const interactiveHighlights = options?.interactiveHighlights ?? false;
   const pointerAreas = options?.pointerAreas ?? false;
 
   const initialize = ( iframe, container ) => {
     const ViewTypes = iframe.contentWindow.ViewTypes;
+
+    if ( showPDOM ) {
+      const pdomHTMLProperty = getPDOMHTMLProperty( iframe.contentWindow.display );
+
+      container.appendChild( getPDOMHTMLOutput( pdomHTMLProperty ) );
+    }
 
     container.appendChild( createEditor( js.trim(), async js => {
       const ViewTypesId = `ViewTypes_${id}`;
