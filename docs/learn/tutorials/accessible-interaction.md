@@ -23,6 +23,30 @@ but the repository can also be cloned and run locally, replacing src/View.ts wit
 
 For the main view, we've provided the `BackgroundNode` and `CyclistNode` types. We will start with the scaffolding below:
 
-<iframe id="demo-1" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
-<div id="demo-1-info"></div>
-<script type="module" src="/js/accessible-interaction/demo-1.js"></script>
+<iframe id="settingUp" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="settingUp-info"></div>
+<script type="module" src="/js/accessible-interaction/settingUp.js"></script>
+
+We're creating a `View` subtype of [Node] that will contain a background and a cyclist. This [Node] will be placed into
+a [Display] with animation and events set up.
+
+## Adding an Acceleration Slider
+
+Next, we'll add a slider to control the acceleration of the cyclist. We'll add an `AccelerationSlider` (a [HSlider] subtype)
+to the view, within a [Panel] (which provides a background and padding):
+
+<iframe id="accelerationSlider" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="accelerationSlider-info"></div>
+<script type="module" src="/js/accessible-interaction/accelerationSlider.js"></script>
+
+## Making the Slider Accessible
+
+While the slider will show up to screen readers (as a `<input type="range">`), it won't be very useful without additional
+information.
+
+UI components in SceneryStack support the `accessibleName` and `accessibleHelpText` fields, which can be used to provide
+additional information to screen readers. We'll add these to the `AccelerationSlider`:
+
+<iframe id="sliderAccessibleProperties" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<div id="sliderAccessibleProperties-info"></div>
+<script type="module" src="/js/accessible-interaction/sliderAccessibleProperties.js"></script>
