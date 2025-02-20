@@ -66,7 +66,7 @@ This raw value is not very useful to screen readers, so we'll want to customize 
 
 This will be much more usable for the user!
 
-There is one more improvement for the slider. Sometimes slider thumbs can be difficult, especially for touch users.
+Sometimes slider thumbs can be difficult, especially for touch users.
 While the slider should always be large enough by default, we can invisibly increase the area of the slider thumb for
 touch users.
 

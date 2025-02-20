@@ -5,6 +5,9 @@ export class View extends Node {
   // Provides a Model and a TReadOnlyProperty<Bounds2> that will
   // contain the bounds of the layout area for the view.
   constructor( model, layoutBoundsProperty ) {
+    const font = Font.fromCSS( '18px Arial' );
+    const boldFont = Font.fromCSS( 'bold 18px Arial' );
+
     const cyclistNode = new CyclistNode( model.cyclist );
     
     /*START*/
@@ -16,8 +19,14 @@ export class View extends Node {
     } );
     /*END*/
     
-    const controlsNode = new Panel( accelerationSlider, {
-      top: cyclistNode.bottom + 50,
+    const controlsNode = new Panel( new VBox( {
+      spacing: 7,
+      children: [
+        new Text( 'Acceleration', { font: boldFont } ),
+        accelerationSlider
+      ]
+    } ), {
+      top: cyclistNode.bottom + 40,
       xMargin: 20
     } );
 

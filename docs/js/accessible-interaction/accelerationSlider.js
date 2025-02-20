@@ -13,12 +13,21 @@ export class View extends Node {
       trackSize: new Dimension2( 200, 5 )
     } );
     
+    const boldFont = Font.fromCSS( 'bold 18px Arial' );
+    
     // Wrap this in a panel, and position it.
     // The following line can be placed in the layoutBoundsProperty
     // link to center it:
     //   controlsNode.centerX = bounds.centerX / scale;
-    const controlsNode = new Panel( accelerationSlider, {
-      top: cyclistNode.bottom + 50,
+    const controlsNode = new Panel( new VBox( {
+      spacing: 7,
+      children: [
+        // Place a label above the slider
+        new Text( 'Acceleration', { font: boldFont } ),
+        accelerationSlider
+      ]
+    } ), {
+      top: cyclistNode.bottom + 40,
       xMargin: 20
     } );
 
