@@ -15,7 +15,7 @@ hide:
 
 # SceneryStack
 
-![SceneryStack Logo](about/assets/png/full-color-scenerystack-light-logo.png)
+![SceneryStack Logo](about/assets/png/scenerystack-banner.png)
 
 ## Create Highly Interactive Content for a Multimodal and Accessible Web
 
