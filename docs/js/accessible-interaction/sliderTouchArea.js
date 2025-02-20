@@ -13,8 +13,8 @@ export class View extends Node {
       accessibleName: 'Acceleration',
       accessibleHelpText: 'Adjust the acceleration of the cyclist',
       pdomCreateAriaValueText: value => \`\${toFixed( value / 2, 1 )} meters per second squared\`,
-      thumbTouchAreaXDilation: 10,
-      thumbTouchAreaYDilation: 15
+      thumbTouchAreaXDilation: 20,
+      thumbTouchAreaYDilation: 20
     } );
     /*END*/
     
