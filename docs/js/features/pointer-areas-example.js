@@ -55,4 +55,4 @@ export const initialize = div => createSandbox( div, ( scene, stepEmitter, displ
     return content;
   } )();
   scene.addChild( box );
-} );
+}, { showCode: false } );

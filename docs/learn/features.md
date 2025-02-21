@@ -30,7 +30,15 @@ TODO: Voicing example (Web Speech)
 
 ### Extensible Input System
 
-TODO: mouse/touch areas, customization, swipe-to-snag
+Specific shapes can be used to define areas that can be interacted with (depending on the type of input device):
+
+<div class="sandbox-example" data-example="/js/features/pointer-areas-example.js"></div>
+
+Drag listeners can also support *touch-snag*, where a finger does not need to start directly over the draggable object:
+
+<div class="sandbox-example" data-example="/js/features/touch-snag-example.js"></div>
+
+The input system allows recording and playback of input events, and synthetic input events can be created.
 
 ### Color Profiles and High-DPI Support
 
