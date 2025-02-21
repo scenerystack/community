@@ -68,9 +68,13 @@ Scenery supports rendering with Canvas, SVG, and WebGL, even with a mix of each 
 
 TODO: DOM element demo from tour-of-scenery
 
-### Use WebGL Sprites for High Performance
+### Use Sprites for High Performance
 
-TODO: sprites demo
+These will render in WebGL when available (or fall back to Canvas), for high-performance rendering of many sprites.
+
+<div class="sandbox-example" data-example="/js/features/sprites-example.js"></div>
+
+See [Sprites] and the [basics documentation](./scenery-basics.md#sprites) for more information.
 
 ### Mimapping for Images
 
@@ -80,13 +84,27 @@ TODO: demo (with image that benefits from mipmapping, and likely Canvas renderer
 
 TODO: describe approaches to handling
 
+### Include 3D Content
+
+3D content can be integrated into Scenery applications using the Three.js:
+
+<div class="sandbox-example" data-example="/js/features/three-example.js"></div>
+
+See [Three.js Integration](./examples/threejs-integration.md) for more information. 
+See [Molecule Shapes](https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html) or
+[Density](https://phet.colorado.edu/sims/html/density/latest/density_all.html) for examples of 3D content in PhET simulations.
+
 ### Charts and Graphs
 
 TODO: Bamboo Example
 
 ### Advanced Layout Primitives
 
-TODO: demo
+SceneryStack provides fully-featured layout primitives, like [HBox], [VBox], [GridBox], [AlignBox], and [ManualConstraint].
+
+This makes developing responsive applications a breeze!
+
+See the [Layout Guide](./layout.md) for more information.
 
 ### Iframe Support
 
@@ -99,10 +117,6 @@ TODO: examples of Axon properties
 ### TypeScript Support
 
 TODO
-
-### Run Applications Offline
-
-Single-HTML file artifacts and offline support
 
 ### Animations
 
