@@ -12,13 +12,13 @@ TODO: link to guides and examples
 
 ## Inclusive Design and Accessibility
 
-### Screen Reader Support
-
-TODO: Parallel DOM, aria-labels, etc.
-
 ### Keyboard Traversal Order
 
 TODO: tab order, focus management
+
+### Screen Reader Support
+
+TODO: Parallel DOM, aria-labels, etc.
 
 ### Pan/Zoom and Multi-Touch
 
@@ -106,7 +106,12 @@ Single-HTML file artifacts and offline support
 
 ### Animations
 
-TODO: twixt
+SceneryStack has dedicated [primitives for animation](./animation.md). These can be used to animate any model or visual
+element in your application.
+
+<div class="sandbox-example" data-example="/js/features/animation-example.js"></div>
+
+See the [Animation Guide](./animation.md) for more information.
 
 ### Web Audio
 

@@ -155,40 +155,45 @@ export const createSandbox = ( divOrId, func, providedOptions ) => {
     pdomContainerElement.appendChild( getPDOMHTMLOutput( pdomHTMLProperty ) );
   }
 
+  const runCode = async codeMirrorCode => {
+    const oldChildren = scene.children;
+    scene.removeAllChildren();
+    displayContainerElement.style.backgroundColor = 'transparent';
+    scene.opacity = 1;
+
+    try {
+      window[ `scene${id}` ] = scene;
+      window[ `stepEmitter${id}` ] = stepEmitter;
+      window[ `display${id}` ] = display;
+
+      await scenerystackImportsPromise;
+
+      const imports = Object.keys( self.scenerystackImports ).map( key => {
+        if ( codeMirrorCode.includes( key ) || options.jsBefore.includes( key ) || options.jsAfter.includes( key ) ) {
+          return `const ${key} = scenerystackImports.${key};\n`;
+        }
+      } ).join( '' );
+
+      const code = `${imports}${Math.random()};(${options.jsBefore}\n${codeMirrorCode}\n${options.jsAfter}\n)( window[ 'scene${id}' ], window[ 'stepEmitter${id}' ], window[ 'display${id}' ] )`;
+
+      // Assumes it's in a function, differently from the sandbox
+      const dataURI = `data:text/javascript;base64,${btoa( code )}`;
+
+      await import( dataURI );
+    }
+    catch( e ) {
+      scene.children = oldChildren;
+      displayContainerElement.style.backgroundColor = 'rgba(255,0,0,0.2)';
+      scene.opacity = 0.5;
+      throw e;
+    }
+  };
+
   if ( options.showCode ) {
-    parentElement.appendChild( createEditor( js, async codeMirrorCode => {
-      const oldChildren = scene.children;
-      scene.removeAllChildren();
-      displayContainerElement.style.backgroundColor = 'transparent';
-      scene.opacity = 1;
-
-      try {
-        window[ `scene${id}` ] = scene;
-        window[ `stepEmitter${id}` ] = stepEmitter;
-        window[ `display${id}` ] = display;
-
-        await scenerystackImportsPromise;
-
-        const imports = Object.keys( self.scenerystackImports ).map( key => {
-          if ( codeMirrorCode.includes( key ) || options.jsBefore.includes( key ) || options.jsAfter.includes( key ) ) {
-            return `const ${key} = scenerystackImports.${key};\n`;
-          }
-        } ).join( '' );
-
-        const code = `${imports}${Math.random()};(${options.jsBefore}\n${codeMirrorCode}\n${options.jsAfter}\n)( window[ 'scene${id}' ], window[ 'stepEmitter${id}' ], window[ 'display${id}' ] )`;
-
-        // Assumes it's in a function, differently from the sandbox
-        const dataURI = `data:text/javascript;base64,${btoa( code )}`;
-
-        await import( dataURI );
-      }
-      catch( e ) {
-        scene.children = oldChildren;
-        displayContainerElement.style.backgroundColor = 'rgba(255,0,0,0.2)';
-        scene.opacity = 0.5;
-        throw e;
-      }
-    } ) );
+    parentElement.appendChild( createEditor( js, runCode ) );
+  }
+  else {
+    runCode( js );
   }
 
   if ( options.showDisplay ) {
