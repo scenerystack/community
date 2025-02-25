@@ -141,7 +141,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Introduction: index.md
+  - SceneryStack: index.md
   - Learn:
     - Overview: learn/overview.md
     - Getting Started:
