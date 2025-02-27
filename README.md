@@ -42,11 +42,17 @@ Here are some steps for using Mkdocs in your local dev environment. NOTE: if you
 
 To edit (and optionally deploy) to the documentation website from a local machine (same steps GitHub Actions does):
 
-- Install Python (3.13 last supported at deploy)
-  - (install `pip` and `venv` if not already installed)
+- From community: `cd community/`
+- Install Python3 (3.13 last supported at deploy)
+  - install `pip`
+  - install a virtual environment in community with `venv` (TODO: perhaps we should use `uv` instead)
+    - `python -m venv .venv` . . . Then:
+      - Git bash on Windows: `source .venv/Scripts/activate`
+      - UNIX: `source .venv/bin/activate`\
+      - You should now have a `community/.venv/` 
 - Create a new virtual environment
   - e.g., `python -m venv ss_env`
-- From the `../community`, install module requirements using `pip install -r requirements.txt`.
+- Install module requirements using `pip install -r requirements.txt`.
 - run `mkdocs serve` to locally host the directory and preview changes in real-time in your browser (command will provide a local server link to open). `mkdocs serve --dirtyreload` will run much faster, but will only update changed pages (which can break some plugins).
 - Commit and push changes to `docs` branch
   - `git add .`
