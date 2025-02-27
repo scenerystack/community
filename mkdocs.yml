@@ -155,7 +155,7 @@ nav:
       - Scenery Layout: learn/scenery-layout.md
       - Scenery Input: learn/scenery-input.md
       - Scenery Accessibility: learn/scenery-accessibility.md
-#      - Emitters and Properties: learn/emitters-and-properties.md
+      - Emitters and Properties: learn/emitters-and-properties.md
 #      - Vectors and Matrices: learn/vectors-and-matrices.md
 #      - Shapes: learn/shapes.md
       - Translation and Localization: learn/translation-and-localization.md
