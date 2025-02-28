@@ -2,11 +2,11 @@
 
 # Emitters and Properties
 
-PhET's [Axon] library provides a simple way to make your simulation respond to changes. Axon includes observable [Property] (for state that can change) and [Emitter] (for events or signals). This guide introduces these concepts and shows when to use each, with examples, and comparisons to similar patterns in other frameworks.
+PhET's Axon library provides a simple way to make your simulation respond to changes. Axon includes observable [Property] (for state that can change) and [Emitter] (for events or signals). This guide introduces these concepts and shows when to use each, with examples, and comparisons to similar patterns in other frameworks.
 
 ## What are Properties?
 
-[Property] in [Axon] represent a value that can change over time and notify listeners when it changes. A [Property] wraps a value (e.g. a number or object), and other parts of your code can **observe** it. When the value updates, the [Property] automatically notifies all registered observers. This is PhET's implementation of the **Observer pattern** for model-view communication.
+[Property] in Axon represent a value that can change over time and notify listeners when it changes. A [Property] wraps a value (e.g. a number or object), and other parts of your code can **observe** it. When the value updates, the [Property] automatically notifies all registered observers. This is PhET's implementation of the **Observer pattern** for model-view communication.
 
 ### Creating and Using a Property
 
