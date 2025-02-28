@@ -1,23 +1,10 @@
-# Google Summer of Code 2025 Project Ideas List
+# Project Ideas List
 
-This is a list of projects suggested by SceneryStack and PhET Interactive Simulations developers for [GSoC 2025](https://summerofcode.withgoogle.com/)
+This is a list of projects suggested by SceneryStack and PhET Interactive Simulations developers for interested contributors or for participants of programs like [Google Summer of Code](https://summerofcode.withgoogle.com/) or [Outreachy](https://outreachy.org/).
 
-- [Project 1: Develop a Simple Accessible Game using SceneryStack](#project-1-develop-a-simple-accessible-game-using-scenerystack)
-- [Project 2: Implement Accessibility View for All SceneryStack Projects](#project-2-implement-accessibility-view-for-all-scenerystack-projects)
-- [Project 3: Optimizing Shape Operations in the Kite Library](#project-3-optimizing-shape-operations-in-the-kite-library)
-- [Project 4: Develop a Glass Panel and Dialog Layer for SceneryStack’s UI Library](#project-4-develop-a-glass-panel-and-dialog-layer-for-scenerystacks-ui-library)
+Potential contributions are not limited to the specific project ideas or the scope of the projects as detailed below. If you have ideas, please share them on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or in the specific thread linked beside each project.
 
-See below for more details on the projects listed above.
-
-Potential contributors are not limited to the specific project ideas or the scope of the projects as detailed below. If you have ideas, please share them on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or in the specific thread linked beside each project.
-
-## Timeline
-
-The timeline for GSoC 2025 is at <https://developers.google.com/open-source/gsoc/timeline>.
-
-## What we look for from a contributor
-
-We look for:
+<!-- ## What we look for from a contributor
 
 - Discussion and engagement with the community on the project you are interested in (see the threads linked below each project or [start your own](https://github.com/orgs/scenerystack/discussions))
 - Clear and detailed application explaining how you think the project could be done
@@ -36,19 +23,15 @@ We look for:
       - Are there any other studies or projects you’ll be pursuing alongside this work?
       - What methods or tools do you use to stay organized and on track?
 4. If your project idea is approved, you will be asked to complete a qualification task to demonstrate your skills and understanding of the project, which will be sent to you by email and reviewed by the mentors.
-5. If the project seems like a match, you'll received an affirmative response from the mentor(s) regarding your project. You can then submit your application to the [GSoC website](https://summerofcode.withgoogle.com/).
-
----
-
----
+5. If the project seems like a match, you'll received an affirmative response from the mentor(s) regarding your project. You can then submit your application to the [GSoC website](https://summerofcode.withgoogle.com/). -->
 
 ## Project Ideas (updated February 2025)
   
 ### Project 1: Develop a Simple Accessible Game using SceneryStack
 
-**Project Size:** 175 hours
+**Project Size:** medium
 
-**Estimated Difficulty:** Intermediate  
+**Estimated Difficulty:** intermediate  
 
 **Recommended Skills:**  
 
@@ -58,8 +41,6 @@ We look for:
 - (helpful) **Accessibility (a11y) Concepts:** Familiarity with ARIA roles, keyboard navigation, and screen reader compatibility.
 
 [Project Discussion Thread](https://github.com/orgs/scenerystack/discussions/123)  
-
-**Mentor:** Jonathan Olson
 
 #### Description
 
@@ -94,15 +75,15 @@ Many popular online games are not keyboard or screen reader accessible, making t
 
 This project will serve as an accessible alternative and prove that web games can be both engaging and inclusive from the start. Unlike most games that require users to find and activate accessibility settings, SceneryStack aims to provide clear accessibility features from the moment the page loads—removing barriers to entry for all players.  
 
-#### How to Apply
+#### Contributing to the Project
 
-Interested contributors should begin by participating in the [Project 1 Discussion Thread](https://github.com/orgs/scenerystack/discussions/123) to express their interest, ask questions, and engage with mentors and the SceneryStack/PhET community. Then proceed with the [instructions above for applying](#how-to-apply).
+Interested contributors should begin by participating in the [Project 1 Discussion Thread](https://github.com/orgs/scenerystack/discussions/123) to express their interest, ask questions, and engage with the SceneryStack community. Don't forget to read the [Contribution Guidelines](../CONTRIBUTING.md) before starting your work.
 
 ---
 
 ### Project 2: Implement Accessibility View for All SceneryStack Projects
 
-**Project Size:** 175 hours
+**Project Size:** medium
 
 **Estimated difficulty:** hard
 
@@ -114,8 +95,6 @@ Interested contributors should begin by participating in the [Project 1 Discussi
 - (helpful) **Accessibility (a11y) Concepts:** Familiarity with ARIA roles, keyboard navigation, and screen reader compatibility.
 
 [Project Discussion Thread](https://github.com/orgs/scenerystack/discussions/124)
-
-**Mentor:** Jesse Greenberg
 
 #### Description
 
@@ -139,17 +118,17 @@ Designing spoken descriptions for interactive web projects can be challenging, e
 
 Implementing an accessibility view for all SceneryStack projects is a crucial step towards making web projects more inclusive and user-friendly. This project contributes to the accessibility of educational tools and offers valuable experience in front-end development, accessibility standards implementation, and user experience design.
 
-#### How to Apply
+#### Contributing to the Project
 
-Interested contributors should begin by participating in the [Project 2 Discussion Thread](https://github.com/orgs/scenerystack/discussions/124) to express their interest, ask questions, and engage with mentors and the SceneryStack/PhET community. Then proceed with the [instructions above for applying](#how-to-apply).
+Interested contributors should begin by participating in the [Project 2 Discussion Thread](https://github.com/orgs/scenerystack/discussions/124) to express their interest, ask questions, and engage with the SceneryStack community. Don't forget to read the [Contribution Guidelines](../CONTRIBUTING.md) before starting your work.
 
 ---
 
 ### Project 3: Optimizing Shape Operations in the Kite Library
 
-**Project Size:** 90-175 hours
+**Project Size:** small to medium
 
-**Estimated Difficulty:** Beginner to Intermediate
+**Estimated Difficulty:** beginner to intermediate
 
 **Recommended Skills:**
 
@@ -160,8 +139,6 @@ Interested contributors should begin by participating in the [Project 2 Discussi
 
 [Project Discussion Thread](https://github.com/orgs/scenerystack/discussions/125)
 
-**Mentors:** Samuel Reid, Jonathan Olson
-
 #### Description
 
 This project aims to enhance the performance and accuracy of SceneryStack's shape library, Kite, and its shape operations. Key areas of focus could include, depending on the scope of the contributor's interests and expertise:
@@ -171,14 +148,14 @@ This project aims to enhance the performance and accuracy of SceneryStack's shap
 3. **Reducing External Dependencies:** Evaluate and minimize reliance on external libraries, such as Paper.js, to decrease the overall size of simulations without compromising functionality.
 4. **Enhancing Robustness of Shape Functions:** Resolve issues in functions like `getStrokedShape` and `getOffsetShape` to ensure accurate rendering, especially in edge cases involving small or intricate shapes.
 
-<!-- Relevant Issues:
+Relevant Issues:
 <https://github.com/phetsims/kite/issues/105>
 <https://github.com/phetsims/kite/issues/101>
 <https://github.com/phetsims/kite/issues/98>
 <https://github.com/phetsims/kite/issues/97>
 <https://github.com/phetsims/kite/issues/91>
 <https://github.com/phetsims/kite/issues/83>
-<https://github.com/phetsims/kite/issues/82> -->
+<https://github.com/phetsims/kite/issues/82>
 
 #### Key Tasks
 
@@ -198,17 +175,17 @@ This project aims to enhance the performance and accuracy of SceneryStack's shap
 
 Optimizing the Kite library's shape operations is essential for delivering high-performance, accurate, and efficient simulations. By addressing current limitations, this project will enhance the user experience and broaden the applicability of the SceneryStack framework.
 
-#### How to Apply
+#### Contributing to the Project
 
-Interested contributors should begin by participating in the [Project 3 Discussion Thread](https://github.com/orgs/scenerystack/discussions/125) to express their interest, ask questions, and engage with mentors and the SceneryStack/PhET community. Then proceed with the [instructions above for applying](#how-to-apply).
+Interested contributors should begin by participating in the [Project 3 Discussion Thread](https://github.com/orgs/scenerystack/discussions/125) to express their interest, ask questions, and engage with the SceneryStack community. Don't forget to read the [Contribution Guidelines](../CONTRIBUTING.md) before starting your work.
 
 ---
 
 ### Project 4: Develop a Glass Panel and Dialog Layer for SceneryStack’s UI Library
 
-**Project Size:** 90 hours  
+**Project Size:** small
 
-**Estimated Difficulty:** Intermediate  
+**Estimated Difficulty:** intermediate  
 
 **Recommended Skills:**  
 
@@ -218,8 +195,6 @@ Interested contributors should begin by participating in the [Project 3 Discussi
 - (helpful) **Accessibility (a11y) Concepts:** Familiarity with ARIA roles, keyboard navigation, and screen reader compatibility.  
 
 [Project Discussion Thread](https://github.com/orgs/scenerystack/discussions/126)
-
-**Mentor:** Sam Reid
 
 #### Description
 
@@ -268,6 +243,6 @@ Despite the growing focus on inclusive design, many open-source libraries either
 - **Promote Inclusivity:** Expand the range of accessible user interfaces, benefitting both developers who want to build inclusive apps and end-users with diverse needs.  
 - **Showcase Good A11y Practices:** Demonstrate how to implement components “accessibility-first,” serving as a reference for other open-source projects.  
 
-#### How to Apply
+#### Contributing to the Project
 
-Interested contributors should begin by participating in the [Project 4 Discussion Thread](https://github.com/orgs/scenerystack/discussions/126) to express their interest, ask questions, and engage with mentors and the SceneryStack/PhET community. Then proceed with the [instructions above for applying](#how-to-apply).
+Interested contributors should begin by participating in the [Project 4 Discussion Thread](https://github.com/orgs/scenerystack/discussions/126) to express their interest, ask questions, and engage with the SceneryStack community. Don't forget to read the [Contribution Guidelines](../CONTRIBUTING.md) before starting your work.

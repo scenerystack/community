@@ -1799,7 +1799,7 @@ nav:
       - Contributor License Agreement: community/CLA.md
       - SceneryStack Versioning: community/versioning.md
       - Roadmap: community/roadmap.md
-    - Google Summer of Code: community/gsoc2025.md
+      - Project Ideas: community/project-idea-list.md
   - About: 
     - Project Mission: about/about.md
     - Branding: about/branding.md
