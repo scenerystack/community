@@ -29,6 +29,8 @@ scoreProperty.set( 10 );           // another way to set, triggers listener
 console.log( scoreProperty.get() );// prints 10, the current value
 ```
 
+In TypeScript, Property is a generic type, so you can specify the type of the value it holds (e.g., `new Property<number|null>( 0 )` for a number Property). This helps with type safety and editor autocompletion.
+
 **Key points:**
 
 - **`.link( listener )`:** Registers an observer. It immediately calls `listener` with the current value and then again on every change. This ensures (for example) that a view is in sync with the model's initial state.
@@ -164,6 +166,8 @@ From a usage perspective, [TinyProperty] has a similar API (supports `.link`/`.u
 - [DerivedProperty]: Computes its value from other Properties. Use for values that should always be consistent with other state (formula or combined state).
 - [Multilink]: Convenience to react to multiple Properties' changes in one callback (no value of its own).
 - [TinyProperty]: Lightweight Property without extra features. Use in special cases where performance or memory is critical, and advanced features (instrumentation/validation) are not needed.
+- [TReadOnlyProperty]: TypeScript type that represents a read-only Property of a specific type.
+- [TProperty]: TypeScript type that represents a Property of a specific type. Do not confuse this with TinyProperty.
 
 ## Emitters: Event Signals in Axon
 
