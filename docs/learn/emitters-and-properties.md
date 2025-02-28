@@ -201,7 +201,7 @@ You can also have an Emitter carry data to listeners. For example, an emitter th
 const scoreReachedEmitter = new Emitter();
 
 // Listener expecting a number
-scoreReachedEmitter.addListener( (score) => {
+scoreReachedEmitter.addListener( score => {
   console.log( `Threshold reached at score ${score}!` );
 } );
 
