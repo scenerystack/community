@@ -709,11 +709,14 @@ nav:
         - KebabMenuIcon: reference/api/joist/KebabMenuIcon.md
         - keyboardIcon_png: reference/api/joist/keyboardIcon_png.md
         - keyboardIconOnWhite_png: reference/api/joist/keyboardIconOnWhite_png.md
+        - LanguageSelectionNode: reference/api/joist/LanguageSelectionNode.md
         - launchCounter: reference/api/joist/launchCounter.md
+        - LocalePanel: reference/api/joist/LocalePanel.md
         - localeProperty: reference/api/joist/localeProperty.md
         - LocalizedImageProperty: reference/api/joist/LocalizedImageProperty.md
         - LookAndFeel: reference/api/joist/LookAndFeel.md
         - MemoryMonitor: reference/api/joist/MemoryMonitor.md
+        - OverviewPreferencesPanel: reference/api/joist/OverviewPreferencesPanel.md
         - packageJSON: reference/api/joist/packageJSON.md
         - PreferencesControl: reference/api/joist/PreferencesControl.md
         - PreferencesDialogConstants: reference/api/joist/PreferencesDialogConstants.md
@@ -721,9 +724,14 @@ nav:
         - preferencesIconOnWhite_png: reference/api/joist/preferencesIconOnWhite_png.md
         - PreferencesPanel: reference/api/joist/PreferencesPanel.md
         - PreferencesPanelContentNode: reference/api/joist/PreferencesPanelContentNode.md
+        - PreferencesPanelSection: reference/api/joist/PreferencesPanelSection.md
         - PreferencesStorage: reference/api/joist/PreferencesStorage.md
+        - PreferencesTab: reference/api/joist/PreferencesTab.md
+        - PreferencesTabs: reference/api/joist/PreferencesTabs.md
         - PreferencesTabSwitchSoundGenerator: reference/api/joist/PreferencesTabSwitchSoundGenerator.md
         - PreferencesType: reference/api/joist/PreferencesType.md
+        - ProjectorModeToggleSwitch: reference/api/joist/ProjectorModeToggleSwitch.md
+        - RegionAndCultureComboBox: reference/api/joist/RegionAndCultureComboBox.md
         - regionAndCultureProperty: reference/api/joist/regionAndCultureProperty.md
         - screenSelection_mp3: reference/api/joist/screenSelection_mp3.md
         - screenSelectionHomeV3_mp3: reference/api/joist/screenSelectionHomeV3_mp3.md
@@ -1464,9 +1472,7 @@ nav:
         - KeyboardHelpButton: reference/api/sim/KeyboardHelpButton.md
         - KeyboardHelpDialog: reference/api/sim/KeyboardHelpDialog.md
         - KeypadDialog: reference/api/sim/KeypadDialog.md
-        - LanguageSelectionNode: reference/api/sim/LanguageSelectionNode.md
         - LegendsOfLearningSupport: reference/api/sim/LegendsOfLearningSupport.md
-        - LocalePanel: reference/api/sim/LocalePanel.md
         - LocalizationPreferencesPanel: reference/api/sim/LocalizationPreferencesPanel.md
         - MobiusScreenView: reference/api/sim/MobiusScreenView.md
         - NavigationBar: reference/api/sim/NavigationBar.md
@@ -1475,20 +1481,14 @@ nav:
         - NavigationBarScreenButton: reference/api/sim/NavigationBarScreenButton.md
         - onReadyToLaunch: reference/api/sim/onReadyToLaunch.md
         - OopsDialog: reference/api/sim/OopsDialog.md
-        - OverviewPreferencesPanel: reference/api/sim/OverviewPreferencesPanel.md
         - PhetButton: reference/api/sim/PhetButton.md
         - PhetMenu: reference/api/sim/PhetMenu.md
         - Popupable: reference/api/sim/Popupable.md
         - PreferencesDialog: reference/api/sim/PreferencesDialog.md
         - PreferencesModel: reference/api/sim/PreferencesModel.md
         - PreferencesPanels: reference/api/sim/PreferencesPanels.md
-        - PreferencesPanelSection: reference/api/sim/PreferencesPanelSection.md
-        - PreferencesTab: reference/api/sim/PreferencesTab.md
-        - PreferencesTabs: reference/api/sim/PreferencesTabs.md
         - Profiler: reference/api/sim/Profiler.md
-        - ProjectorModeToggleSwitch: reference/api/sim/ProjectorModeToggleSwitch.md
         - QueryParametersWarningDialog: reference/api/sim/QueryParametersWarningDialog.md
-        - RegionAndCultureComboBox: reference/api/sim/RegionAndCultureComboBox.md
         - RewardDialog: reference/api/sim/RewardDialog.md
         - RewardNode: reference/api/sim/RewardNode.md
         - Screen: reference/api/sim/Screen.md

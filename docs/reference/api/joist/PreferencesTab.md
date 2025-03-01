@@ -15,7 +15,7 @@ visible in the dialog.
 
 
 ```js
-import { PreferencesTab } from 'scenerystack/sim';
+import { PreferencesTab } from 'scenerystack/joist';
 ```
 ### Constructor
 

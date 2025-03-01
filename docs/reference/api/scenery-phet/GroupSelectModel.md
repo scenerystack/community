@@ -52,6 +52,7 @@ Implementation steps (these steps apply to the model and view):
 - use positionSortCueNodeEmitter to update the position of the sort cue for the keyboard interaction.
 - use enabledProperty to control if sorting is enabled. Note that focus and selection are always available (for keyboard tab order consistency)
 - Note that if GroupSelectModel is PhET-iO instrumented, ItemModel must be a PhetioObject.
+- Note that "null" is a reserved value, and should not be a value of ItemModel.
 
 @author Michael Kauzmann (PhET Interactive Simulations)
 @author Marla Schulz (PhET Interactive Simulations)
@@ -198,6 +199,7 @@ import type { GroupSelectModelOptions } from 'scenerystack/scenery-phet';
   Null means that it isn't part of this interaction (different scene/not active/etc).
 - **initialMouseSortCueVisible**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  Define the startup value of the mouseSortCue. False by default.
+- **phetioMouseSortCueInstrumented**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt; &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 

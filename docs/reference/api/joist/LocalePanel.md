@@ -18,7 +18,7 @@ https://github.com/phetsims/joist/issues/814 for more history.
 
 
 ```js
-import { LocalePanel } from 'scenerystack/sim';
+import { LocalePanel } from 'scenerystack/joist';
 ```
 ### Constructor
 

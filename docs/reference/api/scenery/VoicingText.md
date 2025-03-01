@@ -9,6 +9,14 @@
 Text that mixes ReadingBlock, supporting features of Voicing and adding listeners that speak the text string
 upon user input.
 
+Example usage:
+  const voicingText = new VoicingText( 'Hello, world!' );
+
+Example usage:
+  const voicingText = new VoicingText( 'Hello, world!', {
+    accessibleParagraph: 'Custom Voicing Text'
+  } );
+
 @author Jesse Greenberg (PhET Interactive Simulations)
 
 ## Class VoicingText {: #VoicingText }
@@ -35,7 +43,7 @@ import type { VoicingTextOptions } from 'scenerystack/scenery';
 ```
 
 
-[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [TextOptions](../scenery/Text.md#TextOptions)
+[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[TextOptions](../scenery/Text.md#TextOptions), "innerContent" | "focusHighlight"&gt;
 
 
 

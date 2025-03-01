@@ -15,11 +15,11 @@ The actual tabs are implemented as radio buttons, styled to look like flat like 
 
 
 ```js
-import { PreferencesTabs } from 'scenerystack/sim';
+import { PreferencesTabs } from 'scenerystack/joist';
 ```
 ### Constructor
 
-#### new PreferencesTabs( supportedTabs : <span style="font-weight: 400;">[PreferencesType](../joist/PreferencesType.md)[]</span>, selectedPanelProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[PreferencesType](../joist/PreferencesType.md)&gt;</span>, providedOptions : <span style="font-weight: 400;">[PreferencesTabsOptions](../sim/PreferencesTabs.md#PreferencesTabsOptions)</span> ) {: #PreferencesTabs-constructor data-toc-label='new PreferencesTabs' }
+#### new PreferencesTabs( supportedTabs : <span style="font-weight: 400;">[PreferencesType](../joist/PreferencesType.md)[]</span>, selectedPanelProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;[PreferencesType](../joist/PreferencesType.md)&gt;</span>, providedOptions : <span style="font-weight: 400;">[PreferencesTabsOptions](../joist/PreferencesTabs.md#PreferencesTabsOptions)</span> ) {: #PreferencesTabs-constructor data-toc-label='new PreferencesTabs' }
 
 ### Instance Methods
 
@@ -38,7 +38,7 @@ Move focus to the selected tab. Useful when the Preferences dialog is opened.
 
 
 ```js
-import type { PreferencesTabsOptions } from 'scenerystack/sim';
+import type { PreferencesTabsOptions } from 'scenerystack/joist';
 ```
 
 

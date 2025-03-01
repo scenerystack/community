@@ -15,11 +15,11 @@ a projector mode color profile. This toggle switch appears in the PreferencesDia
 
 
 ```js
-import { ProjectorModeToggleSwitch } from 'scenerystack/sim';
+import { ProjectorModeToggleSwitch } from 'scenerystack/joist';
 ```
 ### Constructor
 
-#### new ProjectorModeToggleSwitch( colorProfileProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ProjectorModeToggleSwitchOptions](../sim/ProjectorModeToggleSwitch.md#ProjectorModeToggleSwitchOptions)</span> ) {: #ProjectorModeToggleSwitch-constructor data-toc-label='new ProjectorModeToggleSwitch' }
+#### new ProjectorModeToggleSwitch( colorProfileProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span>, providedOptions? : <span style="font-weight: 400;">[ProjectorModeToggleSwitchOptions](../joist/ProjectorModeToggleSwitch.md#ProjectorModeToggleSwitchOptions)</span> ) {: #ProjectorModeToggleSwitch-constructor data-toc-label='new ProjectorModeToggleSwitch' }
 
 ### Instance Methods
 
@@ -31,7 +31,7 @@ import { ProjectorModeToggleSwitch } from 'scenerystack/sim';
 
 
 ```js
-import type { ProjectorModeToggleSwitchOptions } from 'scenerystack/sim';
+import type { ProjectorModeToggleSwitchOptions } from 'scenerystack/joist';
 ```
 
 

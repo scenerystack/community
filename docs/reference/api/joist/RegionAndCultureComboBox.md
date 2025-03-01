@@ -14,7 +14,7 @@ RegionAndCultureComboBox is the combo box used to set 'Region and Culture' in Pr
 
 
 ```js
-import { RegionAndCultureComboBox } from 'scenerystack/sim';
+import { RegionAndCultureComboBox } from 'scenerystack/joist';
 ```
 ### Constructor
 

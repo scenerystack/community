@@ -87,6 +87,26 @@ Creates a derived number Property whose value is the result of adding all (numbe
 
 Creates a derived boolean Property whose value is the inverse of the provided property.
 
+#### fromRecord( key : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;KeyType&gt;</span>, record : <span style="font-weight: 400;">Record&lt;KeyType, ValueType | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;ValueType&gt;&gt;</span>, options? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;ValueType | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;ValueType&gt;&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;ValueType&gt;</span> {: #fromRecord data-toc-label='fromRecord' }
+
+Creates a derived property based on a record lookup. When evaluated, the DerivedProperty returns the value of
+the Property in the record corresponding to the key's current value.
+
+Record values can also be non-Property values, in which case the DerivedProperty will return that value.
+
+@param key - A property whose current value corresponds to one of the keys in the record.
+@param record - A record mapping keys to Properties or values.
+@param options - Optional settings for the DerivedProperty
+
+#### toFixed( valueProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span>, decimalPlaces : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, options? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> ) : <span style="font-weight: 400;">[DerivedProperty](../axon/DerivedProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> {: #toFixed data-toc-label='toFixed' }
+
+Creates a derived property that formats the numeric value from the provided property with a fixed number of
+decimal places.
+
+@param valueProperty
+@param decimalPlaces
+@param options
+
 #### deriveAny( dependencies : <span style="font-weight: 400;">Array&lt;[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;&gt;</span>, derivation : <span style="font-weight: 400;">() =&gt; T</span>, providedOptions? : <span style="font-weight: 400;">[DerivedPropertyOptions](../axon/DerivedProperty.md#DerivedPropertyOptions)&lt;T&gt;</span> ) : <span style="font-weight: 400;">[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;T&gt;</span> {: #deriveAny data-toc-label='deriveAny' }
 
 Create a DerivedProperty from any number of dependencies.  This is parallel to Multilink.multilinkAny
@@ -149,7 +169,7 @@ import type { DerivedPropertyOptions } from 'scenerystack/axon';
 
 - **phetioLinkDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  When true, if this DerivedProperty is PhET-iO instrument, add a LinkedElement for each PhET-iO instrumented dependency.
-- &amp; [PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PropertyOptions](../axon/ReadOnlyProperty.md#PropertyOptions)&lt;T&gt;, "phetioReadOnly"&gt;
 
 
 

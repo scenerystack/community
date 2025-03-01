@@ -49,7 +49,7 @@ import type { ReadingBlockOptions } from 'scenerystack/scenery';
 - **readingBlockHintResponse**?: [VoicingResponse](../utterance-queue/ResponsePacket.md#VoicingResponse)
 - **readingBlockResponsePatternCollection**?: [ResponsePatternCollection](../utterance-queue/ResponsePatternCollection.md)
 - **readingBlockActiveHighlight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [Shape](../kite/Shape.md) | [Node](../scenery/Node.md)
-- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[VoicingOptions](../scenery/Voicing.md#VoicingOptions), UnsupportedVoicingOptions&gt;
+- &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[VoicingOptions](../scenery/Voicing.md#VoicingOptions), UnsupportedVoicingOptions&gt; &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[NodeOptions](../scenery/Node.md#NodeOptions), "tagName" | "focusable"&gt;
 
 
 

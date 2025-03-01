@@ -15,7 +15,7 @@ about features available in Preferences. This panel is always present in the dia
 
 
 ```js
-import { OverviewPreferencesPanel } from 'scenerystack/sim';
+import { OverviewPreferencesPanel } from 'scenerystack/joist';
 ```
 ### Constructor
 

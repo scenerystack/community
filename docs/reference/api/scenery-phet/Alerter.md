@@ -7,6 +7,7 @@
 ## Overview
 
 Generic base class responsible for interfacing between a Node to alert description.
+
 @author Michael Kauzmann (PhET Interactive Simulations)
 
 ## Class Alerter {: #Alerter }

@@ -21,7 +21,7 @@ import { PreferencesPanels } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new PreferencesPanels( preferencesModel : <span style="font-weight: 400;">[PreferencesModel](../sim/PreferencesModel.md)</span>, supportedTabs : <span style="font-weight: 400;">[PreferencesType](../joist/PreferencesType.md)[]</span>, selectedTabProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[PreferencesType](../joist/PreferencesType.md)&gt;</span>, preferencesTabs : <span style="font-weight: 400;">[PreferencesTabs](../sim/PreferencesTabs.md)</span>, providedOptions? : <span style="font-weight: 400;">PreferencesPanelsOptions</span> ) {: #PreferencesPanels-constructor data-toc-label='new PreferencesPanels' }
+#### new PreferencesPanels( preferencesModel : <span style="font-weight: 400;">[PreferencesModel](../sim/PreferencesModel.md)</span>, supportedTabs : <span style="font-weight: 400;">[PreferencesType](../joist/PreferencesType.md)[]</span>, selectedTabProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;[PreferencesType](../joist/PreferencesType.md)&gt;</span>, preferencesTabs : <span style="font-weight: 400;">[PreferencesTabs](../joist/PreferencesTabs.md)</span>, providedOptions? : <span style="font-weight: 400;">PreferencesPanelsOptions</span> ) {: #PreferencesPanels-constructor data-toc-label='new PreferencesPanels' }
 
 ### Instance Methods
 

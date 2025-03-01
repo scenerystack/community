@@ -15,11 +15,11 @@ and its content. The preferences panels are responsible for layout of multiple P
 
 
 ```js
-import { PreferencesPanelSection } from 'scenerystack/sim';
+import { PreferencesPanelSection } from 'scenerystack/joist';
 ```
 ### Constructor
 
-#### new PreferencesPanelSection( providedOptions? : <span style="font-weight: 400;">[PreferencesPanelSectionOptions](../sim/PreferencesPanelSection.md#PreferencesPanelSectionOptions)</span> ) {: #PreferencesPanelSection-constructor data-toc-label='new PreferencesPanelSection' }
+#### new PreferencesPanelSection( providedOptions? : <span style="font-weight: 400;">[PreferencesPanelSectionOptions](../joist/PreferencesPanelSection.md#PreferencesPanelSectionOptions)</span> ) {: #PreferencesPanelSection-constructor data-toc-label='new PreferencesPanelSection' }
 
 ### Instance Methods
 
@@ -31,7 +31,7 @@ import { PreferencesPanelSection } from 'scenerystack/sim';
 
 
 ```js
-import type { PreferencesPanelSectionOptions } from 'scenerystack/sim';
+import type { PreferencesPanelSectionOptions } from 'scenerystack/joist';
 ```
 
 

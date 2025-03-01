@@ -71,12 +71,6 @@ List of nodes created from ComboBoxItems to be displayed with their correspondin
 
 button that shows the current selection (internal)
 
-### Static Methods
-
-#### getMaxItemWidthProperty( nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> ) : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxItemWidthProperty data-toc-label='getMaxItemWidthProperty' }
-
-#### getMaxItemHeightProperty( nodes : <span style="font-weight: 400;">[Node](../scenery/Node.md)[]</span> ) : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #getMaxItemHeightProperty data-toc-label='getMaxItemHeightProperty' }
-
 ### Static Properties
 
 #### ComboBoxIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ComboBoxIO data-toc-label='ComboBoxIO' }

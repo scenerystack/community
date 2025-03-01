@@ -9,6 +9,14 @@
 RichText that composes ReadingBlock, adding support for Voicing and input listeners that speak content upon
 user activation.
 
+Example usage:
+  const voicingRichText = new VoicingRichText( 'Hello, world!' );
+
+Example usage:
+  const voicingRichText = new VoicingRichText( 'Hello, world!', {
+    accessibleParagraph: 'Custom Voicing Text'
+  } );
+
 @author Jesse Greenberg (PhET Interactive Simulations)
 
 ## Class VoicingRichText {: #VoicingRichText }
@@ -35,7 +43,7 @@ import type { VoicingRichTextOptions } from 'scenerystack/scenery';
 ```
 
 
-[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RichTextOptions](../scenery/RichText.md#RichTextOptions), "focusHighlight"&gt;
+[ReadingBlockOptions](../scenery/ReadingBlock.md#ReadingBlockOptions) &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[RichTextOptions](../scenery/RichText.md#RichTextOptions), "focusHighlight" | "innerContent"&gt;
 
 
 

@@ -145,6 +145,10 @@ TODO: instead of unknown this is the second parameter type for PhetioDynamicElem
 
 The StateSchema (type) that the option is made into. The option is more flexible than the class.
 
+#### fuzzElement : <span style="font-weight: 400;">Required&lt;SelfOptions&lt;T, StateType, SelfStateType&gt;&gt;['fuzzElement']</span> {: #fuzzElement data-toc-label='fuzzElement' }
+
+(readonly)
+
 ### Static Properties
 
 #### ObjectIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ObjectIO data-toc-label='ObjectIO' }

@@ -15,7 +15,7 @@ and input listeners.
 
 
 ```js
-import { LanguageSelectionNode } from 'scenerystack/sim';
+import { LanguageSelectionNode } from 'scenerystack/joist';
 ```
 ### Constructor
 
