@@ -41,12 +41,13 @@ hide:
 
     **SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.**
 
-<iframe src="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html" height="400" width="800" style="border:none;" title="Friction Simulation - made with SceneryStack"></iframe>
-<figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">Interactive Physics Simulation with Inclusive Features</a> by @phetsims using SceneryStack</figcaption>
+<iframe id="accessible-interactive" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
+<figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">SceneryStack Demo with Alternative Input, interactive screen-reader accessible descriptions, and pan and zoom (`Ctrl + +`) </a> by @phetsims using SceneryStack</figcaption>
 
 ---
 
 SceneryStack is the development framework behind [PhET Interactive Simulations](https://phet.colorado.edu/), where it powers STEM-focused interactives used by millions around the world. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
+
 {==
 **SceneryStack is in the early stages of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**
 ==}
@@ -75,8 +76,8 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 ---
 
-<iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Cathedral - made with SceneryStack"></iframe>
-<figcaption> <a href="https://jessegreenberg.github.io/cathedral/">Interactive Music Video</a> by @jessegreenberg using SceneryStack</figcaption>
+<iframe src="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html" height="400" width="800" style="border:none;" title="Friction Simulation - made with SceneryStack"></iframe>
+<figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">Interactive Physics Simulation with Inclusive Features</a> by @phetsims using SceneryStack</figcaption>
 
 ---
 
@@ -88,10 +89,8 @@ Want to learn more about the Accessibility and Inclusive Design features of Scen
 
 ---
 
-<figure markdown>
-  ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Energy Skate Park</a>, dynamic and game-like simulation created by @phetsims using SceneryStack</figcaption>
-</figure>
+<iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Cathedral - made with SceneryStack"></iframe>
+<figcaption> <a href="https://jessegreenberg.github.io/cathedral/">Interactive Music Video</a> by @jessegreenberg using SceneryStack</figcaption>
 
 ---
 
@@ -104,6 +103,6 @@ We welcome contributions from the community! Whether you're a seasoned developer
 ---
 
 <figure markdown>
-  ![Interactive in action with SceneryStack](assets/cck-bulb.gif)
-  <figcaption><a href="https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc">Circuit Construction Kit</a>, circuit sandbox simulation created by @phetsims using SceneryStack</figcaption>
+  ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
+  <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Energy Skate Park</a>, dynamic and game-like simulation created by @phetsims using SceneryStack</figcaption>
 </figure>
