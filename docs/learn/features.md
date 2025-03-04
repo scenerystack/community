@@ -1,7 +1,5 @@
 --8<-- "api-reference-snippets.md"
 
-TODO: link over from https://phet.colorado.edu/en/inclusive-design/features for all of the features videos.
-
 # Features
 
 !!! warning "Under Construction"
@@ -16,17 +14,26 @@ TODO: link to guides and examples
 
 TODO: tab order, focus management
 
+See the [Inclusive Design](https://youtu.be/rvRdVwGd1w8) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
+
 ### Screen Reader Support
 
 TODO: Parallel DOM, aria-labels, etc.
 
+See the [Interactive Description](https://youtu.be/gj55KDRdhM8) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
+
 ### Pan/Zoom and Multi-Touch
 
-TODO
+It is possible to enable pan/zoom for any visual element in Scenery, and the input system supports multi-touch gestures
+for touch-enabled devices.
+
+See the [Pan and Zoom](https://youtu.be/rHHlBOhgDfk) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Dynamic Spoken Content
 
 TODO: Voicing example (Web Speech)
+
+See the [Voicing](https://youtu.be/mwCc_NDmqx4) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Extensible Input System
 
@@ -40,6 +47,8 @@ Drag listeners can also support *touch-snag*, where a finger does not need to st
 
 The input system allows recording and playback of input events, and synthetic input events can be created.
 
+This allows integration with other input systems, for instance with [camera input identifying hand motion](https://youtu.be/of05rnd1Ers).
+
 ### Color Profiles and High-DPI Support
 
 TODO: describe how Scenery handles color profiles and high-DPI displays
@@ -47,6 +56,14 @@ TODO: describe how Scenery handles color profiles and high-DPI displays
 ### Interactive Highlights
 
 TODO: describe how Scenery handles interactive highlights
+
+See the [Interactive Highlights](https://youtu.be/LKRTfvRnxJs) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
+
+### Sound and Sonification
+
+TODO: describe how Scenery handles sound and sonification
+
+See the [Sound and Sonification](https://youtu.be/s0Wp1dILGJQ) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Keyboard-Based Dragging
 
@@ -84,13 +101,37 @@ These will render in WebGL when available (or fall back to Canvas), for high-per
 
 See [Sprites] and the [basics documentation](./scenery-basics.md#sprites) for more information.
 
-### Mimapping for Images
+### Mipmapping for Images
 
-TODO: demo (with image that benefits from mipmapping, and likely Canvas renderer)
+SceneryStack supports **mipmapping** for images, improving rendering quality when images are displayed at reduced sizes. 
+By default, browsers do **not** generate mipmaps for images when rendering them at very small scales, often leading to 
+aliasing or blurriness. To enhance visual quality, you can enable mipmapping by passing `{ mipmap: true }` in the image 
+options:
+
+```js
+const image = new Image( 'path/to/image.png', { mipmap: true } );
+```
+
+With mipmapping enabled, SceneryStack generates progressively smaller versions of the image and selects the most 
+appropriate one based on the current scale, reducing aliasing and improving clarity.
+
+For advanced use cases, SceneryStack also supports pre-processed mipmaps, (see output from [createMipmap.ts](https://github.com/phetsims/chipper/blob/ddfac487517a5c3c1f84020f81835e56bd0070a1/js/grunt/createMipmap.ts).
+This allows developers to provide optimized mipmap levels manually, with improved quality and no runtime CPU processing
+when downscaling images.
 
 ### Declarative and Imperative APIs
 
-TODO: describe approaches to handling
+SceneryStack provides both **declarative** and **imperative** approaches to defining and updating scenes, giving developers flexibility based on their needs.
+
+- **Declarative API:** Define the scene structure using a **hierarchical, state-driven approach**, similar to React or SVG. This method keeps the UI in sync with application state automatically.
+  - Example: Using a **scene graph** with properties bound to model values, automatically updating when state changes.
+  - Best for: Complex, data-driven UIs where a clear separation between state and rendering is desired.
+
+- **Imperative API:** Directly manipulate scene nodes, updating properties dynamically via method calls.
+  - Example: Explicitly modifying node positions, styles, or event handlers in response to user interactions.
+  - Best for: Performance-sensitive applications or cases where procedural control over rendering is necessary.
+
+Both approaches can be used together, enabling efficient UI updates while retaining fine-grained control when needed.
 
 ### Include 3D Content
 
@@ -120,11 +161,28 @@ TODO: show example of PhET sims in iframes?
 
 ### Modeling and Simulation
 
-TODO: examples of Axon properties
+SceneryStack’s **reactive programming model** makes it easy to build dynamic, interactive applications. It provides:
+
+- **Properties** for managing observable state (e.g., `scoreProperty = new Property(0)`). 
+- **Emitters** for event-driven programming (e.g., `buttonClickedEmitter.emit()`).
+- **DerivedProperty** for computed values that automatically update when dependencies change.
+- **Multilink** for responding to multiple state changes at once.
+
+These tools ensure **efficient state management** and **clear model-view separation**, making it easy to build highly
+interactive applications.
+
+See the [Emitters and Properties](./emitters-and-properties.md) guide for more information.
 
 ### TypeScript Support
 
-TODO
+SceneryStack is designed with **first-class TypeScript support**, offering **strict types, autocompletion, and static analysis** across all major components:
+
+- **Typed Scene Graph** – Nodes, layouts, and transforms in Scenery are fully typed, ensuring correctness in rendering logic.
+- **Strongly Typed State Management** – Axon’s `Property<T>` and `Emitter<T>` provide **type-safe** reactivity and event handling.
+- **Strict Event System** – Scenery’s input system defines types for **pointer, keyboard, and accessibility events**, preventing common mistakes.
+- **Component-Based Architecture** – SceneryStack’s declarative API integrates seamlessly with TypeScript, offering **typed UI components** and **structured layouts**.
+
+With TypeScript, SceneryStack enables **safer, more maintainable** code while leveraging modern developer tooling.
 
 ### Animations
 
@@ -137,12 +195,28 @@ See the [Animation Guide](./animation.md) for more information.
 
 ### Web Audio
 
-TODO: Tambo
+SceneryStack includes built-in **Web Audio support** for creating rich, interactive sound experiences. Using the
+**Tambo** library, you can easily add sonification to applications with:
+
+- **SoundClips** – Play pre-recorded audio samples with precise control.
+- **SoundGenerators** – Dynamically generate and modify sounds in real-time.
+- **Emitters & Properties** – Use reactive patterns to trigger and manage sounds based on state or user input.
+- **Customizable Audio Mixing** – Control volume, categories, and layering of sounds.
+
+Tambo leverages the **Web Audio API** for low-latency, high-performance audio, making it ideal for accessibility 
+enhancements, educational applications, and interactive experiences.
 
 ### WebGPU High-Quality Rendering
 
 TODO: Alpenglow
 
-### Vibration
+### Haptic Feedback
 
-TODO: experimental Tappi support
+SceneryStack supports **haptic feedback** using the **Web Vibration API**, allowing applications to provide tactile responses to user interactions. Features include:
+
+- **Customizable Vibration Patterns** – Define patterns with precise timing for different effects like pulses, heartbeats, or gradual fades.
+- **Continuous and Timed Vibration** – Supports sustained vibrations or finite-duration effects for enhanced feedback.
+- **Adaptive Intensity Control** – Adjust vibration strength dynamically based on interaction context.
+- **Cross-Platform Support** – Uses `navigator.vibrate()` on compatible devices, with experimental support for native vibration on Android.
+
+Haptic feedback can enhance accessibility, reinforce UI interactions, and improve user engagement in interactive applications.
