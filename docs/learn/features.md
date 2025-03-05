@@ -12,13 +12,32 @@ TODO: link to guides and examples
 
 ### Keyboard Traversal Order
 
-TODO: tab order, focus management
+SceneryStack provides **keyboard navigation** support by default, ensuring that interactive elements can be focused and 
+activated using the keyboard. By default, the **tab order** follows the **visual back-to-front order** of Scenery's 
+scene graph, meaning elements that are rendered on top are navigated to first.
+
+For cases where the desired **focus order** differs from the visual stacking order, you can explicitly define the 
+**programmatic DOM order** using the `pdomOrder`.
+
+This allows developers to create a logical, intuitive keyboard navigation experience that may better align with UI 
+expectations, particularly in complex layouts. Focus management is also fully customizable, ensuring accessibility 
+best practices are met.
 
 See the [Inclusive Design](https://youtu.be/rvRdVwGd1w8) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Screen Reader Support
 
-TODO: Parallel DOM, aria-labels, etc.
+SceneryStack provides **built-in support for screen readers** through its **Parallel DOM (PDOM)** system. This ensures that interactive elements are accessible to assistive technologies, such as **screen readers** and **keyboard navigation tools**.
+
+#### Key Features:
+
+- **Parallel DOM (PDOM):** Automatically generates a hidden DOM structure that mirrors the visual scene graph, ensuring accessibility without modifying the visual rendering.
+- **ARIA Labels and Roles:** Includes `aria-label`, `aria-labelledby`, and other ARIA attributes to provide meaningful descriptions for screen readers.
+- **Custom Focus and Navigation:** Allows setting focus behavior using `focusable`, `pdomOrder`, and `tagName` properties for better keyboard and screen reader navigation.
+- **Live Regions and Dynamic Updates:** Enables dynamic content updates using `aria-live` for important status messages.
+
+By leveraging **PDOM and ARIA attributes**, SceneryStack ensures that **interactive applications remain accessible** to 
+users with visual impairments, aligning with [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and best accessibility practices.
 
 See the [Interactive Description](https://youtu.be/gj55KDRdhM8) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
@@ -31,7 +50,10 @@ See the [Pan and Zoom](https://youtu.be/rHHlBOhgDfk) video for how this is used 
 
 ### Dynamic Spoken Content
 
-TODO: Voicing example (Web Speech)
+SceneryStack supports dynamic spoken feedback using the Web Speech API, allowing applications to announce status updates, 
+UI changes, or model values in real time. Developers can customize speech rate, pitch, and volume, integrating voicing 
+with accessibility features like screen readers. This enhances usability for visually impaired users and provides 
+multimodal feedback for interactive applications.
 
 See the [Voicing](https://youtu.be/mwCc_NDmqx4) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
@@ -51,37 +73,81 @@ This allows integration with other input systems, for instance with [camera inpu
 
 ### Color Profiles and High-DPI Support
 
-TODO: describe how Scenery handles color profiles and high-DPI displays
+SceneryStack ensures crisp visuals on high-DPI displays by automatically scaling Canvas and WebGL rendering to match 
+device pixel density, preventing blurry graphics on retina-like screens. It also supports dynamic color profiles by 
+allowing fills and strokes to be set with reactive Properties, enabling real-time color adjustments for themes, 
+accessibility modes, or interactive effects.
 
 ### Interactive Highlights
 
-TODO: describe how Scenery handles interactive highlights
+SceneryStack supports interactive highlights by allowing nodes to visually respond to user interactions such as hover, 
+focus, and selection. This can be achieved through dynamic styling of fills, strokes, opacity, or filters. 
+Developers can use input listeners or reactive Properties to control highlights, ensuring accessibility and intuitive 
+feedback for users navigating with a mouse, keyboard, or touch.
 
 See the [Interactive Highlights](https://youtu.be/LKRTfvRnxJs) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Sound and Sonification
 
-TODO: describe how Scenery handles sound and sonification
+SceneryStack provides built-in **Web Audio support** for creating rich, interactive sound experiences, enabling 
+simulations to deliver auditory feedback for interactions, model updates, and accessibility needs. Using the 
+**Tambo** library, developers can integrate sonification with **SoundClips** for pre-recorded audio, **SoundGenerators** 
+for real-time sound synthesis, and **Emitters & Properties** for reactive sound triggering. SceneryStack also supports 
+**customizable audio mixing**, allowing precise control over volume, layering, and categories of sounds. Leveraging the 
+**Web Audio API**, this system ensures low-latency, high-performance audio, making it ideal for educational applications, 
+accessibility enhancements, and dynamic interactive experiences.
 
 See the [Sound and Sonification](https://youtu.be/s0Wp1dILGJQ) video for how this is used in [PhET Simulations](https://phet.colorado.edu/).
 
 ### Keyboard-Based Dragging
 
-TODO: KeyboardDragListener example
+SceneryStack provides **keyboard-based dragging** through [KeyboardDragListener], allowing users to move objects using 
+arrow keys or `WASD` controls. It supports both **step-based movement** (discrete increments) and **continuous movement** 
+(speed-based). Developers can restrict movement to horizontal, vertical, or free 2D motion, and configure drag speed or 
+step size, with finer control available via the shift key. The system integrates with **position properties**, 
+enabling seamless model-view coordination and custom transformations. Additionally, [KeyboardDragListener] 
+ensures accessibility and usability with built-in support for **drag bounds** and smooth **timed updates** for 
+responsive interactions.
 
 ## Create Applications with Ease
 
 ### Cross-Platform Support
 
-TODO: describe how Scenery works on all platforms
+SceneryStack is designed to work seamlessly across all major platforms by dynamically selecting the best rendering 
+backend—**WebGL, Canvas, or SVG**—based on the capabilities of the user's device and browser. It includes extensive 
+**browser compatibility handling**, working around numerous inconsistencies in 
+**input events, graphical rendering, and performance characteristics**. SceneryStack also optimizes rendering strategies 
+differently for various browsers, ensuring **smooth performance and accurate visual output** across desktop and mobile 
+devices. This robust cross-platform support allows applications to run consistently, even in environments with known 
+browser quirks and limitations.
 
 ### Translation and Localization
 
-TODO
+SceneryStack provides built-in support for **translation and localization**, allowing applications to dynamically update 
+text and layout based on the user's language and region. It uses **string Properties** for simple translations and 
+**message Properties** (powered by [Fluent](https://projectfluent.org/)) for complex or dynamic content. Text updates 
+automatically based on the global **localeProperty**, and **PatternStringProperty** enables parameterized strings.
+
+For right-to-left (RTL) languages, SceneryStack supports **bidirectional text rendering** with directional marks and 
+**automatic layout flipping** using the `forwardProperty` in containers like `HBox`. The **regionAndCultureProperty** 
+also enables region-specific content, including localized images with **LocalizedImageProperty**. This ensures full 
+support for multilingual and culturally adaptable applications.
 
 ### Rich Component Library
 
-TODO: sun/scenery-phet components
+SceneryStack includes a **comprehensive library of UI components**, which provides essential building blocks for interactive applications. These include:
+
+- **Buttons**: Rectangular, round, toggle, sticky toggle, and momentary buttons.
+- **Sliders & Spinners**: Horizontal/vertical sliders, number spinners, and fine-coarse spinners.
+- **Form Controls**: Checkboxes, radio buttons, combo boxes, and accordion panels.
+- **Layout Components**: Carousels, panels, and collapsible sections.
+- **Interactive Elements**: Expand/collapse buttons, toggle switches, and more.
+
+These UI components are highly customizable, designed for accessibility, and optimized for performance.
+
+Additionally, **scenery-phet** extends this with specialized interactive elements such as 
+[ArrowNode], [GaugeNode], [ProtractorNode], and time controls, tailored for educational and scientific applications. 
+These components enhance SceneryStack’s ability to build rich, interactive experiences.
 
 ### Render with Canvas/SVG/WebGL
 
@@ -91,7 +157,9 @@ Scenery supports rendering with Canvas, SVG, and WebGL, even with a mix of each 
 
 ### Include DOM Elements
 
-TODO: DOM element demo from tour-of-scenery
+SceneryStack allows integrating **arbitrary DOM elements** into the scene graph using the **DOM** node subtype. This 
+enables embedding HTML content, iframes, videos, forms, or other dynamic elements within the graphical scene while 
+maintaining full transformability and layering alongside other graphical nodes.
 
 ### Use Sprites for High Performance
 
@@ -145,7 +213,13 @@ See [Molecule Shapes](https://phet.colorado.edu/sims/html/molecule-shapes/latest
 
 ### Charts and Graphs
 
-TODO: Bamboo Example
+SceneryStack includes built-in support for interactive charts and graphs, making it easy to visualize data dynamically. 
+Whether it's line graphs, bar charts, scatter plots, or more complex multi-plot visualizations, the library provides 
+flexible components that integrate seamlessly into the scene graph. These elements can update in real time, respond 
+to user interactions, and be styled or customized to match the needs of an application. The system is designed to 
+handle both simple and complex datasets efficiently, ensuring smooth rendering and interactivity.
+
+<div class="sandbox-example" data-example="/js/features/bamboo-example.js"></div>
 
 ### Advanced Layout Primitives
 
@@ -154,10 +228,6 @@ SceneryStack provides fully-featured layout primitives, like [HBox], [VBox], [Gr
 This makes developing responsive applications a breeze!
 
 See the [Layout Guide](./layout.md) for more information.
-
-### Iframe Support
-
-TODO: show example of PhET sims in iframes?
 
 ### Modeling and Simulation
 
@@ -192,19 +262,6 @@ element in your application.
 <div class="sandbox-example" data-example="/js/features/animation-example.js"></div>
 
 See the [Animation Guide](./animation.md) for more information.
-
-### Web Audio
-
-SceneryStack includes built-in **Web Audio support** for creating rich, interactive sound experiences. Using the
-**Tambo** library, you can easily add sonification to applications with:
-
-- **SoundClips** – Play pre-recorded audio samples with precise control.
-- **SoundGenerators** – Dynamically generate and modify sounds in real-time.
-- **Emitters & Properties** – Use reactive patterns to trigger and manage sounds based on state or user input.
-- **Customizable Audio Mixing** – Control volume, categories, and layering of sounds.
-
-Tambo leverages the **Web Audio API** for low-latency, high-performance audio, making it ideal for accessibility 
-enhancements, educational applications, and interactive experiences.
 
 ### WebGPU High-Quality Rendering
 
