@@ -2,7 +2,6 @@
 
 [![Website](https://img.shields.io/badge/scenerystack-website-blue)](http://scenerystack.org)
 [![Discussions](https://img.shields.io/github/discussions/scenerystack/community)](https://github.com/orgs/scenerystack/discussions)
-[![Slack chat](https://img.shields.io/badge/chat-slack-purple)](https://join.slack.com/t/scenerystack/shared_invite/zt-22d2r9ruc-GnxYi37iPluFwVkt~LdzGA)
 [![Matrix chat](https://img.shields.io/badge/chat-matrix-green)](https://matrix.to/#/##scenerystack:matrix.org)
 ![GitHub](https://img.shields.io/github/license/scenerystack/community)
 

@@ -165,7 +165,7 @@ nav:
       - UI Components: learn/ui-components.md
     - Tutorials:
       - Accessible Interaction: learn/tutorials/accessible-interaction.md
-      - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
+      # - Creating an Interactive Figure: learn/tutorials/creating-an-interactive-figure.md
     - Examples:
       - Demo Simulation: learn/examples/demo-simulation.md
       - Scenery Layout Examples: learn/examples/scenery-layout-examples.md

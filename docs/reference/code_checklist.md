@@ -1,4 +1,6 @@
-# Exemplar Code-Review Checklist (a.k.a "CRC") used by PhET Interactive Simulations
+# Example Code-Review Checklist (a.k.a "CRC") used by PhET Interactive Simulations
+
+(version from Jan 2025)
 
 ## Code-Review Notes
 

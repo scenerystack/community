@@ -3,8 +3,7 @@
 # Creating an Interactive Figure
 
 !!! warning "Under Construction"
-    This section and others in Getting Started with SceneryStack are under heavy revisement
-    and will be updated in February 2025.
+    This document and others in this section are under heavy revision.
 
 ??? note "Prerequisites"
     Before setting up your development environment, ensure the following tools are installed:

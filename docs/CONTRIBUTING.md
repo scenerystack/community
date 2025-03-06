@@ -114,7 +114,7 @@ If you're interested in contributing further, check out the [open issues](https:
 
 ## Questions? Get in Touch
 
-Connect with our community on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or through [Slack/Matrix](community/join.md).
+Connect with our community on the [Discussions forum](https://github.com/orgs/scenerystack/discussions) or through [Matrix](community/join.md).
 
 ??? note "How do I contribute to PhET Interactive Simulations?"
 
