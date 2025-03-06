@@ -6,8 +6,6 @@
     This section and others in Getting Started with SceneryStack are under heavy revisement
     and will be updated in February 2025.
 
-TODO: link to guides and examples
-
 ## Inclusive Design and Accessibility
 
 ### Keyboard Traversal Order
@@ -227,7 +225,7 @@ SceneryStack provides fully-featured layout primitives, like [HBox], [VBox], [Gr
 
 This makes developing responsive applications a breeze!
 
-See the [Layout Guide](./layout.md) for more information.
+See the [Layout Guide](./scenery-layout.md) for more information.
 
 ### Modeling and Simulation
 
@@ -265,7 +263,19 @@ See the [Animation Guide](./animation.md) for more information.
 
 ### WebGPU High-Quality Rendering
 
-TODO: Alpenglow
+<div class="sandbox-example" data-example="/js/features/alpenglow-software-example.js"></div>
+
+**Alpenglow** is an experimental rasterizer designed for **high-quality, high-performance vector graphics rendering** using **WebGPU**. It provides a **software reference implementation** and aims to support **WebGL 2 as a fallback**. The rendering approach focuses on **avoiding common artifacts** in traditional rasterization methods while maintaining efficiency.
+
+#### **Key Features and Goals**
+- **Precision Rendering**: Eliminates **conflation artifacts**, ensuring accurate compositing without blending errors.
+- **Advanced Anti-Aliasing**: Uses **polygonal boolean operations** and analytic filtering to reduce aliasing and gamma blending issues.
+- **Gradient and Color Accuracy**: Supports **correct color-space blending** (Oklab, linear sRGB) and **wide-gamut color spaces** (e.g., Display P3).
+- **High-Quality Image Resampling**: Implements **exact analytic filters** for superior upsampling and downsampling.
+- **Computational Geometry for Vector Graphics**: Efficiently resolves **occlusion, overlaps, and clipping** for 2D and 3D vector graphics.
+- **WebGPU Compute Primitives**: Develops reusable **parallel computation techniques** (reduce, scan, sort) to optimize rendering performance.
+
+Alpenglow integrates with **Scenery** for **interactive graphics and UI** and aims to be a **drop-in replacement** for Canvas/SVG rendering, with **higher fidelity and performance** across web and native platforms.
 
 ### Haptic Feedback
 
