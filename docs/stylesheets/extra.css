@@ -42,3 +42,7 @@ iframe {
   font-size: 1rem;
   font-weight: 500;
 }
+
+.md-grid {
+  max-width: 1080px; 
+}

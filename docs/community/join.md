@@ -17,7 +17,7 @@ We welcome you to participate in the community in any way you would like. Intere
 
 ## [Chat](https://matrix.to/#/#scenerystack:matrix.org)
 
-Join our chat! We have synchronized Slack and Matrix channels for the community to discuss and collaborate. Slack is on the free tier, so message history is limited However, all history can be found on the Matrix server. Choose whichever platform you prefer:
+Join our chat! We have a Matrix channel for the community to discuss and collaborate:
 
 - [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org) (Element.io client recommended)
 
@@ -25,4 +25,4 @@ Join our chat! We have synchronized Slack and Matrix channels for the community 
 
 [Contribute to SceneryStack](https://scenerystack.org/community/CONTRIBUTING/) (code, ideas, documentation, examples, anything!)
 
-Have a great idea for how you or your community might connect to SceneryStack? Reach out the community platforms above to discuss opportunities!
+Have a great idea for how you or your community might connect to SceneryStack? Reach out on the community platforms above to discuss opportunities!
