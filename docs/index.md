@@ -15,7 +15,7 @@ hide:
 
 # SceneryStack
 
-![SceneryStack Logo](about/assets/png/scenerystack-banner.png)
+![SceneryStack with rocket logo](about/assets/png/scenerystack-banner.png)
 
 ## Create Highly Interactive Content for a Multimodal and Accessible Web
 
@@ -63,7 +63,7 @@ Learn how to use SceneryStack in your web project or leverage the entire stack f
 ---
 
 <figure markdown>
-  ![Interactive in action with SceneryStack](assets/centerandvariabilitykeyboard.gif)
+  ![Animated image highlighting keyboard navigation through interactive simulation about statistical measures of center through play with soccer balls](assets/centerandvariabilitykeyboard.gif)
   <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard-friendly interactive simulation</a> created by @phetsims using SceneryStack</figcaption>
 </figure>
 ---
@@ -83,7 +83,7 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 ## Accessibility and Inclusive Features
 
-Want to learn more about the Accessibility and Inclusive Design features of SceneryStack and how to create accessible content for all users?
+Want to learn more about the accessibility and inclusive design features of SceneryStack and how to create accessible content for all users?
 
 [:octicons-rocket-24: Learn about Accessibility and Inclusive Design](./accessibility/a11y_guides.md){ .md-button .md-button--primary }
 
@@ -96,13 +96,13 @@ Want to learn more about the Accessibility and Inclusive Design features of Scen
 
 ## Contributing 🤝
 
-We welcome contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
+We encourage contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
 
 [Help Develop SceneryStack](./CONTRIBUTING.md){ .md-button .md-button--primary }
 
 ---
 
 <figure markdown>
-  ![Interactive in action with SceneryStack](assets/energyskatepark.gif)
+  ![""](assets/energyskatepark.gif)
   <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Energy Skate Park</a>, dynamic and game-like simulation created by @phetsims using SceneryStack</figcaption>
 </figure>
