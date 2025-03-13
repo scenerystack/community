@@ -89,11 +89,6 @@ Want to learn more about the accessibility and inclusive design features of Scen
 
 ---
 
-<iframe src="https://jessegreenberg.github.io/cathedral/" height="400" width="800" style="border:none;" title="Cathedral - made with SceneryStack"></iframe>
-<figcaption> <a href="https://jessegreenberg.github.io/cathedral/">Interactive Music Video</a> by @jessegreenberg using SceneryStack</figcaption>
-
----
-
 ## Contributing 🤝
 
 We encourage contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
