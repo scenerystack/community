@@ -1,0 +1,49 @@
+.rocket {
+  color: #ffffff;
+}
+
+@keyframes rocket {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.rocket {
+  animation: rocket 1000ms infinite;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.md-typeset h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.md-typeset h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* TODO: Seems to be causing problems for now, lets find a better way to limit inner content width  */
+/* .md-grid {
+  max-width: 1080px; 
+} */
