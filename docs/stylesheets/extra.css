@@ -43,6 +43,7 @@ iframe {
   font-weight: 500;
 }
 
-.md-grid {
+/* TODO: Seems to be causing problems for now, lets find a better way to limit inner content width  */
+/* .md-grid {
   max-width: 1080px; 
-}
+} */
