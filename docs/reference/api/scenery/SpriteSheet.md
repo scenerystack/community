@@ -41,7 +41,7 @@ NOTE: Should be safe to call with a different context (will recreate a different
 
 Updates a pre-existing texture with our current Canvas.
 
-#### addImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Sprite](../scenery/Sprite.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #addImage data-toc-label='addImage' }
+#### addImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Sprite](../scenery/Sprite.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #addImage data-toc-label='addImage' }
 
 Adds an image (if possible) to our sprite sheet. If successful, will return a {Sprite}, otherwise null.
 
@@ -49,12 +49,12 @@ Adds an image (if possible) to our sprite sheet. If successful, will return a {S
 @param width - Passed in, since it may not be fully loaded yet?
 @param height - Passed in, since it may not be fully loaded yet?
 
-#### removeImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span> ) {: #removeImage data-toc-label='removeImage' }
+#### removeImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span> ) {: #removeImage data-toc-label='removeImage' }
 
 Removes an image from our spritesheet. (Removes one from the amount it is used, and if it is 0, gets actually
 removed).
 
-#### containsImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | HTMLImageElement</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsImage data-toc-label='containsImage' }
+#### containsImage( image : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #containsImage data-toc-label='containsImage' }
 
 Whether the sprite for the specified image is handled by this spritesheet. It can be either used or unused, but
 addImage() calls with the specified image should be extremely fast (no need to modify the Canvas or texture).

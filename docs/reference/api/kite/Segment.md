@@ -85,7 +85,7 @@ invalid or repeated segments.
 
 #### getOverlaps( segment : <span style="font-weight: 400;">[Segment](../kite/Segment.md)</span>, epsilon? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[Overlap](../kite/Overlap.md)[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getOverlaps data-toc-label='getOverlaps' }
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeToContext data-toc-label='writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #writeToContext data-toc-label='writeToContext' }
 
 Draws the segment to the 2D Canvas context, assuming the context's current location is already at the start point
 
@@ -433,7 +433,7 @@ For details, see the documentation in Segment.js
 
 Returns the resultant winding number of this ray intersecting this arc.
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #Arc-writeToContext data-toc-label='Arc-writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #Arc-writeToContext data-toc-label='Arc-writeToContext' }
 
 Draws this arc to the 2D Canvas context, assuming the context's current location is already at the start point
 
@@ -731,7 +731,7 @@ For details, see the documentation in Segment.js
 
 Returns the winding number for intersection with a ray
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #Cubic-writeToContext data-toc-label='Cubic-writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #Cubic-writeToContext data-toc-label='Cubic-writeToContext' }
 
 Draws the segment to the 2D Canvas context, assuming the context's current location is already at the start point
 
@@ -1052,7 +1052,7 @@ For details, see the documentation in Segment.js
 
 Returns the resultant winding number of this ray intersecting this arc.
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #EllipticalArc-writeToContext data-toc-label='EllipticalArc-writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #EllipticalArc-writeToContext data-toc-label='EllipticalArc-writeToContext' }
 
 Draws this arc to the 2D Canvas context, assuming the context's current location is already at the start point
 
@@ -1278,7 +1278,7 @@ For details, see the documentation in Segment.js
 
 Returns the resultant winding number of a ray intersecting this line.
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #KiteLine-writeToContext data-toc-label='KiteLine-writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #KiteLine-writeToContext data-toc-label='KiteLine-writeToContext' }
 
 Draws this line to the 2D Canvas context, assuming the context's current location is already at the start point
 
@@ -1531,7 +1531,7 @@ For details, see the documentation in Segment.js
 
 Returns the winding number for intersection with a ray
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #Quadratic-writeToContext data-toc-label='Quadratic-writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #Quadratic-writeToContext data-toc-label='Quadratic-writeToContext' }
 
 Draws the segment to the 2D Canvas context, assuming the context's current location is already at the start point
 

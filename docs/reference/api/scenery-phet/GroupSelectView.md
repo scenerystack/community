@@ -104,7 +104,6 @@ import type { GroupSelectViewOptions } from 'scenerystack/scenery-phet';
 - **primaryFocusedNodeOptions**?: [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
 <br>  Accessible content provided to the node. This doesn't change from selecting/sorting states. Client is responsible
   for setting accessibleName according to grabbed state, see https://github.com/phetsims/scenery-phet/issues/860
-- **grabReleaseKeyboardListenerOptions**?: [KeyboardListenerOptions](../scenery/KeyboardListener.md#KeyboardListenerOptions)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;
 - &amp; [DisposableOptions](../axon/Disposable.md#DisposableOptions)
 
 

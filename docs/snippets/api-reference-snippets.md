@@ -1,9 +1,8 @@
-[HTMLElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 [HTMLCanvasElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement
-[HTMLImageElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
-[HTMLVideoElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
 [CanvasRenderingContext2D]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
-[logo_png]: /reference/api/adapted-from-phet/logo_png/
+[HTMLElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+[HTMLImageElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
+[HTMLVideoElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement[logo_png]: /reference/api/adapted-from-phet/logo_png/
 [logoOnWhite_png]: /reference/api/adapted-from-phet/logoOnWhite_png/
 [splash_svg]: /reference/api/adapted-from-phet/splash_svg/
 [abs_i64WGSL]: /reference/api/alpenglow/abs_i64WGSL/
@@ -708,6 +707,7 @@
 [SphereBucket]: /reference/api/phetcommon/SphereBucket/
 [StringUtils]: /reference/api/phetcommon/StringUtils/
 [QueryStringMachine]: /reference/api/query-string-machine/QueryStringMachine/
+[QueryStringMachineModule]: /reference/api/query-string-machine/QueryStringMachineModule/
 [ActivatedReadingBlockHighlight]: /reference/api/scenery/ActivatedReadingBlockHighlight/
 [AlignBox]: /reference/api/scenery/AlignBox/
 [AlignGroup]: /reference/api/scenery/AlignGroup/
@@ -1051,7 +1051,6 @@
 [Drawer]: /reference/api/scenery-phet/Drawer/
 [EFieldNode]: /reference/api/scenery-phet/EFieldNode/
 [ElectronChargeNode]: /reference/api/scenery-phet/ElectronChargeNode/
-[erase_mp3]: /reference/api/scenery-phet/erase_mp3/
 [eraser_png]: /reference/api/scenery-phet/eraser_png/
 [EraserButton]: /reference/api/scenery-phet/EraserButton/
 [eyeDropperBackground_png]: /reference/api/scenery-phet/eyeDropperBackground_png/
@@ -1429,11 +1428,13 @@
 [checkboxChecked_mp3]: /reference/api/tambo/checkboxChecked_mp3/
 [checkboxUnchecked_mp3]: /reference/api/tambo/checkboxUnchecked_mp3/
 [click_mp3]: /reference/api/tambo/click_mp3/
+[collect_mp3]: /reference/api/tambo/collect_mp3/
 [CompositeSoundClip]: /reference/api/tambo/CompositeSoundClip/
 [ContinuousPropertySoundClip]: /reference/api/tambo/ContinuousPropertySoundClip/
 [CrossFadeSoundClip]: /reference/api/tambo/CrossFadeSoundClip/
 [DiscreteSoundGenerator]: /reference/api/tambo/DiscreteSoundGenerator/
 [emptyApartmentBedroom06Resampled_mp3]: /reference/api/tambo/emptyApartmentBedroom06Resampled_mp3/
+[erase_mp3]: /reference/api/tambo/erase_mp3/
 [generalBoundaryBoop_mp3]: /reference/api/tambo/generalBoundaryBoop_mp3/
 [generalButton_mp3]: /reference/api/tambo/generalButton_mp3/
 [generalClose_mp3]: /reference/api/tambo/generalClose_mp3/

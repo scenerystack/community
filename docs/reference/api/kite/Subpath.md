@@ -104,7 +104,7 @@ Returns a line that would close this subpath
 
 Returns an array of potential closest points on the subpath to the given point.
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeToContext data-toc-label='writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #writeToContext data-toc-label='writeToContext' }
 
 Draws the segment to the 2D Canvas context, assuming the context's current location is already at the start point
 

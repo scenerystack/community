@@ -44,7 +44,7 @@ Called by Display, updates this overlay in the Display.updateDisplay call.
 
 ### Instance Properties
 
-#### domElement : <span style="font-weight: 400;">HTMLElement</span> {: #domElement data-toc-label='domElement' }
+#### domElement : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)</span> {: #domElement data-toc-label='domElement' }
 
 (readonly)
 

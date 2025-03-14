@@ -69,7 +69,7 @@ import type { ImageableImage } from 'scenerystack/scenery';
 ```
 
 
-<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | HTMLImageElement | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [Mipmap](../scenery/Imageable.md#Mipmap)
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement) | [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement) | [Mipmap](../scenery/Imageable.md#Mipmap)
 
 
 
@@ -108,7 +108,7 @@ import type { Mipmap } from 'scenerystack/scenery';
   height: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>;
   url: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>;
   canvas?: [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement);
-  img?: HTMLImageElement;
+  img?: [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement);
   updateCanvas?: () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span>;
 }[]
 

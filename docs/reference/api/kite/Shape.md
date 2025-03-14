@@ -352,7 +352,7 @@ the tension ranges from -1 to 1
 
 Returns a copy of this shape
 
-#### writeToContext( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeToContext data-toc-label='writeToContext' }
+#### writeToContext( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #writeToContext data-toc-label='writeToContext' }
 
 Writes out this shape's path to a canvas 2d context. does NOT include the beginPath()!
 

@@ -33,7 +33,7 @@ import { RewardNode } from 'scenerystack/sim';
 
 #### dispose() {: #dispose data-toc-label='dispose' }
 
-#### paintCanvas( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
+#### paintCanvas( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
 
 Paint the rewards on the canvas.
 

@@ -21,7 +21,7 @@ import { Pattern } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new Pattern( image : <span style="font-weight: 400;">HTMLImageElement</span> ) {: #Pattern-constructor data-toc-label='new Pattern' }
+#### new Pattern( image : <span style="font-weight: 400;">[HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span> ) {: #Pattern-constructor data-toc-label='new Pattern' }
 
 ### Instance Methods
 
@@ -39,7 +39,7 @@ Returns a string form of this object
 
 ### Instance Properties
 
-#### image : <span style="font-weight: 400;">HTMLImageElement</span> {: #image data-toc-label='image' }
+#### image : <span style="font-weight: 400;">[HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span> {: #image data-toc-label='image' }
 
 #### canvasPattern : <span style="font-weight: 400;">CanvasPattern</span> {: #canvasPattern data-toc-label='canvasPattern' }
 

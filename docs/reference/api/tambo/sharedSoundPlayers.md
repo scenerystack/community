@@ -30,7 +30,7 @@ import type { SharedSoundPlayerName } from 'scenerystack/tambo';
 ```
 
 
-"accordionBoxClosed" | "accordionBoxOpened" | "boundaryReached" | "checkboxChecked" | "checkboxUnchecked" | "generalBoundaryBoop" | "generalClose" | "generalOpen" | "generalSoftClick" | "grab" | "pause" | "play" | "pushButton" | "release" | "resetAll" | "softClick" | "stepBackward" | "stepForward" | "switchToLeft" | "switchToRight" | "toggleOff" | "toggleOn"
+"accordionBoxClosed" | "accordionBoxOpened" | "boundaryReached" | "checkboxChecked" | "checkboxUnchecked" | "erase" | "generalBoundaryBoop" | "generalClose" | "generalOpen" | "generalSoftClick" | "grab" | "pause" | "play" | "pushButton" | "release" | "resetAll" | "softClick" | "stepBackward" | "stepForward" | "switchToLeft" | "switchToRight" | "toggleOff" | "toggleOn"
 
 
 

@@ -45,11 +45,11 @@ in Scenery.
 
 Whether this Node itself is painted (displays something itself).
 
-#### setElement( element : <span style="font-weight: 400;">HTMLElement</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setElement data-toc-label='setElement' }
+#### setElement( element : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">this</span></span> {: #setElement data-toc-label='setElement' }
 
 Changes the DOM element of this DOM node to another element.
 
-#### getElement() : <span style="font-weight: 400;">HTMLElement</span> {: #getElement data-toc-label='getElement' }
+#### getElement() : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)</span> {: #getElement data-toc-label='getElement' }
 
 Returns the DOM element being displayed by this DOM node.
 

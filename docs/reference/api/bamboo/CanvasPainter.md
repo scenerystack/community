@@ -23,7 +23,7 @@ import { CanvasPainter } from 'scenerystack/bamboo';
 
 ### Instance Methods
 
-#### paintCanvas( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
+#### paintCanvas( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
 
 override to paint or change the canvas context state.  Only called if this.visible is true
 

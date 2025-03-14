@@ -899,6 +899,7 @@ nav:
         - StringUtils: reference/api/phetcommon/StringUtils.md
       - query-string-machine:
         - QueryStringMachine: reference/api/query-string-machine/QueryStringMachine.md
+        - QueryStringMachineModule: reference/api/query-string-machine/QueryStringMachineModule.md
       - scenery:
         - ActivatedReadingBlockHighlight: reference/api/scenery/ActivatedReadingBlockHighlight.md
         - AlignBox: reference/api/scenery/AlignBox.md
@@ -1244,7 +1245,6 @@ nav:
         - Drawer: reference/api/scenery-phet/Drawer.md
         - EFieldNode: reference/api/scenery-phet/EFieldNode.md
         - ElectronChargeNode: reference/api/scenery-phet/ElectronChargeNode.md
-        - erase_mp3: reference/api/scenery-phet/erase_mp3.md
         - eraser_png: reference/api/scenery-phet/eraser_png.md
         - EraserButton: reference/api/scenery-phet/EraserButton.md
         - eyeDropperBackground_png: reference/api/scenery-phet/eyeDropperBackground_png.md
@@ -1626,11 +1626,13 @@ nav:
         - checkboxChecked_mp3: reference/api/tambo/checkboxChecked_mp3.md
         - checkboxUnchecked_mp3: reference/api/tambo/checkboxUnchecked_mp3.md
         - click_mp3: reference/api/tambo/click_mp3.md
+        - collect_mp3: reference/api/tambo/collect_mp3.md
         - CompositeSoundClip: reference/api/tambo/CompositeSoundClip.md
         - ContinuousPropertySoundClip: reference/api/tambo/ContinuousPropertySoundClip.md
         - CrossFadeSoundClip: reference/api/tambo/CrossFadeSoundClip.md
         - DiscreteSoundGenerator: reference/api/tambo/DiscreteSoundGenerator.md
         - emptyApartmentBedroom06Resampled_mp3: reference/api/tambo/emptyApartmentBedroom06Resampled_mp3.md
+        - erase_mp3: reference/api/tambo/erase_mp3.md
         - generalBoundaryBoop_mp3: reference/api/tambo/generalBoundaryBoop_mp3.md
         - generalButton_mp3: reference/api/tambo/generalButton_mp3.md
         - generalClose_mp3: reference/api/tambo/generalClose_mp3.md

@@ -38,7 +38,7 @@ import { CombinedRaster } from 'scenerystack/alpenglow';
 
 #### toCanvas() : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span> {: #toCanvas data-toc-label='toCanvas' }
 
-#### writeToCanvas( canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span>, context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeToCanvas data-toc-label='writeToCanvas' }
+#### writeToCanvas( canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span>, context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #writeToCanvas data-toc-label='writeToCanvas' }
 
 ### Instance Properties
 

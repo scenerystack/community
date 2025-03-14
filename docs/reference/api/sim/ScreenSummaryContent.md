@@ -6,28 +6,7 @@
 
 ## Overview
 
-Content for the accessible screen summary and Voicing Toolbar for a ScreenView.
 
-For Interactive Description, this includes content at the top of the page that describes the screen.
-For Voicing, this includes content that is read to the user when they press the "Overview", "Details", or "Hint" buttons
-in the Voicing Toolbar.
-
-For Interactive Description, this class supports basic paragraphs of content. If you need more
-complex PDOM content (like lists or other tags), create your own scenery Nodes and add them as a children of
-this Node.
-
-Options encourage you to categorize content into descriptions for the "play area", "control area", "current details",
-which should align with the description and voicing design for the simulation.
-
-Example usage:
-  const screenSummaryContent = new ScreenSummaryContent( {
-    playAreaContent: playAreaDescriptionStringProperty,
-    controlAreaContent: controlAreaDescriptionStringProperty,
-    currentDetailsContent: [ firstDescriptionStringProperty, secondDescriptionStringProperty ],
-    interactionHintContent: interactionHintStringProperty
-  } );
-
-@author Jesse Greenberg (PhET Interactive Simulations)
 
 ## Class ScreenSummaryContent {: #ScreenSummaryContent }
 

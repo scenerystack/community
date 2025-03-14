@@ -399,11 +399,11 @@ equivalent to the multiplication of (x,y,0).
 
 @returns - The vector that was mutated
 
-#### canvasSetTransform( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #canvasSetTransform data-toc-label='canvasSetTransform' }
+#### canvasSetTransform( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #canvasSetTransform data-toc-label='canvasSetTransform' }
 
 Sets the transform of a Canvas 2D rendering context to the affine part of this matrix
 
-#### canvasAppendTransform( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #canvasAppendTransform data-toc-label='canvasAppendTransform' }
+#### canvasAppendTransform( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #canvasAppendTransform data-toc-label='canvasAppendTransform' }
 
 Appends to the affine part of this matrix to the Canvas 2D rendering context
 

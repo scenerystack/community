@@ -45,8 +45,6 @@ Include @param and @returns in the JSDoc comments for JSDoc api documentation
 ## Class SimVersion {: #SimVersion }
 
 
-
-
 ```js
 import { SimVersion } from 'scenerystack/perennial';
 ```
@@ -56,18 +54,14 @@ import { SimVersion } from 'scenerystack/perennial';
 
 ### Instance Methods
 
-#### serialize() : <span style="font-weight: 400;">Record&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>, <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>&gt;</span> {: #serialize data-toc-label='serialize' }
+#### serialize() : <span style="font-weight: 400;">SimVersionSerialized</span> {: #serialize data-toc-label='serialize' }
 
 Convert into a plain JS object meant for JSON serialization.
-@public
-
-@returns {Object} - with properties like major, minor, maintenance, testType, testNumber, and buildTimestamp
 
 #### compareNumber( version : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #compareNumber data-toc-label='compareNumber' }
 
 Compares versions, returning -1 if this version is before the passed in version, 0 if equal, or 1 if this version
 is after.
-@public
 
 This function only compares major/minor/maintenance, leaving other details to the client.
 
@@ -78,19 +72,16 @@ This function only compares major/minor/maintenance, leaving other details to th
 Returns true if the specified version is strictly after this version
 @param {SimVersion} version
 @returns {boolean}
-@public
 
 #### isBeforeOrEqualTo( version : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #isBeforeOrEqualTo data-toc-label='isBeforeOrEqualTo' }
 
 Returns true if the specified version matches or comes before this version.
 @param version
 @returns {boolean}
-@public
 
 #### toString() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> {: #toString data-toc-label='toString' }
 
 Returns the string form of the version. Like "1.3.5".
-@public
 
 @returns {string}
 
@@ -122,20 +113,15 @@ Returns the string form of the version. Like "1.3.5".
 
 ### Static Methods
 
-#### deserialize( { major, minor, maintenance, testType, testNumber, buildTimestamp } ) : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> {: #deserialize data-toc-label='deserialize' }
+#### deserialize( { major, minor, maintenance, testType, testNumber, buildTimestamp } : <span style="font-weight: 400;">SimVersionSerialized</span> ) : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> {: #deserialize data-toc-label='deserialize' }
 
 Takes a serialized form of the SimVersion and returns an actual instance.
-@public
-
-@param {Object} - with properties like major, minor, maintenance, testType, testNumber, and buildTimestamp
-@returns {SimVersion}
 
 #### comparator( a : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span>, b : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #comparator data-toc-label='comparator' }
 
 Compares versions in standard "comparator" static format, returning -1 if the first parameter SimVersion is
 before the second parameter SimVersion in version-string, 0 if equal, or 1 if the first parameter SimVersion is
 after.
-@public
 
 This function only compares major/minor/maintenance, leaving other details to the client.
 
@@ -145,7 +131,6 @@ This function only compares major/minor/maintenance, leaving other details to th
 #### parse( versionString : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, buildTimestamp? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> {: #parse data-toc-label='parse' }
 
 Parses a sim version from a string form.
-@public
 
 @param {string} versionString - e.g. '1.0.0', '1.0.1-dev.3', etc.
 @param {string} [buildTimestamp] - Optional build timestamp, like '2015-06-12 16:05:03 UTC' (phet.chipper.buildTimestamp)
@@ -154,7 +139,6 @@ Parses a sim version from a string form.
 #### fromBranch( branch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">[SimVersion](../perennial/SimVersion.md)</span> {: #fromBranch data-toc-label='fromBranch' }
 
 Parses a branch in the form {{MAJOR}}.{{MINOR}} and returns a corresponding version. Uses 0 for the maintenance version (unknown).
-@public
 
 @param {string} branch - e.g. '1.0'
 @returns {SimVersion}
@@ -162,7 +146,6 @@ Parses a branch in the form {{MAJOR}}.{{MINOR}} and returns a corresponding vers
 #### ensureReleaseBranch( branch : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) {: #ensureReleaseBranch data-toc-label='ensureReleaseBranch' }
 
 Ensures that a branch name is ok to be a release branch.
-@public
 
 @param {string} branch - e.g. '1.0'
 @ignore - not needed by PhET-iO Clients

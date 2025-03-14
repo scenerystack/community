@@ -41,7 +41,7 @@ Returns the previously-set canvasBounds, or Bounds2.NOTHING if it has not been s
 
 Whether this Node itself is painted (displays something itself).
 
-#### paintCanvas( context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
+#### paintCanvas( context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #paintCanvas data-toc-label='paintCanvas' }
 
 Override paintCanvas with a faster version, since fillRect and drawRect don't affect the current default path.
 

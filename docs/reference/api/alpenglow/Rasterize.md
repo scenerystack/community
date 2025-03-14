@@ -68,7 +68,7 @@ import { Rasterize } from 'scenerystack/alpenglow';
 
 #### imageDataToCanvas( imageData : <span style="font-weight: 400;">ImageData</span> ) : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span> {: #imageDataToCanvas data-toc-label='imageDataToCanvas' }
 
-#### writeImageDataToCanvas( imageData : <span style="font-weight: 400;">ImageData</span>, canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span>, context : <span style="font-weight: 400;">CanvasRenderingContext2D</span> ) {: #writeImageDataToCanvas data-toc-label='writeImageDataToCanvas' }
+#### writeImageDataToCanvas( imageData : <span style="font-weight: 400;">ImageData</span>, canvas : <span style="font-weight: 400;">[HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)</span>, context : <span style="font-weight: 400;">[CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)</span> ) {: #writeImageDataToCanvas data-toc-label='writeImageDataToCanvas' }
 
 
 

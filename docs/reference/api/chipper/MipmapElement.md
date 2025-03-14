@@ -41,7 +41,7 @@ import { MipmapElement } from 'scenerystack/chipper';
 
 (readonly)
 
-#### img : <span style="font-weight: 400;">HTMLImageElement</span> {: #img data-toc-label='img' }
+#### img : <span style="font-weight: 400;">[HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)</span> {: #img data-toc-label='img' }
 
 (readonly)
 

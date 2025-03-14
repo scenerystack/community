@@ -21,8 +21,8 @@ import type { TBrand } from 'scenerystack/brand';
 - **copyright**: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **getLinks**: typeof [getLinks](../brand/getLinks.md)
 - **additionalLicenseStatement**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
-- **logoOnBlackBackground**: HTMLImageElement
-- **logoOnWhiteBackground**: HTMLImageElement
+- **logoOnBlackBackground**: [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
+- **logoOnWhiteBackground**: [HTMLImageElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 
 
 

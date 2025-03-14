@@ -66,7 +66,7 @@ import { Display } from 'scenerystack/scenery';
 
 ### Instance Methods
 
-#### getDOMElement() : <span style="font-weight: 400;">HTMLElement</span> {: #getDOMElement data-toc-label='getDOMElement' }
+#### getDOMElement() : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)</span> {: #getDOMElement data-toc-label='getDOMElement' }
 
 #### updateDisplay() {: #updateDisplay data-toc-label='updateDisplay' }
 
@@ -135,7 +135,7 @@ display) and an .update() method.
 
 Removes an overlay from the display.
 
-#### getPDOMRootElement() : <span style="font-weight: 400;">HTMLElement | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getPDOMRootElement data-toc-label='getPDOMRootElement' }
+#### getPDOMRootElement() : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getPDOMRootElement data-toc-label='getPDOMRootElement' }
 
 Get the root accessible DOM element which represents this display and provides semantics for assistive
 technology. If this Display is not accessible, returns null.
@@ -313,7 +313,7 @@ controlling which forms of focus should be displayed in the HighlightOverlay.
 
 ### Static Methods
 
-#### elementToSVGDataURL( domElement : <span style="font-weight: 400;">HTMLElement</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, callback : <span style="font-weight: 400;">( url: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #elementToSVGDataURL data-toc-label='elementToSVGDataURL' }
+#### elementToSVGDataURL( domElement : <span style="font-weight: 400;">[HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)</span>, width : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, height : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span>, callback : <span style="font-weight: 400;">( url: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span></span> ) {: #elementToSVGDataURL data-toc-label='elementToSVGDataURL' }
 
 Takes a given DOM element, and asynchronously renders it to a string that is a data URL representing an SVG
 file.
@@ -432,7 +432,7 @@ import type { DisplayOptions } from 'scenerystack/scenery';
 - **interruptMultitouch**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If true, and a second touch is detected, it will interrupt the first (active)
   touch. See https://github.com/phetsims/scenery/issues/1684.
-- **container**?: HTMLElement
+- **container**?: [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)
 <br>  An HTMLElement used to contain the contents of the Display
 - &amp; Pick&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "tandem"&gt;
 
