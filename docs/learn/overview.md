@@ -77,14 +77,14 @@ SceneryStack has a flexible model architecture that helps handle highly-interact
 The primary model modules are:
 
 - **Axon**: Patterns for observing both events and changing data. SceneryStack APIs pervasively use the [Property] type,
-  which stores data in a observable way.
+  which stores data in an observable way.
 - **Phet Core**: Core utility functions and types (supporting common software patterns).
 - **Dot**: Mathematics types (e.g. vectors, matrices, transformations) for use in models and views.
 - **Kite**: Creating and manipulating 2D geometric [Shape] objects.
 
 ### Views
 
-SceneryStack primary uses the **Scenery** module for rendering and user input. Scenery has a scene graph structure
+SceneryStack primarily uses the **Scenery** module for rendering and user input. Scenery has a scene graph structure
 (similar to the DOM) built on Scenery [Node]. Scenery [Display]s take a root [Node] and render it to the screen.
 
 While it is common to use one Scenery [Display] to cover all or most of the screen (for a Scenery Application, or like
@@ -107,11 +107,11 @@ A number of other view modules are available for more specialized tasks:
 - **Vegas**: For games made in the [PhET](https://phet.colorado.edu)-like style.
 - **Alpenglow**: For creating high-performance WebGPU graphics (under development).
 
-See the [Scenery Basics] guide for more information on how to use Scenery.
+See the [Scenery Basics](./scenery-basics.md) guide for more information on how to use Scenery.
 
 ## Production and Development
 
-SceneryStack has a few differences between production and development builds
+SceneryStack has a few differences between production and development builds.
 
 Development builds can have assertions enabled, which can help catch bugs early. These can be enabled with the following:
 

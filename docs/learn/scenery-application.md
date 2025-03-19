@@ -96,5 +96,5 @@ use the `updateOnRequestAnimationFrame` method (to run things every frame).
 ## More Information
 
 See the [Scenery Basics](./scenery-basics.md) guide for more information on how to use Scenery. The
-[Creating an Interactive Figure](./tutorials/creating-an-interactive-figure.md) tutorial is a good next step to learn
+[Creating an Accessible Interactive](./tutorials/accessible-interaction.md) tutorial is a good next step to learn
 from.
