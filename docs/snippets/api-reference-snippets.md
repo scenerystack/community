@@ -2,7 +2,8 @@
 [CanvasRenderingContext2D]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 [HTMLElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 [HTMLImageElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement
-[HTMLVideoElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement[logo_png]: /reference/api/adapted-from-phet/logo_png/
+[HTMLVideoElement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
+[logo_png]: /reference/api/adapted-from-phet/logo_png/
 [logoOnWhite_png]: /reference/api/adapted-from-phet/logoOnWhite_png/
 [splash_svg]: /reference/api/adapted-from-phet/splash_svg/
 [abs_i64WGSL]: /reference/api/alpenglow/abs_i64WGSL/
