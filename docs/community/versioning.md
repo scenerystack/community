@@ -1,5 +1,7 @@
-# Breaking Changes
+# Versioning and Breaking Changes
 
-SceneryStack's code is [constantly evolving](https://github.com/phetsims/phet-info/blob/main/doc/phet-development-overview.md#main-is-unstable-accessing-rigorously-tested-code).
+SceneryStack's main branch code is constantly evolving. The maintainers strive to maintain backward compatibility, but sometimes breaking changes are necessary to improve the framework.
 
-We are currently looking for ways to highlight changes to the code to support developers in choosing when to make updates and to help support contributors to the code.
+See the [NPM package](https://www.npmjs.com/package/scenerystack) for the latest version of SceneryStack.
+
+You can [bundle your own version](https://scenerystack.org/learn/modifying-scenerystack/#getting-the-latest-code) from the main branch, but be aware that it may contain breaking changes for your project. Reach out to the maintainers if you have questions about the latest changes on the [community platforms](https://scenerystack.org/community/join).

@@ -1,6 +1,6 @@
 # <img src="/docs/assets/scenerystack-square.png" width="50"> SceneryStack Community Website Repository
 
-[![Website](https://img.shields.io/badge/scenerystack-website-blue)](http://scenerystack.org)
+[![Website](https://img.shields.io/badge/scenerystack-website-blue)](https://scenerystack.org)
 [![Discussions](https://img.shields.io/github/discussions/scenerystack/community)](https://github.com/orgs/scenerystack/discussions)
 [![Matrix chat](https://img.shields.io/badge/chat-matrix-green)](https://matrix.to/#/##scenerystack:matrix.org)
 ![GitHub](https://img.shields.io/github/license/scenerystack/community)

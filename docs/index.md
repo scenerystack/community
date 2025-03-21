@@ -42,7 +42,7 @@ hide:
     **SceneryStack is also ready to be implemented with your favorite JS libraries and frameworks, such as React, Three.js, and more.**
 
 <iframe id="accessible-interactive" style="height: 270px; width: 75%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
-<figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">SceneryStack Demo with Alternative Input, interactive screen-reader accessible descriptions, and pan and zoom ([Ctrl] + [Mouse Wheel Up] or [Ctrl] + [+]) </a> by @phetsims using SceneryStack</figcaption>
+<figcaption> <a href="https://scenerystack.org/learn/tutorials/accessible-interaction/">SceneryStack demo</a> with keyboard navigation, interactive screen-reader accessible descriptions, and pan and zoom</figcaption>
 
 ---
 
