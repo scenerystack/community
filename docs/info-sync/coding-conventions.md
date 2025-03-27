@@ -1,4 +1,28 @@
-# Coding Conventions
+# PhET Coding Conventions
+
+## Table of Contents
+
+* [JavaScript](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#javaScript)
+* [Documentation](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#documentation)
+* [TypeScript](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#typeScript)
+  * [Access Modifiers](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#access-modifiers)
+  * [ESLint](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#eslint)
+  * [Philosophy](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#philosophy)
+  * [Leveraging Type Inference](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#leveraging-type-inference)
+  * [Enumerations](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#enumerations)
+  * [Parameter Types](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#parameter-types)
+  * [Prefer TReadOnlyProperty to DerivedProperty for type annotations](https://github.com/phetsims/phet-info/edit/main/doc/coding-conventions.md#prefer-treadonlyproperty-to-derivedproperty-for-type-annotations)
+  * [Options](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#options)
+  * [Instance Properties](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#instance-properties)
+  * [Class Properties (static)](https://github.com/phetsims/phet-info/edit/main/doc/coding-conventions.md#class-properties-static)
+  * [Multiple Exports](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#multiple-exports)
+  * [Multiple Imports](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#multiple-imports)
+  * [Assertions](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#assertions)
+  * [JSDoc and TSDoc](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#jsdoc-and-tsdoc)
+  * [Non-null assertion operator](https://github.com/phetsims/phet-info/edit/main/doc/coding-conventions.md#non-null-assertion-operator)
+  * [Leverage Excess Property Checking](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#leverage-excess-property-checking)
+  * [Read vs Write APIs](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#read-vs-write-apis)
+* [Further Reading](https://github.com/phetsims/phet-info/blob/main/doc/coding-conventions.md#further-reading)
 
 ## JavaScript
 - [ ] Is the code formatted according to PhET conventions?
@@ -281,13 +305,13 @@ generally meets PhET standards.
 - [ ] Do the `@author` annotations seem correct?
 
 
-## TypeScript-Specific Conventions
+## TypeScript
 
 These are the conventions established for TypeScript use by PhET developers. This is an evolving document in an early
 phase. Please bring things up for discussion to add here as you identify new conventions. Conventions enforced by lint
 or other tooling are not listed here.
 
-## Access Modifiers
+### Access Modifiers
 
 This section deals with PhET conventions for TypeScript access modifiers (`public`, `protected`, `private`), and additional modifiers like `readonly`. Instead of relying on JSDoc annotations to document visibility, you can leverage TypeScript’s built-in features. You may still use TSDoc/JSDoc comments to document details of your API or annotate more specialized visibility scenarios (e.g. “scenery-internal”).
 
@@ -391,7 +415,9 @@ Again, in complex or volatile cases, at the developer preference, the redundant 
 * Please see https://github.com/phetsims/wilder/blob/main/js/wilder/model/WilderEnumerationPatterns.ts for details and
   examples.
 
-### Parameters should be as general as possible
+### Parameter Types
+
+Parameter types should be as general as possible.
 
 This relates to Vanderkam's Item 29 "Be liberal in what you accept and strict in what you produce.". For example:
 
@@ -411,7 +437,7 @@ However, something that has to be PhET-iO instrumented should use `Property` ins
 additional
 `Property` methods are not exercised. This will help clients know that it must be a fully-instrumentable axon Property.
 
-### Prefer TReadOnlyProperty to DerivedProperty for type annotations.
+### Prefer TReadOnlyProperty to DerivedProperty for type annotations
 
 Prefer `TReadOnlyProperty` to `DerivedProperty` for type declarations,
 see https://github.com/phetsims/build-a-nucleus/issues/13
@@ -440,14 +466,13 @@ class HalfLifeInformationNode extends Node {
 See https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md#options-typescript and
 https://github.com/phetsims/wilder/blob/main/js/wilder/model/WilderOptionsPatterns.ts.
 
-#### Use `optionize` instead of `merge`
-
-In the vast majority of cases, `optionize` should be used instead of `merge`. This provided extra type information on
+**Use `optionize` instead of `merge`.** In the vast majority of cases, `optionize` should be used instead of `merge`.
+This provided extra type information on
 top of the implementation of merge. While there are still some cases where `merge` is in TypeScript code, it is the
 exception and not the rule. Please bring any potential new `merge` usage in TypeScript to the attention of the devs so
 that it can be discussed.
 
-### Initialization of instance properties
+### Instance Properties
 
 Instance properties can be initialized either where they are declared, or in the constructor, or as parameter properties
 in the constructor parameters. It is up to developer discretion, but please try to be consistent, and adhere to the
@@ -484,38 +509,6 @@ class EventCounter {
 }
 ```
 
-#### Statics (class properties)
-
-One-line static properties will likely be better and clearer when grouped with the instance properties declared at the
-top of a class. That said, it is developer preference whether to group them or put them at the bottom of the class
-definition:
-
-```ts
-class Person {
-
-  readonly name: string;
-
-  // here is a bit better
-  static QUALITIES: [ 'height', 'age' ];
-
-  constructor( name: string ) {
-    this.name = name;
-  }
-
-  sayName() {
-    console.log( name );
-  }
-
-  // or here because it is long
-  static QUALITIES: [
-    'height',
-    'age'
-  ];
-}
-```
-
-#### Documentation
-
 Documentation for instance properties should be placed with the declaration, not the instantiation. For example:
 
 ```ts
@@ -549,8 +542,38 @@ class Person {
 }
 ```
 
-The same documentation pattern applies to options. Documentation should generally be placed at the declaration, but
-explanation for defaults should be described where the default values are assigned.
+The same documentation pattern applies to class properties (statics) and options. Documentation should generally be placed
+at the declaration, but explanation for defaults should be described where the default values are assigned.
+
+### Class Properties (static)
+
+One-line static properties will likely be better and clearer when grouped with the instance properties declared at the
+top of a class. That said, it is developer preference whether to group them or put them at the bottom of the class
+definition:
+
+```ts
+class Person {
+
+  readonly name: string;
+
+  // here is a bit better
+  static QUALITIES: [ 'height', 'age' ];
+
+  constructor( name: string ) {
+    this.name = name;
+  }
+
+  sayName() {
+    console.log( name );
+  }
+
+  // or here because it is long
+  static QUALITIES: [
+    'height',
+    'age'
+  ];
+}
+```
 
 ### Multiple Exports
 
@@ -580,7 +603,7 @@ export default class DotPlotNode extends Node {
 }
 ```
 
-### Multiple Imports in One Expression
+### Multiple Imports
 
 Multiple imports from the same file should be combined into one statement. This helps clarify that they are related.
 This does not suffer from the same `isolatedModules` constraint as exports; all modules can be imported in the same
@@ -626,7 +649,7 @@ assertion operator is appropriate:
 
 ### Leverage Excess Property Checking
 
-TypeScript is structurally typed, but has a feature called excess property checking that can, in some situations, guard
+TypeScript is structurally typed, but has a feature called _excess property checking_ that can, in some situations, guard
 against typos or any form of incorrect object keys. Excess property checking identifies when an object literal is
 compatible with a target type and disallows properties that are not known in that type. For example:
 
@@ -652,9 +675,99 @@ const p2: Person = otherThing; // Missed opportunity, did not catch my typo.
 Leveraging excess property checking can help us catch potential bugs in the form of typos or incorrect object keys at
 compile time, enhancing the robustness of our code and reducing the likelihood of runtime errors.
 
-For further reading, please see Item 11 "Recognize the Limits of Excess Property Checking" in the book Effective
-Typescript by Vanderkam.
----
+See also Item 11 "Distinguish Excess Property Checking from Type Checking" in [Effective Typescript](https://effectivetypescript.com) by Dan Vanderkam.
 
-Please see other notes in https://github.com/phetsims/ratio-and-proportion/issues/405
-and https://github.com/phetsims/phet-info/blob/main/doc/typescript-quick-start.md 
+### Read vs Write APIs
+
+When designing an API, you will often encounter the need to make a field read-only in the public API, while
+making it writeable in the private/protected API.  This section shows some patterns for accomplishing that 
+for Property fields, but the concept can extend to other types of fields.  Other patterns are certainly possible,
+and the pattern used is up to the developer.
+
+**Anti-pattern**:  A single reference is provided that is writeable in the public API, with documentation saying
+"don't write to this", or an implicit hope that no one will write to it. _Do not do this._
+
+```ts
+class MyClass {
+
+  // Do not modify! Only MyClass should write to positionProperty.
+  public readonly positionProperty: Property<Vector2>;
+
+  public constructor() {
+     this. positionProperty = new Vector2Property( ... );
+  }
+
+  public reset(): void {
+    this.positionProperty.reset();
+  }
+}
+```
+
+**Pattern 1**: This pattern uses two fields that are references to the same Property instance. The `public` reference is read-only for getting the value.
+The `private` reference is for setting and resetting the instance internal to the class. Use `protected` here if it is appropriate for subclasses to 
+modify the Property. The convention is for the private/protected field name to begin with an underscore (`_positionProperty`).
+
+```ts
+class MyClass {
+
+  public readonly positionProperty: TReadOnlyProperty<Vector2>;
+  private readonly _positionProperty: Property<Vector2>;
+
+  public constructor() {
+     this. _positionProperty = new Vector2Property( ... );
+     this. positionProperty = this.positionProperty;
+  }
+
+  public reset(): void {
+    this._positionProperty.reset();
+  }
+}
+```
+
+**Pattern 2**: Provide public read-only access to the Property value (but not the Property) via an ES5 getter.
+
+```ts
+class MyClass {
+
+  private readonly positionProperty: Property<Vector2>;
+
+  public constructor() {
+     this. positionProperty = new Vector2Property( ... );
+  }
+
+  public reset(): void {
+    this.positionProperty.reset();
+  }
+
+  get position(): Vector2 {
+    return this.positionProperty.value;
+  }
+}
+```
+
+**Pattern 3**: A variation of Pattern 2, this pattern provides public read-only access to the Property (not just the Property value) via an ES5 getter.
+Note that the field name must begin with an underscore (`_positionProperty`) so that it does not conflict with the ES5 getter name.
+
+```ts
+class MyClass {
+  private readonly _positionProperty: Property<Vector2>;
+
+  public constructor() {
+    this._positionProperty = new Vector2Property(...);
+  }
+
+  public get positionProperty(): TReadOnlyProperty<Vector2> {
+    return this._positionProperty;
+  }
+
+  public reset(): void {
+    this._positionProperty.reset();
+  }
+}
+```
+
+## Further Reading
+
+* [PhET Software Design Patterns](https://github.com/phetsims/phet-info/blob/main/doc/phet-software-design-patterns.md)
+* Notes in https://github.com/phetsims/ratio-and-proportion/issues/405
+* Notes in https://github.com/phetsims/phet-info/blob/main/doc/typescript-quick-start.md 
