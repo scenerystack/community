@@ -144,6 +144,7 @@ nav:
   - SceneryStack: index.md
   - Learn:
     - Overview: learn/overview.md
+    - Features: learn/features.md
     - Getting Started:
       - Setup: learn/setup.md
       - Simulation: learn/simulation.md
@@ -151,7 +152,6 @@ nav:
       - Standalone Library: learn/standalone-library.md
     - Guides:
       - Scenery Basics: learn/scenery-basics.md
-      - Features: learn/features.md
       - Scenery Layout: learn/scenery-layout.md
       - Scenery Input: learn/scenery-input.md
       - Scenery Accessibility: learn/scenery-accessibility.md

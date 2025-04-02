@@ -56,7 +56,7 @@ SceneryStack is the development framework behind [PhET Interactive Simulations](
 
 ## Ready to use SceneryStack?
 
-[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/setup.md){ .md-button .md-button--primary }
+[GET STARTED :octicons-rocket-24:{ .rocket }](./learn/overview.md){ .md-button .md-button--primary }
 
 Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
 

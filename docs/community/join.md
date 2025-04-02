@@ -5,7 +5,7 @@
 
 We welcome you to participate in the community in any way you would like. Interested in using SceneryStack in your web project? Making an educational simulation? Looking to chat with others in the broader web interactives world? Find your way to engage below:
 
-## [Discussions Forum](https://github.com/scenerystack/community/discussions/)
+## Discussions Forum
 
 SceneryStack uses GitHub Discussions for community conversations. You can ask questions, share ideas, and connect with others in the community.
 
@@ -16,15 +16,17 @@ SceneryStack uses GitHub Discussions for community conversations. You can ask qu
     - Help and respond to others in the [Discussions forum](https://github.com/orgs/scenerystack/discussions/). Have you encountered a similar problem or tried to implement a similar feature? Share your experiences!
     - Share with us what you are using SceneryStack code for! Share in the [Show and Tell category](https://github.com/orgs/scenerystack/discussions/categories/show-and-tell) of the Discussion forum.
 
-## [Chat](https://matrix.to/#/#scenerystack:matrix.org)
+## Chat
 
-SceneryStack uses Matrix.org for chat. It offers an open alternative to Slack or Discord, as well as self-hosting and encryption. You can join the chat room using the following link:
+SceneryStack uses Discord for chat, while offering Matrix.org as an open-source alternative. You can join the chat room using the following links:
+
+[Join our Discord server](https://discord.gg/K2x7XKcMuP){ .md-button .md-button--primary }
 
 [Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org){ .md-button .md-button--primary }
 
 [Element](https://element.io/) is the default, cross-platform client for accessing Matrix with desktop, mobile, and web apps. You can also use other Matrix clients to access the chat.
 
-## [Contribute](https://scenerystack.org/CONTRIBUTING/)
+## Contribute
 
 Learn how to [contribute to SceneryStack](https://scenerystack.org/CONTRIBUTING/)
 
