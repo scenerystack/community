@@ -20,11 +20,11 @@ SceneryStack uses GitHub Discussions for community conversations. You can ask qu
 
 SceneryStack uses Discord for chat, while offering Matrix.org as an open-source alternative. You can join the chat room using the following links:
 
-[Join our Discord server](https://discord.gg/K2x7XKcMuP){ .md-button .md-button--primary }
+[ Join the :simple-discord: Discord server](https://discord.gg/K2x7XKcMuP){ .md-button .md-button--primary }
 
-[Join our Matrix server](https://matrix.to/#/#scenerystack:matrix.org){ .md-button .md-button--primary }
+[ Join the :simple-matrix: Matrix server](https://matrix.to/#/#scenerystack:matrix.org){ .md-button .md-button--primary }
 
-[Element](https://element.io/) is the default, cross-platform client for accessing Matrix with desktop, mobile, and web apps. You can also use other Matrix clients to access the chat.
+[:simple-element: Element](https://element.io/) is the default, cross-platform client for accessing Matrix with desktop, mobile, and web apps. You can also use other Matrix clients to access the chat.
 
 ## Contribute
 

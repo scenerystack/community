@@ -20,6 +20,8 @@ extra:
       link: https://github.com/scenerystack/
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.social/@scenerystack
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/scenerystack.bsky.social
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@SceneryStack
 
