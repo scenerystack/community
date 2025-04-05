@@ -44,15 +44,11 @@ hide:
 <iframe id="accessible-interactive" style="height: 270px; width: 75%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
 <figcaption> <a href="https://scenerystack.org/learn/tutorials/accessible-interaction/">SceneryStack demo</a> with keyboard navigation, interactive screen-reader accessible descriptions, and pan and zoom</figcaption>
 
----
-
 SceneryStack is the development framework behind [PhET Interactive Simulations](https://phet.colorado.edu/), where it powers STEM-focused interactives used by millions around the world. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
 
 {==
 **SceneryStack is in the early stages of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**
 ==}
-
----
 
 ## Ready to use SceneryStack?
 
@@ -60,13 +56,10 @@ SceneryStack is the development framework behind [PhET Interactive Simulations](
 
 Learn how to use SceneryStack in your web project or leverage the entire stack for your next highly interactive experience.
 
----
-
 <figure markdown>
   ![Animated image highlighting keyboard navigation through interactive simulation about statistical measures of center through play with soccer balls](assets/centerandvariabilitykeyboard.gif)
   <figcaption><a href="https://phet.colorado.edu/en/simulations/center-and-variability">Keyboard-friendly interactive simulation</a> created by @phetsims using SceneryStack</figcaption>
 </figure>
----
 
 ## Community 🌍
 
@@ -74,12 +67,8 @@ Looking to chat with others using SceneryStack, contribute to the community, or 
 
 [Join the Community](community/join.md){ .md-button .md-button--primary }
 
----
-
 <iframe src="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html" height="400" width="800" style="border:none;" title="Friction Simulation - made with SceneryStack"></iframe>
 <figcaption> <a href="https://phet.colorado.edu/sims/html/friction/latest/friction_all.html">Interactive Physics Simulation with Inclusive Features</a> by @phetsims using SceneryStack</figcaption>
-
----
 
 ## Accessibility and Inclusive Features
 
@@ -87,15 +76,11 @@ Want to learn more about the accessibility and inclusive design features of Scen
 
 [:octicons-rocket-24: Learn about Accessibility and Inclusive Design](./accessibility/a11y_guides.md){ .md-button .md-button--primary }
 
----
-
 ## Contributing 🤝
 
 We encourage contributions from the community! Whether you're a seasoned developer or just starting, there are many ways to contribute to SceneryStack.
 
 [Help Develop SceneryStack](./CONTRIBUTING.md){ .md-button .md-button--primary }
-
----
 
 <figure markdown>
   ![""](assets/energyskatepark.gif)
