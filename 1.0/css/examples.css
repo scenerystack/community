@@ -1,0 +1,29 @@
+@import url("./codemirror-5.52.2.min.css");
+@import url("./codemirror-5.52.2.monokai.min.css");
+
+.exampleScene {
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 10px auto;
+}
+
+.CodeMirror {
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.errors {
+  border: 1px solid red;
+}
+
+.CodeMirror * {
+  font-family: "Noto Sans Mono", SFMono-Regular, Consolas, Menlo, monospace;
+  font-size: 13px;
+}
+
+.md-header, .md-top {
+  z-index: 20000; /* bump this past Scenery things */
+}
