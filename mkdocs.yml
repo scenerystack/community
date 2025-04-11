@@ -11,8 +11,8 @@ repo_url: https://github.com/scenerystack/community
 edit_uri: edit/main/docs
 
 extra:
-  # version:
-    # provider: mike # for versioning plugin
+  version:
+    provider: mike # https://github.com/jimporter/mike
   annotate:
     json: [.s2]
   social:
@@ -86,7 +86,7 @@ theme:
       name: Switch to system preference
   font:
     text: Noto Sans
-    code: Noto Sans Mono
+    code: Noto Mono
 
 # Plugins
 plugins:
