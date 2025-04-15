@@ -10,7 +10,7 @@ export const initialize = div => createSandbox( div, ( scene, stepEmitter, displ
       fill: 'red',
       inputListeners: [ new FireListener( { fire: () => {
         const alertString = `Clicked ${++count} time${count > 1 ? 's' : ''}`
-        circleButton.alertDescriptionUtterance( alertString );
+        circleButton.addAccessibleResponse( alertString );
       } } ) ],
       cursor: 'pointer'
     } );

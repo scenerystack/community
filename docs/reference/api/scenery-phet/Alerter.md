@@ -26,9 +26,9 @@ import { Alerter } from 'scenerystack/scenery-phet';
 
 Alert to both description and voicing utteranceQueues, depending on if both are supported by this instance
 
-#### alertDescriptionUtterance( alertable : <span style="font-weight: 400;">[TAlertable](../utterance-queue/Utterance.md#TAlertable)</span> ) {: #alertDescriptionUtterance data-toc-label='alertDescriptionUtterance' }
+#### addAccessibleResponse( alertable : <span style="font-weight: 400;">[TAlertable](../utterance-queue/Utterance.md#TAlertable)</span> ) {: #addAccessibleResponse data-toc-label='addAccessibleResponse' }
 
-Forward to provided Node for UtteranceQueue alerting logic. See ParallelDOM.alertDescriptionUtterance() for details.
+Forward to provided Node for UtteranceQueue alerting logic. See ParallelDOM.addAccessibleResponse() for details.
 
 #### forEachUtteranceQueue( utteranceQueueCallback : <span style="font-weight: 400;">UtteranceQueueCallback</span> ) {: #forEachUtteranceQueue data-toc-label='forEachUtteranceQueue' }
 

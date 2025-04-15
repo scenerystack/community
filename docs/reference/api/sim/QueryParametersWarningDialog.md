@@ -19,7 +19,7 @@ import { QueryParametersWarningDialog } from 'scenerystack/sim';
 ```
 ### Constructor
 
-#### new QueryParametersWarningDialog( warnings : <span style="font-weight: 400;">Warning[]</span>, providedOptions? : <span style="font-weight: 400;">[QueryParametersWarningDialogOptions](../sim/QueryParametersWarningDialog.md#QueryParametersWarningDialogOptions)</span> ) {: #QueryParametersWarningDialog-constructor data-toc-label='new QueryParametersWarningDialog' }
+#### new QueryParametersWarningDialog( warnings : <span style="font-weight: 400;">[Warning](../query-string-machine/QueryStringMachineModule.md#Warning)[]</span>, providedOptions? : <span style="font-weight: 400;">[QueryParametersWarningDialogOptions](../sim/QueryParametersWarningDialog.md#QueryParametersWarningDialogOptions)</span> ) {: #QueryParametersWarningDialog-constructor data-toc-label='new QueryParametersWarningDialog' }
 
 ### Instance Methods
 

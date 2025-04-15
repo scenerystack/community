@@ -63,13 +63,15 @@ import type { NumberPickerOptions } from 'scenerystack/sun';
 - **mouseAreaYDilation**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **backgroundStroke**?: [TColor](../scenery/TColor.md)
 - **backgroundLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **backgroundDisabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowHeight**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowYSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **arrowStroke**?: [TColor](../scenery/TColor.md)
 - **arrowLineWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-- **arrowDisabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **valueMaxWidth**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **backgroundStrokeDisabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  Use disabledOpacity, backgroundStrokeDisabledOpacity, arrowDisabledOpacity to implement 'display mode' when
+  NumberPicker is disabled. See https://github.com/phetsims/sun/issues/932.
+- **arrowDisabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **formatValue**?: ( value: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>
 <br>  Converts a value to a string to be displayed in a Text node. NOTE: If this function can give different strings
   to the same value depending on external state, it is recommended to rebuild the NumberPicker when that state

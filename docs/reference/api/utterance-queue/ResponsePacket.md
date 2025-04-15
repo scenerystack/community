@@ -83,7 +83,7 @@ import type { ResolvedResponse } from 'scenerystack/utterance-queue';
 ```
 
 
-<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span> | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
+[SerializedResponse](../utterance-queue/ResponsePacket.md#SerializedResponse) | [TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;
 
 
 
@@ -110,6 +110,18 @@ import type { ResponsePacketOptions } from 'scenerystack/utterance-queue';
 <br>  Collection of string patterns to use with responseCollector.collectResponses, see ResponsePatternCollection for
   more information.
 
+
+
+
+## Type SerializedResponse {: #SerializedResponse }
+
+
+```js
+import type { SerializedResponse } from 'scenerystack/utterance-queue';
+```
+
+
+<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 
 
 

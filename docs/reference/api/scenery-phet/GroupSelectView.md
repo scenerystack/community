@@ -61,18 +61,6 @@ The cue node for grab/release.
 
 Emitted when the sorting cue should be repositioned. Most likely because the selection has changed.
 
-### Static Methods
-
-#### createSortCueNode( visibleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, scale ) : <span style="font-weight: 400;">[SortCueArrowNode](../scenery-phet/SortCueArrowNode.md)</span> {: #createSortCueNode data-toc-label='createSortCueNode' }
-
-Use SortCueArrowNode to create a Node for the keyboard sorting cue. Can also be used as the mouse/touch cue
-Node if desired.
-
-#### create( model : <span style="font-weight: 400;">[GroupSelectModel](../scenery-phet/GroupSelectModel.md)&lt;ItemModel&gt;</span>, primaryFocusedNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions : <span style="font-weight: 400;">[GroupSelectViewOptions](../scenery-phet/GroupSelectView.md#GroupSelectViewOptions)&lt;ItemModel, ItemNode&gt;</span> ) : <span style="font-weight: 400;">[GroupSelectView](../scenery-phet/GroupSelectView.md)&lt;ItemModel, ItemNode&gt;</span> {: #create data-toc-label='create' }
-
-Creator factory, similar to PhetioObject.create(). This is most useful if you don't need to keep the instance of
-your GroupSortInteractionView.
-
 
 
 ## Type GroupSelectViewOptions {: #GroupSelectViewOptions }

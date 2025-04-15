@@ -536,7 +536,7 @@ Convert back from a serialized Object to a Matrix3
 
 #### Y_REFLECTION : <span style="font-weight: 400;">[Matrix3](../dot/Matrix3.md)</span> {: #Y_REFLECTION data-toc-label='Y_REFLECTION' }
 
-#### Matrix3IO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #Matrix3IO data-toc-label='Matrix3IO' }
+#### Matrix3IO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #Matrix3IO data-toc-label='Matrix3IO' }
 
 
 

@@ -138,7 +138,7 @@ import type { Validator } from 'scenerystack/axon';
 <br>  Function that validates the value. Single argument is the value, returns boolean. Unused if null.
   Example:
   isValidValue: function( value ) { return Number.isInteger( value ) &amp;&amp; value &gt;= 0; }
-- **phetioType**?: [IOType](../tandem/IOType.md)
+- **phetioType**?: [AnyIOType](../tandem/IOType.md#AnyIOType)
 <br>  An IOType used to specify the public typing for PhET-iO. Each IOType must have a
   `validator` key specified that can be used for validation. See IOType for an example.
 - **validationMessage**?: [ValidationMessage](../axon/Validation.md#ValidationMessage)

@@ -390,6 +390,8 @@ import type { DisplayOptions } from 'scenerystack/scenery';
   composed with InteractiveHighlighting. Only relevant if the Display has accessibility enabled.
 - **interactiveHighlightsEnabledProperty**?: [TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;
 <br>  Whether mouse/touch/keyboard inputs are enabled (if input has been added).
+- **baseHeadingLevel**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
+<br>  For headings created with `node.accessibleHeading`, this will control what heading level is at the base.
 - **listenToOnlyElement**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 <br>  If true, input event listeners will be attached to the Display's DOM element instead of the self.
   Normally, attaching listeners to the self is preferred (it will see mouse moves/ups outside of the browser

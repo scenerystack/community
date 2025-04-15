@@ -260,7 +260,7 @@ TODO: A stack-based implementation that doesn't create a bunch of objects/closur
 
 (readonly)
 
-#### TextIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #TextIO data-toc-label='TextIO' }
+#### TextIO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #TextIO data-toc-label='TextIO' }
 
 
 

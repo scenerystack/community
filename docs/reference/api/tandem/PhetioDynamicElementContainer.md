@@ -40,7 +40,7 @@ can additionally be called with alternate archetypeTandem and/or createElementAr
 This can be necessary in situations that require archetypes provided to other archetypes, or with other forms
 of dependency injection, such as in https://github.com/phetsims/tandem/issues/312
 
-#### createDynamicElement( componentName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, argsForCreateFunction : <span style="font-weight: 400;">CreateElementArguments</span>, containerParameterType : <span style="font-weight: 400;">[IOType](../tandem/IOType.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">T</span> {: #createDynamicElement data-toc-label='createDynamicElement' }
+#### createDynamicElement( componentName : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, argsForCreateFunction : <span style="font-weight: 400;">CreateElementArguments</span>, containerParameterType : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) : <span style="font-weight: 400;">T</span> {: #createDynamicElement data-toc-label='createDynamicElement' }
 
 Create a dynamic PhetioObject element for this container
 @param componentName

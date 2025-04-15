@@ -598,6 +598,14 @@ nav:
       - brand:
         - brand: reference/api/brand/brand.md
         - getLinks: reference/api/brand/getLinks.md
+        - madeWithSceneryStackOnDark: reference/api/brand/madeWithSceneryStackOnDark.md
+        - madeWithSceneryStackOnDarkDataURI: reference/api/brand/madeWithSceneryStackOnDarkDataURI.md
+        - madeWithSceneryStackOnDarkSVG: reference/api/brand/madeWithSceneryStackOnDarkSVG.md
+        - madeWithSceneryStackOnLight: reference/api/brand/madeWithSceneryStackOnLight.md
+        - madeWithSceneryStackOnLightDataURI: reference/api/brand/madeWithSceneryStackOnLightDataURI.md
+        - madeWithSceneryStackOnLightSVG: reference/api/brand/madeWithSceneryStackOnLightSVG.md
+        - madeWithSceneryStackSplash: reference/api/brand/madeWithSceneryStackSplash.md
+        - madeWithSceneryStackSplashSVG: reference/api/brand/madeWithSceneryStackSplashSVG.md
         - TBrand: reference/api/brand/TBrand.md
       - chipper:
         - FluentLibrary: reference/api/chipper/FluentLibrary.md
@@ -695,6 +703,9 @@ nav:
         - Vector4: reference/api/dot/Vector4.md
       - init:
         - init: reference/api/init/init.md
+        - isDevelopment: reference/api/init/isDevelopment.md
+        - isProduction: reference/api/init/isProduction.md
+        - madeWithSceneryStackSplashDataURI: reference/api/init/madeWithSceneryStackSplashDataURI.md
       - joist:
         - cardFlip_mp3: reference/api/joist/cardFlip_mp3.md
         - concreteRegionAndCultureProperty: reference/api/joist/concreteRegionAndCultureProperty.md
@@ -796,6 +807,7 @@ nav:
         - Element: reference/api/nitroglycerin/Element.md
         - F2Node: reference/api/nitroglycerin/F2Node.md
         - H2Node: reference/api/nitroglycerin/H2Node.md
+        - H2O2Node: reference/api/nitroglycerin/H2O2Node.md
         - H2ONode: reference/api/nitroglycerin/H2ONode.md
         - H2SNode: reference/api/nitroglycerin/H2SNode.md
         - HClNode: reference/api/nitroglycerin/HClNode.md
@@ -803,6 +815,7 @@ nav:
         - HorizontalMoleculeNode: reference/api/nitroglycerin/HorizontalMoleculeNode.md
         - MoleculeNode: reference/api/nitroglycerin/MoleculeNode.md
         - N2Node: reference/api/nitroglycerin/N2Node.md
+        - N2O5Node: reference/api/nitroglycerin/N2O5Node.md
         - N2ONode: reference/api/nitroglycerin/N2ONode.md
         - NH3Node: reference/api/nitroglycerin/NH3Node.md
         - NitroglycerinStrings: reference/api/nitroglycerin/NitroglycerinStrings.md
@@ -815,6 +828,7 @@ nav:
         - PCl5Node: reference/api/nitroglycerin/PCl5Node.md
         - PF3Node: reference/api/nitroglycerin/PF3Node.md
         - PH3Node: reference/api/nitroglycerin/PH3Node.md
+        - PNode: reference/api/nitroglycerin/PNode.md
         - SNode: reference/api/nitroglycerin/SNode.md
         - SO2Node: reference/api/nitroglycerin/SO2Node.md
         - SO3Node: reference/api/nitroglycerin/SO3Node.md
@@ -900,7 +914,6 @@ nav:
         - SphereBucket: reference/api/phetcommon/SphereBucket.md
         - StringUtils: reference/api/phetcommon/StringUtils.md
       - query-string-machine:
-        - QueryStringMachine: reference/api/query-string-machine/QueryStringMachine.md
         - QueryStringMachineModule: reference/api/query-string-machine/QueryStringMachineModule.md
       - scenery:
         - ActivatedReadingBlockHighlight: reference/api/scenery/ActivatedReadingBlockHighlight.md
@@ -1021,6 +1034,7 @@ nav:
         - InteractiveHighlightingNode: reference/api/scenery/InteractiveHighlightingNode.md
         - Invert: reference/api/scenery/Invert.md
         - isInteractiveHighlighting: reference/api/scenery/isInteractiveHighlighting.md
+        - isReadingBlock: reference/api/scenery/isReadingBlock.md
         - KeyboardDragListener: reference/api/scenery/KeyboardDragListener.md
         - KeyboardFuzzer: reference/api/scenery/KeyboardFuzzer.md
         - KeyboardListener: reference/api/scenery/KeyboardListener.md
@@ -1088,6 +1102,7 @@ nav:
         - PEER_ACCESSIBLE_PARAGRAPH_SIBLING: reference/api/scenery/PEER_ACCESSIBLE_PARAGRAPH_SIBLING.md
         - PEER_CONTAINER_PARENT: reference/api/scenery/PEER_CONTAINER_PARENT.md
         - PEER_DESCRIPTION_SIBLING: reference/api/scenery/PEER_DESCRIPTION_SIBLING.md
+        - PEER_HEADING_SIBLING: reference/api/scenery/PEER_HEADING_SIBLING.md
         - PEER_LABEL_SIBLING: reference/api/scenery/PEER_LABEL_SIBLING.md
         - PEER_PRIMARY_SIBLING: reference/api/scenery/PEER_PRIMARY_SIBLING.md
         - Pen: reference/api/scenery/Pen.md
@@ -1195,7 +1210,6 @@ nav:
         - VBox: reference/api/scenery/VBox.md
         - Voicing: reference/api/scenery/Voicing.md
         - VoicingActivationResponseListener: reference/api/scenery/VoicingActivationResponseListener.md
-        - VoicingCircle: reference/api/scenery/VoicingCircle.md
         - voicingManager: reference/api/scenery/voicingManager.md
         - VoicingRichText: reference/api/scenery/VoicingRichText.md
         - VoicingText: reference/api/scenery/VoicingText.md
@@ -1649,7 +1663,6 @@ nav:
         - nullSoundPlayer: reference/api/tambo/nullSoundPlayer.md
         - OscillatorSoundGenerator: reference/api/tambo/OscillatorSoundGenerator.md
         - pause_mp3: reference/api/tambo/pause_mp3.md
-        - PeakDetectorAudioNode: reference/api/tambo/PeakDetectorAudioNode.md
         - phetAudioContext: reference/api/tambo/phetAudioContext.md
         - PitchedPopGenerator: reference/api/tambo/PitchedPopGenerator.md
         - playPause_mp3: reference/api/tambo/playPause_mp3.md

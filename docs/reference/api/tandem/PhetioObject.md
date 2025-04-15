@@ -41,11 +41,18 @@ import type { PhetioObjectOptions } from 'scenerystack/tandem';
 
 
 - **tandem**?: [Tandem](../tandem/Tandem.md)
-<br>  This is the only place in the project where this is allowed
+<br>  Unique identifier for this instance, used by PhET-iO to access this instance from the wrapper frame.
+  This is the only place in the project where `tandem` can be specified directly in a Type.
 - **descriptionTandem**?: [Tandem](../tandem/Tandem.md)
-- **phetioType**?: [IOType](../tandem/IOType.md)
+<br>  @experimental - do not use without consulting https://github.com/phetsims/joist/issues/941
+- **phetioType**?: [AnyIOType](../tandem/IOType.md#AnyIOType)
+<br>  Defines API methods, events and serialization. The type of the PhET-iO Element, see IOType
 - **phetioEventType**?: [EventType](../tandem/EventType.md)
+<br>  The category of event that this element emits to the PhET-iO Data Stream. This is a default, it can be overridden in
+  phetioStartEvent options.  Cannot be supplied through TandemConstants because that would create an import loop
 - **phetioEventMetadata**?: EventMetadata | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+<br>  delivered with each event, if specified. phetioPlayback is appended here, if true.
+  Note: unlike other options, this option can be mutated downstream, and hence should be created newly for each instance.
 - **tandemNameSuffix**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  The element's tandem name must have a specified suffix. This is to enforce naming conventions for PhET-iO.
   If string[] is provided, the tandem name must have a suffix that matches one of the strings in the array.

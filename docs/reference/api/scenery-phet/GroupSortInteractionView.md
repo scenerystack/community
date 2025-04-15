@@ -31,10 +31,10 @@ import { GroupSortInteractionView } from 'scenerystack/scenery-phet';
 
 ### Static Methods
 
-#### create( model : <span style="font-weight: 400;">[GroupSelectModel](../scenery-phet/GroupSelectModel.md)&lt;ItemModel&gt;</span>, primaryFocusedNode : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, providedOptions : <span style="font-weight: 400;">[GroupSortInteractionViewOptions](../scenery-phet/GroupSortInteractionView.md#GroupSortInteractionViewOptions)&lt;ItemModel, ItemNode&gt;</span> ) : <span style="font-weight: 400;">[GroupSortInteractionView](../scenery-phet/GroupSortInteractionView.md)&lt;ItemModel, ItemNode&gt;</span> {: #create data-toc-label='create' }
+#### createSortCueNode( visibleProperty : <span style="font-weight: 400;">[TReadOnlyProperty](../axon/TReadOnlyProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span>, scale ) : <span style="font-weight: 400;">[SortCueArrowNode](../scenery-phet/SortCueArrowNode.md)</span> {: #createSortCueNode data-toc-label='createSortCueNode' }
 
-Creator factory, similar to PhetioObject.create(). This is most useful if you don't need to keep the instance of
-your GroupSortInteractionView.
+Use SortCueArrowNode to create a Node for the keyboard sorting cue. Can also be used as the mouse/touch cue
+Node if desired.
 
 
 

@@ -65,7 +65,7 @@ Fire a callback on all descendants of this Tandem
 For API validation, each PhetioObject has a corresponding archetype PhetioObject for comparison. Non-dynamic
 PhetioObjects have the trivial case where its archetypal phetioID is the same as its phetioID.
 
-#### createGroupTandem( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span> ) : <span style="font-weight: 400;">GroupTandem</span> {: #createGroupTandem data-toc-label='createGroupTandem' }
+#### createGroupTandem( name : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span></span>, initialIndex ) : <span style="font-weight: 400;">GroupTandem</span> {: #createGroupTandem data-toc-label='createGroupTandem' }
 
 Creates a group tandem for creating multiple indexed child tandems, such as:
 sim.screen.model.electron0
@@ -75,6 +75,9 @@ In this case, 'sim.screen.model.electron' is the string passed to createGroupTan
 
 Used for arrays, observable arrays, or when many elements of the same type are created and they do not otherwise
 have unique identifiers.
+
+Typically, the initialIndex is 1, but we have left the option to keep as zero for legacy simulations that were
+designed before this convention.
 
 #### equals( tandem : <span style="font-weight: 400;">[Tandem](../tandem/Tandem.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 

@@ -229,6 +229,20 @@ listener attached to pointer is for dragging with a keyboard
 
 
 
+## Type PointerState {: #PointerState }
+
+
+```js
+import type { PointerState } from 'scenerystack/scenery';
+```
+
+
+- **point**: [Vector2StateObject](../dot/Vector2.md#Vector2StateObject)
+- **type**: PointerType
+
+
+
+
 ## Source Code
 
 See the source for [Pointer.ts](https://github.com/phetsims/scenery/blob/main/js/input/Pointer.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

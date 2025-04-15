@@ -90,7 +90,7 @@ Triggers recomputation of mipmaps (as long as mipmapping is enabled)
 
 ### Static Properties
 
-#### ImageIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ImageIO data-toc-label='ImageIO' }
+#### ImageIO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #ImageIO data-toc-label='ImageIO' }
 
 #### DEFAULT_IMAGE_OPTIONS {: #DEFAULT_IMAGE_OPTIONS data-toc-label='DEFAULT_IMAGE_OPTIONS' }
 

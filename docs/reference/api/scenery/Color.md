@@ -122,12 +122,26 @@ Returns an object that can be passed to a Canvas context's fillStyle or strokeSt
 
 Sets this color using HSLA values.
 
-TODO: make a getHue, getSaturation, getLightness. we can then expose them via ES5! https://github.com/phetsims/scenery/issues/1581
-
 @param hue - integer modulo 360
 @param saturation - percentage
 @param lightness - percentage
 @param alpha
+
+#### getHSLA() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>[]</span> {: #getHSLA data-toc-label='getHSLA' }
+
+Gets the HSLA values of this color.
+
+#### getHue() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getHue data-toc-label='getHue' }
+
+Returns the hue component of this color in degrees (0-359)
+
+#### getSaturation() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getSaturation data-toc-label='getSaturation' }
+
+Returns the saturation component of this color as a percentage (0-100)
+
+#### getLightness() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getLightness data-toc-label='getLightness' }
+
+Returns the lightness component of this color as a percentage (0-100)
 
 #### equals( color : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> ) : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #equals data-toc-label='equals' }
 
@@ -332,7 +346,7 @@ Whether the specified CSS string is a valid CSS color string
 
 #### transparent : <span style="font-weight: 400;">[Color](../scenery/Color.md)</span> {: #transparent data-toc-label='transparent' }
 
-#### ColorIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ColorIO data-toc-label='ColorIO' }
+#### ColorIO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #ColorIO data-toc-label='ColorIO' }
 
 
 

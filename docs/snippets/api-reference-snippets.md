@@ -416,6 +416,14 @@
 [UpDownArrowPlot]: /reference/api/bamboo/UpDownArrowPlot/
 [brand]: /reference/api/brand/brand/
 [getLinks]: /reference/api/brand/getLinks/
+[madeWithSceneryStackOnDark]: /reference/api/brand/madeWithSceneryStackOnDark/
+[madeWithSceneryStackOnDarkDataURI]: /reference/api/brand/madeWithSceneryStackOnDarkDataURI/
+[madeWithSceneryStackOnDarkSVG]: /reference/api/brand/madeWithSceneryStackOnDarkSVG/
+[madeWithSceneryStackOnLight]: /reference/api/brand/madeWithSceneryStackOnLight/
+[madeWithSceneryStackOnLightDataURI]: /reference/api/brand/madeWithSceneryStackOnLightDataURI/
+[madeWithSceneryStackOnLightSVG]: /reference/api/brand/madeWithSceneryStackOnLightSVG/
+[madeWithSceneryStackSplash]: /reference/api/brand/madeWithSceneryStackSplash/
+[madeWithSceneryStackSplashSVG]: /reference/api/brand/madeWithSceneryStackSplashSVG/
 [TBrand]: /reference/api/brand/TBrand/
 [FluentLibrary]: /reference/api/chipper/FluentLibrary/
 [FluentUtils]: /reference/api/chipper/FluentUtils/
@@ -510,6 +518,9 @@
 [Vector3]: /reference/api/dot/Vector3/
 [Vector4]: /reference/api/dot/Vector4/
 [init]: /reference/api/init/init/
+[isDevelopment]: /reference/api/init/isDevelopment/
+[isProduction]: /reference/api/init/isProduction/
+[madeWithSceneryStackSplashDataURI]: /reference/api/init/madeWithSceneryStackSplashDataURI/
 [cardFlip_mp3]: /reference/api/joist/cardFlip_mp3/
 [concreteRegionAndCultureProperty]: /reference/api/joist/concreteRegionAndCultureProperty/
 [CreditsNode]: /reference/api/joist/CreditsNode/
@@ -607,6 +618,7 @@
 [Element]: /reference/api/nitroglycerin/Element/
 [F2Node]: /reference/api/nitroglycerin/F2Node/
 [H2Node]: /reference/api/nitroglycerin/H2Node/
+[H2O2Node]: /reference/api/nitroglycerin/H2O2Node/
 [H2ONode]: /reference/api/nitroglycerin/H2ONode/
 [H2SNode]: /reference/api/nitroglycerin/H2SNode/
 [HClNode]: /reference/api/nitroglycerin/HClNode/
@@ -614,6 +626,7 @@
 [HorizontalMoleculeNode]: /reference/api/nitroglycerin/HorizontalMoleculeNode/
 [MoleculeNode]: /reference/api/nitroglycerin/MoleculeNode/
 [N2Node]: /reference/api/nitroglycerin/N2Node/
+[N2O5Node]: /reference/api/nitroglycerin/N2O5Node/
 [N2ONode]: /reference/api/nitroglycerin/N2ONode/
 [NH3Node]: /reference/api/nitroglycerin/NH3Node/
 [NitroglycerinStrings]: /reference/api/nitroglycerin/NitroglycerinStrings/
@@ -626,6 +639,7 @@
 [PCl5Node]: /reference/api/nitroglycerin/PCl5Node/
 [PF3Node]: /reference/api/nitroglycerin/PF3Node/
 [PH3Node]: /reference/api/nitroglycerin/PH3Node/
+[PNode]: /reference/api/nitroglycerin/PNode/
 [SNode]: /reference/api/nitroglycerin/SNode/
 [SO2Node]: /reference/api/nitroglycerin/SO2Node/
 [SO3Node]: /reference/api/nitroglycerin/SO3Node/
@@ -707,7 +721,6 @@
 [ModelViewTransform2]: /reference/api/phetcommon/ModelViewTransform2/
 [SphereBucket]: /reference/api/phetcommon/SphereBucket/
 [StringUtils]: /reference/api/phetcommon/StringUtils/
-[QueryStringMachine]: /reference/api/query-string-machine/QueryStringMachine/
 [QueryStringMachineModule]: /reference/api/query-string-machine/QueryStringMachineModule/
 [ActivatedReadingBlockHighlight]: /reference/api/scenery/ActivatedReadingBlockHighlight/
 [AlignBox]: /reference/api/scenery/AlignBox/
@@ -827,6 +840,7 @@
 [InteractiveHighlightingNode]: /reference/api/scenery/InteractiveHighlightingNode/
 [Invert]: /reference/api/scenery/Invert/
 [isInteractiveHighlighting]: /reference/api/scenery/isInteractiveHighlighting/
+[isReadingBlock]: /reference/api/scenery/isReadingBlock/
 [KeyboardDragListener]: /reference/api/scenery/KeyboardDragListener/
 [KeyboardFuzzer]: /reference/api/scenery/KeyboardFuzzer/
 [KeyboardListener]: /reference/api/scenery/KeyboardListener/
@@ -894,6 +908,7 @@
 [PEER_ACCESSIBLE_PARAGRAPH_SIBLING]: /reference/api/scenery/PEER_ACCESSIBLE_PARAGRAPH_SIBLING/
 [PEER_CONTAINER_PARENT]: /reference/api/scenery/PEER_CONTAINER_PARENT/
 [PEER_DESCRIPTION_SIBLING]: /reference/api/scenery/PEER_DESCRIPTION_SIBLING/
+[PEER_HEADING_SIBLING]: /reference/api/scenery/PEER_HEADING_SIBLING/
 [PEER_LABEL_SIBLING]: /reference/api/scenery/PEER_LABEL_SIBLING/
 [PEER_PRIMARY_SIBLING]: /reference/api/scenery/PEER_PRIMARY_SIBLING/
 [Pen]: /reference/api/scenery/Pen/
@@ -1001,7 +1016,6 @@
 [VBox]: /reference/api/scenery/VBox/
 [Voicing]: /reference/api/scenery/Voicing/
 [VoicingActivationResponseListener]: /reference/api/scenery/VoicingActivationResponseListener/
-[VoicingCircle]: /reference/api/scenery/VoicingCircle/
 [voicingManager]: /reference/api/scenery/voicingManager/
 [VoicingRichText]: /reference/api/scenery/VoicingRichText/
 [VoicingText]: /reference/api/scenery/VoicingText/
@@ -1450,7 +1464,6 @@
 [nullSoundPlayer]: /reference/api/tambo/nullSoundPlayer/
 [OscillatorSoundGenerator]: /reference/api/tambo/OscillatorSoundGenerator/
 [pause_mp3]: /reference/api/tambo/pause_mp3/
-[PeakDetectorAudioNode]: /reference/api/tambo/PeakDetectorAudioNode/
 [phetAudioContext]: /reference/api/tambo/phetAudioContext/
 [PitchedPopGenerator]: /reference/api/tambo/PitchedPopGenerator/
 [playPause_mp3]: /reference/api/tambo/playPause_mp3/

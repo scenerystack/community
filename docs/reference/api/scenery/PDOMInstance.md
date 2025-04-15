@@ -39,11 +39,11 @@ import { PDOMInstance } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new PDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) {: #PDOMInstance-constructor data-toc-label='new PDOMInstance' }
+#### new PDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, rootParentHeadingLevel? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #PDOMInstance-constructor data-toc-label='new PDOMInstance' }
 
 ### Instance Methods
 
-#### initializePDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span> ) : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md)</span> {: #initializePDOMInstance data-toc-label='initializePDOMInstance' }
+#### initializePDOMInstance( parent : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span>, display : <span style="font-weight: 400;">[Display](../scenery/Display.md)</span>, trail : <span style="font-weight: 400;">[Trail](../scenery/Trail.md)</span>, rootParentHeadingLevel? : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md)</span> {: #initializePDOMInstance data-toc-label='initializePDOMInstance' }
 
 Initializes a PDOMInstance, implements construction for pooling.
 
@@ -101,6 +101,12 @@ For debugging purposes.
 #### children : <span style="font-weight: 400;">[PDOMInstance](../scenery/PDOMInstance.md)[]</span> {: #children data-toc-label='children' }
 
 #### peer : <span style="font-weight: 400;">[PDOMPeer](../scenery/PDOMPeer.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #peer data-toc-label='peer' }
+
+#### parentHeadingLevel : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #parentHeadingLevel data-toc-label='parentHeadingLevel' }
+
+#### pendingHeadingLevel : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #pendingHeadingLevel data-toc-label='pendingHeadingLevel' }
+
+#### headingLevel : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #headingLevel data-toc-label='headingLevel' }
 
 ### Static Properties
 

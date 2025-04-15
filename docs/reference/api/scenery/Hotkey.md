@@ -92,11 +92,7 @@ Straight from options
 
 (readonly)
 
-#### allowOverlap : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #allowOverlap data-toc-label='allowOverlap' }
-
-(readonly)
-
-#### override : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #override data-toc-label='override' }
+#### overlapBehavior : <span style="font-weight: 400;">[OverlapBehavior](../scenery/Hotkey.md#OverlapBehavior)</span> {: #overlapBehavior data-toc-label='overlapBehavior' }
 
 (readonly)
 
@@ -175,14 +171,34 @@ import type { HotkeyOptions } from 'scenerystack/scenery';
 <br>  Start to fire continuously after pressing for this long (milliseconds)
 - **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Fire continuously at this interval (milliseconds)
-- **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  For each main `key`, the hotkey system will only allow one hotkey with allowOverlap:false to be active at any time.
-  This is provided to allow multiple hotkeys with the same keys to fire. Default is false.
-- **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  If true, any overlapping hotkeys (either added to an ancestor's inputListener or later in the local/global order)
-  will be ignored.
+- **overlapBehavior**?: [OverlapBehavior](../scenery/Hotkey.md#OverlapBehavior)
+<br>  How this Hotkey should behave when other Hotkeys with the same (overlapping) keys are present.
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
+
+
+
+## Type OverlapBehavior {: #OverlapBehavior }
+
+
+The way this Hotkey will behave when other Hotkeys with the same keys are present.
+- 'prevent' - Overlaps are not allowed and any detected overlaps will throw an assertion.
+- 'allow' - Overlaps are allowed and both listeners will fire if their keys are pressed.
+- 'handle' - Overlaps are allowed, but only the most local listener in the global/scene graph order will fire.
+
+'allow' takes precedence over 'prevent' and 'handle'. If two Hotkeys are active and one has 'allow' and
+the other has 'prevent', both will fire if their keys are pressed.
+
+The default for most Hotkeys is 'handle' so that only the closest listener to the Node with focus
+will fire, but listeners with overlapping keys will not throw an error.
+The default for global listeners is 'prevent', so that overlapping global hotkeys are caught as a programming error.
+
+```js
+import type { OverlapBehavior } from 'scenerystack/scenery';
+```
+
+
+"prevent" | "allow" | "handle"
 
 
 

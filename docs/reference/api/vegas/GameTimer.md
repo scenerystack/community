@@ -19,7 +19,7 @@ import { GameTimer } from 'scenerystack/vegas';
 ```
 ### Constructor
 
-#### new GameTimer() {: #GameTimer-constructor data-toc-label='new GameTimer' }
+#### new GameTimer( tandem ) {: #GameTimer-constructor data-toc-label='new GameTimer' }
 
 ### Instance Methods
 
@@ -38,12 +38,6 @@ Stops the timer. This is a no-op if the timer is already stopped.
 Convenience function for restarting the timer.
 
 ### Instance Properties
-
-#### isRunningProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isRunningProperty data-toc-label='isRunningProperty' }
-
-(readonly)
-
-whether the timer is running
 
 #### elapsedTimeProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>&gt;</span> {: #elapsedTimeProperty data-toc-label='elapsedTimeProperty' }
 

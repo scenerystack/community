@@ -188,12 +188,11 @@ Get the accessible name that describes this Node.
 
 #### setAccessibleParagraph( accessibleParagraph : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleParagraph data-toc-label='setAccessibleParagraph' }
 
-Sets this Node as a paragraph with the provided content. This lets you easily describe Nodes for screen readers. This
+Sets content for a paragraph that describes this Node for screen readers. This
 is most useful for non-interactive elements that need to be described.
 
+For example:
 myImageNode.setAccessibleParagraph( 'This is a picture of a cat' );
-
-This is part of the "Higher level API", but there is no customizing behavior function for this function.
 
 #### getAccessibleParagraph() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAccessibleParagraph data-toc-label='getAccessibleParagraph' }
 
@@ -204,7 +203,7 @@ Get the accessible paragraph that represents/describe.
 Remove this Node from the PDOM by clearing its pdom content. This can be useful when creating icons from
 pdom content.
 
-#### setAccessibleNameBehavior( accessibleNameBehavior : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> ) {: #setAccessibleNameBehavior data-toc-label='setAccessibleNameBehavior' }
+#### setAccessibleNameBehavior( accessibleNameBehavior : <span style="font-weight: 400;">[AccessibleNameBehaviorFunction](../scenery/ParallelDOM.md#AccessibleNameBehaviorFunction)</span> ) {: #setAccessibleNameBehavior data-toc-label='setAccessibleNameBehavior' }
 
 accessibleNameBehavior is a function that will set the appropriate options on this Node to get the desired
 accessible name.
@@ -214,46 +213,9 @@ options and tag names. If a Node uses more complicated markup, you can provide y
 meet your requirements. If you do this, it is up to you to make sure that the Accessible Name is properly
 being set and conveyed to AT, as it is very hard to validate this function.
 
-#### getAccessibleNameBehavior() : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> {: #getAccessibleNameBehavior data-toc-label='getAccessibleNameBehavior' }
+#### getAccessibleNameBehavior() : <span style="font-weight: 400;">[AccessibleNameBehaviorFunction](../scenery/ParallelDOM.md#AccessibleNameBehaviorFunction)</span> {: #getAccessibleNameBehavior data-toc-label='getAccessibleNameBehavior' }
 
 Get the help text of the interactive element.
-
-#### setPDOMHeading( pdomHeading : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setPDOMHeading data-toc-label='setPDOMHeading' }
-
-Set the Node heading content. This by default will be a heading tag whose level is dependent on how many parents
-Nodes are heading Nodes. See computeHeadingLevel() for more info
-
-@experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
-                Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
-
-#### getPDOMHeading() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getPDOMHeading data-toc-label='getPDOMHeading' }
-
-Get the value of this Node's heading. Use null to clear the heading
-
-@experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
-                Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
-
-#### setPDOMHeadingBehavior( pdomHeadingBehavior : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> ) {: #setPDOMHeadingBehavior data-toc-label='setPDOMHeadingBehavior' }
-
-Set the behavior of how `this.pdomHeading` is set in the PDOM. See default behavior function for more
-information.
-
-@experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
-                Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
-
-#### getPDOMHeadingBehavior() : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> {: #getPDOMHeadingBehavior data-toc-label='getPDOMHeadingBehavior' }
-
-Get the help text of the interactive element.
-
-@experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
-                Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
-
-#### getHeadingLevel() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getHeadingLevel data-toc-label='getHeadingLevel' }
-
-Get the tag name of the DOM element representing this Node for accessibility.
-
-@experimental - NOTE: use with caution, a11y team reserves the right to change API (though unlikely).
-                Not yet fully implemented, see https://github.com/phetsims/scenery/issues/867
 
 #### setAccessibleHelpText( accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleHelpText data-toc-label='setAccessibleHelpText' }
 
@@ -268,7 +230,60 @@ to create the desired help text. See the documentation for setAccessibleHelpText
 
 Get the help text for this Node.
 
-#### setAccessibleHelpTextBehavior( accessibleHelpTextBehavior : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> ) {: #setAccessibleHelpTextBehavior data-toc-label='setAccessibleHelpTextBehavior' }
+#### setAccessibleParagraphContent( accessibleParagraphContent : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleParagraphContent data-toc-label='setAccessibleParagraphContent' }
+
+Sets the accessible paragraph content for this Node. This is a paragraph of descriptive content, often
+for non-interactive elements.
+
+This is the lower level API function for accessibleParagraph. You probably just want to use setAccessibleParagraph
+instead.
+
+#### getAccessibleParagraphContent() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAccessibleParagraphContent data-toc-label='getAccessibleParagraphContent' }
+
+#### setAccessibleHeading( accessibleHeading : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleHeading data-toc-label='setAccessibleHeading' }
+
+Sets the accessible heading for this Node. If non-null, a heading element (e.g. &lt;h3&gt;) will be created and will have
+text content equal to this value. It will be read by a screen reader when discovered by the virtual cursor.
+
+By default, the heading level (h1 ... h6) that is chosen will be one greater than the heading level of the closest
+ancestor. The base level is set on the Display with `baseHeadingLevel` (which can be useful if embedding the Display
+within another document that has outside headings.
+
+If the heading level REQUIRES adjustment (due to node structure that cannot be easily changed), it is possible to
+modify the heading level, see accessibleHeadingIncrement.
+
+Another way to adjust the computed heading level is to just use low level API options (labelTagName
+and labelContent). The computed heading level does not consider Nodes with headings defined with
+labelTagName or other options.
+
+This method supports adding content in two ways, with HTMLElement.textContent and HTMLElement.innerHTML.
+The DOM setter is chosen based on if the label passes the `containsFormattingTags`.
+
+#### getAccessibleHeading() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAccessibleHeading data-toc-label='getAccessibleHeading' }
+
+Get the value of this Node's accessibleHeading. See setAccessibleHeading() for more information.
+
+#### setAccessibleHeadingIncrement( accessibleHeadingIncrement : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> ) {: #setAccessibleHeadingIncrement data-toc-label='setAccessibleHeadingIncrement' }
+
+Sets the heading increment. THIS IS AN OVERRIDE, please instead adjust the node structure so this isn't needed!
+
+The heading level chosen for this node will be `nearestParentHeadingLevel + accessibleHeadingIncrement`, where
+nearestParentHeadingLevel is found on a parent, or is determined by the default `baseHeadingLevel` on the [Display](../scenery/Display.md).
+
+The default is 1 (so that nesting headings results in a natural structure, increasing the level).
+
+For cases where there is a parent-child relationship between two nodes that both have headings, BUT it is desired
+for them to have the same heading level (e.g. both &lt;h3&gt;), the accessibleHeadingIncrement can be set to 0.
+
+For cases where there is a sibling relationship between two nodes that both have headings, BUT it is desired for them
+to have different heading levels (as if they were a parent-child relationship), you can set the accessibleHeadingIncrement
+on the child-like node to 2.
+
+#### getAccessibleHeadingIncrement() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span></span> {: #getAccessibleHeadingIncrement data-toc-label='getAccessibleHeadingIncrement' }
+
+Get the content for this Node's label sibling DOM element.
+
+#### setAccessibleHelpTextBehavior( accessibleHelpTextBehavior : <span style="font-weight: 400;">[AccessibleHelpTextBehaviorFunction](../scenery/ParallelDOM.md#AccessibleHelpTextBehaviorFunction)</span> ) {: #setAccessibleHelpTextBehavior data-toc-label='setAccessibleHelpTextBehavior' }
 
 accessibleHelpTextBehavior is a function that will set the appropriate options on this Node to get the desired help text.
 
@@ -277,7 +292,7 @@ Usually, this is a paragraph element that comes after the Node's primary sibling
 customize this behavior, you can provide your own function to meet your requirements. If you provide your own
 function, it is up to you to make sure that the help text is properly being set and is discoverable by AT.
 
-#### getAccessibleHelpTextBehavior() : <span style="font-weight: 400;">[PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)</span> {: #getAccessibleHelpTextBehavior data-toc-label='getAccessibleHelpTextBehavior' }
+#### getAccessibleHelpTextBehavior() : <span style="font-weight: 400;">[AccessibleHelpTextBehaviorFunction](../scenery/ParallelDOM.md#AccessibleHelpTextBehaviorFunction)</span> {: #getAccessibleHelpTextBehavior data-toc-label='getAccessibleHelpTextBehavior' }
 
 Get the help text of the interactive element.
 
@@ -414,6 +429,12 @@ DEFAULT_LABEL_TAG_NAME will be assigned to the descriptionTagName.
 
 Get the content for this Node's description sibling DOM Element.
 
+#### setAccessibleParagraphBehavior( accessibleParagraphBehavior : <span style="font-weight: 400;">[AccessibleParagraphBehaviorFunction](../scenery/ParallelDOM.md#AccessibleParagraphBehaviorFunction)</span> ) {: #setAccessibleParagraphBehavior data-toc-label='setAccessibleParagraphBehavior' }
+
+Set the accessibleParagraph behavior function which can be used to control the implementation of the accessbibleParagraph.
+
+#### getAccessibleParagraphBehavior() : <span style="font-weight: 400;">[AccessibleParagraphBehaviorFunction](../scenery/ParallelDOM.md#AccessibleParagraphBehaviorFunction)</span> {: #getAccessibleParagraphBehavior data-toc-label='getAccessibleParagraphBehavior' }
+
 #### setAriaRole( ariaRole : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAriaRole data-toc-label='setAriaRole' }
 
 Set the ARIA role for this Node's primary sibling. According to the W3C, the ARIA role is read-only for a DOM
@@ -482,6 +503,18 @@ virtual cursor. This is one way to set a DOM Element's Accessible Name.
 #### getAriaLabel() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAriaLabel data-toc-label='getAriaLabel' }
 
 Get the value of the aria-label attribute for this Node's primary sibling.
+
+#### setAccessibleRoleDescription( roleDescription : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #setAccessibleRoleDescription data-toc-label='setAccessibleRoleDescription' }
+
+Sets an aria-roledescription for this Node, describing its interactive purpose and user
+interaction methods.
+
+Use sparingly, and avoid overriding standard roles. This is especially helpful for
+unique or unconventional UI components.
+
+This function works by adding aria-roledescription to this Node's list of PDOM attributes.
+
+#### getAccessibleRoleDescription() : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #getAccessibleRoleDescription data-toc-label='getAccessibleRoleDescription' }
 
 #### setFocusHighlight( focusHighlight : <span style="font-weight: 400;">[Highlight](../scenery/Highlight.md)</span> ) {: #setFocusHighlight data-toc-label='setFocusHighlight' }
 
@@ -853,7 +886,7 @@ See https://github.com/phetsims/a11y-research/issues/156 for more information.
 Return true if this Node is a PhET-iO archetype or it is a Node descendant of a PhET-iO archetype.
 See https://github.com/phetsims/joist/issues/817
 
-#### alertDescriptionUtterance( utterance : <span style="font-weight: 400;">[TAlertable](../utterance-queue/Utterance.md#TAlertable)</span> ) {: #alertDescriptionUtterance data-toc-label='alertDescriptionUtterance' }
+#### addAccessibleResponse( utterance : <span style="font-weight: 400;">[TAlertable](../utterance-queue/Utterance.md#TAlertable)</span> ) {: #addAccessibleResponse data-toc-label='addAccessibleResponse' }
 
 Alert on all interactive description utteranceQueues located on each connected Display. See
 Node.getConnectedDisplays. Note that if your Node is not connected to a Display, this function will have
@@ -918,6 +951,11 @@ PDOM specific enabled listener
 
 #### BASIC_ACCESSIBLE_NAME_BEHAVIOR( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleName : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #BASIC_ACCESSIBLE_NAME_BEHAVIOR data-toc-label='BASIC_ACCESSIBLE_NAME_BEHAVIOR' }
 
+#### BASIC_ACCESSIBLE_PARAGRAPH_BEHAVIOR( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleParagrah : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #BASIC_ACCESSIBLE_PARAGRAPH_BEHAVIOR data-toc-label='BASIC_ACCESSIBLE_PARAGRAPH_BEHAVIOR' }
+
+The basic accessibleParagraph behavior function - sets the accessibleParagraphContent so that there is a paragraph
+describing this Node.
+
 #### forwardAccessibleName( node : <span style="font-weight: 400;">[ParallelDOM](../scenery/ParallelDOM.md)</span>, otherNode : <span style="font-weight: 400;">[ParallelDOM](../scenery/ParallelDOM.md)</span> ) {: #forwardAccessibleName data-toc-label='forwardAccessibleName' }
 
 A behavior function for accessible name so that when accessibleName is set on the provided Node, it will be forwarded
@@ -933,6 +971,45 @@ should be available for the entire component.
 #### HELP_TEXT_BEFORE_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_BEFORE_CONTENT data-toc-label='HELP_TEXT_BEFORE_CONTENT' }
 
 #### HELP_TEXT_AFTER_CONTENT( node : <span style="font-weight: 400;">[Node](../scenery/Node.md)</span>, options : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span>, accessibleHelpText : <span style="font-weight: 400;">[PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType)</span> ) : <span style="font-weight: 400;">[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)</span> {: #HELP_TEXT_AFTER_CONTENT data-toc-label='HELP_TEXT_AFTER_CONTENT' }
+
+
+
+## Type AccessibleHelpTextBehaviorFunction {: #AccessibleHelpTextBehaviorFunction }
+
+
+```js
+import type { AccessibleHelpTextBehaviorFunction } from 'scenerystack/scenery';
+```
+
+
+( node: [Node](../scenery/Node.md), options: Pick&lt;[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), AllowedKeys&gt;, value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
+
+
+
+## Type AccessibleNameBehaviorFunction {: #AccessibleNameBehaviorFunction }
+
+
+Each behavior function supports a limited set of lower level options, as full access to the API in the behavior function can create
+confusing side effects.
+
+```js
+import type { AccessibleNameBehaviorFunction } from 'scenerystack/scenery';
+```
+
+
+( node: [Node](../scenery/Node.md), options: Pick&lt;[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), AllowedKeys&gt;, value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
+
+
+
+## Type AccessibleParagraphBehaviorFunction {: #AccessibleParagraphBehaviorFunction }
+
+
+```js
+import type { AccessibleParagraphBehaviorFunction } from 'scenerystack/scenery';
+```
+
+
+( node: [Node](../scenery/Node.md), options: Pick&lt;[ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), AllowedKeys&gt;, value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
 
 
 
@@ -980,11 +1057,12 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 <br>  Higher Level API Functions
 - **accessibleParagraph**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **accessibleHelpText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- **pdomHeading**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
-- **accessibleNameBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **accessibleNameBehavior**?: [AccessibleNameBehaviorFunction](../scenery/ParallelDOM.md#AccessibleNameBehaviorFunction)
 <br>  Lower Level API Functions
-- **accessibleHelpTextBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
-- **pdomHeadingBehavior**?: [PDOMBehaviorFunction](../scenery/ParallelDOM.md#PDOMBehaviorFunction)
+- **accessibleHelpTextBehavior**?: [AccessibleHelpTextBehaviorFunction](../scenery/ParallelDOM.md#AccessibleHelpTextBehaviorFunction)
+- **accessibleParagraphBehavior**?: [AccessibleParagraphBehaviorFunction](../scenery/ParallelDOM.md#AccessibleParagraphBehaviorFunction)
+- **accessibleHeading**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleHeadingIncrement**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 - **containerTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **containerAriaRole**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **innerContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
@@ -995,12 +1073,14 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **ariaLabel**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **ariaRole**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **ariaValueText**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
+- **accessibleRoleDescription**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **labelTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **labelContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **appendLabel**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **descriptionTagName**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span> | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **descriptionContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **appendDescription**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+- **accessibleParagraphContent**?: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - **focusHighlight**?: [Highlight](../scenery/Highlight.md)
 - **focusHighlightLayerable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - **groupFocusHighlight**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
@@ -1017,27 +1097,6 @@ import type { ParallelDOMOptions } from 'scenerystack/scenery';
 - **pdomTransformSourceNode**?: [Node](../scenery/Node.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 - &amp; [PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions)
 
-
-
-
-## Type PDOMBehaviorFunction {: #PDOMBehaviorFunction }
-
-
-
-@param node - the Node that the pdom behavior is being applied to
-@param options - options to mutate within the function
-@param value - the value that you are setting the behavior of, like the accessibleName
-@param callbacksForOtherNodes - behavior function also support taking state from a Node and using it to
-set the accessible content for another Node. If this is the case, that logic should be set in a closure and added to
-this list for execution after this Node is fully created. See discussion in https://github.com/phetsims/sun/issues/503#issuecomment-676541373
-@returns the options that have been mutated by the behavior function.
-
-```js
-import type { PDOMBehaviorFunction } from 'scenerystack/scenery';
-```
-
-
-( node: [Node](../scenery/Node.md), options: [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions), value: [PDOMValueType](../scenery/ParallelDOM.md#PDOMValueType), callbacksForOtherNodes: ( () =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">void</span> )[] ) =&gt; [ParallelDOMOptions](../scenery/ParallelDOM.md#ParallelDOMOptions)
 
 
 

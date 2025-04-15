@@ -72,7 +72,7 @@ import type { PhetioDataHandlerOptions } from 'scenerystack/tandem';
 - **parameters**?: [Parameter](../tandem/PhetioDataHandler.md#Parameter)[]
 <br>  The parameters to the emit method that will be called.
   See PARAMETER_KEYS for a list of legal keys, their types, and documentation.
-- **phetioOuterType**: ( t: [IOType](../tandem/IOType.md)[] ) =&gt; [IOType](../tandem/IOType.md)
+- **phetioOuterType**: ( t: [AnyIOType](../tandem/IOType.md#AnyIOType)[] ) =&gt; [AnyIOType](../tandem/IOType.md#AnyIOType)
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
 - &amp; [StrictOmit](../phet-core/StrictOmit.md)&lt;[PhetioObjectOptions](../tandem/PhetioObject.md#PhetioObjectOptions), "phetioType"&gt;
 

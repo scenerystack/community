@@ -39,16 +39,6 @@ We need to have a fairly custom bounds measurement method, since it's a block-le
 
 @returns {Bounds2}
 
-#### invalidateDOM() {: #invalidateDOM data-toc-label='invalidateDOM' }
-
-
-FormulaNode needs this override in order to render formulas correctly in DOM's invalidateDOM method, the
-temporaryContainer is given a size temporaryContainer having a size affects the size of the formula and renders
-calculateDOMBounds useless this method is almost the same as the one it overrides, but it just removes
-temporaryContainer's size so that calculateDOMBounds can work and this can render correctly
-@public
-@override
-
 #### setFormula( formula ) {: #setFormula data-toc-label='setFormula' }
 
 Updates the formula to display. It should be a string, formatted with the general LaTeX style. Particular

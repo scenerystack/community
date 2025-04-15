@@ -79,7 +79,7 @@ This function could be static, but that doesn't work well with the singleton pat
 
 ### Instance Properties
 
-#### supertype : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #supertype data-toc-label='supertype' }
+#### supertype : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #supertype data-toc-label='supertype' }
 
 (readonly)
 
@@ -109,7 +109,7 @@ See documentation in options type declaration
 
 (readonly)
 
-#### parameterTypes : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)[]</span> {: #parameterTypes data-toc-label='parameterTypes' }
+#### parameterTypes : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)[]</span> {: #parameterTypes data-toc-label='parameterTypes' }
 
 (readonly)
 
@@ -151,9 +151,23 @@ The StateSchema (type) that the option is made into. The option is more flexible
 
 ### Static Properties
 
-#### ObjectIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #ObjectIO data-toc-label='ObjectIO' }
+#### ObjectIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;[PhetioObject](../tandem/PhetioObject.md), <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>&gt;</span> {: #ObjectIO data-toc-label='ObjectIO' }
 
 The base IOType for the entire hierarchy.
+
+
+
+## Type AnyIOType {: #AnyIOType }
+
+
+Sometimes, it doesn't matter what the parameters of the IOType are. `unknown` most often doesn't work here.
+
+```js
+import type { AnyIOType } from 'scenerystack/tandem';
+```
+
+
+[IOType](../tandem/IOType.md)&lt;[IntentionalAny](../phet-core/IntentionalAny.md), [IntentionalAny](../phet-core/IntentionalAny.md)&gt;
 
 
 
@@ -165,8 +179,8 @@ import type { IOTypeMethod } from 'scenerystack/tandem';
 ```
 
 
-- **returnType**: [IOType](../tandem/IOType.md)
-- **parameterTypes**: [IOType](../tandem/IOType.md)[]
+- **returnType**: [AnyIOType](../tandem/IOType.md#AnyIOType)
+- **parameterTypes**: [AnyIOType](../tandem/IOType.md#AnyIOType)[]
 - **implementation**: ( ...args: [IntentionalAny](../phet-core/IntentionalAny.md)[] ) =&gt; <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">unknown</span>
 <br>  the function to execute when this method is called. This function's parameters will be based on `parameterTypes`,
   and should return the type specified by `returnType`

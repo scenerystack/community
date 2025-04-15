@@ -208,7 +208,7 @@ whether a deferred value has been set
 
 (protected, readonly)
 
-#### phetioValueType : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #phetioValueType data-toc-label='phetioValueType' }
+#### phetioValueType : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;T, [IntentionalAny](../phet-core/IntentionalAny.md)&gt;</span> {: #phetioValueType data-toc-label='phetioValueType' }
 
 (protected, readonly)
 
@@ -216,7 +216,7 @@ The IOType for the values this Property supports.
 
 ### Static Methods
 
-#### PropertyIO( parameterType : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;T, StateType&gt;</span> ) : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #PropertyIO data-toc-label='PropertyIO' }
+#### PropertyIO( parameterType : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;ParameterType, ParameterStateType&gt;</span> ) : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)&lt;[ReadOnlyProperty](../axon/ReadOnlyProperty.md)&lt;ParameterType&gt;, [ReadOnlyPropertyState](../axon/ReadOnlyProperty.md#ReadOnlyPropertyState)&lt;ParameterStateType&gt;&gt;</span> {: #PropertyIO data-toc-label='PropertyIO' }
 
 An observable Property that triggers notifications when the value changes.
 This caching implementation should be kept in sync with the other parametric IOType caching implementations.
@@ -259,10 +259,10 @@ import type { PropertyOptions } from 'scenerystack/axon';
   Use this to detect or prevent update cycles. Update cycles may be due to floating point error,
   faulty logic, etc. This may be of particular interest for PhET-iO instrumentation, where such
   cycles may pollute the data stream. See https://github.com/phetsims/axon/issues/179
-- **phetioValueType**?: [IOType](../tandem/IOType.md)
+- **phetioValueType**?: [AnyIOType](../tandem/IOType.md#AnyIOType)
 <br>  The IOType for the values this Property supports. At this level, it doesn't matter what the state type is, so
   it defaults to IntentionalAny.
-- **phetioOuterType**?: ( parameterType: [IOType](../tandem/IOType.md) ) =&gt; [IOType](../tandem/IOType.md)
+- **phetioOuterType**?: ( parameterType: [AnyIOType](../tandem/IOType.md#AnyIOType) ) =&gt; [AnyIOType](../tandem/IOType.md#AnyIOType)
 <br>  The IOType function that returns a parameterized IOType based on the valueType. There is a general default, but
   subtypes can implement their own, more specific IOType.
 - **hasListenerOrderDependencies**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>

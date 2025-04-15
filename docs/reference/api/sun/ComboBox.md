@@ -148,8 +148,6 @@ import type { ComboBoxOptions } from 'scenerystack/sun';
 
 - **align**?: [ComboBoxAlign](../sun/ComboBox.md#ComboBoxAlign)
 - **listPosition**?: [ComboBoxListPosition](../sun/ComboBox.md#ComboBoxListPosition)
-- **labelXSpacing**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
-<br>  horizontal space between label and combo box
 - **disabledOpacity**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  opacity used to make the control look disabled, 0-1
 - **cornerRadius**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>

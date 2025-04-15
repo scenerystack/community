@@ -22,7 +22,10 @@ import { LocalizedStringProperty } from 'scenerystack/chipper';
 
 ### Instance Methods
 
+#### getTranslatedStringProperty( locale : <span style="font-weight: 400;">[Locale](../joist/localeProperty.md#Locale)</span> ) : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">string</span>&gt;</span> {: #getTranslatedStringProperty data-toc-label='getTranslatedStringProperty' }
 
+Returns a translation-specific Property for the given locale. This Property will not change when the localeProperty
+(current locale) changes, but instead will only change during translation updates, stringTests, etc.
 
 
 

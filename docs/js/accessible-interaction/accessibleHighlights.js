@@ -16,7 +16,7 @@ export class View extends Node {
     } );
 
     model.cyclist.isPointingRightProperty.lazyLink( isPointingRight => {
-      cyclistNode.alertDescriptionUtterance( \`The cyclist is now pointing to the \${isPointingRight ? 'right' : 'left'}\` );
+      cyclistNode.addAccessibleResponse( \`The cyclist is now pointing to the \${isPointingRight ? 'right' : 'left'}\` );
     } );
 
     new Multilink( [
@@ -78,7 +78,7 @@ export class View extends Node {
       listener: () => {
         model.stop();
 
-        stopButton.alertDescriptionUtterance( 'The cyclist has stopped' );
+        stopButton.addAccessibleResponse( 'The cyclist has stopped' );
       },
       accessibleName: 'Stop',
       accessibleHelpText: 'Stop all motion of the cyclist'

@@ -1967,7 +1967,7 @@ A default for getLeafTrails() searches, returns whether the Node has no parents.
 
 {Object} - A mapping of all of options that require Bounds to be applied properly. Most often these should be set through [mutate](../phet-core/mutate.md) in the end of the construcor instead of being passed through `super()`
 
-#### NodeIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #NodeIO data-toc-label='NodeIO' }
+#### NodeIO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #NodeIO data-toc-label='NodeIO' }
 
 #### DEFAULT_NODE_OPTIONS {: #DEFAULT_NODE_OPTIONS data-toc-label='DEFAULT_NODE_OPTIONS' }
 

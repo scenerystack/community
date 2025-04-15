@@ -22,7 +22,7 @@ import { IOTypeCache } from 'scenerystack/tandem';
 ```
 ### Constructor
 
-#### new IOTypeCache( entries? : <span style="font-weight: 400;">readonly ( readonly [ T, [IOType](../tandem/IOType.md) ] )[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #IOTypeCache-constructor data-toc-label='new IOTypeCache' }
+#### new IOTypeCache( entries? : <span style="font-weight: 400;">readonly ( readonly [ [Key](../scenery-phet/Key.md), Value ] )[] | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> ) {: #IOTypeCache-constructor data-toc-label='new IOTypeCache' }
 
 ### Instance Methods
 

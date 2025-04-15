@@ -395,7 +395,7 @@ Constructs a Vector3 from any object as best as it can, if a component of the v3
 
 #### Z_UNIT : <span style="font-weight: 400;">[Vector3](../dot/Vector3.md)</span> {: #Z_UNIT data-toc-label='Z_UNIT' }
 
-#### Vector3IO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #Vector3IO data-toc-label='Vector3IO' }
+#### Vector3IO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #Vector3IO data-toc-label='Vector3IO' }
 
 
 

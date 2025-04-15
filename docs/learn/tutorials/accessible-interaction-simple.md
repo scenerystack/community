@@ -88,7 +88,7 @@ We can add a "stop" button to the view, which will stop the cyclist when pressed
 <div id="stopButton-info"></div>
 <script type="module" src="/js/accessible-interaction/stopButton.js"></script>
 
-In addition, we can provide an alert to screen reader users when an action changes state with `alertDescriptionUtterance`:
+In addition, we can provide an alert to screen reader users when an action changes state with `addAccessibleResponse`:
 
 <iframe id="buttonAlert" style="height: 270px; width: 100%; border: none;" scrolling="no" src="/demos/accessible-interaction-demo/"></iframe>
 <div id="buttonAlert-info"></div>

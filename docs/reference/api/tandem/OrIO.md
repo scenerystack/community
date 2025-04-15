@@ -12,9 +12,9 @@ via a first-come-first-serialize basis, where the first parameterType will be th
 Sample usage:
 
 self.numberOrStringProperty = new Property( 'I am currently a string', {
-      tandem: Tandem.GENERAL_MODEL.createTandem( 'numberOrStringProperty' ),
-      phetioValueType: OrIO( [ StringIO, NumberIO ] )
-    } );
+ tandem: Tandem.GENERAL_MODEL.createTandem( 'numberOrStringProperty' ),
+ phetioValueType: OrIO( [ StringIO, NumberIO ] )
+ } );
 
 @author Michael Kauzmann (PhET Interactive Simulations)
 

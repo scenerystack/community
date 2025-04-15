@@ -2,7 +2,7 @@
 
 !!! warning "Under Construction"
     This documentation is auto-generated, and is a work in progress. Please see the source code at
-    [https://github.com/phetsims/scenery/blob/main/js/input/EventIO.js](https://github.com/phetsims/scenery/blob/main/js/input/EventIO.js) for the most up-to-date information.
+    [https://github.com/phetsims/scenery/blob/main/js/input/EventIO.ts](https://github.com/phetsims/scenery/blob/main/js/input/EventIO.ts) for the most up-to-date information.
 
 ## Overview
 
@@ -17,4 +17,4 @@ attributes for the union of different supported subtypes.  The subtypes are list
 
 ## Source Code
 
-See the source for [EventIO.js](https://github.com/phetsims/scenery/blob/main/js/input/EventIO.js) in the [scenery](https://github.com/phetsims/scenery) repository.
+See the source for [EventIO.ts](https://github.com/phetsims/scenery/blob/main/js/input/EventIO.ts) in the [scenery](https://github.com/phetsims/scenery) repository.

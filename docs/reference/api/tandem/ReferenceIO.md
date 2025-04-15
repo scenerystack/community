@@ -15,6 +15,8 @@ ReferenceIO uses reference identity for toStateObject/fromStateObject
 ## Type ReferenceIOState {: #ReferenceIOState }
 
 
+TODO: Rename to "ReferenceState"? https://github.com/phetsims/tandem/issues/261
+
 ```js
 import type { ReferenceIOState } from 'scenerystack/tandem';
 ```

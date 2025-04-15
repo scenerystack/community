@@ -80,6 +80,9 @@ import type { VoicingOptions } from 'scenerystack/scenery';
 - **voicingUtterance**?: [Utterance](../utterance-queue/Utterance.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span>
 <br>  The utterance to use if you want this response to be more controlled in the UtteranceQueue. This Utterance will be
   used by all responses spoken by this class. Null to not use an Utterance.
+- **voicingPressable**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
+<br>  If true, a VoicingActivationResponseListener will be added to this Node so that responses are spoken
+  when you press on the Node.
 - &amp; [InteractiveHighlightingOptions](../scenery/InteractiveHighlighting.md#InteractiveHighlightingOptions)
 
 

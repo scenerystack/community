@@ -170,7 +170,7 @@ events.
 (read-only) - It will be set to true when at least one pointer is over the listener.
 This is not effected by PDOM focus.
 
-#### looksOverProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #looksOverProperty data-toc-label='looksOverProperty' }
+#### isOverOrFocusedProperty : <span style="font-weight: 400;">[TProperty](../axon/TProperty.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isOverOrFocusedProperty data-toc-label='isOverOrFocusedProperty' }
 
 (readonly)
 
@@ -234,7 +234,7 @@ as long as a11yLooksPressedInterval. See PressListener.click() for more details.
 
 #### display : <span style="font-weight: 400;">[Display](../scenery/Display.md) | <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">null</span></span> {: #display data-toc-label='display' }
 
-To support looksOverProperty being true based on focus, we need to monitor the display from which
+To support isOverOrFocusedProperty being true based on focus, we need to monitor the display from which
 the event has come from to see if that display is showing its focusHighlights, see
 Display.prototype.focusManager.FocusManager.pdomFocusHighlightsVisibleProperty for details.
 

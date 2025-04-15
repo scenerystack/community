@@ -9,7 +9,6 @@
 Query parameters for the scenery library.
 
 @author Michael Kauzmann (PhET Interactive Simulations)
-/* global QSMParsedParameters QueryStringMachineSchema */
 
 
 

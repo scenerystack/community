@@ -23,7 +23,7 @@ export class View extends Node {
       listener: () => {
         model.stop();
 
-        stopButton.alertDescriptionUtterance( 'The cyclist has stopped' );
+        stopButton.addAccessibleResponse( 'The cyclist has stopped' );
       },
       accessibleName: 'Stop',
       accessibleHelpText: 'Stop all motion of the cyclist'

@@ -58,21 +58,27 @@ Get the primary sibling element for the peer
 @public
 @returns {HTMLElement|null}
 
+#### getHeadingSibling() {: #getHeadingSibling data-toc-label='getHeadingSibling' }
+
+Get the heading sibling element for the peer
+@public
+@returns {HTMLElement|null}
+
 #### getLabelSibling() {: #getLabelSibling data-toc-label='getLabelSibling' }
 
-Get the primary sibling element for the peer
+Get the label sibling element for the peer
 @public
 @returns {HTMLElement|null}
 
 #### getDescriptionSibling() {: #getDescriptionSibling data-toc-label='getDescriptionSibling' }
 
-Get the primary sibling element for the peer
+Get the description sibling element for the peer
 @public
 @returns {HTMLElement|null}
 
 #### getContainerParent() {: #getContainerParent data-toc-label='getContainerParent' }
 
-Get the primary sibling element for the peer
+Get the container parent element for the peer
 @public
 @returns {HTMLElement|null}
 
@@ -186,6 +192,11 @@ pdomInstance's trail.
 
 #### updateIndicesStringAndElementIds() {: #updateIndicesStringAndElementIds data-toc-label='updateIndicesStringAndElementIds' }
 
+Set ids on elements so for easy lookup with document.getElementById. Also assign a unique
+data attribute to the elements so that scenery can look up an element from a Trail (mostly
+for input handling).
+
+Note that dataset isn't supported by all namespaces (like MathML) so we need to use setAttribute.
 @public
 
 #### invalidateCSSPositioning( forceReflowWorkaround ) {: #invalidateCSSPositioning data-toc-label='invalidateCSSPositioning' }

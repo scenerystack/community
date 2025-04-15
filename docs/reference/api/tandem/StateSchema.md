@@ -62,7 +62,7 @@ needs more checking up and down the hierarchy.
 @param schemaKeysPresentInStateObject - to be populated with any keys this StateSchema is responsible for.
 @returns boolean if validity can be checked, null if valid, but next in the hierarchy is needed
 
-#### getRelatedTypes() : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)[]</span> {: #getRelatedTypes data-toc-label='getRelatedTypes' }
+#### getRelatedTypes() : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)[]</span> {: #getRelatedTypes data-toc-label='getRelatedTypes' }
 
 Get a list of all IOTypes associated with this StateSchema
 
@@ -122,7 +122,7 @@ import type { CompositeSchema } from 'scenerystack/tandem';
 
 {
   // [K in keyof SelfStateType]: [IOType](../tandem/IOType.md) | { myIOType: [IOType](../tandem/IOType.md); isAPIStateful: true };
-  [K in keyof SelfStateType]: [IOType](../tandem/IOType.md)
+  [K in keyof SelfStateType]: [AnyIOType](../tandem/IOType.md#AnyIOType)
 }
 
 

@@ -59,12 +59,13 @@ will be true if downProperty is true or if an a11y click is in progress. For an 
 are fired right away but the button will look down for as long as PressListener.a11yLooksPressedInterval.
 See PressListener.click for more details.
 
-#### looksOverProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #looksOverProperty data-toc-label='looksOverProperty' }
+#### isOverOrFocusedProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #isOverOrFocusedProperty data-toc-label='isOverOrFocusedProperty' }
 
 (readonly)
 
-This Property was added for a11y. It tracks whether or not the button should "look" over. This
-will be true if and PressListeners' looksOverProperty is true, see PressListener for that definition.
+This Property was added for a11y. It tracks whether or not the button should "look" over.
+This will be true if and PressListeners' isOverOrFocusedProperty is true, see PressListener.
+It is true if the pointer is over the button or if the button has focus AND highlights are shown.
 
 #### pdomClickingProperty : <span style="font-weight: 400;">[Property](../axon/Property.md)&lt;<span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>&gt;</span> {: #pdomClickingProperty data-toc-label='pdomClickingProperty' }
 

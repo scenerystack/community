@@ -143,10 +143,6 @@ Part of the scenery listener API. Clear active KeyGroups and stop their callback
 
 (readonly)
 
-#### allowOverlap : <span style="font-weight: 400;"><span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span></span> {: #allowOverlap data-toc-label='allowOverlap' }
-
-(readonly)
-
 #### hotkeys : <span style="font-weight: 400;">[Hotkey](../scenery/Hotkey.md)[]</span> {: #hotkeys data-toc-label='hotkeys' }
 
 (readonly)
@@ -214,15 +210,9 @@ import type { KeyboardListenerOptions } from 'scenerystack/scenery';
 <br>  Start to fire continuously after pressing for this long (milliseconds)
 - **fireOnHoldCustomInterval**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">number</span>
 <br>  Fire continuously at this interval (milliseconds)
-- **allowOverlap**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  Controls whether the keys used by this KeyboardListener are allowed to overlap with other KeyboardListeners
-  that are listening for the same keys. If true, the KeyboardListener will fire even if another KeyboardListener.
-  This is implemented with Hotkey, see Hotkey.ts for more information.
-- **override**?: <span style="color: hsla(calc(var(--md-hue) + 180deg),80%,40%,1);">boolean</span>
-<br>  If true, Keyboard listeners with overlapping keys (either added to an ancestor's inputListener or later in the
-  local/global order) will be ignored. Only the most 'local' Hotkey will fire. The default is true for
-  KeyboardListeners added to focusable Nodes, and false for global KeyboardListeners to catch overlapping global
-  keys.
+- **overlapBehavior**?: [OverlapBehavior](../scenery/Hotkey.md#OverlapBehavior)
+<br>  Controls how this KeyboardListener will behave when other KeyboardListeners with the same (overlapping) keys
+  are present.
 - &amp; [EnabledComponentOptions](../axon/EnabledComponent.md#EnabledComponentOptions)
 
 

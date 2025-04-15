@@ -342,7 +342,7 @@ Preserves basic styling tags while removing non-accessible markup.
 
 Text and RichText currently use the same tandem name for their stringProperty.
 
-#### RichTextIO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #RichTextIO data-toc-label='RichTextIO' }
+#### RichTextIO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #RichTextIO data-toc-label='RichTextIO' }
 
 
 

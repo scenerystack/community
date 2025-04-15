@@ -113,7 +113,7 @@ Create a DerivedProperty from any number of dependencies.  This is parallel to M
 
 ### Static Properties
 
-#### DerivedPropertyIO : <span style="font-weight: 400;">( parameterType: [IOType](../tandem/IOType.md) ) =&gt; [IOType](../tandem/IOType.md)</span> {: #DerivedPropertyIO data-toc-label='DerivedPropertyIO' }
+#### DerivedPropertyIO : <span style="font-weight: 400;">( parameterType: [AnyIOType](../tandem/IOType.md#AnyIOType) ) =&gt; [IOType](../tandem/IOType.md)&lt;[UnknownDerivedProperty](../axon/DerivedProperty.md#UnknownDerivedProperty)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;, [ReadOnlyPropertyState](../axon/ReadOnlyProperty.md#ReadOnlyPropertyState)&lt;[IntentionalAny](../phet-core/IntentionalAny.md)&gt;&gt;</span> {: #DerivedPropertyIO data-toc-label='DerivedPropertyIO' }
 
 
 

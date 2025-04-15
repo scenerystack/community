@@ -469,7 +469,7 @@ ImmutableVector2 vector: $\begin{bmatrix} 1\\0 \end{bmatrix}$
 
 ImmutableVector2 vector: $\begin{bmatrix} 0\\1 \end{bmatrix}$
 
-#### Vector2IO : <span style="font-weight: 400;">[IOType](../tandem/IOType.md)</span> {: #Vector2IO data-toc-label='Vector2IO' }
+#### Vector2IO : <span style="font-weight: 400;">[AnyIOType](../tandem/IOType.md#AnyIOType)</span> {: #Vector2IO data-toc-label='Vector2IO' }
 
 
 

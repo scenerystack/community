@@ -9,7 +9,6 @@
 Displays a DOM element directly in a node, so that it can be positioned/transformed properly, and bounds are handled properly in Scenery.
 
 @author Jonathan Olson &lt;jonathan.olson@colorado.edu&gt;
-/* global JQuery */
 
 ## Class DOM {: #DOM }
 
@@ -19,7 +18,7 @@ import { DOM } from 'scenerystack/scenery';
 ```
 ### Constructor
 
-#### new DOM( element : <span style="font-weight: 400;">[Element](../nitroglycerin/Element.md) | JQuery</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #DOM-constructor data-toc-label='new DOM' }
+#### new DOM( element : <span style="font-weight: 400;">[Element](../nitroglycerin/Element.md)</span>, options? : <span style="font-weight: 400;">[DOMOptions](../scenery/DOM.md#DOMOptions)</span> ) {: #DOM-constructor data-toc-label='new DOM' }
 
 ### Instance Methods
 
