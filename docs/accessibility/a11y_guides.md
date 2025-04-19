@@ -11,6 +11,14 @@ Find important information about integrating accessibility into your SceneryStac
 
 [Accessibility in Scenery](../learn/scenery-accessibility.md){ .md-button .md-button--primary }
 
+## How to use screen readers
+
+The following resources contain information about how to use a screen reader:
+
+- [VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
+- [NVDA](https://docs.google.com/document/d/1pgfyEER7ZlpJlXSwvSCbNBuoCa5oOexc7QvTuFZu-Mo/edit)
+- [JAWS](https://docs.google.com/document/d/1aggemqGsb2CdR7PxgLG50kOg4ZwBPM2M3eI3okyZHJ8/edit)
+
 ## Helpful PhET Resources for Creating Accessible Features
 
 The following resources are intended for use when implementing accessibility and Inclusive Features into PhET Interactive Simulations **but contain useful information for anyone looking to create similar features.**
