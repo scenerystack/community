@@ -93,14 +93,14 @@ plugins:
   - blog:
       blog_dir: news
       post_date_format: medium
-  - rss:
-      enabled: true
-      match_path: .*
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
+  # - rss:
+  #     enabled: true
+  #     match_path: .*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
   - search:
       separator: '(?!\b)(?=[A-Z][a-z])|\.(?!\d)'
   - minify:
