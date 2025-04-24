@@ -64,7 +64,7 @@
     This repository is not for discussions and help regarding the PhET Projects's educational, interactive simulations. For questions and comments regarding PhET Simulations, see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 
 ??? question "Who makes SceneryStack?"
-    SceneryStack is intended to be a community driven project. SceneryStack was originally created by developers of PhET Interactive Simulations and they continue to maintain and develop it. The project is open source and contributions are encouraged. See the [Contributing Guide](../contributing.md) for more information.
+    SceneryStack is intended to be a community driven project. SceneryStack was originally created by developers of PhET Interactive Simulations and they continue to maintain and develop it. The project is open source and contributions are encouraged. See the [Contributing Guide](../CONTRIBUTING.md) for more information.
 
 ??? question "What is the relationship between SceneryStack and PhET Interactive Simulations?"
     SceneryStack is the web development framework that PhET Interactive Simulations are built on.

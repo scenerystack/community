@@ -19,7 +19,7 @@ hide:
 
 ## Create Highly Interactive Content for a Multimodal and Accessible Web
 
-[SceneryStack](./learn/overview.md) is an open-source TypeScript framework designed to create powerful, interactive, and accessible web experiences. SceneryStack offers web development libraries for building engaging simulations, educational tools, or next-generation web applications. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
+[SceneryStack](./learn/overview.md) is an open-source TypeScript framework designed to create powerful, interactive, and accessible web experiences. SceneryStack offers front-end web development libraries for building engaging simulations, educational tools, or next-generation web applications. Included is support for robust accessibility features like dynamic screen-reader descriptions and alternative input (e.g., keyboard navigation).
 
 ??? abstract "**Learn about SceneryStack's features and capabilities**"
     For a full list of features and capabilities, check out all of the [**FEATURES**](./learn/features.md).

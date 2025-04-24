@@ -1,6 +1,6 @@
 # Accessibility and Inclusive Design Resources
 
-Accessibility (sometimes abbreviated *a11y*) is an important part of any design process. It is essential to ensure that all users can access and use your project. This includes providing alternative text for images, ensuring that color contrast is sufficient, and making sure that the project is navigable using a keyboard. Inclusive design goes beyond accessibility to consider the needs of all users, including those with disabilities, different cultural backgrounds, and varying levels of experience with technology.
+Accessibility (sometimes abbreviated *a11y*) is an important part of any design process. It is essential to the usability of your project for all users. This includes providing alternative text for images, ensuring that color contrast is sufficient, and making sure that the project is navigable using a keyboard. Inclusive design goes beyond accessibility to consider the needs of all users, including those with disabilities, different cultural backgrounds, and varying levels of experience with technology.
 
 Accessibility and Inclusive Design have become a priority for many developers and designers. SceneryStack is [designed to be accessible by default](../learn/features.md), but there are many ways to enhance the accessibility of your project. This page provides resources and guides for creating accessible features in your SceneryStack project.
 
