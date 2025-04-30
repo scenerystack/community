@@ -86,3 +86,6 @@ We encourage contributions from the community! Whether you're a seasoned develop
   ![""](assets/energyskatepark.gif)
   <figcaption><a href="https://phet.colorado.edu/en/simulations/energy-skate-park">Energy Skate Park</a>, dynamic and game-like simulation created by @phetsims using SceneryStack</figcaption>
 </figure>
+
+
+[:octicons-heart-fill-24:{ .heart } Donate to SceneryStack](https://giveto.colorado.edu/campaigns/59135/donations/){ .md-button .md-button--primary }

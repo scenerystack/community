@@ -39,7 +39,7 @@ Got a unique idea or suggestion? Interested in partnering with SceneryStack? We'
 
 - Reach out to us on the [Discussions forum or chat platforms](community/join.md).
 
-Individuals or groups interested in making a financial contribution can do so at our [SceneryStack Network For Good page](https://donatenow.networkforgood.org/scenerystack), every bit helps!
+Individuals or groups interested in making a financial contribution can do so at our [SceneryStack Network For Good page](https://giveto.colorado.edu/campaigns/59135/donations/), every bit helps!
 
 ## Steps for Code Contribution
 

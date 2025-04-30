@@ -2,7 +2,23 @@
   color: #ffffff;
 }
 
+.heart {
+  color: #ff0000;
+}
+
 @keyframes rocket {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes heart {
 
   0%,
   100% {
