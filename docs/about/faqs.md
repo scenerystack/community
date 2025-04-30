@@ -64,14 +64,14 @@
     This repository is not for discussions and help regarding the PhET Projects's educational, interactive simulations. For questions and comments regarding PhET Simulations, see the [PhET Interactive Simulations website](https://phet.colorado.edu/) for more information.
 
 ??? question "Who makes SceneryStack?"
-    SceneryStack is intended to be a community driven project. SceneryStack was originally created by developers of PhET Interactive Simulations and they continue to maintain and develop it. The project is open source and contributions are encouraged. See the [Contributing Guide](../CONTRIBUTING.md) for more information.
+    SceneryStack is intended to be a community driven project. SceneryStack was originally created by developers of PhET Interactive Simulations at University of Colorado Boulder and they continue to maintain and develop it. The project is open source and contributions are encouraged. See the [Contributing Guide](../CONTRIBUTING.md) for more information.
 
 ??? question "What is the relationship between SceneryStack and PhET Interactive Simulations?"
     SceneryStack is the web development framework that PhET Interactive Simulations are built on.
 
     The use of SceneryStack **is not limited to creating interactive science and math simulations!** It can be used to support the creation of all web interactives. SceneryStack supports rich and inclusive multimodal interaction, including the architecture to build robust alternative input and screen reader access when used in conjunction with an [Interactive Description Design Framework](https://www.coursera.org/learn/description-design-for-interactive-learning-resources).
 
-    PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers at the PhET Interactive Simulations Project. They are developed using [research-based, pedagogically-minded, and inclusive design methods](https://phet.colorado.edu/).
+    PhET Interactive Simulations are free educational science and math products created using SceneryStack by the designers and developers from PhET Interactive Simulations Project at University of Colorado Boulder. They are developed using [research-based, pedagogically-minded, and inclusive design methods](https://phet.colorado.edu/).
 
 ??? question "What happens to my projects if SceneryStack stops being supported?"
     SceneryStack is the foundation of the [PhET Interactive Simulations](https://phet.colorado.edu/) project. It is used in all of PhET's simulations. Developers on the PhET team make up a core portion of the SceneryStack maintenance team. PhET has no plans to stop supporting SceneryStack, so long as PhET Interactive Simulations continue to exist.
@@ -86,6 +86,8 @@
 
 ??? question "Can I put my simulation on the PhET Interactive Simulations website?"
     Dreaming to one day have your simulation hosted on the PhET website? If you have made significant progress and you are committed to your STEM simulation, reach out to PhET at [phethelp@colorado.edu](mailto:phethelp@colorado.edu) to discuss opportunities.
+
+    Please note that PhET Interactive Simulations are developed using research-based, pedagogically-minded, and inclusive design methods. The PhET team will review your simulation to ensure that it meets the design standards of PhET. This includes ensuring that the simulation has a user-tested design, is pedagogically sound, and meets the accessibility standards of PhET with all current features.
 
     If you are a commercial organization interested in making new simulations, see the [Source Code page of our website](https://phet.colorado.edu/en/about/source-code) for more information.
 

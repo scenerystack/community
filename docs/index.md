@@ -47,7 +47,7 @@ hide:
 SceneryStack is the development framework behind [PhET Interactive Simulations](https://phet.colorado.edu/), where it powers STEM-focused interactives used by millions around the world. PhET continues to maintain and contribute to SceneryStack for the purposes of creating multimodal and accessible STEM interactives.
 
 {==
-**SceneryStack is in the early stages of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**
+**SceneryStack is currently a project of PhET Interactive Simulations at University of Colorado Boulder, with the goal of transitioning to an independent open-source community, driven by a collective passion for a more people-friendly web.**
 ==}
 
 ## Ready to use SceneryStack?
