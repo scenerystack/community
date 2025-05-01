@@ -3,7 +3,7 @@ site_name: SceneryStack
 site_url: https://scenerystack.org/
 site_author: SceneryStack
 site_description: >-
-  The TypeScript webstack for creating inclusive, multimodal web interactives.
+  The TypeScript webstack for creating flexible and accessible web interactives.
 
 # Repository
 repo_name: community
@@ -11,8 +11,8 @@ repo_url: https://github.com/scenerystack/community
 edit_uri: edit/main/docs
 
 extra:
-  version:
-    provider: mike # https://github.com/jimporter/mike
+  # version:
+  #   provider: mike # https://github.com/jimporter/mike
   annotate:
     json: [.s2]
   social:
@@ -90,9 +90,9 @@ theme:
 
 # Plugins
 plugins:
-  - blog:
-      blog_dir: news
-      post_date_format: medium
+  # - blog:
+  #     blog_dir: news
+  #     post_date_format: medium
   # - rss:
   #     enabled: true
   #     match_path: .*
@@ -134,8 +134,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      repo: scenerystack/community
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:

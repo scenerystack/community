@@ -35,7 +35,7 @@ This will add SceneryStack to the project's dependencies, and it can be imported
 import { Display } from 'scenerystack/scenery';
 ```
 
-To see this in action, see the tutorial [Creating an interactive Figure](./tutorials/creating-an-interactive-figure.md).
+<!-- To see this in action, see the tutorial [Creating an interactive Figure](./tutorials/creating-an-interactive-figure.md). -->
 
 ## Using Bundled Builds
 
