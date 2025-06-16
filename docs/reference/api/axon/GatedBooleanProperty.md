@@ -65,7 +65,7 @@ import { GatedEnabledProperty } from 'scenerystack/axon';
 Provides PhET-iO clients with a way to permanently hide this Node via 'selfVisibleProperty'
 
 ```js
-import { GatedVisibleProperty } from 'scenerystack/axon';
+import GatedVisibleProperty from 'scenerystack/axon';
 ```
 ### Constructor
 
