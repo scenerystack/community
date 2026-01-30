@@ -121,10 +121,10 @@ const mySlider = new Slider( someProperty, {
   descriptionContent: 'Adjust number of values used to smooth noise in incoming sensor values from input device.',
 
   // spoken every time the slider value changes, describing the new value
-  pdomCreateAriaValueText: value => { `${value} values` }
+  createAriaValueText: value => { `${value} values` }
 
   // optional context responses that describe the result of the action
-  // pdomCreateContextResponseAlert: value => { `The value has changed to ${value}.` }
+  // createContextResponseAlert: value => { `The value has changed to ${value}.` }
 } );
 ```
 
