@@ -5,7 +5,7 @@
  *
  * Requires codemirror CSS/JS and examples.css
  *
- * @author Jonathan Olson <jonathan.olson@colorado.edu>
+ * @author Jonathan Olson (PhET Interactive Simulations)
  */
 
 import { showAriaLive } from './ariaLiveDisplay.js';
